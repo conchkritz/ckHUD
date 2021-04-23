@@ -122,7 +122,19 @@ Scheme
 				"antialias" "1"
 			}
 		}
+// 		===========================================
+// 		shadow
 
+		"Tommy21Shadow"
+		{
+			"1"
+			{
+				"name" "MADETOMMY-Bold"
+				"tall" 			"21"
+				"antialias" 	"1"
+				"dropshadow" 	"1"
+			}
+		}
 // 		===========================================
 // 		misc
 
@@ -181,6 +193,88 @@ Scheme
 				"outline" 		"0"
 			}
 		}
+		"payload"
+		{
+			"1"
+			{
+				"name" "MADETOMMY-Bold"
+				"tall" "14"
+				"antialias" "1"
+				"dropshadow" 	"0"
+				"outline" 		"1"
+			}
+		}
+// 		===========================================
+// 		caption
+
+		"CloseCaption_Normal"
+		{
+			"1"
+			{
+				"name" 		"MADETOMMY-Bold" [$WINDOWS] // Closed captions font | Secondary font
+				"name" 		"MADETOMMY-Bold" [!$WINDOWS] // Closed captions font | Secondary font
+				"tall"		"20" // Closed captions size | Size Medium Primary
+				"weight"	"500"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"antialias"	"1"
+				"outline"	"0" // Closed captions outline
+			}
+		}
+		"CloseCaption_Italic"
+		{
+			"1"
+			{
+				"name" 		"MADETOMMY-Bold" [$WINDOWS] // Closed captions font | Secondary font
+				"name" 		"MADETOMMY-Bold" [!$WINDOWS] // Closed captions font | Secondary font
+				"tall"		"20" // Closed captions size | Size Medium Primary
+				"weight"	"500"
+				"italic"	"1"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"antialias"	"1"
+				"outline"	"0" // Closed captions outline
+			}
+		}
+		"CloseCaption_Bold"
+		{
+			"1"
+			{
+				"name" 		"MADETOMMY-Bold" [$WINDOWS] // Closed captions font | Secondary font
+				"name" 		"MADETOMMY-Bold" [!$WINDOWS] // Closed captions font | Secondary font
+				"tall"		"20" // Closed captions size | Size Medium Primary
+				"weight"	"900"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"antialias"	"1"
+				"outline"	"0" // Closed captions outline
+			}
+		}
+		"CloseCaption_BoldItalic"
+		{
+			"1"
+			{
+				"name"		"TF2 Secondary" [$WINDOWS] // Closed captions font | Secondary font
+				"name"		"TF2 Secondary" [!$WINDOWS] // Closed captions font | Secondary font
+				"tall"		"20" // Closed captions size | Size Medium Primary
+				"weight"	"900"
+				"italic"	"1"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"antialias"	"1"
+				"outline"	"0" // Closed captions outline
+			}
+		}
+		"CloseCaption_Small"
+		{
+			"1"
+			{
+				"name"		"TF2 Secondary" [$WINDOWS] // Closed captions font | Secondary font
+				"name"		"TF2 Secondary" [!$WINDOWS] // Closed captions font | Secondary font
+				"tall"		"20" // Closed captions size | Size Medium Primary
+				"weight"	"900"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"antialias"	"1"
+				"outline"	"0" // Closed captions outline
+			}
+		}
+
 // 		===========================================
 // 		vote font
 

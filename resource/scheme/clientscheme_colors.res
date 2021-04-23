@@ -8,6 +8,7 @@ Scheme
 
 		"colorwhite"			"242 242 242 255"
 		"colordullwhite"		"200 200 200 255"
+		"colordarkwhite"		"100 100 100 255"
 		"colorlightgray"		"70 70 70 255"
 		"colorgray"				"50 50 50 255"
 		"colordarkgray"			"40 40 40 255"
@@ -16,7 +17,7 @@ Scheme
 		"colorred"				"184 56 59 255"
 		"colorblu"				"88 133 162 255"
 		"colordarkred"			"128 48 32 255"
-		"colordarkblu"			"37 109 141 255" // 24 35 61 255
+		"colordarkblu"			"40 57 77 255" // 37 109 141 255
 		
 		"low"					"200 45 45 255" // low ammo/hp
 		"lowdark"				"175 45 45 255" // low ammo/hp

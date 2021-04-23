@@ -112,4 +112,3 @@
 		"bgcolor_override"	"meter4alt"
 	}	
 }
-}

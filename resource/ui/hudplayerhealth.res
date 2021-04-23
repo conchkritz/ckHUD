@@ -1,5 +1,4 @@
 // #base "../addons/teamindicator.res"
-
 "Resource/UI/HudPlayerHealth.res"
 {	
 	// player health data

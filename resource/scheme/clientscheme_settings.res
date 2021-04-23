@@ -5,8 +5,6 @@ Scheme
 	// controls use these to determine their settings
 	BaseSettings
 	{
-	BaseSettings
-	{
 
 	}
 }

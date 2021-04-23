@@ -203,7 +203,7 @@
 		"wide"				"365"
 		"tall"				"26"
 		"visible"			"0"
-		"fillcolor" "colortransparentgray"
+		"fillcolor" "blank"
 
 		if_match
 		{
@@ -211,17 +211,17 @@
 		}
 	}
 	
-	"BGTIME"
+	"Graycenter"
 	{
-		"ControlName"		"ImagePanel"
-		"fieldName"			"BGTIME"
+		"ControlName"		"EditablePanel"
+		"fieldName"			"Graycenter"
 		"xpos"				"cs-0.5"
 		"ypos"				"-5"
 		"zpos"				"0"
 		"wide"				"65"
 		"tall"				"26"
 		"visible"			"0"
-		"fillcolor" "colordarkgray"
+		"bgcolor_override" "transparentblack"
 
 		if_match
 		{
@@ -233,51 +233,6 @@
 			"visible"		"0"
 		}
 	}
-	"BGRED"
-	{
-		"ControlName"		"ImagePanel"
-		"fieldName"			"BGRED"
-		"xpos"				"cs-0.5"
-		"ypos"				"-5"
-		"zpos"				"0"
-		"wide"				"65"
-		"tall"				"14"
-		"visible"			"0"
-		"fillcolor" "colorred"
-
-		if_match
-		{
-			"visible"		"1"
-		}
-
-		if_mvm
-		{
-			"visible"		"0"
-		}
-	}
-	"BGBLU"
-	{
-		"ControlName"		"ImagePanel"
-		"fieldName"			"BGBLU"
-		"xpos"				"cs-0.99"
-		"ypos"				"-5"
-		"zpos"				"1"
-		"wide"				"33"
-		"tall"				"14"
-		"visible"			"0"
-		"fillcolor" "colorblu"
-
-		if_match
-		{
-			"visible"		"1"
-		}
-
-		if_mvm
-		{
-			"visible"		"0"
-		}
-	}
-
 	"RankUpLabel"
 	{	
 		"ControlName"	"CExLabel"
@@ -329,15 +284,9 @@
 		"ControlName"		"EditablePanel"
 		"fieldName"			"ObjectiveStatusTimePanel"
 		"xpos"				"c-55"
-		"xpos_hidef"		"c-150"
-		"xpos_lodef"		"c-150"
-		"ypos"				"0"	[$WIN32]
-		"ypos_minmode"		"-14"	[$WIN32]
-		"ypos"				"24"	[$X360]
+		"ypos"				"-5"	[$WIN32]
 		"zpos"				"2"
 		"wide"				"110"
-		"wide_hidef"		"300"
-		"wide_lodef"		"300"
 		"tall"				"150"
 		"visible"			"0"
 		"enabled"			"1"
@@ -354,7 +303,6 @@
 		{
 			"xpos"					"cs-0.5"
 			"wide"					"130"
-			"ypos_minmode"			"0"
 			"delta_item_x"			"35"
 			"delta_item_start_y"	"12"
 			"delta_item_end_y"		"50"
