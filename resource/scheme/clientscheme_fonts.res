@@ -283,7 +283,7 @@ Scheme
 			"1"
 			{
 				"name" "CustomNotoMono"
-				"tall" "8"
+				"tall" "9"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -309,7 +309,10 @@ Scheme
 			}
 		}
 		
-				"Size:10 | Outline:OFF"
+// 		===========================================
+// 		xhair font
+
+		"Size:10 | Outline:OFF"
 		{
 			"1"
 			{
@@ -319,10 +322,6 @@ Scheme
 				"antialias"		"1"
 			}
 		}
-		
-// 		===========================================
-// 		xhair font
-
 		"Size:11 | Outline:OFF"
 		{
 			"1"

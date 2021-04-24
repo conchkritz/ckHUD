@@ -207,8 +207,8 @@
 	{
 		// "ControlName"	"ImagePanel"
 		"fieldName"		"TFCharacterImage"
-		"xpos"			"999999"
-		"ypos"			"9999999"
+		"xpos"			"c-250"
+		"ypos"			"-80"
 		"zpos"			"-99"
 		"wide"			"600"
 		"tall"			"600"
@@ -2597,7 +2597,7 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"AchievementsButton"
-		"xpos"			"c-70"
+		"xpos"			"c-365"
 		"ypos"			"437"
 		"zpos"			"11"
 		"wide"			"30"

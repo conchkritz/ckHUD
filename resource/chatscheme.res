@@ -5,7 +5,7 @@ Scheme
 	    "TFDarkBrown"               "60 56 53 255"
 	    "TFDarkBrownTransparent"    "60 56 53 190"
 	    "TFTanBright"               "236 227 203 150"
-	    "TFTanLight"                "201 188 162 150"
+	    "TFTanLight"                "201 188 162 255"
 	    "TFTanMedium"               "131 121 104 150"
 	    "TFTanLightBright"          "229 223 211 90"
 	    "TFTanLightDark"            "96 90 78 90"

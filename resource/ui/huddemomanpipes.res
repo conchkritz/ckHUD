@@ -45,7 +45,7 @@
 		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"bgcolor_override"		"colortransparentgray"
+		"bgcolor_override"		"meterbg"
 	}				
 
 	"PipesPresentPanel"

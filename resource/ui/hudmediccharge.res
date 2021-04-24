@@ -145,7 +145,7 @@
 		"dulltext"				"0"
 		"brighttext"			"0"
 		"fgcolor_override"		"colorwhite"
-		"bgcolor_override"		"colortransparentgray"
+		"bgcolor_override"		"meterbg"
 	}		
 
 	"ChargeMeter1"
@@ -166,7 +166,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"fgcolor_override"		"colorwhite"
-		"bgcolor_override"		"colortransparentgray"
+		"bgcolor_override"		"meterbg"
 	}
 
 	"ChargeMeter2"
@@ -188,7 +188,7 @@
 		"brighttext"	"0"
 		"pin_to_sibling" "ChargeMeter1"
 		"fgcolor_override"		"colorwhite"
-		"bgcolor_override"		"colortransparentgray"		
+		"bgcolor_override"		"meterbg"		
 	}
 
 	"ChargeMeter3"
@@ -210,7 +210,7 @@
 		"brighttext"	"0"
 		"pin_to_sibling" "ChargeMeter2"
 		"fgcolor_override"		"colorwhite"
-		"bgcolor_override"		"colortransparentgray"		
+		"bgcolor_override"		"meterbg"		
 	}
 
 	"ChargeMeter4"
@@ -232,7 +232,7 @@
 		"brighttext"	"0"
 		"pin_to_sibling" "ChargeMeter3"
 		"fgcolor_override"		"colorwhite"
-		"bgcolor_override"		"colortransparentgray"		
+		"bgcolor_override"		"meterbg"		
 	}
 	
 	"HealthClusterIcon"

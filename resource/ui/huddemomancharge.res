@@ -18,7 +18,7 @@
 		"dulltext"				"0"
 		"brighttext"			"0"
 		"fgcolor_override"		"colorwhite"
-		"bgcolor_override"		"colortransparentgray"
+		"bgcolor_override"		"meterbg"
 	}
 	"ItemEffectMeterLabel"
 	{

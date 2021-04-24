@@ -57,7 +57,7 @@
 		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"bgcolor_override"		"colortransparentgray"
+		"bgcolor_override"		"meterbg"
 	}			
 	"line_25"
 	{
@@ -70,7 +70,7 @@
 		"tall"				"6"
 		"visible"			"1"
 		"enabled"			"1"
-		"bgcolor_override"	"colorgray"
+		"bgcolor_override"	"colortransparentgray"
 	}
 	"line_50"
 	{
@@ -83,7 +83,7 @@
 		"tall"				"6"
 		"visible"			"1"
 		"enabled"			"1"
-		"bgcolor_override"	"colorgray"
+		"bgcolor_override"	"colortransparentgray"
 	}	
 	"line_75"
 	{
@@ -96,7 +96,7 @@
 		"tall"				"6"
 		"visible"			"1"
 		"enabled"			"1"
-		"bgcolor_override"	"colorgray"
+		"bgcolor_override"	"colortransparentgray"
 	}	
 	"ChargeColor_25"
 	{
@@ -109,7 +109,7 @@
 		"tall"				"1"
 		"visible"			"1"
 		"enabled"			"1"
-		"bgcolor_override"	"meter1alt"
+		"bgcolor_override"	"meter1"
 	}
 	"ChargeColor_50"
 	{
@@ -122,7 +122,7 @@
 		"tall"				"1"
 		"visible"			"1"
 		"enabled"			"1"
-		"bgcolor_override"	"meter2alt"
+		"bgcolor_override"	"meter2"
 	}	
 	"ChargeColor_75"
 	{
@@ -135,7 +135,7 @@
 		"tall"				"1"
 		"visible"			"1"
 		"enabled"			"1"
-		"bgcolor_override"	"meter3alt"
+		"bgcolor_override"	"meter3"
 	}	
 	"ChargeColor_100" // last
 	{
@@ -148,6 +148,6 @@
 		"tall"				"1"
 		"visible"			"1"
 		"enabled"			"1"
-		"bgcolor_override"	"meter4alt"
+		"bgcolor_override"	"meter4"
 	}	
 }

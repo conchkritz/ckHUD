@@ -1,0 +1,105 @@
+"characters" // basic and robot only
+{
+	"basic_demoman"
+	{
+		"image"	"../console/characters/demoman"
+		"item_url"	"demoman"
+		"store_text"		"#TF_Trial_MainMenu_Upsell_Demoman"
+	}
+	"basic_engineer"
+	{
+		"image"	"../console/characters/engineer"
+		"item_url"	"engineer"
+		"store_text"		"#TF_Trial_MainMenu_Upsell_Engineer"
+	}
+	"basic_heavy"
+	{
+		"image"	"../console/characters/heavy"
+		"item_url"	"heavy"
+		"store_text"		"#TF_Trial_MainMenu_Upsell_Heavy"
+	}
+	"basic_medic"
+	{
+		"image"	"../console/characters/medic"
+		"item_url"	"medic"
+		"store_text"		"#TF_Trial_MainMenu_Upsell_Medic"
+	}
+	"basic_pyro"
+	{
+		"image"	"../console/characters/pyro"
+		"item_url"	"pyro"
+		"store_text"		"#TF_Trial_MainMenu_Upsell_Pyro"
+	}
+	"basic_scout"
+	{
+		"image"	"../console/characters/scout"
+		"item_url"	"scout"
+		"store_text"		"#TF_Trial_MainMenu_Upsell_Scout"
+	}
+	"basic_sniper"
+	{
+		"image"	"../console/characters/sniper"
+		"item_url"	"sniper"
+		"store_text"		"#TF_Trial_MainMenu_Upsell_Sniper"
+	}
+	"basic_soldier"
+	{
+		"image"	"../console/characters/soldier"
+		"item_url"	"soldier"
+		"store_text"		"#TF_Trial_MainMenu_Upsell_Soldier"
+	}
+	"basic_spy"
+	{
+		"image"	"../console/characters/spy"
+		"item_url"	"spy"
+		"store_text"		"#TF_Trial_MainMenu_Upsell_Spy"
+	}
+	"robot_demoman"
+	{
+		"image"	"../console/characters/mvm_demoman_bot"
+		"item_url"	"demoman"
+		"store_text"		"#TF_Trial_MainMenu_Upsell_Demoman"
+	}
+	"robot_medic"
+	{
+		"image"	"../console/characters/mvm_medic_bot"
+		"item_url"	"medic"
+		"store_text"		"#TF_Trial_MainMenu_Upsell_Medic"
+	}
+	"robot_pyro"
+	{
+		"image"	"../console/characters/mvm_pyro_bot"
+		"item_url"	"pyro"
+		"store_text"		"#TF_Trial_MainMenu_Upsell_Pyro"
+	}
+	"robot_scout"
+	{
+		"image"	"../console/characters/mvm_scout_bot"
+		"item_url"	"scout"
+		"store_text"		"#TF_Trial_MainMenu_Upsell_Scout"
+	}
+	"robot_sniper"
+	{
+		"image"	"../console/characters/mvm_sniper_bot"
+		"item_url"	"sniper"
+		"store_text"		"#TF_Trial_MainMenu_Upsell_Sniper"
+	}
+	"robot_soldier"
+	{
+		"image"	"../console/characters/mvm_soldier_bot"
+		"item_url"	"soldier"
+		"store_text"		"#TF_Trial_MainMenu_Upsell_Soldier"
+	}
+	"robot_spy"
+	{
+		"image"	"../console/characters/mvm_spy_bot"
+		"item_url"	"spy"
+		"store_text"		"#TF_Trial_MainMenu_Upsell_Spy"
+	}
+	"robot_heavy"
+	{
+		"image"	"../console/characters/mvm_heavy_bot"
+		"item_url"	"heavy"
+		"store_text"		"#TF_Trial_MainMenu_Upsell_Robot_Heavy"
+	}
+}

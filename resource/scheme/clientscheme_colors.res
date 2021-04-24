@@ -27,13 +27,14 @@ Scheme
 		"meter1"				"255 192 0 255"
 		"meter2"				"255 128 0 255"
 		"meter3"				"255 64 0 255"
-		"meter4"				"255 20 0 255"
+		"meter4"				"255 0 0 255"
 		"meter1alt"				"100 100 100 255"
 		"meter2alt"				"130 130 130 255"
 		"meter3alt"				"160 160 160 255"
 		"meter4alt"				"190 190 190 255"
+		"meterbg"				"200 200 200 50" // used to be colortransparentgray but it was too dark
 		
-		"TanLight"				"242 242 242 255"
+		"TanLight"				"242 242 242 255" // change this w/ colorwhite
 	
 	}
 }
