@@ -53,9 +53,9 @@ event HudHealthBonusPulse
 	Animate	PlayerStatusHealthBonusImage 	Alpha		"200"					Linear 0.2 0.4
 	Animate	PlayerStatusHealthBonusImage 	Alpha		"200"					Linear 0.2 0.4
 	
-	Animate	PlayerStatusHealthValue			FgColor		"overheal" 				Linear 0 0
+	Animate	PlayerStatusHealthValue			FgColor		"overheal" 				Linear 0 0.1
 
-	Animate	TargetHealthBG					BgColor		"overheal" 				Linear 0 0
+	Animate	TargetHealthBG					BgColor		"overheal" 				Linear 0 0.1
 
 	RunEvent HudHealthBonusPulseLoop	0.4
 }
@@ -72,9 +72,9 @@ event HudHealthBonusPulseStop
 	StopEvent HudHealthBonusPulse 0.0
 	StopEvent HudHealthBonusPulseLoop 0.0
 	
-	Animate	PlayerStatusHealthValue 		FgColor		"colorwhite"			Linear 0 0
+	Animate	PlayerStatusHealthValue 		FgColor		"colorwhite"			Linear 0 0.1
 	
-	Animate	TargetHealthBG					BgColor		"colortransparentgray" 	Linear 0 0
+	Animate	TargetHealthBG					BgColor		"colortransparentgray" 	Linear 0 0.1
 
 }
 
@@ -114,39 +114,58 @@ event HudHealthDyingPulseStop
 	Animate	TargetHealthBG							BgColor			"colortransparentgray"	 			Linear 0 0
 }
 
+// ===========================================
+// low ammo
+event HudLowAmmoPulse
+{
+	Animate AmmoInClipShadow			FgColor		"low"	Linear 0.0 0.075
+	Animate AmmoInReserveShadow			FgColor		"low"	Linear 0.0 0.075
+	Animate AmmoNoClipShadow			FgColor		"low"	Linear 0.0 0.075
+	
+	Animate AmmoInClipShadow			FgColor		"colorblack"	Linear 0.125 0.075
+	Animate AmmoInReserveShadow			FgColor		"colorblack"	Linear 0.125 0.075
+	Animate AmmoNoClipShadow			FgColor		"colorblack"	Linear 0.125 0.075
+	RunEvent HudLowAmmoPulseLoop	0.25
+}
+
+// call to loop HudLowAmmoPulse
+
+event HudLowAmmoPulseLoop
+{
+	RunEvent HudLowAmmoPulse 0.0
+}
+
+event HudLowAmmoPulseStop
+{
+
+	StopEvent HudLowAmmoPulse 0.0
+	StopEvent HudLowAmmoPulseLoop 0.0
+	Animate AmmoInClipShadow			FgColor		"colorblack"	Linear 0 0
+	Animate AmmoInReserveShadow			FgColor		"colorblack"	Linear 0 0
+	Animate AmmoNoClipShadow			FgColor		"colorblack"	Linear 0 0
+}
+
 //===========================================
 // Spy Disguise
 
 event HudSpyDisguiseChanged
 {
-	Animate PlayerStatusSpyOutlineImage		Alpha		"255"			Linear 0.0 0.2
-	
-	Animate PlayerStatusSpyOutlineImage		Position	"c-227 c100"	Linear 0.0 0.0
-	Animate PlayerStatusSpyOutlineImage		Size		"50 50"		Linear 0.0 0.0
 
-	RunEvent HudSpyDisguiseHide	0.7
 }
 
 event HudSpyDisguiseHide
 {
 	
-	Animate PlayerStatusSpyOutlineImage		Position	"c-227 c100"	Linear 0.0 0.0
-	Animate PlayerStatusSpyOutlineImage		Size		"50 50"			Linear 0.0 0.0
-
-	
-	Animate PlayerStatusSpyOutlineImage		Alpha		"0"				Linear 0.2 0.1
 }
 
 event HudSpyDisguiseFadeIn
 {
-	RunEvent HudSpyDisguiseChanged	0
-	Animate PlayerStatusSpyImage			Alpha		"255"			Linear 0.9 0.1	
+
 }
 
 event HudSpyDisguiseFadeOut
 {
-	RunEvent HudSpyDisguiseChanged	0
-	Animate PlayerStatusSpyImage			Alpha		"0"				Linear 0.9 0.1	
+	
 }
 
 // ===========================================
@@ -160,4 +179,18 @@ event TeamStatus_PlayerDead
 event TeamStatus_PlayerAlive
 {
 	Animate respawntime ypos 1 Accel 0 0.2
+}
+
+// ===========================================
+// credit to mastercoms
+// fixes lingering health/ammo/uber colors when killed
+
+event HudSnapShotReminderIn
+{
+    RunEvent DefaultAnimHudSnapShotReminderIn 0.0
+
+    RunEvent HudHealthDyingPulseStop 0.0
+    RunEvent HudHealthBonusPulseStop 0.0
+    RunEvent HudLowAmmoPulseStop 0.0
+    RunEvent HudMedicChargedStop 0.0
 }

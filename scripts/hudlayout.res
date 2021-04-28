@@ -288,7 +288,7 @@
 		"visible" 	"0"
 		"enabled" 	"1"
 		"xpos"		"c-126"
-		"ypos"		"310"
+		"ypos"		"323"
 		"wide"	 	"f0"
 		"tall"	 	"f0"
 		"priority"	"40"

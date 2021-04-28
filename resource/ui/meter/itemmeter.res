@@ -1,4 +1,4 @@
-"Resource/UI/HudRocketPack.res"
+"Resource/UI/HudItemEffectMeter_Scout.res"
 {
 	HudItemEffectMeter
 	{
@@ -6,11 +6,11 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"c-60"	[$WIN32]
-		"ypos"			"c40"	[$WIN32]
+		"ypos"			"c30"	[$WIN32]
 		"wide"			"f0"
 		"tall"			"50"
 	}
-
+	
 	"ItemEffectMeterBG"
 	{
 		"ControlName"	"CTFImagePanel"
@@ -24,40 +24,10 @@
 		"enabled"		"1"
 	}
 	
-
-	"ItemEffectIcon"
-	{
-		"ControlName"	"CTFImagePanel"
-		"fieldName"		"ItemEffectIcon"
-		"xpos"			"9999"
-		"ypos"			"-2"
-		"zpos"			"2"
-		"wide"			"32"
-		"tall"			"32"
-		"visible"		"1"
-		"enabled"		"1"
-	}
-
 	"ItemEffectMeterLabel"
 	{
-		"ControlName"			"CExLabel"
+		"ControlName"			"CExImage"
 		"fieldName"				"ItemEffectMeterLabel"
-		"xpos"					"9999"
-		"ypos"					"17"
-		"zpos"					"2"
-		"wide"					"100"
-		"tall"					"17"
-		"visible"				"1"
-		"enabled"				"0"
-		"labelText"				"JETPACK"
-		"textAlignment"			"center"
-		"font"					"Tommy8"
-		"fgcolor_override"		"black"
-	}
-	"ItemEffectMeterLabel2"
-	{
-		"ControlName"			"CExLabel"
-		"fieldName"				"ItemEffectMeterLabel2"
 		"xpos"					"10"
 		"ypos"					"17"
 		"zpos"					"2"
@@ -65,11 +35,11 @@
 		"tall"					"17"
 		"visible"				"1"
 		"enabled"				"0"
-		"labelText"				"JETPACK"
+		"labelText"				"#TF_ENERGYDRINK"
 		"textAlignment"			"center"
 		"font"					"Tommy8"
-		"fgcolor_override"		"black"
 	}
+
 	"ItemEffectMeter"
 	{	
 		"ControlName"			"ContinuousProgressBar"
@@ -78,8 +48,8 @@
 		"xpos"					"0"
 		"ypos"					"23"
 		"zpos"					"2"
-		"wide"					"59"
-		"tall"					"6"					
+		"wide"					"120"
+		"tall"					"6"				
 		"autoResize"			"0"
 		"pinCorner"				"0"
 		"visible"				"1"
@@ -88,27 +58,7 @@
 		"dulltext"				"0"
 		"brighttext"			"0"
 		"bgcolor_override"		"meterbg"
-	}		
-
-	"ItemEffectMeter2"
-	{	
-		"ControlName"			"ContinuousProgressBar"
-		"fieldName"				"ItemEffectMeter2"
-		"font"					"Default"
-		"xpos"					"60"
-		"ypos"					"23"
-		"zpos"					"2"
-		"wide"					"59"
-		"tall"					"6"		
-		"autoResize"			"0"
-		"pinCorner"				"0"
-		"visible"				"1"
-		"enabled"				"1"
-		"textAlignment"			"center"
-		"dulltext"				"0"
-		"brighttext"			"0"
-		"bgcolor_override"		"meterbg"
-	}	
+	}			
 	"ChargeColor_25"
 	{
 		"controlName"		"EditablePanel"
@@ -129,7 +79,7 @@
 		"xpos"				"30"
 		"ypos"				"28"
 		"zpos"				"5"
-		"wide"				"29"
+		"wide"				"30"
 		"tall"				"1"
 		"visible"			"1"
 		"enabled"			"1"
@@ -139,7 +89,7 @@
 	{
 		"controlName"		"EditablePanel"
 		"fieldName"			"ChargeColor_75"
-		"xpos"				"60"
+		"xpos"				"59"
 		"ypos"				"28"
 		"zpos"				"4"
 		"wide"				"30"
@@ -152,13 +102,13 @@
 	{
 		"controlName"		"EditablePanel"
 		"fieldName"			"ChargeColor_100"
-		"xpos"				"60"
+		"xpos"				"0"
 		"ypos"				"28"
 		"zpos"				"3"
-		"wide"				"59"
+		"wide"				"120"
 		"tall"				"1"
 		"visible"			"1"
 		"enabled"			"1"
 		"bgcolor_override"	"meter4alt"
 	}	
-}	
+}

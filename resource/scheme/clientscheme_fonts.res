@@ -138,6 +138,17 @@ Scheme
 // 		===========================================
 // 		misc
 
+		"DamageNumber"
+		{
+			"1"
+			{
+				"name" "MADETOMMY-Bold"
+				"tall" "40"
+				"antialias" "1"
+				"dropshadow" 	"0"
+				"outline" 		"1"
+			}
+		}
 		"Ubercharge"
 		{
 			"1"

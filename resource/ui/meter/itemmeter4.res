@@ -1,4 +1,4 @@
-"Resource/UI/HudRocketPack.res"
+"Resource/UI/HudItemEffectMeter_Raygun.res"
 {
 	HudItemEffectMeter
 	{
@@ -10,7 +10,7 @@
 		"wide"			"f0"
 		"tall"			"50"
 	}
-
+	
 	"ItemEffectMeterBG"
 	{
 		"ControlName"	"CTFImagePanel"
@@ -24,40 +24,10 @@
 		"enabled"		"1"
 	}
 	
-
-	"ItemEffectIcon"
-	{
-		"ControlName"	"CTFImagePanel"
-		"fieldName"		"ItemEffectIcon"
-		"xpos"			"9999"
-		"ypos"			"-2"
-		"zpos"			"2"
-		"wide"			"32"
-		"tall"			"32"
-		"visible"		"1"
-		"enabled"		"1"
-	}
-
 	"ItemEffectMeterLabel"
 	{
-		"ControlName"			"CExLabel"
+		"ControlName"			"CExImage"
 		"fieldName"				"ItemEffectMeterLabel"
-		"xpos"					"9999"
-		"ypos"					"17"
-		"zpos"					"2"
-		"wide"					"100"
-		"tall"					"17"
-		"visible"				"1"
-		"enabled"				"0"
-		"labelText"				"JETPACK"
-		"textAlignment"			"center"
-		"font"					"Tommy8"
-		"fgcolor_override"		"black"
-	}
-	"ItemEffectMeterLabel2"
-	{
-		"ControlName"			"CExLabel"
-		"fieldName"				"ItemEffectMeterLabel2"
 		"xpos"					"10"
 		"ypos"					"17"
 		"zpos"					"2"
@@ -65,11 +35,11 @@
 		"tall"					"17"
 		"visible"				"1"
 		"enabled"				"0"
-		"labelText"				"JETPACK"
+		"labelText"				"#TF_ENERGYDRINK"
 		"textAlignment"			"center"
 		"font"					"Tommy8"
-		"fgcolor_override"		"black"
 	}
+
 	"ItemEffectMeter"
 	{	
 		"ControlName"			"ContinuousProgressBar"
@@ -78,8 +48,8 @@
 		"xpos"					"0"
 		"ypos"					"23"
 		"zpos"					"2"
-		"wide"					"59"
-		"tall"					"6"					
+		"wide"					"120"
+		"tall"					"6"				
 		"autoResize"			"0"
 		"pinCorner"				"0"
 		"visible"				"1"
@@ -88,26 +58,45 @@
 		"dulltext"				"0"
 		"brighttext"			"0"
 		"bgcolor_override"		"meterbg"
-	}		
-
-	"ItemEffectMeter2"
-	{	
-		"ControlName"			"ContinuousProgressBar"
-		"fieldName"				"ItemEffectMeter2"
-		"font"					"Default"
-		"xpos"					"60"
-		"ypos"					"23"
-		"zpos"					"2"
-		"wide"					"59"
-		"tall"					"6"		
-		"autoResize"			"0"
-		"pinCorner"				"0"
-		"visible"				"1"
-		"enabled"				"1"
-		"textAlignment"			"center"
-		"dulltext"				"0"
-		"brighttext"			"0"
-		"bgcolor_override"		"meterbg"
+	}			
+	"line_25"
+	{
+		"controlName"		"EditablePanel"
+		"fieldName"			"line_25"
+		"xpos"				"29"
+		"ypos"				"23"
+		"zpos"				"6"
+		"wide"				"1"
+		"tall"				"6"
+		"visible"			"1"
+		"enabled"			"1"
+		"bgcolor_override"	"colortransparentgray"
+	}
+	"line_50"
+	{
+		"controlName"		"EditablePanel"
+		"fieldName"			"line_50"
+		"xpos"				"60"
+		"ypos"				"23"
+		"zpos"				"5"
+		"wide"				"1"
+		"tall"				"6"
+		"visible"			"1"
+		"enabled"			"1"
+		"bgcolor_override"	"colortransparentgray"
+	}	
+	"line_75"
+	{
+		"controlName"		"EditablePanel"
+		"fieldName"			"line_75"
+		"xpos"				"90"
+		"ypos"				"23"
+		"zpos"				"4"
+		"wide"				"1"
+		"tall"				"6"
+		"visible"			"1"
+		"enabled"			"1"
+		"bgcolor_override"	"colortransparentgray"
 	}	
 	"ChargeColor_25"
 	{
@@ -120,7 +109,7 @@
 		"tall"				"1"
 		"visible"			"1"
 		"enabled"			"1"
-		"bgcolor_override"	"meter1alt"
+		"bgcolor_override"	"meter1"
 	}
 	"ChargeColor_50"
 	{
@@ -129,36 +118,36 @@
 		"xpos"				"30"
 		"ypos"				"28"
 		"zpos"				"5"
-		"wide"				"29"
+		"wide"				"31"
 		"tall"				"1"
 		"visible"			"1"
 		"enabled"			"1"
-		"bgcolor_override"	"meter2alt"
+		"bgcolor_override"	"meter2"
 	}	
 	"ChargeColor_75"
 	{
 		"controlName"		"EditablePanel"
 		"fieldName"			"ChargeColor_75"
-		"xpos"				"60"
+		"xpos"				"59"
 		"ypos"				"28"
 		"zpos"				"4"
-		"wide"				"30"
+		"wide"				"31"
 		"tall"				"1"
 		"visible"			"1"
 		"enabled"			"1"
-		"bgcolor_override"	"meter3alt"
+		"bgcolor_override"	"meter3"
 	}	
 	"ChargeColor_100" // last
 	{
 		"controlName"		"EditablePanel"
 		"fieldName"			"ChargeColor_100"
-		"xpos"				"60"
+		"xpos"				"0"
 		"ypos"				"28"
 		"zpos"				"3"
-		"wide"				"59"
+		"wide"				"120"
 		"tall"				"1"
 		"visible"			"1"
 		"enabled"			"1"
-		"bgcolor_override"	"meter4alt"
+		"bgcolor_override"	"meter4"
 	}	
-}	
+}
