@@ -5,7 +5,7 @@ Scheme
 // 		===========================================
 // 		custom borders
 
-		CyanBorderThick 
+		CustomCyanBorderThick 
 		{
 			"inset" "0 0 0 0"
 			Left

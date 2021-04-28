@@ -289,7 +289,7 @@ Scheme
 // 		===========================================
 // 		vote font
 
-		"CustomNotoMonoVerySmall"
+		"CustomNotoMonoSmall"
 		{
 			"1"
 			{
@@ -768,11 +768,39 @@ Scheme
 	
 	CustomFontFiles
 	{
-		"8" 
+		"Bot Detector Font" 
 		{
-			"font" "resource/fonts/CustomNotoMono.otf"
+			"font" "resource/CustomNotoMono.ttf"
 			"name" "CustomNotoMono"
 			"english" 
+			{
+				"range" "0x021 0xFFFF" 
+			}
+			"brazilian"
+			{
+				"range" "0x021 0xFFFF" 
+			}
+			"french"
+			{
+				"range" "0x021 0xFFFF" 
+			}
+			"german"
+			{
+				"range" "0x021 0xFFFF" 
+			}
+			"italian"
+			{
+				"range" "0x021 0xFFFF" 
+			}
+			"polish"
+			{
+				"range" "0x021 0xFFFF" 
+			}
+			"russian"
+			{
+				"range" "0x021 0xFFFF" 
+			}
+			"spanish"
 			{
 				"range" "0x021 0xFFFF" 
 			}

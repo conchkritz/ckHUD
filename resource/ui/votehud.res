@@ -1,71 +1,7 @@
+#base "votehud_OLD.res"
+
 "Resource/UI/VoteHud.res"
 {	
-	"VotePassed"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"VotePassed"
-		"xpos"			"10"
-		"ypos"			"r315"
-		"wide"			"150"
-		"tall"			"67"
-		"visible"		"0"
-		"enabled"		"1"
-		"border"		"TFFatLineBorderOpaque"
-				
-		"PassedIcon"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"PassedIcon"
-			"xpos"			"10"
-			"ypos"			"10"
-			"wide"			"17"
-			"tall"			"17"
-			"visible"		"1"
-			"enabled"		"1"
-			"scaleImage"	"1"
-			"image"			"hud/vote_yes"
-		}
-		
-		"PassedTitle"
-		{
-			"ControlName"	"Label"
-			"fieldName"		"PassedTitle"
-			"xpos"			"32"
-			"ypos"			"10"
-			"wide"			"98"
-			"tall"			"17"
-			"visible"		"1"
-			"enabled"		"1"
-			"labelText"		"#GameUI_vote_passed"
-			"textAlignment"	"west"
-			"dulltext"		"0"
-			"brighttext"	"0"
-			"font"			"ScoreboardSmall"
-			"wrap"			"1"
-			"fgcolor_override"	"255 255 255 255"
-		}
-		
-		"PassedResult"
-		{
-			"ControlName"	"Label"
-			"fieldName"		"PassedResult"
-			"xpos"			"10"
-			"ypos"			"29"
-			"wide"			"130"
-			"tall"			"40"
-			"visible"		"1"
-			"enabled"		"1"
-			"labelText"		"%passedresult%"
-			"textAlignment"	"north-west"
-			"dulltext"		"0"
-			"brighttext"	"0"
-			"font"			"ScoreboardVerySmall"
-			"wrap"			"1"
-			"fgcolor_override"	"255 255 255 255"
-			"noshortcutsyntax" "1"
-		}		
-	}
-	
 	"VoteActive"
 	{
 		"ControlName"	"EditablePanel"
@@ -73,10 +9,10 @@
 		"xpos"			"10"
 		"ypos"			"r340"
 		"wide"			"150"
-		"tall"			"170"
+		"tall"			"176"
 		"visible"		"0"
 		"enabled"		"1"
-		"border"		"TFFatLineBorderOpaque"
+		// "bgcolor_override"	"52 48 45 255"  // Remove 2 slashes from beginning of this line to force gray background in active vote panel.
 		
 		"Header"		// Vote caller - large custom font
 		{
@@ -95,6 +31,7 @@
 			"font"			"CustomNotoMonoMedium"   
 			"wrap"			"1"
 			"fgcolor_override"	"128 128 128 255"
+			"AllCaps"			"0"
 		}
 
 		"Header_small"		// Vote caller - small regular font
@@ -114,6 +51,7 @@
 			"font"			"CustomVerdanaSmall"   
 			"wrap"			"1"
 			"fgcolor_override"	"128 128 128 255"
+			"AllCaps"			"0"
 		}
 
 		"Wants_to_vote"
@@ -150,9 +88,10 @@
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"font"			"CustomVerdanaSmall"  
-			"fgcolor_override"	"255 255 255 255"
+			"fgcolor_override"	"128 128 128 255"
 			"wrap"			"1"
 			"noshortcutsyntax" "1"
+			"AllCaps"			"0"
 		}
 
 		"Kick_name_large" 			// Player to be kicked name - large custom font
@@ -173,6 +112,7 @@
 			"fgcolor_override"	"255 255 255 255"
 			"wrap"			"1"
 			"noshortcutsyntax" "1"
+			"AllCaps"			"0"
 		}
 
 		"Kick_name_small" 			// Player to be kicked name - small regular font
@@ -193,6 +133,7 @@
 			"fgcolor_override"	"255 255 255 255"
 			"wrap"			"1"
 			"noshortcutsyntax" "1"
+			"AllCaps"			"0"
 		}
 
 		"Kick_reason" 			// Kick reason  (or other vote issue strings)
@@ -250,7 +191,7 @@
 			"ControlName"	"Label"
 			"fieldName"		"LabelOption1"
 			"xpos"			"10"
-			"ypos"			"102"
+			"ypos"			"100"
 			"wide"			"130"
 			"tall"			"16"
 			"zpos"			"2"
@@ -269,14 +210,14 @@
 			"ControlName"	"ImagePanel"
 			"fieldName"		"Option1Background_Selected"
 			"xpos"			"8"
-			"ypos"			"102"
+			"ypos"			"100"
 			"wide"			"132"
 			"tall"			"16"
 			"zpos"			"1"
 			"fillcolor"		"88 119 140 180"
 			"visible"		"1"
-			"paintborder"		"1"
-			"border"			"CyanBorderThick"
+			"paintborder"	"1"
+			"border"		"CustomCyanBorderThick"
 
 		}
 		
@@ -304,7 +245,7 @@
 			"ControlName"	"Label"
 			"fieldName"		"LabelOption2"
 			"xpos"			"10"
-			"ypos"			"117"
+			"ypos"			"115"
 			"wide"			"130"
 			"tall"			"16"
 			"zpos"			"2"
@@ -323,14 +264,14 @@
 			"ControlName"	"ImagePanel"
 			"fieldName"		"Option2Background_Selected"
 			"xpos"			"10"
-			"ypos"			"117"
+			"ypos"			"115"
 			"wide"			"132"
 			"tall"			"16"
 			"zpos"			"1"
 			"fillcolor"		"88 119 140 180"
 			"visible"		"1"
-			"paintborder"		"1"
-			"border"			"CyanBorderThick"
+			"paintborder"	"1"
+			"border"		"CustomCyanBorderThick"
 		}
 		
 		"Option2CountLabel"
@@ -357,7 +298,7 @@
 			"ControlName"	"Label"
 			"fieldName"		"LabelOption3"
 			"xpos"			"10"
-			"ypos"			"89"
+			"ypos"			"130"
 			"wide"			"130"
 			"tall"			"16"
 			"zpos"			"2"
@@ -376,12 +317,14 @@
 			"ControlName"	"ImagePanel"
 			"fieldName"		"Option3Background_Selected"
 			"xpos"			"10"
-			"ypos"			"89"
-			"wide"			"130"
+			"ypos"			"130"
+			"wide"			"132"
 			"tall"			"16"
 			"zpos"			"1"
 			"fillcolor"		"88 119 140 180"
 			"visible"		"0"
+			"paintborder"	"1"
+			"border"		"CustomCyanBorderThick"
 		}
 		
 		"LabelOption4"
@@ -389,7 +332,7 @@
 			"ControlName"	"Label"
 			"fieldName"		"LabelOption4"
 			"xpos"			"10"
-			"ypos"			"105"
+			"ypos"			"145"
 			"wide"			"130"
 			"tall"			"16"
 			"zpos"			"2"
@@ -408,12 +351,14 @@
 			"ControlName"	"ImagePanel"
 			"fieldName"		"Option4Background_Selected"
 			"xpos"			"10"
-			"ypos"			"105"
-			"wide"			"130"
+			"ypos"			"145"
+			"wide"			"132"
 			"tall"			"16"
 			"zpos"			"1"
 			"fillcolor"		"88 119 140 180"
 			"visible"		"0"
+			"paintborder"	"1"
+			"border"		"CustomCyanBorderThick"
 		}
 		
 		"LabelOption5"
@@ -421,7 +366,7 @@
 			"ControlName"	"Label"
 			"fieldName"		"LabelOption5"
 			"xpos"			"10"
-			"ypos"			"121"
+			"ypos"			"160"
 			"wide"			"130"
 			"tall"			"16"
 			"zpos"			"2"
@@ -440,12 +385,14 @@
 			"ControlName"	"ImagePanel"
 			"fieldName"		"Option5Background_Selected"
 			"xpos"			"10"
-			"ypos"			"121"
-			"wide"			"130"
+			"ypos"			"160"
+			"wide"			"132"
 			"tall"			"16"
 			"zpos"			"1"
 			"fillcolor"		"88 119 140 180"
 			"visible"		"0"
+			"paintborder"	"1"
+			"border"		"CustomCyanBorderThick"
 		}
 		
 		// divider
@@ -495,141 +442,11 @@
 			"spacer"		"6"
 			"box_inset"		"1"
 			"yes_texture"	"vgui/hud/vote_yes"
-			"no_texture"	"vgui/hud/vote_no"			
+			"no_texture"	"vgui/hud/vote_no"	
+			"bgcolor_override"	"0 0 0 0"		
 		}			
 	}
 	
-	// This is sent to the vote caller when they're not able to start the vote
-	"CallVoteFailed"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"CallVoteFailed"
-		"xpos"			"10"
-		"ypos"			"c-80"
-		"wide"			"150"
-		"tall"			"67"
-		"visible"		"0"
-		"enabled"		"1"
-		"border"		"TFFatLineBorderOpaque"
-				
-		"FailedIcon"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"FailedIcon"
-			"xpos"			"10"
-			"ypos"			"10"
-			"wide"			"17"
-			"tall"			"17"
-			"visible"		"1"
-			"enabled"		"1"
-			"scaleImage"	"1"
-			"image"			"hud/vote_no"
-		}
-		
-		"FailedTitle"
-		{
-			"ControlName"	"Label"
-			"fieldName"		"FailedTitle"
-			"xpos"			"32"
-			"ypos"			"10"
-			"wide"			"80"
-			"tall"			"17"
-			"visible"		"1"
-			"enabled"		"1"
-			"labelText"		"#GameUI_vote_failed"
-			"textAlignment"	"west"
-			"dulltext"		"0"
-			"brighttext"	"0"
-			"font"			"ScoreboardSmall"
-			"wrap"			"1"
-			"fgcolor_override"	"200 30 30 255"
-		}
-		
-		"FailedReason"
-		{
-			"ControlName"	"Label"
-			"fieldName"		"FailedReason"
-			"xpos"			"10"
-			"ypos"			"29"
-			"wide"			"140"
-			"tall"			"40"
-			"visible"		"1"
-			"enabled"		"1"
-			"labelText"		"%FailedReason%"
-			"textAlignment"	"north-west"
-			"dulltext"		"0"
-			"brighttext"	"0"
-			"font"			"ScoreboardVerySmall"
-			"wrap"			"1"
-			"fgcolor_override"	"255 255 255 255"
-		}		
-	}
-	
-	// This is shown to everyone when a vote fails due to lack of votes
-	"VoteFailed"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"VoteFailed"
-		"xpos"			"10"
-		"ypos"			"r315"
-		"wide"			"150"
-		"tall"			"67"
-		"visible"		"0"
-		"enabled"		"1"
-		"border"		"TFFatLineBorderOpaque"
-				
-		"FailedIcon"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"FailedIcon"
-			"xpos"			"10"
-			"ypos"			"10"
-			"wide"			"17"
-			"tall"			"17"
-			"visible"		"1"
-			"enabled"		"1"
-			"scaleImage"	"1"
-			"image"			"hud/vote_no"
-		}
-		
-		"FailedTitle"
-		{
-			"ControlName"	"Label"
-			"fieldName"		"FailedTitle"
-			"xpos"			"32"
-			"ypos"			"10"
-			"wide"			"98"
-			"tall"			"17"
-			"visible"		"1"
-			"enabled"		"1"
-			"labelText"		"#GameUI_vote_failed"
-			"textAlignment"	"west"
-			"dulltext"		"0"
-			"brighttext"	"0"
-			"font"			"ScoreboardSmall"
-			"wrap"			"1"
-			"fgcolor_override"	"200 30 30 255"
-		}
-		
-		"FailedReason"
-		{
-			"ControlName"	"Label"
-			"fieldName"		"FailedReason"
-			"xpos"			"10"
-			"ypos"			"29"
-			"wide"			"130"
-			"tall"			"40"
-			"visible"		"1"
-			"enabled"		"1"
-			"labelText"		""
-			"textAlignment"	"north-west"
-			"dulltext"		"0"
-			"brighttext"	"0"
-			"font"			"ScoreboardVerySmall"
-			"wrap"			"1"
-			"fgcolor_override"	"255 255 255 255"
-		}		
-	}
 	
 	"VoteSetupDialog"
 	{
@@ -645,37 +462,13 @@
 		"enabled"			"1"
 		"tabPosition"		"0"
 		"settitlebarvisible"	"0"
-		"border"			"TFFatLineBorderOpaque"
-		"bgcolor_override"	"0 0 0 0"
-		"PaintBackground"	"0"
 
-		"header_font"		"ItemFontNameLarge"
-		"header_fgcolor"	"Orange"
+		// "bgcolor_override"	"52 48 45 255" // Remove 2 slashes from beginning of this line to force gray background in vote setup list.
 
 		"issue_width"		"180"		
-		"issue_font"		"CustomNotoMonoVerySmall"
-		"issue_fgcolor"		"TanLight"
-		"issue_fgcolor_disabled"	"TanDark"
+		"issue_font"		"CustomNotoMonoSmall"
 		
-		"parameter_width"	"250"
-
-		"TitleLabel"
-		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"TitleLabel"
-			"font"			"HudFontMediumBold"
-			"labelText"		"#TF_Vote_Title"
-			"textAlignment"	"north"
-			"xpos"			"0"
-			"ypos"			"10"
-			"wide"			"400"
-			"tall"			"20"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-			"wrap"			"0"
-		}
+		"parameter_width"	"255"
 									
 		"VoteSetupList"
 		{
@@ -710,95 +503,6 @@
 			"autoresize"	"0"
 			"linespacing"	"16"
 		}
-
-		"ComboLabel"
-		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"ComboLabel"
-			"font"			"HudFontSmallestBold"
-			"labelText"		"%combo_label%"
-			"textAlignment"	"east"
-			"xpos"			"5"
-			"ypos"			"245"
-			"zpos"			"1"
-			"wide"			"75"
-			"tall"			"20"
-			"autoResize"	"1"
-			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-		}
-		"ComboBox"
-		{
-			"ControlName"		"ComboBox"
-			"fieldName"			"ComboBox"
-			"Font"				"HudFontSmallestBold"
-			"xpos"				"85"
-			"ypos"				"245"
-			"zpos"				"1"
-			"wide"				"235"
-			"tall"				"20"
-			"autoResize"		"0"
-			"pinCorner"			"0"
-			"visible"			"1"
-			"enabled"			"1"
-			"tabPosition"		"1"
-			"textHidden"		"0"
-			"editable"			"0"
-			"maxchars"			"-1"
-			"NumericInputOnly"	"0"
-			"unicode"			"0"
 			
-			"fgcolor_override"	"117 107 94 255"
-			"bgcolor_override"	"251 235 202 255"
-			"disabledFgColor_override" "117 107 94 255"
-			"disabledBgColor_override" "251 235 202 255"
-			"selectionColor_override" "251 235 202 255"
-			"selectionTextColor_override" "117 107 94 255"
-			"defaultSelectionBG2Color_override" "251 235 202 255"
-		}
-			
-		"CallVoteButton"
-		{
-			"ControlName"		"Button"
-			"fieldName"		"CallVoteButton"
-			"xpos"		"75"
-			"ypos"		"275"
-			"wide"		"160"
-			"tall"		"24"
-			"autoResize"	"0"
-			"pinCorner"		"3"
-			"visible"		"1"
-			"enabled"		"0"
-			"tabPosition"	"4"
-			"labelText"		"#TF_call_vote"
-			"textAlignment"	"center"
-			"dulltext"		"0"
-			"brighttext"	"0"
-			"Command"		"CallVote"
-			"Default"		"0"
-			"font"			"HudFontSmallBold"
-		}
-		"Button1"
-		{
-			"ControlName"		"Button"
-			"fieldName"		"Button1"
-			"xpos"		"240"
-			"ypos"		"275"
-			"wide"		"80"
-			"tall"		"24"
-			"autoResize"	"0"
-			"pinCorner"		"3"
-			"visible"		"1"
-			"enabled"		"1"
-			"tabPosition"	"4"
-			"labelText"		"#GameUI_Close"
-			"textAlignment"	"center"
-			"dulltext"		"0"
-			"brighttext"	"0"
-			"Command"		"Close"
-			"Default"		"0"
-			"font"			"HudFontSmallBold"
-		}
 	}
 }
