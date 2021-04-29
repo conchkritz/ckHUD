@@ -12,7 +12,7 @@
 		"tall"			"176"
 		"visible"		"0"
 		"enabled"		"1"
-		// "bgcolor_override"	"52 48 45 255"  // Remove 2 slashes from beginning of this line to force gray background in active vote panel.
+		"bgcolor_override"	"52 48 45 255"  // Remove 2 slashes from beginning of this line to force gray background in active vote panel.
 		
 		"Header"		// Vote caller - large custom font
 		{
