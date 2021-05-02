@@ -249,10 +249,10 @@
 	CHealthAccountPanel
 	{
 		"fieldName"				"CHealthAccountPanel"
-		"xpos"					"76"
-		"ypos"					"r152"
-		"wide"					"116"
-		"tall"  				"180"
+		"xpos"					"c-200"
+		"ypos"					"c-10"
+		"wide"					"f0"
+		"tall"  				"f0"
 		"visible" 				"1"
 		"enabled" 				"1"
 		"PaintBackgroundType"	"2"
@@ -1420,7 +1420,7 @@
 		"fieldName" 	"HudMenuTauntSelection"
 		"visible" 		"1"
 		"enabled" 		"1"
-		"xpos"			"r149"
+		"xpos"			"r168"
 		"ypos"			"c-117"
 		"zpos"			"4"
 		"wide"			"f0"
