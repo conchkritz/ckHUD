@@ -297,6 +297,16 @@ Scheme
 				"outline"	"1"
 			}
 		}
+		"vaccinatoruber"
+		{
+			"1"
+			{
+				"name" "TF2 Build"
+				"tall" "48"
+				"antialias" "1"
+				"outline"	"1"
+			}
+		}
 // 		===========================================
 // 		caption
 

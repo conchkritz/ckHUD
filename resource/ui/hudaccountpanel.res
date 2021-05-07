@@ -64,7 +64,7 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"hudfont14"
+		"font"			"hudfont20"
 		"fgcolor_override" "colorwhite"
 	}
 	"AccountValueShadow"
@@ -74,8 +74,8 @@
 		"xpos"			"-1"
 		"ypos"			"-1"
 		"zpos"			"2"
-		"wide"			"55"
-		"tall"			"26"
+		"wide"			"56"
+		"tall"			"27"
 		"autoResize"	"1"
 		"pinCorner"		"2"
 		"visible"		"1"
@@ -85,7 +85,7 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"hudfont14"
+		"font"			"hudfont20"
 		"fgcolor_override" "colorblack"
 		"pin_to_sibling" "AccountValue"
 	}

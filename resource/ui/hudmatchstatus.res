@@ -297,7 +297,7 @@
 		"PositiveColor"			"0 255 0 255"
 		"NegativeColor"			"255 0 0 255"
 		"delta_lifetime"		"1.5"
-		"delta_item_font"		"Tommy14"
+		"delta_item_font"		"hudfont14"
 
 		if_match
 		{
@@ -309,7 +309,7 @@
 			"PositiveColor"			"0 255 0 255"
 			"NegativeColor"			"255 0 0 255"
 			"delta_lifetime"		"1.5"
-			"delta_item_font"		"Tommy14"
+			"delta_item_font"		"hudfont14"
 		}
 		
 		"TimePanelValue"
@@ -335,7 +335,7 @@
 				"xpos"			"cs-0.5"
 				"ypos"			"10"
 				"tall"			"11"
-				"font"			"Tommy14"
+				"font"			"hudfont14"
 			}
 		}	
 	}
@@ -524,7 +524,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"respawntime"
-				"font"			"Tommy10"
+				"font"			"hudfont14"
 				"xpos"			"cs-0.5"
 				"ypos"			"0"
 				"zpos"			"5"
@@ -541,7 +541,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"chargeamount"
-				"font"			"Tommy10"
+				"font"			"hudfont14"
 				"xpos"			"25"
 				"ypos"			"17"
 				"zpos"			"6"
