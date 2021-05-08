@@ -81,6 +81,8 @@
 		"ypos"	"-125"
 		"wide"	"f0"
 		"tall"	"f0"
+		
+		"ypos_minmode"	"-50"
 	}
 
 	HudWeaponAmmo
@@ -92,6 +94,9 @@
 		"ypos"	"c0"	[$WIN32]
 		"wide"	"f0"
 		"tall"	"1000"
+		
+		"ypos_minmode"	"c73"
+
 	}
 	
 	HudObjectiveStatus
@@ -142,6 +147,8 @@
 		"ypos"			"c20"	[$WIN32]
 		"wide"			"f0"
 		"tall"			"f0"
+		
+		"ypos_minmode"	"c95"	[$WIN32]
 	}
 	
 	HudDemomanCharge
@@ -153,7 +160,9 @@
 		"ypos"			"c30"	[$WIN32]
 		"wide"			"f0"
 		"tall"			"f0"
-	}	
+	
+		"ypos_minmode"	"c105"	[$WIN32]
+	}
 
 	HudBowCharge
 	{
@@ -244,6 +253,8 @@
 		"visible" 				"1"
 		"enabled" 				"1"
 		"PaintBackgroundType"	"2"
+		
+		"ypos_minmode"			"c-25"	[$WIN32]
 	}
 	
 	CHealthAccountPanel
@@ -1066,6 +1077,8 @@
 		"ypos"			"c40"	[$WIN32]
 		"wide"			"f0"
 		"tall"			"f0"
+		
+		"ypos_minmode"	"c115"	[$WIN32]
 	}	
 
 	HudTeamGoal

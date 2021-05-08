@@ -6,8 +6,8 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"c-150"	[$WIN32]
-		"ypos"			"c46"	[$WIN32]
-		"wide"			"100"
+		"ypos"			"c120"	[$WIN32]
+		"wide"			"150"
 		"tall"			"50"
 	}
 	
@@ -82,4 +82,20 @@
 		"pin_to_sibling"		"ItemEffectMeterLabel"
 		"fgcolor_override"		"colorwhite"
 	}
+
+//	"HeadsIcon"
+//	{
+//		"ControlName"			"ImagePanel"
+//		"fieldName"				"HeadsIcon"
+//		"xpos"					"-5"
+//		"ypos"					"23"
+//		"zpos"					"-100"
+//		"wide"					"20"
+//		"tall"					"20"	
+//		"visible"				"1"
+//		"enabled"				"1"
+//		"image"					"../vgui/replay/thumbnails/icons/skullicon"
+//		"scaleImage"			"1"
+//	}
+
 }

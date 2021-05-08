@@ -9,6 +9,8 @@
 		"ypos"			"c40"	[$WIN32]
 		"wide"			"f0"
 		"tall"			"50"
+		
+		"ypos_minmode"	"c115"	[$WIN32]
 	}
 
 	"ItemEffectMeterBG"

@@ -1,0 +1,10 @@
+"UnlitGeneric"
+{
+	"$basetexture" "vgui/replay/thumbnails/icons/skullicon"
+
+	"$nolod" 1
+	"$translucent" 1
+}
+
+
+// 	"$basetexture" "vgui/replay/thumbnails/icons/skullicon"

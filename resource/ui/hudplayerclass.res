@@ -12,6 +12,8 @@
 		"tall"			"480"
 		"visible"		"1"
 		"enabled"		"1"		
+	
+		"ypos_minmode"	"-75"
 	}
 	"PlayerStatusClassImage"
 	{

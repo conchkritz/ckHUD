@@ -23,7 +23,7 @@
 		"tall"					"18"
 		"visible"				"1"
 		"enabled"				"0"
-		"labelText"				"SHEILD"
+		"labelText"				"SHIELD"
 		"textAlignment"			"center"
 		"font"					"hudfont8"
 	}
