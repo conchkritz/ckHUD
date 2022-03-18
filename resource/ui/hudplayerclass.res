@@ -174,12 +174,12 @@
 			}
 			"Demoman"
 			{
-				"fov"			"25"
+				"fov"			"30"
 				"angles_x"		"-13"
 				"angles_y"		"170"
 				"angles_z"		"0"
-				"origin_x"		"138"
-				"origin_y"		"-4"
+				"origin_x"		"130"
+				"origin_y"		"-10"
 				"origin_z"		"-93"
 			}
 			"Medic"
