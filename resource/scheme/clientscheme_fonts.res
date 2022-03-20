@@ -377,41 +377,7 @@ Scheme
 				"outline"	"0" // Closed captions outline
 			}
 		}
-
-// 		===========================================
-// 		vote font
-
-		"CustomNotoMonoSmall"
-		{
-			"1"
-			{
-				"name" "CustomNotoMono"
-				"tall" "9"
-				"additive"	"0"
-				"antialias" "1"
-			}
-		}
-		"CustomNotoMonoMedium"
-		{
-			"1"
-			{
-				"name" "CustomNotoMono"
-				"tall" "12"
-				"additive"	"0"
-				"antialias" "1"
-			}
-		}
-		"CustomVerdanaSmall"
-		{
-			"1"
-			{
-				"name" "Verdana"
-				"tall" "7"
-				"additive"	"0"
-				"antialias" "1"
-			}
-		}
-		
+	
 // 		===========================================
 // 		xhair font
 
@@ -860,43 +826,6 @@ Scheme
 	
 	CustomFontFiles
 	{
-		"Bot Detector Font" 
-		{
-			"font" "resource/fonts/CustomNotoMono.ttf"
-			"name" "CustomNotoMono"
-			"english" 
-			{
-				"range" "0x021 0xFFFF" 
-			}
-			"brazilian"
-			{
-				"range" "0x021 0xFFFF" 
-			}
-			"french"
-			{
-				"range" "0x021 0xFFFF" 
-			}
-			"german"
-			{
-				"range" "0x021 0xFFFF" 
-			}
-			"italian"
-			{
-				"range" "0x021 0xFFFF" 
-			}
-			"polish"
-			{
-				"range" "0x021 0xFFFF" 
-			}
-			"russian"
-			{
-				"range" "0x021 0xFFFF" 
-			}
-			"spanish"
-			{
-				"range" "0x021 0xFFFF" 
-			}
-		}
 		"9"
 		{
 			"font" "resource/fonts/TF2Crosshairs.ttf"

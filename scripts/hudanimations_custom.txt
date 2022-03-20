@@ -17,7 +17,7 @@ event HudHealthBonusPulse
 	
 	Animate	PlayerStatusHealthValue			FgColor		"overheal" 				Linear 0 0.1
 
-	Animate	TargetHealthBG					BgColor		"overheal" 				Linear 0 0.1
+	Animate	SpecGuiHP						FgColor		"overheal" 				Linear 0 0.1
 
 	RunEvent HudHealthBonusPulseLoop	0.4
 }
@@ -36,7 +36,7 @@ event HudHealthBonusPulseStop
 	
 	Animate	PlayerStatusHealthValue 		FgColor		"colorwhite"			Linear 0 0.1
 	
-	Animate	TargetHealthBG					BgColor		"colortransparentgray" 	Linear 0 0.1
+	Animate	SpecGuiHP 						FgColor		"colorwhite"			Linear 0 0.1
 
 }
 
@@ -50,10 +50,9 @@ event HudHealthDyingPulse
 	Animate	PlayerStatusHealthValueShadow			FgColor		"low"			Linear 0.0 0.075
 	Animate	PlayerStatusHealthValueShadow			FgColor		"colorblack"	Linear 0.125 0.075
 
-	Animate	SpecGuiHPShadow			FgColor		"lowdark"		Linear 0.0 0.075
-	Animate	SpecGuiHPShadow			FgColor		"colorblack"	Linear 0.125 0.075	
+	Animate	SpecGuiHPShadow							FgColor		"lowdark"		Linear 0.0 0.075
+	Animate	SpecGuiHPShadow							FgColor		"colorblack"	Linear 0.125 0.075	
 	
-	Animate	TargetHealthBG							BgColor		"low" 			Linear 0 0
 	
 	RunEvent HudHealthDyingPulseLoop	0.25
 }
@@ -71,9 +70,8 @@ event HudHealthDyingPulseStop
 	StopEvent HudHealthDyingPulse 0.0
 
 	Animate	PlayerStatusHealthValueShadow			FgColor			"colorblack" 		Linear 0.0 0.0
-	Animate	SpecGuiHPShadow			FgColor			"colorblack"		Linear 0 0
+	Animate	SpecGuiHPShadow							FgColor			"colorblack"		Linear 0 0
 
-	Animate	TargetHealthBG							BgColor			"colortransparentgray"	 			Linear 0 0
 }
 
 // ===========================================

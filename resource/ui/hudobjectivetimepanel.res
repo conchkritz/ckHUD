@@ -13,7 +13,7 @@
 		"wide_lodef"	"90"
 		"tall"			"33"
 		"tall_lodef"	"38"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		"image"			"../hud/objectives_timepanel_blue_bg"	
 		"scaleImage"		"1"	
@@ -55,48 +55,31 @@
 	"WaitingForPlayersLabel"
 	{
 		"ControlName"		"CExLabel"
-		"fieldName"		"WaitingForPlayersLabel"
-		"xpos"			"16"
-		"xpos_hidef"	"0"
-		"xpos_lodef"	"0"
-		"ypos"			"34"
-		"ypos_hidef"	"41"
-		"ypos_lodef"	"41"
-		"zpos"			"5"
-		"wide"			"78"
-		"wide_hidef"	"300"
-		"wide_lodef"	"300"
-		"tall"			"19"
-		"tall_hidef"	"19"
-		"tall_lodef"	"22"
-		"visible"		"0"
-		"enabled"		"1"
-		"labelText"		"#game_WaitingForPlayers"
+		"fieldName"			"WaitingForPlayersLabel"
+		"xpos"				"13"
+		"ypos"				"27"
+		"zpos"				"5"
+		"wide"				"100"
+		"tall"				"19"
+		"visible"			"0"
+		"enabled"			"1"
+		"labelText"			"#game_WaitingForPlayers"
 		"textAlignment"		"center"
-		"dulltext"		"0"
+		"dulltext"			"0"
 		"brighttext"		"0"
-		"wrap"			"0"
-		"font"			"hudfont12"
-		"font_hidef"	"HudFontSmall"
-		"font_lodef"	"HudFontSmall"
-
+		"wrap"				"0"
+		"font"				"hudfont12"
+		
 		if_match
 		{
-			"proportionaltoparent"	"1"
-			"xpos"					"0"
-			"ypos"					"21"
-			"wide"					"p1"
-			"font"					"hudfont12"
-			"font_hidef"			"HudFontSmallestBold"
-			"font_lodef"			"HudFontSmallestBold"
+		
 		}
-	}			
+	}				
 	"WaitingForPlayersBG"
 	{
 		"ControlName"		"CTFImagePanel"
 		"fieldName"		"WaitingForPlayersBG"
 		"xpos"			"16"	[$WIN32]
-		"xpos"			"11"	[$X360]
 		"ypos"			"31"
 		"ypos_hidef"	"-100"	//off-screen
 		"ypos_lodef"	"-100"	//off-screen
@@ -117,19 +100,11 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"OvertimeLabel"
-		"xpos"			"16"
-		"xpos_hidef"	"0"
-		"xpos_lodef"	"0"
-		"ypos"			"33"
-		"ypos_hidef"	"41"
-		"ypos_lodef"	"41"
-		"zpos"			"5"
-		"wide"			"78"
-		"wide_hidef"	"300"
-		"wide_lodef"	"300"
-		"tall"			"19"
-		"tall_hidef"	"19"
-		"tall_lodef"	"22"
+		"xpos"				"13"
+		"ypos"				"27"
+		"zpos"				"5"
+		"wide"				"100"
+		"tall"				"19"
 		"visible"		"0"
 		"enabled"		"1"
 		"labelText"		"#game_Overtime"
@@ -138,18 +113,10 @@
 		"brighttext"		"0"
 		"wrap"			"0"
 		"font"			"hudfont12"
-		"font_hidef"	"HudFontSmall"
-		"font_lodef"	"HudFontSmall"
 
 		if_match
 		{
-			"proportionaltoparent"	"1"
-			"xpos"					"0"
-			"ypos"					"21"
-			"wide"					"p1"
-			"font"					"hudfont12"
-			"font_hidef"			"HudFontSmallestBold"
-			"font_lodef"			"HudFontSmallestBold"
+
 		}
 	}			
 	"OvertimeBG"
@@ -239,19 +206,11 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"SetupLabel"
-		"xpos"			"16"
-		"xpos_hidef"	"0"
-		"xpos_lodef"	"0"
-		"ypos"			"33"
-		"ypos_hidef"	"41"
-		"ypos_lodef"	"41"
-		"zpos"			"5"
-		"wide"			"78"
-		"wide_hidef"	"300"
-		"wide_lodef"	"300"
-		"tall"			"19"
-		"tall_hidef"	"19"
-		"tall_lodef"	"22"
+		"xpos"				"13"
+		"ypos"				"27"
+		"zpos"				"5"
+		"wide"				"100"
+		"tall"				"19"
 		"visible"		"0"
 		"enabled"		"1"
 		"labelText"		"#game_Setup"
@@ -260,18 +219,9 @@
 		"brighttext"		"0"
 		"wrap"			"0"
 		"font"			"hudfont12"
-		"font_hidef"	"HudFontSmall"
-		"font_lodef"	"HudFontSmall"
 
 		if_match
 		{
-			"proportionaltoparent"	"1"
-			"xpos"					"0"
-			"ypos"					"21"
-			"wide"					"p1"
-			"font"					"hudfont12"
-			"font_hidef"			"HudFontSmallestBold"
-			"font_lodef"			"HudFontSmallestBold"
 		}
 	}	
 	"SetupBG"

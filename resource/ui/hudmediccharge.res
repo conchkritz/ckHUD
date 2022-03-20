@@ -234,7 +234,7 @@
 		"ControlName"	"ContinuousProgressBar"
 		"fieldName"		"ChargeMeter3"
 		"font"			"Default"
-		"xpos"			"-30"
+		"xpos"			"-31"
 		"ypos"			"0"
 		"zpos"			"2"
 		"wide"			"30"
@@ -287,7 +287,7 @@
 		"scaleImage"	"1"	
 	}	
 	
-	"ResistIconAnchor"
+	"ResistIconAnchor" // fix me pls :(
 	{
 		"ControlName" 	"EditablePanel"
 		"fieldName" 	"ResistIconAnchor"

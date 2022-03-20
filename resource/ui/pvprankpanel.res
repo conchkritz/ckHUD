@@ -200,14 +200,13 @@
 			"ypos"			"cs-0.5"
 			"tall"			"35"
 			"wide"			"505"
-			"tall"			"f40"
 		}
 
 		"NameLabel"
 		{
 			"ControlName"	"Label"
 			"fieldName"		"NameLabel"
-			"xpos"			"9999"
+			"xpos"			"65"
 			"ypos"			"5"
 			"wide"			"f0"
 			"zpos"			"100"
@@ -222,18 +221,7 @@
 
 			if_mini
 			{
-				"xpos"			"65"
-				"ypos"			"5"
-				"wide"			"f0"
-				"zpos"			"100"
-				"tall"			"20"
-				"visible"		"0"
-				"enabled"		"1"
-				"font"			"HudFontSmallishBold"
-				"fgcolor_override"	"TanLight"
-				"textAlignment"	"north-west"
-				"labelText"		"%name%"
-				"proportionaltoparent"	"1"
+				"visible"	"0"
 			}
 		}
 
@@ -241,7 +229,7 @@
 		{
 			"ControlName"	"CAutoFittingLabel"
 			"fieldName"		"DescLine1"
-			"xpos"			"9999"
+			"xpos"			"65"
 			"ypos"			"19"
 			"wide"			"195"
 			"zpos"			"100"
@@ -258,16 +246,6 @@
 			{
 				"xpos"	"67"
 				"ypos"	"4"
-				"wide"			"195"
-				"zpos"			"100"
-				"tall"			"20"
-				"visible"		"1"
-				"enabled"		"1"
-				"font"			"HudFontSmallestBold"
-				"fgcolor_override"	"TanLight"
-				"textAlignment"	"north-west"
-				"labelText"		"%desc1%"
-				"proportionaltoparent"	"1"
 			}
 
 			"fonts"
@@ -282,9 +260,9 @@
 		{
 			"ControlName"	"CAutoFittingLabel"
 			"fieldName"		"DescLine2"
-			"xpos"			"135"
-			"ypos"			"48"
-			"wide"			"f0"
+			"xpos"			"65"
+			"ypos"			"29"
+			"wide"			"195"
 			"zpos"			"100"
 			"tall"			"20"
 			"visible"		"1"
@@ -299,16 +277,6 @@
 			{
 				"xpos"	"67"
 				"ypos"	"4"
-				"wide"			"195"
-				"zpos"			"100"
-				"tall"			"20"
-				"visible"		"1"
-				"enabled"		"1"
-				"font"			"HudFontSmallestBold"
-				"fgcolor_override"	"TanLight"
-				"textAlignment"	"north-west"
-				"labelText"		"%desc2%"
-				"proportionaltoparent"	"1"
 			}
 
 			"fonts"
@@ -384,7 +352,7 @@
 					"visible"		"1"
 					"enabled"		"1"
 					"font"			"hudfont10"
-					"fgcolor_override"	"colorwhite"
+					"fgcolor_override"	"TanLight"
 					"textAlignment"	"south-east"
 					"labelText"		"%next_level_xp%"
 					"proportionaltoparent"	"1"
@@ -440,7 +408,7 @@
 						"tall"			"f0"
 						"zpos"			"5"
 						"proportionaltoparent"	"1"
-						"border"		"NoBorder"
+						"border"		"InnerShadowBorderThin"
 					}
 				}
 			}
@@ -449,7 +417,7 @@
 			{
 				"ControlName"	"EditablePanel"
 				"fieldName"		"Stats"
-				"xpos"			"9999"
+				"xpos"			"0"
 				"ypos"			"5"
 				"wide"			"f0"
 				"tall"			"p0.45"
