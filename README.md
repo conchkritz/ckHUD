@@ -8,7 +8,10 @@ A hud made by conch, think of it as the sucessor to kritzhud.
 Cuurently only being tested on 1080p. If anyone else wants to test for me you can add me on discord.
 
 # Customizations
-Drag and drop the folder's contents into the correct folder in the hud, and it should work.
 
 So far we have:
-Alternative Uber **(slightly broken)**
+
+* A minmode that moves the main hud elements down.
+* Built in transparent viewmodels. (in scripts/hudlayout.res)
+* Crosshairs and Hitmarkers. (in scripts/hudlayout.res)
+* Alternative Uber: A different style of uber that puts the meter on the right side instead of centering it. (in #customizations) **(slightly broken)**
