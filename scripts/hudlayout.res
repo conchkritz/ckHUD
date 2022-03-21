@@ -91,7 +91,7 @@
 		"visible" "1"
 		"enabled" "1"
 		"xpos"	"c0"	[$WIN32]
-		"ypos"	"c-3"	[$WIN32]
+		"ypos"	"c0"	[$WIN32]
 		"wide"	"f0"
 		"tall"	"1000"
 		
@@ -301,7 +301,7 @@
 		"enabled" 	"1"
 		"xpos"		"c-126"
 		"ypos"		"323"
-		"ypos_minmode" "280"
+		"ypos_minmode" "285"
 		"wide"	 	"f0"
 		"tall"	 	"f0"
 		"priority"	"40"
@@ -336,8 +336,8 @@
 		"visible" 	"0"
 		"enabled" 	"1"
 		"xpos"		"c-126"
-		"ypos"		"349"
-		"ypos_minmode" "305"
+		"ypos"		"345"
+		"ypos_minmode" "307"
 		"wide"	 	"f0"
 		"tall"	 	"f0"
 		"priority"	"35"

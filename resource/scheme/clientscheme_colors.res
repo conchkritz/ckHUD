@@ -22,8 +22,8 @@ Scheme
 		"low"					"200 45 45 255" // low ammo/hp
 		"lowdark"				"175 45 45 255" // low ammo/hp
 		"overheal"				"75 175 255 255" // overhealed
-		"ubercharge1"			"192 28 0 255" // uber 1
-		"ubercharge2"			"255 28 0 255" // uber 2 (fades into annd back to 1)
+		"ubercharge1"			"60 160 255 255" // overhealed
+		"ubercharge2"			"95 205 255 2555" // overhealed
 		"meter1"				"255 192 0 255"
 		"meter2"				"255 128 0 255"
 		"meter3"				"255 64 0 255"

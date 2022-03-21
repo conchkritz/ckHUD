@@ -5,21 +5,48 @@
 		"ControlName"			"ImagePanel"
 		"fieldName"				"TargetIDBG"
 		"xpos"					"4"
-		"ypos"					"12"
+		"ypos"					"6"
 		"zpos"					"-1"
-		"wide"					"f0"
-		"tall"	 				"14"
+		"wide"					"240"
+		"tall"	 				"15"
 		"visible"				"1"
 		"enabled"				"1"
 		"fillcolor" 			"colortransparentgray"
 	}
+	"TargetIDBGTop"
+	{
+		"ControlName"			"EditablePanel"
+		"fieldName"				"TargetIDBGTop"
+		"xpos"					"4"
+		"ypos"					"20"
+		"zpos"					"20"
+		"wide"					"270"
+		"tall"	 				"1"
+		"visible"				"1"
+		"enabled"				"1"
+		"bgcolor_override" 		"transparentblack"
+	}
+	"TargetIDBGBottom"
+	{
+		"ControlName"			"EditablePanel"
+		"fieldName"				"TargetIDBGTop"
+		"xpos"					"4"
+		"ypos"					"6"
+		"zpos"					"20"
+		"wide"					"270"
+		"tall"	 				"1"
+		"visible"				"1"
+		"enabled"				"1"
+		"bgcolor_override" 		"transparentblack"
+	}
+	
 	"TargetNameLabel"
 	{	
 		"ControlName"		"Label"
 		"fieldName"		"TargetNameLabel"
 		"font"			"hudfont14"
 		"xpos"			"8"
-		"ypos"			"12"
+		"ypos"			"7"
 		"zpos"			"1"
 		"wide"			"640"
 		"tall"			"24"
@@ -59,7 +86,7 @@
 		"fieldName"		"TargetDataLabel"
 		"font"			"hudfont8shadow"
 		"xpos"			"8"
-		"ypos"			"23"	[$WIN32]
+		"ypos"			"17"	[$WIN32]
 		"zpos"			"1"
 		"wide"			"280"
 		"tall"			"15"
@@ -77,9 +104,9 @@
 		"ControlName"		"EditablePanel"
 		"fieldName"		"SpectatorGUIHealth"
 		"xpos"			"4"
-		"ypos"			"0"
-		"wide"			"45"
-		"tall"			"45"
+		"ypos"			"-3"
+		"wide"			"32"
+		"tall"			"32"
 		"visible"		"0"
 		"enabled"		"0"	
 		"HealthBonusPosAdj"	"10"
@@ -88,12 +115,13 @@
 		"HealthDeathWarningColor"	"HUDDeathWarning"
 		"TextColor"		"HudOffWhite"
 	}	
+	
 	"AmmoIcon"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"AmmoIcon"
-		"xpos"			"55"
-		"ypos"			"26"
+		"xpos"			"40"
+		"ypos"			"20"
 		"zpos"			"12"
 		"wide"			"8"
 		"tall"			"8"
@@ -107,8 +135,8 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"KillStreakIcon"
-		"xpos"			"48"
-		"ypos"			"26"
+		"xpos"			"10"
+		"ypos"			"20"
 		"zpos"			"12"
 		"wide"			"8"
 		"tall"			"8"
@@ -118,20 +146,6 @@
 		"scaleImage"	"1"
 	}
 	
-	"KillStreakIconDupe" // im too poor and dont have friends :(
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"KillStreakIconDupe"
-		"xpos"			"48"
-		"ypos"			"26"
-		"zpos"			"12"
-		"wide"			"8"
-		"tall"			"8"
-		"visible"		"0"
-		"enabled"		"0"
-//		"image"			"../hud/leaderboard_streak"
-		"scaleImage"	"1"
-	}
 	"MoveableSubPanel"
 	{
 		"ControlName"		"EditablePanel"
