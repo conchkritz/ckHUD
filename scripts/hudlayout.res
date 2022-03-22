@@ -35,7 +35,7 @@
 		"textAlignment"		"center"
 		"enabled"			"1"
 
-		"visible"			"1" // Change this to "1" to turn on
+		"visible"			"0" // Change this to "1" to turn on
 
 		"labelText"			"6"
 		"font"				"Size:25 | Outline:OFF"
