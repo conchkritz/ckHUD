@@ -6,9 +6,11 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"c-150"	[$WIN32]
-		"ypos"			"c120"	[$WIN32]
+		"ypos"			"c45"	[$WIN32]
 		"wide"			"150"
 		"tall"			"50"
+		
+		"ypos_minmode"			"c120"	[$WIN32]
 	}
 	
 	"ItemEffectMeterBG"

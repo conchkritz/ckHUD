@@ -504,8 +504,8 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"Notifications_ShowButtonPanel"
-		"xpos"			"c148"
-		"ypos"			"28"
+		"xpos"			"0"
+		"ypos"			"-30"
 		"zpos"			"10"
 		"wide"			"32"
 		"tall"			"32"
@@ -519,6 +519,7 @@
 		"navLeft"		"QuickplayButton"
 		"navRight"		"Notifications_Panel"
 		"navToRelay"	"Notifications_ShowButtonPanel_SB"
+		"pin_to_sibling" 	"MOTD_ShowButtonPanel"
 		
 		"SubImage"
 		{
@@ -608,7 +609,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"WatchStreamButton"
 		"xpos"			"cs-3.35"
-		"ypos"			"cs-4.8"
+		"ypos"			"cs-4.975"
 		"zpos"			"1"
 		"wide"			"32"
 		"tall"			"32"
@@ -681,7 +682,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"QuestLogButton"
 		"xpos"			"0"
-		"ypos"			"-27"
+		"ypos"			"-30"
 		"zpos"			"1"
 		"wide"			"32"
 		"tall"			"32"
@@ -755,7 +756,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"MOTD_ShowButtonPanel"
 		"xpos"			"0"
-		"ypos"			"-27"
+		"ypos"			"-30"
 		"zpos"			"1"
 		"wide"			"32"
 		"tall"			"32"
@@ -1405,7 +1406,7 @@
 		"visible"		"0"
 	}
 
-	"FriendsContainer"
+	"FriendsContainer" // i need more friends to fix this (pls add me)
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"FriendsContainer"
@@ -1900,8 +1901,8 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"ReportPlayerButton"
-		"xpos"			"c-47"
-		"ypos"			"437"
+		"xpos"			"-110"
+		"ypos"			"0"
 		"zpos"			"11"
 		"wide"			"30"
 		"tall"			"25"
@@ -1911,7 +1912,7 @@
 		"navRight"		"CallVoteButton"
 		"navDown"		"QuickplayChangeButton"
 		"navToRelay"	"SubButton"
-
+		"pin_to_sibling" "ReloadHudButton"
 		"SubButton"
 		{
 			"ControlName"	"CExImageButton"
@@ -1969,12 +1970,14 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"CallVoteButton"
-		"xpos"			"c-24"
-		"ypos"			"437"
+		"xpos"			"-25"
+		"ypos"			"0"
 		"zpos"			"12"
 		"wide"			"25"
 		"tall"			"25"
 		"visible"		"1"
+
+		"pin_to_sibling"	"ReportPlayerButton"
 
 		"navLeft"		"ReportPlayerButton"
 		"navDown"		"QuickplayChangeButton"
@@ -2036,12 +2039,14 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"MutePlayersButton"
-		"xpos"			"c-1"
-		"ypos"			"437"
+		"xpos"			"-23"
+		"ypos"			"0"
 		"zpos"			"12"
 		"wide"			"25"
 		"tall"			"25"
 		"visible"		"1"
+		
+		"pin_to_sibling"	"CallVoteButton"
 
 		"navLeft"		"CallVoteButton"
 		"navDown"		"QuickplayChangeButton"
@@ -2104,12 +2109,14 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"RequestCoachButton"
-		"xpos"			"c22"
-		"ypos"			"437"
-		"zpos"			"12"
+		"xpos"			"-23"
+		"ypos"			"0"
+		"zpos"			"11"
 		"wide"			"25"
 		"tall"			"25"
 		"visible"		"1"
+	
+		"pin_to_sibling"	"MutePlayersButton"
 
 		"navLeft"		"MutePlayersButton"
 		"navRight"		"Notifications_ShowButtonPanel"
@@ -2322,7 +2329,8 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"SettingsButton"
-		"xpos"			"c-208+273"
+		"xpos"			"c-309"
+		"xpos"			"c-309"
 		"ypos"			"437"
 		"zpos"			"1"
 		"wide"			"30"
@@ -2370,8 +2378,8 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"TF2SettingsButton"
-		"xpos"			"c-183+273"
-		"ypos"			"437"
+		"xpos"			"-25"
+		"ypos"			"0"
 		"zpos"			"2"
 		"wide"			"26"
 		"tall"			"25"
@@ -2396,7 +2404,10 @@
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"border_default"	"MainMenuSubButtonBorder"
 		
+		"pin_to_sibling" "SettingsButton"
+		
 		"image_drawcolor"	"235 226 202 255"
+		
 		"SubImage"
 		{
 			"ControlName"	"ImagePanel"
@@ -2418,8 +2429,8 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"NewUserForumsButton"
-		"xpos"			"c-158+273"
-		"ypos"			"437"
+		"xpos"			"-25"
+		"ypos"			"0"
 		"zpos"			"2"
 		"wide"			"30"
 		"tall"			"25"
@@ -2445,7 +2456,10 @@
 		"PaintBackgroundType" "0"
 		"border_default"	"MainMenuSubButtonBorder"
 		
+		"pin_to_sibling" "TF2SettingsButton"
+
 		"image_drawcolor"	"235 226 202 255"
+		
 		"SubImage"
 		{
 			"ControlName"	"ImagePanel"
@@ -2466,8 +2480,8 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"AchievementsButton"
-		"xpos"			"c-133+273"
-		"ypos"			"437"
+		"xpos"			"-25"
+		"ypos"			"0"
 		"zpos"			"3"
 		"wide"			"30"
 		"tall"			"25"
@@ -2492,7 +2506,10 @@
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"border_default"	"MainMenuSubButtonBorder"
 		
+		"pin_to_sibling" "NewUserForumsButton"
+
 		"image_drawcolor"	"235 226 202 255"
+		
 		"SubImage"
 		{
 			"ControlName"	"ImagePanel"
@@ -2513,8 +2530,8 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"CommentaryButton"
-		"xpos"			"c-108+273"
-		"ypos"			"437"
+		"xpos"			"-25"
+		"ypos"			"0"
 		"zpos"			"4"
 		"wide"			"30"
 		"tall"			"25"
@@ -2539,7 +2556,10 @@
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"border_default"	"MainMenuSubButtonBorder"
 		
+		"pin_to_sibling" "AchievementsButton"
+
 		"image_drawcolor"	"235 226 202 255"
+		
 		"SubImage"
 		{
 			"ControlName"	"ImagePanel"
@@ -2560,8 +2580,8 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"CoachPlayersButton"
-		"xpos"			"c-83+273"
-		"ypos"			"437"
+		"xpos"			"-25"
+		"ypos"			"0"
 		"zpos"			"5"
 		"wide"			"25"
 		"tall"			"25"
@@ -2586,7 +2606,10 @@
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"border_default"	"MainMenuSubButtonBorder"
 		
+		"pin_to_sibling" "CommentaryButton"
+
 		"image_drawcolor"	"235 226 202 255"
+		
 		"SubImage"
 		{
 			"ControlName"	"ImagePanel"
@@ -2603,59 +2626,83 @@
 		}				
 	}		
 
-	"WorkshopButton"
+	"SteamWorkshopButton"
 	{
-		"ControlName"	"CExImageButton"
-		"fieldName"		"WorkshopButton"
-		"xpos"			"c-63+273"
-		"ypos"			"437"
-		"zpos"			"4"
-		"wide"			"30"
-		"tall"			"25"
-		"autoResize"	"0"
-		"pinCorner"		"3"
+		"ControlName"	"EditablePanel"
+		"fieldname"		"SteamWorkshopButton"
+		"xpos"			"-160"
+		"ypos"			"-7"
+		"zpos"			"14"
+		"wide"			"20"
+		"tall"			"20"
 		"visible"		"1"
 		"enabled"		"1"
-		"tabPosition"	"0"
-		"labelText"		""
-		"font"			"HudFontSmallBold"
-		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
-		"default"		"1"
-		"Command"		"engine OpenSteamWorkshopDialog"
-
-		"navUp"			"VRModeButton"
-		"navLeft"		"AchievementsButton"
-		"navRight"		"CoachPlayersButton"
-
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
-		"border_default"	"MainMenuSubButtonBorder"
 		
-		"image_drawcolor"	"235 226 202 255"
-		"SubImage"
+		"navUp"			"ServerBrowserButton"
+		"navDown"		"ReplayBrowserButton"
+		"navLeft"		"GeneralStoreButton"
+		"navRight"		"Notifications_ShowButtonPanel"
+		"navToRelay"		"SubButton"
+		
+		"pin_to_sibling"	"GeneralStoreButton"
+		
+		"SubButton"
 		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"SubImage"
-			"xpos"			"9"
-			"ypos"			"6"
-			"zpos"			"1"
-			"wide"			"15"
-			"tall"			"15"
+			"ControlName"	"CExImageButton"
+			"fieldName"		"SubButton"
+			"xpos"			"0"
+			"ypos"			"0"
+			"wide"			"20"
+			"tall"			"20"
+			"autoResize"	"0"
+			"pinCorner"		"3"
 			"visible"		"1"
 			"enabled"		"1"
-			"image"			"glyph_steamworkshop"
-			"scaleImage"	"1"
-		}				
-	}	
+			"tabPosition"	"0"
+			"textinsetx"	"100"
+			"use_proportional_insets" "1"
+			"font"			"HudFontSmallBold"
+			"textAlignment"	"west"
+			"dulltext"		"0"
+			"brighttext"	"0"
+			"default"		"1"
+			"sound_depressed"	"UI/buttonclick.wav"
+			"sound_released"	"UI/buttonclickrelease.wav"
+			
+			"border_default"	"MainMenuMiniButtonDefault"
+			"border_armed"		"MainMenuMiniButtonArmed"
+			"paintbackground"	"0"
+			
+			"defaultFgColor_override" "46 43 42 255"
+			"armedFgColor_override" "46 43 42 255"
+			"depressedFgColor_override" "46 43 42 255"
+			
+			"image_drawcolor"	"235 226 202 255"
+			"image_armedcolor"	"235 226 202 255"
+			
+			"SubImage"
+			{
+				"ControlName"	"ImagePanel"
+				"fieldName"		"SubImage"
+				"xpos"			"4"
+				"ypos"			"4"
+				"zpos"			"1"
+				"wide"			"12"
+				"tall"			"12"
+				"visible"		"1"
+				"enabled"		"1"
+				"image"			"glyph_steamworkshop"
+				"scaleImage"	"1"
+			}				
+		}		
+	}
 
 	"ReplayButton"
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"ReplayButton"
-		"xpos"			"c-34+273"
-		"ypos"			"437"
+		"xpos"			"-24"
+		"ypos"			"0"
 		"zpos"			"5"
 		"wide"			"25"
 		"tall"			"25"
@@ -2680,7 +2727,10 @@
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"border_default"	"MainMenuSubButtonBorder"
 		
+		"pin_to_sibling" "CoachPlayersButton"
+
 		"image_drawcolor"	"235 226 202 255"
+		
 		"SubImage"
 		{
 			"ControlName"	"ImagePanel"
@@ -2701,8 +2751,8 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"ReportBugButton"
-		"xpos"			"c-14+273"
-		"ypos"			"437"
+		"xpos"			"-20"
+		"ypos"			"0"
 		"zpos"			"4"
 		"wide"			"30"
 		"tall"			"25"
@@ -2721,10 +2771,12 @@
 
 		"navUp"			"VRModeButton"
 		"navLeft"		"CoachPlayersButton"
-		"navRight"		"SettingsButton"
+		"navRight"		"MinmodeButton"
 
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+	
+		"pin_to_sibling" "ReplayButton"
 		
 		"image_drawcolor"	"235 226 202 255"
 		"SubImage"
@@ -2742,7 +2794,116 @@
 			"scaleImage"	"1"
 		}				
 	}			
-				
+
+	"MinmodeButton"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldname"		"MinmodeButton"
+		"xpos"			"-35"
+		"ypos"			"0"
+		"zpos"			"4"
+		"wide"			"25"
+		"tall"			"25"
+		"visible"		"1"
+		"enabled"		"1"
+		
+		"navUp"			"VRModeButton"
+		"navLeft"		"ReportBugButton"
+		"navRight"		"ReloadHudButton"
+		
+		"pin_to_sibling"	"ReportBugButton"
+		"image_drawcolor"	"235 226 202 255"
+
+		"SubButton"
+		{
+			"ControlName"	"CExImageButton"
+			"fieldName"		"SubButton"
+			"xpos"			"0"
+			"ypos"			"0"
+			"wide"			"26"
+			"tall"			"25"
+			"autoResize"	"0"
+			"pinCorner"		"3"
+			"visible"		"1"
+			"enabled"		"1"
+			"tabPosition"	"0"
+			"textinsetx"	"100"
+			"use_proportional_insets" "1"
+			"font"			"HudFontSmallBold"
+			"textAlignment"	"west"
+			"dulltext"		"0"
+			"brighttext"	"0"
+			"default"		"1"
+			
+			"sound_depressed"	"UI/buttonclick.wav"
+			"sound_released"	"UI/buttonclickrelease.wav"
+			"image_drawcolor"	"235 226 202 255"
+		
+			"SubImage"
+			{
+				"ControlName"	"ImagePanel"
+				"fieldName"		"SubImage"
+				"xpos"			"4"
+				"ypos"			"5"
+				"zpos"			"1"
+				"wide"			"15"
+				"tall"			"15"
+				"visible"		"1"
+				"enabled"		"1"
+				"image"			"../vgui/replay/thumbnails/icons/glyph_hudmode_default"
+				"scaleImage"	"1"
+			}				
+		}		
+	}
+	
+	"ReloadHudButton"
+	{
+		"ControlName"	"CExImageButton"
+		"fieldName"		"ReloadHudButton"
+		"xpos"			"-23"
+		"ypos"			"0"
+		"zpos"			"5"
+		"wide"			"105"
+		"tall"			"25"
+		"autoResize"	"0"
+		"pinCorner"		"3"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"labelText"		"Reload Hud"
+		"font"			"hudfont14"
+		"textAlignment"	"east"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"default"		"1"
+		"Command"		"engine hud_reloadscheme"
+
+		"navUp"			"VRModeButton"
+		"navLeft"		"ReportBugButton"
+		"navRight"		"SettingsButton"
+
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
+		"border_default"	"ReloadHudBorder"
+
+		"pin_to_sibling" "MinmodeButton"
+		
+		"image_drawcolor"	"235 226 202 255"
+		"SubImage"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"SubImage"
+			"xpos"			"4"
+			"ypos"			"5"
+			"zpos"			"1"
+			"wide"			"15"
+			"tall"			"15"
+			"visible"		"1"
+			"enabled"		"1"
+			"image"			"../vgui/replay/thumbnails/icons/glyph_reload"
+			"scaleImage"	"1"
+		}				
+	}	
 	
 	"BackToReplaysButton"
 	{

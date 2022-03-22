@@ -17,7 +17,7 @@ event HudHealthBonusPulse
 	
 	Animate	PlayerStatusHealthValue			FgColor		"overheal" 				Linear 0 0.1
 
-	Animate	TargetHealthBG					BgColor		"overheal" 				Linear 0 0.1
+	Animate	SpecGuiHP						FgColor		"overheal" 				Linear 0 0.1
 
 	RunEvent HudHealthBonusPulseLoop	0.4
 }
@@ -36,7 +36,7 @@ event HudHealthBonusPulseStop
 	
 	Animate	PlayerStatusHealthValue 		FgColor		"colorwhite"			Linear 0 0.1
 	
-	Animate	TargetHealthBG					BgColor		"colortransparentgray" 	Linear 0 0.1
+	Animate	SpecGuiHP 						FgColor		"colorwhite"			Linear 0 0.1
 
 }
 
@@ -50,10 +50,9 @@ event HudHealthDyingPulse
 	Animate	PlayerStatusHealthValueShadow			FgColor		"low"			Linear 0.0 0.075
 	Animate	PlayerStatusHealthValueShadow			FgColor		"colorblack"	Linear 0.125 0.075
 
-	Animate	SpecGuiHPShadow			FgColor		"lowdark"		Linear 0.0 0.075
-	Animate	SpecGuiHPShadow			FgColor		"colorblack"	Linear 0.125 0.075	
+	Animate	SpecGuiHPShadow							FgColor		"lowdark"		Linear 0.0 0.075
+	Animate	SpecGuiHPShadow							FgColor		"colorblack"	Linear 0.125 0.075	
 	
-	Animate	TargetHealthBG							BgColor		"low" 			Linear 0 0
 	
 	RunEvent HudHealthDyingPulseLoop	0.25
 }
@@ -71,9 +70,8 @@ event HudHealthDyingPulseStop
 	StopEvent HudHealthDyingPulse 0.0
 
 	Animate	PlayerStatusHealthValueShadow			FgColor			"colorblack" 		Linear 0.0 0.0
-	Animate	SpecGuiHPShadow			FgColor			"colorblack"		Linear 0 0
+	Animate	SpecGuiHPShadow							FgColor			"colorblack"		Linear 0 0
 
-	Animate	TargetHealthBG							BgColor			"colortransparentgray"	 			Linear 0 0
 }
 
 // ===========================================
@@ -108,8 +106,8 @@ event HudLowAmmoPulseStop
 }
 
 //===========================================
-// Spy Disguise
 
+// Spy Disguise
 event HudSpyDisguiseChanged
 {
 
@@ -117,7 +115,7 @@ event HudSpyDisguiseChanged
 
 event HudSpyDisguiseHide
 {
-	
+
 }
 
 event HudSpyDisguiseFadeIn
@@ -127,8 +125,9 @@ event HudSpyDisguiseFadeIn
 
 event HudSpyDisguiseFadeOut
 {
-	
+
 }
+
 
 // ===========================================
 // hudmatchstatus
@@ -149,10 +148,12 @@ event TeamStatus_PlayerAlive
 
 event HudSnapShotReminderIn
 {
-    RunEvent DefaultAnimHudSnapShotReminderIn 0.0
-
-    RunEvent HudHealthDyingPulseStop 0.0
-    RunEvent HudHealthBonusPulseStop 0.0
-    RunEvent HudLowAmmoPulseStop 0.0
-    RunEvent HudMedicChargedStop 0.0
+	Animate ScreenshotPanel		Position	"c-83 -50"	Linear 0.0 0.001
+	Animate ScreenshotPanel		Position	"c-83 13"	Spline 0.001 0.2
+	
+	RunEvent HudHealthDyingPulseStop 10.0
+    RunEvent HudHealthBonusPulseStop 10.0
+    RunEvent HudLowAmmoPulseStop 10.0
+    RunEvent HudMedicChargedStop 10.0
+	
 }

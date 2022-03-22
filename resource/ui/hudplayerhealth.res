@@ -21,11 +21,11 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthImage"
-		"xpos"			"70"		
+		"xpos"			"50"		
 		"ypos"			"35" // does not move
 		"zpos"			"4"
-		"wide"			"51"
-		"tall"			"51"
+		"wide"			"52"
+		"tall"			"52"
 		"visible"		"0"
 		"enabled"		"1"
 		"scaleImage"	"1"	
@@ -105,21 +105,6 @@
 		"labelText"		"%MaxHealth%"
 		"textAlignment"	"center"	
 		"font"			"DefaultSmall"
-		"fgcolor"		"TanDark"
-	}
-	"PlayerStatusBleedImage"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"PlayerStatusBleedImage"
-		"xpos"			"85"
-		"ypos"			"0"
-		"zpos"			"7"
-		"wide"			"32"
-		"tall"			"32"
-		"visible"		"1"
-		"enabled"		"1"
-		"scaleImage"	"1"	
-		"image"			"../vgui/bleed_drop"
 		"fgcolor"		"TanDark"
 	}
 	"PlayerStatusHookBleedImage"

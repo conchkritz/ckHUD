@@ -19,13 +19,13 @@
 		"image"			"replay/thumbnails/REFRACTnormal_transparent"
 		"scaleImage"	"1"
 		
-		"visible"		"1"
+		"visible"		"0" // Change this to "1" to turn on
 	}
 
 // ===========================================
 // ===========================================
 
-	Hitmarker
+	Hitmarker // sorry if its 1 by default, im stupid
 	{	
 		"controlName"		"CExLabel"
 		"fieldName"			"Hitmarker"
@@ -35,14 +35,23 @@
 		"textAlignment"		"center"
 		"enabled"			"1"
 
-		"visible"			"1"
+		"visible"			"1" // Change this to "1" to turn on
 
-		"labelText"			"C"
+		"labelText"			"6"
 		"font"				"Size:25 | Outline:OFF"
-		"fgcolor" "255 0 0 0" // color
 		
-		"xpos"				"cs-0.5000001"
-		"ypos"				"cs-0.49999"
+		"xpos"				"cs-0.4999" // changes these if the crosshair/hitmarker is off (very sensitive)
+		"ypos"				"cs-0.4999" // cs-0.5 standard, cs-0.4999 default
+
+// ===========================================		
+		"fgcolor" "255 0 0 0" // color determined by scripts/hudanimations_custom.txt, looks this this \/
+// ===========================================
+//		event DamagedPlayer
+//		{					   //change these \/
+//			Animate	Hitmarker fgcolor	"255 0 0 255"	Linear 0.0 0.0 // when enemy is hit
+//			Animate	Hitmarker fgcolor	"255 0 0 0"		spline 0.1 0.2 // fade out
+//		}
+// ===========================================
 	}
 
 // ===========================================
@@ -58,13 +67,13 @@
 		"textAlignment"		"center"
 		"enabled"			"1"
 
-		"visible"			"0"
+		"visible"			"0" // Change this to "1" to turn on
 
 		"labelText"			"C"
 		"font"				"Size:25 | Outline:OFF"
 		"fgcolor" "0 255 0 255" // color
 		
-		"xpos"				"cs-0.5000001"
+		"xpos"				"cs-0.5000001" // changes these if the crosshair/hitmarker is off (very sensitive)
 		"ypos"				"cs-0.49999"
 	}
 
@@ -91,7 +100,7 @@
 		"visible" "1"
 		"enabled" "1"
 		"xpos"	"c0"	[$WIN32]
-		"ypos"	"c0"	[$WIN32]
+		"ypos"	"c-3"	[$WIN32]
 		"wide"	"f0"
 		"tall"	"1000"
 		
@@ -301,7 +310,7 @@
 		"enabled" 	"1"
 		"xpos"		"c-126"
 		"ypos"		"323"
-		"ypos_minmode" "285"
+		"ypos_minmode" "280"
 		"wide"	 	"f0"
 		"tall"	 	"f0"
 		"priority"	"40"
@@ -336,8 +345,8 @@
 		"visible" 	"0"
 		"enabled" 	"1"
 		"xpos"		"c-126"
-		"ypos"		"345"
-		"ypos_minmode" "307"
+		"ypos"		"349"
+		"ypos_minmode" "305"
 		"wide"	 	"f0"
 		"tall"	 	"f0"
 		"priority"	"35"
@@ -539,7 +548,7 @@
 		"visible" "1"
 		"enabled" "1"
 		"xpos"	 "r640"	[$WIN32]
-		"ypos"	 "18"	[$WIN32]
+		"ypos"	 "24"	[$WIN32]
 		"wide"	 "628"
 		"tall"	 "468"
 

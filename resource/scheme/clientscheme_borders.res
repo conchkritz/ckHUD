@@ -273,7 +273,36 @@ Scheme
 				}
 			}
 		}
-
+		
+		ReloadHudBorder
+		{
+			"inset" "0 0 1 1"
+			"backgroundtype"		"2"
+			Left
+			{
+				"1"
+				{
+					"color" "TanDarker"
+					"offset" "0 1"
+				}
+			}
+			
+		}
+		
+		ReloadHudBorder2
+		{
+			"inset" "0 0 1 1"
+			"backgroundtype"		"2"
+			Right
+			{
+				"1"
+				{
+					"color" "TanDarker"
+					"offset" "0 1"
+				}
+			}
+			
+		}	
 // 		===========================================
 // 		default edited border
 
