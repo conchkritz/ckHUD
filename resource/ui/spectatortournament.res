@@ -224,7 +224,7 @@
 				"fieldName"		"respawntime"
 				"font"			"HudFontSmallestBold"
 				"xpos"			"35"
-				"ypos"			"8"
+				"ypos"			"12"
 				"zpos"			"5"
 				"wide"			"50"
 				"tall"			"10"
@@ -247,7 +247,7 @@
 				"fieldName"		"chargeamount"
 				"font"			"HudFontSmallestBold"
 				"xpos"			"35"
-				"ypos"			"18"
+				"ypos"			"12"
 				"zpos"			"6"
 				"wide"			"50"
 				"tall"			"10"
@@ -368,7 +368,7 @@
 		"ControlName"		"CExLabel"
 		"fieldName"		"BuyBackLabel"
 		"xpos"			"c-300"	[$WIN32]
-		"ypos"			"300"	[$WIN32]
+		"ypos"			"200"	[$WIN32]
 		"wide"			"600"	[$WIN32]
 		"tall"			"18"
 		"autoResize"		"0"

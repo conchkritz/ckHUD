@@ -1,28 +1,5 @@
 "Resource/UI/HudObjectiveTimePanel.res"
 {
-	"TimePanelBG"
-	{
-		"ControlName"		"ScalableImagePanel"
-		"fieldName"			"TimePanelBG"
-		"xpos"				"30"
-		"ypos"				"4"
-		"zpos"				"2"
-		"wide"				"50"
-		"tall"				"24"
-		"visible"			"1"
-		"enabled"			"1"
-		"image"				"../hud/objectives_timepanel_blue_bg"	
-		"scaleImage"		"1"			
-		"src_corner_height"			"40"
-		"src_corner_width"			"40"
-		"draw_corner_width"			"0"
-		"draw_corner_height" 			"0"
-		
-		if_match
-		{
-			//"xpos"					"40"
-		}
-	}	
 	"InfoPanelBG"
 	{
 		"ControlName"				"ImagePanel"
@@ -72,7 +49,7 @@
 		"dulltext"			"0"
 		"brighttext"		"0"
 		"wrap"				"0"
-		"font"				"HudFontSmallest"
+		"font"				"hudfont12"
 		
 		if_match
 		{
@@ -114,7 +91,7 @@
 		"dulltext"			"0"
 		"brighttext"		"0"
 		"wrap"				"0"
-		"font"				"HudFontSmallestBold"
+		"font"				"hudfont12"
 		
 		if_match
 		{
@@ -123,7 +100,7 @@
 			//"ypos"					"21"
 			//"ypos_minmode"			"21"
 			//"wide"					"130"
-			//"font"					"HudFontSmallestBold"
+			//"font"					"hudfont12"
 		}
 	}			
 	"OvertimeBG"
@@ -156,7 +133,7 @@
 		"dulltext"			"0"
 		"brighttext"		"0"
 		"wrap"				"0"
-		"font"				"HudFontSmallest"
+		"font"				"hudfont12"
 		
 		if_match
 		{
@@ -198,7 +175,7 @@
 		"dulltext"			"0"
 		"brighttext"		"0"
 		"wrap"				"0"
-		"font"				"HudFontSmallestBold"
+		"font"				"hudfont12"
 		
 		if_match
 		{
@@ -240,7 +217,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"wrap"			"0"
-		"font"			"HudFontSmallestBold"
+		"font"			"hudfont12"
 		
 		if_match
 		{

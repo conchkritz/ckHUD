@@ -5,7 +5,7 @@
 		"ControlName"		"EditablePanel"
 		"fieldName"		"TeamScoresPanel"
 		"xpos"			"-41"
-		"ypos"			"44"
+		"ypos"			"40"
 		"wide"			"480"
 		"tall"			"60"
 		"visible"		"1"
@@ -40,6 +40,22 @@
 
 			"border"		"TFFatLineBorderRedBGMoreOpaque"
 		}
+		"WhiteDivide" // aparently it's gray?
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"WhiteDivide"
+			"xpos"			"50"
+			"ypos"			"59"
+			"zpos"			"999" // ????
+			"wide"			"282"
+			"tall"			"2"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+
+			"fillcolor"		"colorwhite"
+		}
 		"BlueTeamLabel"
 		{
 			"ControlName"		"CExLabel"
@@ -48,7 +64,7 @@
 			"labelText"		"%blueteamname%"
 			"textAlignment"		"west"
 			"xpos"			"56"
-			"ypos"			"38"
+			"ypos"			"40"
 			"zpos"			"10"
 			"wide"			"100"
 			"tall"			"20"
@@ -68,7 +84,7 @@
 			"labelText"		"%redteamname%"
 			"textAlignment"		"east"
 			"xpos"			"224"
-			"ypos"			"38"
+			"ypos"			"40"
 			"zpos"			"10"
 			"wide"			"100"
 			"tall"			"20"
@@ -130,7 +146,7 @@
 			"labelText"		"%blueteamscore%"
 			"textAlignment"		"east"
 			"xpos"			"80"
-			"ypos"			"23"
+			"ypos"			"25"
 			"zpos"			"3"
 			"wide"			"100"
 			"tall"			"50"
@@ -198,7 +214,7 @@
 			"labelText"		"%redteamscore%"
 			"textAlignment"		"west"
 			"xpos"			"202"
-			"ypos"			"23"
+			"ypos"			"25"
 			"zpos"			"3"
 			"wide"			"100"
 			"tall"			"50"

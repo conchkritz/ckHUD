@@ -48,11 +48,11 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthBonusImage"
-		"xpos"			"89"	[$WIN32]
-		"ypos"			"35"	[$WIN32]
+		"xpos"			"96"	[$WIN32]
+		"ypos"			"40"	[$WIN32]
 		"zpos"			"2"
-		"wide"			"55"	[$WIN32]
-		"tall"			"55"	[$WIN32]
+		"wide"			"40"	[$WIN32]
+		"tall"			"40"	[$WIN32]
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			"../hud/health_over_bg"

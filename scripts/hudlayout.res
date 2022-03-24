@@ -35,7 +35,7 @@
 		"textAlignment"		"center"
 		"enabled"			"1"
 
-		"visible"			"0" // Change this to "1" to turn on
+		"visible"			"1" // Change this to "1" to turn on
 
 		"labelText"			"6"
 		"font"				"Size:25 | Outline:OFF"
@@ -43,8 +43,10 @@
 		"xpos"				"cs-0.4999" // changes these if the crosshair/hitmarker is off (very sensitive)
 		"ypos"				"cs-0.4999" // cs-0.5 standard, cs-0.4999 default
 
+		"fgcolor"			"255 0 0 0"
+
 // ===========================================		
-		"fgcolor" "255 0 0 0" // color determined by scripts/hudanimations_custom.txt, looks this this \/
+// color determined by scripts/hudanimations_custom.txt, looks this this \/
 // ===========================================
 //		event DamagedPlayer
 //		{					   //change these \/
@@ -310,7 +312,7 @@
 		"enabled" 	"1"
 		"xpos"		"c-126"
 		"ypos"		"323"
-		"ypos_minmode" "280"
+		"ypos_minmode" "260"
 		"wide"	 	"f0"
 		"tall"	 	"f0"
 		"priority"	"40"
@@ -346,7 +348,7 @@
 		"enabled" 	"1"
 		"xpos"		"c-126"
 		"ypos"		"349"
-		"ypos_minmode" "305"
+		"ypos_minmode" "285"
 		"wide"	 	"f0"
 		"tall"	 	"f0"
 		"priority"	"35"
@@ -548,7 +550,7 @@
 		"visible" "1"
 		"enabled" "1"
 		"xpos"	 "r640"	[$WIN32]
-		"ypos"	 "24"	[$WIN32]
+		"ypos"	 "26"	[$WIN32]
 		"wide"	 "628"
 		"tall"	 "468"
 
@@ -942,19 +944,15 @@
 		"tall"					"215"
 	}
 
-	StatPanel
+	StatPanel // banished to the shadow realm
 	{
 		"fieldName"				"StatPanel"
 		"visible"				"1"
 		"enabled"				"1"
-		"xpos"					"c-133"
-		"xpos_lodef"			"c-190"
-		"ypos"				"270"
-		"ypos_lodef"			"250"
-		"wide"					"266"
-		"wide_lodef"			"400"
-		"tall"					"120"
-		"tall_lodef"			"190"
+		"xpos"					"9999"
+		"ypos"					"9999"
+		"wide"					"0"
+		"tall"					"0"
 	}
 	
 	FreezePanel
