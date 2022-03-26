@@ -273,7 +273,62 @@ Scheme
 				}
 			}
 		}
-		
+		WhiteBorderTrans
+		{
+			"inset" "0 0 0 0"
+			Left
+			{
+				"1"
+				{
+					"color" "242 242 242 50"
+					"offset" "0 0"
+				}
+				"2"
+				{
+					"color" "242 242 242 50"
+					"offset" "1 0"
+				}
+			}
+			Right
+			{
+				"1"
+				{
+					"color" "242 242 242 50"
+					"offset" "0 0"
+				}
+				"2"
+				{
+					"color" "242 242 242 50"
+					"offset" "1 0"
+				}
+			}
+			Top
+			{
+				"1"
+				{
+					"color" "242 242 242 50"
+					"offset" "0 0"
+				}
+				"2"
+				{
+					"color" "242 242 242 50"
+					"offset" "1 0"
+				}
+			}
+			Bottom
+			{
+				"1"
+				{
+					"color" "242 242 242 50"
+					"offset" "0 0"
+				}
+				"2"
+				{
+					"color" "242 242 242 50"
+					"offset" "1 0"
+				}
+			}
+		}
 		ReloadHudBorder
 		{
 			"inset" "0 0 1 1"

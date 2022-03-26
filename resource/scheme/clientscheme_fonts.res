@@ -2,6 +2,7 @@ Scheme
 {
 	Fonts
 	{
+
 // 		===========================================
 // 		main font
 
@@ -101,6 +102,15 @@ Scheme
 			{
 				"name" "TF2 Build"
 				"tall" "24"
+				"antialias" "1"
+			}
+		}
+		"hudfont40"
+		{
+			"1"
+			{
+				"name" "TF2 Build"
+				"tall" "40"
 				"antialias" "1"
 			}
 		}

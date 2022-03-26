@@ -187,8 +187,8 @@
 				"src_corner_height"	"22"				// pixels inside the image
 				"src_corner_width"	"22"
 			
-				"draw_corner_width"	"3"				// screen size of the corners ( and sides ), proportional
-				"draw_corner_height" 	"3"
+				"draw_corner_width"	"6"				// screen size of the corners ( and sides ), proportional
+				"draw_corner_height" 	"6"
 				
 				if_mvm
 				{
@@ -245,8 +245,8 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"chargeamount"
-				"font"			"HudFontSmallestBold"
-				"xpos"			"35"
+				"font"			"hudfont10"
+				"xpos"			"53"
 				"ypos"			"12"
 				"zpos"			"6"
 				"wide"			"50"
@@ -255,14 +255,14 @@
 				"pinCorner"		"0"
 				"visible"		"1"
 				"labelText"		"%chargeamount%"
-				"textAlignment"	"east"
+				"textAlignment"	"center"
 				"fgcolor"		"colorwhite"
 			}
 			"chargeamountShadow"
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"chargeamountShadow"
-				"font"			"HudFontSmallestBold"
+				"font"			"hudfont10"
 				"xpos"			"-1"
 				"ypos"			"-1"
 				"zpos"			"5"
@@ -272,7 +272,7 @@
 				"pinCorner"		"0"
 				"visible"		"1"
 				"labelText"		"%chargeamount%"
-				"textAlignment"	"east"
+				"textAlignment"	"center"
 				"fgcolor"		"colorblack"
 				
 				"pin_to_sibling" "chargeamount"

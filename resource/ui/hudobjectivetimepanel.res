@@ -49,7 +49,7 @@
 		"dulltext"			"0"
 		"brighttext"		"0"
 		"wrap"				"0"
-		"font"				"hudfont12"
+		"font"				"hudfont10"
 		
 		if_match
 		{
@@ -91,7 +91,7 @@
 		"dulltext"			"0"
 		"brighttext"		"0"
 		"wrap"				"0"
-		"font"				"hudfont12"
+		"font"				"hudfont10"
 		
 		if_match
 		{
@@ -100,7 +100,7 @@
 			//"ypos"					"21"
 			//"ypos_minmode"			"21"
 			//"wide"					"130"
-			//"font"					"hudfont12"
+			//"font"					"hudfont10"
 		}
 	}			
 	"OvertimeBG"
@@ -133,7 +133,7 @@
 		"dulltext"			"0"
 		"brighttext"		"0"
 		"wrap"				"0"
-		"font"				"hudfont12"
+		"font"				"hudfont10"
 		
 		if_match
 		{
@@ -175,7 +175,7 @@
 		"dulltext"			"0"
 		"brighttext"		"0"
 		"wrap"				"0"
-		"font"				"hudfont12"
+		"font"				"hudfont10"
 		
 		if_match
 		{
@@ -217,7 +217,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"wrap"			"0"
-		"font"			"hudfont12"
+		"font"			"hudfont10"
 		
 		if_match
 		{

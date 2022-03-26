@@ -21,7 +21,6 @@
 		"visible"			"0"
 
 		"proportionaltoaparent"	"1"
-		"border"			"TFFatLineBorder"
 	
 		if_match
 		{
@@ -46,6 +45,29 @@
 			"teambg_2_lodef"	"../hud/color_panel_red"
 			"teambg_3"		"../hud/color_panel_blu"
 			"teambg_3_lodef"	"../hud/color_panel_blu"
+			"src_corner_height"			"40"
+			"src_corner_width"			"40"
+			"draw_corner_width"			"0"
+			"draw_corner_height" 			"0"
+		
+			if_match
+			{
+			
+			}
+		}	
+		"MainBG"
+		{
+			"ControlName"		"CTFImagePanel"
+			"fieldName"			"MainBG"
+			"xpos"				"0"
+			"ypos"				"0"
+			"zpos"				"2"
+			"wide"				"f0"
+			"tall"				"f0"
+			"visible"			"1"
+			"enabled"			"1"
+			"image"			"../hud/color_panel_brown"
+			"scaleImage"		"1"
 			"src_corner_height"			"40"
 			"src_corner_width"			"40"
 			"draw_corner_width"			"0"
