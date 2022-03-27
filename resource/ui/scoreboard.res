@@ -6,14 +6,14 @@
 		"fieldName"		"scoreinfo"
 		"xpos"			"cs-0.5"
 		"ypos"			"cs-0.5"
-		"wide"			"640"
+		"wide"			"600"
 		"tall"			"448"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"		"0"
-		"medal_width"		"20"
+		"medal_width"		"0"
 		"avatar_width"		"65"
 		"spacer"			"5"
 		"name_width"		"118"
@@ -23,6 +23,7 @@
 		"ping_width"		"25"
 		"killstreak_width"	"15"
 		"killstreak_image_width" "15"
+
 	}
 	
 	"BlueScoreBG"
@@ -172,19 +173,20 @@
 		"border"		"TFThinLineBorder"
 		
 		if_mvm
-		{
-			"ypos"			"0"
-			"tall"			"448"
+		{	
+			"visible"		"0"
+			"tall"			"0"
+			"wide"			"0"
 		}
 	}							
 	"BlueTeamLabel"
 	{
-		"ControlName"		"CExLabel"
+		"ControlName"		"CExLabel" // im an idiot
 		"fieldName"		"BlueTeamLabel"
 		"font"			"ScoreboardTeamNameNew"
 		"labelText"		"%blueteamname%"
 		"textAlignment"		"west"
-		"xpos"			"80"
+		"xpos"			"8888"
 		"ypos"			"21"
 		"zpos"			"20"
 		"wide"			"160"
@@ -206,7 +208,7 @@
 		"font"			"ScoreboardTeamNameNew"
 		"labelText"		"%redteamname%"
 		"textAlignment"		"east"
-		"xpos"			"401"
+		"xpos"			"8888"
 		"ypos"			"21"
 		"zpos"			"20"
 		"wide"			"160"
@@ -365,11 +367,30 @@
 			"visible"		"0"
 		}
 	}	
+	"Divider"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"			"Divider"
+		"xpos"				"0"
+		"ypos"				"207" // nice
+		"zpos"				"3"
+		"wide"				"320"
+		"tall"				"1"
+		"visible"			"1"
+		"enabled"			"1"
+		
+		"fillcolor"			"colorwhite"
+			
+		if_mvm
+		{
+			"visible"		"0"
+		}
+	}	
 	"RedTeamLabelFont"
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"RedTeamLabelFont"
-		"labelText"		"RED"
+		"labelText"		"%redteamname%"
 		"textAlignment"		"west"
 		"xpos"			"10"
 		"ypos"			"22" 
@@ -393,7 +414,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"RedTeamLabelFontShadow"
-		"labelText"		"RED"
+		"labelText"		"%redteamname%"
 		"textAlignment"		"west"
 		"xpos"			"-2"
 		"ypos"			"-2" 
@@ -461,7 +482,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"BluTeamLabelFont"
-		"labelText"		"BLU"
+		"labelText"		"%blueteamname%"
 		"textAlignment"		"west"
 		"xpos"			"10"
 		"ypos"			"342" 
@@ -485,7 +506,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"BluTeamLabelFontShadow"
-		"labelText"		"BLU"
+		"labelText"		"%blueteamname%"
 		"textAlignment"		"west"
 		"xpos"			"-2"
 		"ypos"			"-2" 
@@ -633,41 +654,30 @@
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"		"TimerBG"
-		"xpos"			"280"
+		"xpos"			"9999"
 		"ypos"			"-3"
 		"zpos"			"-1"
 		"wide"			"80"
 		"tall"			"43"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
-		"border"		"TFThinLineBorder"
-		
-		if_mvm
-		{
-			"visible"		"0"
-		}
 	}
 	"ServerTimeLeftInsetBG"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"ServerTimeLeftInsetBG"
-		"xpos"			"286"
+		"xpos"			"9999"
 		"ypos"			"12"
 		"zpos"			"1"
 		"wide"			"68"
 		"tall"			"23"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
-		"border"		"TFFatLineBorderOpaque"
 
-		if_mvm
-		{
-			"visible"		"0"
-		}
 	}
 	"ServerTimeLeftLabel"
 	{
@@ -675,9 +685,9 @@
 		"fieldName"		"ServerTimeLeftLabel"
 		"font"			"ScoreboardVerySmall"
 		"labelText"		"#Scoreboard_TimeLeftLabel"
-		"textAlignment"		"center"
-		"xpos"			"284"
-		"ypos"			"2"
+		"textAlignment"		"east"
+		"xpos"			"508"
+		"ypos"			"335"
 		"zpos"			"2"
 		"wide"			"72"
 		"tall"			"10"
@@ -695,11 +705,11 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"ServerTimeLeftValue"
-		"font"			"ScoreboardMediumSmall"
+		"font"			"ScoreboardVerySmall"
 		"labelText"		"%servertime%"
-		"textAlignment"		"center"
-		"xpos"			"284"
-		"ypos"			"14"
+		"textAlignment"		"east"
+		"xpos"			"522"
+		"ypos"			"340"
 		"zpos"			"2"
 		"wide"			"72"
 		"tall"			"20"
@@ -715,7 +725,7 @@
 			"visible"		"0"
 		}
 	}
-	"ServerTimeLeft"
+	"ServerTimeLeft" // mvm
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"ServerTimeLeft"
@@ -749,10 +759,14 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
+		
 		"tabPosition"	"0"
+		
 		"autoresize"	"3"
-		"linespacing"	"18"
-		"linegap"		"5"
+		
+		"linespacing"	"13"
+		"linegap"		"0"
+		
 		"fgcolor"		"blue"
 		//"show_columns"	"1"
 		
@@ -773,11 +787,16 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
+		
 		"tabPosition"	"0"
+		
 		"autoresize"	"3"
-		"linespacing"	"18"
-		"linegap"		"5"
+		
+		"linespacing"	"13"
+		"linegap"		"0"
+		
 		"fgcolor"		"red"
+		
 		//"show_columns"	"1"
 
  		if_mvm
@@ -1371,7 +1390,7 @@
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"		"LocalPlayerStatsPanel"
-		"xpos"			"192"
+		"xpos"			"200"
 		"ypos"			"125"
 		"zpos"			"3"
 		"wide"			"250"
@@ -1385,16 +1404,18 @@
 		if_mvm
 		{
 			"visible"		"1"
+			"ypos"			"225"
+			"xpos"			"180"
 		}
 		
 		"StatsBg"
 		{
 			"ControlName"		"CTFImagePanel"
 			"fieldName"			"StatsBg"
-			"xpos"				"130"
+			"xpos"				"121"
 			"ypos"				"0"
 			"zpos"				"2"
-			"wide"				"75"
+			"wide"				"85"
 			"tall"				"170"
 			"visible"			"1"
 			"enabled"			"1"
@@ -1418,7 +1439,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"KillsLabel"
-			"font"			"ScoreboardVerySmall"
+			"font"			"hudfont10sec"
 			"labelText"		"#TF_ScoreBoard_KillsLabel"
 			"textAlignment"		"east"
 			"xpos"			"80"
@@ -1436,7 +1457,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"DeathsLabel"
-			"font"			"ScoreboardVerySmall"
+			"font"			"hudfont10sec"
 			"labelText"		"#TF_ScoreBoard_DeathsLabel"
 			"textAlignment"		"east"
 			"xpos"			"80"
@@ -1453,7 +1474,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"AssistsLabel"
-			"font"			"ScoreboardVerySmall"
+			"font"			"hudfont10sec"
 			"labelText"		"#TF_ScoreBoard_AssistsLabel"
 			"textAlignment"		"east"
 			"xpos"			"80"
@@ -1470,7 +1491,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"DestructionLabel"
-			"font"			"ScoreboardVerySmall"
+			"font"			"hudfont10sec"
 			"labelText"		"#TF_ScoreBoard_DestructionLabel"
 			"textAlignment"		"east"
 			"xpos"			"80"
@@ -1487,7 +1508,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"Kills"
-			"font"			"ScoreboardVerySmall"
+			"font"			"hudfont10sec"
 			"labelText"		"%kills%"
 			"textAlignment"		"west"
 			"xpos"			"180"
@@ -1504,7 +1525,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"Deaths"
-			"font"			"ScoreboardVerySmall"
+			"font"			"hudfont10sec"
 			"labelText"		"%deaths%"
 			"textAlignment"		"west"
 			"xpos"			"180"
@@ -1521,7 +1542,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"gametype"
-			"font"			"ScoreboardVerySmall"
+			"font"			"hudfont10sec"
 			"labelText"		"%gametype%"
 			"textAlignment"		"east"
 			"xpos"			"435"
@@ -1539,7 +1560,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"Assists"
-			"font"			"ScoreboardVerySmall"
+			"font"			"hudfont10sec"
 			"labelText"		"%assists%"
 			"textAlignment"		"west"
 			"xpos"			"180"
@@ -1556,7 +1577,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"Destruction"
-			"font"			"ScoreboardVerySmall"
+			"font"			"hudfont10sec"
 			"labelText"		"%destruction%"
 			"textAlignment"		"west"
 			"xpos"			"180"
@@ -1573,7 +1594,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"CapturesLabel"
-			"font"			"ScoreboardVerySmall"
+			"font"			"hudfont10sec"
 			"labelText"		"#TF_ScoreBoard_CapturesLabel"
 			"textAlignment"		"east"
 			"xpos"			"75"
@@ -1590,7 +1611,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"DefensesLabel"
-			"font"			"ScoreboardVerySmall"
+			"font"			"hudfont10sec"
 			"labelText"		"#TF_ScoreBoard_DefensesLabel"
 			"textAlignment"		"east"
 			"xpos"			"75"
@@ -1607,7 +1628,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"DominationLabel"
-			"font"			"ScoreboardVerySmall"
+			"font"			"hudfont10sec"
 			"labelText"		"#TF_ScoreBoard_DominationLabel"
 			"textAlignment"		"east"
 			"xpos"			"75"
@@ -1624,7 +1645,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"RevengeLabel"
-			"font"			"ScoreboardVerySmall"
+			"font"			"hudfont10sec"
 			"labelText"		"#TF_ScoreBoard_RevengeLabel"
 			"textAlignment"		"east"
 			"xpos"			"75"
@@ -1641,7 +1662,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"Captures"
-			"font"			"ScoreboardVerySmall"
+			"font"			"hudfont10sec"
 			"labelText"		"%captures%"
 			"textAlignment"		"west"
 			"xpos"			"180"
@@ -1658,7 +1679,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"Defenses"
-			"font"			"ScoreboardVerySmall"
+			"font"			"hudfont10sec"
 			"labelText"		"%defenses%"
 			"textAlignment"		"west"
 			"xpos"			"180"
@@ -1675,7 +1696,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"Domination"
-			"font"			"ScoreboardVerySmall"
+			"font"			"hudfont10sec"
 			"labelText"		"%dominations%"
 			"textAlignment"		"west"
 			"xpos"			"180"
@@ -1692,7 +1713,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"Revenge"
-			"font"			"ScoreboardVerySmall"
+			"font"			"hudfont10sec"
 			"labelText"		"%Revenge%"
 			"textAlignment"		"west"
 			"xpos"			"180"
@@ -1709,7 +1730,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"HealingLabel"
-			"font"			"ScoreboardVerySmall"
+			"font"			"hudfont10sec"
 			"labelText"		"#TF_ScoreBoard_HealingLabel"
 			"textAlignment"		"east"
 			"xpos"			"80"
@@ -1726,7 +1747,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"InvulnLabel"
-			"font"			"ScoreboardVerySmall"
+			"font"			"hudfont10sec"
 			"labelText"		"#TF_ScoreBoard_InvulnLabel"
 			"textAlignment"		"east"
 			"xpos"			"80"
@@ -1743,7 +1764,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"TeleportsLabel"
-			"font"			"ScoreboardVerySmall"
+			"font"			"hudfont10sec"
 			"labelText"		"#TF_ScoreBoard_TeleportsLabel"
 			"textAlignment"		"east"
 			"xpos"			"80"
@@ -1760,7 +1781,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"HeadshotsLabel"
-			"font"			"ScoreboardVerySmall"
+			"font"			"hudfont10sec"
 			"labelText"		"#TF_ScoreBoard_HeadshotsLabel"
 			"textAlignment"		"east"
 			"xpos"			"80"
@@ -1777,7 +1798,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"Healing"
-			"font"			"ScoreboardVerySmall"
+			"font"			"hudfont10sec"
 			"labelText"		"%healing%"
 			"textAlignment"		"west"
 			"xpos"			"180"
@@ -1794,7 +1815,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"Invuln"
-			"font"			"ScoreboardVerySmall"
+			"font"			"hudfont10sec"
 			"labelText"		"%invulns%"
 			"textAlignment"		"west"
 			"xpos"			"180"
@@ -1811,7 +1832,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"Teleports"
-			"font"			"ScoreboardVerySmall"
+			"font"			"hudfont10sec"
 			"labelText"		"%teleports%"
 			"textAlignment"		"west"
 			"xpos"			"180"
@@ -1828,7 +1849,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"Headshots"
-			"font"			"ScoreboardVerySmall"
+			"font"			"hudfont10sec"
 			"labelText"		"%headshots%"
 			"textAlignment"		"west"
 			"xpos"			"180"
@@ -1845,7 +1866,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"BackstabsLabel"
-			"font"			"ScoreboardVerySmall"
+			"font"			"hudfont10sec"
 			"labelText"		"#TF_ScoreBoard_BackstabsLabel"
 			"textAlignment"		"east"
 			"xpos"			"80"
@@ -1862,7 +1883,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"Backstabs"
-			"font"			"ScoreboardVerySmall"
+			"font"			"hudfont10sec"
 			"labelText"		"%backstabs%"
 			"textAlignment"		"west"
 			"xpos"			"180"
@@ -1879,7 +1900,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"BonusLabel"
-			"font"			"ScoreboardVerySmall"
+			"font"			"hudfont10sec"
 			"labelText"		"#TF_ScoreBoard_BonusLabel"
 			"textAlignment"		"east"
 			"xpos"			"80"
@@ -1897,7 +1918,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"Bonus"
-			"font"			"ScoreboardVerySmall"
+			"font"			"hudfont10sec"
 			"labelText"		"%bonus%"
 			"textAlignment"		"west"
 			"xpos"			"180"
@@ -1914,7 +1935,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"SupportLabel"
-			"font"			"ScoreboardVerySmall"
+			"font"			"hudfont10sec"
 			"labelText"		"#TF_Scoreboard_Support"
 			"textAlignment"	"east"
 			"xpos"			"80"
@@ -1931,7 +1952,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Support"
-			"font"			"ScoreboardVerySmall"
+			"font"			"hudfont10sec"
 			"labelText"		"%support%"
 			"textAlignment"	"west"
 			"xpos"			"180"
@@ -1948,7 +1969,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"DamageLabel"
-			"font"			"ScoreboardVerySmall"
+			"font"			"hudfont10sec"
 			"labelText"		"#TF_Scoreboard_Damage"
 			"textAlignment"	"east"
 			"xpos"			"80"
@@ -1965,7 +1986,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Damage"
-			"font"			"ScoreboardVerySmall"
+			"font"			"hudfont10sec"
 			"labelText"		"%damage%"
 			"textAlignment"	"west"
 			"xpos"			"180"

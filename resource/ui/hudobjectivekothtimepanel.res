@@ -29,9 +29,9 @@
 			"ControlName"		"CExLabel"
 			"fieldName"			"TimePanelValue"
 			"font"				"HudFontMediumSmallBold"
-			"fgcolor"			"White"
+			"fgcolor"			"colorwhite"
 			"xpos"				"32"
-			"ypos"				"4"
+			"ypos"				"0"
 			"zpos"				"3"
 			"wide"				"45"
 			"tall"				"32"
@@ -42,7 +42,7 @@
 			
 			if_match
 			{
-				"ypos"				"4"
+				"ypos"				"2"
 			}
 		}
 	}
@@ -75,7 +75,7 @@
 			"ControlName"		"CExLabel"
 			"fieldName"			"TimePanelValue"
 			"font"				"HudFontMediumSmallBold"
-			"fgcolor"			"White"
+			"fgcolor"			"colorwhite"
 			"xpos"				"32"
 			"ypos"				"4"
 			"zpos"				"3"
@@ -88,7 +88,7 @@
 			
 			if_match
 			{
-				"ypos"				"4"
+				"ypos"				"2"
 			}
 		}
 	}

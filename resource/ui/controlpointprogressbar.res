@@ -66,9 +66,9 @@
 	{	
 		"ControlName"		"Label"
 		"fieldName"		"ProgressText"
-		"font"			"hudfont10shadow"
+		"font"			"hudfont8shadow"
 		"xpos"			"10"
-		"ypos"			"0"
+		"ypos"			"-5"
 		"zpos"			"23"
 		"wide"			"49"
 		"tall"			"50"

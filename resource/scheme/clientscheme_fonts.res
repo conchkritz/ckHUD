@@ -4,7 +4,19 @@ Scheme
 	{
 
 // 		===========================================
-// 		main font
+// 		test //TF2Secondary
+		"hudfont10sec"
+		{
+			"1"
+			{
+				"name" "TF2 Secondary"
+				"tall" "10"
+				"antialias" "1"
+			}
+		}
+
+// 		===========================================
+// 		main font //TF2Secondary
 
 		"hudfont6"
 		{

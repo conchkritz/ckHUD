@@ -102,7 +102,7 @@
 		"visible" "1"
 		"enabled" "1"
 		"xpos"	"c0"	[$WIN32]
-		"ypos"	"c-3"	[$WIN32]
+		"ypos"	"c-6"	[$WIN32]
 		"wide"	"f0"
 		"tall"	"1000"
 		
@@ -123,17 +123,20 @@
 	
 	HudKothTimeStatus
 	{
-		"fieldName" "HudKothTimeStatus"
-		"visible" "1"
-		"enabled" "1"
-		"xpos"	"c-100"
-		"ypos"	"-7"
-		"wide"	"200"
-		"tall"	"160"
+		"fieldName"				"HudKothTimeStatus"
+		"visible"				"1"
+		"enabled"				"1"
+		"xpos"					"c-100"
+		"zpos"					"1"
+		"ypos"					"429"
+		"wide"					"200"
+		"tall"					"160"
 		
-		"blue_active_xpos"			"16"
+		"blue_active_xpos"		"26"
+		"blue_active_xpos_minmode"	"26"
 	
-		"red_active_xpos"			"106"
+		"red_active_xpos"			"118"
+		"red_active_xpos_minmode"	"118"
 	}	
 
 	HudItemEffectMeter
@@ -311,8 +314,8 @@
 		"visible" 	"0"
 		"enabled" 	"1"
 		"xpos"		"c-126"
-		"ypos"		"323"
-		"ypos_minmode" "260"
+		"ypos"		"312"
+		"ypos_minmode" "250"
 		"wide"	 	"f0"
 		"tall"	 	"f0"
 		"priority"	"40"
