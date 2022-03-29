@@ -133,11 +133,13 @@
 		"font"			"HudFontMediumBold"
 		"labelText"		"%ratingshadow%"
 		"textAlignment" "center"
-		"xpos"			"126"
-		"ypos"			"26"
+		"xpos"			"-1"
+		"ypos"			"-1"
 		"wide"			"70"
 		"tall"			"20"
-		"fgcolor"		"Black"
+		"fgcolor"		"colorblack"
+		
+		"pin_to_sibling" "CreditRatingLabel"
 	}
 	
 	"CreditRatingLabel"
@@ -147,10 +149,10 @@
 		"font"			"HudFontMediumBold"
 		"labelText"		"%rating%"
 		"textAlignment" "center"
-		"xpos"			"125"
+		"xpos"			"-15"
 		"ypos"			"25"
 		"wide"			"70"
 		"tall"			"20"
-		"fgcolor"		"tanlight"
+		"fgcolor"		"colorwhite"
 	}
 }
