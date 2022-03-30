@@ -241,7 +241,7 @@
 	{
 		"ControlName"	"cexlabel"
 		"fieldName"		"versionlabel"
-		"xpos" "rs0.3"
+		"xpos" "rs1.01"
 		"ypos" "rs0.65"
 		"zpos"			"1"
 		"wide"			"256"
@@ -250,10 +250,10 @@
 		"enabled"		"1"
 		"scaleImage"	"1"
 		"font"			"hudfont12"
-		"textAlignment"	"right"
+		"textAlignment"	"east"
 		
 		"alpha"			"3"
-		"labelText" 	"v.1.3-source" // source = from github source, not release. alpha = alpha, duh. no suffix = release.
+		"labelText" 	"v.0.1.3-source" // source = from github source, not release. alpha = alpha, duh. no suffix = release.
 
 	}	
 	"hudname"

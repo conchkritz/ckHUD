@@ -980,7 +980,7 @@
 		}
 	}
 	
-	"pinn"
+	"pinn" // old
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"pinn"
@@ -1016,11 +1016,9 @@
 	
 	"CountdownLabel"
 	{	
-		"pin_to_sibling"	"pinn"
-		
 		"ControlName"		"CExLabel"
 		"fieldName"		"CountdownLabel"
-		"font"			"hudfont24"
+		"font"			"HudFontGiant"
 		"xpos"			"230"
 		"ypos"			"r55"
 		"wide"			"40"
@@ -1037,26 +1035,26 @@
 
 		if_competitive
 		{
-
+			"xpos"			"cs-0.5"
+			"ypos"			"cs-0.1"
+			"fgcolor"		"TanLight"
+			"font"			"HudFontGiant"
 		}
 
 		if_readymode
 		{
-
+			"xpos"			"300"
+			"ypos"			"130"
 		}
 	}
 	
 	"CountdownLabelShadow"
 	{	
-	
-		"pin_to_sibling"	"pinn"
-
-	
 		"ControlName"		"CExLabel"
 		"fieldName"		"CountdownLabelShadow"
-		"font"			"hudfont24"
-		"xpos"			"228"
-		"ypos"			"r53"
+		"font"			"HudFontGiant"
+		"xpos"			"231"
+		"ypos"			"r54"
 		"wide"			"40"
 		"tall"			"40"
 		"zpos"			"4"
@@ -1067,17 +1065,20 @@
 		"wrap"			"0"
 		"labelText"		"%tournamentstatelabel%"
 		"textAlignment"		"center"
-		"fgcolor"		"colorblack"
+		"fgcolor"		"Black"
 		"proportionaltoparent"	"1"
 
 		if_competitive
 		{
-
+			"xpos"			"cs-0.48"
+			"ypos"			"cs-0.08"
+			"font"			"HudFontGiant"
 		}
 
 		if_readymode
 		{
-
+			"xpos"			"300"
+			"ypos"			"130"
 		}
 	}
 }
