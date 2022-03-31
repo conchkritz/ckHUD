@@ -2,7 +2,7 @@
 
 **THIS HUD IS A WORK IN PROGRESS!!**
 
-A hud made by conch, think of it as the sucessor to kritzhud.
+A hud made by conch, inspired by EVE Hud, Issac Hud, and ToonHud.
 
 # Compatibility
 Cuurently only being tested on 1080p. If anyone else wants to test for me you can add me on discord.
@@ -16,5 +16,11 @@ So far we have:
 * Crosshairs and Hitmarkers. (in scripts/hudlayout.res)
 * Alternative Uber: A different style of uber that puts the meter on the right side instead of centering it. (in #customizations) **(slightly broken)**
 
-If you wish to customize the hud even more (use it as a base for a different hud), go ahead. I've sprinked some comments in some of the files.
-Just please credit me if you do use this hud in other huds and plan to release it.
+Please credit!
+
+# Credits
+
+* EVE Hud
+  Spectator freezepanel
+  Class Selection Menu
+
