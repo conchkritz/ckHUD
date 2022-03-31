@@ -1,3 +1,5 @@
+#base "../../resource/preload.res"
+
 "Resource/UI/MainMenuOverride.res"
 {
 	MainMenuOverride
@@ -2196,7 +2198,7 @@
 	
 	"BackgroundFooter"
 	{
-		"ControlName"	"ImagePanel"
+		"ControlName"	"CTFImagePanel"
 		"fieldName"		"BackgroundFooter"
 		"xpos"			"0"
 		"ypos"			"420"
@@ -2205,9 +2207,31 @@
 		"tall"			"60"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"loadout_bottom_gradient"
-		"tileImage"		"1"
-	}				
+		"image"			"../hud/color_panel_brown"
+		"scaleImage"		"1"
+		"src_corner_height"		"25"
+		"src_corner_width"		"25"			
+		"draw_corner_width"		"0"
+		"draw_corner_height" 	"0"	
+	}		
+	"BackgroundFooterInner"
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"BackgroundFooterInner"
+		"xpos"			"115"
+		"ypos"			"433"
+		"zpos"			"-50"
+		"wide"			"337"
+		"tall"			"33"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../hud/color_panel_brown"
+		"scaleImage"		"1"
+		"src_corner_height"		"25"
+		"src_corner_width"		"25"			
+		"draw_corner_width"		"0"
+		"draw_corner_height" 	"0"	
+	}		
 	"FooterLine"
 	{
 		"ControlName"	"ImagePanel"

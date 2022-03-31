@@ -1087,11 +1087,11 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"c-60"	[$WIN32]
-		"ypos"			"c40"	[$WIN32]
+		"ypos"			"c30"	[$WIN32]
 		"wide"			"f0"
 		"tall"			"f0"
 		
-		"ypos_minmode"	"c115"	[$WIN32]
+		"ypos_minmode"	"c105"	[$WIN32]
 	}	
 
 	HudTeamGoal

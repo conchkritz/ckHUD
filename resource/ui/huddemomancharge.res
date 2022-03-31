@@ -20,6 +20,19 @@
 		"fgcolor_override"		"colorwhite"
 		"bgcolor_override"		"meterbg"
 	}
+	"ItemEffectMeterDarker"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"ItemEffectMeterDarker"
+		"xpos"					"0"
+		"ypos"					"21"
+		"zpos"					"0"
+		"wide"					"120"
+		"tall"					"9"		
+		"visible"				"1"
+		"enabled"				"1"
+		"fillcolor"				"tandarker"
+	}
 	"ItemEffectMeterLabel"
 	{
 		"ControlName"			"CExLabel"

@@ -34,7 +34,19 @@
 		"font"			"hudfont22shadow"
 		"fgcolor_override" "colorwhite"
 	}
-
+	"ItemEffectMeterDarker"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"ItemEffectMeterDarker"
+		"xpos"					"0"
+		"ypos"					"21"
+		"zpos"					"0"
+		"wide"					"120"
+		"tall"					"9"		
+		"visible"				"1"
+		"enabled"				"1"
+		"fillcolor"				"tandarker"
+	}
 	"IndividualChargesLabel"
 	{
 		"ControlName"	"CExLabel"

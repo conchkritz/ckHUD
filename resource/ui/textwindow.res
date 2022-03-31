@@ -76,7 +76,6 @@
 		"enabled"		"1"
 		"image"			"../hud/color_panel_brown"
 		"scaleImage"		"1"
-		"scaleImage"		"1"			
 		"src_corner_height"		"25"
 		"src_corner_width"		"25"			
 		"draw_corner_width"		"5"
