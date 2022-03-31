@@ -20,7 +20,7 @@ Please credit!
 
 # Credits
 
-* EVE Hud
-  Spectator freezepanel
-  Class Selection Menu
+* **EVE Hud**
+  * Spectator freezepanel
+  * Class Selection Menu
 
