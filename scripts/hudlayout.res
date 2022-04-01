@@ -88,12 +88,12 @@
 		"fieldName" "HudPlayerStatus"
 		"visible" "1"
 		"enabled" "1"
-		"xpos"	"190"
+		"xpos"	"c-240"
 		"ypos"	"-125"
 		"wide"	"f0"
 		"tall"	"f0"
 		
-		"ypos_minmode"	"-50"
+		"ypos_minmode"	"-51"
 	}
 
 	HudWeaponAmmo
@@ -281,6 +281,8 @@
 		"visible" 				"1"
 		"enabled" 				"1"
 		"PaintBackgroundType"	"2"
+		
+		"ypos_minmode"			"c65"
 	}
 	
 	CDamageAccountPanel

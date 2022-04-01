@@ -38,17 +38,17 @@
 		"ypos"				"-75"
 		"zpos"				"6"
 		"wide"				"50"
-		"tall"				"100"
+		"tall"				"76"
 		"autoResize"		"0"
 		"pinCorner"			"2"
 		"visible"			"1"
 		"enabled"			"1"
 		"tabPosition"		"0"
-		"labelText"			""
+		"labelText"			"&R"
 		"textAlignment"		"south-west"
 		"Command"			"select 12"
 		"Default"			"1"
-		"font"				"MenuKeys"
+		"font"				"hudfont14shadow"
 		"scaleImage"		"1"
 		
 		"image_default"		"class_sel_sm_random_inactive"
@@ -71,7 +71,8 @@
 		
 		"stayselectedonclick"	"1"
 		"selectonhover"			"1"
-		"keyboardinputenabled"	"0"
+		"keyboardinputenabled"	"1"
+	
 		
 		"pin_to_sibling"	"pyro"
 		
@@ -152,17 +153,16 @@
 		"textAlignment"		"south-west"
 		"Command"			"select 1"
 		"Default"			"0"
-		"font"				"MenuKeys"
+		"font"				"hudfont16shadow"
 		"scaleImage"		"1"
 		
 		"image_default"		"class_sel_sm_scout_inactive"
 		"image_armed"		"class_sel_sm_scout_inactive"
 		
-		"fgcolor"			"TanDark" // wow such tandark
 		"defaultFgColor_override" "TanDark"
-		"armedFgColor_override" "TanDark"
-		"depressedFgColor_override" "TanDark"
-		"selectedFgColor_override" "TanDark"
+		"armedFgColor_override" "colorwhite"
+		"depressedFgColor_override" "tandarker"
+		"selectedFgColor_override" "colorwhite"
 			
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -170,7 +170,7 @@
 		
 		"paintbackground"	"0"
 		
-		"image_drawcolor"		"255 255 255 180"
+		"image_drawcolor"		"255 255 255 255"
 		"image_armedcolor"		"255 255 255 255"
 		"image_selectedcolor"	"255 255 255 255"
 		
@@ -212,17 +212,16 @@
 		"textAlignment"		"south-west"
 		"Command"			"select 3"
 		"Default"			"0"
-		"font"				"MenuKeys"
+		"font"				"hudfont16shadow"
 		"scaleImage"		"1"
 		
 		"image_default"		"class_sel_sm_soldier_inactive"
 		"image_armed"		"class_sel_sm_soldier_inactive"
 		
-		"fgcolor"			"TanDark"
 		"defaultFgColor_override" "TanDark"
-		"armedFgColor_override" "TanDark"
-		"depressedFgColor_override" "TanDark"
-		"selectedFgColor_override" "TanDark"
+		"armedFgColor_override" "colorwhite"
+		"depressedFgColor_override" "tandarker"
+		"selectedFgColor_override" "colorwhite"
 		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -230,7 +229,7 @@
 		
 		"paintbackground"	"0"
 		
-		"image_drawcolor"		"255 255 255 180"
+		"image_drawcolor"		"255 255 255 255"
 		"image_armedcolor"		"255 255 255 255"
 		"image_selectedcolor"	"255 255 255 255"
 		
@@ -274,16 +273,16 @@
 		"textAlignment"		"south-west"
 		"Command"			"select 7"
 		"Default"			"0"
-		"font"				"MenuKeys"
+		"font"				"hudfont16shadow"
 		"scaleImage"		"1"
 		
 		"image_default"		"class_sel_sm_pyro_inactive"
 		"image_armed"		"class_sel_sm_pyro_inactive"
 		
-		"fgcolor"			"TanDark"
 		"defaultFgColor_override" "TanDark"
-		"armedFgColor_override" "TanDark"
-		"depressedFgColor_override" "TanDark"
+		"armedFgColor_override" "colorwhite"
+		"depressedFgColor_override" "tandarker"
+		"selectedFgColor_override" "colorwhite"
 		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -291,7 +290,7 @@
 		
 		"paintbackground"	"0"
 		
-		"image_drawcolor"		"255 255 255 180"
+		"image_drawcolor"		"255 255 255 255"
 		"image_armedcolor"		"255 255 255 255"
 		"image_selectedcolor"	"255 255 255 255"
 		
@@ -378,16 +377,16 @@
 		"textAlignment"		"south-west"
 		"Command"			"select 4"
 		"Default"			"0"
-		"font"				"MenuKeys"
+		"font"				"hudfont16shadow"
 		"scaleImage"		"1"
 		
 		"image_default"		"class_sel_sm_demo_inactive"
 		"image_armed"		"class_sel_sm_demo_inactive"
 		
-		"fgcolor"			"TanDark"
 		"defaultFgColor_override" "TanDark"
-		"armedFgColor_override" "TanDark"
-		"depressedFgColor_override" "TanDark"
+		"armedFgColor_override" "colorwhite"
+		"depressedFgColor_override" "tandarker"
+		"selectedFgColor_override" "colorwhite"
 		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -395,7 +394,7 @@
 		
 		"paintbackground"	"0"
 		
-		"image_drawcolor"		"255 255 255 180"
+		"image_drawcolor"		"255 255 255 255"
 		"image_armedcolor"		"255 255 255 255"
 		"image_selectedcolor"	"255 255 255 255"
 		
@@ -439,16 +438,16 @@
 		"textAlignment"		"south-west"
 		"Command"			"select 6"
 		"Default"			"0"
-		"font"				"MenuKeys"
+		"font"				"hudfont16shadow"
 		"scaleImage"		"1"
 		
 		"image_default"		"class_sel_sm_heavy_inactive"
 		"image_armed"		"class_sel_sm_heavy_inactive"
 		
-		"fgcolor"			"TanDark"
 		"defaultFgColor_override" "TanDark"
-		"armedFgColor_override" "TanDark"
-		"depressedFgColor_override" "TanDark"
+		"armedFgColor_override" "colorwhite"
+		"depressedFgColor_override" "tandarker"
+		"selectedFgColor_override" "colorwhite"
 		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -456,7 +455,7 @@
 		
 		"paintbackground"	"0"
 		
-		"image_drawcolor"		"255 255 255 180"
+		"image_drawcolor"		"255 255 255 255"
 		"image_armedcolor"		"255 255 255 255"
 		"image_selectedcolor"	"255 255 255 255"
 		
@@ -500,16 +499,16 @@
 		"textAlignment"		"south-west"
 		"Command"			"select 9"
 		"Default"			"0"
-		"font"				"MenuKeys"
+		"font"				"hudfont16shadow"
 		"scaleImage"		"1"
 		
 		"image_default"		"class_sel_sm_engineer_inactive"
 		"image_armed"		"class_sel_sm_engineer_inactive"
 		
-		"fgcolor"			"TanDark"
 		"defaultFgColor_override" "TanDark"
-		"armedFgColor_override" "TanDark"
-		"depressedFgColor_override" "TanDark"
+		"armedFgColor_override" "colorwhite"
+		"depressedFgColor_override" "tandarker"
+		"selectedFgColor_override" "colorwhite"
 		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -517,7 +516,7 @@
 		
 		"paintbackground"	"0"
 		
-		"image_drawcolor"		"255 255 255 180"
+		"image_drawcolor"		"255 255 255 255"
 		"image_armedcolor"		"255 255 255 255"
 		"image_selectedcolor"	"255 255 255 255"
 		
@@ -604,16 +603,16 @@
 		"textAlignment"		"south-west"
 		"Command"			"select 5"
 		"Default"			"0"
-		"font"				"MenuKeys"
+		"font"				"hudfont16shadow"
 		"scaleImage"		"1"
 		
 		"image_default"		"class_sel_sm_medic_inactive"
 		"image_armed"		"class_sel_sm_medic_inactive"
 		
-		"fgcolor"			"TanDark"
 		"defaultFgColor_override" "TanDark"
-		"armedFgColor_override" "TanDark"
-		"depressedFgColor_override" "TanDark"
+		"armedFgColor_override" "colorwhite"
+		"depressedFgColor_override" "tandarker"
+		"selectedFgColor_override" "colorwhite"
 		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -621,7 +620,7 @@
 		
 		"paintbackground"	"0"
 		
-		"image_drawcolor"		"255 255 255 180"
+		"image_drawcolor"		"255 255 255 255"
 		"image_armedcolor"		"255 255 255 255"
 		"image_selectedcolor"	"255 255 255 255"
 		
@@ -665,16 +664,16 @@
 		"textAlignment"		"south-west"
 		"Command"			"select 2"
 		"Default"			"0"
-		"font"				"MenuKeys"
+		"font"				"hudfont16shadow"
 		"scaleImage"		"1"
 		
 		"image_default"		"class_sel_sm_sniper_inactive"
 		"image_armed"		"class_sel_sm_sniper_inactive"
 		
-		"fgcolor"			"TanDark"
 		"defaultFgColor_override" "TanDark"
-		"armedFgColor_override" "TanDark"
-		"depressedFgColor_override" "TanDark"
+		"armedFgColor_override" "colorwhite"
+		"depressedFgColor_override" "tandarker"
+		"selectedFgColor_override" "colorwhite"
 		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -682,7 +681,7 @@
 		
 		"paintbackground"	"0"
 		
-		"image_drawcolor"		"255 255 255 180"
+		"image_drawcolor"		"255 255 255 255"
 		"image_armedcolor"		"255 255 255 255"
 		"image_selectedcolor"	"255 255 255 255"
 		
@@ -726,16 +725,16 @@
 		"textAlignment"		"south-west"
 		"Command"			"select 8"
 		"Default"			"0"
-		"font"				"MenuKeys"
+		"font"				"hudfont16shadow"
 		"scaleImage"		"1"
 		
 		"image_default"		"class_sel_sm_spy_inactive"
 		"image_armed"		"class_sel_sm_spy_inactive"
 		
-		"fgcolor"			"TanDark"
 		"defaultFgColor_override" "TanDark"
-		"armedFgColor_override" "TanDark"
-		"depressedFgColor_override" "TanDark"
+		"armedFgColor_override" "colorwhite"
+		"depressedFgColor_override" "tandarker"
+		"selectedFgColor_override" "colorwhite"
 		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -743,7 +742,7 @@
 		
 		"paintbackground"	"0"
 		
-		"image_drawcolor"		"255 255 255 180"
+		"image_drawcolor"		"255 255 255 255"
 		"image_armedcolor"		"255 255 255 255"
 		"image_selectedcolor"	"255 255 255 255"
 		
@@ -909,8 +908,8 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ClassMenuSelect"
-		"xpos"			"c-220"
-		"ypos"			"c-200"
+		"xpos"			"c-115"
+		"ypos"			"c-175"
 		"zpos"			"5"
 		"wide"			"450"
 		"tall"			"30"
@@ -1040,8 +1039,8 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"localPlayerImage"
-		"xpos"			"c0"
-		"ypos"			"330"
+		"xpos"			"9999"
+		"ypos"			"365"
 		"zpos"			"9"
 		"wide"			"45"
 		"tall"			"90"
@@ -1055,8 +1054,8 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"localPlayerBG"
-		"xpos"			"c-35"
-		"ypos"			"345"
+		"xpos"			"9999"
+		"ypos"			"9999"
 		"zpos"			"2"
 		"wide"			"55"
 		"tall"			"80"
@@ -1080,8 +1079,8 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"countImage0"
-		"xpos"			"c20"
-		"ypos"			"345"
+		"xpos"			"9999"
+		"ypos"			"365"
 		"zpos"			"9"
 		"wide"			"30"
 		"tall"			"60"
@@ -1095,8 +1094,8 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"countImage1"
-		"xpos"			"c45"
-		"ypos"			"345"
+		"xpos"			"9999"
+		"ypos"			"365"
 		"zpos"			"9"
 		"wide"			"30"
 		"tall"			"60"
@@ -1110,8 +1109,8 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"countImage2"
-		"xpos"			"c70"
-		"ypos"			"345"
+		"xpos"			"9999"
+		"ypos"			"365"
 		"zpos"			"9"
 		"wide"			"30"
 		"tall"			"60"
@@ -1125,8 +1124,8 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"countImage3"
-		"xpos"			"c95"
-		"ypos"			"345"
+		"xpos"			"9999"
+		"ypos"			"365"
 		"zpos"			"9"
 		"wide"			"30"
 		"tall"			"60"
@@ -1140,8 +1139,8 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"countImage4"
-		"xpos"			"c120"
-		"ypos"			"345"
+		"xpos"			"9999"
+		"ypos"			"365"
 		"zpos"			"9"
 		"wide"			"30"
 		"tall"			"60"
@@ -1155,8 +1154,8 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"countImage5"
-		"xpos"			"c145"
-		"ypos"			"345"
+		"xpos"			"9999"
+		"ypos"			"365"
 		"zpos"			"9"
 		"wide"			"30"
 		"tall"			"60"
@@ -1170,8 +1169,8 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"countImage6"
-		"xpos"			"c170"
-		"ypos"			"345"
+		"xpos"			"9999"
+		"ypos"			"365"
 		"zpos"			"9"
 		"wide"			"30"
 		"tall"			"60"
@@ -1185,8 +1184,8 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"countImage7"
-		"xpos"			"c195"
-		"ypos"			"345"
+		"xpos"			"9999"
+		"ypos"			"365"
 		"zpos"			"9"
 		"wide"			"30"
 		"tall"			"60"
@@ -1200,8 +1199,8 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"countImage8"
-		"xpos"			"c220"
-		"ypos"			"345"
+		"xpos"			"9999"
+		"ypos"			"365"
 		"zpos"			"9"
 		"wide"			"30"
 		"tall"			"60"
@@ -1215,8 +1214,8 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"countImage9"
-		"xpos"			"c245"
-		"ypos"			"345"
+		"xpos"			"9999"
+		"ypos"			"365"
 		"zpos"			"9"
 		"wide"			"30"
 		"tall"			"60"
@@ -1230,8 +1229,8 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"countImage10"
-		"xpos"			"c270"
-		"ypos"			"345"
+		"xpos"			"9999"
+		"ypos"			"365"
 		"zpos"			"9"
 		"wide"			"30"
 		"tall"			"60"
@@ -1245,15 +1244,15 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CountLabel"
-		"xpos"			"c35"
-		"ypos"			"402"
+		"xpos"			"9999"
+		"ypos"			"9999"
 		"zpos"			"10"
-		"wide"			"150"
-		"tall"			"18"
+		"wide"			"0"
+		"tall"			"0"
 		"autoResize"	"1"
 		"pinCorner"		"2"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"tabPosition"	"0"
 		"labelText"		"#TF_TeamCount"
 		"textAlignment"	"left"
@@ -1265,8 +1264,8 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"numScout"
-		"xpos"			"0"
-		"ypos"			"-15"
+		"xpos"			"-10"
+		"ypos"			"-30"
 		"zpos"			"5"
 		"wide"			"50"
 		"tall"			"12"
@@ -1309,8 +1308,8 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"numSoldier"
-		"xpos"			"0"
-		"ypos"			"-15"
+		"xpos"			"-10"
+		"ypos"			"-30"
 		"zpos"			"5"
 		"wide"			"50"
 		"tall"			"12"
@@ -1353,8 +1352,8 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"numPyro"
-		"xpos"			"0"
-		"ypos"			"-15"
+		"xpos"			"-10"
+		"ypos"			"-30"
 		"zpos"			"5"
 		"wide"			"50"
 		"tall"			"12"
@@ -1397,8 +1396,8 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"numDemoman"
-		"xpos"			"0"
-		"ypos"			"-15"
+		"xpos"			"-10"
+		"ypos"			"-20"
 		"zpos"			"5"
 		"wide"			"50"
 		"tall"			"12"
@@ -1441,8 +1440,8 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"numHeavy"
-		"xpos"			"0"
-		"ypos"			"-15"
+		"xpos"			"-10"
+		"ypos"			"-20"
 		"zpos"			"5"
 		"wide"			"50"
 		"tall"			"12"
@@ -1485,8 +1484,8 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"numEngineer"
-		"xpos"			"0"
-		"ypos"			"-15"
+		"xpos"			"-10"
+		"ypos"			"-20"
 		"zpos"			"5"
 		"wide"			"50"
 		"tall"			"12"
@@ -1527,8 +1526,8 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"numMedic"
-		"xpos"			"0"
-		"ypos"			"-15"
+		"xpos"			"-10"
+		"ypos"			"-20"
 		"zpos"			"5"
 		"wide"			"50"
 		"tall"			"12"
@@ -1569,8 +1568,8 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"numSniper"
-		"xpos"			"0"
-		"ypos"			"-15"
+		"xpos"			"-10"
+		"ypos"			"-20"
 		"zpos"			"5"
 		"wide"			"50"
 		"tall"			"12"
@@ -1611,8 +1610,8 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"numSpy"
-		"xpos"			"0"
-		"ypos"			"-15"
+		"xpos"			"-10"
+		"ypos"			"-20"
 		"zpos"			"5"
 		"wide"			"50"
 		"tall"			"12"
@@ -1900,7 +1899,7 @@
 		"xpos"			"c-200"
 		"ypos"			"c-175"
 		"zpos"			"0"
-		"wide"			"410"
+		"wide"			"205"
 		"tall"			"350"
 		"visible"		"1"
 		"enabled"		"1"
@@ -1916,10 +1915,10 @@
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"BackgroundTeam"
 		"xpos"			"c5"
-		"ypos"			"c-175"
+		"ypos"			"c-150"
 		"zpos"			"0"
 		"wide"			"205"
-		"tall"			"350"
+		"tall"			"300"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/color_panel_brown"
@@ -1937,11 +1936,11 @@
 		"ControlName"	"CTFPlayerModelPanel"
 		"fieldName"		"TFPlayerModel"
 		
-		"xpos"			"125"
-		"ypos"			"0"
+		"xpos"			"230"
+		"ypos"			"68"
 		"zpos"			"6"		
-		"wide"			"480"
-		"tall"			"480"
+		"wide"			"200"
+		"tall"			"300"
 		
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -1963,9 +1962,9 @@
 			"angles_x" "0"
 			"angles_y" "180"
 			"angles_z" "0"
-			"origin_x" "400"
-			"origin_y" "12"
-			"origin_z" "-35"
+			"origin_x" "160"
+			"origin_y" "0"
+			"origin_z" "-41"
 			"frame_origin_x"	"0"
 			"frame_origin_y"	"0"
 			"frame_origin_z"	"0"

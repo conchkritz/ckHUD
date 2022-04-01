@@ -157,3 +157,16 @@ event HudSnapShotReminderIn
     RunEvent HudMedicChargedStop 10.0
 	
 }
+// ===========================================
+// chat fixes
+event CompetitiveGame_LowerChatWindow
+{
+}
+
+event CompetitiveGame_RestoreChatWindow
+{
+}
+
+event HudTournament_MoveChatWindow
+{
+}

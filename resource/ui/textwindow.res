@@ -23,7 +23,7 @@
 		"xpos"			"c-183"
 		"ypos"			"85"
 		"zpos"			"3"
-		"wide"			"420"
+		"wide"			"600"
 		"tall"			"30"
 		"autoResize"	"0"
 		"pinCorner"		"0"
