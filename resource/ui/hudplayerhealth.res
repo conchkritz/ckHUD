@@ -49,7 +49,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthBonusImage"
-		"xpos"			"90"	[$WIN32]
+		"xpos"			"88"	[$WIN32]
 		"ypos"			"35"	[$WIN32]
 		"zpos"			"2"
 		"wide"			"55"	[$WIN32]

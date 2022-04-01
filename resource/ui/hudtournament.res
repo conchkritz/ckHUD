@@ -25,7 +25,7 @@
 		"spacer"		"5"
 		"name_width"	"57"
 		"horiz_inset"	"2"
-
+		
 		if_mvm
 		{
 			"xpos"					"c-250"
@@ -35,7 +35,7 @@
 
 			"team1_player_base_y"			"66"
 			"team2_player_base_y"			"66"
-			"team2_player_delta_x"			"52"
+			"team2_player_delta_x"			"57"
 		}
 		
 		if_competitive
@@ -136,9 +136,9 @@
 				{
 					"xpos"				"4"
 					"ypos"				"25"
-					"wide"			"48"
+					"wide"				"48"
 					"textAlignment"		"center"
-					"font"				"PlayerPanelPlayerName"
+					"font"				"hudfont8sec"
 				}
 
 				if_competitive

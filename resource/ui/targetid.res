@@ -13,6 +13,28 @@
 		"enabled"				"1"
 		"fillcolor" 			"colortransparentgray"
 	}
+	"TeamColor"
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"TeamColor"
+		"xpos"					"4"
+		"ypos"					"11"
+		"zpos"			"-5"
+		"wide"					"f0"
+		"tall"	 				"2"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../hud/color_panel_brown"
+		"scaleImage"		"1"
+		"teambg_1"		"../hud/color_panel_brown"
+		"teambg_2"		"../hud/color_panel_red"
+		"teambg_3"		"../hud/color_panel_blu"
+		"scaleImage"		"1"			
+		"src_corner_height"		"15"
+		"src_corner_width"		"15"			
+		"draw_corner_width"		"0"
+		"draw_corner_height" 	"0"	
+	}
 	"TargetNameLabel"
 	{	
 		"ControlName"		"Label"
