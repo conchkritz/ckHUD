@@ -1,11 +1,48 @@
 # ckHUD
+![ckHUD Main Menu](github/mainmenu.png)
 
 **THIS HUD IS A WORK IN PROGRESS!!**
-
 A hud made by conch, inspired by EVE Hud, Issac Hud, and ToonHud.
 
 # Compatibility
 Cuurently only being tested on 1080p. If anyone else wants to test for me you can add me on discord.
+
+| OS  | Status |
+| ------------- | ------------- |
+| Windows (11)  | Supported  |
+| Linus  | Unsupported  |
+| OSX  | Unsupported  |
+
+| Resolution  | Status |
+| ------------- | ------------- |
+| 16:9  | Supported  |
+| 16:10  | Unsupported  |
+| 5:4  | Unsupported  |
+| 4:3  | Unsupported  |
+
+| Language  | Status |
+| ------------- | ------------- |
+| English  | Supported  |
+| Anything Else  | Unsupported  |
+
+# Game Compatibility
+Things like gamemode compatibility.
+
+| Gamemode  | Status |
+| ------------- | ------------- |
+| Payload  | Testing  |
+| Payload Race  | Minmode Clipping  |
+| CTF  | Not Started  |
+| CP, KOTH  | Finished (?)  |
+| Pass Time  | Unsupported  |
+| MannPower  | Unsupported  |
+| MVM  | Unfinished  |
+
+| Extras  | Status |
+| ------------- | ------------- |
+| Backpack  | Not Started  |
+| Main Menu  | Finished, Tweaking  |
+
 
 # Customizations
 
@@ -23,4 +60,9 @@ Please credit!
 * **EVE Hud**
   * Spectator freezepanel
   * Class Selection Menu
+  * Match Status
 
+* Jakadak 
+  * [Extended TF2 Fonts](https://github.com/jakadak/TF2-extended-fonts) 
+
+* [HUDS.tf Discord](https://discord.com/invite/pc9ekye) 
