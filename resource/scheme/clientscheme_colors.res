@@ -34,6 +34,17 @@ Scheme
 		"meter4alt"				"190 190 190 255"
 		"meterbg"				"200 200 200 50" // used to be colortransparentgray but it was too dark
 		"taunt"					"207 115 54 255" 
+
+		"constructblue"			"54 48 122 255" // build pda
+		"constructdarkblue"		"54 48 100 255" // built
+		"constructred"			"243 82 82 255" // not enough metal
+		
+		"pipboy"				"0 255 0 255"
+		"pipboydark"			"0 48 1 255"
+		"pipboyoutline"			"0 130 1 255"
+		
+		"no"					"0 0 0 0"
+		
 		"TanLight"				"242 242 242 255" // change this w/ colorwhite
 	
 	}

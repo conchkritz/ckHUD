@@ -90,7 +90,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"NotBuiltLabel"
-			"font"			"DefaultVerySmall"
+			"font"			"hudfont10sec"
 			"xpos"			"60"
 			"ypos"			"0"
 			"wide"			"200"
@@ -256,7 +256,7 @@
 		{	
 			"ControlName"	"CBuildingHealthBar"
 			"fieldName"		"Health"
-			"font"			"Default"
+			"font"			"hudfont10sec"
 			"xpos"			"13"
 			"ypos"			"3"
 			"wide"			"8"
@@ -284,7 +284,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"BuildingLabel"
-				"font"			"DefaultSmall"
+				"font"			"hudfont10sec"
 				"xpos"			"0"
 				"ypos"			"18"
 				"wide"			"200"
@@ -303,7 +303,7 @@
 			{	
 				"ControlName"	"ContinuousProgressBar"
 				"fieldName"		"BuildingProgress"
-				"font"			"Default"
+				"font"			"hudfont10sec"
 				"xpos"			"0"
 				"ypos"			"29"
 				"wide"			"50"
@@ -348,7 +348,7 @@
 			{	
 				"ControlName"	"CExLabel"
 				"fieldName"		"KillsLabel"
-				"font"			"DefaultSmall"
+				"font"			"hudfont10sec"
 				"xpos"			"12"
 				"ypos"			"13"
 				"wide"			"200"
@@ -383,7 +383,7 @@
 			{	
 				"ControlName"	"ContinuousProgressBar"
 				"fieldName"		"Shells"
-				"font"			"Default"
+				"font"			"hudfont10sec"
 				"xpos"			"12"
 				"ypos"			"26"
 				"wide"			"38"
@@ -417,7 +417,7 @@
 			{	
 				"ControlName"	"ContinuousProgressBar"
 				"fieldName"		"Rockets"
-				"font"			"Default"
+				"font"			"hudfont10sec"
 				"xpos"			"12"
 				"ypos"			"39"
 				"wide"			"38"
@@ -451,7 +451,7 @@
 			{	
 				"ControlName"	"ContinuousProgressBar"
 				"fieldName"		"Upgrade"
-				"font"			"Default"
+				"font"			"hudfont10sec"
 				"xpos"			"12"
 				"ypos"			"39"
 				"wide"			"38"

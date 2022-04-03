@@ -228,8 +228,8 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"TFLogoImage"
-		"xpos"			"9999"
-		"ypos"			"32"
+		"xpos"			"90"
+		"ypos"			"24"
 		"zpos"			"1"
 		"wide"			"256"
 		"tall"			"64"
@@ -255,10 +255,10 @@
 		"textAlignment"	"east"
 		
 		"alpha"			"3"
-		"labelText" 	"v.0.1.3-source" // source = from github source, not release. alpha = alpha, duh. no suffix = release.
+		"labelText" 	"ckHUD 0.1.4-source" // source = from github source, not release. alpha = alpha, duh. no suffix = release.
 
 	}	
-	"hudname"
+	"hudname" // now in version label to be less intrusive
 	{
 		"ControlName"	"cexlabel"
 		"fieldName"		"hudname"
@@ -267,7 +267,7 @@
 		"zpos"			"1"
 		"wide"			"256"
 		"tall"			"64"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		"scaleImage"	"1"
 		"labelText" 	"CKHUD"
@@ -282,7 +282,7 @@
 		"zpos"			"0"
 		"wide"			"256"
 		"tall"			"64"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		"scaleImage"	"1"
 		"labelText" 	"CKHUD"
@@ -1489,11 +1489,11 @@
 			"visible"		"1"
 			"proportionaltoparent"	"1"
 
-			"columns_count"	"1"
-			"inset_x"		"55"
+			"columns_count"	"2"
+			"inset_x"		"3"
 			"inset_y"		"5"
 			"row_gap"		"5"
-			"column_gap"	"10"
+			"column_gap"	"2"
 			"restrict_width"	"0"
 
 			"friendpanel_kv"

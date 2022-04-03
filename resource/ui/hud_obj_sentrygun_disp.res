@@ -63,7 +63,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"NotBuiltLabel"
-			"font"			"DefaultVerySmall"
+			"font"			"hudfont10sec"
 			"xpos"			"60"
 			"ypos"			"0"
 			"wide"			"200"
@@ -175,7 +175,7 @@
 		{	
 			"ControlName"	"CBuildingHealthBar"
 			"fieldName"		"Health"
-			"font"			"Default"
+			"font"			"hudfont10sec"
 			"xpos"			"13"
 			"ypos"			"4"
 			"wide"			"8"
@@ -203,7 +203,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"BuildingLabel"
-				"font"			"DefaultSmall"
+				"font"			"hudfont10sec"
 				"xpos"			"0"
 				"ypos"			"18"
 				"wide"			"200"
@@ -222,7 +222,7 @@
 			{	
 				"ControlName"	"ContinuousProgressBar"
 				"fieldName"		"BuildingProgress"
-				"font"			"Default"
+				"font"			"hudfont10sec"
 				"xpos"			"0"
 				"ypos"			"29"
 				"wide"			"50"
@@ -267,7 +267,7 @@
 			{	
 				"ControlName"	"CExLabel"
 				"fieldName"		"KillsLabel"
-				"font"			"DefaultSmall"
+				"font"			"hudfont10sec"
 				"xpos"			"12"
 				"ypos"			"6"
 				"wide"			"200"
@@ -302,7 +302,7 @@
 			{	
 				"ControlName"	"ContinuousProgressBar"
 				"fieldName"		"Shells"
-				"font"			"Default"
+				"font"			"hudfont10sec"
 				"xpos"			"12"
 				"ypos"			"7"
 				"wide"			"38"

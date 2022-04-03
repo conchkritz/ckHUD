@@ -385,11 +385,7 @@
 		"visible"	"1"
 		"enabled"	"1"
 		"xpos"		"0"
-		"xpos_hidef"		"32"
-		"xpos_lodef"		"40"
-		"ypos"		"0"
-		"ypos_hidef"		"16"
-		"ypos_lodef"		"25"
+		"ypos"		"c-115"
 		"wide"		"640"
 		"tall"		"480"
 		
@@ -549,7 +545,7 @@
 		"tall"	 "480"
 	}
 
-	HudDeathNotice
+	HudDeathNotice // killfeed
 	{
 		"fieldName" "HudDeathNotice"
 		"visible" "1"
@@ -1051,7 +1047,7 @@
 		"visible" 		"1"
 		"enabled" 		"1"
 		"xpos"			"c-225"
-		"ypos"			"c-59"
+		"ypos"			"c-55"
 		"wide"			"450"
 		"tall"			"200"
 		"PaintBackgroundType"	"0"
@@ -1062,10 +1058,10 @@
 		"fieldName" 	"HudEurekaEffectTeleportMenu"
 		"visible" 		"1"
 		"enabled" 		"1"
-		"xpos"			"c-125"
+		"xpos"			"c-225"
 		"ypos"			"c-55"
-		"wide"			"250"
-		"tall"			"195"
+		"wide"			"450"
+		"tall"			"200"
 		"PaintBackgroundType"	"0"
 	}
 	

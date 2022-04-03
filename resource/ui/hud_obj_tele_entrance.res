@@ -60,7 +60,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"NotBuiltLabel"
-			"font"			"DefaultVerySmall"
+			"font"			"hudfont10sec"
 			"xpos"			"60"
 			"ypos"			"0"
 			"wide"			"200"
@@ -207,7 +207,7 @@
 		{	
 			"ControlName"	"CBuildingHealthBar"
 			"fieldName"		"Health"
-			"font"			"Default"
+			"font"			"hudfont10sec"
 			"xpos"			"13"
 			"ypos"			"3"
 			"wide"			"8"
@@ -235,7 +235,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"BuildingLabel"
-				"font"			"DefaultSmall"
+				"font"			"hudfont10sec"
 				"xpos"			"0"
 				"ypos"			"5"
 				"wide"			"200"
@@ -254,7 +254,7 @@
 			{	
 				"ControlName"	"ContinuousProgressBar"
 				"fieldName"		"BuildingProgress"
-				"font"			"Default"
+				"font"			"hudfont10sec"
 				"xpos"			"0"
 				"ypos"			"16"
 				"wide"			"50"
@@ -309,7 +309,7 @@
 				{	
 					"ControlName"	"ContinuousProgressBar"
 					"fieldName"		"Recharge"
-					"font"			"Default"
+					"font"			"hudfont10sec"
 					"xpos"			"12"
 					"ypos"			"6"
 					"wide"			"38"
@@ -338,7 +338,7 @@
 				{	
 					"ControlName"	"CExLabel"
 					"fieldName"		"TimesUsedLabel"
-					"font"			"DefaultSmall"
+					"font"			"hudfont10sec"
 					"xpos"			"12"
 					"ypos"			"5"
 					"wide"			"200"
@@ -374,7 +374,7 @@
 			{	
 				"ControlName"	"ContinuousProgressBar"
 				"fieldName"		"Upgrade"
-				"font"			"Default"
+				"font"			"hudfont10sec"
 				"xpos"			"12"
 				"ypos"			"17"
 				"wide"			"38"

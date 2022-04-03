@@ -60,7 +60,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"NotBuiltLabel"
-			"font"			"DefaultSmall"
+			"font"			"hudfont10sec"
 			"xpos"			"60"
 			"ypos"			"0"
 			"wide"			"200"
@@ -130,7 +130,7 @@
 		{	
 			"ControlName"	"CBuildingHealthBar"
 			"fieldName"		"Health"
-			"font"			"Default"
+			"font"			"hudfont10sec"
 			"xpos"			"5"
 			"ypos"			"2"
 			"wide"			"8"
@@ -158,7 +158,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"BuildingLabel"
-				"font"			"G_FontTiny_2"
+				"font"			"hudfont10sec"
 				"xpos"			"0"
 				"ypos"			"5"
 				"wide"			"200"
@@ -177,7 +177,7 @@
 			{	
 				"ControlName"	"ContinuousProgressBar"
 				"fieldName"		"BuildingProgress"
-				"font"			"Default"
+				"font"			"hudfont10sec"
 				"xpos"			"0"
 				"ypos"			"16"
 				"wide"			"50"
@@ -221,7 +221,7 @@
 			{	
 				"ControlName"	"ContinuousProgressBar"
 				"fieldName"		"TargetHealth"
-				"font"			"Default"
+				"font"			"hudfont10sec"
 				"xpos"			"23"
 				"ypos"			"12"
 				"wide"			"35"

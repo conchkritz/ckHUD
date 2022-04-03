@@ -273,6 +273,163 @@ Scheme
 				}
 			}
 		}
+		EngiButton 
+		{
+			"inset" "0 0 0 0"
+			Left
+			{
+				"1"
+				{
+					"color" "colorwhite"
+					"offset" "0 0"
+				}
+				"2"
+				{
+					"color" "colorwhite"
+					"offset" "-1 0"
+				}
+				"3"
+				{
+					"color" "colorwhite"
+					"offset" "-2 0"
+				}
+			}
+			Bottom
+			{
+				"1"
+				{
+					"color" "colorblack"
+					"offset" "0 0"
+				}
+				"2"
+				{
+					"color" "colorwhite"
+					"offset" "-1 0"
+				}
+				"3"
+				{
+					"color" "colorwhite"
+					"offset" "-2 0"
+				}
+				"4"
+				{
+					"color" "colorwhite"
+					"offset" "-3 0"
+				}
+			}
+			Right
+			{
+				"1"
+				{
+					"color" "colorwhite"
+					"offset" "0 0"
+				}
+				"2"
+				{
+					"color" "colorwhite"
+					"offset" "-1 0"
+				}
+				"3"
+				{
+					"color" "colorwhite"
+					"offset" "-2 0"
+				}
+			}
+			Top
+			{
+				"1"
+				{
+					"color" "colorwhite"
+					"offset" "-0 0"
+				}
+				"2"
+				{
+					"color" "colorwhite"
+					"offset" "-1 0"
+				}
+				"3"
+				{
+					"color" "colorwhite"
+					"offset" "-2 0"
+				}
+			}
+		}
+		PipboyOutline 
+		{
+			"inset" "0 0 0 0"
+			Left
+			{
+				"1"
+				{
+					"color" "pipboyoutline"
+					"offset" "0 0"
+				}
+				"2"
+				{
+					"color" "pipboyoutline"
+					"offset" "-1 0"
+				}
+				"3"
+				{
+					"color" "pipboyoutline"
+					"offset" "-2 0"
+				}
+			}
+			Bottom
+			{
+				"1"
+				{
+					"color" "pipboyoutline"
+					"offset" "0 0"
+				}
+				"2"
+				{
+					"color" "pipboyoutline"
+					"offset" "-1 0"
+				}
+				"3"
+				{
+					"color" "pipboyoutline"
+					"offset" "-2 0"
+				}
+			}
+			Right
+			{
+				"1"
+				{
+					"color" "pipboyoutline"
+					"offset" "0 0"
+				}
+				"2"
+				{
+					"color" "pipboyoutline"
+					"offset" "-1 0"
+				}
+				"3"
+				{
+					"color" "pipboyoutline"
+					"offset" "-2 0"
+				}
+			}
+			Top
+			{
+				"1"
+				{
+					"color" "pipboyoutline"
+					"offset" "-0 0"
+				}
+				"2"
+				{
+					"color" "pipboyoutline"
+					"offset" "-1 0"
+				}
+				"3"
+				{
+					"color" "pipboyoutline"
+					"offset" "-2 0"
+				}
+			}
+		}
 		WhiteBorderTrans
 		{
 			"inset" "0 0 0 0"
