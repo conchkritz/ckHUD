@@ -4,7 +4,7 @@
 
 ![Main Menu 1.41](https://user-images.githubusercontent.com/76109782/162098921-f23bd60b-a436-41d1-99ed-a5c93f4b70fe.png)
 
-A hud made by conch, inspired by EVE Hud, Issac Hud, and ToonHud.
+A hud made by conch, inspired by EVE Hud, Isaac Hud, and ToonHud.
 
 [Imgur Album](https://imgur.com/a/oX2zvhA)
 # Compatibility
@@ -64,8 +64,13 @@ Please credit!
   * Spectator freezepanel
   * Class Selection Menu
   * Match Status
+  * KOTH
+  * Backpack
 
 * Jakadak 
   * [Extended TF2 Fonts](https://github.com/jakadak/TF2-extended-fonts) 
 
 * [HUDS.tf Discord](https://discord.com/invite/pc9ekye) 
+
+* Isaac Hud
+  * Main Menu Buttons
