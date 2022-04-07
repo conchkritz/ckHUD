@@ -1,6 +1,0 @@
-"UnlitGeneric"
-{
-	"$basetexture" "vgui/replay/thumbnails/icons/metal"
-	"$nolod" 1
-	"$translucent" 1
-}

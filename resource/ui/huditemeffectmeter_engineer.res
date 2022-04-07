@@ -4,6 +4,5 @@
 {
 	HudItemEffectMeter
 	{
-		"xpos"			"c-160"	[$WIN32]
 	}
 }

@@ -97,11 +97,11 @@
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"			"ActiveTimerBG"
-		"xpos"				"40"
-		"ypos"				"11"
+		"xpos"				"26"
+		"ypos"				"4"
 		"zpos"				"3"
 		"wide"				"56"
-		"tall"				"30"
+		"tall"				"29"
 		"visible"			"1"
 		"enabled"			"1"
 		"image"				"../hud/objectives_timepanel_active_bg"
@@ -109,7 +109,7 @@
 		
 		if_match
 		{
-			"tall"				"0"
+			"wide"	"0"
 		}
 	}
 }

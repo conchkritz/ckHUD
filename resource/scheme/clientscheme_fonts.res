@@ -2,9 +2,64 @@ Scheme
 {
 	Fonts
 	{
-
 // 		===========================================
-// 		secondary
+// 		TF2 Character Icons
+		"hudfont8icon" // inconsistent
+		{
+			"1"
+			{
+				"name" "TF2 Character Icons"
+				"tall" "8"
+				"antialias" "1"
+			}
+		}
+		"hudfont10icon"
+		{
+			"1"
+			{
+				"name" "TF2 Character Icons"
+				"tall" "10"
+				"antialias" "1"
+			}
+		}		
+		"hudfont12icon"
+		{
+			"1"
+			{
+				"name" "TF2 Character Icons"
+				"tall" "12"
+				"antialias" "1"
+			}
+		}		
+		"hudfont14icon"
+		{
+			"1"
+			{
+				"name" "TF2 Character Icons"
+				"tall" "14"
+				"antialias" "1"
+			}
+		}
+		"hudfont16icon"
+		{
+			"1"
+			{
+				"name" "TF2 Character Icons"
+				"tall" "16"
+				"antialias" "1"
+			}
+		}
+		"hudfont18icon"
+		{
+			"1"
+			{
+				"name" "TF2 Character Icons"
+				"tall" "18"
+				"antialias" "1"
+			}
+		}
+// 		===========================================
+// 		secondary // TF2 Character Icons
 		"hudfont8sec"
 		{
 			"1"
@@ -343,16 +398,6 @@ Scheme
 // 		===========================================
 // 		misc
 
-		"sticky" 
-		{
-			"1"
-			{
-				"name" "TF2 Build"
-				"tall" "14"
-				"antialias" "1"
-				"outline"	"1"
-			}
-		}
 		"DamageNumber" 
 		{
 			"1"
@@ -380,67 +425,62 @@ Scheme
 		{
 			"1"
 			{
-				"name" "TF2 Build" [$WINDOWS] // Closed captions font | Secondary font
-				"name" "TF2 Build" [!$WINDOWS] // Closed captions font | Secondary font
-				"tall"		"20" // Closed captions size | Size Medium Primary
+				"name"		"TF2 Build"
+				"tall"		"24"
+				"tall_hidef"	"32"
 				"weight"	"500"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"antialias"	"1"
-				"outline"	"0" // Closed captions outline
 			}
 		}
 		"CloseCaption_Italic"
 		{
 			"1"
 			{
-				"name" "TF2 Build" [$WINDOWS] // Closed captions font | Secondary font
-				"name" "TF2 Build" [!$WINDOWS] // Closed captions font | Secondary font
-				"tall"		"20" // Closed captions size | Size Medium Primary
+				"name"		"TF2 Build"
+				"tall"		"24"
+				"tall_hidef"	"32"
 				"weight"	"500"
 				"italic"	"1"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"antialias"	"1"
-				"outline"	"0" // Closed captions outline
 			}
 		}
 		"CloseCaption_Bold"
 		{
 			"1"
 			{
-				"name" "TF2 Build" [$WINDOWS] // Closed captions font | Secondary font
-				"name" "TF2 Build" [!$WINDOWS] // Closed captions font | Secondary font
-				"tall"		"20" // Closed captions size | Size Medium Primary
+				"name"		"TF2 Build"
+				"tall"		"24"
+				"tall_hidef"	"32"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"antialias"	"1"
-				"outline"	"0" // Closed captions outline
 			}
 		}
 		"CloseCaption_BoldItalic"
 		{
 			"1"
 			{
-				"name" "TF2 Build" [$WINDOWS] // Closed captions font | Secondary font
-				"name" "TF2 Build" [!$WINDOWS] // Closed captions font | Secondary font
-				"tall"		"20" // Closed captions size | Size Medium Primary
+				"name"		"TF2 Build"
+				"tall"		"24"
+				"tall_hidef"	"32"
 				"weight"	"900"
 				"italic"	"1"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"antialias"	"1"
-				"outline"	"0" // Closed captions outline
 			}
 		}
 		"CloseCaption_Small"
 		{
 			"1"
 			{
-				"name" "TF2 Build" [$WINDOWS] // Closed captions font | Secondary font
-				"name" "TF2 Build" [!$WINDOWS] // Closed captions font | Secondary font
-				"tall"		"20" // Closed captions size | Size Medium Primary
+				"name"		"TF2 Build"
+				"tall"		"16"
+				"tall_hidef"	"24"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"antialias"	"1"
-				"outline"	"0" // Closed captions outline
 			}
 		}
 	
@@ -896,6 +936,11 @@ Scheme
 		{
 			"font" "resource/fonts/TF2Crosshairs.ttf"
 			"name" "TF2Crosshairs"
+		}
+		"10"
+		{
+			"font" "resource/fonts/TF2 Character Icons.ttf"
+			"name"	"TF2 Character Icons"
 		}
 	}
 }

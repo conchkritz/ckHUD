@@ -271,17 +271,15 @@
 	"RoundCounter"
 	{
 		"fieldName"		"RoundCounter"
-		"xpos"			"9999"
-		"ypos"			"-2"
+		"xpos"			"cs-0.5"
+		"ypos"			"25"
 		"zpos"			"1"		
-		"wide"			"0"		//"300"
-		"tall"			"0"
+		"wide"			"300"
+		"tall"			"100"
 		"visible"		"1"
 		"enabled"		"1"
-		
 	}	
 
-	
 	"RankUpLabel"
 	{	
 		"ControlName"	"CExLabel"
@@ -369,7 +367,7 @@
 			"font"			"hudfont18"
 			"fgcolor"		"colorwhite"
 			"xpos"			"21"
-			"ypos"			"3"
+			"ypos"			"2"
 			"zpos"			"3"
 			"wide"			"68"
 			"tall"			"31"

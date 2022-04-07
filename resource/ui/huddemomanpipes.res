@@ -17,7 +17,7 @@
 	{
 		"ControlName"			"CExLabel"
 		"xpos"					"10"
-		"ypos"					"17"
+		"ypos"					"23"
 		"zpos"					"6"
 		"wide"					"100"
 		"tall"					"18"
@@ -34,7 +34,7 @@
 		"fieldName"				"ChargeMeter"
 		"font"					"Default"
 		"xpos"					"0"
-		"ypos"					"23"
+		"ypos"					"28"
 		"zpos"					"2"
 		"wide"					"120"
 		"tall"					"7"				
@@ -52,12 +52,14 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"PipesPresentPanel"
-		"xpos"			"0"
+		"xpos"			"7"
 		"ypos"			"10"
 		"zpos"			"1"
 		"wide"			"100"
 		"tall"			"50"
 		"visible"		"1"
+		
+		"ypos_minmode"	"-25"
 		
 		"PipeIcon"
 		{
@@ -73,7 +75,44 @@
 			"image_drawcolor" "0 0 0 255"
 			"image"			"../vgui/replay/thumbnails/icons/sticky"
 		}
-		
+		"PipeIconFont"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"PipeIconFont"
+			"xpos"			"25"
+			"ypos"			"13"
+			"zpos"			"1"
+			"wide"			"35"
+			"tall"			"35"
+			
+			"visible"		"1"
+			"enabled"		"1"
+			
+			"labelText"		"S"
+			"textAlignment"	"center"
+			"font"			"hudfont18icon"
+			"fgcolor"		"colorwhite"
+		}
+		"PipeIconFontShadow"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"PipeIconFontShadow"
+			"xpos"			"-1"
+			"ypos"			"-1"
+			"zpos"			"0"
+			"wide"			"35"
+			"tall"			"35"
+			
+			"visible"		"1"
+			"enabled"		"1"
+			
+			"labelText"		"S"
+			"textAlignment"	"center"
+			"font"			"hudfont18icon"
+			"fgcolor"		"colorblack"
+			
+			"pin_to_sibling"	"PipeIconFont"
+		}
 		"NumPipesLabel"
 		{
 			"ControlName"	"CExLabel"

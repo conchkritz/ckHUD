@@ -5,12 +5,12 @@
 		"fieldName"		"HudItemEffectMeter"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"c-150"	[$WIN32]
-		"ypos"			"c45"	[$WIN32]
+		"xpos"			"cs-0.3"	[$WIN32]
+		"ypos"			"c70"	[$WIN32]
 		"wide"			"150"
 		"tall"			"50"
 		
-		"ypos_minmode"			"c120"	[$WIN32]
+		"ypos_minmode"			"c135"	[$WIN32]
 	}
 	
 	"ItemEffectMeterBG"
@@ -31,8 +31,8 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterLabel"
-		"xpos"					"25"
-		"ypos"					"27"
+		"xpos"					"-5"
+		"ypos"					"30"
 		"zpos"					"2"
 		"wide"					"100"
 		"tall"					"15"
@@ -42,7 +42,7 @@
 		"enabled"				"1"
 		"tabPosition"			"0"
 		"labelText"				"#TF_Ball"
-		"textAlignment"			"west"
+		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"0"
 		"font"					"hudfont10shadow"
@@ -71,33 +71,53 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterCount"
-		"xpos"					"43"
-		"ypos"					"3"
+		"xpos"					"-30"
+		"ypos"					"15"
 		"zpos"					"2"
 		"wide"					"40"
 		"tall"					"20"	
 		"visible"				"1"
 		"enabled"				"1"
 		"labelText"				"%progresscount%"
-		"textAlignment"			"east"
-		"font"					"hudfont14shadow"
+		"textAlignment"			"center"
+		"font"					"hudfont20"
 		"pin_to_sibling"		"ItemEffectMeterLabel"
 		"fgcolor_override"		"colorwhite"
 	}
-
-//	"HeadsIcon"
-//	{
-//		"ControlName"			"ImagePanel"
-//		"fieldName"				"HeadsIcon"
-//		"xpos"					"-5"
-//		"ypos"					"23"
-//		"zpos"					"-100"
-//		"wide"					"20"
-//		"tall"					"20"	
-//		"visible"				"1"
-//		"enabled"				"1"
-//		"image"					"../vgui/replay/thumbnails/icons/skullicon"
-//		"scaleImage"			"1"
-//	}
+	
+	"ItemEffectMeterCountShadow"
+	{
+		"ControlName"			"CExLabel"
+		"fieldName"				"ItemEffectMeterCountShadow"
+		"xpos"					"-1"
+		"ypos"					"-1"
+		"zpos"					"1"
+		"wide"					"40"
+		"tall"					"20"	
+		"visible"				"1"
+		"enabled"				"1"
+		"labelText"				"%progresscount%"
+		"textAlignment"			"center"
+		"font"					"hudfont20"
+		"fgcolor_override"		"colorblack"
+		
+		"pin_to_sibling"		"ItemEffectMeterCount"
+	}
+	
+	"HeadsIcon"
+	{
+		"ControlName"			"CIconPanel"
+		"fieldName"				"HeadsIcon"
+		"xpos"					"30"
+		"ypos"					"10"
+		"zpos"					"-100"
+		"wide"					"30"
+		"tall"					"30"	
+		"visible"				"1"
+		"enabled"				"1"
+		"scaleImage"	"1"	
+		"icon"			"ico_demolish"
+		"iconColor"		"255 255 255 255"
+	}
 
 }

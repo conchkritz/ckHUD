@@ -1035,12 +1035,12 @@
 		}
 	}
 	
-	"localPlayerImage" [$WIN32]
+	"localPlayerImage"
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"localPlayerImage"
-		"xpos"			"9999"
-		"ypos"			"365"
+		"xpos"			"c-23"
+		"ypos"			"385"
 		"zpos"			"9"
 		"wide"			"45"
 		"tall"			"90"
@@ -1048,39 +1048,38 @@
 		"enabled"		"1"
 		"image"			""	
 		"scaleImage"	"1"	
-	}
-	
+	}	
 	"localPlayerBG"
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"localPlayerBG"
-		"xpos"			"9999"
-		"ypos"			"9999"
+		"xpos"			"c-28"
+		"ypos"			"406"
 		"zpos"			"2"
-		"wide"			"55"
-		"tall"			"80"
+		"wide"			"0"//55
+		"tall"			"0"//70
+		"alpha"			"255"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
-		"image"			"../hud/color_panel_clear"
-		"scaleImage"	"1"	
-		"teambg_2"		"../hud/color_panel_clear"
-		"teambg_3"		"../hud/color_panel_clear"
-			
-		"src_corner_height"		"23"			// pixels inside the image
+		"image"			"../hud/color_panel_brown"		//"../hud/color_panel_clear"
+		"scaleImage"			"1"	
+		"border"		"WhiteBorderTrans"
+		
+		"fillcolor"	"255 255 255 255"
+		"src_corner_height"		"23"
 		"src_corner_width"		"23"
-				
-		"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"5"	
+		
+		"draw_corner_width"		"0"
+		"draw_corner_height" 	"0"	
 	}
-	
-	"countImage0" [$WIN32] // oh my god WHY
+	"countImage0"
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"countImage0"
-		"xpos"			"9999"
-		"ypos"			"365"
+		"xpos"			"c30"
+		"ypos"			"406"
 		"zpos"			"9"
 		"wide"			"30"
 		"tall"			"60"
@@ -1088,14 +1087,13 @@
 		"enabled"		"1"
 		"image"			""	
 		"scaleImage"	"1"	
-	}							
-	
-	"countImage1" [$WIN32]
+	}
+	"countImage1"
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"countImage1"
-		"xpos"			"9999"
-		"ypos"			"365"
+		"xpos"			"c-60"
+		"ypos"			"406"
 		"zpos"			"9"
 		"wide"			"30"
 		"tall"			"60"
@@ -1104,13 +1102,12 @@
 		"image"			""	
 		"scaleImage"	"1"	
 	}
-	
-	"countImage2" [$WIN32]
+	"countImage2"
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"countImage2"
-		"xpos"			"9999"
-		"ypos"			"365"
+		"xpos"			"c60"
+		"ypos"			"406"
 		"zpos"			"9"
 		"wide"			"30"
 		"tall"			"60"
@@ -1119,13 +1116,12 @@
 		"image"			""	
 		"scaleImage"	"1"	
 	}
-	
-	"countImage3" [$WIN32]
+	"countImage3"
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"countImage3"
-		"xpos"			"9999"
-		"ypos"			"365"
+		"xpos"			"c-90"
+		"ypos"			"406"
 		"zpos"			"9"
 		"wide"			"30"
 		"tall"			"60"
@@ -1134,13 +1130,12 @@
 		"image"			""	
 		"scaleImage"	"1"	
 	}
-	
-	"countImage4" [$WIN32]
+	"countImage4"
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"countImage4"
-		"xpos"			"9999"
-		"ypos"			"365"
+		"xpos"			"c90"
+		"ypos"			"406"
 		"zpos"			"9"
 		"wide"			"30"
 		"tall"			"60"
@@ -1149,13 +1144,12 @@
 		"image"			""	
 		"scaleImage"	"1"	
 	}
-	
-	"countImage5" [$WIN32]
+	"countImage5"
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"countImage5"
-		"xpos"			"9999"
-		"ypos"			"365"
+		"xpos"			"c-120"
+		"ypos"			"406"
 		"zpos"			"9"
 		"wide"			"30"
 		"tall"			"60"
@@ -1164,13 +1158,12 @@
 		"image"			""	
 		"scaleImage"	"1"	
 	}
-	
-	"countImage6" [$WIN32]
+	"countImage6"
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"countImage6"
-		"xpos"			"9999"
-		"ypos"			"365"
+		"xpos"			"c120"
+		"ypos"			"406"
 		"zpos"			"9"
 		"wide"			"30"
 		"tall"			"60"
@@ -1179,13 +1172,12 @@
 		"image"			""	
 		"scaleImage"	"1"	
 	}
-	
-	"countImage7" [$WIN32]
+	"countImage7"
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"countImage7"
-		"xpos"			"9999"
-		"ypos"			"365"
+		"xpos"			"c-150"
+		"ypos"			"406"
 		"zpos"			"9"
 		"wide"			"30"
 		"tall"			"60"
@@ -1194,13 +1186,12 @@
 		"image"			""	
 		"scaleImage"	"1"	
 	}
-	
-	"countImage8" [$WIN32]
+	"countImage8"
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"countImage8"
-		"xpos"			"9999"
-		"ypos"			"365"
+		"xpos"			"c150"
+		"ypos"			"406"
 		"zpos"			"9"
 		"wide"			"30"
 		"tall"			"60"
@@ -1209,13 +1200,12 @@
 		"image"			""	
 		"scaleImage"	"1"	
 	}
-	
-	"countImage9" [$WIN32]
+	"countImage9"
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"countImage9"
-		"xpos"			"9999"
-		"ypos"			"365"
+		"xpos"			"c-180"
+		"ypos"			"406"
 		"zpos"			"9"
 		"wide"			"30"
 		"tall"			"60"
@@ -1224,13 +1214,12 @@
 		"image"			""	
 		"scaleImage"	"1"	
 	}
-	
-	"countImage10" [$WIN32]
+	"countImage10"
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"countImage10"
-		"xpos"			"9999"
-		"ypos"			"365"
+		"xpos"			"c180"
+		"ypos"			"406"
 		"zpos"			"9"
 		"wide"			"30"
 		"tall"			"60"

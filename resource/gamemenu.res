@@ -7,7 +7,37 @@
 		"subimage" "glyph_vr"
 		"OnlyWhenVREnabled" "1" // fix pls
 	}
-	// im a hud theif
+	
+	"CharacterSetupButton"
+	{
+		"label" "#MMenu_CharacterSetup"
+		"command" "engine open_charinfo"
+		"subimage" "glyph_items"
+	}
+	"CharacterSetupButtonFix"
+	{
+		"label" "#MMenu_CharacterSetup"
+		"command" "engine open_charinfo"
+		"subimage" "glyph_items"
+	}
+	"GeneralStoreButton"
+	{
+		"label" "#MMenu_Shop"
+		"command" "engine open_store"
+		"subimage" "glyph_store"
+	}	
+	"SettingsButton"
+	{
+		"label" "Settings"
+		"command" "OpenOptionsDialog"
+		"subimage" "glyph_options"
+	}	
+	"TF2SettingsButton"
+	{
+		"label"			"Advanced Settings"
+		"Command"		"opentf2options"
+		"subimage" 		"glyph_options"
+	}
 	"MinmodeButton"
 	{
 		"label" "Toggle Minmode"
@@ -15,14 +45,6 @@
 		"subimage" "../vgui/replay/thumbnails/icons/glyph_hudmode_default"
 		"tooltip" "Toggle Minmode"
 	}
-	"SteamWorkshopButton"
-	{
-		"label" "#MMenu_SteamWorkshop"
-		"command" "engine OpenSteamWorkshopDialog"
-		"subimage" "glyph_steamworkshop"
-		"tooltip" "#MMenu_SteamWorkshop"
-	}
-
 	// These buttons are only shown while in-game
 	// and also are positioned by the .res file
 	"CallVoteButton"

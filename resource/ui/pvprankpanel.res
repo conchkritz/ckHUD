@@ -208,10 +208,10 @@
 			"fieldName"		"NameLabel"
 			"xpos"			"65"
 			"ypos"			"5"
-			"wide"			"f0"
+			"wide"			"0"
 			"zpos"			"100"
-			"tall"			"20"
-			"visible"		"1"
+			"tall"			"0"
+			"visible"		"0"
 			"enabled"		"1"
 			"font"			"HudFontSmallishBold"
 			"fgcolor_override"	"TanLight"
@@ -221,7 +221,13 @@
 
 			if_mini
 			{
-				"visible"	"0"
+				"xpos"			"65"
+				"ypos"			"5"
+				"wide"			"f0"
+				"zpos"			"100"
+				"tall"			"20"
+				"visible"		"0"
+				"enabled"		"1"			
 			}
 		}
 
@@ -231,10 +237,10 @@
 			"fieldName"		"DescLine1"
 			"xpos"			"65"
 			"ypos"			"19"
-			"wide"			"195"
+			"wide"			"0"
 			"zpos"			"100"
-			"tall"			"20"
-			"visible"		"1"
+			"tall"			"0"
+			"visible"		"0"
 			"enabled"		"1"
 			"font"			"HudFontSmallestBold"
 			"fgcolor_override"	"TanLight"
@@ -246,6 +252,9 @@
 			{
 				"xpos"	"67"
 				"ypos"	"4"
+				"wide"			"195"
+				"zpos"			"100"
+				"tall"			"20"
 			}
 
 			"fonts"
@@ -260,16 +269,16 @@
 		{
 			"ControlName"	"CAutoFittingLabel"
 			"fieldName"		"DescLine2"
-			"xpos"			"65"
-			"ypos"			"29"
+			"xpos"			"33"
+			"ypos"			"50"
 			"wide"			"195"
 			"zpos"			"100"
 			"tall"			"20"
 			"visible"		"1"
 			"enabled"		"1"
 			"font"			"HudFontSmallestBold"
-			"fgcolor_override"	"TanLight"
-			"textAlignment"	"north-west"
+			"fgcolor_override"	"colorwhite"
+			"textAlignment"	"center"
 			"labelText"		"%desc2%"
 			"proportionaltoparent"	"1"
 
@@ -277,11 +286,17 @@
 			{
 				"xpos"	"67"
 				"ypos"	"4"
+				"wide"			"195"
+				"zpos"			"100"
+				"tall"			"20"
+				"textAlignment"	"north-west"
+				"font"			"HudFontSmallestBold"
+
 			}
 
 			"fonts"
 			{
-				"0"		"HudFontSmallestBold"
+				"0"		"hudfont16"
 				"1"		"StorePromotionsTitle"
 				"2"		"FontStorePrice"
 			}
@@ -298,8 +313,8 @@
 			"ControlName"	"EditablePanel"
 			"fieldName"		"StatsContainer"
 			"xpos"			"rs1-5"
-			"ypos"			"0"
-			"wide"			"f70"
+			"ypos"			"-10"
+			"wide"			"f10"
 			"tall"			"f0"
 			"proportionaltoparent"	"1"
 
@@ -333,7 +348,7 @@
 					"tall"			"20"
 					"visible"		"1"
 					"enabled"		"1"
-					"font"			"hudfont10"
+					"font"			"hudfont10sec"
 					"fgcolor_override"	"TanLight"
 					"textAlignment"	"south-west"
 					"labelText"		"%current_xp%"
@@ -351,7 +366,7 @@
 					"tall"			"20"
 					"visible"		"1"
 					"enabled"		"1"
-					"font"			"hudfont10"
+					"font"			"hudfont10sec"
 					"fgcolor_override"	"TanLight"
 					"textAlignment"	"south-east"
 					"labelText"		"%next_level_xp%"

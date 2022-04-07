@@ -12,7 +12,7 @@ Scheme
 		"colorlightgray"		"70 70 70 255"
 		"colorgray"				"50 50 50 255"
 		"colordarkgray"			"40 40 40 255"
-		"colorblack"			"20 20 20 255"
+		"colorblack"			"30 30 30 255" // getting kinda tired of pure blacks
 		"colortransparentgray"	"0 0 0 100"
 		"colorred"				"184 56 59 255"
 		"colorblu"				"88 133 162 255"

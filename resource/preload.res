@@ -1,5 +1,14 @@
 "Resource/UI/MainMenuOverride.res"
 {
+	"MenuThumbMissing"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"MenuThumbMissing"
+		"xpos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../vgui/maps/menu_thumb_Missing"
+	}
 	"BTCross"
 	{
 		"ControlName"	"ImagePanel"
@@ -219,7 +228,96 @@
 		"enabled"		"1"
 		"image"			"../hud/cart_track_blue_opaque"
 	}
-	
+	"expanding_vert_bottom_blue_bg"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"expanding_vert_bottom_blue_bg"
+		"xpos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../hud/expanding_vert_bottom_blue_bg"
+	}
+	"expanding_vert_bottom_red_bg"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"expanding_vert_bottom_red_bg"
+		"xpos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../hud/expanding_vert_bottom_red_bg"
+	}
+	"expanding_vert_middle_blue_bg"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"expanding_vert_middle_blue_bg"
+		"xpos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../hud/expanding_vert_middle_blue_bg"
+	}
+	"expanding_vert_middle_red_bg"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"expanding_vert_middle_red_bg"
+		"xpos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../hud/expanding_vert_middle_red_bg"
+	}
+	"expanding_vert_top_blue_bg"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"expanding_vert_top_blue_bg"
+		"xpos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../hud/expanding_vert_top_blue_bg"
+	}
+	"expanding_vert_top_red_bg"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"expanding_vert_top_red_bg"
+		"xpos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../hud/expanding_vert_top_red_bg"
+	}
+	"icon_obj_cap_blu"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"icon_obj_cap_blu"
+		"xpos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../sprites/obj_icons/icon_obj_cap_blu"
+	}
+	"icon_obj_cap_blu_up"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"icon_obj_cap_blu_up"
+		"xpos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../sprites/obj_icons/icon_obj_cap_blu_up"
+	}
+	"icon_obj_cap_red"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"icon_obj_cap_red"
+		"xpos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../sprites/obj_icons/icon_obj_cap_red"
+	}	
+	"icon_obj_cap_red_up"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"icon_obj_cap_red_up"
+		"xpos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../sprites/obj_icons/icon_obj_cap_red_up"
+	}
 	"CartTrackRedO"
 	{
 		"ControlName"	"ImagePanel"

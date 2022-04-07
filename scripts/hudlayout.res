@@ -90,6 +90,7 @@
 		"enabled" "1"
 		"xpos"	"c-240"
 		"ypos"	"-125"
+		"zpos"	"1"
 		"wide"	"f0"
 		"tall"	"f0"
 		
@@ -171,11 +172,11 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"c-60"	[$WIN32]
-		"ypos"			"c30"	[$WIN32]
+		"ypos"			"c21"	[$WIN32]
 		"wide"			"f0"
 		"tall"			"f0"
 	
-		"ypos_minmode"	"c105"	[$WIN32]
+		"ypos_minmode"	"c96"	[$WIN32]
 	}
 
 	HudBowCharge
@@ -260,15 +261,15 @@
 	CHudAccountPanel
 	{
 		"fieldName"				"CHudAccountPanel"
-		"xpos"					"c-47"	[$WIN32]
-		"ypos"					"c-100"	[$WIN32]
+		"xpos"					"c-44"	[$WIN32]
+		"ypos"					"c-102"	[$WIN32]
 		"wide"					"f0"
 		"tall"  				"f0"
 		"visible" 				"1"
 		"enabled" 				"1"
 		"PaintBackgroundType"	"2"
 		
-		"ypos_minmode"			"c-25"	[$WIN32]
+		"ypos_minmode"			"c-27"	[$WIN32]
 	}
 	
 	CHealthAccountPanel
@@ -318,6 +319,7 @@
 		"xpos"		"c-126"
 		"ypos"		"312"
 		"ypos_minmode" "250"
+		"zpos"	"2"
 		"wide"	 	"f0"
 		"tall"	 	"f0"
 		"priority"	"40"
@@ -341,7 +343,8 @@
 		"tall"	 	"f0"
 		"priority"	"40"
 		"priority_lodef" "35"
-		
+		"zpos"	"2"
+
 		"x_offset" "20"
 		"y_offset" "20"
 	}
@@ -357,6 +360,8 @@
 		"wide"	 	"f0"
 		"tall"	 	"f0"
 		"priority"	"35"
+		
+		"zpos"	"2"
 
 		if_vr
 		{
@@ -657,24 +662,24 @@
 		"ItemFontPulsing"		"Default"
 	}
 	
-	HudCloseCaption
-	{
-		"fieldName" "HudCloseCaption"
-		"visible"	"1"
-		"enabled"	"1"
-		"xpos"		"c+80"
-		"ypos"		"c+70"
-		"wide"		"180"
-		"tall"		"60"
+    HudCloseCaption
+    {
+        "fieldName" "HudCloseCaption"
+        "visible"   "1"
+        "enabled"   "1"
+        "xpos"      "c200"
+        "ypos"      "302"   [$WIN32]
+        "wide"      "200"
+        "tall"      "100"   [$WIN32]
 
-		"BgAlpha"	"100"
+        "BgAlpha"   "0"
 
-		"GrowTime"			"0.05"
-		"ItemHiddenTime"	"0.05"  // Nearly same as grow time so that the item doesn't start to show until growth is finished
-		"ItemFadeInTime"	"0.05"	// Once ItemHiddenTime is finished, takes this much longer to fade in
-		"ItemFadeOutTime"	"0.3"
-		"topoffset"			"0"
-	}
+        "GrowTime"          "0.25"
+        "ItemHiddenTime"    "0.2"
+        "ItemFadeInTime"    "0.15"
+        "ItemFadeOutTime"   "0.3"
+        "topoffset"         "0"
+    }
 
 	HudHistoryResource 
 	{
@@ -1036,6 +1041,7 @@
 		"enabled" 		"1"
 		"xpos"			"c-225"
 		"ypos"			"c-55"
+		"zpos"			"20"
 		"wide"			"450"
 		"tall"			"195"
 		"PaintBackgroundType"	"0"
@@ -1048,6 +1054,7 @@
 		"enabled" 		"1"
 		"xpos"			"c-225"
 		"ypos"			"c-55"
+		"zpos"			"20"
 		"wide"			"450"
 		"tall"			"200"
 		"PaintBackgroundType"	"0"
@@ -1060,6 +1067,7 @@
 		"enabled" 		"1"
 		"xpos"			"c-225"
 		"ypos"			"c-55"
+		"zpos"			"20"
 		"wide"			"450"
 		"tall"			"200"
 		"PaintBackgroundType"	"0"
@@ -1072,8 +1080,7 @@
 		"enabled" 		"1"
 		"xpos"			"c-235"
 		"ypos"			"c-52"
-		"ypos_hidef"	"c-42"
-		"ypos_lodef"	"c-42"
+		"zpos"			"20"
 		"wide"			"470"
 		"tall"			"200"	[$WIN32]
 		"PaintBackgroundType"	"0"
@@ -1085,11 +1092,11 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"c-60"	[$WIN32]
-		"ypos"			"c30"	[$WIN32]
+		"ypos"			"c25"	[$WIN32]
 		"wide"			"f0"
 		"tall"			"f0"
 		
-		"ypos_minmode"	"c105"	[$WIN32]
+		"ypos_minmode"	"c100"	[$WIN32]
 	}	
 
 	HudTeamGoal
