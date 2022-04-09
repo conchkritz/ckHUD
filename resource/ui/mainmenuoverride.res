@@ -3371,7 +3371,7 @@
 		"textAlignment"	"east"
 		
 		"alpha"			"3"
-		"labelText" 	"ckHUD 0.1.4-source" // source = from github source, not release. alpha = alpha, duh. no suffix = release.
+		"labelText" 	"ckHUD 0.1.4.1-source" // source = from github source, not release. alpha = alpha, duh. no suffix = release.
 	}	
 	
 	"BackToReplaysButton"
