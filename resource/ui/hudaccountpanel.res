@@ -44,7 +44,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"EngiIcon"
 		"xpos"			"-7"
-		"ypos"			"130"
+		"ypos"			"131"
 		"zpos"			"2"
 		"wide"			"55"
 		"tall"			"26"

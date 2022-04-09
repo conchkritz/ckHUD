@@ -1641,8 +1641,8 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"MvMUpgradeImageScout"
-		"xpos"			"c-270"
-		"ypos"			"30"
+		"xpos"			"0"
+		"ypos"			"-30"
 		"zpos"			"10"
 		"wide"			"10"
 		"tall"			"10"
@@ -1650,14 +1650,16 @@
 		"enabled"		"1"
 		"image"			"mvm/class_upgraded"
 		"scaleImage"	"1"
+		
+		"pin_to_sibling"	"scout"
 	}
 	
 	"MvMUpgradeImageSolider"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"MvMUpgradeImageSolider"
-		"xpos"			"c-220"
-		"ypos"			"30"
+		"xpos"			"0"
+		"ypos"			"-30"
 		"zpos"			"10"
 		"wide"			"10"
 		"tall"			"10"
@@ -1665,14 +1667,16 @@
 		"enabled"		"1"
 		"image"			"mvm/class_upgraded"
 		"scaleImage"	"1"
+		
+		"pin_to_sibling"	"soldier"
 	}
 	
 	"MvMUpgradeImagePyro" 
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"MvMUpgradeImagePyro" 
-		"xpos"			"c-170"
-		"ypos"			"30"
+		"xpos"			"0"
+		"ypos"			"-30"
 		"zpos"			"10"
 		"wide"			"10"
 		"tall"			"10"
@@ -1680,14 +1684,16 @@
 		"enabled"		"1"
 		"image"			"mvm/class_upgraded"
 		"scaleImage"	"1"
+		
+		"pin_to_sibling"	"pyro"
 	}
 	
 	"MvMUpgradeImageDemoman" 
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"MvMUpgradeImageDemoman" 
-		"xpos"			"c-80"
-		"ypos"			"30"
+		"xpos"			"0"
+		"ypos"			"-30"
 		"zpos"			"10"
 		"wide"			"10"
 		"tall"			"10"
@@ -1695,14 +1701,16 @@
 		"enabled"		"1"
 		"image"			"mvm/class_upgraded"
 		"scaleImage"	"1"
+		
+		"pin_to_sibling"	"demoman"
 	}
 	
 	"MvMUpgradeImageHeavy"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"MvMUpgradeImageHeavy" 
-		"xpos"			"c-30"
-		"ypos"			"30"
+		"xpos"			"0"
+		"ypos"			"-30"
 		"zpos"			"10"
 		"wide"			"10"
 		"tall"			"10"
@@ -1710,14 +1718,16 @@
 		"enabled"		"1"
 		"image"			"mvm/class_upgraded"
 		"scaleImage"	"1"
+		
+		"pin_to_sibling"	"heavyweapons"
 	}
 	
 	"MvMUpgradeImageEngineer"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"MvMUpgradeImageEngineer"
-		"xpos"			"c20"
-		"ypos"			"30"
+		"xpos"			"0"
+		"ypos"			"-30"
 		"zpos"			"10"
 		"wide"			"10"
 		"tall"			"10"
@@ -1725,14 +1735,16 @@
 		"enabled"		"1"
 		"image"			"mvm/class_upgraded"
 		"scaleImage"	"1"
+		
+		"pin_to_sibling"	"engineer"
 	}
 	
 	"MvMUpgradeImageMedic"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"MvMUpgradeImageMedic"
-		"xpos"			"c108"
-		"ypos"			"30"
+		"xpos"			"0"
+		"ypos"			"-30"
 		"zpos"			"10"
 		"wide"			"10"
 		"tall"			"10"
@@ -1740,14 +1752,16 @@
 		"enabled"		"1"
 		"image"			"mvm/class_upgraded"
 		"scaleImage"	"1"
+		
+		"pin_to_sibling"	"medic"
 	}
 	
 	"MvMUpgradeImageSniper"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"MvMUpgradeImageSniper"
-		"xpos"			"c158"
-		"ypos"			"30"
+		"xpos"			"0"
+		"ypos"			"-30"
 		"zpos"			"10"
 		"wide"			"10"
 		"tall"			"10"
@@ -1755,14 +1769,16 @@
 		"enabled"		"1"
 		"image"			"mvm/class_upgraded"
 		"scaleImage"	"1"
+		
+		"pin_to_sibling"	"sniper"
 	}
 	
 	"MvMUpgradeImageSpy"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"MvMUpgradeImageSpy"
-		"xpos"			"c208"
-		"ypos"			"30"
+		"xpos"			"0"
+		"ypos"			"-30"
 		"zpos"			"10"
 		"wide"			"10"
 		"tall"			"10"
@@ -1770,6 +1786,8 @@
 		"enabled"		"1"
 		"image"			"mvm/class_upgraded"
 		"scaleImage"	"1"
+		
+		"pin_to_sibling"	"spy"
 	}
 
 	"StartExplanation"

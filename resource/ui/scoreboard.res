@@ -162,10 +162,10 @@
 		"ControlName"		"EditablePanel"
 		"fieldName"		"MainBG"
 		"xpos"			"0"
-		"ypos"			"38"
+		"ypos"			"26"
 		"zpos"			"-1"
 		"wide"			"320"
-		"tall"			"353"
+		"tall"			"363"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -234,7 +234,7 @@
 		"labelText"		"%redteamscore%"
 		"textAlignment"		"center"
 		"xpos"			"225"
-		"ypos"			"22" 
+		"ypos"			"20" 
 		"zpos"			"4"
 		"wide"			"100"
 		"tall"			"55"
@@ -284,7 +284,7 @@
 		"labelText"		"%redteamplayercount%"
 		"textAlignment"		"west"
 		"xpos"			"100"
-		"ypos"			"42"
+		"ypos"			"40"
 		"zpos"			"4"
 		"wide"			"160"
 		"tall"			"15"
@@ -330,7 +330,7 @@
 		"ControlName"		"CTFImagePanel"
 		"fieldName"			"RedBg"
 		"xpos"				"0"
-		"ypos"				"28"
+		"ypos"				"26"
 		"zpos"				"2"
 		"wide"				"320"
 		"tall"				"42"
@@ -353,7 +353,7 @@
 		"ControlName"		"ImagePanel"
 		"fieldName"			"RedUnderline"
 		"xpos"				"0"
-		"ypos"				"69" // nice
+		"ypos"				"67" // not nice
 		"zpos"				"3"
 		"wide"				"320"
 		"tall"				"1"
@@ -393,7 +393,7 @@
 		"labelText"		"%redteamname%"
 		"textAlignment"		"west"
 		"xpos"			"10"
-		"ypos"			"22" 
+		"ypos"			"20" 
 		"zpos"			"4"
 		"wide"			"100"
 		"tall"			"55"
@@ -731,7 +731,7 @@
 		"fieldName"		"ServerTimeLeft"
 		"font"			"ScoreboardVerySmall"
 		"labelText"		"%servertimeleft%"
-		"textAlignment"		"east"
+		"textAlignment"		"west"
 		"xpos"			"305"
 		"ypos"			"60"
 		"wide"			"300"
@@ -743,7 +743,8 @@
 		
 		if_mvm
 		{
-			"ypos"			"0"
+			"xpos"			"390"
+			"ypos"			"380"
 			"visible"		"1"
 		}
 	}							

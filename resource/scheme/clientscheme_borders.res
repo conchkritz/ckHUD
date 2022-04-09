@@ -354,6 +354,198 @@ Scheme
 				}
 			}
 		}
+		FindGame 
+		{
+			"inset" "0 0 0 0"
+			Left
+			{
+				"1"
+				{
+					"color" "GreenSolid"
+					"offset" "0 0"
+				}
+				"2"
+				{
+					"color" "GreenSolid"
+					"offset" "-1 0"
+				}
+				"3"
+				{
+					"color" "GreenSolid"
+					"offset" "-2 0"
+				}
+				"4"
+				{
+					"color" "GreenSolid"
+					"offset" "-3 0"
+				}
+			}
+			Bottom
+			{
+				"1"
+				{
+					"color" "GreenSolid"
+					"offset" "0 0"
+				}
+				"2"
+				{
+					"color" "GreenSolid"
+					"offset" "-1 0"
+				}
+				"3"
+				{
+					"color" "GreenSolid"
+					"offset" "-2 0"
+				}
+				"4"
+				{
+					"color" "GreenSolid"
+					"offset" "-3 0"
+				}
+			}
+			Right
+			{
+				"1"
+				{
+					"color" "GreenSolid"
+					"offset" "0 0"
+				}
+				"2"
+				{
+					"color" "GreenSolid"
+					"offset" "-1 0"
+				}
+				"3"
+				{
+					"color" "GreenSolid"
+					"offset" "-2 0"
+				}
+				"4"
+				{
+					"color" "GreenSolid"
+					"offset" "-3 0"
+				}
+			}
+			Top
+			{
+				"1"
+				{
+					"color" "GreenSolid"
+					"offset" "-0 0"
+				}
+				"2"
+				{
+					"color" "GreenSolid"
+					"offset" "-1 0"
+				}
+				"3"
+				{
+					"color" "GreenSolid"
+					"offset" "-2 0"
+				}
+				"4"
+				{
+					"color" "GreenSolid"
+					"offset" "-3 0"
+				}
+			}
+		}
+		FindGameLight
+		{
+			"inset" "0 0 0 0"
+			Left
+			{
+				"1"
+				{
+					"color" "CreditsGreen"
+					"offset" "0 0"
+				}
+				"2"
+				{
+					"color" "CreditsGreen"
+					"offset" "-1 0"
+				}
+				"3"
+				{
+					"color" "CreditsGreen"
+					"offset" "-2 0"
+				}
+				"4"
+				{
+					"color" "CreditsGreen"
+					"offset" "-3 0"
+				}
+			}
+			Bottom
+			{
+				"1"
+				{
+					"color" "CreditsGreen"
+					"offset" "0 0"
+				}
+				"2"
+				{
+					"color" "CreditsGreen"
+					"offset" "-1 0"
+				}
+				"3"
+				{
+					"color" "CreditsGreen"
+					"offset" "-2 0"
+				}
+				"4"
+				{
+					"color" "CreditsGreen"
+					"offset" "-3 0"
+				}
+			}
+			Right
+			{
+				"1"
+				{
+					"color" "CreditsGreen"
+					"offset" "0 0"
+				}
+				"2"
+				{
+					"color" "CreditsGreen"
+					"offset" "-1 0"
+				}
+				"3"
+				{
+					"color" "CreditsGreen"
+					"offset" "-2 0"
+				}
+				"4"
+				{
+					"color" "CreditsGreen"
+					"offset" "-3 0"
+				}
+			}
+			Top
+			{
+				"1"
+				{
+					"color" "CreditsGreen"
+					"offset" "-0 0"
+				}
+				"2"
+				{
+					"color" "CreditsGreen"
+					"offset" "-1 0"
+				}
+				"3"
+				{
+					"color" "CreditsGreen"
+					"offset" "-2 0"
+				}
+				"4"
+				{
+					"color" "CreditsGreen"
+					"offset" "-3 0"
+				}
+			}
+		}
 		PipboyOutline 
 		{
 			"inset" "0 0 0 0"
@@ -430,7 +622,7 @@ Scheme
 				}
 			}
 		}
-		WhiteBorderTrans
+		WhiteBorderTrans // insturment transposing transgender aaaaaaaaaaaaaaaaaaaaaaaa
 		{
 			"inset" "0 0 0 0"
 			Left
@@ -540,163 +732,151 @@ Scheme
 			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"0"	
 		}
+	
 		TFThinLineBorder
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
+			
 			"image"					"../hud/tournament_panel_brown"
-			//"image"				"../hud/color_panel_browner"
-			"src_corner_height"		"23"			// pixels inside the image
-			"src_corner_width"		"23"
+			//"image"					"../hud/color_panel_browner"
+			"src_corner_height"		"25"				// pixels inside the image
+			"src_corner_width"		"25"
 			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height"	"0"
+			"draw_corner_height" 	"0"	
 		}
-
 		TFFatLineBorderOpaque
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
+			
 			"image"					"../hud/color_panel_brown_opaque"
-			"src_corner_height"		"23"			// pixels inside the image
-			"src_corner_width"		"23"
+			"src_corner_height"		"25"				// pixels inside the image
+			"src_corner_width"		"25"
 			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"0"
+			"draw_corner_height" 	"0"	
 		}
-
 		TFFatLineBorder
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
+			
 			"image"					"../hud/color_panel_brown"
-			"src_corner_height"		"23"			// pixels inside the image
-			"src_corner_width"		"23"
+			"src_corner_height"		"25"				// pixels inside the image
+			"src_corner_width"		"25"
 			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"0"
+			"draw_corner_height" 	"0"	
 		}
-
 		TFFatLineBorderRedBGOpaque
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-			"image"					"../vgui/replay/thumbnails/bg_red"
-			"src_corner_height"		"23"			// pixels inside the image
-			"src_corner_width"		"23"
+			
+			"image"					"../hud/color_panel_red_opaque"
+			"src_corner_height"		"25"				// pixels inside the image
+			"src_corner_width"		"25"
 			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"0"
+			"draw_corner_height" 	"0"	
 		}
-
 		TFFatLineBorderRedBGOpaque_Store
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-			"image"					"../vgui/replay/thumbnails/bg_red"
-			"src_corner_height"		"24"			// pixels inside the image
-			"src_corner_width"		"24"
+			
+			"image"					"../hud/color_panel_red_opaque"
+			"src_corner_height"		"25"				// pixels inside the image
+			"src_corner_width"		"25"
 			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"0"
+			"draw_corner_height" 	"0"	
 		}
-
 		TFFatLineBorderRedBG
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-			"image"					"../vgui/replay/thumbnails/bg_red"
-			"src_corner_height"		"23"			// pixels inside the image
-			"src_corner_width"		"23"
+			
+			"image"					"../hud/color_panel_red"
+			"src_corner_height"		"25"				// pixels inside the image
+			"src_corner_width"		"25"
 			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"0"
+			"draw_corner_height" 	"0"	
 		}
-
 		TFFatLineBorderRedBGMoreOpaque
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-			"image"					"../vgui/replay/thumbnails/bg_red"
-			"src_corner_height"		"23"			// pixels inside the image
-			"src_corner_width"		"23"
+			
+			"image"					"../hud/color_panel_red_more_opaque"
+			"src_corner_height"		"25"				// pixels inside the image
+			"src_corner_width"		"25"
 			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"0"
+			"draw_corner_height" 	"0"	
 		}
-
 		TFFatLineBorderBlueBG
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-			"image"					"../vgui/replay/thumbnails/bg_blu"
-			"src_corner_height"		"23"			// pixels inside the image
-			"src_corner_width"		"23"
+			
+			"image"					"../hud/color_panel_blu"
+			"src_corner_height"		"25"				// pixels inside the image
+			"src_corner_width"		"25"
 			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"0"
+			"draw_corner_height" 	"0"	
 		}
-
 		TFFatLineBorderBlueBGMoreOpaque
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-			"image"					"../vgui/replay/thumbnails/bg_blu"
-			"src_corner_height"		"23"			// pixels inside the image
-			"src_corner_width"		"23"
+			
+			"image"					"../hud/color_panel_blu_more_opaque"
+			"src_corner_height"		"25"				// pixels inside the image
+			"src_corner_width"		"25"
 			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"0"
+			"draw_corner_height" 	"0"	
 		}
-
 		TFFatLineBorderBlueBGOpaque
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-			"image"					"../vgui/replay/thumbnails/bg_blu"
-			"src_corner_height"		"23"			// pixels inside the image
-			"src_corner_width"		"23"
+			
+			"image"					"../hud/color_panel_blu_opaque"
+			"src_corner_height"		"25"				// pixels inside the image
+			"src_corner_width"		"25"
 			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"0"
+			"draw_corner_height" 	"0"	
 		}
-
 		TFFatLineBorderClearBG
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
+			
 			"image"					"../hud/color_panel_clear"
-			"src_corner_height"		"23"			// pixels inside the image
-			"src_corner_width"		"23"
+			"src_corner_height"		"25"				// pixels inside the image
+			"src_corner_width"		"25"
 			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"0"
+			"draw_corner_height" 	"0"	
+		}
+		RedWithThinBorder
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			
+			"image"					"../hud/panel_scalable_red"
+			"src_corner_height"		"25"				// pixels inside the image
+			"src_corner_width"		"25"
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
 		}
 
-		ToolTipBorder
+		BlueWithThinBorder
 		{
-			"inset" "0 0 1 1"
-			Left
-			{
-				"1"
-				{
-					"color" "TanDarker"
-					"offset" "0 1"
-				}
-			}
-			Right
-			{
-				"1"
-				{
-					"color" "TanDarker"
-					"offset" "1 0"
-				}
-			}
-			Top
-			{
-				"1"
-				{
-					"color" "TanDarker"
-					"offset" "0 0"
-				}
-			}
-			Bottom
-			{
-				"1"
-				{
-					"color" "TanDarker"
-					"offset" "0 0"
-				}
-			}
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			
+			"image"					"../hud/panel_scalable_blue"
+			"src_corner_height"		"25"				// pixels inside the image
+			"src_corner_width"		"25"
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
 		}
 	
 		EconItemBorder

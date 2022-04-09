@@ -31,6 +31,21 @@
 		"sheetinset_bottom"				"40"
 	}
 	
+	"RankBorderBelowDarken"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldname"		"RankBorderBelowDarken"
+		"xpos"			"50"
+		"ypos"			"60"
+		"zpos"			"-100"
+		"wide"			"600"
+		"tall"			"110"
+		"visible"		"0"	
+		"PaintBackgroundType"	"0"
+
+		"bgcolor_override"	"0 0 0 100"
+	}
+	
 	"BackgroundHeader"
 	{
 		"ControlName"	"ImagePanel"

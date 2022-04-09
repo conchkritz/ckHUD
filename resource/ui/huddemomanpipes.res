@@ -73,7 +73,6 @@
 			"enabled"		"1"
 			"scaleImage"	"1"
 			"image_drawcolor" "0 0 0 255"
-			"image"			"../vgui/replay/thumbnails/icons/sticky"
 		}
 		"PipeIconFont"
 		{

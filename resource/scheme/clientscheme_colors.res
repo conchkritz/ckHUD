@@ -34,6 +34,8 @@ Scheme
 		"meter4alt"				"190 190 190 255"
 		"meterbg"				"200 200 200 50" // used to be colortransparentgray but it was too dark
 		"taunt"					"207 115 54 255" 
+		
+		"disconnectred"			"192 28 0 255"
 
 		"constructblue"			"54 48 122 255" // build pda
 		"constructdarkblue"		"54 48 100 255" // built

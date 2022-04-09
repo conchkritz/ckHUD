@@ -64,6 +64,7 @@
 			{
 				"use_item_rendertarget" "0"
 				"allow_rot"				"0"
+				"inventory_image_type" 	"1" // high quality?
 			}
 		}
 
@@ -654,8 +655,8 @@
 		
 		"defaultfgcolor_override"		"0 0 0 0"
 		"armedFgColor_override"			"0 0 0 0"
-		"defaultbgcolor_override"		"255 62 62 255"
-		"depressedbgcolor_override"		"255 62 62 255"
+		"defaultbgcolor_override"		"colorred"
+		"depressedbgcolor_override"		"colordarkred"
 		"armedbgcolor_override"			"255 92 92 255"
 	}
 	"BlueSkinButton"
@@ -677,8 +678,8 @@
 		
 		"defaultfgcolor_override"		"0 0 0 0"
 		"armedFgColor_override"			"0 0 0 0"
-		"defaultbgcolor_override"		"154 205 255 255"
-		"depressedbgcolor_override"		"154 205 255 255"
+		"defaultbgcolor_override"		"colorblu"
+		"depressedbgcolor_override"		"colordarkblu"
 		"armedbgcolor_override"			"184 235 255 255"
 	}
 }

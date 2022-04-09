@@ -19,22 +19,22 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PopFileLabel"
-		"font"			"ScoreboardMedium"
+		"font"			"hudfont12sec"
 		"labelText"		"%popfile%"
-		"textAlignment"	"east"
-		"xpos"			"290"
-		"ypos"			"375"
+		"textAlignment"	"west"
+		"xpos"			"390"
+		"ypos"			"222"
 		"wide"			"290"
 		"tall"			"20"
-		"fgcolor"		"tanlight"
+		"fgcolor"		"colorwhite"
 	}
 
 	"DifficultyContainer"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"DifficultyContainer"
-		"xpos"			"425"
-		"ypos"			"30"
+		"xpos"			"390"
+		"ypos"			"235"
 		"wide"			"150"
 		"tall"			"20"
 		"visible"		"1"
@@ -43,28 +43,28 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"DifficultyLabel"
-			"font"			"HudFontSmallest"
-			"labelText"		"#TF_MvM_Difficulty"
-			"textAlignment"	"center"
+			"font"			"hudfont12sec"
+			"labelText"		"Difficulty:"
+			"textAlignment"	"west"
 			"xpos"			"0"
 			"ypos"			"0"
 			"wide"			"150"
-			"tall"			"10"
-			"fgcolor"		"tanlight"
+			"tall"			"15"
+			"fgcolor"		"colorwhite"
 		}
 		
 		"DifficultyValue"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"DifficultyValue"
-			"font"			"HudFontSmallBold"
+			"font"			"hudfont12sec"
 			"labelText"		"%difficultyvalue%"
-			"textAlignment"	"center"
-			"xpos"			"0"
-			"ypos"			"9"
+			"textAlignment"	"west"
+			"xpos"			"50"
+			"ypos"			"0"
 			"wide"			"150"
-			"tall"			"10"
-			"fgcolor"		"tanlight"
+			"tall"			"15"
+			"fgcolor"		"colorwhite"
 		}
 	}
 	
@@ -73,10 +73,10 @@
 		"ControlName"		"ScalableImagePanel"
 		"fieldName"		"PlayerListBackground"
 		"xpos"			"25"
-		"ypos"			"75"
+		"ypos"			"76"
 		"zpos"			"-1"
 		"wide"			"550"
-		"tall"			"150"
+		"tall"			"148"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/color_panel_brown"
@@ -106,11 +106,13 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		
+		"tabPosition"	"0"
+		
 		"autoresize"	"3"
 		
 		"linespacing"	"22"
 		
-		"textcolor"		"White"
+		"textcolor"		"colorwhite"
 	}
 	
 	"CreditStatsContainer"

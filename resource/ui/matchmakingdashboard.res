@@ -668,14 +668,14 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 
-			"armedBgColor_override"		"192 28 0 150"
-			"defaultBgColor_override"	"192 28 0 50"
+			"armedBgColor_override"		"disconnectred"
+			"defaultBgColor_override"	"disconnectred"
 
-			"defaultFgColor_override" "TanLight"
-			"armedFgColor_override" "TanLight"
+			"defaultFgColor_override" "colorwhite"
+			"armedFgColor_override" "colorwhite"
 
-			"image_drawcolor"	"TanLight"
-			"image_armedcolor"	"TanLight"
+			"image_drawcolor"	"colorwhite"
+			"image_armedcolor"	"colorwhite"
 
 			"SubImage"
 			{
@@ -691,7 +691,7 @@
 				"scaleImage"	"1"
 				"proportionaltoparent"	"1"
 				"image"			"glyph_disconnect"
-				"drawcolor_override" "TanLight"
+				"drawcolor_override" "colorwhite"
 			}
 		}
 
@@ -730,10 +730,10 @@
 		//	"armedBgColor_override"		"CreditsGreen"
 		//	"defaultBgColor_override"	"GreenSolid"
 
-			"defaultFgColor_override" "TanLight"
-			"armedFgColor_override" "TanLight"
-			"image_drawcolor"	"235 226 202 255"
-			"image_armedcolor"	"235 226 202 255"
+			"defaultFgColor_override" "colorwhite"
+			"armedFgColor_override" "colorwhite"
+			"image_drawcolor"	"colorwhite"
+			"image_armedcolor"	"colorwhite"
 
 			"SubImage"
 			{
@@ -749,7 +749,7 @@
 				"scaleImage"	"1"
 				"proportionaltoparent"	"1"
 				"image"			"icon_resume"
-				"drawcolor_override" "TanLight"
+				"drawcolor_override" "colorwhite"
 			}
 		}
 
@@ -788,10 +788,10 @@
 			"armedBgColor_override"		"CreditsGreen"
 			"defaultBgColor_override"	"GreenSolid"
 
-			"defaultFgColor_override" "TanLight"
-			"armedFgColor_override" "TanLight"
-			"image_drawcolor"	"235 226 202 255"
-			"image_armedcolor"	"235 226 202 255"
+			"defaultFgColor_override" "colorwhite"
+			"armedFgColor_override" "colorwhite"
+			"image_drawcolor"	"colorwhite"
+			"image_armedcolor"	"colorwhite"
 
 			"SubImage"
 			{
@@ -807,7 +807,7 @@
 				"scaleImage"	"1"
 				"proportionaltoparent"	"1"
 				"image"			"glyph_multiplayer"
-				"drawcolor_override" "TanLight"
+				"drawcolor_override" "colorwhite"
 			}
 		}
 	}

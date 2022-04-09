@@ -28,15 +28,22 @@
 	}	
 	"SettingsButton"
 	{
-		"label" "Settings"
+		"label" "Options"
 		"command" "OpenOptionsDialog"
 		"subimage" "glyph_options"
 	}	
 	"TF2SettingsButton"
 	{
-		"label"			"Advanced Settings"
+		"label"			"Advanced Options"
 		"Command"		"opentf2options"
 		"subimage" 		"glyph_options"
+	}
+	"DemoUIButton"
+	{
+		"label" "Demo UI"
+		"command" "engine demoui"
+		"subimage" "glyph_tv"
+		"tooltip" "Demo UI"
 	}
 	"MinmodeButton"
 	{
@@ -44,6 +51,13 @@
 		"command" "engine toggle cl_hud_minmode"
 		"subimage" "../vgui/replay/thumbnails/icons/glyph_hudmode_default"
 		"tooltip" "Toggle Minmode"
+	}
+	"ReloadHudButton" // DemoUIButton
+	{
+		"label" "Reload Hud"
+		"command" "engine hud_reloadscheme"
+		"subimage" "icon_resume"
+		"tooltip" "Reload Hud"
 	}
 	// These buttons are only shown while in-game
 	// and also are positioned by the .res file
