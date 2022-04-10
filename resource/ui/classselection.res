@@ -34,8 +34,8 @@
 	{
 		"ControlName"		"CExImageButton"
 		"fieldName"			"random"
-		"xpos"				"-50"
-		"ypos"				"-75"
+		"xpos"				"-60"
+		"ypos"				"-5"
 		"zpos"				"6"
 		"wide"				"50"
 		"tall"				"76"
@@ -45,6 +45,7 @@
 		"enabled"			"1"
 		"tabPosition"		"0"
 		"labelText"			"&R"
+		"textinsetx"		"1000"
 		"textAlignment"		"south-west"
 		"Command"			"select 12"
 		"Default"			"1"
@@ -74,14 +75,14 @@
 		"keyboardinputenabled"	"1"
 	
 		
-		"pin_to_sibling"	"pyro"
+		"pin_to_sibling"	"engineer"
 		
 		"SubImage"
 		{
 			"ControlName"	"ImagePanel"
 			"fieldName"		"SubImage"
-			"xpos"			"0"
-			"ypos"			"0"
+			"xpos"			"-1"
+			"ypos"			"2"
 			"zpos"			"7"
 			"wide"			"50"
 			"tall"			"100"
@@ -91,19 +92,72 @@
 			"scaleImage"	"1"
 		}				
 	}
+	"randombg"
+	{
+		"ControlName"		"CTFImagePanel"
+		"fieldName"			"randombg"
+		"xpos"				"5"
+		"ypos"				"-17"
+		"zpos"				"3"
+		"wide"				"55"
+		"tall"				"82"
+		"visible"			"1"
+		"enabled"			"1"
+		"image"			"../hud/color_panel_brown"
+		"scaleImage"		"1"
 		
+		"src_corner_height"		"25"
+		"src_corner_width"		"25"			
+		"draw_corner_width"		"5"
+		"draw_corner_height" 	"5"	
+		
+		"pin_to_sibling"			"random"
+	}
+	"randombindlabel"
+	{
+		"ControlName"		"CExLabel"
+		"fieldName"			"randombindlabel"
+		"xpos"				"-5"
+		"ypos"				"-31"
+		"zpos"				"4"
+		"wide"				"55"
+		"tall"				"82"
+		"visible"			"1"
+		"enabled"			"1"
+		"font"				"hudfont16"
+		"labelText"			"R"
+		
+		"pin_to_sibling"			"randombg"
+	}
+	"randombindlabelshadow"
+	{
+		"ControlName"		"CExLabel"
+		"fieldName"			"randombindlabelshadow"
+		"xpos"				"-1"
+		"ypos"				"-1"
+		"zpos"				"3"
+		"wide"				"55"
+		"tall"				"82"
+		"visible"			"1"
+		"enabled"			"1"
+		"font"				"hudfont16"
+		"labelText"			"R"
+		"fgcolor_override"	"colorblack"
+		
+		"pin_to_sibling"			"randombindlabel"
+	}	
 	"Offense"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"Offense"
-		"xpos"			"0"
+		"xpos"			"9999"
 		"ypos"			"-102"
 		"zpos"			"2"
 		"wide"			"90"
 		"tall"			"12"
 		"autoResize"	"1"
 		"pinCorner"		"2"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"#TF_Offense"
@@ -113,34 +167,13 @@
 		
 		"pin_to_sibling" "scout"
 	}
-	"OffenseShadow"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"OffenseShadow"
-		"xpos"			"-1"
-		"ypos"			"-1"
-		"zpos"			"2"
-		"wide"			"90"
-		"tall"			"12"
-		"autoResize"	"1"
-		"pinCorner"		"2"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"	"0"
-		"labelText"		"#TF_Offense"
-		"textAlignment"	"left"
-		"font"			"hudfont12"
-		"fgcolor"		"colorblack"
-		
-		"pin_to_sibling" "Offense"
-	}
 	"scout"
 	{
 		"ControlName"		"CExImageButton"
 		"fieldName"			"scout"
 		"xpos"				"c10"
-		"ypos"				"65"
-		"zpos"				"6"
+		"ypos"				"95"
+		"zpos"				"7"
 		"wide"				"50"
 		"tall"				"100"
 		"autoResize"		"0"
@@ -148,8 +181,7 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"tabPosition"		"0"
-		"labelText"			"1"	[$WIN32]
-		"labelText"			""		[$X360]
+		"labelText"			""	[$WIN32]
 		"textAlignment"		"south-west"
 		"Command"			"select 1"
 		"Default"			"0"
@@ -182,8 +214,8 @@
 		{
 			"ControlName"	"ImagePanel"
 			"fieldName"		"SubImage"
-			"xpos"			"0"
-			"ypos"			"0"
+			"xpos"			"2"
+			"ypos"			"-7"
 			"zpos"			"7"
 			"wide"			"50"
 			"tall"			"100"
@@ -193,13 +225,67 @@
 			"scaleImage"	"1"
 		}				
 	}
+	"scoutbg"
+	{
+		"ControlName"		"CTFImagePanel"
+		"fieldName"			"scoutbg"
+		"xpos"				"2"
+		"ypos"				"-21"
+		"zpos"				"2"
+		"wide"				"55"
+		"tall"				"82"
+		"visible"			"1"
+		"enabled"			"1"
+		"image"			"../hud/color_panel_brown"
+		"scaleImage"		"1"
+		
+		"src_corner_height"		"25"
+		"src_corner_width"		"25"			
+		"draw_corner_width"		"5"
+		"draw_corner_height" 	"5"	
+		
+		"pin_to_sibling"			"scout"
+	}
+	"scoutkeybindlabel"
+	{
+		"ControlName"		"CExLabel"
+		"fieldName"			"scoutkeybindlabel"
+		"xpos"				"-5"
+		"ypos"				"-31"
+		"zpos"				"4"
+		"wide"				"55"
+		"tall"				"82"
+		"visible"			"1"
+		"enabled"			"1"
+		"font"				"hudfont16"
+		"labelText"			"1"
+		
+		"pin_to_sibling"			"scoutbg"
+	}
+	"scoutkeybindlabelshadow"
+	{
+		"ControlName"		"CExLabel"
+		"fieldName"			"scoutkeybindlabelshadow"
+		"xpos"				"-1"
+		"ypos"				"-1"
+		"zpos"				"3"
+		"wide"				"55"
+		"tall"				"82"
+		"visible"			"1"
+		"enabled"			"1"
+		"font"				"hudfont16"
+		"labelText"			"1"
+		"fgcolor_override"	"colorblack"
+		
+		"pin_to_sibling"			"scoutkeybindlabel"
+	}	
 	"soldier"
 	{
 		"ControlName"		"CExImageButton"
 		"fieldName"			"soldier"
-		"xpos"				"-50"
+		"xpos"				"-55"
 		"ypos"				"0"
-		"zpos"				"6"
+		"zpos"				"7"
 		"wide"				"50"
 		"tall"				"100"
 		"autoResize"		"0"
@@ -207,8 +293,7 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"tabPosition"		"0"
-		"labelText"			"2"	[$WIN32]
-		"labelText"			""		[$X360]
+		"labelText"			""	[$WIN32]
 		"textAlignment"		"south-west"
 		"Command"			"select 3"
 		"Default"			"0"
@@ -243,8 +328,8 @@
 		{
 			"ControlName"	"ImagePanel"
 			"fieldName"		"SubImage"
-			"xpos"			"0"
-			"ypos"			"0"
+			"xpos"			"2"
+			"ypos"			"-5"
 			"zpos"			"7"
 			"wide"			"50"
 			"tall"			"100"
@@ -254,13 +339,67 @@
 			"scaleImage"	"1"
 		}				
 	}
+	"soldierbg"
+	{
+		"ControlName"		"CTFImagePanel"
+		"fieldName"			"soldierbg"
+		"xpos"				"2"
+		"ypos"				"-21"
+		"zpos"				"2"
+		"wide"				"55"
+		"tall"				"82"
+		"visible"			"1"
+		"enabled"			"1"
+		"image"			"../hud/color_panel_brown"
+		"scaleImage"		"1"
+		
+		"src_corner_height"		"25"
+		"src_corner_width"		"25"			
+		"draw_corner_width"		"5"
+		"draw_corner_height" 	"5"	
+		
+		"pin_to_sibling"			"soldier"
+	}
+	"soldierkeybindlabel"
+	{
+		"ControlName"		"CExLabel"
+		"fieldName"			"soldierkeybindlabel"
+		"xpos"				"-5"
+		"ypos"				"-31"
+		"zpos"				"4"
+		"wide"				"55"
+		"tall"				"82"
+		"visible"			"1"
+		"enabled"			"1"
+		"font"				"hudfont16"
+		"labelText"			"2"
+		
+		"pin_to_sibling"			"soldierbg"
+	}
+	"soldierkeybindlabelshadow"
+	{
+		"ControlName"		"CExLabel"
+		"fieldName"			"soldierkeybindlabelshadow"
+		"xpos"				"-1"
+		"ypos"				"-1"
+		"zpos"				"3"
+		"wide"				"55"
+		"tall"				"82"
+		"visible"			"1"
+		"enabled"			"1"
+		"font"				"hudfont16"
+		"labelText"			"2"
+		"fgcolor_override"	"colorblack"
+		
+		"pin_to_sibling"			"soldierkeybindlabel"
+	}	
 	"pyro"
 	{
 		"ControlName"		"CExImageButton"
 		"fieldName"			"pyro"
-		"xpos"				"-50"
+		"xpos"				"-55"
 		"ypos"				"0"
-		"zpos"				"6"
+		"zpos"				"7"
 		"wide"				"50"
 		"tall"				"100"
 		"autoResize"		"0"
@@ -268,8 +407,7 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"tabPosition"		"0"
-		"labelText"			"3"	[$WIN32]
-		"labelText"			""		[$X360]
+		"labelText"			""	[$WIN32]
 		"textAlignment"		"south-west"
 		"Command"			"select 7"
 		"Default"			"0"
@@ -304,8 +442,8 @@
 		{
 			"ControlName"	"ImagePanel"
 			"fieldName"		"SubImage"
-			"xpos"			"0"
-			"ypos"			"0"
+			"xpos"			"2"
+			"ypos"			"-6"
 			"zpos"			"7"
 			"wide"			"50"
 			"tall"			"100"
@@ -315,19 +453,72 @@
 			"scaleImage"	"1"
 		}				
 	}
-	
+	"pyrobg"
+	{
+		"ControlName"		"CTFImagePanel"
+		"fieldName"			"pyrobg"
+		"xpos"				"2"
+		"ypos"				"-21"
+		"zpos"				"2"
+		"wide"				"55"
+		"tall"				"82"
+		"visible"			"1"
+		"enabled"			"1"
+		"image"			"../hud/color_panel_brown"
+		"scaleImage"		"1"
+		
+		"src_corner_height"		"25"
+		"src_corner_width"		"25"			
+		"draw_corner_width"		"5"
+		"draw_corner_height" 	"5"	
+		
+		"pin_to_sibling"			"pyro"
+	}
+	"pyrokeybindlabel"
+	{
+		"ControlName"		"CExLabel"
+		"fieldName"			"pyrokeybindlabel"
+		"xpos"				"-5"
+		"ypos"				"-31"
+		"zpos"				"4"
+		"wide"				"55"
+		"tall"				"82"
+		"visible"			"1"
+		"enabled"			"1"
+		"font"				"hudfont16"
+		"labelText"			"3"
+		
+		"pin_to_sibling"			"pyrobg"
+	}
+	"pyrokeybindlabelshadow"
+	{
+		"ControlName"		"CExLabel"
+		"fieldName"			"pyrokeybindlabelshadow"
+		"xpos"				"-1"
+		"ypos"				"-1"
+		"zpos"				"3"
+		"wide"				"55"
+		"tall"				"82"
+		"visible"			"1"
+		"enabled"			"1"
+		"font"				"hudfont16"
+		"labelText"			"3"
+		"fgcolor_override"	"colorblack"
+		
+		"pin_to_sibling"			"pyrokeybindlabel"
+	}	
 	"Defense"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"Defense"
-		"xpos"			"0"
+		"xpos"			"9999"
 		"ypos"			"-102"
 		"zpos"			"2"
 		"wide"			"90"
 		"tall"			"12"
 		"autoResize"	"1"
 		"pinCorner"		"2"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"#TF_Defense"
@@ -337,34 +528,13 @@
 		
 		"pin_to_sibling"	"demoman"
 	}
-	"DefenseShadow"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"DefenseShadow"
-		"xpos"			"-1"
-		"ypos"			"-1"
-		"zpos"			"2"
-		"wide"			"90"
-		"tall"			"12"
-		"autoResize"	"1"
-		"pinCorner"		"2"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"	"0"
-		"labelText"		"#TF_Defense"
-		"textAlignment"	"left"
-		"font"			"hudfont12"
-		"fgcolor"		"colorblack"
-		
-		"pin_to_sibling"	"Defense"
-	}
 	"demoman"
 	{
 		"ControlName"		"CExImageButton"
 		"fieldName"			"demoman"
 		"xpos"				"0"
-		"ypos"				"-105"
-		"zpos"				"6"
+		"ypos"				"-82"
+		"zpos"				"7"
 		"wide"				"50"
 		"tall"				"100"
 		"autoResize"		"0"
@@ -372,8 +542,7 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"tabPosition"		"0"
-		"labelText"			"4"	[$WIN32]
-		"labelText"			""		[$X360]
+		"labelText"			""	[$WIN32]
 		"textAlignment"		"south-west"
 		"Command"			"select 4"
 		"Default"			"0"
@@ -408,8 +577,8 @@
 		{
 			"ControlName"	"ImagePanel"
 			"fieldName"		"SubImage"
-			"xpos"			"0"
-			"ypos"			"0"
+			"xpos"			"2"
+			"ypos"			"-2"
 			"zpos"			"7"
 			"wide"			"50"
 			"tall"			"100"
@@ -419,13 +588,67 @@
 			"scaleImage"	"1"
 		}				
 	}	
+	"demomanbg"
+	{
+		"ControlName"		"CTFImagePanel"
+		"fieldName"			"demomanbg"
+		"xpos"				"2"
+		"ypos"				"-21"
+		"zpos"				"3"
+		"wide"				"55"
+		"tall"				"82"
+		"visible"			"1"
+		"enabled"			"1"
+		"image"			"../hud/color_panel_brown"
+		"scaleImage"		"1"
+		
+		"src_corner_height"		"25"
+		"src_corner_width"		"25"			
+		"draw_corner_width"		"5"
+		"draw_corner_height" 	"5"	
+		
+		"pin_to_sibling"			"demoman"
+	}
+	"demomankeybindlabel"
+	{
+		"ControlName"		"CExLabel"
+		"fieldName"			"demomankeybindlabel"
+		"xpos"				"-5"
+		"ypos"				"-31"
+		"zpos"				"4"
+		"wide"				"55"
+		"tall"				"82"
+		"visible"			"1"
+		"enabled"			"1"
+		"font"				"hudfont16"
+		"labelText"			"4"
+		
+		"pin_to_sibling"			"demomanbg"
+	}
+	"demomankeybindlabelshadow"
+	{
+		"ControlName"		"CExLabel"
+		"fieldName"			"demomankeybindlabelshadow"
+		"xpos"				"-1"
+		"ypos"				"-1"
+		"zpos"				"3"
+		"wide"				"55"
+		"tall"				"82"
+		"visible"			"1"
+		"enabled"			"1"
+		"font"				"hudfont16"
+		"labelText"			"4"
+		"fgcolor_override"	"colorblack"
+		
+		"pin_to_sibling"			"demomankeybindlabel"
+	}	
 	"heavyweapons"
 	{
 		"ControlName"		"CExImageButton"
 		"fieldName"			"heavyweapons"
-		"xpos"				"-50"
+		"xpos"				"-55"
 		"ypos"				"0"
-		"zpos"				"6"
+		"zpos"				"7"
 		"wide"				"50"
 		"tall"				"100"
 		"autoResize"		"0"
@@ -433,8 +656,7 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"tabPosition"		"0"
-		"labelText"			"5"	[$WIN32]
-		"labelText"			""		[$X360]
+		"labelText"			""	[$WIN32]
 		"textAlignment"		"south-west"
 		"Command"			"select 6"
 		"Default"			"0"
@@ -469,8 +691,8 @@
 		{
 			"ControlName"	"ImagePanel"
 			"fieldName"		"SubImage"
-			"xpos"			"0"
-			"ypos"			"0"
+			"xpos"			"1"
+			"ypos"			"-2"
 			"zpos"			"7"
 			"wide"			"50"
 			"tall"			"100"
@@ -480,13 +702,67 @@
 			"scaleImage"	"1"
 		}				
 	}
+	"heavybg"
+	{
+		"ControlName"		"CTFImagePanel"
+		"fieldName"			"heavybg"
+		"xpos"				"2"
+		"ypos"				"-21"
+		"zpos"				"3"
+		"wide"				"55"
+		"tall"				"82"
+		"visible"			"1"
+		"enabled"			"1"
+		"image"			"../hud/color_panel_brown"
+		"scaleImage"		"1"
+		
+		"src_corner_height"		"25"
+		"src_corner_width"		"25"			
+		"draw_corner_width"		"5"
+		"draw_corner_height" 	"5"	
+		
+		"pin_to_sibling"			"heavyweapons"
+	}
+	"heavykeybindlabel"
+	{
+		"ControlName"		"CExLabel"
+		"fieldName"			"heavykeybindlabel"
+		"xpos"				"-5"
+		"ypos"				"-31"
+		"zpos"				"4"
+		"wide"				"55"
+		"tall"				"82"
+		"visible"			"1"
+		"enabled"			"1"
+		"font"				"hudfont16"
+		"labelText"			"5"
+		
+		"pin_to_sibling"			"heavybg"
+	}
+	"heavykeybindlabelshadow"
+	{
+		"ControlName"		"CExLabel"
+		"fieldName"			"heavykeybindlabelshadow"
+		"xpos"				"-1"
+		"ypos"				"-1"
+		"zpos"				"3"
+		"wide"				"55"
+		"tall"				"82"
+		"visible"			"1"
+		"enabled"			"1"
+		"font"				"hudfont16"
+		"labelText"			"5"
+		"fgcolor_override"	"colorblack"
+		
+		"pin_to_sibling"			"heavykeybindlabel"
+	}	
 	"engineer"
 	{
 		"ControlName"		"CExImageButton"
 		"fieldName"			"engineer"
-		"xpos"				"-50"
+		"xpos"				"-55"
 		"ypos"				"0"
-		"zpos"				"6"
+		"zpos"				"7"
 		"wide"				"50"
 		"tall"				"100"
 		"autoResize"		"0"
@@ -494,8 +770,7 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"tabPosition"		"0"
-		"labelText"			"6"	[$WIN32]
-		"labelText"			""		[$X360]
+		"labelText"			""	[$WIN32]
 		"textAlignment"		"south-west"
 		"Command"			"select 9"
 		"Default"			"0"
@@ -531,7 +806,7 @@
 			"ControlName"	"ImagePanel"
 			"fieldName"		"SubImage"
 			"xpos"			"0"
-			"ypos"			"0"
+			"ypos"			"-6"
 			"zpos"			"7"
 			"wide"			"50"
 			"tall"			"100"
@@ -541,19 +816,72 @@
 			"scaleImage"	"1"
 		}				
 	}
-	
+	"engineerbg"
+	{
+		"ControlName"		"CTFImagePanel"
+		"fieldName"			"engineerbg"
+		"xpos"				"2"
+		"ypos"				"-21"
+		"zpos"				"3"
+		"wide"				"55"
+		"tall"				"82"
+		"visible"			"1"
+		"enabled"			"1"
+		"image"			"../hud/color_panel_brown"
+		"scaleImage"		"1"
+		
+		"src_corner_height"		"25"
+		"src_corner_width"		"25"			
+		"draw_corner_width"		"5"
+		"draw_corner_height" 	"5"	
+		
+		"pin_to_sibling"			"engineer"
+	}
+	"engineerbindlabel"
+	{
+		"ControlName"		"CExLabel"
+		"fieldName"			"engineerbindlabel"
+		"xpos"				"-5"
+		"ypos"				"-31"
+		"zpos"				"4"
+		"wide"				"55"
+		"tall"				"82"
+		"visible"			"1"
+		"enabled"			"1"
+		"font"				"hudfont16"
+		"labelText"			"6"
+		
+		"pin_to_sibling"			"engineerbg"
+	}
+	"engineerbindlabelshadow"
+	{
+		"ControlName"		"CExLabel"
+		"fieldName"			"engineerbindlabelshadow"
+		"xpos"				"-1"
+		"ypos"				"-1"
+		"zpos"				"3"
+		"wide"				"55"
+		"tall"				"82"
+		"visible"			"1"
+		"enabled"			"1"
+		"font"				"hudfont16"
+		"labelText"			"6"
+		"fgcolor_override"	"colorblack"
+		
+		"pin_to_sibling"			"engineerbindlabel"
+	}	
 	"Support"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"Support"
-		"xpos"			"0"
+		"xpos"			"9999"
 		"ypos"			"-102"
 		"zpos"			"2"
 		"wide"			"90"
 		"tall"			"12"
 		"autoResize"	"1"
 		"pinCorner"		"2"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"#TF_Support"
@@ -563,34 +891,13 @@
 		
 		"pin_to_sibling"	"medic"
 	}
-	"SupportShadow"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"SupportShadow"
-		"xpos"			"-1"
-		"ypos"			"-1"
-		"zpos"			"2"
-		"wide"			"90"
-		"tall"			"12"
-		"autoResize"	"1"
-		"pinCorner"		"2"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"	"0"
-		"labelText"		"#TF_Support"
-		"textAlignment"	"left"
-		"font"			"hudfont12"
-		"fgcolor"		"colorblack"
-		
-		"pin_to_sibling"	"Support"
-	}
 	"medic"
 	{
 		"ControlName"		"CExImageButton"
 		"fieldName"			"medic"
 		"xpos"				"0"
-		"ypos"				"-205"
-		"zpos"				"6"
+		"ypos"				"-82"
+		"zpos"				"7"
 		"wide"				"50"
 		"tall"				"100"
 		"autoResize"		"0"
@@ -598,8 +905,7 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"tabPosition"		"0"
-		"labelText"			"7"	[$WIN32]
-		"labelText"			""		[$X360]
+		"labelText"			""	[$WIN32]
 		"textAlignment"		"south-west"
 		"Command"			"select 5"
 		"Default"			"0"
@@ -628,14 +934,14 @@
 		"selectonhover"			"1"
 		"keyboardinputenabled"	"0"
 		
-		"pin_to_sibling" 	"scout"
+		"pin_to_sibling" 	"demoman"
 		
 		"SubImage"
 		{
 			"ControlName"	"ImagePanel"
 			"fieldName"		"SubImage"
 			"xpos"			"0"
-			"ypos"			"0"
+			"ypos"			"-1"
 			"zpos"			"7"
 			"wide"			"50"
 			"tall"			"100"
@@ -645,22 +951,75 @@
 			"scaleImage"	"1"
 		}				
 	}
+	"medicbg"
+	{
+		"ControlName"		"CTFImagePanel"
+		"fieldName"			"medicbg"
+		"xpos"				"2"
+		"ypos"				"-21"
+		"zpos"				"3"
+		"wide"				"55"
+		"tall"				"82"
+		"visible"			"1"
+		"enabled"			"1"
+		"image"			"../hud/color_panel_brown"
+		"scaleImage"		"1"
+		
+		"src_corner_height"		"25"
+		"src_corner_width"		"25"			
+		"draw_corner_width"		"5"
+		"draw_corner_height" 	"5"	
+		
+		"pin_to_sibling"			"medic"
+	}
+	"medicbindlabel"
+	{
+		"ControlName"		"CExLabel"
+		"fieldName"			"medicbindlabel"
+		"xpos"				"-5"
+		"ypos"				"-31"
+		"zpos"				"4"
+		"wide"				"55"
+		"tall"				"82"
+		"visible"			"1"
+		"enabled"			"1"
+		"font"				"hudfont16"
+		"labelText"			"7"
+		
+		"pin_to_sibling"			"medicbg"
+	}
+	"medicbindlabelshadow"
+	{
+		"ControlName"		"CExLabel"
+		"fieldName"			"medicbindlabelshadow"
+		"xpos"				"-1"
+		"ypos"				"-1"
+		"zpos"				"3"
+		"wide"				"55"
+		"tall"				"82"
+		"visible"			"1"
+		"enabled"			"1"
+		"font"				"hudfont16"
+		"labelText"			"7"
+		"fgcolor_override"	"colorblack"
+		
+		"pin_to_sibling"			"medicbindlabel"
+	}	
 	"sniper"
 	{
 		"ControlName"		"CExImageButton"
 		"fieldName"			"sniper"
-		"xpos"				"-50"
+		"xpos"				"-55"
 		"ypos"				"0"
-		"zpos"				"6"
-		"wide"				"50"
+		"zpos"				"7"
+		"wide"				"55"
 		"tall"				"100"
 		"autoResize"		"0"
 		"pinCorner"			"2"
 		"visible"			"1"
 		"enabled"			"1"
 		"tabPosition"		"0"
-		"labelText"			"8"	[$WIN32]
-		"labelText"			""		[$X360]
+		"labelText"			""	[$WIN32]
 		"textAlignment"		"south-west"
 		"Command"			"select 2"
 		"Default"			"0"
@@ -706,22 +1065,75 @@
 			"scaleImage"	"1"
 		}				
 	}
+	"sniperbg"
+	{
+		"ControlName"		"CTFImagePanel"
+		"fieldName"			"sniperbg"
+		"xpos"				"2"
+		"ypos"				"-21"
+		"zpos"				"1"
+		"wide"				"55"
+		"tall"				"82"
+		"visible"			"1"
+		"enabled"			"1"
+		"image"			"../hud/color_panel_brown"
+		"scaleImage"		"1"
+		
+		"src_corner_height"		"25"
+		"src_corner_width"		"25"			
+		"draw_corner_width"		"5"
+		"draw_corner_height" 	"5"	
+		
+		"pin_to_sibling"			"sniper"
+	}
+	"sniperbindlabel"
+	{
+		"ControlName"		"CExLabel"
+		"fieldName"			"sniperbindlabel"
+		"xpos"				"-5"
+		"ypos"				"-31"
+		"zpos"				"4"
+		"wide"				"55"
+		"tall"				"82"
+		"visible"			"1"
+		"enabled"			"1"
+		"font"				"hudfont16"
+		"labelText"			"8"
+		
+		"pin_to_sibling"			"sniperbg"
+	}
+	"sniperbindlabelshadow"
+	{
+		"ControlName"		"CExLabel"
+		"fieldName"			"sniperbindlabelshadow"
+		"xpos"				"-1"
+		"ypos"				"-1"
+		"zpos"				"3"
+		"wide"				"55"
+		"tall"				"82"
+		"visible"			"1"
+		"enabled"			"1"
+		"font"				"hudfont16"
+		"labelText"			"8"
+		"fgcolor_override"	"colorblack"
+		
+		"pin_to_sibling"			"sniperbindlabel"
+	}	
 	"spy"
 	{
 		"ControlName"		"CExImageButton"
 		"fieldName"			"spy"
-		"xpos"				"-50"
+		"xpos"				"-55"
 		"ypos"				"0"
-		"zpos"				"6"
-		"wide"				"50"
+		"zpos"				"7"
+		"wide"				"55"
 		"tall"				"100"
 		"autoResize"		"0"
 		"pinCorner"			"2"
 		"visible"			"1"
 		"enabled"			"1"
 		"tabPosition"		"0"
-		"labelText"			"9"	[$WIN32]
-		"labelText"			""		[$X360]
+		"labelText"			""	[$WIN32]
 		"textAlignment"		"south-west"
 		"Command"			"select 8"
 		"Default"			"0"
@@ -757,7 +1169,7 @@
 			"ControlName"	"ImagePanel"
 			"fieldName"		"SubImage"
 			"xpos"			"0"
-			"ypos"			"0"
+			"ypos"			"-4"
 			"zpos"			"7"
 			"wide"			"50"
 			"tall"			"100"
@@ -766,6 +1178,60 @@
 			"image"			"class_sel_sm_spy_inactive"
 			"scaleImage"	"1"
 		}				
+	}	
+	"spybg"
+	{
+		"ControlName"		"CTFImagePanel"
+		"fieldName"			"spybg"
+		"xpos"				"2"
+		"ypos"				"-21"
+		"zpos"				"3"
+		"wide"				"55"
+		"tall"				"82"
+		"visible"			"1"
+		"enabled"			"1"
+		"image"			"../hud/color_panel_brown"
+		"scaleImage"		"1"
+		
+		"src_corner_height"		"25"
+		"src_corner_width"		"25"			
+		"draw_corner_width"		"5"
+		"draw_corner_height" 	"5"	
+		
+		"pin_to_sibling"			"spy"
+	}
+	"spybindlabel"
+	{
+		"ControlName"		"CExLabel"
+		"fieldName"			"spybindlabel"
+		"xpos"				"-5"
+		"ypos"				"-31"
+		"zpos"				"4"
+		"wide"				"55"
+		"tall"				"82"
+		"visible"			"1"
+		"enabled"			"1"
+		"font"				"hudfont16"
+		"labelText"			"9"
+		
+		"pin_to_sibling"			"spybg"
+	}
+	"spybindlabelshadow"
+	{
+		"ControlName"		"CExLabel"
+		"fieldName"			"spybindlabelshadow"
+		"xpos"				"-1"
+		"ypos"				"-1"
+		"zpos"				"3"
+		"wide"				"55"
+		"tall"				"82"
+		"visible"			"1"
+		"enabled"			"1"
+		"font"				"hudfont16"
+		"labelText"			"9"
+		"fgcolor_override"	"colorblack"
+		
+		"pin_to_sibling"			"spybindlabel"
 	}	
 	"no"
 	{
@@ -827,8 +1293,8 @@
 	{
 		"ControlName"			"CExImageButton"
 		"fieldName"			"EditLoadoutButton"
-		"xpos"			"-50"
-		"ypos"			"-85"
+		"xpos"				"-60"
+		"ypos"				"-30"
 		"zpos"				"10"
 		"wide"				"44"
 		"tall"				"47"
@@ -844,7 +1310,7 @@
 		"font"				"hudfont14shadow"
 		"scaleImage"			"1"
 		
-		"image_default"		"..\hud\backpack_01_grey"
+		"image_default"		"..\hud\backpack_01"
 		"image_armed"			"..\hud\backpack_01"
 		
 		"fgcolor"			"255 255 255 255"
@@ -866,7 +1332,7 @@
 		"image_armedcolor"	"255 255 255 255"
 		"image_selectedcolor"	"255 255 255 255"
 		
-		"pin_to_sibling"	"engineer"
+		"pin_to_sibling"	"spy"
 		
 		"SubImage"
 		{
@@ -1253,8 +1719,8 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"numScout"
-		"xpos"			"-10"
-		"ypos"			"-30"
+		"xpos"			"-20"
+		"ypos"			"-25"
 		"zpos"			"5"
 		"wide"			"50"
 		"tall"			"12"
@@ -1297,8 +1763,8 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"numSoldier"
-		"xpos"			"-10"
-		"ypos"			"-30"
+		"xpos"			"-20"
+		"ypos"			"-25"
 		"zpos"			"5"
 		"wide"			"50"
 		"tall"			"12"
@@ -1341,8 +1807,8 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"numPyro"
-		"xpos"			"-10"
-		"ypos"			"-30"
+		"xpos"			"-20"
+		"ypos"			"-25"
 		"zpos"			"5"
 		"wide"			"50"
 		"tall"			"12"
@@ -1385,8 +1851,8 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"numDemoman"
-		"xpos"			"-10"
-		"ypos"			"-20"
+		"xpos"			"-20"
+		"ypos"			"-25"
 		"zpos"			"5"
 		"wide"			"50"
 		"tall"			"12"
@@ -1429,8 +1895,8 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"numHeavy"
-		"xpos"			"-10"
-		"ypos"			"-20"
+		"xpos"			"-20"
+		"ypos"			"-25"
 		"zpos"			"5"
 		"wide"			"50"
 		"tall"			"12"
@@ -1473,8 +1939,8 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"numEngineer"
-		"xpos"			"-10"
-		"ypos"			"-20"
+		"xpos"			"-20"
+		"ypos"			"-25"
 		"zpos"			"5"
 		"wide"			"50"
 		"tall"			"12"
@@ -1515,8 +1981,8 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"numMedic"
-		"xpos"			"-10"
-		"ypos"			"-20"
+		"xpos"			"-20"
+		"ypos"			"-25"
 		"zpos"			"5"
 		"wide"			"50"
 		"tall"			"12"
@@ -1557,8 +2023,8 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"numSniper"
-		"xpos"			"-10"
-		"ypos"			"-20"
+		"xpos"			"-20"
+		"ypos"			"-25"
 		"zpos"			"5"
 		"wide"			"50"
 		"tall"			"12"
@@ -1599,8 +2065,8 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"numSpy"
-		"xpos"			"-10"
-		"ypos"			"-20"
+		"xpos"			"-20"
+		"ypos"			"-25"
 		"zpos"			"5"
 		"wide"			"50"
 		"tall"			"12"
@@ -1641,8 +2107,8 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"MvMUpgradeImageScout"
-		"xpos"			"0"
-		"ypos"			"-30"
+		"xpos"			"-3"
+		"ypos"			"-25"
 		"zpos"			"10"
 		"wide"			"10"
 		"tall"			"10"
@@ -1658,8 +2124,8 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"MvMUpgradeImageSolider"
-		"xpos"			"0"
-		"ypos"			"-30"
+		"xpos"			"-3"
+		"ypos"			"-25"
 		"zpos"			"10"
 		"wide"			"10"
 		"tall"			"10"
@@ -1675,8 +2141,8 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"MvMUpgradeImagePyro" 
-		"xpos"			"0"
-		"ypos"			"-30"
+		"xpos"			"-3"
+		"ypos"			"-25"
 		"zpos"			"10"
 		"wide"			"10"
 		"tall"			"10"
@@ -1692,8 +2158,8 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"MvMUpgradeImageDemoman" 
-		"xpos"			"0"
-		"ypos"			"-30"
+		"xpos"			"-3"
+		"ypos"			"-25"
 		"zpos"			"10"
 		"wide"			"10"
 		"tall"			"10"
@@ -1709,8 +2175,8 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"MvMUpgradeImageHeavy" 
-		"xpos"			"0"
-		"ypos"			"-30"
+		"xpos"			"-3"
+		"ypos"			"-25"
 		"zpos"			"10"
 		"wide"			"10"
 		"tall"			"10"
@@ -1726,8 +2192,8 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"MvMUpgradeImageEngineer"
-		"xpos"			"0"
-		"ypos"			"-30"
+		"xpos"			"-3"
+		"ypos"			"-25"
 		"zpos"			"10"
 		"wide"			"10"
 		"tall"			"10"
@@ -1743,8 +2209,8 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"MvMUpgradeImageMedic"
-		"xpos"			"0"
-		"ypos"			"-30"
+		"xpos"			"-3"
+		"ypos"			"-25"
 		"zpos"			"10"
 		"wide"			"10"
 		"tall"			"10"
@@ -1760,8 +2226,8 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"MvMUpgradeImageSniper"
-		"xpos"			"0"
-		"ypos"			"-30"
+		"xpos"			"-3"
+		"ypos"			"-25"
 		"zpos"			"10"
 		"wide"			"10"
 		"tall"			"10"
@@ -1777,8 +2243,8 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"MvMUpgradeImageSpy"
-		"xpos"			"0"
-		"ypos"			"-30"
+		"xpos"			"-3"
+		"ypos"			"-25"
 		"zpos"			"10"
 		"wide"			"10"
 		"tall"			"10"
@@ -1922,10 +2388,10 @@
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"BackgroundTeam"
 		"xpos"			"c5"
-		"ypos"			"c-150"
+		"ypos"			"c-128"
 		"zpos"			"0"
-		"wide"			"205"
-		"tall"			"300"
+		"wide"			"170"
+		"tall"			"252"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/color_panel_brown"
