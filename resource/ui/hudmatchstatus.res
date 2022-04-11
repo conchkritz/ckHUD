@@ -27,6 +27,12 @@
 			"visible"		"1"
 		}
 		
+		if_mvm
+		{
+			"visible"		"0"
+			"ypos"				"9999"
+		}	
+		
 		"TimePanelBG"
 		{
 			"ControlName"		"CTFImagePanel"

@@ -18,7 +18,7 @@
 		"ControlName"		"CWaveCompleteSummaryPanel"
 		"fieldName"			"WaveCompleteSummaryPanel"
 		"xpos"				"c-125"
-		"ypos"				"120"
+		"ypos"				"125"
 		"zpos"				"0"
 		"wide"				"400"
 		"tall"				"400"
@@ -223,7 +223,7 @@
 			"ControlName"		"ScalableImagePanel"
 			"fieldName"		"Background"
 			"xpos"			"c-150"
-			"ypos"			"400"
+			"ypos"			"390"
 			"wide"			"300"
 			"tall"			"20"
 			"autoResize"	"0"
@@ -232,11 +232,11 @@
 			"enabled"		"1"
 			"image"			"../hud/color_panel_red"
 
-			"src_corner_height"	"22"				// pixels inside the image
-			"src_corner_width"	"22"
+			"src_corner_height"	"25"				// pixels inside the image
+			"src_corner_width"	"25"
 		
-			"draw_corner_width"	"5"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"5"	
+			"draw_corner_width"	"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
 		}
 	
 		"ServerChangeLabel"
@@ -247,12 +247,12 @@
 			"textAlignment"	"center"
 			"labelText"		"%servermessage%"
 			"xpos"			"c-150"
-			"ypos"			"400"
+			"ypos"			"390"
 			"wide"			"300"
 			"tall"			"20"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor"		"tanlight"		
+			"fgcolor"		"colorwhite"		
 		}
 	}
 	

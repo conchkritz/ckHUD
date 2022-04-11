@@ -634,9 +634,7 @@
 		"labelText"		"%server%"
 		"textAlignment"		"west"
 		"xpos"			"11"
-		"xpos_hidef"	"31"
 		"ypos"			"60"
-		"ypos_lodef"	"62"
 		"wide"			"300"
 		"tall"			"20"
 		"autoResize"	"0"
@@ -646,7 +644,8 @@
 		
 		if_mvm
 		{
-			"ypos"			"0"
+			"xpos"			"390"
+			"ypos"			"373"
 			"visible"		"1"
 		}
 	}
