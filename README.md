@@ -39,12 +39,14 @@ Things like gamemode compatibility.
 | CP, KOTH  | Finished (?)  |
 | Pass Time  | Unsupported  |
 | MannPower  | Unsupported  |
-| MVM  | Unfinished  |
+| MVM  | Most things except Mann Up |
 
 | Extras  | Status |
 | ------------- | ------------- |
-| Backpack  | Not Started  |
-| Main Menu  | Finished, Tweaking  |
+| Backpack  | Half-Finished?  |
+| Main Menu  | Finished, Overhauled  |
+| Minmode  | Half-Broken  |
+
 
 
 # Customizations
@@ -54,7 +56,6 @@ So far we have:
 * A minmode that moves the main hud elements down.
 * Built in transparent viewmodels. (in scripts/hudlayout.res)
 * Crosshairs and Hitmarkers. (in scripts/hudlayout.res)
-* Alternative Uber: A different style of uber that puts the meter on the right side instead of centering it. (in #customizations) **(slightly broken)**
 
 Please credit!
 
@@ -66,6 +67,7 @@ Please credit!
   * Match Status
   * KOTH
   * Backpack
+  * Item Quickswitch (does anyone actually use it?????????)
 
 * Jakadak 
   * [Extended TF2 Fonts](https://github.com/jakadak/TF2-extended-fonts) 
