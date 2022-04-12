@@ -270,13 +270,14 @@
 			"fieldName"		"itemmodelpanel"
 			"use_item_rendertarget" "0"
 			"useparentbg"		"1"
+			"inventory_image_type" "1"
 		}
 		
 		"ItemLabel"
 		{	
 			"ControlName"	"Label"
 			"fieldName"		"ItemLabel"
-			"font"			"DefaultSmall"
+			"font"			"hudfont10sec"
 			"xpos"			"10"
 			"ypos"			"3"
 			"zpos"			"1"

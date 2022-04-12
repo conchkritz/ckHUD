@@ -61,7 +61,6 @@ event HudHealthDyingPulse
 event HudHealthDyingPulseLoop
 {
 	RunEvent HudHealthDyingPulse 0.0
-
 }
 
 event HudHealthDyingPulseStop

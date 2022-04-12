@@ -122,7 +122,7 @@
 		}
 	}	
 	
-	"DashboardDimmer"
+	"DashboardDimmer" // if you want to remove it
 	{
 		"wide" "0"
 		"tall" "0"
@@ -234,7 +234,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"TFLogoImage"
-		"xpos"			"c-290"
+		"xpos"			"9999"
 		"ypos"			"32"
 		"zpos"			"1"
 		"wide"			"256"

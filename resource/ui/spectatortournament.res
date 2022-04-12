@@ -359,8 +359,7 @@
 		
 		if_mvm
 		{
-			"visible"			"0"
-			"wide"				"0"
+			"ypos"			"125"	[$WIN32]
 		}
 	}
 	"BuyBackLabel"
@@ -368,7 +367,7 @@
 		"ControlName"		"CExLabel"
 		"fieldName"		"BuyBackLabel"
 		"xpos"			"c-300"	[$WIN32]
-		"ypos"			"200"	[$WIN32]
+		"ypos"			"150"	[$WIN32]
 		"wide"			"600"	[$WIN32]
 		"tall"			"18"
 		"autoResize"		"0"
@@ -475,6 +474,7 @@
 			"fieldName"		"itemmodelpanel"
 			"use_item_rendertarget" "0"
 			"useparentbg"		"1"
+			"inventory_image_type" 	"1"
 		}
 		
 		"ItemLabel"
