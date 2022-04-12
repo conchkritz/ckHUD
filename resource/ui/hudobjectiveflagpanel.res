@@ -368,6 +368,11 @@
 		"visible"		"1"
 		"enabled"		"1"
 		
+		"if_mvm"
+		{
+			"ypos"	"r95"
+		}
+		
 		"if_hybrid"
 		{
 			"visible"	"0"
@@ -407,7 +412,12 @@
 		"tall"			"90"
 		"visible"		"1"
 		"enabled"		"1"
-				
+			
+		"if_mvm"
+		{
+			"ypos"	"r95"
+		}
+		
 		"if_hybrid"
 		{
 			"visible"	"0"

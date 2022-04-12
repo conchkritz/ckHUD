@@ -35,7 +35,7 @@ Things like gamemode compatibility.
 | ------------- | ------------- |
 | Payload  | Testing  |
 | Payload Race  | Minmode Clipping  |
-| CTF  | Not Started  |
+| CTF  | Testing  |
 | CP, KOTH  | Finished (?)  |
 | Pass Time  | Unsupported  |
 | MannPower  | Unsupported  |

@@ -16,8 +16,8 @@
 		"xpos"				"cs-0.4999"
 		"ypos"				"2"
 		"zpos"				"0"
-		"wide"				"320"
-		"tall"				"25"
+		"wide"				"0"
+		"tall"				"0"
 		"visible"			"0"
 
 		"proportionaltoaparent"	"1"
@@ -25,6 +25,8 @@
 		if_match
 		{
 			"visible"		"1"
+			"wide"				"320"
+			"tall"				"25"
 		}
 		
 		if_mvm
