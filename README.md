@@ -79,3 +79,5 @@ Please credit!
 
 * [No White Borders Hud](https://gamebanana.com/mods/294682)
   * Payload, CP Icons, Notification
+
+* [TF2 Classic Portraits](https://gamebanana.com/mods/download/26067)
