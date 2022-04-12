@@ -74,5 +74,8 @@ Please credit!
 
 * [HUDS.tf Discord](https://discord.com/invite/pc9ekye) 
 
-* Isaac Hud
+* [Isaac Hud](https://huds.tf/site/s-Isaac-Hud)
   * Main Menu Buttons
+
+* [No White Borders Hud](https://gamebanana.com/mods/294682)
+  * Payload, CP Icons, Notification
