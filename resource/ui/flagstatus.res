@@ -26,6 +26,7 @@
 		"enabled"		"1"
 		"image"			"../hud/objectives_flagpanel_briefcase"
 		"scaleImage"	"1"
+		"alpha"			"0"
 		
 		"if_mvm"
 		{
@@ -49,7 +50,8 @@
 		"enabled"		"1"
 		"image"			"../hud/objectives_flagpanel_ico_flag_home"
 		"scaleImage"	"1"	
-		
+		"alpha"			"0"
+
 		"if_mvm"
 		{
 			"visible"	"0"
