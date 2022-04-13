@@ -109,21 +109,19 @@
 			"zpos"			"-1"
 			"wide"			"120"
 			"tall"			"28"
-			"visible"		"1" // CBSBC2
+			"visible"		"1"
 			"enabled"		"1"
 			"scaleImage"	"1"	
-			"image"					"../hud/color_panel_brown"
-			"teambg_1"				"../hud/color_panel_brown"
-			"teambg_2"				"../hud/eng_status_area_sentry_red"
-			"teambg_2_lodef"		"../hud/eng_status_area_sentry_red"
-			"teambg_3"				"../hud/eng_status_area_sentry_blue"
-			"teambg_3_lodef"		"../hud/eng_status_area_sentry_blue"	
-			"paintborder"			"1"
-			"border"				"G_TargetBorder"
-			"src_corner_height"		"43"
-			"src_corner_width"		"43"
-			"draw_corner_width"		"0"
-			"draw_corner_height" 	"0"	
+			"image"			"../hud/color_panel_brown"
+			"scaleImage"		"1"
+			"teambg_1"		"../hud/color_panel_brown"
+			"teambg_2"		"../hud/color_panel_red"
+			"teambg_3"		"../hud/color_panel_blu"		
+				
+			"src_corner_height"		"25"				// pixels inside the image
+			"src_corner_width"		"25"			
+			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"5"	
 		}
 
 		"Health"
