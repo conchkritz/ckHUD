@@ -60,7 +60,6 @@
 		
 		"font_minmode"	"hudfont10"
 
-		
 		"pin_to_sibling"	"WaveCountLabel"
 	}
 	"SeparatorBar"

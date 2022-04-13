@@ -57,7 +57,7 @@
 		"pinCorner"				"0"
 		"visible"				"0"
 		"enabled"				"0"
-		"fillcolor"				"0 0 0 225"
+		"fillcolor"				"0 0 0 0"
 	}
 	"TimePanelProgressBar"
 	{

@@ -17,7 +17,7 @@
 			"xpos"			"50"
 			"ypos"			"40"
 			"wide"			"140"
-			"tall"			"42"
+			"tall"			"20"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
@@ -32,7 +32,7 @@
 			"xpos"			"189"
 			"ypos"			"40"
 			"wide"			"143"
-			"tall"			"42"
+			"tall"			"20"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
@@ -40,21 +40,19 @@
 
 			"border"		"TFFatLineBorderRedBGMoreOpaque"
 		}
-		"WhiteDivide" // aparently it's gray?
+		"WhiteDivide"
 		{
 			"ControlName"	"ImagePanel"
 			"fieldName"		"WhiteDivide"
-			"xpos"			"50"
-			"ypos"			"59"
-			"zpos"			"999" // ????
-			"wide"			"282"
-			"tall"			"2"
+			"xpos"			"9999"
+			"ypos"			"9999"
+			"zpos"			"1"
+			"wide"			"0"
+			"tall"			"0"
 			"autoResize"	"0"
 			"pinCorner"		"0"
-			"visible"		"1"
+			"visible"		"0"
 			"enabled"		"1"
-
-			"fillcolor"		"colorwhite"
 		}
 		"BlueTeamLabel"
 		{

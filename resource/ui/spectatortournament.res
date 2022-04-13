@@ -67,16 +67,16 @@
 					"ControlName"			"CTFImagePanel"
 					"fieldName"			"SubImage"
 					"xpos"				"-22"
-					"ypos"				"-10"
+					"ypos"				"0"
 					"wide"				"90"
-					"tall"	 			"40"
+					"tall"	 			"30"
 					"image"				"../hud/color_panel_brown"
 					
-					"src_corner_height"	"20"
-					"src_corner_width"	"20"
+					"src_corner_height"	"25"
+					"src_corner_width"	"25"
 					
-					"draw_corner_width"	"0"
-					"draw_corner_height" 	"0"
+					"draw_corner_width"	"5"
+					"draw_corner_height" 	"5"
 				}				
 			}
 			
@@ -111,11 +111,11 @@
 			{
 				"ControlName"		"CTFClassImage"
 				"fieldName"		"classimage"
-				"xpos"			"1"
+				"xpos"			"2"
 				"ypos"			"5"
 				"zpos"			"2"
-				"wide"			"20"
-				"tall"			"20"
+				"wide"			"19"
+				"tall"			"19"
 				"visible"		"1"
 				"enabled"		"1"
 				"image"			"../vgui/hud_connecting"		//"../hud/class_scoutred"
@@ -135,11 +135,11 @@
 			{
 				"ControlName"		"Panel"
 				"fieldName"		"classimagebg"
-				"xpos"			"1"
+				"xpos"			"2"
 				"ypos"			"5"
 				"zpos"			"2"
-				"wide"			"20"
-				"tall"			"20"
+				"wide"			"19"
+				"tall"			"19"
 				"visible"		"1"
 				"enabled"		"1"
 				"bgcolor_override"		"Black"
@@ -184,11 +184,11 @@
 				"enabled"		"1"
 				"image"			"../HUD/tournament_panel_brown"
 
-				"src_corner_height"	"22"				// pixels inside the image
-				"src_corner_width"	"22"
+				"src_corner_height"	"25"				// pixels inside the image
+				"src_corner_width"	"25"
 			
-				"draw_corner_width"	"6"				// screen size of the corners ( and sides ), proportional
-				"draw_corner_height" 	"6"
+				"draw_corner_width"	"5"				// screen size of the corners ( and sides ), proportional
+				"draw_corner_height" 	"5"
 				
 				if_mvm
 				{

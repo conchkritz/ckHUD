@@ -7,16 +7,16 @@ event HudMedicCharged
 	Animate	ChargeMeter 	FgColor		"ubercharge2"			spline 0.3 0.3
 
 	Animate	ChargeColor_25 	BgColor		"ubercharge2"			spline 0.0 0.3
-	Animate	ChargeColor_25 	BgColor		"ubercharge1"			spline 0.3 0.3
+	Animate	ChargeColor_25 	BgColor		"meter1"			spline 0.3 0.3
 	
 	Animate	ChargeColor_50 	BgColor		"ubercharge2"			spline 0.0 0.3
-	Animate	ChargeColor_50 	BgColor		"ubercharge1"			spline 0.3 0.3
+	Animate	ChargeColor_50 	BgColor		"meter1"			spline 0.3 0.3
 
 	Animate	ChargeColor_75 	BgColor		"ubercharge2"			spline 0.0 0.3
-	Animate	ChargeColor_75 	BgColor		"ubercharge1"			spline 0.3 0.3
+	Animate	ChargeColor_75 	BgColor		"meter1"			spline 0.3 0.3
 	
 	Animate	ChargeColor_100 BgColor		"ubercharge2"			spline 0.0 0.3
-	Animate	ChargeColor_100 BgColor		"ubercharge1"			spline 0.3 0.3
+	Animate	ChargeColor_100 BgColor		"meter1"			spline 0.3 0.3
 	
 	RunEvent HudMedicChargedLoop	0.6
 }
