@@ -81,6 +81,6 @@ Please credit!
   * Main Menu Icons
 
 * [No White Borders Hud](https://gamebanana.com/mods/294682)
-  * 99% of the '''Materials''' Folder
+  * 99% of the Materials Folder
 
 * [TF2 Classic Portraits](https://gamebanana.com/mods/download/26067)
