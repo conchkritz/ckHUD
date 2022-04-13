@@ -78,6 +78,6 @@ Please credit!
   * Main Menu Buttons
 
 * [No White Borders Hud](https://gamebanana.com/mods/294682)
-  * Payload, CP Icons, Notification
+  * 99% of the 'Materials' Folder
 
 * [TF2 Classic Portraits](https://gamebanana.com/mods/download/26067)
