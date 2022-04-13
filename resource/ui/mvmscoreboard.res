@@ -83,13 +83,11 @@
 		
 		"scaleImage"		"1"
 		
-		"src_corner_height"	"22"				// pixels inside the image
-		"src_corner_width"	"22"
-	
-		"draw_corner_width"	"0"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"0"	
+		"src_corner_height"		"25"				// pixels inside the image
+		"src_corner_width"		"25"
+		"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"5"	
 		
-		"border"			"WhiteBorderTrans"
 
 	}
 	
@@ -140,12 +138,11 @@
 			"enabled"		"1"
 			"image"			"../hud/color_panel_brown"
 			"scaleImage"		"1"
-			"src_corner_height"			"40"
-			"src_corner_width"			"40"
-			"draw_corner_width"			"0"
-			"draw_corner_height" 			"0"
+			"src_corner_height"		"25"				// pixels inside the image
+			"src_corner_width"		"25"
+			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"5"	
 			
-			"border"			"WhiteBorderTrans"
 		}
 		"CurwaveBackgroundHeader"
 		{
@@ -162,12 +159,11 @@
 			"enabled"		"1"
 			"image"			"../hud/color_panel_brown"
 			"scaleImage"		"1"
-			"src_corner_height"			"40"
-			"src_corner_width"			"40"
-			"draw_corner_width"			"0"
-			"draw_corner_height" 			"0"
+			"src_corner_height"		"25"				// pixels inside the image
+			"src_corner_width"		"25"
+			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"5"	
 			
-			"border"			"WhiteBorderTrans"
 		}	
 		"GameTotalBackground"
 		{
@@ -184,12 +180,11 @@
 			"enabled"		"1"
 			"image"			"../hud/color_panel_brown"
 			"scaleImage"		"1"
-			"src_corner_height"			"40"
-			"src_corner_width"			"40"
-			"draw_corner_width"			"0"
-			"draw_corner_height" 			"0"
+			"src_corner_height"		"25"				// pixels inside the image
+			"src_corner_width"		"25"
+			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"5"	
 			
-			"border"			"WhiteBorderTrans"
 		}
 		"GameTotalBackgroundHeader"
 		{
@@ -206,12 +201,11 @@
 			"enabled"		"1"
 			"image"			"../hud/color_panel_brown"
 			"scaleImage"		"1"
-			"src_corner_height"			"40"
-			"src_corner_width"			"40"
-			"draw_corner_width"			"0"
-			"draw_corner_height" 			"0"
+			"src_corner_height"		"25"				// pixels inside the image
+			"src_corner_width"		"25"
+			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"5"	
 			
-			"border"			"WhiteBorderTrans"
 		}	
 		"CreditStatsBackground"
 		{
@@ -228,12 +222,11 @@
 			"enabled"		"1"
 			"image"			"../hud/color_panel_brown"
 			"scaleImage"		"1"
-			"src_corner_height"			"40"
-			"src_corner_width"			"40"
-			"draw_corner_width"			"0"
-			"draw_corner_height" 			"0"
+			"src_corner_height"		"25"				// pixels inside the image
+			"src_corner_width"		"25"
+			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"5"	
 			
-			"border"			"WhiteBorderTrans"
 		}
 		"CreditsLabel"
 		{

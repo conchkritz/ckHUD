@@ -165,7 +165,7 @@
 		"ypos"			"26"
 		"zpos"			"-1"
 		"wide"			"320"
-		"tall"			"363"
+		"tall"			"365"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -338,30 +338,11 @@
 		"enabled"			"1"
 		"image"			"../hud/color_panel_red"
 		"scaleImage"		"1"
-		"src_corner_height"			"40"
-		"src_corner_width"			"40"
-		"draw_corner_width"			"0"
-		"draw_corner_height" 			"0"
+		"src_corner_height"		"25"				// pixels inside the image
+		"src_corner_width"		"25"
+		"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"5"	
 	
-		if_mvm
-		{
-			"visible"		"0"
-		}
-	}	
-	"RedUnderline"
-	{
-		"ControlName"		"ImagePanel"
-		"fieldName"			"RedUnderline"
-		"xpos"				"0"
-		"ypos"				"67" // not nice
-		"zpos"				"3"
-		"wide"				"320"
-		"tall"				"1"
-		"visible"			"1"
-		"enabled"			"1"
-		
-		"fillcolor"			"colorwhite"
-			
 		if_mvm
 		{
 			"visible"		"0"
@@ -379,8 +360,8 @@
 		"visible"			"1"
 		"enabled"			"1"
 		
-		"fillcolor"			"colorwhite"
-			
+		"fillcolor"			"242 242 242 150"
+		
 		if_mvm
 		{
 			"visible"		"0"
@@ -449,29 +430,10 @@
 		"enabled"			"1"
 		"image"			"../hud/color_panel_blu"
 		"scaleImage"		"1"
-		"src_corner_height"			"40"
-		"src_corner_width"			"40"
-		"draw_corner_width"			"0"
-		"draw_corner_height" 			"0"
-	
-		if_mvm
-		{
-			"visible"		"0"
-		}
-	}	
-	"BluUnderline"
-	{
-		"ControlName"		"ImagePanel"
-		"fieldName"			"BluUnderline"
-		"xpos"				"0"
-		"ypos"				"349"
-		"zpos"				"3"
-		"wide"				"320"
-		"tall"				"1"
-		"visible"			"1"
-		"enabled"			"1"
-		
-		"fillcolor"			"colorwhite"
+		"src_corner_height"		"25"				// pixels inside the image
+		"src_corner_width"		"25"
+		"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"5"	
 	
 		if_mvm
 		{
@@ -1426,12 +1388,11 @@
 			"teambg_2_lodef"	"../hud/color_panel_red"
 			"teambg_3"		"../hud/color_panel_blu"
 			"teambg_3_lodef"	"../hud/color_panel_blu"
-			"src_corner_height"			"40"
-			"src_corner_width"			"40"
-			"draw_corner_width"			"0"
-			"draw_corner_height" 			"0"
+			"src_corner_height"		"25"				// pixels inside the image
+			"src_corner_width"		"25"
+			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"5"	
 			
-			"border"			"WhiteBorderTrans"
 		}	
 	
 		"KillsLabel"

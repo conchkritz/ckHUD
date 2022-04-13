@@ -17,13 +17,10 @@
 		
 		"scaleImage"		"1"
 		
-		"src_corner_height"	"22"				// pixels inside the image
-		"src_corner_width"	"22"
-	
-		"draw_corner_width"	"0"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"0"	
-		
-		"border"			"WhiteBorderTrans"
+		"src_corner_height"		"25"				// pixels inside the image
+		"src_corner_width"		"25"
+		"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"5"	
 	}
 	
 	"WaveCountLabel"
@@ -125,11 +122,11 @@
 		"enabled"		"1"
 		"image"			"../HUD/tournament_panel_blu"
 		
-		"src_corner_height"	"22"				// pixels inside the image
-		"src_corner_width"	"22"
-	
-		"draw_corner_width"	"2"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"2"	
+		"src_corner_height"		"25"				// pixels inside the image
+		"src_corner_width"		"25"
+		
+		"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"5"	
 	}
 	
 	"ProgressBarBG"
@@ -148,10 +145,9 @@
 		"enabled"		"1"
 		"image"			"../HUD/tournament_panel_tan"
 		
-		"src_corner_height"	"22"				// pixels inside the image
-		"src_corner_width"	"22"
-	
-		"draw_corner_width"	"2"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"2"	
+		"src_corner_height"		"25"				// pixels inside the image
+		"src_corner_width"		"25"
+		"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"5"	
 	}
 }
