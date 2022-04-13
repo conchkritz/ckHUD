@@ -77,7 +77,10 @@ Please credit!
 * [Isaac Hud](https://huds.tf/site/s-Isaac-Hud)
   * Main Menu Buttons
 
+* [ToonHud](https://toonhud.com/)
+  * Main Menu Icons
+
 * [No White Borders Hud](https://gamebanana.com/mods/294682)
-  * 99% of the 'Materials' Folder
+  * 99% of the '''Materials''' Folder
 
 * [TF2 Classic Portraits](https://gamebanana.com/mods/download/26067)
