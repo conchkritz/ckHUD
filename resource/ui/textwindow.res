@@ -23,6 +23,27 @@
 		"xpos"			"c-183"
 		"ypos"			"85"
 		"zpos"			"3"
+		"wide"			"0"
+		"tall"			"0"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"0"
+		"enabled"		"1"
+		"labelText"		"WELCOME!"
+		"textAlignment"	"west"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"font"			"hudfont40"
+		"fgcolor"		"colorwhite"
+	}	
+	
+	"TFMessageTitle2"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"TFMessageTitle2"
+		"xpos"			"c-183"
+		"ypos"			"85"
+		"zpos"			"3"
 		"wide"			"600"
 		"tall"			"30"
 		"autoResize"	"0"
@@ -36,7 +57,7 @@
 		"font"			"hudfont40"
 		"fgcolor"		"colorwhite"
 	}	
-
+	
 	"TextMessage"
 	{
 		"ControlName"	"TextEntry"

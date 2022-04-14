@@ -39,9 +39,9 @@
 	{	
 		"ControlName"		"Label"
 		"fieldName"		"TargetNameLabel"
-		"font"			"hudfont14"
+		"font"			"hudfont16sec"
 		"xpos"			"8"
-		"ypos"			"12"
+		"ypos"			"11"
 		"zpos"			"1"
 		"wide"			"640"
 		"tall"			"24"
@@ -58,7 +58,7 @@
 	{	
 		"ControlName"		"Label"
 		"fieldName"		"TargetNameLabelShadow"
-		"font"			"hudfont14"
+		"font"			"hudfont16sec"
 		"xpos"			"-1"
 		"ypos"			"-1"
 		"zpos"			"0"
@@ -79,9 +79,9 @@
 	{	
 		"ControlName"		"Label"
 		"fieldName"		"TargetDataLabel"
-		"font"			"hudfont8shadow"
+		"font"			"hudfont12sec"
 		"xpos"			"8"
-		"ypos"			"23"	[$WIN32]
+		"ypos"			"24"	[$WIN32]
 		"zpos"			"1"
 		"wide"			"280"
 		"tall"			"15"

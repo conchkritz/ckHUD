@@ -114,6 +114,33 @@ Scheme
 				"antialias" "1"
 			}
 		}
+		"hudfont20sec"
+		{
+			"1"
+			{
+				"name" "TF2 Secondary"
+				"tall" "20"
+				"antialias" "1"
+			}
+		}
+		"hudfont22sec"
+		{
+			"1"
+			{
+				"name" "TF2 Secondary"
+				"tall" "22"
+				"antialias" "1"
+			}
+		}
+		"hudfont24sec"
+		{
+			"1"
+			{
+				"name" "TF2 Secondary"
+				"tall" "24"
+				"antialias" "1"
+			}
+		}
 // 		===========================================
 // 		main font
 
