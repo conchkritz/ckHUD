@@ -35,15 +35,15 @@
 			"ypos"				"9999"
 		}	
 		
-		"TimePanelBG"
+		"TimePanelBG" // seriously debating enabling this
 		{
 			"ControlName"		"CTFImagePanel"
 			"fieldName"			"TimePanelBG"
 			"xpos"				"135"
-			"ypos"				"0"
+			"ypos"				"1"
 			"zpos"				"2"
 			"wide"				"50"
-			"tall"				"f0"
+			"tall"				"23"
 			"visible"			"0"
 			"enabled"			"1"
 			"image"			"../hud/color_panel_brown"
@@ -51,8 +51,8 @@
 			"teambg_1"		"../hud/color_panel_brown"
 			"teambg_2"		"../hud/color_panel_red"
 			"teambg_3"		"../hud/color_panel_blu"
-			"src_corner_height"			"40"
-			"src_corner_width"			"40"
+			"src_corner_height"			"25"
+			"src_corner_width"			"25"
 			"draw_corner_width"			"0"
 			"draw_corner_height" 			"0"
 		

@@ -59,7 +59,9 @@ Scheme
 		// OTHER
 		"no"					"0 0 0 0"
 		"disconnectred"			"192 28 0 255"
-		
+		"TanDarkOld"			"117 107 94 255" // replaces tandark in clientscheme_settings
+		"TanLightOld"			"242 242 242 255"
+
 		//---------------------------------------------
 		// MODDED DEFAULT COLORS
 		//---------------------------------------------
@@ -67,6 +69,7 @@ Scheme
 		"TanLight"				"242 242 242 255" // change this w/ colorwhite
 		"White"					"242 242 242 255"
 		"Black"					"30 30 30 255"
+		"Tandark"				"242 242 242 255" // only for advanced options
 		
 		"HUDBlueTeamSolid"	"88 133 162 255"
 		"HUDRedTeamSolid"	"184 56 59 255"

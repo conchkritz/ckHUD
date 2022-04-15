@@ -53,13 +53,13 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"PipesPresentPanel"
 		"xpos"			"7"
-		"ypos"			"30"
+		"ypos"			"40"
 		"zpos"			"1"
 		"wide"			"100"
 		"tall"			"50"
 		"visible"		"1"
 		
-		"ypos_minmode"	"105"
+		"ypos_minmode"	"115"
 		
 		"PipeIcon"
 		{

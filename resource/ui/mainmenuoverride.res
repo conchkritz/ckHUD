@@ -3355,7 +3355,7 @@
 		}		
 	}
 	
-	"versionlabel"
+	"versionlabel" // what do i set it as if im fixing bugs for next release????????
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"versionlabel"
@@ -3370,8 +3370,7 @@
 		"font"			"hudfont12"
 		"textAlignment"	"east"
 		
-		"alpha"			"3"
-		"labelText" 	"ckHUD 0.1.4.2-source" // source = from github source, not release. alpha = alpha, duh. no suffix = release.
+		"labelText" 	"ckHUD 0.2-source-alpha??" // source = from github source, not release. alpha = alpha, duh. no suffix = release.
 		
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -3380,12 +3379,9 @@
 		"sound_depressed"	""
 		"sound_released"	"UI/tts1.wav" //.mp3
 
-		"defaultFgColor_override" "colorwhite"
-		"armedFgColor_override" "255 255 255 255"
-		"depressedFgColor_override" "colorwhite"
-
-		"image_drawcolor"	"colorwhite"
-		"image_armedcolor"	"255 255 255 255`"
+		"defaultFgColor_override" "255 255 255 5"
+		"armedFgColor_override" "255 255 255 15"
+		"depressedFgColor_override" "255 255 255 15"
 	}	
 	
 	"BackToReplaysButton"

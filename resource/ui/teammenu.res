@@ -185,7 +185,7 @@
 		
 		"defaultFgColor_override" 		"colorwhite"
 		"defaultbgcolor_override"		"tandarker"
-		"armedbgcolor_override"			"tandark"		//50
+		"armedbgcolor_override"			"tandarkold"		//50
 		"armedFgColor_override" 		"colorwhite"
 		"depressedbgcolor_override"		"tandarker"
 		"depressedfgColor_override" 	"colorwhite"
@@ -217,7 +217,7 @@
 		
 		"defaultFgColor_override" 		"colorwhite"
 		"defaultbgcolor_override"		"tandarker"
-		"armedbgcolor_override"			"tandark"		//50
+		"armedbgcolor_override"			"tandarkold"		//50
 		"armedFgColor_override" 		"colorwhite"
 		"depressedbgcolor_override"		"tandarker"
 		"depressedfgColor_override" 	"colorwhite"

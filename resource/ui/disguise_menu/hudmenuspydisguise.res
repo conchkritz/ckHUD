@@ -442,8 +442,7 @@
 		"scaleImage"			"1"
 		"src_corner_height"			"25"
 		"src_corner_width"			"25"			
-		"draw_corner_width"			"0"
-		"draw_corner_height" 		"0"	
-		"border"				"WhiteBorderTrans"
+		"draw_corner_width"			"5"
+		"draw_corner_height" 		"5"	
 	}
 }

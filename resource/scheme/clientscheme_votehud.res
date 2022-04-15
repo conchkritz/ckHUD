@@ -36,24 +36,24 @@ Scheme
 
 	Borders
 	{
-		CustomCyanBorderThick 
+		CustomCyanBorderThick
 		{
 			"inset" "0 0 0 0"
 			Left
 			{
 				"1"
 				{
-					"color" "15 255 255 255"
+					"color" "TFOrange"
 					"offset" "0 0"
 				}
 				"2"
 				{
-					"color" "15 255 255 255"
+					"color" "TFOrange"
 					"offset" "1 0"
 				}
 				"3"
 				{
-					"color" "15 255 255 255"
+					"color" "TFOrange"
 					"offset" "2 0"
 				}
 			}
@@ -61,17 +61,17 @@ Scheme
 			{
 				"1"
 				{
-					"color" "15 255 255 255"
+					"color" "TFOrange"
 					"offset" "0 0"
 				}
 				"2"
 				{
-					"color" "15 255 255 255"
+					"color" "TFOrange"
 					"offset" "1 0"
 				}
 				"3"
 				{
-					"color" "15 255 255 255"
+					"color" "TFOrange"
 					"offset" "2 0"
 				}
 			}
@@ -79,17 +79,17 @@ Scheme
 			{
 				"1"
 				{
-					"color" "15 255 255 255"
+					"color" "TFOrange"
 					"offset" "0 0"
 				}
 				"2"
 				{
-					"color" "15 255 255 255"
+					"color" "TFOrange"
 					"offset" "1 0"
 				}
 				"3"
 				{
-					"color" "15 255 255 255"
+					"color" "TFOrange"
 					"offset" "2 0"
 				}
 			}
@@ -97,17 +97,17 @@ Scheme
 			{
 				"1"
 				{
-					"color" "15 255 255 255"
+					"color" "TFOrange"
 					"offset" "0 0"
 				}
 				"2"
 				{
-					"color" "15 255 255 255"
+					"color" "TFOrange"
 					"offset" "1 0"
 				}
 				"3"
 				{
-					"color" "15 255 255 255"
+					"color" "TFOrange"
 					"offset" "2 0"
 				}
 			}

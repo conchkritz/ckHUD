@@ -552,7 +552,7 @@
 		"issue_width"		"180"		
 		"issue_font"		"ItemFontNameSmall"
 		"issue_fgcolor"		"TanLight"
-		"issue_fgcolor_disabled"	"TanDark"
+		"issue_fgcolor_disabled"	"TanDarkOld"
 		
 		"parameter_width"	"200"
 
