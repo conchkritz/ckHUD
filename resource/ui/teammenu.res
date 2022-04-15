@@ -93,9 +93,7 @@
 		"depressedbgcolor_override"		"108 123 139 255"
 		
 		"sound_armed"				"ui/item_info_mouseover.wav"
-		"sound_armed_minmode"		""
 		"sound_depressed"			"UI/buttonclickrelease.wav"
-		"sound_depressed_minmode"	""
 	}	
 	"BlueCountButton"
 	{
@@ -144,9 +142,7 @@
 		"depressedFGColor_override"		"white"
 		
 		"sound_armed"				"ui/item_info_mouseover.wav"
-		"sound_armed_minmode"		""
 		"sound_depressed"			"UI/buttonclickrelease.wav"
-		"sound_depressed_minmode"	""
 	}		
 	"RedCountButton"
 	{
@@ -187,19 +183,16 @@
 		"command"		"jointeam auto"
 		"font"			"HudFontSmallestBold"
 		
-		"defaultFgColor_override" 		"255 255 255 255"
-		"defaultbgcolor_override"		"50 50 50 0"		//220
-		"armedbgcolor_override"			"60 60 60 255"		//50
-		"armedFgColor_override" 		"255 255 255 255"
-		"depressedbgcolor_override"		"40 40 40 255"
-		"depressedfgColor_override" 	"255 255 255 255"
+		"defaultFgColor_override" 		"colorwhite"
+		"defaultbgcolor_override"		"tandarker"
+		"armedbgcolor_override"			"tandark"		//50
+		"armedFgColor_override" 		"colorwhite"
+		"depressedbgcolor_override"		"tandarker"
+		"depressedfgColor_override" 	"colorwhite"
 
 		"sound_armed"				"ui/item_info_mouseover.wav"
-		"sound_armed_minmode"		""
 		"sound_depressed"			"UI/buttonclickrelease.wav"
-		"sound_depressed_minmode"	""
 		"sound_released"			"UI/duel_event.wav"
-		"sound_released_minmode"	""
 	}
 	"SpectateButton"
 	{
@@ -222,19 +215,16 @@
 		"command"		"jointeam spectate"
 		"font"			"HudFontSmallestBold"
 		
-		"defaultFgColor_override" 		"255 255 255 255"
-		"defaultbgcolor_override"		"50 50 50 0"
-		"armedbgcolor_override"			"60 60 60 255"		//50
-		"armedFgColor_override" 		"255 255 255 255"
-		"depressedbgcolor_override"		"40 40 40 255"
-		"depressedfgColor_override" 	"255 255 255 255"
+		"defaultFgColor_override" 		"colorwhite"
+		"defaultbgcolor_override"		"tandarker"
+		"armedbgcolor_override"			"tandark"		//50
+		"armedFgColor_override" 		"colorwhite"
+		"depressedbgcolor_override"		"tandarker"
+		"depressedfgColor_override" 	"colorwhite"
 
 		"sound_armed"				"ui/item_info_mouseover.wav"
-		"sound_armed_minmode"		""
 		"sound_depressed"			"UI/buttonclickrelease.wav"
-		"sound_depressed_minmode"	""
 		"sound_released"			"UI/tv_tune3.wav"
-		"sound_released_minmode"	""
 	}
 	"CancelButton"
 	{
@@ -267,9 +257,7 @@
 		"depressedfgColor_override" 	"255 255 255 255"	
 		
 		"sound_armed"				"UI/buttonclickrelease.wav"
-		"sound_armed_minmode"		"misc/null.wav"
 		"sound_depressed"			"UI/buttonclickrelease.wav"
-		"sound_depressed_minmode"	"misc/null.wav"
 	}
 	
 	"SpectateShortcutLabel"
@@ -277,10 +265,10 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"SpectateShortcutLabel"
 		"xpos"			"c-46"
-		"ypos"			"284"
-		"zpos"			"3"
-		"wide"			"30"
-		"tall"			"30"
+		"ypos"			"294"
+		"zpos"			"11"
+		"wide"			"12"
+		"tall"			"10"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -297,10 +285,10 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"RandomShortcutLabel"
 		"xpos"			"c-46"
-		"ypos"			"164"
-		"zpos"			"2"
-		"wide"			"30"
-		"tall"			"30"
+		"ypos"			"174"
+		"zpos"			"11"
+		"wide"			"12"
+		"tall"			"10"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"

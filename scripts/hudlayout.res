@@ -667,7 +667,7 @@
         "fieldName" "HudCloseCaption"
         "visible"   "1"
         "enabled"   "1"
-        "xpos"      "c200"
+        "xpos"      "c180"
         "ypos"      "302"   [$WIN32]
         "wide"      "200"
         "tall"      "100"   [$WIN32]
@@ -1092,11 +1092,9 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"c-60"	[$WIN32]
-		"ypos"			"c25"	[$WIN32]
+		"ypos"			"c0"	[$WIN32]
 		"wide"			"f0"
 		"tall"			"f0"
-		
-		"ypos_minmode"	"c100"	[$WIN32]
 	}	
 
 	HudTeamGoal

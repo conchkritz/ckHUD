@@ -42,7 +42,7 @@
 			
 			if_match
 			{
-				"ypos"				"2"
+				"ypos"				"0"
 			}
 		}
 	}
@@ -88,7 +88,7 @@
 			
 			if_match
 			{
-				"ypos"				"2"
+				"ypos"				"0"
 			}
 		}
 	}
