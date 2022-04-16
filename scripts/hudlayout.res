@@ -158,7 +158,7 @@
 		"fieldName"		"HudMedicCharge"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"c-60"	[$WIN32]
+		"xpos"			"c-61"	[$WIN32]
 		"ypos"			"c20"	[$WIN32]
 		"wide"			"f0"
 		"tall"			"f0"
@@ -171,7 +171,7 @@
 		"fieldName"		"HudDemomanCharge"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"c-60"	[$WIN32]
+		"xpos"			"c-61"	[$WIN32]
 		"ypos"			"c30"	[$WIN32]
 		"wide"			"f0"
 		"tall"			"f0"
@@ -355,8 +355,8 @@
 		"visible" 	"0"
 		"enabled" 	"1"
 		"xpos"		"c-126"
-		"ypos"		"349"
-		"ypos_minmode" "285"
+		"ypos"		"345"
+		"ypos_minmode" "280"
 		"wide"	 	"f0"
 		"tall"	 	"f0"
 		"priority"	"35"
