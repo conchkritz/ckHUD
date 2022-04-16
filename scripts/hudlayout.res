@@ -1100,11 +1100,10 @@
 	HudTeamGoal
 	{
 		"fieldName"				"HudTeamGoal"
-		"visible"				"1"
+		"visible"				"0"
 		"enabled"				"1"
-		"xpos"					"c-160"
-		"ypos"					"65"
-		"ypos_lodef"			"75"
+		"xpos"					"99999"
+		"ypos"					"99999"
 		"wide"					"320"
 		"tall"					"100"
 	}
@@ -1191,7 +1190,6 @@
 		"enabled"				"1"
 		"xpos"					"c-90"
 		"ypos"					"-70"
-		"ypos_lodef"				"75"
 		"wide"					"180"
 		"tall"					"65"
 	}
@@ -1544,7 +1542,7 @@
 		"visible"				"1"
 		"enabled"				"1"
 		"xpos"					"rs1-5"
-		"ypos"					"1"
+		"ypos"					"-10"
 		"zpos"					"1001"
 		"wide"					"200"
 		"tall"					"18"
