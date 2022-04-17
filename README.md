@@ -47,18 +47,6 @@ Things like gamemode compatibility.
 | Main Menu  | Finished, Overhauled  |
 | Minmode  | Half-Broken  |
 
-
-
-# Customizations
-
-So far we have:
-
-* A minmode that moves the main hud elements down.
-* Built in transparent viewmodels. (in scripts/hudlayout.res)
-* Crosshairs and Hitmarkers. (in scripts/hudlayout.res)
-
-Please credit!
-
 # Credits
 
 * **EVE Hud**
@@ -84,3 +72,4 @@ Please credit!
   * 99% of the Materials Folder
 
 * [TF2 Classic Portraits](https://gamebanana.com/mods/download/26067)
+  * Backpack
