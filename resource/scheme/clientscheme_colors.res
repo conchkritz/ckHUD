@@ -60,7 +60,7 @@ Scheme
 		"no"					"0 0 0 0"
 		"disconnectred"			"192 28 0 255"
 		"TanDarkOld"			"117 107 94 255" // replaces tandark in clientscheme_settings
-		"TanLightOld"			"242 242 242 255"
+		"TanLightOld"			"235 226 202 255"
 
 		//---------------------------------------------
 		// MODDED DEFAULT COLORS

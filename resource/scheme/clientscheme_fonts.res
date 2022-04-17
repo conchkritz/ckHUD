@@ -243,6 +243,15 @@ Scheme
 				"antialias" "1"
 			}
 		}
+		"hudfont34"
+		{
+			"1"
+			{
+				"name" "TF2 Build"
+				"tall" "34"
+				"antialias" "1"
+			}
+		}
 		"hudfont40"
 		{
 			"1"
@@ -431,16 +440,6 @@ Scheme
 			{
 				"name" "TF2 Build"
 				"tall" "40"
-				"antialias" "1"
-				"outline"	"1"
-			}
-		}
-		"vaccinatoruber"
-		{
-			"1"
-			{
-				"name" "TF2 Build"
-				"tall" "48"
 				"antialias" "1"
 				"outline"	"1"
 			}

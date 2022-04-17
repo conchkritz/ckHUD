@@ -6,6 +6,6 @@
 	{
 		"ypos"			"c30"	[$WIN32]
 		
-		"ypos_minmode"			"c105"	[$WIN32]
+		"ypos_minmode"			"c75"	[$WIN32]
 	}
 }

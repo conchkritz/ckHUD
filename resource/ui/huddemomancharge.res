@@ -1,4 +1,4 @@
-"Resource/UI/HudDemomanCharge.res" // sticky charge meter
+"Resource/UI/HudDemomanCharge.res" // sticky charge meter (minmode in hudlayout)
 {	
 	"ChargeMeter"
 	{	

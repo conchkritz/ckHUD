@@ -11,10 +11,10 @@
 
 		"icon"			"obj_status_tele_entrance"
 		
-		"xpos"			"25"
+		"xpos"			"26"
 		"ypos"			"29"
 		"zpos"			"2"
-		"wide"			"50"
+		"wide"			"48"
 		"tall"			"50"
 	}
 	"NumberLabel"

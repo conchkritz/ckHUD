@@ -33,6 +33,13 @@
 		"brighttext"	"0"
 		"font"			"hudfont22shadow"
 		"fgcolor_override" "colorwhite"
+		
+		"font_minmode"	"hudfont48shadow"
+		"wide_minmode"	"149"
+		"tall_minmode"	"49"
+		"ypos_minmode"	"13"
+		"xpos_minmode"	"139"
+
 	}
 	"ItemEffectMeterDarker"
 	{
@@ -73,6 +80,12 @@
 		"brighttext"	"0"
 		"font"			"hudfont22shadow"
 		"fgcolor_override" "colorwhite"
+		
+		"font_minmode"	"hudfont48shadow"
+		"wide_minmode"	"149"
+		"tall_minmode"	"49"
+		"ypos_minmode"	"13"
+		"xpos_minmode"	"139"
 	}
 
 	"UberchargeLabel"
@@ -314,6 +327,11 @@
 		"tall" 			"30"
 		"visible" 		"1"
 		"enabled" 		"1"
+		
+		"xpos_minmode"	"120"
+		"ypos_minmode"	"22"
+		"tall_minmode" 	"60"
+		"wide_minmode" 	"60"
 	}
 	"ResistIcon"
 	{
@@ -330,5 +348,8 @@
 		"pin_to_sibling" "ResistIconAnchor"
 		"pin_corner_to_sibling" "1"
 		"pin_to_sibling_corner" "1"
+		
+		"wide_minmode"	"30"
+		"tall_minmode"	"30"
 	}
 }

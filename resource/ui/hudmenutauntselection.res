@@ -12,14 +12,10 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"	
-		"image"			"../hud/color_panel_red"
-		"alpha"			"200"
-		"teambg_1"		"../hud/color_panel_brown"
-		"teambg_2"		"../hud/color_panel_brown"
-		"teambg_3"		"../hud/color_panel_brown"
-		
-		"src_corner_height"		"23"
-		"src_corner_width"		"23"
+		"image"			"../hud/color_panel_brown"
+
+		"src_corner_height"		"25"
+		"src_corner_width"		"25"
 			
 		"draw_corner_width"		"5"
 		"draw_corner_height" 	"5"	
@@ -34,12 +30,12 @@
 		"zpos"			"1"
 		"wide"			"150"
 		"tall"			"2"
-		"fillcolor"		"255 222 208 255"
+		"fillcolor"		"colorwhite"
 	}
 
 	"IcoReelIcon"
 	{
-		"ControlName"	"CIconPanel"
+		"ControlName"	"ImagePanel"
 		"fieldName"		"IcoReelIcon"
 		"xpos"			"0"
 		"ypos"			"32"
@@ -49,17 +45,16 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"	
-		"icon"			"hud_taunt_menu_icon"
-		"iconColor"		"255 255 255 255"
+		"image"			"replay/thumbnails/icons/ico_reel"
 	}
-	
+
 	"TitleLabel"
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabel"
-		"font"			"HudFontBiggerBold"
+		"font"			"hudfont34"
 		"xpos"			"46"			// align me to the left edge of the first selection
-		"ypos"			"40"
+		"ypos"			"34"
 		"zpos"			"3"
 		"wide"			"360"
 		"tall"			"38"
@@ -75,10 +70,10 @@
 	"TitleLabelShadow"
 	{	
 		"ControlName"	"CExLabel"
-		"fieldName"		"TitleLabel"
-		"font"			"HudFontBiggerBold"
-		"xpos"			"48"			// align me to the left edge of the first selection
-		"ypos"			"42"
+		"fieldName"		"TitleLabelShadow"
+		"font"			"hudfont34"
+		"xpos"			"-2"			// align me to the left edge of the first selection
+		"ypos"			"-2"
 		"zpos"			"3"
 		"wide"			"360"
 		"tall"			"38"
@@ -90,16 +85,18 @@
 		"textAlignment"	"Left"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"fgcolor" "black"
+		"fgcolor_override" "colorblack"
+		
+		"pin_to_sibling"	"TitleLabel"
 	}
 	
 	"CancelLabel"
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"CancelLabel"
-		"font"			"Default"
-		"xpos"			"250"
-		"ypos"			"49"
+		"font"			"hudfont12sec"
+		"xpos"			"0"
+		"ypos"			"65"
 		"zpos"			"2"
 		"wide"			"200"
 		"tall"			"13"
@@ -108,7 +105,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"#Hud_Menu_Taunt_Cancel"
-		"textAlignment"	"east"
+		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
 	}

@@ -7,7 +7,7 @@
 		"xpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"/maps/menu_thumb_Missing"
+		"image"			"maps/menu_thumb_Missing"
 	}
 	"BTCross"
 	{
@@ -948,85 +948,5 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/notification_purple"
-	}
-	
-	"engie-sentry-neut"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"engie-sentry-blu"
-		"xpos"			"9999"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"../hud/eng_status_area_sentry_alrt"
-	}
-	
-	"engie-sentry-blu"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"engie-sentry-blu"
-		"xpos"			"9999"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"../hud/eng_status_area_sentry_blue"
-	}
-	
-	"engie-sentry-neut"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"engie-sentry-neut"
-		"xpos"			"9999"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"../hud/eng_status_area_sentry_disabled"
-	}
-	
-	"engie-sentry-red"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"engie-sentry-red"
-		"xpos"			"9999"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"../hud/eng_status_area_sentry_red"
-	}
-	
-	"engie-tele-notif"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"engie-tele-notif"
-		"xpos"			"9999"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"../hud/eng_status_area_tele_alrt"
-	}
-	
-	"engie-tele-red"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"engie-tele-red"
-		"xpos"			"9999"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"../hud/eng_status_area_tele_red"
-	}
-	
-	"engie-tele-neut"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"engie-tele-notif"
-		"xpos"			"9999"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"../hud/eng_status_area_tele_disabled"
-	}
-	
-	"engie-tele-blu"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"engie-tele-notif"
-		"xpos"			"9999"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"../hud/eng_status_area_tele_blue"
 	}
 }

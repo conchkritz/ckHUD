@@ -1,6 +1,5 @@
 "Resource/HudLayout.res"
 {
-
 // ===========================================
 // ===========================================
 // DXLEVEL 90+ 
@@ -94,7 +93,8 @@
 		"wide"	"f0"
 		"tall"	"f0"
 		
-		"ypos_minmode"	"-51"
+		"ypos_minmode"	"-81"
+		"xpos_minmode"	"c-260"
 	}
 
 	HudWeaponAmmo
@@ -107,7 +107,8 @@
 		"wide"	"f0"
 		"tall"	"1000"
 		
-		"ypos_minmode"	"c69" // nice
+		"ypos_minmode"	"c40" // nice
+		"xpos_minmode"	"c25"	[$WIN32]
 
 	}
 	
@@ -163,7 +164,7 @@
 		"wide"			"f0"
 		"tall"			"f0"
 		
-		"ypos_minmode"	"c95"	[$WIN32]
+		"ypos_minmode"	"c65"	[$WIN32]
 	}
 	
 	HudDemomanCharge
@@ -176,7 +177,7 @@
 		"wide"			"f0"
 		"tall"			"f0"
 	
-		"ypos_minmode"	"c96"	[$WIN32]
+		"ypos_minmode"	"c75"	[$WIN32]
 	}
 
 	HudBowCharge
@@ -269,7 +270,7 @@
 		"enabled" 				"1"
 		"PaintBackgroundType"	"2"
 		
-		"ypos_minmode"			"c-27"	[$WIN32]
+		"ypos_minmode"			"c-112"	[$WIN32]
 	}
 	
 	CHealthAccountPanel
@@ -305,7 +306,7 @@
 		"fieldName" "DisguiseStatus"
 		"visible"	"1"
 		"enabled"	"1"
-		"xpos"		"10"	[$WIN32]
+		"xpos"		"660"	[$WIN32]
 		"ypos"		"r70"	[$WIN32]
 		"wide"		"500"
 		"tall"		"200"
@@ -318,7 +319,7 @@
 		"enabled" 	"1"
 		"xpos"		"c-126"
 		"ypos"		"312"
-		"ypos_minmode" "250"
+//		"ypos_minmode" "250"
 		"zpos"	"2"
 		"wide"	 	"f0"
 		"tall"	 	"f0"
@@ -356,7 +357,7 @@
 		"enabled" 	"1"
 		"xpos"		"c-126"
 		"ypos"		"345"
-		"ypos_minmode" "280"
+//		"ypos_minmode" "280"
 		"wide"	 	"f0"
 		"tall"	 	"f0"
 		"priority"	"35"
