@@ -35,10 +35,10 @@ Things like gamemode compatibility.
 
 | Gamemode  | Status |
 | ------------- | ------------- |
-| Payload  | Testing  |
+| Payload  | Supported  |
 | Payload Race  | Minmode Clipping  |
-| CTF  | Testing  |
-| CP, KOTH  | Finished (?)  |
+| CTF  | Supported  |
+| CP, KOTH  | Supported |
 | Pass Time  | Unsupported  |
 | MannPower  | Unsupported  |
 | MVM  | Most things except Mann Up |
@@ -46,7 +46,7 @@ Things like gamemode compatibility.
 | Extras  | Status |
 | ------------- | ------------- |
 | Backpack  | Half-Finished?  |
-| Main Menu  | Finished, Overhauled  |
+| Main Menu  | Finished  |
 | Minmode  | Remaking  |
 
 # Credits
