@@ -2,6 +2,8 @@
 
 **THIS HUD IS A WORK IN PROGRESS!!**
 
+**VERSION 0.2 WILL PROBABLY BE DELAYED**
+
 ![Main Menu 1.41 (OUTDATED)](https://user-images.githubusercontent.com/76109782/162098921-f23bd60b-a436-41d1-99ed-a5c93f4b70fe.png)
 
 A hud made by conch, inspired by EVE Hud, Isaac Hud, and ToonHud.
