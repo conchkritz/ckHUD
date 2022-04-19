@@ -1,19 +1,9 @@
-#base "heavy_blue.res"
+#base "medic_red.res"
 
-"Resource/UI/disguise_menu/medic_blue.res"
+"Resource/UI/disguise_menu/scout_red.res"
 {
-	"ItemNameLabel"
+	"ClassIcon"	
 	{
-		"labelText"			"#TF_Class_Name_Medic"
-	}
-
-	"NewNumberLabel"
-	{
-		"labelText"			"1"
-	}
-
-	"NumberLabel"
-	{
-		"labelText"			"7"
+		"image"			"../hud/class_medicblue"
 	}
 }

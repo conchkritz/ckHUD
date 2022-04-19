@@ -1,19 +1,24 @@
-#base "heavy_red.res"
+#base "scout_red.res"
 
 "Resource/UI/disguise_menu/demoman_red.res"
 {
 	"ItemNameLabel"
-	{
-		"labelText"			"#TF_Class_Name_Demoman"
+	{	
+		"labelText"		"#TF_Class_Name_Demoman"
 	}
-
-	"NewNumberLabel"
+		
+	"ClassIcon"	
 	{
-		"labelText"			"1"
+		"image"			"../hud/class_demored"
 	}
-
+		
 	"NumberLabel"
-	{
-		"labelText"			"4"
+	{	
+		"labelText"		"4"
+	}
+	
+	"NumberLabelShadow"
+	{	
+		"labelText"		"4"
 	}
 }

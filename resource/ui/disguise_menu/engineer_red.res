@@ -1,19 +1,24 @@
-#base "heavy_red.res"
+#base "scout_red.res"
 
 "Resource/UI/disguise_menu/engineer_red.res"
 {
 	"ItemNameLabel"
-	{
-		"labelText"			"#TF_Class_Name_Engineer"
+	{	
+		"labelText"		"#TF_Class_Name_Engineer"
 	}
-
-	"NewNumberLabel"
+		
+	"ClassIcon"	
 	{
-		"labelText"			"3"
+		"image"			"../hud/class_engired"
 	}
-
+			
 	"NumberLabel"
-	{
-		"labelText"			"6"
+	{	
+		"labelText"		"6"
+	}
+	
+	"NumberLabelShadow"
+	{	
+		"labelText"		"6"
 	}
 }

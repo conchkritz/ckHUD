@@ -14,5 +14,7 @@ Scheme
 		Label.TextDullColor				"TanDarkOld"
 
 		Menu.ArmedTextColor				"TanDarkOld"
+		
+		Label.DisabledFgColor2			"colorblack"
 	}
 }

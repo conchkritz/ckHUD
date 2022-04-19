@@ -1,19 +1,25 @@
-#base "heavy_blue.res"
+#base "scout_red.res"
 
 "Resource/UI/disguise_menu/scout_blue.res"
 {
 	"ItemNameLabel"
-	{
-		"labelText"			"#TF_Class_Name_Scout"
+	{	
+		"labelText"		"#TF_Class_Name_Scout"
 	}
-
-	"NewNumberLabel"
+	
+	"ClassIcon"	
 	{
-		"labelText"			"1"
+		"image"			"../hud/class_scoutblue"
 	}
-
+		
+	
 	"NumberLabel"
-	{
-		"labelText"			"1"
+	{	
+
+	}
+	
+	"NumberLabelShadow"
+	{	
+	
 	}
 }

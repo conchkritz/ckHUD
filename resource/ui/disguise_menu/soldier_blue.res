@@ -1,19 +1,9 @@
-#base "heavy_blue.res"
+#base "soldier_red.res"
 
 "Resource/UI/disguise_menu/soldier_blue.res"
 {
-	"ItemNameLabel"
+	"ClassIcon"	
 	{
-		"labelText"			"#TF_Class_Name_Soldier"
-	}
-
-	"NewNumberLabel"
-	{
-		"labelText"			"2"
-	}
-
-	"NumberLabel"
-	{
-		"labelText"			"2"
+		"image"			"../hud/class_soldierblue"
 	}
 }

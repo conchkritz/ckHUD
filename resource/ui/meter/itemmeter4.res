@@ -1,4 +1,4 @@
-#base "/itemmetercolor.res"
+#base "itemmetercolor.res"
 
 "Resource/UI/HudItemEffectMeter_Raygun.res" // item meter but divied up like the bison
 {

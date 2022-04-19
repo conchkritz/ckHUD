@@ -228,91 +228,37 @@
 		"enabled"		"1"
 		"image"			"../hud/cart_track_blue_opaque"
 	}
-	"expanding_vert_bottom_blue_bg"
+	"capblu"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"expanding_vert_bottom_blue_bg"
-		"xpos"			"9999"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"../hud/expanding_vert_bottom_blue_bg"
-	}
-	"expanding_vert_bottom_red_bg"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"expanding_vert_bottom_red_bg"
-		"xpos"			"9999"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"../hud/expanding_vert_bottom_red_bg"
-	}
-	"expanding_vert_middle_blue_bg"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"expanding_vert_middle_blue_bg"
-		"xpos"			"9999"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"../hud/expanding_vert_middle_blue_bg"
-	}
-	"expanding_vert_middle_red_bg"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"expanding_vert_middle_red_bg"
-		"xpos"			"9999"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"../hud/expanding_vert_middle_red_bg"
-	}
-	"expanding_vert_top_blue_bg"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"expanding_vert_top_blue_bg"
-		"xpos"			"9999"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"../hud/expanding_vert_top_blue_bg"
-	}
-	"expanding_vert_top_red_bg"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"expanding_vert_top_red_bg"
-		"xpos"			"9999"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"../hud/expanding_vert_top_red_bg"
-	}
-	"icon_obj_cap_blu"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"icon_obj_cap_blu"
+		"fieldName"		"capblu"
 		"xpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../sprites/obj_icons/icon_obj_cap_blu"
 	}
-	"icon_obj_cap_blu_up"
+	"capbluup"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"icon_obj_cap_blu_up"
+		"fieldName"		"capbluup"
 		"xpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../sprites/obj_icons/icon_obj_cap_blu_up"
 	}
-	"icon_obj_cap_red"
+	"capred"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"icon_obj_cap_red"
+		"fieldName"		"capred"
 		"xpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../sprites/obj_icons/icon_obj_cap_red"
 	}	
-	"icon_obj_cap_red_up"
+	"capredup"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"icon_obj_cap_red_up"
+		"fieldName"		"capredup"
 		"xpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"

@@ -1,19 +1,9 @@
-#base "heavy_blue.res"
+#base "spy_red.res"
 
 "Resource/UI/disguise_menu/spy_blue.res"
 {
-	"ItemNameLabel"
+	"ClassIcon"	
 	{
-		"labelText"			"#TF_Class_Name_Spy"
-	}
-
-	"NewNumberLabel"
-	{
-		"labelText"			"3"
-	}
-
-	"NumberLabel"
-	{
-		"labelText"			"9"
+		"image"			"../hud/class_spyblue"
 	}
 }

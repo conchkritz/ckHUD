@@ -1,19 +1,24 @@
-#base "heavy_red.res"
+#base "scout_red.res"
 
 "Resource/UI/disguise_menu/pyro_red.res"
 {
 	"ItemNameLabel"
-	{
-		"labelText"			"#TF_Class_Name_Pyro"
+	{	
+		"labelText"		"#TF_Class_Name_Pyro"
 	}
-
-	"NewNumberLabel"
+	
+	"ClassIcon"	
 	{
-		"labelText"			"3"
+		"image"			"../hud/class_pyrored"
 	}
-
+	
 	"NumberLabel"
-	{
-		"labelText"			"3"
+	{	
+		"labelText"		"3"
+	}
+	
+	"NumberLabelShadow"
+	{	
+		"labelText"		"3"
 	}
 }

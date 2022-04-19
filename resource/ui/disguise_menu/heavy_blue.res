@@ -1,22 +1,9 @@
 #base "heavy_red.res"
 
-"Resource/UI/disguise_menu/heavy_blue.res"
+"Resource/UI/disguise_menu/heavy_red.res"
 {
-	"ItemNameLabel"
+	"ClassIcon"	
 	{
-		"fgcolor"			"colorblu"
-		"labelText"			"#TF_Class_Name_HWGuy"
-	}
-
-	"NewNumberLabel"
-	{
-		"fgcolor"			"colorblu"
-		"labelText"			"2"
-	}
-
-	"NumberLabel"
-	{
-		"fgcolor"			"colorblu"
-		"labelText"			"5"
+		"image"			"../hud/class_heavyblue"
 	}
 }

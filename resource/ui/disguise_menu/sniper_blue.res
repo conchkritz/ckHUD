@@ -1,19 +1,9 @@
-#base "heavy_blue.res"
+#base "sniper_red.res"
 
 "Resource/UI/disguise_menu/sniper_blue.res"
 {
-	"ItemNameLabel"
+	"ClassIcon"	
 	{
-		"labelText"			"#TF_Class_Name_Sniper"
-	}
-
-	"NewNumberLabel"
-	{
-		"labelText"			"2"
-	}
-
-	"NumberLabel"
-	{
-		"labelText"			"8"
+		"image"			"../hud/class_sniperblue"
 	}
 }

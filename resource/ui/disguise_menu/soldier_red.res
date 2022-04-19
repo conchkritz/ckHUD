@@ -1,19 +1,25 @@
-#base "heavy_red.res"
+#base "scout_red.res"
 
 "Resource/UI/disguise_menu/soldier_red.res"
 {
 	"ItemNameLabel"
-	{
-		"labelText"			"#TF_Class_Name_Soldier"
+	{	
+		"labelText"		"#TF_Class_Name_Soldier"
 	}
-
-	"NewNumberLabel"
+	
+	"ClassIcon"	
 	{
-		"labelText"			"2"
+		"xpos"			"-2"
+		"image"			"../hud/class_soldierred"
 	}
-
+	
 	"NumberLabel"
-	{
-		"labelText"			"2"
+	{	
+		"labelText"		"2"
+	}
+	
+	"NumberLabelShadow"
+	{	
+		"labelText"		"2"
 	}
 }
