@@ -2,7 +2,7 @@
 
 **THIS HUD IS A WORK IN PROGRESS!!**
 
-**VERSION 0.2 IS BEING TESTED!!*
+**VERSION 0.2 IS BEING TESTED!!**
 
 ![Main Menu 0.2](https://user-images.githubusercontent.com/76109782/164953834-4a0aed7c-25f0-4fc7-a177-69c166f05a68.png)
 
