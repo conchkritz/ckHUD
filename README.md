@@ -4,7 +4,7 @@
 
 **VERSION 0.2 WILL PROBABLY BE DELAYED**
 
-![Main Menu 1.41 (OUTDATED)](https://user-images.githubusercontent.com/76109782/162098921-f23bd60b-a436-41d1-99ed-a5c93f4b70fe.png)
+![Main Menu 0.2](https://user-images.githubusercontent.com/76109782/164953834-4a0aed7c-25f0-4fc7-a177-69c166f05a68.png)
 
 A hud made by conch, inspired by EVE Hud, Isaac Hud, and ToonHud.
 
@@ -51,27 +51,27 @@ Things like gamemode compatibility.
 
 # Credits
 
-* **EVE Hud**
+* [e.v.e HUD](https://gamebanana.com/mods/26852)
   * Spectator freezepanel
   * Class Selection Menu
   * Match Status
   * KOTH
   * Backpack
-  * Item Quickswitch (does anyone actually use it?????????)
-
-* Jakadak 
-  * [Extended TF2 Fonts](https://github.com/jakadak/TF2-extended-fonts) 
-
-* [HUDS.tf Discord](https://discord.com/invite/pc9ekye) 
+  * Item Quickswitch
 
 * [Isaac Hud](https://huds.tf/site/s-Isaac-Hud)
   * Main Menu Buttons
 
-* [ToonHud](https://toonhud.com/)
+* [ToonHUD](https://toonhud.com/)
   * Main Menu Icons
 
 * [No White Borders Hud](https://gamebanana.com/mods/294682)
   * 99% of the Materials Folder
 
+* Jakadak 
+  * [Extended TF2 Fonts](https://github.com/jakadak/TF2-extended-fonts) 
+ 
 * [TF2 Classic Portraits](https://gamebanana.com/mods/download/26067)
   * Backpack
+
+* [HUDS.tf Discord](https://discord.com/invite/pc9ekye) 
