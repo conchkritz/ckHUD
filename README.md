@@ -2,21 +2,22 @@
 
 **THIS HUD IS A WORK IN PROGRESS!!**
 
-**VERSION 0.2 WILL PROBABLY BE DELAYED**
+**VERSION 0.2 IS BEING TESTED!!*
 
 ![Main Menu 0.2](https://user-images.githubusercontent.com/76109782/164953834-4a0aed7c-25f0-4fc7-a177-69c166f05a68.png)
 
-A hud made by conch, inspired by EVE Hud, Isaac Hud, and ToonHud.
+A hud made by conch, inspired by e.v.e Hud, Isaac Hud, and ToonHUD.
 
 [Imgur Album](https://imgur.com/a/oX2zvhA)
+
 # Compatibility
-Cuurently only being tested on 1080p. If anyone else wants to test for me you can add me on discord.
+Cuurently only being tested on 1080p. If anyone else wants to test for me you can add me on Discord.
 
 | OS  | Status |
 | ------------- | ------------- |
 | Windows (11)  | Supported  |
 | Linus  | Unsupported  |
-| OSX  | Unsupported  |
+| Mac  | Unsupported  |
 
 | Resolution  | Status |
 | ------------- | ------------- |
@@ -29,25 +30,6 @@ Cuurently only being tested on 1080p. If anyone else wants to test for me you ca
 | ------------- | ------------- |
 | English  | Supported  |
 | Anything Else  | Unsupported  |
-
-# Game Compatibility
-Things like gamemode compatibility.
-
-| Gamemode  | Status |
-| ------------- | ------------- |
-| Payload  | Supported  |
-| Payload Race  | Minmode Clipping  |
-| CTF  | Supported  |
-| CP, KOTH  | Supported |
-| Pass Time  | Unsupported  |
-| MannPower  | Unsupported  |
-| MVM  | Most things except Mann Up |
-
-| Extras  | Status |
-| ------------- | ------------- |
-| Backpack  | Half-Finished?  |
-| Main Menu  | Finished  |
-| Minmode  | Remaking  |
 
 # Credits
 
