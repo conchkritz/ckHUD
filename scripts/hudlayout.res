@@ -559,7 +559,7 @@
 		"visible" "1"
 		"enabled" "1"
 		"xpos"	 "r640"	[$WIN32]
-		"ypos"	 "26"	[$WIN32]
+		"ypos"	 "27"	[$WIN32]
 		"wide"	 "628"
 		"tall"	 "468"
 
@@ -924,7 +924,7 @@
 		"visible"				"1"
 		"enabled"				"1"
 		"xpos"					"c-150"
-		"ypos"					"250"
+		"ypos"					"260"
 		"wide"					"300"
 		"tall"					"300"
 		"zpos"					"4"
@@ -1082,7 +1082,7 @@
 		"visible"				"1"
 		"enabled"				"1"
 		"xpos"					"c-200"
-		"ypos"					"325"
+		"ypos"					"315"
 		"wide"					"470"
 		"tall"					"200"
 		"PaintBackgroundType"	"0"
@@ -1203,9 +1203,8 @@
 		"fieldName"				"HudStopWatch"
 		"visible"				"1"
 		"enabled"				"1"
-		"xpos"					"c-160"
-		"ypos"					"5"
-		"ypos_lodef"				"75"
+		"xpos"					"c-170"
+		"ypos"					"10"
 		"wide"					"125"
 		"tall"					"70"
 	}

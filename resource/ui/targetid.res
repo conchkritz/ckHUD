@@ -77,44 +77,42 @@
 		"ControlName"		"ScalableImagePanel"
 		"fieldName"		"TargetIDBG_Spec_Blue"
 		"xpos"			"9999"
-		"ypos"			"9999"
-		"zpos"			"-1"
+		"ypos"			"0"
+		"zpos"			"1"
 		"wide"			"252"
-		"tall"	 		"30"
+		"tall"	 		"2"
 		"autoResize"		"0"
 		"pinCorner"		"0"
-		"visible"		"0"
+		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/color_panel_blu_opaque"
-		"image_lodef"	"../hud/color_panel_blu_opaque"
 		
 		"src_corner_height"		"25"				// pixels inside the image
 		"src_corner_width"		"25"
-			
-		"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"5"
+		"scaleImage"		"1"
+		"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"0"
 	}
 	"TargetIDBG_Spec_Red"
 	{
 		"ControlName"		"ScalableImagePanel"
 		"fieldName"		"TargetIDBG_Spec_Red"
 		"xpos"			"9999"
-		"ypos"			"9999"
-		"zpos"			"-1"
+		"ypos"			"0"
+		"zpos"			"1"
 		"wide"			"252"
-		"tall"	 		"30"
+		"tall"	 		"2"
 		"autoResize"		"0"
 		"pinCorner"		"0"
-		"visible"		"0"
+		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/color_panel_red_opaque"
-		"image_lodef"	"../hud/color_panel_red_opaque"
 		
 		"src_corner_height"		"25"				// pixels inside the image
 		"src_corner_width"		"25"
-			
-		"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"5"
+		"scaleImage"			"1"
+		"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"0"
 	}
 	
 	"TargetNameLabel"

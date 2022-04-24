@@ -21,11 +21,11 @@
 		}
 
 
-		"src_corner_height"	"23"				// pixels inside the image
-		"src_corner_width"	"23"
+		"src_corner_height"	"25"				// pixels inside the image
+		"src_corner_width"	"25"
 		
-		"draw_corner_width"	"7"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"7"	
+		"draw_corner_width"	"5"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"5"	
 	}
 
 	"StopWatchImageCaptureTime"
@@ -33,7 +33,7 @@
 		"ControlName"		"ImagePanel"
 		"fieldName"		"StopWatchImageCaptureTime"
 		"xpos"			"5"
-		"ypos"			"12"
+		"ypos"			"10"
 		"zpos"			"0"
 		"wide"			"17"
 		"tall"			"17"
@@ -76,16 +76,9 @@
 			"font_lodef"		"HudFontMedium"
 			"fgcolor"		"TanLight"
 			"xpos"			"23"
-			"xpos_minmode"		"23"
-			"xpos_hidef"		"114"
-			"xpos_lodef"		"114"
-			"ypos"			"11"
-			"ypos_minmode"		"11"
-			"ypos_hidef"		"15"
-			"ypos_lodef"		"18"
+			"ypos"			"10"
 			"zpos"			"3"
 			"wide"			"45"
-			"wide_minmode"		"45"
 			"tall"			"31"
 			"visible"		"1"
 			"enabled"		"1"
@@ -171,23 +164,23 @@
 		"ypos"			"27"
 		"zpos"			"-1"
 		"wide"			"125"
-		"tall"			"19"
+		"tall"			"10"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
-		"image"			"../hud/objectives_timepanel_suddendeath"
+		"image"			"../hud/color_panel_brown"
 
 
-		"src_corner_height"	"2"				// pixels inside the image
-		"src_corner_width"	"2"
+		"src_corner_height"	"25"				// pixels inside the image
+		"src_corner_width"	"25"
 		
-		"draw_corner_width"	"2"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"2"	
+		"draw_corner_width"	"5"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"5"	
 
 		if_comp
 		{
-			"ypos"	"42"
+			"ypos"	"50"
 		}
 	}
 
@@ -211,7 +204,7 @@
 
 		if_comp
 		{
-			"ypos"	"38"
+			"ypos"	"40"
 		}
 	}
 }
