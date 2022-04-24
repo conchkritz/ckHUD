@@ -2,64 +2,128 @@
 {
 	"TargetIDBG"
 	{
-		"ControlName"			"ImagePanel"
-		"fieldName"				"TargetIDBG"
-		"xpos"					"4"
-		"ypos"					"12"
-		"zpos"					"-1"
-		"wide"					"0"
-		"tall"	 				"0"
-		"visible"				"1"
-		"enabled"				"1"
-		"fillcolor" 			"no"
-	}
-	"TargetIDBGMain"
-	{
-		"ControlName"			"ImagePanel"
-		"fieldName"				"TargetIDBGMain"
-		"xpos"					"-200"
-		"ypos"					"12"
-		"zpos"					"-1"
-		"wide"					"f0"
-		"tall"	 				"14"
-		"visible"				"1"
-		"enabled"				"1"
-		"image"			"../hud/color_panel_brown"
+		"ControlName"		"CTFImagePanel"
+		"fieldName"		"TargetIDBG"
+		"xpos"			"9999"
+		"ypos"			"9999"
+		"zpos"			"-1"
+		"wide"			"0"
+		"tall"	 		"0"
+		"autoResize"		"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../hud/color_panel_brown_opaque"
 		"scaleImage"		"1"
-		"src_corner_height"		"0"
-		"src_corner_width"		"0"			
-		"draw_corner_width"		"0"
+		"teambg_1"		"../hud/color_panel_brown_opaque"
+		"teambg_2"		"../hud/color_panel_red_opaque"
+		"teambg_3"		"../hud/color_panel_blu_opaque"
+		
+		"src_corner_height"		"25"				// pixels inside the image
+		"src_corner_width"		"25"
+			
+		"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
 		"draw_corner_height" 	"0"	
 	}
-	"TeamColor"
+	"TargetIDBG_color"
 	{
-		"ControlName"	"CTFImagePanel"
-		"fieldName"		"TeamColor"
-		"xpos"					"-200"
-		"ypos"					"11"
-		"zpos"			"-5"
-		"wide"					"f0"
-		"tall"	 				"2"
+		"ControlName"		"CTFImagePanel"
+		"fieldName"		"TargetIDBG_color"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"-1"
+		"wide"			"252"
+		"tall"	 		"2"
+		"autoResize"		"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../hud/color_panel_brown_opaque"
+		"scaleImage"		"1"
+		"teambg_1"		"../hud/color_panel_brown_opaque"
+		"teambg_2"		"../hud/color_panel_red_opaque"
+		"teambg_3"		"../hud/color_panel_blu_opaque"
+		
+		"src_corner_height"		"25"				// pixels inside the image
+		"src_corner_width"		"25"
+			
+		"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"0"	
+	}
+	"TargetIDBG_brown"
+	{
+		"ControlName"		"CTFImagePanel"
+		"fieldName"		"TargetIDBG_brown"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"-3"
+		"wide"			"252"
+		"tall"	 		"18"
+		"autoResize"		"0"
+		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/color_panel_brown"
 		"scaleImage"		"1"
-		"teambg_1"		"../hud/color_panel_brown"
-		"teambg_2"		"../hud/color_panel_red"
-		"teambg_3"		"../hud/color_panel_blu"
-		"scaleImage"		"1"			
-		"src_corner_height"		"25"
-		"src_corner_width"		"25"			
-		"draw_corner_width"		"0"
+
+		"src_corner_height"		"25"				// pixels inside the image
+		"src_corner_width"		"25"
+			
+		"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
 		"draw_corner_height" 	"0"	
 	}
+	"TargetIDBG_Spec_Blue"
+	{
+		"ControlName"		"ScalableImagePanel"
+		"fieldName"		"TargetIDBG_Spec_Blue"
+		"xpos"			"9999"
+		"ypos"			"9999"
+		"zpos"			"-1"
+		"wide"			"252"
+		"tall"	 		"30"
+		"autoResize"		"0"
+		"pinCorner"		"0"
+		"visible"		"0"
+		"enabled"		"1"
+		"image"			"../hud/color_panel_blu_opaque"
+		"image_lodef"	"../hud/color_panel_blu_opaque"
+		
+		"src_corner_height"		"25"				// pixels inside the image
+		"src_corner_width"		"25"
+			
+		"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"5"
+	}
+	"TargetIDBG_Spec_Red"
+	{
+		"ControlName"		"ScalableImagePanel"
+		"fieldName"		"TargetIDBG_Spec_Red"
+		"xpos"			"9999"
+		"ypos"			"9999"
+		"zpos"			"-1"
+		"wide"			"252"
+		"tall"	 		"30"
+		"autoResize"		"0"
+		"pinCorner"		"0"
+		"visible"		"0"
+		"enabled"		"1"
+		"image"			"../hud/color_panel_red_opaque"
+		"image_lodef"	"../hud/color_panel_red_opaque"
+		
+		"src_corner_height"		"25"				// pixels inside the image
+		"src_corner_width"		"25"
+			
+		"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"5"
+	}
+	
 	"TargetNameLabel"
 	{	
 		"ControlName"		"Label"
 		"fieldName"		"TargetNameLabel"
-		"font"			"hudfont16sec"
-		"xpos"			"8"
-		"ypos"			"11"
+		"font"			"hudfont14sec"
+		"xpos"			"0"
+		"ypos"			"-2"
 		"zpos"			"1"
 		"wide"			"640"
 		"tall"			"24"
@@ -68,7 +132,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%targetname%"
-		"textAlignment"		"North-West"
+		"textAlignment"		"West"
 		"dulltext"		"0"
 		"brighttext"		"0"
 	}
@@ -76,10 +140,10 @@
 	{	
 		"ControlName"		"Label"
 		"fieldName"		"TargetNameLabelShadow"
-		"font"			"hudfont16sec"
+		"font"			"hudfont14sec"
 		"xpos"			"-1"
 		"ypos"			"-1"
-		"zpos"			"0"
+		"zpos"			"1"
 		"wide"			"640"
 		"tall"			"24"
 		"autoResize"		"0"
@@ -87,19 +151,21 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%targetname%"
-		"textAlignment"		"North-West"
+		"textAlignment"		"West"
 		"dulltext"		"0"
 		"brighttext"		"0"
-		"pin_to_sibling"	"TargetNameLabel"
 		"fgcolor_override"	"colorblack"
-	}	
+		
+		"pin_to_sibling"	"TargetNameLabel"
+	}
 	"TargetDataLabel"
 	{	
 		"ControlName"		"Label"
 		"fieldName"		"TargetDataLabel"
-		"font"			"hudfont12sec"
+		"font"			"FontStoreOriginalPrice"
 		"xpos"			"8"
-		"ypos"			"24"	[$WIN32]
+		"ypos"			"15"	[$WIN32]
+		"ypos"			"22"	[$X360]
 		"zpos"			"1"
 		"wide"			"280"
 		"tall"			"15"
@@ -108,7 +174,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%targetdata%"
-		"textAlignment"		"West"
+		"textAlignment"		"Left"
 		"dulltext"		"0"
 		"brighttext"		"0"
 	}
@@ -116,10 +182,11 @@
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"		"SpectatorGUIHealth"
-		"xpos"			"4"
-		"ypos"			"0"
-		"wide"			"45"
-		"tall"			"45"
+		"xpos"			"0"
+		"ypos"			"-7"
+		"zpos"			"-2"
+		"wide"			"32"
+		"tall"			"32"
 		"visible"		"0"
 		"enabled"		"0"	
 		"HealthBonusPosAdj"	"10"
@@ -128,12 +195,13 @@
 		"HealthDeathWarningColor"	"HUDDeathWarning"
 		"TextColor"		"HudOffWhite"
 	}	
+	
 	"AmmoIcon"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"AmmoIcon"
-		"xpos"			"55"
-		"ypos"			"26"
+		"xpos"			"40"
+		"ypos"			"18"
 		"zpos"			"12"
 		"wide"			"8"
 		"tall"			"8"
@@ -147,8 +215,8 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"KillStreakIcon"
-		"xpos"			"48"
-		"ypos"			"26"
+		"xpos"			"10"
+		"ypos"			"18"
 		"zpos"			"12"
 		"wide"			"8"
 		"tall"			"8"
@@ -158,27 +226,13 @@
 		"scaleImage"	"1"
 	}
 	
-	"KillStreakIconDupe" // im too poor and dont have friends :(
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"KillStreakIconDupe"
-		"xpos"			"48"
-		"ypos"			"26"
-		"zpos"			"12"
-		"wide"			"8"
-		"tall"			"8"
-		"visible"		"0"
-		"enabled"		"0"
-//		"image"			"../hud/leaderboard_streak"
-		"scaleImage"	"1"
-	}
 	"MoveableSubPanel"
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"		"MoveableSubPanel"
 		"xpos"			"0"
 		"ypos"			"0"
-		"zpos"			"5"
+		"zpos"			"0"
 		"wide"			"32"
 		"tall"			"36"
 		"visible"		"1"
@@ -189,12 +243,14 @@
 			"ControlName"	"CIconPanel"
 			"fieldName"		"MoveableIconBG"
 			"xpos"			"9999"
-			"ypos"			"99999"
+			"ypos"			"0"
 			"zpos"			"0"
 			"wide"			"0"
 			"tall"			"0"
-			"visible"		"0"
+			"visible"		"1"
 			"enabled"		"1"
+			"icon"			"obj_status_alert_background_tall_nocolor"
+			"iconColor"		"HudBlack"
 			"scaleImage"	"1"
 		}
 		
@@ -202,12 +258,12 @@
 		{
 			"ControlName"	"CIconPanel"
 			"fieldName"		"MoveableIcon"
-			"xpos"			"5"
+			"xpos"			"9999"
 			"ypos"			"7"
 			"zpos"			"11"
 			"wide"			"0"
 			"tall"			"0"
-			"visible"		"0"
+			"visible"		"1"
 			"enabled"		"1"
 			"icon"			"obj_status_sentrygun_1"
 			"drawcolor"		"ProgressOffWhite"
@@ -217,12 +273,12 @@
 		{
 			"ControlName"	"ImagePanel"
 			"fieldName"		"MoveableSymbolIcon"
-			"xpos"			"16"
+			"xpos"			"9999"
 			"ypos"			"-2"
 			"zpos"			"12"
 			"wide"			"0"
 			"tall"			"0"
-			"visible"		"0"
+			"visible"		"1"
 			"enabled"		"1"
 			"image"			"../hud/eng_sel_item_movable"
 			"drawcolor"		"ProgressOffWhite"
@@ -233,10 +289,10 @@
 		{	
 			"ControlName"		"Label"
 			"fieldName"		"MoveableKeyLabel"
-			"font"			"hudfont10shadow"
+			"font"			"Verdana10"
 			"xpos"			"0"
-			"ypos"			"14"
-			"zpos"			"9999"
+			"ypos"			"5"
+			"zpos"			"1"
 			"wide"			"640"
 			"tall"			"24"
 			"autoResize"		"0"
@@ -255,7 +311,6 @@
 		"fieldName"		"AvatarImage"
 		"xpos"			"6"
 		"ypos"			"6"	[$WIN32]
-		"ypos"			"0"	[$X360]
 		"zpos"			"99"
 		"wide"			"11"
 		"tall"			"11"

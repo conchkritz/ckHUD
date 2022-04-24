@@ -91,6 +91,95 @@
 
 	}
 	
+	"PlayerListBackgroundHeader"
+	{
+		"ControlName"		"ScalableImagePanel"
+		"fieldName"		"PlayerListBackgroundHeader"
+		"xpos"			"25"
+		"ypos"			"76"
+		"zpos"			"-1"
+		"wide"			"550"
+		"tall"			"15"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../hud/color_panel_red"
+		
+		"scaleImage"		"1"
+		
+		"src_corner_height"		"25"				// pixels inside the image
+		"src_corner_width"		"25"
+		"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"5"	
+		
+
+	}
+
+	"Player1"
+	{
+		"ControlName"		"ScalableImagePanel"
+		"fieldName"		"Player1"
+		"xpos"			"25"
+		"ypos"			"90"
+		"zpos"			"-1"
+		"wide"			"550"
+		"tall"			"22"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../hud/color_panel_brown"
+		
+		"scaleImage"		"1"
+		
+		"src_corner_height"		"25"				// pixels inside the image
+		"src_corner_width"		"25"
+		"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"5"	
+		
+
+	}
+	"Player3"
+	{
+		"ControlName"		"ScalableImagePanel"
+		"fieldName"		"Player3"
+		"xpos"			"25"
+		"ypos"			"134"
+		"zpos"			"-1"
+		"wide"			"550"
+		"tall"			"22"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../hud/color_panel_brown"
+		
+		"scaleImage"		"1"
+		
+		"src_corner_height"		"25"				// pixels inside the image
+		"src_corner_width"		"25"
+		"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"5"	
+		
+
+	}
+	"Player5"
+	{
+		"ControlName"		"ScalableImagePanel"
+		"fieldName"		"Player5"
+		"xpos"			"25"
+		"ypos"			"178"
+		"zpos"			"-1"
+		"wide"			"550"
+		"tall"			"22"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../hud/color_panel_brown"
+		
+		"scaleImage"		"1"
+		
+		"src_corner_height"		"25"				// pixels inside the image
+		"src_corner_width"		"25"
+		"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"5"	
+		
+
+	}
 	"MvMPlayerList"
 	{
 		"ControlName"	"SectionedListPanel"
@@ -98,7 +187,7 @@
 		"xpos"			"35"
 		"ypos"			"79"
 		"wide"			"530"
-		"tall"			"150"
+		"tall"			"300" // ?????????????????????????????????????????
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"

@@ -270,7 +270,7 @@
 		"enabled" 				"1"
 		"PaintBackgroundType"	"2"
 		
-		"ypos_minmode"			"c-112"	[$WIN32]
+		"ypos_minmode"			"c-130"	[$WIN32]
 	}
 	
 	CHealthAccountPanel
@@ -290,9 +290,10 @@
 	CDamageAccountPanel
 	{
 		"fieldName"				"CDamageAccountPanel"
-		"xpos"					"0"
+		"xpos"					"20"
+		"xpos_minmode"			"0"
 		"ypos"					"0"
-		"ypos_minmode"			"75"
+		"ypos_minmode"			"45"
 		"wide"					"f0"
 		"tall"					"480"
 		"visible" 				"1"
@@ -311,20 +312,21 @@
 		"wide"		"500"
 		"tall"		"200"
 	}
-
+	
 	CMainTargetID
 	{
 		"fieldName" 	"CMainTargetID"
 		"visible" 	"0"
 		"enabled" 	"1"
 		"xpos"		"c-126"
-		"ypos"		"312"
-//		"ypos_minmode" "250"
-		"zpos"	"2"
-		"wide"	 	"f0"
-		"tall"	 	"f0"
+		"ypos"		"315"
+		"zpos"		"2"
+		"wide"	 	"252"
+		"tall"	 	"35"
 		"priority"	"40"
 		"priority_lodef"	"5"
+	
+		"ypos_minmode"	"270"
 
 		if_vr
 		{
@@ -340,12 +342,12 @@
 		"enabled" 	"1"
 		"xpos"		"c-126"
 		"ypos"		"250"
-		"wide"	 	"f0"
-		"tall"	 	"f0"
+		"zpos"		"2"
+		"wide"	 	"252"
+		"tall"	 	"35"
 		"priority"	"40"
 		"priority_lodef" "35"
-		"zpos"	"2"
-
+	
 		"x_offset" "20"
 		"y_offset" "20"
 	}
@@ -356,13 +358,13 @@
 		"visible" 	"0"
 		"enabled" 	"1"
 		"xpos"		"c-126"
-		"ypos"		"345"
-//		"ypos_minmode" "280"
-		"wide"	 	"f0"
-		"tall"	 	"f0"
+		"ypos"		"342"
+		"zpos"		"2"
+		"wide"	 	"252"
+		"tall"	 	"35"
 		"priority"	"35"
 		
-		"zpos"	"2"
+		"ypos_minmode"	"299"
 
 		if_vr
 		{
@@ -1084,6 +1086,8 @@
 		"wide"					"470"
 		"tall"					"200"
 		"PaintBackgroundType"	"0"
+		
+		"ypos_minmode"			"200"
 	}	
 	
 	HudDemomanPipes

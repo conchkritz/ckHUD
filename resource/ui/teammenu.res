@@ -246,15 +246,14 @@
 		"brighttext"	"0"
 		"command"		"cancelmenu"
 		"font"			"HudFontSmallbold"
+	
 		
-		"defaultFgColor_override" 	"white"
-		"FgColor" 				"white"
-		"FgColor_override" 		"white"
-		"defaultbgcolor_override"		"70 70 70 220"
-		"armedbgcolor_override"			"90 90 90 255"
-		"armedFgColor_override" 		"255 255 255 255"
-		"depressedbgcolor_override"		"60 60 60 255"
-		"depressedfgColor_override" 	"255 255 255 255"	
+		"defaultFgColor_override" 		"colorwhite"
+		"defaultbgcolor_override"		"tandarker"
+		"armedbgcolor_override"			"tandarkold"		//50
+		"armedFgColor_override" 		"colorwhite"
+		"depressedbgcolor_override"		"tandarker"
+		"depressedfgColor_override" 	"colorwhite"
 		
 		"sound_armed"				"UI/buttonclickrelease.wav"
 		"sound_depressed"			"UI/buttonclickrelease.wav"

@@ -354,7 +354,7 @@
 		"enabled"		"1"
 		"labelText"		"#game_respawntime_in_secs"
 		"textAlignment"		"center"
-		"font"			"hudfont18Shadow"
+		"font"			"hudfont18"
 		"fgcolor_override" "colorwhite"
 		
 		if_mvm
@@ -376,7 +376,7 @@
 		"enabled"		"1"
 		"labelText"		"#TF_PVE_Buyback"
 		"textAlignment"		"center"
-		"font"			"hudfont18Shadow"
+		"font"			"hudfont18"
 		"fgcolor_override" "colorwhite"
 	
 		if_mvm

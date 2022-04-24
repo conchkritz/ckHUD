@@ -61,7 +61,7 @@
 	{	
 		"ControlName"	"Label"
 		"fieldName"		"DisguiseNameLabel"
-		"font"			"HudFontMediumSmallSecondary"
+		"font"			"hudfont18sec"
 		"xpos"			"52"
 		"ypos"			"31"
 		"zpos"			"1"
@@ -82,7 +82,7 @@
 		"ControlName"	"Label"
 		"fieldName"		"WeaponNameLabel"
 		"font"			"HUDFontSmall"
-		"font_minmode"	"TFFontMedium"
+		"font_minmode"	"hudfont14sec"
 		"xpos"			"52"
 		"ypos"			"45"
 		"zpos"			"1"
@@ -102,8 +102,8 @@
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"		"SpectatorGUIHealth"
-		"xpos"			"8"
-		"ypos"			"27"
+		"xpos"			"12"
+		"ypos"			"29"
 		"wide"			"50"
 		"tall"			"50"
 		"visible"		"1"

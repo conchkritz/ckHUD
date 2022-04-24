@@ -2,9 +2,9 @@
 {
 	"CHudAccountPanel"
 	{
-		"delta_item_x"			"35"
-		"delta_item_start_y"	"125"
-		"delta_item_end_y"		"120"
+		"delta_item_x"			"67"
+		"delta_item_start_y"	"140"
+		"delta_item_end_y"		"137"
 		"PositiveColor"			"0 255 0 255"
 		"NegativeColor"			"255 0 0 255"
 		"delta_lifetime"		"0.5"
@@ -71,7 +71,7 @@
 		"labelText"		"f"
 		"textAlignment"	"center"
 		"font"			"hudfont18icon"
-		"fgcolor"		"colorblack"
+		"fgcolor"		"colorblackalt"
 		
 		"pin_to_sibling"	"EngiIcon"
 	}
@@ -115,7 +115,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"font"			"hudfont20"
-		"fgcolor_override" "colorblack"
+		"fgcolor_override" "colorblackalt"
 		"pin_to_sibling" "AccountValue"
 	}
 }

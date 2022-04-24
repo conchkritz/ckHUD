@@ -73,7 +73,7 @@
 		"labelText"		"%Health%"
 		"textAlignment"	"center"	
 		"font"			"hudfont48"
-		"fgcolor"		"colorwhite"
+		"fgcolor"		"health"
 	}
 	"PlayerStatusHealthValueShadow"
 	{
@@ -89,7 +89,7 @@
 		"labelText"		"%Health%"
 		"textAlignment"	"center"	
 		"font"			"hudfont48"
-		"fgcolor"		"colorblack"
+		"fgcolor"		"healthshadow"
 		
 		"pin_to_sibling"	"PlayerStatusHealthValue"
 	}

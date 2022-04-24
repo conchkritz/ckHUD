@@ -13,22 +13,42 @@ Scheme
 		"colorlightgray"		"70 70 70 255"
 		"colorgray"				"50 50 50 255"
 		"colordarkgray"			"40 40 40 255"
-		"colorblack"			"30 30 30 255" // getting kinda tired of pure blacks might steal from eve hud
+		"colorblack"			"20 20 20 255"
+		"colorblackalt"			"46 43 42 255" // eve hud?
 		"colortransparentgray"	"0 0 0 100"
-	
+
 		// TEAMS
 		"colorred"				"184 56 59 255" // team spirit
 		"colorblu"				"88 133 162 255" // team spirit
 		"colordarkred"			"128 48 32 255" // value of teamwork
 		"colordarkblu"			"40 57 77 255" // an air of debonair
 		
-		// HEALTH AMMO
-		"low"					"200 45 45 255" // low ammo/hp
-		"lowdark"				"175 45 45 255" // low ammo/hp (fades into annd back to low)
+		// HEALTH (shares color with spectatorguihealth (target id and other stuff))
+		"health"				"242 242 242 255" // default health color
 		"overheal"				"75 175 255 255" // overhealed
+		"overhealbg"			"255 255 255 125" // overheal spectatorguihealth
 		
+		"hurt"					"200 45 45 255"	// low hp
+		"hurtdark"				"100 45 45 255"	// low hp (fades into annd back to low)
+		"hurtbg"				"200 0 0 100" // overheal spectatorguihealth
+		
+		"healthshadow"			"46 43 42 255" // eve hud?
+	
+		// RESERVE
+		"ammo"					"242 242 242 255" // default ammo color
+		"lowammo"				"200 45 45 255" // low ammo
+		"lowammodark"			"100 45 45 255" // low ammo (fades into annd back to low)
+		"ammoshadow"			"46 43 42 255" // eve hud?
+
+		// CLIP
+		"ammoclip"				"242 242 242 255" // default ammo clip color
+		"lowammoclip"			"200 45 45 255" // low ammo clip 
+		"lowammodarkclip"		"100 45 45 255" // low ammo clip (fades into annd back to low)	
+		"ammoshadowclip"		"46 43 42 255" // eve hud?
+
+
 		// UBERCHARGE
-		"ubercharge1"			"192 28 0 255" // uber 1
+		"ubercharge1"			"150 28 0 255" // uber 1
 		"ubercharge2"			"255 28 0 255" // uber 2 (fades into annd back to 1)
 		
 		// COLORED METERS
@@ -68,12 +88,12 @@ Scheme
 		
 		"TanLight"				"242 242 242 255" // change this w/ colorwhite
 		"White"					"242 242 242 255"
-		"Black"					"30 30 30 255"
+		"Black"					"20 20 20 255"
 		"Tandark"				"242 242 242 255" // only for advanced options
 		
-		"HUDBlueTeamSolid"	"88 133 162 255"
-		"HUDRedTeamSolid"	"184 56 59 255"
-		"HudWhite"			"242 242 242 255"
-		"HudBlack"			"30 30 30 255"
+		"HUDBlueTeamSolid"		"88 133 162 255"
+		"HUDRedTeamSolid"		"184 56 59 255"
+		"HudWhite"				"242 242 242 255"
+		"HudBlack"				"20 20 20 255"
 	}
 }

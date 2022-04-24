@@ -431,6 +431,20 @@ Scheme
 				"dropshadow" 	"1"
 			}
 		}
+		
+// 		===========================================
+// 		vernada
+
+		Verdana10
+		{
+			"1"
+			{
+				"name"		"Verdana"
+				"tall"			"10"
+				"weight"		"700"
+				"antialias" 	"1"
+			}
+		}		
 // 		===========================================
 // 		misc
 
@@ -438,8 +452,8 @@ Scheme
 		{
 			"1"
 			{
-				"name" "TF2 Build"
-				"tall" "40"
+				"name" "TF2 Secondary"
+				"tall" "32"
 				"antialias" "1"
 				"outline"	"1"
 			}
@@ -453,7 +467,6 @@ Scheme
 			{
 				"name"		"TF2 Build"
 				"tall"		"24"
-				"tall_hidef"	"32"
 				"weight"	"500"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"antialias"	"1"
@@ -465,7 +478,6 @@ Scheme
 			{
 				"name"		"TF2 Build"
 				"tall"		"24"
-				"tall_hidef"	"32"
 				"weight"	"500"
 				"italic"	"1"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -478,7 +490,6 @@ Scheme
 			{
 				"name"		"TF2 Build"
 				"tall"		"24"
-				"tall_hidef"	"32"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"antialias"	"1"
@@ -490,7 +501,6 @@ Scheme
 			{
 				"name"		"TF2 Build"
 				"tall"		"24"
-				"tall_hidef"	"32"
 				"weight"	"900"
 				"italic"	"1"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -503,7 +513,6 @@ Scheme
 			{
 				"name"		"TF2 Build"
 				"tall"		"16"
-				"tall_hidef"	"24"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"antialias"	"1"

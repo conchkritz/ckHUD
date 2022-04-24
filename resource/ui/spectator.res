@@ -60,7 +60,7 @@
 		"ControlName"		"CExLabel"
 		"fieldName"		"ReinforcementsLabel"
 		"xpos"			"c-300"	[$WIN32]
-		"ypos"			"55"	[$WIN32]
+		"ypos"			"45"	[$WIN32]
 		"wide"			"600"	[$WIN32]
 		"tall"			"18"
 		"autoResize"		"0"
@@ -69,7 +69,7 @@
 		"enabled"		"1"
 		"labelText"		"#game_respawntime_in_secs"
 		"textAlignment"		"center"
-		"font"			"hudfont18Shadow"
+		"font"			"hudfont18"
 		"fgcolor_override" "colorwhite"
 	}
 	"BuyBackLabel"
@@ -86,7 +86,7 @@
 		"enabled"		"1"
 		"labelText"		""
 		"textAlignment"		"center"
-		"font"			"HudFontSmall"
+		"font"			"hudfont18"
 		"wrap"			"1"
 		"centerwrap"	"1"
 	}
