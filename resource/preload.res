@@ -9,15 +9,15 @@
 		"enabled"		"1"
 		"image"			"maps/menu_thumb_Missing"
 	}
-	"BTCross"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"BTCross"
-		"xpos"			"9999"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"replay/thumbnails/btcross"
-	}
+//	"BTCross"
+//	{
+//		"ControlName"	"ImagePanel"
+//		"fieldName"		"BTCross"
+//		"xpos"			"9999"
+//		"visible"		"1"
+//		"enabled"		"1"
+//		"image"			"replay/thumbnails/btcross"
+//	}
 	
 	"CartBluehome"
 	{

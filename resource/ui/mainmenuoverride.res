@@ -3362,7 +3362,7 @@
 		"xpos" "rs1"
 		"ypos" "rs0.7"
 		"zpos"			"1"
-		"wide"			"80"
+		"wide"			"120"
 		"tall"			"25"
 		"visible"		"1"
 		"enabled"		"1"
@@ -3370,7 +3370,7 @@
 		"font"			"hudfont12"
 		"textAlignment"	"east"
 		
-		"labelText" 	"ckHUD 0.2.1" // source = from github source, not release. alpha = alpha, duh. no suffix = release.
+		"labelText" 	"ckHUD 0.2.2-source" // source = from github source, not release. alpha = alpha, duh. no suffix = release.
 		
 		"dulltext"		"0"
 		"brighttext"	"0"

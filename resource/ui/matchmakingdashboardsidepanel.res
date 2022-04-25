@@ -38,7 +38,7 @@
 		"command"		"nav_close"
 
 		"textAlignment"	"east"
-		"font"			"hudfont24"
+		"font"			"HudFontSmallBold"
 
 		"armedBgColor_override"	"0 0 0 0"
 		"defaultBgColor_override"	"0 0 0 0"
@@ -69,7 +69,7 @@
 		"labelText"		"<"
 
 		"textAlignment"	"west"
-		"font"			"hudfont24"
+		"font"			"HudFontSmallBold"
 
 		"armedBgColor_override"	"0 0 0 0"
 		"defaultBgColor_override"	"0 0 0 0"
@@ -85,7 +85,7 @@
 		"ypos"			"0"
 		"zpos"			"1"
 		"wide"			"f0"
-		"tall"			"f-20"
+		"tall"			"f0"
 		"visible"		"1"
 		"proportionaltoparent"	"1"
 

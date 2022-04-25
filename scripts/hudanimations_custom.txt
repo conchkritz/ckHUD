@@ -270,3 +270,16 @@ event QuestMapIntro_ShowStage
 {
 	Animate IntroDesc	fgcolor	TanDarkOld	Linear 0 0.4
 }
+
+//===========================================
+// lightorange replacement
+
+event QuestItem_Options_Flash
+{
+	Animate OptionsButton FgColor "188 112 0 128"	Linear 0	 0.1
+	Animate OptionsButton FgColor TanLight		Linear 0.1	 0.1
+	Animate OptionsButton FgColor "188 112 0 128"	Linear 0.2	 0.1
+	Animate OptionsButton FgColor TanLight		Linear 0.3	 0.1
+	Animate OptionsButton FgColor "188 112 0 128"	Linear 0.4	 0.1
+	Animate OptionsButton FgColor TanLight		Linear 0.5	 0.1
+}

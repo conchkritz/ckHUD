@@ -669,7 +669,7 @@
 			"sound_released"	"UI/buttonclickrelease.wav"
 
 			"armedBgColor_override"		"disconnectred"
-			"defaultBgColor_override"	"disconnectred"
+			"defaultBgColor_override"	"disconnectreddark"
 
 			"defaultFgColor_override" "colorwhite"
 			"armedFgColor_override" "colorwhite"

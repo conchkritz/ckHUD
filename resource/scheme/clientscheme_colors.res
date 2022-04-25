@@ -79,6 +79,7 @@ Scheme
 		// OTHER
 		"no"					"0 0 0 0"
 		"disconnectred"			"192 28 0 255"
+		"disconnectreddark"		"125 28 0 255"
 		"TanDarkOld"			"117 107 94 255" // replaces tandark in clientscheme_settings
 		"TanLightOld"			"235 226 202 255"
 
@@ -95,5 +96,7 @@ Scheme
 		"HUDRedTeamSolid"		"184 56 59 255"
 		"HudWhite"				"242 242 242 255"
 		"HudBlack"				"20 20 20 255"
+		
+		"LightOrange"			"188 112 0 75"
 	}
 }
