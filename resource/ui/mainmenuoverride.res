@@ -3355,14 +3355,14 @@
 		}		
 	}
 	
-	"versionlabel" // what do i set it as if im fixing bugs for next release????????
+	"versionlabel"
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"versionlabel"
-		"xpos" "rs1.01"
+		"xpos" "rs1"
 		"ypos" "rs0.7"
 		"zpos"			"1"
-		"wide"			"170"
+		"wide"			"80"
 		"tall"			"25"
 		"visible"		"1"
 		"enabled"		"1"
@@ -3370,12 +3370,12 @@
 		"font"			"hudfont12"
 		"textAlignment"	"east"
 		
-		"labelText" 	"ckHUD 0.2-source-alpha??" // source = from github source, not release. alpha = alpha, duh. no suffix = release.
+		"labelText" 	"ckHUD 0.2.1" // source = from github source, not release. alpha = alpha, duh. no suffix = release.
 		
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"default"		"1"
-		"paintbackground""0"
+		"paintbackground" "0"
 		"sound_depressed"	""
 		"sound_released"	"UI/tts1.wav" //.mp3
 
