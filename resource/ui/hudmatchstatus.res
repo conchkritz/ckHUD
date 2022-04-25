@@ -395,22 +395,22 @@
 		"ypos"										"3"
 		"zpos"										"2"
 		"wide"										"f0"
-		"tall"										"25"
+		"tall"										"20"
 		"visible"									"1"
 		"enabled"									"1"
 
-		"max_size"									"19"
+		"max_size"									"20"
 
-		"6v6_gap"									"1"
+		"6v6_gap"									"18"
 		"12v12_gap"									"1"
 
 		"team1_grow_dir" 							"west"
 		"team1_base_x"								"c-45"
-		"team1_max_expand"							"200"
+		"team1_max_expand"							"250"
 
 		"team2_grow_dir" 							"east"
 		"team2_base_x"								"c47"
-		"team2_max_expand"							"200"
+		"team2_max_expand"							"250"
 
 		"playerpanels_kv"
 		{
@@ -422,13 +422,17 @@
 
 			"color_portrait_bg_red"					"colorred"
 			"color_portrait_bg_blue"				"colorblu"
+			
 			"color_portrait_bg_red_dead"			"colordarkred"
 			"color_portrait_bg_blue_dead"			"colordarkblu"
+			
 			"color_bar_health_high"					"75 200 25 255"
 			"color_bar_health_med"					"255 200 0 255"
-			"percentage_health_med"					"0.6"
 			"color_bar_health_low"					"255 20 0 255"
+
+			"percentage_health_med"					"0.6"
 			"percentage_health_low"					"0.3"
+			
 			"color_portrait_blend_dead_red"			"255 255 255 255"
 			"color_portrait_blend_dead_blue" 		"255 255 255 255"
 
@@ -439,8 +443,8 @@
 				"xpos"								"cs-0.5"
 				"ypos"								"0"
 				"zpos"								"5"
-				"wide"								"20"
-				"tall"								"20"
+				"wide"								"f0"
+				"tall"								"f0"
 				"visible"							"1"
 				"enabled"							"1"
 				"image"								"../hud/class_scoutred"
@@ -468,13 +472,13 @@
 				"ControlName"						"ContinuousProgressBar"
 				"fieldName"							"healthbar"
 				"xpos"								"0"
-				"ypos"								"20"
+				"ypos"								"0"
 				"zpos"								"3"
 				"wide"								"f0"
-				"tall"								"5"
+				"tall"								"f0"
 				"visible"							"1"
 				"enabled"							"1"
-				"bgcolor_override"	  				"colordarkwhite"
+				"bgcolor_override"	  				"0 0 0 0"
 				"proportionaltoparent"				"1"
 			}
 
@@ -483,13 +487,13 @@
 				"ControlName"						"ContinuousProgressBar"
 				"fieldName"							"overhealbar"
 				"xpos"								"0"
-				"ypos"								"20"
+				"ypos"								"0"
 				"zpos"								"4"
 				"wide"								"f0"
-				"tall"								"5"
+				"tall"								"f0"
 				"visible"							"1"
 				"enabled"							"1"
-				"bgcolor_override"	   				"Blank"
+				"bgcolor_override"	   				"0 0 0 0"
 				"fgcolor_override"	   				"colorwhite"
 				"proportionaltoparent"				"1"
 			}
@@ -498,9 +502,9 @@
 			{
 				"ControlName"						"CExLabel"
 				"fieldName"							"respawntime"
-				"font"								"hudfont14shadow"
+				"font"								"hudfont14"
 				"xpos"								"cs-0.5"
-				"ypos"								"cs-0.6"
+				"ypos"								"cs-0.5"
 				"zpos"								"10"
 				"wide"								"f0"
 				"tall"								"f0"
@@ -519,6 +523,7 @@
 				"fieldName"							"playername"
 				"xpos"								"9999"
 			}
+			
 			"HealthIcon"
 			{
 				"ControlName"						"EditablePanel"
@@ -527,36 +532,42 @@
 				"visible"							"0"
 				"enabled"							"0"
 			}
+			
 			"ReadyBG"
 			{
 				"ControlName"						"ScalableImagePanel"
 				"fieldName"							"ReadyBG"
 				"xpos"								"9999"
 			}
+			
 			"ReadyImage"
 			{
 				"ControlName"						"ImagePanel"
 				"fieldName"							"ReadyImage"
 				"xpos"								"9999"
 			}
+			
 			"chargeamount"
 			{
 				"ControlName"						"CExLabel"
 				"fieldName"							"chargeamount"
 				"xpos"								"9999"
 			}
+			
 			"specindex"
 			{
 				"ControlName"						"CExLabel"
 				"fieldName"							"specindex"
 				"xpos"								"9999"
 			}
+			
 			"DeathPanel"
 			{
 				"ControlName"						"ImagePanel"
 				"fieldName"							"DeathPanel"
 				"xpos"								"9999"
 			}
+			
 			"SkullPanel"
 			{
 				"ControlName"						"ImagePanel"

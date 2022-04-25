@@ -2,6 +2,9 @@
 //Font chacker: https://www.alphabet-type.com/tools/charset-checker/
 
 //created by Jakadak https://github.com/jakadak/TF2-extended-fonts
+
+// from conch: im not even sure if it works
+// also eats up like 1 fps
 Scheme
 {
 	CustomFontFiles

@@ -6,7 +6,7 @@
 		"fieldName"		"HealthIcon"
 		"xpos"			"0"
 		"ypos"			"0"
-		"wide"			"32"
+		"wide"			"64"
 		"tall"			"32"
 		"visible"		"1"
 		"enabled"		"1"	
@@ -18,7 +18,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"SpectatorGUIHealth"
-		"xpos"			"0"
+		"xpos"			"15"
 		"ypos"			"0"
 		"wide"			"128"
 		"tall"			"128"

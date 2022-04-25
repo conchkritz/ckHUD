@@ -45,7 +45,7 @@
 	{	
 		"ControlName"		"Label"
 		"fieldName"		"CapNumPlayers"
-		"font"			"hudfont14"
+		"font"			"hudfont14sec"
 		"xpos"			"15"
 		"ypos"			"1"
 		"zpos"			"4"
@@ -92,7 +92,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"wrap"			"0"
-		"font"			"ControlPointTimer"
+		"font"			"hudfont10sec"
 	}
 				
 	"CPTimerBG"

@@ -307,15 +307,15 @@
 	{
 		"ControlName"	"CAvatarImagePanel"
 		"fieldName"		"AvatarImage"
-		"xpos"			"6"
-		"ypos"			"6"	[$WIN32]
+		"xpos"			"4"
+		"ypos"			"3"	[$WIN32]
 		"zpos"			"99"
-		"wide"			"11"
-		"tall"			"11"
+		"wide"			"15"
+		"tall"			"15"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			""
 		"scaleImage"	"1"	
-		"color_outline"	"52 48 45 255"
+		"color_outline"	"colorwhite"
 	}	
 }

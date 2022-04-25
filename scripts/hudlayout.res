@@ -1,87 +1,11 @@
+#base "../#customizations/enabled/transparentviewmodel.res"
+#base "../#customizations/enabled/crosshair.res"
+#base "../#customizations/enabled/hitmarker.res"
+
+
 "Resource/HudLayout.res"
 {
-// ===========================================
-// ===========================================
-// DXLEVEL 90+ 
 
-	"TransparentViewmodelMask"
-	{
-		//alpha doesn't work for this, you need to change the texture's alpha
-		"ControlName"	"ImagePanel"
-		"fieldName"		"TransparentViewmodelMask"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"-100"
-		"wide"			"f0"
-		"tall"			"480"
-		"enabled"		"1"
-		"image"			"replay/thumbnails/REFRACTnormal_transparent"
-		"scaleImage"	"1"
-		
-		"visible"		"0" // Change this to "1" to turn on
-	}
-
-// ===========================================
-// ===========================================
-
-	Hitmarker // sorry if its 1 by default, im stupid
-	{	
-		"controlName"		"CExLabel"
-		"fieldName"			"Hitmarker"
-		"zpos"				"1"
-		"wide"				"f0"
-		"tall"				"f0"
-		"textAlignment"		"center"
-		"enabled"			"1"
-
-		"visible"			"1" // Change this to "1" to turn on
-
-		"labelText"			"6"
-		"font"				"Size:25 | Outline:OFF"
-		
-		"xpos"				"cs-0.4999" // changes these if the crosshair/hitmarker is off (very sensitive)
-		"ypos"				"cs-0.4999" // cs-0.5 standard, cs-0.4999 default
-
-		"fgcolor"			"255 0 0 0"
-
-// ===========================================		
-// color determined by scripts/hudanimations_custom.txt, looks this this \/
-// ===========================================
-//		event DamagedPlayer
-//		{					   //change these \/
-//			Animate	Hitmarker fgcolor	"255 0 0 255"	Linear 0.0 0.0 // when enemy is hit
-//			Animate	Hitmarker fgcolor	"255 0 0 0"		spline 0.1 0.2 // fade out
-//		}
-// ===========================================
-	}
-
-// ===========================================
-// ===========================================
-
-	Xhair
-	{	
-		"controlName"		"CExLabel"
-		"fieldName"			"Xhair"
-		"zpos"				"0"
-		"wide"				"f0"
-		"tall"				"f0"
-		"textAlignment"		"center"
-		"enabled"			"1"
-
-		"visible"			"0" // Change this to "1" to turn on
-
-		"labelText"			"C"
-		"font"				"Size:25 | Outline:OFF"
-		"fgcolor" "0 255 0 255" // color
-		
-		"xpos"				"cs-0.5000001" // changes these if the crosshair/hitmarker is off (very sensitive)
-		"ypos"				"cs-0.49999"
-	}
-
-// ===========================================
-// ===========================================
-
-	
 	HudPlayerStatus
 	{
 		"fieldName" "HudPlayerStatus"
@@ -811,7 +735,7 @@
 
 		"item_wide"	"135"
 		
-		"show_avatar"		"0"
+		"show_avatar"		"1"
 		
 		"show_dead_icon"	"1"
 		"dead_xpos"			"1"

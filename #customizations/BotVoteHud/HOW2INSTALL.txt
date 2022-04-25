@@ -1,0 +1,25 @@
+Take all of the files in the 'LANG' Folder and put them in 'ckHUD/resource'
+
+Should look like this
+
+-TF
+| -Custom
+|   -ckHUD
+|     -resource
+|       -chat_brazilian.txt
+|       -chat_english.txt
+|       -chat_french.txt
+|       -chat_german.txt
+|       -chat_italian.txt
+|       -chat_polish.txt
+|       -chat_russian.txt
+|       -chat_spanish.txt
+
+Then put 'BotDetectorVoteHUD.res' and 'clientscheme_votehud' in the #customization/enabled folder
+
+**THIS REQUIRES A GAME RESTART TO FUNCTION PROPERLY**
+
+Original: https://gamebanana.com/mods/26382
+
+NOTE: from my benchmarking, this eats up like 1 fps, but its very useful.
+
