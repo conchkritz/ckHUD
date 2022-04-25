@@ -50,7 +50,23 @@
 			"alpha"		"100"
 
 		}
-
+		"FriendsBGPanel"
+		{
+			"ControlName"			"ImagePanel"
+			"fieldName"				"FriendsBGPanel"
+			"xpos"					"0"
+			"ypos"					"0"
+			"zpos"					"-2"
+			"wide"					"186"
+			"tall"					"30"
+			"autoResize"			"0"
+			"pinCorner"				"0"
+			"visible"				"1"
+			"enabled"				"1"
+			"tabPosition"			"0"	
+			"fillcolor"				"30 30 30 250"
+			"PaintBackgroundType"	"0"
+		}	
 		"BGPanel" // i give up
 		{
 			"ControlName"	"CTFImagePanel"
@@ -269,12 +285,12 @@
 			{
 				"ControlName"	"Panel"
 				"fieldName"		"OuterShadow"
-				"xpos"			"0"
+				"xpos"			"99999"
 				"ypos"			"0"
 				"zpos"			"-1"
 				"wide"			"f0"
 				"tall"			"f0"
-				"visible"		"1"
+				"visible"		"0"
 				"proportionaltoparent"	"1"
 
 				"border"		"OuterShadowBorderThin"
@@ -668,14 +684,14 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 
-			"armedBgColor_override"		"disconnectred"
-			"defaultBgColor_override"	"disconnectreddark"
+			"armedBgColor_override"		"192 28 0 255"
+			"defaultBgColor_override"	"142 28 0 255"
 
-			"defaultFgColor_override" "colorwhite"
-			"armedFgColor_override" "colorwhite"
+			"defaultFgColor_override" "TanLight"
+			"armedFgColor_override" "TanLight"
 
-			"image_drawcolor"	"colorwhite"
-			"image_armedcolor"	"colorwhite"
+			"image_drawcolor"	"TanLight"
+			"image_armedcolor"	"TanLight"
 
 			"SubImage"
 			{
@@ -691,7 +707,7 @@
 				"scaleImage"	"1"
 				"proportionaltoparent"	"1"
 				"image"			"glyph_disconnect"
-				"drawcolor_override" "colorwhite"
+				"drawcolor_override" "TanLight"
 			}
 		}
 
@@ -730,10 +746,10 @@
 		//	"armedBgColor_override"		"CreditsGreen"
 		//	"defaultBgColor_override"	"GreenSolid"
 
-			"defaultFgColor_override" "colorwhite"
-			"armedFgColor_override" "colorwhite"
-			"image_drawcolor"	"colorwhite"
-			"image_armedcolor"	"colorwhite"
+			"defaultFgColor_override" "TanLight"
+			"armedFgColor_override" "TanLight"
+			"image_drawcolor"	"235 226 202 255"
+			"image_armedcolor"	"235 226 202 255"
 
 			"SubImage"
 			{
@@ -749,7 +765,7 @@
 				"scaleImage"	"1"
 				"proportionaltoparent"	"1"
 				"image"			"icon_resume"
-				"drawcolor_override" "colorwhite"
+				"drawcolor_override" "TanLight"
 			}
 		}
 
@@ -788,10 +804,10 @@
 			"armedBgColor_override"		"CreditsGreen"
 			"defaultBgColor_override"	"GreenSolid"
 
-			"defaultFgColor_override" "colorwhite"
-			"armedFgColor_override" "colorwhite"
-			"image_drawcolor"	"colorwhite"
-			"image_armedcolor"	"colorwhite"
+			"defaultFgColor_override" "TanLight"
+			"armedFgColor_override" "TanLight"
+			"image_drawcolor"	"235 226 202 255"
+			"image_armedcolor"	"235 226 202 255"
 
 			"SubImage"
 			{
@@ -807,7 +823,7 @@
 				"scaleImage"	"1"
 				"proportionaltoparent"	"1"
 				"image"			"glyph_multiplayer"
-				"drawcolor_override" "colorwhite"
+				"drawcolor_override" "TanLight"
 			}
 		}
 	}

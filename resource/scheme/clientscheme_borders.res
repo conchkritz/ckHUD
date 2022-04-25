@@ -1724,5 +1724,51 @@ Scheme
 			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"5"	
 		}
+		
+		ReplayFatLineBorderRedBGOpaque
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			
+			"image"					"../hud/color_panel_red_opaque"
+			"src_corner_height"		"25"				// pixels inside the image
+			"src_corner_width"		"25"
+			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"5"	
+		}
+
+		ReplayFatLineBorderOpaque
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			
+			"image"					"../hud/color_panel_brown_opaque"
+			"src_corner_height"		"25"				// pixels inside the image
+			"src_corner_width"		"25"
+			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"5"	
+		}
+		ReplayThinLineBorder
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			
+			"image"					"../hud/color_panel_brown_opaque"
+			"src_corner_height"		"25"				// pixels inside the image
+			"src_corner_width"		"25"
+			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"5"	
+		}
+		ReplayDefaultBorder
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			
+			"image"					"../hud/color_panel_brown_opaque"
+			"src_corner_height"		"25"				// pixels inside the image
+			"src_corner_width"		"25"
+			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"5"	
+		}
 	}
 }
