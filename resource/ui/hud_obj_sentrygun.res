@@ -24,7 +24,7 @@
 		"zpos"			"-1"
 		"wide"			"120"
 		"tall"			"60"
-		"visible"		"0"
+		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"icon"			"obj_status_background_tall_disabled"
@@ -105,25 +105,6 @@
 			"dulltext"		"0"
 			"brighttext"	"0"
 		}
-		"NotBuiltBG"
-		{
-			"ControlName"	"CTFImagePanel"
-			"fieldName"		"NotBuiltBG"
-			"xpos"			"0"
-			"ypos"			"0"
-			"zpos"			"-1"
-			"wide"			"120"
-			"tall"			"60"
-			"visible" 		"0" 
-			"enabled" 		"1"
-			"image"			"../hud/color_panel_brown"
-			"scaleImage"		"1"
-			
-			"src_corner_height"		"40"				// pixels inside the image
-			"src_corner_width"		"40"			
-			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"0"	
-		}
 	}
 	
 	"BuiltPanel"
@@ -183,28 +164,7 @@
 			"icon"			"obj_status_upgrade_3"
 			"iconColor"		"255 255 255 255"
 		}
-		"BuiltBG"
-		{
-			"ControlName"	"CTFImagePanel"
-			"fieldName"		"BuiltBG"
-			"xpos"			"0"
-			"ypos"			"0"
-			"zpos"			"-1"
-			"wide"			"120"
-			"tall"			"60"
-			"visible" 		"1" 
-			"enabled" 		"1"
-			"image"			"../hud/color_panel_brown"
-			"scaleImage"		"1"
-			"teambg_1"		"../hud/color_panel_brown"
-			"teambg_2"		"../hud/color_panel_red"
-			"teambg_3"		"../hud/color_panel_blu"		
-			
-			"src_corner_height"		"25"				// pixels inside the image
-			"src_corner_width"		"25"			
-			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"5"	
-		}	
+		
 		"AlertTray"
 		{
 			"ControlName"	"CBuildingStatusAlertTray"
@@ -257,8 +217,8 @@
 			"ControlName"	"CBuildingHealthBar"
 			"fieldName"		"Health"
 			"font"			"hudfont10sec"
-			"xpos"			"13"
-			"ypos"			"3"
+			"xpos"			"8"
+			"ypos"			"2"
 			"wide"			"8"
 			"tall"			"53"
 			"autoResize"	"0"

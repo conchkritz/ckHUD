@@ -1,6 +1,3 @@
-
-// disposable sentry in mvm, not mini sentry
-
 "Resource/UI/hud_obj_sentrygun_disp.res"
 {
 	"BuildingStatusItem"
@@ -27,7 +24,7 @@
 		"zpos"			"-1"
 		"wide"			"120"
 		"tall"			"22"
-		"visible"		"0"
+		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"icon"			"obj_status_background_disabled"
@@ -63,7 +60,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"NotBuiltLabel"
-			"font"			"hudfont10sec"
+			"font"			"hudfont8sec"
 			"xpos"			"60"
 			"ypos"			"0"
 			"wide"			"200"
@@ -104,26 +101,7 @@
 			"icon"			""
 			"iconColor"		"255 255 255 255"
 		}
-		"BuiltBG"
-		{
-			"ControlName"	"CTFImagePanel"
-			"fieldName"		"BuiltBG"
-			"xpos"			"0"
-			"ypos"			"0"
-			"zpos"			"-1"
-			"wide"			"120"
-			"tall"			"22"
-			"image"			"../hud/color_panel_brown"
-			"scaleImage"		"1"
-			"teambg_1"		"../hud/color_panel_brown"
-			"teambg_2"		"../hud/color_panel_red"
-			"teambg_3"		"../hud/color_panel_blu"		
-			
-			"src_corner_height"		"25"				// pixels inside the image
-			"src_corner_width"		"25"			
-			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"5"	
-		}
+	
 		"AlertTray"
 		{
 			"ControlName"	"CBuildingStatusAlertTray"
@@ -175,8 +153,8 @@
 		{	
 			"ControlName"	"CBuildingHealthBar"
 			"fieldName"		"Health"
-			"font"			"hudfont10sec"
-			"xpos"			"13"
+			"font"			"hudfont8sec"
+			"xpos"			"8"
 			"ypos"			"4"
 			"wide"			"8"
 			"tall"			"15"
@@ -203,7 +181,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"BuildingLabel"
-				"font"			"hudfont10sec"
+				"font"			"hudfont8sec"
 				"xpos"			"0"
 				"ypos"			"18"
 				"wide"			"200"
@@ -222,7 +200,7 @@
 			{	
 				"ControlName"	"ContinuousProgressBar"
 				"fieldName"		"BuildingProgress"
-				"font"			"hudfont10sec"
+				"font"			"hudfont8sec"
 				"xpos"			"0"
 				"ypos"			"29"
 				"wide"			"50"
@@ -267,7 +245,7 @@
 			{	
 				"ControlName"	"CExLabel"
 				"fieldName"		"KillsLabel"
-				"font"			"hudfont10sec"
+				"font"			"hudfont8sec"
 				"xpos"			"12"
 				"ypos"			"6"
 				"wide"			"200"
@@ -302,7 +280,7 @@
 			{	
 				"ControlName"	"ContinuousProgressBar"
 				"fieldName"		"Shells"
-				"font"			"hudfont10sec"
+				"font"			"hudfont8sec"
 				"xpos"			"12"
 				"ypos"			"7"
 				"wide"			"38"

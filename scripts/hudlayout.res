@@ -304,7 +304,7 @@
 		"visible"	"1"
 		"enabled"	"1"
 		"xpos"		"0"	[$WIN32]
-		"ypos"		"0"	[$WIN32]
+		"ypos"		"c-115"
 		"wide"		"640"
 		"tall"		"480"
 		

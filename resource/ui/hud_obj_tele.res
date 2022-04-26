@@ -1,4 +1,4 @@
-"Resource/UI/hud_obj_tele_exit.res"
+"Resource/UI/hud_obj_tele.res"
 {
 	"BuildingStatusItem"
 	{
@@ -31,7 +31,7 @@
 		"iconColor"		"255 255 255 255"
 	}
 	
-	"Icon_Teleport_Exit"
+	"Icon_Teleport"
 	{
 		"ControlName"	"CIconPanel"
 		"fieldName"		"Icon"
@@ -42,7 +42,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"	
-		"icon"			"obj_status_tele_exit"
+		"icon"			"obj_status_tele_entrance"
 		"iconColor"		"255 255 255 255"
 	}
 	
@@ -69,7 +69,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"labelText"		"#Building_hud_tele_exit_not_built"
+			"labelText"		"#Building_hud_tele_not_built"
 			"textAlignment"	"Left"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -83,7 +83,7 @@
 		"xpos"			"0"
 		"ypos"			"0"
 		"wide"			"160"
-		"tall"			"43"
+		"tall"			"31"
 		"visible"		"0"
 
 		"Icon_Upgrade_1"
@@ -134,6 +134,7 @@
 			"iconColor"		"255 255 255 255"
 		}
 
+
 		"AlertTray"
 		{
 			"ControlName"	"CBuildingStatusAlertTray"
@@ -178,7 +179,7 @@
 			"icon"			"obj_status_icon_sapper"
 			"iconColor"		"255 255 255 255"
 		}
-		
+
 		"Health"
 		{	
 			"ControlName"	"CBuildingHealthBar"
@@ -254,21 +255,102 @@
 			"wide"			"100"
 			"tall"			"31"
 			"visible"		"0"
-		
-			"UpgradeIcon"
+			
+			"ChargingPanel"
 			{
-				"ControlName"	"CIconPanel"
-				"fieldName"		"UpgradeIcon"
+				"ControlName"	"EditablePanel"
+				"fieldName"		"ChargingPanel"
 				"xpos"			"0"
-				"ypos"			"16"
-				"zpos"			"1"
-				"wide"			"10"
-				"tall"			"10"
+				"ypos"			"0"
+				"wide"			"100"
+				"tall"			"31"
+				"visible"		"0"
+				
+				"RechargeLabel"
+				{
+					"ControlName"	"CExLabel"
+					"fieldName"		"RechargeLabel"
+					"font"			"hudfont10sec"
+					"xpos"			"0"
+					"ypos"			"1"
+					"wide"			"200"
+					"tall"			"12"
+					"autoResize"	"0"
+					"pinCorner"		"0"
+					"visible"		"1"
+					"enabled"		"1"
+					"labelText"		"#Building_hud_tele_charging"
+					"textAlignment"	"Left"
+					"dulltext"		"0"
+					"brighttext"	"0"
+				}
+				
+				"Recharge"
+				{	
+					"ControlName"	"ContinuousProgressBar"
+					"fieldName"		"Recharge"
+					"font"			"hudfont10sec"
+					"xpos"			"0"
+					"ypos"			"11"
+					"wide"			"50"
+					"tall"			"5"				
+					"autoResize"	"0"
+					"pinCorner"		"0"
+					"visible"		"1"
+					"enabled"		"1"
+					"textAlignment"	"Left"
+					"dulltext"		"0"
+					"brighttext"	"0"
+				}	
+			}
+			
+			"FullyChargedPanel"
+			{
+				"ControlName"	"EditablePanel"
+				"fieldName"		"FullyChargedPanel"
+				"xpos"			"0"
+				"ypos"			"0"
+				"wide"			"100"
+				"tall"			"31"
+				"visible"		"0"
+								
+				"TimesUsedLabel"
+				{	
+					"ControlName"	"CExLabel"
+					"fieldName"		"TimesUsedLabel"
+					"font"			"hudfont10sec"
+					"xpos"			"0"
+					"ypos"			"-6"
+					"wide"			"200"
+					"tall"			"31"
+					"autoResize"	"0"
+					"pinCorner"		"0"
+					"visible"		"1"
+					"enabled"		"1"
+					"labelText"		"#Building_hud_tele_times_used"
+					"labelText_lodef"		"#Building_hud_tele_times_used_360"
+					"textAlignment"	"Left"
+					"dulltext"		"0"
+					"brighttext"	"0"
+				}
+			}	
+			"UpgradeLabel"
+			{	
+				"ControlName"	"CExLabel"
+				"fieldName"		"UpgradeLabel"
+				"font"			"hudfont10sec"
+				"xpos"			"0"
+				"ypos"			"14"
+				"wide"			"200"
+				"tall"			"12"
+				"autoResize"	"0"
+				"pinCorner"		"0"
 				"visible"		"1"
 				"enabled"		"1"
-				"scaleImage"	"1"	
-				"icon"			"ico_metal"
-				"iconColor"		"ProgressOffWhite"
+				"labelText"		"#Building_hud_sentry_upgrade"
+				"textAlignment"	"Left"
+				"dulltext"		"0"
+				"brighttext"	"0"
 			}
 			
 			"Upgrade"
@@ -276,10 +358,10 @@
 				"ControlName"	"ContinuousProgressBar"
 				"fieldName"		"Upgrade"
 				"font"			"hudfont10sec"
-				"xpos"			"12"
-				"ypos"			"17"
-				"wide"			"38"
-				"tall"			"8"
+				"xpos"			"0"
+				"ypos"			"24"
+				"wide"			"50"
+				"tall"			"2"
 				"autoResize"	"0"
 				"pinCorner"		"0"
 				"visible"		"1"

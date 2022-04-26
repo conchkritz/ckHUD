@@ -24,7 +24,7 @@
 		"zpos"			"-1"
 		"wide"			"120"
 		"tall"			"31"
-		"visible"		"0"
+		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"icon"			"obj_status_background_disabled"
@@ -134,30 +134,7 @@
 			"iconColor"		"255 255 255 255"
 		}
 
-		"TeleBG"
-		{
-			"ControlName"	"CTFImagePanel"
-			"fieldName"		"TeleBG"
-			"xpos"			"0"
-			"ypos"			"0"
-			"zpos"			"-1"
-			"wide"			"120"
-			"tall"			"31"
-			"visible"		"1"
-			"enabled"		"1"
-			"scaleImage"	"1"	
-			"image"			"../hud/color_panel_brown"
-			"scaleImage"		"1"
-			"teambg_1"		"../hud/color_panel_brown"
-			"teambg_2"		"../hud/color_panel_red"
-			"teambg_3"		"../hud/color_panel_blu"		
-				
-			"src_corner_height"		"25"				// pixels inside the image
-			"src_corner_width"		"25"			
-			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"5"	
-		}	
-		
+
 		"AlertTray"
 		{
 			"ControlName"	"CBuildingStatusAlertTray"
@@ -208,7 +185,7 @@
 			"ControlName"	"CBuildingHealthBar"
 			"fieldName"		"Health"
 			"font"			"hudfont10sec"
-			"xpos"			"13"
+			"xpos"			"8"
 			"ypos"			"3"
 			"wide"			"8"
 			"tall"			"24"

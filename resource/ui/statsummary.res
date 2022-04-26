@@ -244,7 +244,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"	"StatData"
 		"xpos"		"0"
-		"ypos"		"0"
+		"ypos"		"-130"
 		"zpos"		"1"
 		"wide"		"f0"
 		"tall"		"480"
@@ -419,10 +419,11 @@
 			"xpos_lodef"			"c-193"
 			"ypos"			"170" [!$OSX]
 			"ypos"			"185" [$OSX]
-			"ypos_hidef"			"32"
-			"ypos_lodef"			"32"
+			"ypos_hidef"			"40"
+			"ypos"					"40"
+			"ypos_lodef"			"40"
 			"wide"			"350"
-			"tall"			"20"
+			"tall"			"37" // acts as ypos (somewhat??)
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
@@ -1517,14 +1518,14 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"RecordsLabel1"
-			"font"			"hudfont18"
+			"font"			"hudfont16"
 			"labelText"		"#StatSummary_Label_BestMoments"
 			"textAlignment"		"west"
-			"xpos"			"c+118"
+			"xpos"			"c+128"
 			"ypos"			"170" [!$OSX]
 			"ypos"			"180" [$OSX]
 			"wide"			"300"
-			"tall"			"20"
+			"tall"			"25"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"	[$WIN32]
