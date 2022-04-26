@@ -14,7 +14,7 @@ Cuurently only being tested on 1080p. If anyone else wants to test for me you ca
 | OS  | Status |
 | ------------- | ------------- |
 | Windows (11)  | Supported  |
-| Linus  | Unsupported  |
+| Linux  | Unsupported  |
 | Mac  | Unsupported  |
 
 | Resolution  | Status |
