@@ -209,6 +209,7 @@
 		"PaintBackgroundType"	"2"
 		
 		"ypos_minmode"			"c65"
+		"xpos_minmode"			"c-190"
 	}
 	
 	CDamageAccountPanel
