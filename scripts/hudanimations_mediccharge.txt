@@ -2,27 +2,27 @@ event HudMedicCharged
 {
 	Animate	ChargeLabel 	FgColor		"colordarkwhite"		Linear 0.0 0.35
 	Animate	ChargeLabel 	FgColor		"colorwhite"			Spline 0.35 0.4
-	Animate	ChargeLabel 	FgColor		"colorwhite"			Linear 0.4 0.45
+	Animate	ChargeLabel 	FgColor		"colorwhite"			Linear 0.4 0.42
 
 	Animate	ChargeMeter 	FgColor		"ubercharge1"			Linear 0.0 0.35
 	Animate	ChargeMeter 	FgColor		"ubercharge2"			Spline 0.35 0.4
-	Animate	ChargeMeter 	FgColor		"ubercharge2"			Linear 0.4 0.45
+	Animate	ChargeMeter 	FgColor		"ubercharge2"			Linear 0.4 0.42
 
 	Animate	ChargeColor_25 	BgColor		"ubercharge2"			Linear 0.0 0.35
 	Animate	ChargeColor_25 	BgColor		"meter1"				Spline 0.35 0.4
-	Animate	ChargeColor_25 	FgColor		"meter1"				Linear 0.4 0.45
+	Animate	ChargeColor_25 	FgColor		"meter1"				Linear 0.4 0.42
 
 	Animate	ChargeColor_50 	BgColor		"ubercharge2"				Linear 0.0 0.35
 	Animate	ChargeColor_50 	BgColor		"meter1"				Spline 0.35 0.4
-	Animate	ChargeColor_50 	FgColor		"meter1"				Linear 0.4 0.45
+	Animate	ChargeColor_50 	FgColor		"meter1"				Linear 0.4 0.42
 
 	Animate	ChargeColor_75 	BgColor		"ubercharge2"				Linear 0.0 0.35
 	Animate	ChargeColor_75 	BgColor		"meter1"				Spline 0.35 0.4
-	Animate	ChargeColor_75 	FgColor		"meter1"				Linear 0.4 0.45
+	Animate	ChargeColor_75 	FgColor		"meter1"				Linear 0.4 0.42
 
 	Animate	ChargeColor_100 BgColor		"ubercharge2"				Linear 0.0 0.35
 	Animate	ChargeColor_100 BgColor		"meter1"				Spline 0.35 0.4
-	Animate	ChargeColor_100 	FgColor		"meter1"				Linear 0.4 0.45
+	Animate	ChargeColor_100 	FgColor		"meter1"				Linear 0.4 0.42
 
 	RunEvent HudMedicChargedLoop	1.2
 }

@@ -1,3 +1,5 @@
+#base "../../#customizations/enabled/altuber.res"
+
 "Resource/UI/HudMedicCharge.res"
 {	
 	"Background"

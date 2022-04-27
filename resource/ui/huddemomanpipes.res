@@ -59,7 +59,7 @@
 		"tall"			"50"
 		"visible"		"1"
 		
-		"ypos_minmode"	"115"
+		"ypos_minmode"	"85"
 		
 		"PipeIcon"
 		{

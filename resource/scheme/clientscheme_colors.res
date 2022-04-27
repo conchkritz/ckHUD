@@ -50,7 +50,7 @@ Scheme
 		// UBERCHARGE
 		"ubercharge1"			"150 28 0 255" // uber 1
 		"ubercharge2"			"255 28 0 255" // uber 2 (fades into annd back to 1)
-		
+		"ubershadow"			"46 43 42 255" // ONLY IN CUSTOMIZATIONS 'altuber.res'
 		// COLORED METERS
 		"meter1"				"255 192 0 255"
 		"meter2"				"255 128 0 255"
