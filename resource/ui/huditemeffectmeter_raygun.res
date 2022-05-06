@@ -1,11 +1,7 @@
-#base "meter/itemmeter4.res"
+#base "../../_ckHUD/resource/ui/meter/pos3.res"
+#base "../../_ckHUD/resource/ui/meter/itemmeter4.res"
+#base "../../_tf2/resource/ui/HudItemEffectMeter_Raygun.res"
 
 "Resource/UI/HudItemEffectMeter_Raygun.res"
 {
-	HudItemEffectMeter
-	{
-		"ypos"			"c40"	[$WIN32]
-		
-		"ypos_minmode"			"c85"	[$WIN32]
-	}
 }

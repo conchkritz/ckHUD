@@ -10,10 +10,11 @@
 	{
 		"icon"			"obj_status_tele_exit"
 		
-		"xpos"			"25"
-		"ypos"			"29"
+		"xpos"			"26"
+		"ypos"			"33"
 		"zpos"			"2"
-		"wide"			"50"
+		
+		"wide"			"48"
 		"tall"			"50"
 	}
 	"NumberLabel"

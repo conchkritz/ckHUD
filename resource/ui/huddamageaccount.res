@@ -1,48 +1,6 @@
+#base "../../_ckHUD/resource/ui/HudDamageAccount.res"
+#base "../../_tf2/resource/ui/HudDamageAccount.res"
+
 "Resource/UI/HudDamageAccount.res"
 {
-	"CDamageAccountPanel"
-	{
-		"fieldName"				"CDamageAccountPanel"
-		"text_x"				"0"
-		"text_y"				"0"
-		"delta_item_end_y"		"0"
-		"PositiveColor"			"0 255 0 255"
-		"NegativeColor"			"255 0 0 255"
-		"delta_lifetime"		"1.5"
-		"delta_item_font"		"DamageNumber"
-		"delta_item_font_big"	"DamageNumber"
-	}
-	"DamageAccountLabel"
-	{
-		"ControlName"       "CExLabel"
-		"fieldName"         "DamageAccountLabel"
-		"xpos"              "cs-1.25"
-		"ypos"              "c7"
-		"zpos"              "100"
-		"wide"              "100"
-		"tall"              "50"
-		"visible"           "1"
-		"enabled"           "1"
-		"labelText"         "%metal%"
-		"textAlignment"     "west"
-		"fgcolor"           "255 255 0 255"
-		"font"              "hudfont20"
-	}
-	"DamageAccountLabelShadow"
-	{
-		"ControlName"       "CExLabel"
-		"fieldName"         "DamageAccountLabelShadow"
-		"xpos"              "-1"
-		"ypos"              "-1"
-		"zpos"              "100"
-		"wide"              "100"
-		"tall"              "50"
-		"visible"           "1"
-		"enabled"           "1"
-		"labelText"         "%metal%"
-		"textAlignment"     "west"
-		"fgcolor"           "colorblack"
-		"font"              "hudfont20"
-		"pin_to_sibling"	"DamageAccountLabel"
-	}
 }

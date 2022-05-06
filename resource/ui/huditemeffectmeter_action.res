@@ -1,8 +1,8 @@
-"Resource/UI/HudItemEffectMeter_Action.res"
+"Resource/UI/HudItemEffectMeter_Action.res" // dummy file to fix errors
 {
 	"ItemEffectMeter"
 	{
 		"ControlName"	"ContinuousProgressBar"
-		"fieldName"	"ItemEffectMeter"
+		"fieldName"		"ItemEffectMeter"
 	}
 }

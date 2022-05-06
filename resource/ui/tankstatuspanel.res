@@ -1,27 +1,6 @@
+#base "../../_ckHUD/resource/ui/TankStatusPanel.res"
+#base "../../_tf2/resource/ui/TankStatusPanel.res"
+
 "Resource/UI/TankStatusPanel.res"
 {
-	"Background"
-	{
-		"ControlName"		"ScalableImagePanel"
-		"fieldName"		"Background"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"-1"
-		"wide"			"200"
-		"tall"			"24"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"../hud/color_panel_brown"
-		
-		"scaleImage"		"1"
-		
-		"src_corner_height"	"25"				// pixels inside the image
-		"src_corner_width"	"25"
-	
-		"draw_corner_width"	"5"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"5"	
-		
-	}
 }

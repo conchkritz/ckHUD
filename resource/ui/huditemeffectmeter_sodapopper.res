@@ -1,11 +1,7 @@
-#base "meter/itemmetercolor.res"
+#base "../../_ckHUD/resource/ui/meter/pos1.res"
+#base "../../_ckHUD/resource/ui/meter/itemmetercolor.res"
+#base "../../_tf2/resource/ui/HudItemEffectMeter_SodaPopper.res"
 
 "Resource/UI/HudItemEffectMeter_SodaPopper.res"
 {
-	HudItemEffectMeter
-	{
-		"ypos"			"c20"	[$WIN32]
-	
-		"ypos_minmode"	"c65"	[$WIN32]
-	}
 }

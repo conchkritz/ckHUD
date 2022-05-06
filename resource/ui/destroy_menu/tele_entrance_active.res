@@ -9,12 +9,12 @@
 
 	"BuildingIcon"	
 	{
-
 		"icon"			"obj_status_tele_entrance"
 		
 		"xpos"			"26"
 		"ypos"			"33"
 		"zpos"			"2"
+		
 		"wide"			"48"
 		"tall"			"50"
 	}

@@ -1,0 +1,2 @@
+#base   "..\_ckHUD\scripts\mod_textures.txt"
+#base   "..\_tf2\scripts\mod_textures.txt"
