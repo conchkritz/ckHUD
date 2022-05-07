@@ -55,6 +55,11 @@
 		"tall"			"f0"
 	}
 	
+	FreezePanel
+	{
+		"ypos"					"-15"
+	}
+	
 	CHudAccountPanel
 	{
 		"xpos"					"c-44"
@@ -139,8 +144,8 @@
         "visible"   "1"
         "enabled"   "1"
 		
-        "xpos"      "c180"
-        "ypos"      "302"
+        "xpos"      "c230"
+        "ypos"      "270"
 		
         "wide"      "200"
         "tall"      "100"

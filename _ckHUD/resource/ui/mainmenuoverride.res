@@ -1275,20 +1275,20 @@
 		"xpos" "rs1"
 		"ypos" "rs0.7"
 		"zpos"			"1"
-		"wide"			"120"
+		"wide"			"110"
 		"tall"			"25"
 
 		"font"			"hudfont12"
 		"textAlignment"	"east"
 		
-		"labelText" 	"ckHUD 0.2.2-#base" // source = from github source, not release. alpha = alpha, duh. no suffix = release.
+		"labelText" 	"ckHUD 0.3-ALPHA" // source = from github source, not release. alpha = alpha, duh. no suffix = release.
 		
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"default"		"1"
 		"paintbackground" "0"
 		"sound_depressed"	""
-		"sound_released"	"UI/tts1.wav" //.mp3
+		"sound_released"	"UI/funny.mp3"
 
 		"defaultFgColor_override" "255 255 255 5"
 		"armedFgColor_override" "255 255 255 15"

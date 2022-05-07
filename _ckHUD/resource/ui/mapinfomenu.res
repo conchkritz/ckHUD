@@ -9,7 +9,7 @@
 		"wide"			"420"
 		"tall"			"30"
 
-		"font"			"hudfont40"
+		"font"			"hudfont30"
 		"fgcolor"		"colorwhite"
 	}
 	

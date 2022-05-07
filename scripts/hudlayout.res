@@ -1,3 +1,5 @@
+#base "../__customization/_enabled/kritzhud/scripts/hudlayout.res"
+
 #base "../__customization/_enabled/Crosshair/scripts/crosshair.res"
 #base "../__customization/_enabled/Hitmarker/scripts/hitmarker.res"
 #base "../__customization/_enabled/Transparent Viewmodels/scripts/transparentviewmodel.res"

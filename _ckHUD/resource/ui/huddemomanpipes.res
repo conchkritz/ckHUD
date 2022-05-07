@@ -25,10 +25,8 @@
 	"PipesPresentPanel"
 	{
 		"xpos"			"7"
-		"ypos"			"40"
+		"ypos"			"85"
 		"zpos"			"1"
-		
-		"ypos_minmode"	"85"
 		
 		"PipeIcon"
 		{

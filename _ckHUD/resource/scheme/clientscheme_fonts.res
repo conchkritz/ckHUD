@@ -183,6 +183,15 @@ Scheme
 				"antialias" "1"
 			}
 		}
+		"hudfont30"
+		{
+			"1"
+			{
+				"name" "TF2 Build"
+				"tall" "30"
+				"antialias" "1"
+			}
+		}
 		"hudfont34"
 		{
 			"1"
@@ -303,7 +312,7 @@ Scheme
 				"name"		"TF2 Build"
 				"tall"		"24"
 				"weight"	"500"
-				"italic"	"1"
+				"italic"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"antialias"	"1"
 			}
@@ -314,7 +323,7 @@ Scheme
 			{
 				"name"		"TF2 Build"
 				"tall"		"24"
-				"weight"	"900"
+				"weight"	"500"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"antialias"	"1"
 			}
@@ -325,8 +334,8 @@ Scheme
 			{
 				"name"		"TF2 Build"
 				"tall"		"24"
-				"weight"	"900"
-				"italic"	"1"
+				"weight"	"500"
+				"italic"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"antialias"	"1"
 			}
@@ -337,7 +346,7 @@ Scheme
 			{
 				"name"		"TF2 Build"
 				"tall"		"16"
-				"weight"	"900"
+				"weight"	"500"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"antialias"	"1"
 			}
@@ -366,6 +375,43 @@ Scheme
 				"weight"		"0" // usually dont touch
 				"antialias"		"1"// antialias
 				"outline"		"0" // should the font have an outline (sometimes poor antialiasing)
+			}
+		}
+		
+		"Default"
+		{
+			"1"
+			{
+				"antialias"	"1"
+
+			}
+			"2"
+			{
+				"antialias"	"1"
+
+			}
+			"3"
+			{
+				"antialias"	"1"
+
+			}
+			"4"
+			{
+				"antialias"	"1"
+
+			}
+			"5"
+			{
+				"antialias"	"1"
+
+			}
+			"6"
+			{
+				"antialias"	"1"
+			}
+			"7"
+			{
+				"antialias"	"1"
 			}
 		}
 	}

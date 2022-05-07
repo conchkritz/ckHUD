@@ -651,9 +651,9 @@
 		"xpos"			"9999"
 	}
 
-	"LocalPlayerDuelStatsPanel" // ???
-	{
-	}
+//	"LocalPlayerDuelStatsPanel" // ???
+//	{
+//	}
 
 	"LocalPlayerStatsPanel" // fix later
 	{
@@ -673,7 +673,7 @@
 		
 		"StatsBg"
 		{
-			"ControlName"		"CTFImagePanel"
+			"ControlName"		"EditablePanel"
 			"fieldName"			"StatsBg"
 			"xpos"				"121"
 			"ypos"				"0"
@@ -682,15 +682,7 @@
 			"tall"				"170"
 			"visible"			"1"
 			"enabled"			"1"
-		
-			"image"			"../hud/color_panel_browner"
-			"scaleImage"		"1"
-
-			"src_corner_height"		"25"				// pixels inside the image
-			"src_corner_width"		"25"
-			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"5"	
-			
+			"border"			"tfthinlineborder"
 		}	
 		
 		"StatsBgHeader"
