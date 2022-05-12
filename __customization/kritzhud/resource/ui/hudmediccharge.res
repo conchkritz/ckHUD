@@ -11,7 +11,8 @@
 	}
 	
 	"UberchargeLabel"
-	{
+	{		
+		"ypos"					"16"
 		"labelText"				"ÜBERCHARGE" // Ü if you want it
 		"fgcolor_override"		"colorwhite"
 	}
@@ -53,7 +54,7 @@
 	
 	"ChargeMeter"
 	{	
-		"ypos"					"29"
+		"ypos"					"28"
 		
 		"tall"					"2"		
 		

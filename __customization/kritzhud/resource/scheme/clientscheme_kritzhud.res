@@ -9,56 +9,56 @@ Scheme // HIGHLY EXPERIMENTAL!!
 		{
 			"1"
 			{
-				"name" "LEMON MILK Pro FTR"
+				"name" "LEMON MILK Pro FTR Medium"
 			}
 		}
 		"hudfont10sec"
 		{
 			"1"
 			{
-				"name" "LEMON MILK Pro FTR"
+				"name" "LEMON MILK Pro FTR Medium"
 			}
 		}
 		"hudfont11sec"
 		{
 			"1"
 			{
-				"name" "LEMON MILK Pro FTR"
+				"name" "LEMON MILK Pro FTR Medium"
 			}
 		}
 		"hudfont12sec"
 		{
 			"1"
 			{
-				"name" "LEMON MILK Pro FTR"
+				"name" "LEMON MILK Pro FTR Medium"
 			}
 		}
 		"hudfont14sec"
 		{
 			"1"
 			{
-				"name" "LEMON MILK Pro FTR"
+				"name" "LEMON MILK Pro FTR Medium"
 			}
 		}
 		"hudfont18sec"
 		{
 			"1"
 			{
-				"name" "LEMON MILK Pro FTR"
+				"name" "LEMON MILK Pro FTR Medium"
 			}
 		}
 		"hudfont24sec"
 		{
 			"1"
 			{
-				"name" "LEMON MILK Pro FTR"
+				"name" "LEMON MILK Pro FTR Medium"
 			}
 		}
 		"hudfont30sec"
 		{
 			"1"
 			{
-				"name" "LEMON MILK Pro FTR"
+				"name" "LEMON MILK Pro FTR Medium"
 			}
 		}
 // 		===========================================
@@ -195,7 +195,7 @@ Scheme // HIGHLY EXPERIMENTAL!!
 		{
 			"1"
 			{
-				"name" "LEMON MILK Pro FTR"
+				"name" "LEMON MILK Pro FTR Medium"
 			}
 		}		
 // 		===========================================
@@ -205,7 +205,7 @@ Scheme // HIGHLY EXPERIMENTAL!!
 		{
 			"1"
 			{
-				"name" "LEMON MILK Pro FTR"
+				"name" "LEMON MILK Pro FTR Medium"
 			}
 		}
 		
@@ -213,7 +213,7 @@ Scheme // HIGHLY EXPERIMENTAL!!
 		{
 			"1"
 			{
-				"name"		"LEMON MILK Pro FTR"
+				"name"		"LEMON MILK Pro FTR Medium"
 				"tall"		"12"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -221,7 +221,7 @@ Scheme // HIGHLY EXPERIMENTAL!!
 			}
 			"2"
 			{
-				"name"		"LEMON MILK Pro FTR"
+				"name"		"LEMON MILK Pro FTR Medium"
 				"tall"		"13"	[$WIN32]
 				"tall"		"20"	[disabled]
 				"weight"	"900"
@@ -230,7 +230,7 @@ Scheme // HIGHLY EXPERIMENTAL!!
 			}
 			"3"
 			{
-				"name"		"LEMON MILK Pro FTR"
+				"name"		"LEMON MILK Pro FTR Medium"
 				"tall"		"14"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -239,7 +239,7 @@ Scheme // HIGHLY EXPERIMENTAL!!
 			}
 			"4"
 			{
-				"name"		"LEMON MILK Pro FTR"
+				"name"		"LEMON MILK Pro FTR Medium"
 				"tall"		"20"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -248,7 +248,7 @@ Scheme // HIGHLY EXPERIMENTAL!!
 			}
 			"5"
 			{
-				"name"		"LEMON MILK Pro FTR"
+				"name"		"LEMON MILK Pro FTR Medium"
 				"tall"		"24"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -257,14 +257,14 @@ Scheme // HIGHLY EXPERIMENTAL!!
 			}
 			"6"
 			{
-				"name"		"LEMON MILK Pro FTR"
+				"name"		"LEMON MILK Pro FTR Medium"
 				"tall"		"12"
 				"range" 		"0x0000 0x00FF"
 				"weight"		"900"
 			}
 			"7"
 			{
-				"name"		"LEMON MILK Pro FTR"
+				"name"		"LEMON MILK Pro FTR Medium"
 				"tall"		"12"
 				"range" 		"0x0000 0x00FF"
 				"weight"		"800"
@@ -276,7 +276,7 @@ Scheme // HIGHLY EXPERIMENTAL!!
 		{
 			"1"
 			{
-				"name"		"LEMON MILK Pro FTR"
+				"name"		"LEMON MILK Pro FTR Medium"
 				"tall"		"12"
 				"weight"	"500"
 				"underline" "1"
@@ -284,7 +284,7 @@ Scheme // HIGHLY EXPERIMENTAL!!
 			}
 			"2"
 			{
-				"name"		"LEMON MILK Pro FTR"
+				"name"		"LEMON MILK Pro FTR Medium"
 				"tall"		"11"
 				"range" 		"0x0000 0x00FF"
 				"weight"		"800"
@@ -294,7 +294,7 @@ Scheme // HIGHLY EXPERIMENTAL!!
 		{
 			"1"
 			{
-				"name"		"LEMON MILK Pro FTR"
+				"name"		"LEMON MILK Pro FTR Medium"
 				"tall"		"12"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
@@ -302,7 +302,7 @@ Scheme // HIGHLY EXPERIMENTAL!!
 			}
 			"2"
 			{
-				"name"		"LEMON MILK Pro FTR"
+				"name"		"LEMON MILK Pro FTR Medium"
 				"tall"		"13"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
@@ -310,7 +310,7 @@ Scheme // HIGHLY EXPERIMENTAL!!
 			}
 			"3"
 			{
-				"name"		"LEMON MILK Pro FTR"
+				"name"		"LEMON MILK Pro FTR Medium"
 				"tall"		"14"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
@@ -319,7 +319,7 @@ Scheme // HIGHLY EXPERIMENTAL!!
 			}
 			"4"
 			{
-				"name"		"LEMON MILK Pro FTR"
+				"name"		"LEMON MILK Pro FTR Medium"
 				"tall"		"20"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
@@ -328,7 +328,7 @@ Scheme // HIGHLY EXPERIMENTAL!!
 			}
 			"5"
 			{
-				"name"		"LEMON MILK Pro FTR"
+				"name"		"LEMON MILK Pro FTR Medium"
 				"tall"		"22"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
@@ -337,7 +337,7 @@ Scheme // HIGHLY EXPERIMENTAL!!
 			}
 			"6"
 			{
-				"name"		"LEMON MILK Pro FTR"
+				"name"		"LEMON MILK Pro FTR Medium"
 				"tall"		"12"
 				"range" 		"0x0000 0x00FF"
 				"weight"		"0"
@@ -349,7 +349,7 @@ Scheme // HIGHLY EXPERIMENTAL!!
 		{
 			"1"
 			{
-				"name"		"LEMON MILK Pro FTR"
+				"name"		"LEMON MILK Pro FTR Medium"
 				"tall"		"12"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -357,7 +357,7 @@ Scheme // HIGHLY EXPERIMENTAL!!
 			}
 			"2"
 			{
-				"name"		"LEMON MILK Pro FTR"
+				"name"		"LEMON MILK Pro FTR Medium"
 				"tall"		"12"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -365,7 +365,7 @@ Scheme // HIGHLY EXPERIMENTAL!!
 			}
 			"3"
 			{
-				"name"		"LEMON MILK Pro FTR"
+				"name"		"LEMON MILK Pro FTR Medium"
 				"tall"		"12"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -374,7 +374,7 @@ Scheme // HIGHLY EXPERIMENTAL!!
 			}
 			"4"
 			{
-				"name"		"LEMON MILK Pro FTR"
+				"name"		"LEMON MILK Pro FTR Medium"
 				"tall"		"14"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -383,7 +383,7 @@ Scheme // HIGHLY EXPERIMENTAL!!
 			}
 			"5"
 			{
-				"name"		"LEMON MILK Pro FTR"
+				"name"		"LEMON MILK Pro FTR Medium"
 				"tall"		"16"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -395,7 +395,7 @@ Scheme // HIGHLY EXPERIMENTAL!!
 		{
 			"1"
 			{
-				"name"		"LEMON MILK Pro FTR"
+				"name"		"LEMON MILK Pro FTR Medium"
 				"tall"		"18"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -403,7 +403,7 @@ Scheme // HIGHLY EXPERIMENTAL!!
 			}
 			"2"
 			{
-				"name"		"LEMON MILK Pro FTR"
+				"name"		"LEMON MILK Pro FTR Medium"
 				"tall"		"21"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -411,7 +411,7 @@ Scheme // HIGHLY EXPERIMENTAL!!
 			}
 			"3"
 			{
-				"name"		"LEMON MILK Pro FTR"
+				"name"		"LEMON MILK Pro FTR Medium"
 				"tall"		"22"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -420,7 +420,7 @@ Scheme // HIGHLY EXPERIMENTAL!!
 			}
 			"4"
 			{
-				"name"		"LEMON MILK Pro FTR"
+				"name"		"LEMON MILK Pro FTR Medium"
 				"tall"		"28"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -429,7 +429,7 @@ Scheme // HIGHLY EXPERIMENTAL!!
 			}
 			"5"
 			{
-				"name"		"LEMON MILK Pro FTR"
+				"name"		"LEMON MILK Pro FTR Medium"
 				"tall"		"30"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -438,14 +438,14 @@ Scheme // HIGHLY EXPERIMENTAL!!
 			}
 			"6"
 			{
-				"name"		"LEMON MILK Pro FTR"
+				"name"		"LEMON MILK Pro FTR Medium"
 				"tall"		"20"
 				"range" 		"0x0000 0x00FF"
 				"weight"		"900"
 			}
 			"7"
 			{
-				"name"		"LEMON MILK Pro FTR"
+				"name"		"LEMON MILK Pro FTR Medium"
 				"tall"		"20"
 				"range" 		"0x0000 0x00FF"
 				"weight"		"800"
@@ -456,8 +456,8 @@ Scheme // HIGHLY EXPERIMENTAL!!
 			// note that this scales with the screen resolution
 			"1"
 			{
-				"name"		"LEMON MILK Pro FTR" [!$OSX]
-				"name"		"LEMON MILK Pro FTR" [disabled]
+				"name"		"LEMON MILK Pro FTR Medium" [!$OSX]
+				"name"		"LEMON MILK Pro FTR Medium" [disabled]
 				"tall"		"18"
 				"weight"	"900"
 				"antialias" "1"
@@ -469,7 +469,7 @@ Scheme // HIGHLY EXPERIMENTAL!!
 		{
 			"1"
 			{
-				"name"		"LEMON MILK Pro FTR"
+				"name"		"LEMON MILK Pro FTR Medium"
 				"tall"		"6"
 				"weight"	"500"
 				"additive"	"0"
@@ -480,14 +480,14 @@ Scheme // HIGHLY EXPERIMENTAL!!
 		{
 			"1"
 			{
-				"name"		"LEMON MILK Pro FTR"
+				"name"		"LEMON MILK Pro FTR Medium"
 				"tall"		"12"
 				"weight"	"700"
 				"yres"	"480 599"
 			}
 			"2"
 			{
-				"name"		"LEMON MILK Pro FTR"
+				"name"		"LEMON MILK Pro FTR Medium"
 				"tall"		"13"	[$WIN32]
 				"tall"		"23"	[disabled]
 				"weight"	"700"
@@ -495,21 +495,21 @@ Scheme // HIGHLY EXPERIMENTAL!!
 			}
 			"3"
 			{
-				"name"		"LEMON MILK Pro FTR"
+				"name"		"LEMON MILK Pro FTR Medium"
 				"tall"		"14"
 				"weight"	"700"
 				"yres"	"768 1023"
 			}
 			"4"
 			{
-				"name"		"LEMON MILK Pro FTR"
+				"name"		"LEMON MILK Pro FTR Medium"
 				"tall"		"20"
 				"weight"	"700"
 				"yres"	"1024 1199"
 			}
 			"5"
 			{
-				"name"		"LEMON MILK Pro FTR"
+				"name"		"LEMON MILK Pro FTR Medium"
 				"tall"		"24"
 				"weight"	"700"
 				"yres"	"1200 10000"
@@ -629,7 +629,7 @@ Scheme // HIGHLY EXPERIMENTAL!!
 		{
 			"1"
 			{
-				"name"		"LEMON MILK Pro FTR"
+				"name"		"LEMON MILK Pro FTR Medium"
 				"tall"		"24"
 				"tall_disabled"		"28"
 				"weight"	"500"
@@ -641,7 +641,7 @@ Scheme // HIGHLY EXPERIMENTAL!!
 		{
 			"1"
 			{
-				"name"		"LEMON MILK Pro FTR"
+				"name"		"LEMON MILK Pro FTR Medium"
 				"tall"		"24"
 				"weight"	"500"
 				"additive"	"0"
@@ -674,7 +674,7 @@ Scheme // HIGHLY EXPERIMENTAL!!
 		{
 			"1"
 			{
-				"name"		"LEMON MILK Pro FTR"
+				"name"		"LEMON MILK Pro FTR Medium"
 				"tall"		"18"
 				"tall_disabled"	"24"
 				"tall_disabled"	"18"
@@ -687,7 +687,7 @@ Scheme // HIGHLY EXPERIMENTAL!!
 		{
 			"1"
 			{
-				"name"		"LEMON MILK Pro FTR"
+				"name"		"LEMON MILK Pro FTR Medium"
 				"tall"		"18"
 				"tall_disabled"	"24"
 				"tall_disabled"	"20"
@@ -700,7 +700,7 @@ Scheme // HIGHLY EXPERIMENTAL!!
 		{
 			"1"
 			{
-				"name"		"LEMON MILK Pro FTR"
+				"name"		"LEMON MILK Pro FTR Medium"
 				"tall"		"14"
 				"tall_disabled"	"16"
 				"weight"	"500"
@@ -712,7 +712,7 @@ Scheme // HIGHLY EXPERIMENTAL!!
 		{
 			"1"
 			{
-				"name"		"LEMON MILK Pro FTR"
+				"name"		"LEMON MILK Pro FTR Medium"
 				"tall"		"16"
 				"weight"	"500"
 				"additive"	"0"
@@ -723,7 +723,7 @@ Scheme // HIGHLY EXPERIMENTAL!!
 		{
 			"1"
 			{
-				"name"		"LEMON MILK Pro FTR"
+				"name"		"LEMON MILK Pro FTR Medium"
 				"tall"		"14"
 				"weight"	"500"
 				"additive"	"0"
@@ -734,7 +734,7 @@ Scheme // HIGHLY EXPERIMENTAL!!
 		{
 			"1"
 			{
-				"name"		"LEMON MILK Pro FTR"
+				"name"		"LEMON MILK Pro FTR Medium"
 				"tall"		"14"
 				"weight"	"500"
 				"additive"	"0"
@@ -746,7 +746,7 @@ Scheme // HIGHLY EXPERIMENTAL!!
 		{
 			"1"
 			{
-				"name"		"LEMON MILK Pro FTR"
+				"name"		"LEMON MILK Pro FTR Medium"
 				"tall"		"11"
 				"weight"	"500"
 				"additive"	"0"
@@ -757,7 +757,7 @@ Scheme // HIGHLY EXPERIMENTAL!!
 		{
 			"1"
 			{
-				"name"		"LEMON MILK Pro FTR"
+				"name"		"LEMON MILK Pro FTR Medium"
 				"tall"		"11"
 				"weight"	"500"
 				"additive"	"0"
@@ -780,7 +780,7 @@ Scheme // HIGHLY EXPERIMENTAL!!
 		{
 			"1"
 			{
-				"name"		"LEMON MILK Pro FTR"
+				"name"		"LEMON MILK Pro FTR Medium"
 				"tall"		"4"
 				"weight"	"500"
 				"additive"	"0"
@@ -791,7 +791,7 @@ Scheme // HIGHLY EXPERIMENTAL!!
 		{
 			"1"
 			{
-				"name"		"LEMON MILK Pro FTR"
+				"name"		"LEMON MILK Pro FTR Medium"
 				"tall"		"10"
 				"weight"	"500"
 				"additive"	"0"
@@ -802,7 +802,7 @@ Scheme // HIGHLY EXPERIMENTAL!!
 		{
 			"1"
 			{
-				"name"		"LEMON MILK Pro FTR"
+				"name"		"LEMON MILK Pro FTR Medium"
 				"tall"		"16"
 				"weight"	"500"
 				"additive"	"0"
@@ -813,7 +813,7 @@ Scheme // HIGHLY EXPERIMENTAL!!
 		{
 			"1"
 			{
-				"name"		"LEMON MILK Pro FTR"
+				"name"		"LEMON MILK Pro FTR Medium"
 				"tall"		"9"
 				"weight"	"0"
 				"additive"	"0"
@@ -824,7 +824,7 @@ Scheme // HIGHLY EXPERIMENTAL!!
 		{
 			"1"
 			{
-				"name"		"LEMON MILK Pro FTR"
+				"name"		"LEMON MILK Pro FTR Medium"
 				"tall"		"9"
 				"weight"	"0"
 				"additive"	"0"
@@ -835,7 +835,7 @@ Scheme // HIGHLY EXPERIMENTAL!!
 		{
 			"1"
 			{
-				"name"		"LEMON MILK Pro FTR"
+				"name"		"LEMON MILK Pro FTR Medium"
 				"tall"		"6"
 				"weight"	"0"
 				"additive"	"0"
@@ -846,7 +846,7 @@ Scheme // HIGHLY EXPERIMENTAL!!
 		{
 			"1"
 			{
-				"name"		"LEMON MILK Pro FTR"
+				"name"		"LEMON MILK Pro FTR Medium"
 				"tall"		"12"
 				"tall_disabled"	"14"
 				"tall_disabled"	"16"
@@ -859,7 +859,7 @@ Scheme // HIGHLY EXPERIMENTAL!!
 		{
 			"1"
 			{
-				"name"		"LEMON MILK Pro FTR"
+				"name"		"LEMON MILK Pro FTR Medium"
 				"tall"		"11"
 				"weight"	"500"
 				"additive"	"0"
@@ -934,7 +934,7 @@ Scheme // HIGHLY EXPERIMENTAL!!
 		{
 			"1"
 			{
-				"name"		"LEMON MILK Pro FTR"
+				"name"		"LEMON MILK Pro FTR Medium"
 				"tall"		"18"
 				"tall_disabled"	"24"
 				"tall_disabled"	"18"
@@ -947,7 +947,7 @@ Scheme // HIGHLY EXPERIMENTAL!!
 		{
 			"1"
 			{
-				"name"		"LEMON MILK Pro FTR"
+				"name"		"LEMON MILK Pro FTR Medium"
 				"tall"		"16"
 				"tall_disabled"	"22"
 				"tall_disabled"	"22"
@@ -960,7 +960,7 @@ Scheme // HIGHLY EXPERIMENTAL!!
 		{
 			"1"
 			{
-				"name"		"LEMON MILK Pro FTR"
+				"name"		"LEMON MILK Pro FTR Medium"
 				"tall"		"8"
 				"weight"	"500"
 				"additive"	"0"
@@ -971,7 +971,7 @@ Scheme // HIGHLY EXPERIMENTAL!!
 		{
 			"1"
 			{
-				"name"		"LEMON MILK Pro FTR"
+				"name"		"LEMON MILK Pro FTR Medium"
 				"tall"		"9"
 				"weight"	"500"
 				"additive"	"0"
@@ -982,7 +982,7 @@ Scheme // HIGHLY EXPERIMENTAL!!
 		{
 			"1"
 			{
-				"name"		"LEMON MILK Pro FTR"
+				"name"		"LEMON MILK Pro FTR Medium"
 				"tall"		"8"
 				"tall_disabled"	"9"
 				"tall_disabled"	"10"
@@ -995,7 +995,7 @@ Scheme // HIGHLY EXPERIMENTAL!!
 		{
 			"1"
 			{
-				"name"		"LEMON MILK Pro FTR"
+				"name"		"LEMON MILK Pro FTR Medium"
 				"tall"		"8"
 				"tall_disabled"	"7"
 				"weight"	"500"
@@ -1007,7 +1007,7 @@ Scheme // HIGHLY EXPERIMENTAL!!
 		{
 			"1"
 			{
-				"name"		"LEMON MILK Pro FTR"
+				"name"		"LEMON MILK Pro FTR Medium"
 				"tall"		"15"
 				"weight"	"700"
 				"antialias" 	"1"
@@ -1017,7 +1017,7 @@ Scheme // HIGHLY EXPERIMENTAL!!
 			}
 			"2"
 			{
-				"name"		"LEMON MILK Pro FTR"
+				"name"		"LEMON MILK Pro FTR Medium"
 				"tall"		"15"	[$WIN32]
 				"tall"		"21"	[disabled]
 				"weight"	"700"
@@ -1028,7 +1028,7 @@ Scheme // HIGHLY EXPERIMENTAL!!
 			}
 			"3"
 			{
-				"name"		"LEMON MILK Pro FTR"
+				"name"		"LEMON MILK Pro FTR Medium"
 				"tall"		"18"
 				"weight"	"900"
 				"antialias" 	"1"
@@ -1037,7 +1037,7 @@ Scheme // HIGHLY EXPERIMENTAL!!
 			}
 			"4"
 			{
-				"name"		"LEMON MILK Pro FTR"
+				"name"		"LEMON MILK Pro FTR Medium"
 				"tall"		"21"
 				"weight"	"900"
 				"antialias" 	"1"
@@ -1046,7 +1046,7 @@ Scheme // HIGHLY EXPERIMENTAL!!
 			}
 			"5"
 			{
-				"name"		"LEMON MILK Pro FTR"
+				"name"		"LEMON MILK Pro FTR Medium"
 				"tall"		"24"
 				"weight"	"1000"
 				"antialias" 	"1"
@@ -1058,7 +1058,7 @@ Scheme // HIGHLY EXPERIMENTAL!!
 		{
 			"1"	[$WIN32]
 			{
-				"name"		"LEMON MILK Pro FTR"
+				"name"		"LEMON MILK Pro FTR Medium"
 				"tall"		"14"
 				"weight"	"400"
 				"outline"	"1"
@@ -1066,7 +1066,7 @@ Scheme // HIGHLY EXPERIMENTAL!!
 			}
 			"1"	[disabled]
 			{
-				"name"		"LEMON MILK Pro FTR"
+				"name"		"LEMON MILK Pro FTR Medium"
 				"tall"		"18"
 				"weight"	"200"
 				"outline"	"1"
@@ -1099,7 +1099,7 @@ Scheme // HIGHLY EXPERIMENTAL!!
 		{
 			"1"
 			{
-				"name"		"LEMON MILK Pro FTR"
+				"name"		"LEMON MILK Pro FTR Medium"
 				"tall"		"90"
 				"weight"	"900"
 				"range"		"0x0000 0x007F"	//	Basic Latin
@@ -1131,7 +1131,7 @@ Scheme // HIGHLY EXPERIMENTAL!!
 		{
 			"1"
 			{
-				"name"		"LEMON MILK Pro FTR"
+				"name"		"LEMON MILK Pro FTR Medium"
 				"tall"		"24"
 				"tall_disabled"	"32"
 				"weight"	"500"
@@ -1142,7 +1142,7 @@ Scheme // HIGHLY EXPERIMENTAL!!
 		{
 			"1"
 			{
-				"name"		"LEMON MILK Pro FTR"
+				"name"		"LEMON MILK Pro FTR Medium"
 				"tall"		"24"
 				"tall_disabled"	"32"
 				"weight"	"500"
@@ -1154,7 +1154,7 @@ Scheme // HIGHLY EXPERIMENTAL!!
 		{
 			"1"
 			{
-				"name"		"LEMON MILK Pro FTR"
+				"name"		"LEMON MILK Pro FTR Medium"
 				"tall"		"24"
 				"tall_disabled"	"32"
 				"weight"	"900"
@@ -1165,7 +1165,7 @@ Scheme // HIGHLY EXPERIMENTAL!!
 		{
 			"1"
 			{
-				"name"		"LEMON MILK Pro FTR"
+				"name"		"LEMON MILK Pro FTR Medium"
 				"tall"		"24"
 				"tall_disabled"	"32"
 				"weight"	"900"
@@ -1177,7 +1177,7 @@ Scheme // HIGHLY EXPERIMENTAL!!
 		{
 			"1"
 			{
-				"name"		"LEMON MILK Pro FTR"
+				"name"		"LEMON MILK Pro FTR Medium"
 				"tall"		"16"
 				"tall_disabled"	"24"
 				"weight"	"900"
@@ -1212,7 +1212,7 @@ Scheme // HIGHLY EXPERIMENTAL!!
 		{
 			"1"
 			{
-				"name"		"LEMON MILK Pro FTR"
+				"name"		"LEMON MILK Pro FTR Medium"
 				"tall"		"24"
 				"antialias" "1"
 				"weight"	"500"
@@ -1222,7 +1222,7 @@ Scheme // HIGHLY EXPERIMENTAL!!
 		{
 			"1"
 			{
-				"name"		"LEMON MILK Pro FTR"
+				"name"		"LEMON MILK Pro FTR Medium"
 				"tall"		"11"
 				"tall_disabled"	"14"
 				"antialias" "1"
@@ -1233,7 +1233,7 @@ Scheme // HIGHLY EXPERIMENTAL!!
 		{
 			"1"
 			{
-				"name"		"LEMON MILK Pro FTR"
+				"name"		"LEMON MILK Pro FTR Medium"
 				"tall"		"12"
 				"antialias" "1"
 				"weight"	"500"
@@ -1244,7 +1244,7 @@ Scheme // HIGHLY EXPERIMENTAL!!
 		{
 			"1"
 			{
-				"name"		"LEMON MILK Pro FTR"
+				"name"		"LEMON MILK Pro FTR Medium"
 				"tall"		"13"
 				"tall_disabled"	"14"
 				"tall_disabled"	"17"
@@ -1288,7 +1288,7 @@ Scheme // HIGHLY EXPERIMENTAL!!
 		{
 			"1"
 			{
-				"name"		"LEMON MILK Pro FTR"
+				"name"		"LEMON MILK Pro FTR Medium"
 				"tall"		"24"
 				"tall_disabled"	"36"
 				"tall_disabled"	"36"
@@ -1315,7 +1315,7 @@ Scheme // HIGHLY EXPERIMENTAL!!
 		{
 			"1"
 			{
-				"name"		"LEMON MILK Pro FTR"
+				"name"		"LEMON MILK Pro FTR Medium"
 				"tall"		"6"
 				"weight"	"400"
 				"additive"	"0"
@@ -1326,7 +1326,7 @@ Scheme // HIGHLY EXPERIMENTAL!!
 		{
 			"1"
 			{
-				"name"		"LEMON MILK Pro FTR"
+				"name"		"LEMON MILK Pro FTR Medium"
 				"tall"		"8"
 				"tall_disabled"	"10"
 				"tall_disabled"	"14"
@@ -1339,7 +1339,7 @@ Scheme // HIGHLY EXPERIMENTAL!!
 		{
 			"1"
 			{
-				"name"		"LEMON MILK Pro FTR"
+				"name"		"LEMON MILK Pro FTR Medium"
 				"tall"		"10"
 				"tall_disabled"	"12"
 				"tall_disabled"	"14"
@@ -1352,7 +1352,7 @@ Scheme // HIGHLY EXPERIMENTAL!!
 		{
 			"1"
 			{
-				"name"		"LEMON MILK Pro FTR"
+				"name"		"LEMON MILK Pro FTR Medium"
 				"tall"		"14"
 				"weight"	"500"
 				"range"		"0x0000 0x007F"	//	Basic Latin
@@ -1364,7 +1364,7 @@ Scheme // HIGHLY EXPERIMENTAL!!
 		{
 			"1"
 			{
-				"name"		"LEMON MILK Pro FTR"
+				"name"		"LEMON MILK Pro FTR Medium"
 				"tall"		"20"
 				"weight"	"500"
 				"range"		"0x0000 0x007F"	//	Basic Latin
@@ -1376,7 +1376,7 @@ Scheme // HIGHLY EXPERIMENTAL!!
 		{
 			"1"
 			{
-				"name"		"LEMON MILK Pro FTR"
+				"name"		"LEMON MILK Pro FTR Medium"
 				"tall"		"20"
 				"tall_disabled"	"24"
 				"tall_disabled"	"24"
@@ -1390,7 +1390,7 @@ Scheme // HIGHLY EXPERIMENTAL!!
 		{
 			"1"
 			{
-				"name"		"LEMON MILK Pro FTR"
+				"name"		"LEMON MILK Pro FTR Medium"
 				"tall"		"14"
 				"weight"	"500"
 				"range"		"0x0000 0x007F"	//	Basic Latin
@@ -1402,7 +1402,7 @@ Scheme // HIGHLY EXPERIMENTAL!!
 		{
 			"1"
 			{
-				"name"		"LEMON MILK Pro FTR"
+				"name"		"LEMON MILK Pro FTR Medium"
 				"tall"		"20"
 				"weight"	"500"
 				"range"		"0x0000 0x007F"	//	Basic Latin
@@ -1414,7 +1414,7 @@ Scheme // HIGHLY EXPERIMENTAL!!
 		{
 			"1"
 			{
-				"name"		"LEMON MILK Pro FTR"
+				"name"		"LEMON MILK Pro FTR Medium"
 				"tall"		"34"
 				"tall_disabled"	"38"
 				"tall_disabled"	"38"
@@ -1429,7 +1429,7 @@ Scheme // HIGHLY EXPERIMENTAL!!
  		{
 			"1"
 			{
-				"name"		"LEMON MILK Pro FTR"
+				"name"		"LEMON MILK Pro FTR Medium"
 				"tall"		"36"
 				"tall_disabled"	"48"
 				"weight"	"500"
@@ -1441,7 +1441,7 @@ Scheme // HIGHLY EXPERIMENTAL!!
 		{
 			"1"
 			{
-				"name"		"LEMON MILK Pro FTR"
+				"name"		"LEMON MILK Pro FTR Medium"
 				"tall"		"52"
 				"tall_disabled"		"80"
 				"range" 	"0x0000 0x00FF"
@@ -1451,7 +1451,7 @@ Scheme // HIGHLY EXPERIMENTAL!!
 			}
 			"2"
 			{
-				"name"		"LEMON MILK Pro FTR"
+				"name"		"LEMON MILK Pro FTR Medium"
 				"tall"		"72"
 				"tall_disabled"	"120"
 				"range" 	"0x0000 0x00FF"
@@ -1461,7 +1461,7 @@ Scheme // HIGHLY EXPERIMENTAL!!
 			}
 			"3"
 			{
-				"name"		"LEMON MILK Pro FTR"
+				"name"		"LEMON MILK Pro FTR Medium"
 				"tall"		"100"
 				"range" 	"0x0000 0x00FF"
 				"weight"	"400"
@@ -1470,7 +1470,7 @@ Scheme // HIGHLY EXPERIMENTAL!!
 			}
 			"4"
 			{
-				"name"		"LEMON MILK Pro FTR"
+				"name"		"LEMON MILK Pro FTR Medium"
 				"tall"		"140"
 				"range" 	"0x0000 0x00FF"
 				"weight"	"400"
@@ -1479,7 +1479,7 @@ Scheme // HIGHLY EXPERIMENTAL!!
 			}
 			"5"
 			{
-				"name"		"LEMON MILK Pro FTR"
+				"name"		"LEMON MILK Pro FTR Medium"
 				"tall"		"180"
 				"range" 	"0x0000 0x00FF"
 				"weight"	"400"
@@ -1491,7 +1491,7 @@ Scheme // HIGHLY EXPERIMENTAL!!
 		{
 			"1"
 			{
-				"name"		"LEMON MILK Pro FTR"
+				"name"		"LEMON MILK Pro FTR Medium"
 				"tall"		"36"
 				"weight"	"500"
 				"range"		"0x0000 0x007F"	//	Basic Latin
@@ -1503,7 +1503,7 @@ Scheme // HIGHLY EXPERIMENTAL!!
 		{
 			"1"
 			{
-				"name"		"LEMON MILK Pro FTR"
+				"name"		"LEMON MILK Pro FTR Medium"
 				"tall"		"14"
 				"weight"	"400"
 				"additive"	"0"
@@ -1514,7 +1514,7 @@ Scheme // HIGHLY EXPERIMENTAL!!
 		{
 			"1"
 			{
-				"name"		"LEMON MILK Pro FTR"
+				"name"		"LEMON MILK Pro FTR Medium"
 				"tall"		"20"
 				"weight"	"400"
 				"additive"	"0"
@@ -1525,7 +1525,7 @@ Scheme // HIGHLY EXPERIMENTAL!!
 		{
 			"1"
 			{
-				"name"		"LEMON MILK Pro FTR"
+				"name"		"LEMON MILK Pro FTR Medium"
 				"tall"		"14"
 				"weight"	"400"
 				"additive"	"0"
@@ -1536,7 +1536,7 @@ Scheme // HIGHLY EXPERIMENTAL!!
 		{
 			"1"
 			{
-				"name"		"LEMON MILK Pro FTR"
+				"name"		"LEMON MILK Pro FTR Medium"
 				"tall"		"10"
 				"weight"	"400"
 				"additive"	"0"
@@ -1547,7 +1547,7 @@ Scheme // HIGHLY EXPERIMENTAL!!
 		{
 			"1"
 			{
-				"name"		"LEMON MILK Pro FTR"
+				"name"		"LEMON MILK Pro FTR Medium"
 				"tall"		"7"
 				"weight"	"400"
 				"additive"	"0"
@@ -1559,7 +1559,7 @@ Scheme // HIGHLY EXPERIMENTAL!!
 		{
 			"1"
 			{
-				"name"		"LEMON MILK Pro FTR"
+				"name"		"LEMON MILK Pro FTR Medium"
 				"tall"		"10"
 				"tall_disabled"	"12"
 				"tall_disabled"	"14"
@@ -1573,7 +1573,7 @@ Scheme // HIGHLY EXPERIMENTAL!!
 		{
 			"1"
 			{
-				"name"		"LEMON MILK Pro FTR"
+				"name"		"LEMON MILK Pro FTR Medium"
 				"tall"		"12"
 				"weight"	"700"
 				"yres"		"480 599"
@@ -1581,7 +1581,7 @@ Scheme // HIGHLY EXPERIMENTAL!!
 			}
 			"2"
 			{
-				"name"		"LEMON MILK Pro FTR"
+				"name"		"LEMON MILK Pro FTR Medium"
 				"tall"		"13"
 				"weight"	"700"
 				"yres"		"600 767"
@@ -1589,7 +1589,7 @@ Scheme // HIGHLY EXPERIMENTAL!!
 			}
 			"3"
 			{
-				"name"		"LEMON MILK Pro FTR"
+				"name"		"LEMON MILK Pro FTR Medium"
 				"tall"		"14"
 				"weight"	"700"
 				"yres"		"768 1023"
@@ -1597,7 +1597,7 @@ Scheme // HIGHLY EXPERIMENTAL!!
 			}
 			"4"
 			{
-				"name"		"LEMON MILK Pro FTR"
+				"name"		"LEMON MILK Pro FTR Medium"
 				"tall"		"20"
 				"weight"	"700"
 				"yres"		"1024 1199"
@@ -1605,7 +1605,7 @@ Scheme // HIGHLY EXPERIMENTAL!!
 			}
 			"5"
 			{
-				"name"		"LEMON MILK Pro FTR"
+				"name"		"LEMON MILK Pro FTR Medium"
 				"tall"		"24"
 				"weight"	"700"
 				"yres"		"1200 10000"
@@ -1616,7 +1616,7 @@ Scheme // HIGHLY EXPERIMENTAL!!
 		{
 			"1"
 			{
-				"name"		"LEMON MILK Pro FTR"
+				"name"		"LEMON MILK Pro FTR Medium"
 				"tall"		"12"
 				"weight"	"700"
 				"yres"		"480 599"
@@ -1624,7 +1624,7 @@ Scheme // HIGHLY EXPERIMENTAL!!
 			}
 			"2"
 			{
-				"name"		"LEMON MILK Pro FTR"
+				"name"		"LEMON MILK Pro FTR Medium"
 				"tall"		"13"
 				"weight"	"700"
 				"yres"		"600 767"
@@ -1632,7 +1632,7 @@ Scheme // HIGHLY EXPERIMENTAL!!
 			}
 			"3"
 			{
-				"name"		"LEMON MILK Pro FTR"
+				"name"		"LEMON MILK Pro FTR Medium"
 				"tall"		"14"
 				"weight"	"700"
 				"yres"		"768 1023"
@@ -1640,7 +1640,7 @@ Scheme // HIGHLY EXPERIMENTAL!!
 			}
 			"4"
 			{
-				"name"		"LEMON MILK Pro FTR"
+				"name"		"LEMON MILK Pro FTR Medium"
 				"tall"		"20"
 				"weight"	"700"
 				"yres"		"1024 1199"
@@ -1648,7 +1648,7 @@ Scheme // HIGHLY EXPERIMENTAL!!
 			}
 			"5"
 			{
-				"name"		"LEMON MILK Pro FTR"
+				"name"		"LEMON MILK Pro FTR Medium"
 				"tall"		"24"
 				"weight"	"700"
 				"yres"		"1200 10000"
@@ -1659,7 +1659,7 @@ Scheme // HIGHLY EXPERIMENTAL!!
 		{
 			"1"
 			{
-				"name"		"LEMON MILK Pro FTR"
+				"name"		"LEMON MILK Pro FTR Medium"
 				"tall"		"10"
 				"weight"	"700"
 				"yres"		"480 599"
@@ -1667,7 +1667,7 @@ Scheme // HIGHLY EXPERIMENTAL!!
 			}
 			"2"
 			{
-				"name"		"LEMON MILK Pro FTR"
+				"name"		"LEMON MILK Pro FTR Medium"
 				"tall"		"10"
 				"weight"	"700"
 				"yres"		"600 767"
@@ -1675,7 +1675,7 @@ Scheme // HIGHLY EXPERIMENTAL!!
 			}
 			"3"
 			{
-				"name"		"LEMON MILK Pro FTR"
+				"name"		"LEMON MILK Pro FTR Medium"
 				"tall"		"13"
 				"weight"	"700"
 				"yres"		"768 1023"
@@ -1683,7 +1683,7 @@ Scheme // HIGHLY EXPERIMENTAL!!
 			}
 			"4"
 			{
-				"name"		"LEMON MILK Pro FTR"
+				"name"		"LEMON MILK Pro FTR Medium"
 				"tall"		"14"
 				"weight"	"700"
 				"yres"		"1024 1199"
@@ -1691,7 +1691,7 @@ Scheme // HIGHLY EXPERIMENTAL!!
 			}
 			"5"
 			{
-				"name"		"LEMON MILK Pro FTR"
+				"name"		"LEMON MILK Pro FTR Medium"
 				"tall"		"15"
 				"weight"	"700"
 				"yres"		"1200 10000"
@@ -1716,7 +1716,7 @@ Scheme // HIGHLY EXPERIMENTAL!!
 		{
 			"1"
 			{
-				"name"		"LEMON MILK Pro FTR"
+				"name"		"LEMON MILK Pro FTR Medium"
 				"tall"		"14"
 				"tall_disabled"	"18"
 				"range" 		"0x0000 0x00FF"
@@ -1729,7 +1729,7 @@ Scheme // HIGHLY EXPERIMENTAL!!
 		{
 			"1"
 			{
-				"name"		"LEMON MILK Pro FTR"
+				"name"		"LEMON MILK Pro FTR Medium"
 				"tall"		"12"
 				"weight"	"500"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -1741,7 +1741,7 @@ Scheme // HIGHLY EXPERIMENTAL!!
 		{
 			"1"
 			{
-				"name"		"LEMON MILK Pro FTR"
+				"name"		"LEMON MILK Pro FTR Medium"
 				"tall"		"8"
 				"weight"	"500"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -1754,7 +1754,7 @@ Scheme // HIGHLY EXPERIMENTAL!!
 		{
 			"1"
 			{
-				"name"		"LEMON MILK Pro FTR"
+				"name"		"LEMON MILK Pro FTR Medium"
 				"tall"		"8"
 				"tall_disabled"	"10"
 				"tall_disabled"	"12"
@@ -1767,7 +1767,7 @@ Scheme // HIGHLY EXPERIMENTAL!!
 		{
 			"1"
 			{
-				"name"		"LEMON MILK Pro FTR"
+				"name"		"LEMON MILK Pro FTR Medium"
 				"tall"		"9"
 				"tall_disabled"	"10"
 				"tall_disabled"	"16"
@@ -1781,7 +1781,7 @@ Scheme // HIGHLY EXPERIMENTAL!!
 		{
 			"1"
 			{
-				"name"		"LEMON MILK Pro FTR"
+				"name"		"LEMON MILK Pro FTR Medium"
 				"tall"		"11"  [!$OSX]
 				"tall"		"9"  [disabled]
 				"weight"	"800"
@@ -1794,7 +1794,7 @@ Scheme // HIGHLY EXPERIMENTAL!!
 		{
 			"1"
 			{
-				"name"		"LEMON MILK Pro FTR"
+				"name"		"LEMON MILK Pro FTR Medium"
 				"tall"		"36"
 				"tall_disabled"		"28"
 				"weight"	"500"
@@ -1804,7 +1804,7 @@ Scheme // HIGHLY EXPERIMENTAL!!
 		{
 			"1"
 			{
-				"name"		"LEMON MILK Pro FTR"
+				"name"		"LEMON MILK Pro FTR Medium"
 				"tall"		"30"
 				"tall_disabled"		"22"
 				"weight"	"500"
@@ -1814,7 +1814,7 @@ Scheme // HIGHLY EXPERIMENTAL!!
 		{
 			"1"
 			{
-				"name"		"LEMON MILK Pro FTR"
+				"name"		"LEMON MILK Pro FTR Medium"
 				"tall"		"28"
 				"tall_disabled"	"24"
 				"weight"	"500"
@@ -1824,7 +1824,7 @@ Scheme // HIGHLY EXPERIMENTAL!!
 		{
 			"1"			// brower item hostname
 			{
-				"name"		"LEMON MILK Pro FTR"
+				"name"		"LEMON MILK Pro FTR Medium"
 				"tall"		"22"
 				"weight"	"900"
 			}
@@ -1833,7 +1833,7 @@ Scheme // HIGHLY EXPERIMENTAL!!
 		{
 			"1"			// browser item players and map name
 			{
-				"name"		"LEMON MILK Pro FTR"
+				"name"		"LEMON MILK Pro FTR Medium"
 				"tall"		"18"
 				"weight"	"900"
 			}
@@ -1842,7 +1842,7 @@ Scheme // HIGHLY EXPERIMENTAL!!
 		{
 			"1"
 			{
-				"name"		"LEMON MILK Pro FTR"
+				"name"		"LEMON MILK Pro FTR Medium"
 				"tall"		"22"
 				"weight"	"500"
 			}
@@ -1851,7 +1851,7 @@ Scheme // HIGHLY EXPERIMENTAL!!
 		{
 			"1"
 			{
-				"name"		"LEMON MILK Pro FTR"
+				"name"		"LEMON MILK Pro FTR Medium"
 				"tall"		"18"
 				"weight"	"500"
 			}
@@ -1860,7 +1860,7 @@ Scheme // HIGHLY EXPERIMENTAL!!
 		{
 			"1"
 			{
-				"name"		"LEMON MILK Pro FTR"
+				"name"		"LEMON MILK Pro FTR Medium"
 				"tall"		"22"
 				"tall_disabled"		"18"
 				"weight"	"900"
@@ -1870,7 +1870,7 @@ Scheme // HIGHLY EXPERIMENTAL!!
 		{
 			"1"
 			{
-				"name"		"LEMON MILK Pro FTR"
+				"name"		"LEMON MILK Pro FTR Medium"
 				"tall"		"18"
 				"tall_disabled"		"18"
 				"weight"	"900"
@@ -1880,7 +1880,7 @@ Scheme // HIGHLY EXPERIMENTAL!!
 		{
 			"1"
 			{
-				"name"		"LEMON MILK Pro FTR"
+				"name"		"LEMON MILK Pro FTR Medium"
 				"tall"		"15"
 				"weight"	"900"
 			}
@@ -1890,7 +1890,7 @@ Scheme // HIGHLY EXPERIMENTAL!!
 		{
 			"1"
 			{
-				"name"		"LEMON MILK Pro FTR"
+				"name"		"LEMON MILK Pro FTR Medium"
 				"tall"		"36"
 				"weight"	"500"
 				"additive"	"0"
@@ -1901,7 +1901,7 @@ Scheme // HIGHLY EXPERIMENTAL!!
 		{
 			"1"
 			{
-				"name"		"LEMON MILK Pro FTR"
+				"name"		"LEMON MILK Pro FTR Medium"
 				"tall"		"11"
 				"weight"	"600"
 				"additive"	"0"
@@ -1912,7 +1912,7 @@ Scheme // HIGHLY EXPERIMENTAL!!
 		{
 			"1"
 			{
-				"name"		"LEMON MILK Pro FTR"
+				"name"		"LEMON MILK Pro FTR Medium"
 				"tall"		"18"
 				"weight"	"400"
 				"additive"	"0"
@@ -1923,7 +1923,7 @@ Scheme // HIGHLY EXPERIMENTAL!!
 		{
 			"1"
 			{
-				"name"		"LEMON MILK Pro FTR"
+				"name"		"LEMON MILK Pro FTR Medium"
 				"tall"		"14"
 				"weight"	"900"
 				"antialias" "1"
@@ -1933,7 +1933,7 @@ Scheme // HIGHLY EXPERIMENTAL!!
 		{
 			"1"
 			{
-				"name"		"LEMON MILK Pro FTR"
+				"name"		"LEMON MILK Pro FTR Medium"
 				"tall"		"10"
 				"weight"	"600"
 				"additive"	"0"
@@ -1944,7 +1944,7 @@ Scheme // HIGHLY EXPERIMENTAL!!
 		{
 			"1"
 			{
-				"name"		"LEMON MILK Pro FTR"
+				"name"		"LEMON MILK Pro FTR Medium"
 				"tall"		"10"
 				"weight"	"500"
 				"additive"	"0"
@@ -1955,7 +1955,7 @@ Scheme // HIGHLY EXPERIMENTAL!!
 		{
 			"1"
 			{
-				"name"		"LEMON MILK Pro FTR"
+				"name"		"LEMON MILK Pro FTR Medium"
 				"tall"		"7"
 				"weight"	"400"
 				"additive"	"0"
@@ -1967,7 +1967,7 @@ Scheme // HIGHLY EXPERIMENTAL!!
 		{
 			"1"
 			{
-				"name"		"LEMON MILK Pro FTR"
+				"name"		"LEMON MILK Pro FTR Medium"
 				"tall"		"10"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -1976,7 +1976,7 @@ Scheme // HIGHLY EXPERIMENTAL!!
 			}
 			"2"
 			{
-				"name"		"LEMON MILK Pro FTR"
+				"name"		"LEMON MILK Pro FTR Medium"
 				"tall"		"12"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -1985,7 +1985,7 @@ Scheme // HIGHLY EXPERIMENTAL!!
 			}
 			"3"
 			{
-				"name"		"LEMON MILK Pro FTR"
+				"name"		"LEMON MILK Pro FTR Medium"
 				"tall"		"15"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -1998,7 +1998,7 @@ Scheme // HIGHLY EXPERIMENTAL!!
 		{
 			"1"
 			{
-				"name"		"LEMON MILK Pro FTR"
+				"name"		"LEMON MILK Pro FTR Medium"
 				"tall"		"8"
 				"weight"	"500"
 				"additive"	"0"
@@ -2009,7 +2009,7 @@ Scheme // HIGHLY EXPERIMENTAL!!
 		{
 			"1"
 			{
-				"name"		"LEMON MILK Pro FTR"
+				"name"		"LEMON MILK Pro FTR Medium"
 				"tall"		"9"
 				"weight"	"500"
 				"additive"	"0"
@@ -2020,7 +2020,7 @@ Scheme // HIGHLY EXPERIMENTAL!!
 		{
 			"1"
 			{
-				"name"		"LEMON MILK Pro FTR"
+				"name"		"LEMON MILK Pro FTR Medium"
 				"tall"		"12"
 				"weight"	"500"
 				"additive"	"0"
@@ -2031,7 +2031,7 @@ Scheme // HIGHLY EXPERIMENTAL!!
 		{
 			"1"
 			{
-				"name"		"LEMON MILK Pro FTR"
+				"name"		"LEMON MILK Pro FTR Medium"
 				"tall"		"18"
 				"weight"	"500"
 				"additive"	"0"
@@ -2042,7 +2042,7 @@ Scheme // HIGHLY EXPERIMENTAL!!
 		{
 			"1"
 			{
-				"name"		"LEMON MILK Pro FTR"
+				"name"		"LEMON MILK Pro FTR Medium"
 				"tall"		"7"
 				"weight"	"500"
 				"additive"	"0"
@@ -2053,7 +2053,7 @@ Scheme // HIGHLY EXPERIMENTAL!!
 		{
 			"1"
 			{
-				"name"		"LEMON MILK Pro FTR"
+				"name"		"LEMON MILK Pro FTR Medium"
 				"tall"		"8"
 				"antialias" "1"
 				"weight"	"500"
@@ -2063,7 +2063,7 @@ Scheme // HIGHLY EXPERIMENTAL!!
 		{
 			"1"
 			{
-				"name"		"LEMON MILK Pro FTR"
+				"name"		"LEMON MILK Pro FTR Medium"
 				"tall"		"8"
 				"weight"	"500"
 				"additive"	"0"
@@ -2074,7 +2074,7 @@ Scheme // HIGHLY EXPERIMENTAL!!
 		{
 			"1"
 			{
-				"name"		"LEMON MILK Pro FTR"
+				"name"		"LEMON MILK Pro FTR Medium"
 				"tall"		"11"
 				"weight"	"500"
 				"additive"	"0"
@@ -2085,7 +2085,7 @@ Scheme // HIGHLY EXPERIMENTAL!!
 		{
 			"1"
 			{
-				"name"		"LEMON MILK Pro FTR"
+				"name"		"LEMON MILK Pro FTR Medium"
 				"tall"		"14"
 				"weight"	"500"
 				"additive"	"0"
@@ -2097,7 +2097,7 @@ Scheme // HIGHLY EXPERIMENTAL!!
 		{
 			"1"
 			{
-				"name"		"LEMON MILK Pro FTR"
+				"name"		"LEMON MILK Pro FTR Medium"
 				"tall"		"9"
 				"weight"	"500"
 				"additive"	"0"
@@ -2108,7 +2108,7 @@ Scheme // HIGHLY EXPERIMENTAL!!
 		{
 			"1"
 			{
-				"name"		"LEMON MILK Pro FTR"
+				"name"		"LEMON MILK Pro FTR Medium"
 				"tall"		"9"
 				"weight"	"500"
 				"blur"		"3"
@@ -2120,7 +2120,7 @@ Scheme // HIGHLY EXPERIMENTAL!!
 		{
 			"1"
 			{
-				"name"		"LEMON MILK Pro FTR"
+				"name"		"LEMON MILK Pro FTR Medium"
 				"tall"		"7"
 				"weight"	"0"
 				"additive"	"1"
@@ -2131,7 +2131,7 @@ Scheme // HIGHLY EXPERIMENTAL!!
 		{
 			"1"
 			{
-				"name"		"LEMON MILK Pro FTR"
+				"name"		"LEMON MILK Pro FTR Medium"
 				"tall"		"7"
 				"weight"	"0"
 				"additive"	"1"
@@ -2142,7 +2142,7 @@ Scheme // HIGHLY EXPERIMENTAL!!
 		{
 			"1"
 			{
-				"name"		"LEMON MILK Pro FTR"
+				"name"		"LEMON MILK Pro FTR Medium"
 				"tall"		"7"
 				"weight"	"0"
 				"antialias" 	"1"
@@ -2152,7 +2152,7 @@ Scheme // HIGHLY EXPERIMENTAL!!
 		{
 			"1"
 			{
-				"name"		"LEMON MILK Pro FTR"
+				"name"		"LEMON MILK Pro FTR Medium"
 				"tall"		"7"
 				"weight"	"0"
 				"blur"		"3"
@@ -2164,7 +2164,7 @@ Scheme // HIGHLY EXPERIMENTAL!!
 		{
 			"1"
 			{
-				"name"		"LEMON MILK Pro FTR"
+				"name"		"LEMON MILK Pro FTR Medium"
 				"tall"		"7"
 				"weight"	"0"
 				"antialias" 	"1"
@@ -2175,7 +2175,7 @@ Scheme // HIGHLY EXPERIMENTAL!!
 		{
 			"1"
 			{
-				"name"		"LEMON MILK Pro FTR"
+				"name"		"LEMON MILK Pro FTR Medium"
 				"tall"		"10"
 				"weight"	"400"
 				"yres"		"480 599"
@@ -2184,7 +2184,7 @@ Scheme // HIGHLY EXPERIMENTAL!!
 			}
 			"2"
 			{
-				"name"		"LEMON MILK Pro FTR"
+				"name"		"LEMON MILK Pro FTR Medium"
 				"tall"		"14"
 				"weight"	"400"
 				"additive"	"0"
@@ -2193,7 +2193,7 @@ Scheme // HIGHLY EXPERIMENTAL!!
 			}
 			"3"
 			{
-				"name"		"LEMON MILK Pro FTR"
+				"name"		"LEMON MILK Pro FTR Medium"
 				"tall"		"18"
 				"weight"	"400"
 				"additive"	"0"
@@ -2206,7 +2206,7 @@ Scheme // HIGHLY EXPERIMENTAL!!
 		{
 			"1"
 			{
-				"name"		"LEMON MILK Pro FTR"
+				"name"		"LEMON MILK Pro FTR Medium"
 				"tall"		"10"
 				"weight"	"800"
 				"yres"		"480 599"
@@ -2215,7 +2215,7 @@ Scheme // HIGHLY EXPERIMENTAL!!
 			}
 			"2"
 			{
-				"name"		"LEMON MILK Pro FTR"
+				"name"		"LEMON MILK Pro FTR Medium"
 				"tall"		"14"
 				"weight"	"800"
 				"additive"	"0"
@@ -2224,7 +2224,7 @@ Scheme // HIGHLY EXPERIMENTAL!!
 			}
 			"3"
 			{
-				"name"		"LEMON MILK Pro FTR"
+				"name"		"LEMON MILK Pro FTR Medium"
 				"tall"		"18"
 				"weight"	"800"
 				"additive"	"0"
@@ -2237,7 +2237,7 @@ Scheme // HIGHLY EXPERIMENTAL!!
 		{
 			"1"
 			{
-				"name"		"LEMON MILK Pro FTR"
+				"name"		"LEMON MILK Pro FTR Medium"
 				"tall"		"16"
 				"weight"	"400"
 				"additive"	"0"
@@ -2249,7 +2249,7 @@ Scheme // HIGHLY EXPERIMENTAL!!
 		{
 			"1"
 			{
-				"name"		"LEMON MILK Pro FTR"
+				"name"		"LEMON MILK Pro FTR Medium"
 				"tall"		"20"
 				"antialias" "1"
 				"custom"		"1" [disabled]
@@ -2261,7 +2261,7 @@ Scheme // HIGHLY EXPERIMENTAL!!
 		{
 			"1"
 			{
-				"name"		"LEMON MILK Pro FTR"
+				"name"		"LEMON MILK Pro FTR Medium"
 				"tall"		"10"
 				"weight"	"400"
 				"yres"		"480 599"
@@ -2270,7 +2270,7 @@ Scheme // HIGHLY EXPERIMENTAL!!
 			}
 			"2"
 			{
-				"name"		"LEMON MILK Pro FTR"
+				"name"		"LEMON MILK Pro FTR Medium"
 				"tall"		"14"
 				"weight"	"400"
 				"additive"	"0"
@@ -2279,7 +2279,7 @@ Scheme // HIGHLY EXPERIMENTAL!!
 			}
 			"3"
 			{
-				"name"		"LEMON MILK Pro FTR"
+				"name"		"LEMON MILK Pro FTR Medium"
 				"tall"		"22"
 				"weight"	"400"
 				"additive"	"0"
@@ -2292,7 +2292,7 @@ Scheme // HIGHLY EXPERIMENTAL!!
 		{
 			"1"
 			{
-				"name"		"LEMON MILK Pro FTR"
+				"name"		"LEMON MILK Pro FTR Medium"
 				"tall"		"10"
 				"weight"	"400"
 				"yres"		"480 599"
@@ -2302,7 +2302,7 @@ Scheme // HIGHLY EXPERIMENTAL!!
 			}
 			"2"
 			{
-				"name"		"LEMON MILK Pro FTR"
+				"name"		"LEMON MILK Pro FTR Medium"
 				"tall"		"14"
 				"weight"	"400"
 				"additive"	"0"
@@ -2312,7 +2312,7 @@ Scheme // HIGHLY EXPERIMENTAL!!
 			}
 			"3"
 			{
-				"name"		"LEMON MILK Pro FTR"
+				"name"		"LEMON MILK Pro FTR Medium"
 				"tall"		"22"
 				"weight"	"400"
 				"additive"	"0"
@@ -2326,7 +2326,7 @@ Scheme // HIGHLY EXPERIMENTAL!!
 		{
 			"1"
 			{
-				"name"		"LEMON MILK Pro FTR"
+				"name"		"LEMON MILK Pro FTR Medium"
 				"tall"		"10"
 				"weight"	"800"
 				"yres"		"480 599"
@@ -2335,7 +2335,7 @@ Scheme // HIGHLY EXPERIMENTAL!!
 			}
 			"2"
 			{
-				"name"		"LEMON MILK Pro FTR"
+				"name"		"LEMON MILK Pro FTR Medium"
 				"tall"		"14"
 				"weight"	"800"
 				"additive"	"0"
@@ -2344,7 +2344,7 @@ Scheme // HIGHLY EXPERIMENTAL!!
 			}
 			"3"
 			{
-				"name"		"LEMON MILK Pro FTR"
+				"name"		"LEMON MILK Pro FTR Medium"
 				"tall"		"18"
 				"weight"	"800"
 				"additive"	"0"
@@ -2357,7 +2357,7 @@ Scheme // HIGHLY EXPERIMENTAL!!
 		{
 			"1"
 			{
-				"name"		"LEMON MILK Pro FTR"
+				"name"		"LEMON MILK Pro FTR Medium"
 				"tall"		"13"
 				"weight"	"400"
 				"additive"	"0"
@@ -2369,7 +2369,7 @@ Scheme // HIGHLY EXPERIMENTAL!!
 		{
 			"1"
 			{
-				"name"		"LEMON MILK Pro FTR"
+				"name"		"LEMON MILK Pro FTR Medium"
 				"tall"		"16"
 				"weight"	"400"
 				"additive"	"0"
@@ -2381,7 +2381,7 @@ Scheme // HIGHLY EXPERIMENTAL!!
 		{
 			"1"
 			{
-				"name"		"LEMON MILK Pro FTR"
+				"name"		"LEMON MILK Pro FTR Medium"
 				"tall"		"10"
 				"weight"	"400"
 				"additive"	"0"
@@ -2393,7 +2393,7 @@ Scheme // HIGHLY EXPERIMENTAL!!
 		{
 			"1"
 			{
-				"name"		"LEMON MILK Pro FTR"
+				"name"		"LEMON MILK Pro FTR Medium"
 				"tall"		"8"
 				"weight"	"400"
 				"additive"	"0"
@@ -2404,7 +2404,7 @@ Scheme // HIGHLY EXPERIMENTAL!!
 		{
 			"1"
 			{
-				"name"		"LEMON MILK Pro FTR"
+				"name"		"LEMON MILK Pro FTR Medium"
 				"tall"		"8"
 				"weight"	"0"
 				"antialias" 	"1"
@@ -2415,7 +2415,7 @@ Scheme // HIGHLY EXPERIMENTAL!!
 		{
 			"1"
 			{
-				"name"		"LEMON MILK Pro FTR"
+				"name"		"LEMON MILK Pro FTR Medium"
 				"tall"		"8"
 				"weight"	"400"
 				"antialias" "1"
@@ -2427,7 +2427,7 @@ Scheme // HIGHLY EXPERIMENTAL!!
 		{
 			"1"
 			{
-				"name"		"LEMON MILK Pro FTR"
+				"name"		"LEMON MILK Pro FTR Medium"
 				"tall"		"9"
 				"weight"	"400"
 				"antialias" "1"
@@ -2443,7 +2443,7 @@ Scheme // HIGHLY EXPERIMENTAL!!
 		{
 			"1"
 			{
-				"name"		"LEMON MILK Pro FTR"
+				"name"		"LEMON MILK Pro FTR Medium"
 				"tall"		"12"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -2451,7 +2451,7 @@ Scheme // HIGHLY EXPERIMENTAL!!
 			}
 			"2"
 			{
-				"name"		"LEMON MILK Pro FTR"
+				"name"		"LEMON MILK Pro FTR Medium"
 				"tall"		"12"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -2459,7 +2459,7 @@ Scheme // HIGHLY EXPERIMENTAL!!
 			}
 			"3"
 			{
-				"name"		"LEMON MILK Pro FTR"
+				"name"		"LEMON MILK Pro FTR Medium"
 				"tall"		"12"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -2468,7 +2468,7 @@ Scheme // HIGHLY EXPERIMENTAL!!
 			}
 			"4"
 			{
-				"name"		"LEMON MILK Pro FTR"
+				"name"		"LEMON MILK Pro FTR Medium"
 				"tall"		"14"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -2477,7 +2477,7 @@ Scheme // HIGHLY EXPERIMENTAL!!
 			}
 			"5"
 			{
-				"name"		"LEMON MILK Pro FTR"
+				"name"		"LEMON MILK Pro FTR Medium"
 				"tall"		"16"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -2489,7 +2489,7 @@ Scheme // HIGHLY EXPERIMENTAL!!
 		{
 			"1"
 			{
-				"name"		"LEMON MILK Pro FTR"
+				"name"		"LEMON MILK Pro FTR Medium"
 				"tall"		"11"
 				"weight"	"500"
 				"additive"	"0"
@@ -2500,7 +2500,7 @@ Scheme // HIGHLY EXPERIMENTAL!!
 		{
 			"1"
 			{
-				"name"		"LEMON MILK Pro FTR"
+				"name"		"LEMON MILK Pro FTR Medium"
 				"tall"		"12"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
@@ -2508,7 +2508,7 @@ Scheme // HIGHLY EXPERIMENTAL!!
 			}
 			"2"
 			{
-				"name"		"LEMON MILK Pro FTR"
+				"name"		"LEMON MILK Pro FTR Medium"
 				"tall"		"13"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
@@ -2516,7 +2516,7 @@ Scheme // HIGHLY EXPERIMENTAL!!
 			}
 			"3"
 			{
-				"name"		"LEMON MILK Pro FTR"
+				"name"		"LEMON MILK Pro FTR Medium"
 				"tall"		"14"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
@@ -2525,7 +2525,7 @@ Scheme // HIGHLY EXPERIMENTAL!!
 			}
 			"4"
 			{
-				"name"		"LEMON MILK Pro FTR"
+				"name"		"LEMON MILK Pro FTR Medium"
 				"tall"		"20"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
@@ -2534,7 +2534,7 @@ Scheme // HIGHLY EXPERIMENTAL!!
 			}
 			"5"
 			{
-				"name"		"LEMON MILK Pro FTR"
+				"name"		"LEMON MILK Pro FTR Medium"
 				"tall"		"22"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
@@ -2543,7 +2543,7 @@ Scheme // HIGHLY EXPERIMENTAL!!
 			}
 			"6"
 			{
-				"name"		"LEMON MILK Pro FTR"
+				"name"		"LEMON MILK Pro FTR Medium"
 				"tall"		"12"
 				"range" 		"0x0000 0x00FF"
 				"weight"		"0"
@@ -2553,7 +2553,7 @@ Scheme // HIGHLY EXPERIMENTAL!!
 		{
 			"1"
 			{
-				"name"		"LEMON MILK Pro FTR"
+				"name"		"LEMON MILK Pro FTR Medium"
 				"tall"		"11"
 				"weight"	"500"
 				"additive"	"0"
@@ -2564,7 +2564,7 @@ Scheme // HIGHLY EXPERIMENTAL!!
 		{
 			"1"
 			{
-				"name"		"LEMON MILK Pro FTR"
+				"name"		"LEMON MILK Pro FTR Medium"
 				"tall"		"14"
 				"weight"	"500"
 				"additive"	"0"
@@ -2575,7 +2575,7 @@ Scheme // HIGHLY EXPERIMENTAL!!
 		{
 			"1"
 			{
-				"name"		"LEMON MILK Pro FTR"
+				"name"		"LEMON MILK Pro FTR Medium"
 				"tall"		"18"
 				"tall_disabled"	"24"
 				"tall_disabled"	"18"
@@ -2588,7 +2588,7 @@ Scheme // HIGHLY EXPERIMENTAL!!
 		{
 			"1"
 			{
-				"name"		"LEMON MILK Pro FTR"
+				"name"		"LEMON MILK Pro FTR Medium"
 				"tall"		"24"
 				"weight"	"500"
 				"additive"	"0"
@@ -2599,7 +2599,7 @@ Scheme // HIGHLY EXPERIMENTAL!!
 		{
 			"1"
 			{
-				"name"		"LEMON MILK Pro FTR"
+				"name"		"LEMON MILK Pro FTR Medium"
 				"tall"		"18"
 				"tall_disabled"	"24"
 				"tall_disabled"	"20"
@@ -2616,7 +2616,7 @@ Scheme // HIGHLY EXPERIMENTAL!!
 		{
 			"1"
 			{
-				"name"		"LEMON MILK Pro FTR"
+				"name"		"LEMON MILK Pro FTR Medium"
 				"tall"		"14"
 				"weight"	"500"
 				"additive"	"0"
@@ -2627,7 +2627,7 @@ Scheme // HIGHLY EXPERIMENTAL!!
 		{
 			"1"
 			{
-				"name"		"LEMON MILK Pro FTR"
+				"name"		"LEMON MILK Pro FTR Medium"
 				"tall"		"24"
 				"weight"	"500"
 				"additive"	"0"
@@ -2639,7 +2639,7 @@ Scheme // HIGHLY EXPERIMENTAL!!
 		{
 			"1"
 			{
-				"name"		"LEMON MILK Pro FTR"
+				"name"		"LEMON MILK Pro FTR Medium"
 				"tall"		"15"
 				"weight"	"500"
 				"range"		"0x0000 0x007F"	//	Basic Latin
@@ -2652,7 +2652,7 @@ Scheme // HIGHLY EXPERIMENTAL!!
 		{
 			"1"
 			{
-				"name"		"LEMON MILK Pro FTR"
+				"name"		"LEMON MILK Pro FTR Medium"
 				"tall"		"9"
 				"weight"	"400"
 				"additive"	"0"
@@ -2664,7 +2664,7 @@ Scheme // HIGHLY EXPERIMENTAL!!
 		{
 			"1"
 			{
-				"name"		"LEMON MILK Pro FTR"
+				"name"		"LEMON MILK Pro FTR Medium"
 				"tall"		"11"
 				"weight"	"500"
 				"antialias" 	"1"
@@ -2675,7 +2675,7 @@ Scheme // HIGHLY EXPERIMENTAL!!
 		{
 			"1"
 			{
-				"name"		"LEMON MILK Pro FTR"
+				"name"		"LEMON MILK Pro FTR Medium"
 				"tall"		"11"
 				"weight"	"500"
 				"blur"		"3"
@@ -2688,7 +2688,7 @@ Scheme // HIGHLY EXPERIMENTAL!!
 		{
 			"1"
 			{
-				"name"		"LEMON MILK Pro FTR"
+				"name"		"LEMON MILK Pro FTR Medium"
 				"tall"		"12"
 				"weight"	"500"
 				"additive"	"0"
@@ -2701,7 +2701,7 @@ Scheme // HIGHLY EXPERIMENTAL!!
 		{
 			"1"
 			{
-				"name"		"LEMON MILK Pro FTR"
+				"name"		"LEMON MILK Pro FTR Medium"
 				"tall"		"7"
 				"weight"	"0"
 				"blur"		"3"
@@ -2714,7 +2714,7 @@ Scheme // HIGHLY EXPERIMENTAL!!
 		{
 			"1"
 			{
-				"name"		"LEMON MILK Pro FTR"
+				"name"		"LEMON MILK Pro FTR Medium"
 				"tall"		"7"
 				"weight"	"400"
 				"additive"	"0"
@@ -2726,7 +2726,7 @@ Scheme // HIGHLY EXPERIMENTAL!!
 		{
 			"1"
 			{
-				"name"		"LEMON MILK Pro FTR"
+				"name"		"LEMON MILK Pro FTR Medium"
 				"tall"		"10"
 				"weight"	"400"
 				"additive"	"0"
@@ -2738,7 +2738,7 @@ Scheme // HIGHLY EXPERIMENTAL!!
 		{
 			"1"
 			{
-				"name"		"LEMON MILK Pro FTR"
+				"name"		"LEMON MILK Pro FTR Medium"
 				"tall"		"14"
 				"weight"	"400"
 				"additive"	"0"
@@ -2750,7 +2750,7 @@ Scheme // HIGHLY EXPERIMENTAL!!
 		{
 			"1"
 			{
-				"name"		"LEMON MILK Pro FTR"
+				"name"		"LEMON MILK Pro FTR Medium"
 				"tall"		"30"
 				"weight"	"400"
 				"additive"	"0"
@@ -2773,8 +2773,8 @@ Scheme // HIGHLY EXPERIMENTAL!!
 		}
 		"12"
 		{
-			"font" "__customization/_enabled/kritzhud/resource/fonts/Lemon Milk Pro Regular.otf"
-			"name"	"LEMON MILK Pro FTR"
+			"font" "__customization/_enabled/kritzhud/resource/fonts/Lemon Milk Pro Medium.otf"
+			"name"	"LEMON MILK Pro FTR Medium"
 		}
 	}
 }

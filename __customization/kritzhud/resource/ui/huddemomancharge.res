@@ -2,7 +2,7 @@
 {	
 	"ChargeMeter"
 	{
-		"ypos"					"29"
+		"ypos"					"20"
 		
 		"tall"					"2"	
 		

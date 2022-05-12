@@ -52,16 +52,16 @@
 
 		"DescLabel"
 		{
-			"font"			"hudfont10sec"
+			"font"			"hudfont8sec"
 
-			"ypos"			"13"
+			"ypos"			"15"
 			
 			"fgcolor_override" "colorwhite"
 		}
 
 		"DescLabelShadow"
 		{
-			"font"			"hudfont10sec"
+			"font"			"hudfont8sec"
 
 			"xpos"			"-1"
 			"ypos"			"-1"

@@ -14,107 +14,74 @@
 	
 	"BGFrame"
 	{
-		"ControlName"		"EditablePanel"
-		"fieldName"			"BGFrame"
-		"xpos"				"cs-0.4999"
-		"ypos"				"0"
+		"xpos"				"9999"
+	}
+	"BGTIME"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"			"BGTIME"
+		"xpos"				"cs-0.5"
+		"ypos"				"-5"
 		"zpos"				"0"
-		"wide"				"0"
-		"tall"				"0"
+		"wide"				"65"
+		"tall"				"27"
 		"visible"			"0"
-		"border"			"no"
+		"fillcolor" "46 43 42 255"
 
-		"proportionaltoaparent"	"1"
-	
 		if_match
 		{
-			"visible"			"1"
-			"wide"				"75"
-			"tall"				"22"
+			"visible"		"1"
 		}
-		
+
 		if_mvm
 		{
-			"visible"			"0"
-			"ypos"				"9999"
-		}	
-
-		"BluBG"
-		{
-			"ControlName"		"CTFImagePanel"
-			"fieldName"			"BluBG"
-			"xpos"				"0"
-			"ypos"				"0"
-			"zpos"				"2"
-			"wide"				"50"
-			"tall"				"10"
-			"visible"			"1"
-			"enabled"			"1"
-			"image"				"../hud/color_panel_blu_opaque"
-			"scaleImage"		"1"
-			
-			"src_corner_height"			"25"
-			"src_corner_width"			"25"
-			"draw_corner_width"			"0"
-			"draw_corner_height" 			"0"
-		
-			if_match
-			{
-			
-			}
-		}	
-		
-		"RedBG"
-		{
-			"ControlName"		"CTFImagePanel"
-			"fieldName"			"RedBG"
-			"xpos"				"37"
-			"ypos"				"0"
-			"zpos"				"3"
-			"wide"				"50"
-			"tall"				"10"
-			"visible"			"1"
-			"enabled"			"1"
-			"image"				"../hud/color_panel_red_opaque"
-			"scaleImage"		"1"
-			
-			"src_corner_height"			"25"
-			"src_corner_width"			"25"
-			"draw_corner_width"			"0"
-			"draw_corner_height" 			"0"
-		
-			if_match
-			{
-			
-			}
-		}
-	
-		"BrownBG"
-		{
-			"ControlName"		"CTFImagePanel"
-			"fieldName"			"BrownBG"
-			"xpos"				"0"
-			"ypos"				"0"
-			"zpos"				"1"
-			"wide"				"100"
-			"tall"				"30"
-			"visible"			"1"
-			"enabled"			"1"
-			"image"				"../hud/color_panel_brown_opaque"
-			"scaleImage"		"1"
-			
-			"src_corner_height"			"25"
-			"src_corner_width"			"25"
-			"draw_corner_width"			"0"
-			"draw_corner_height" 			"0"
-		
-			if_match
-			{
-			
-			}
+			"visible"		"0"
 		}
 	}
-	
+	"BGRED"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"			"BGRED"
+		"xpos"				"cs-0.5"
+		"ypos"				"-4"
+		"zpos"				"0"
+		"wide"				"65"
+		"tall"				"14"
+		"visible"			"0"
+		"fillcolor" "colorred"
+
+		if_match
+		{
+			"visible"		"1"
+		}
+
+		if_mvm
+		{
+			"visible"		"0"
+		}
+	}
+	"BGBLU"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"			"BGBLU"
+		"xpos"				"cs-0.99"
+		"ypos"				"-4"
+		"zpos"				"1"
+		"wide"				"33"
+		"tall"				"14"
+		"visible"			"0"
+		"fillcolor" "colorblu"
+
+		if_match
+		{
+			"visible"		"1"
+		}
+
+		if_mvm
+		{
+			"visible"		"0"
+		}
+	}
 	"ObjectiveStatusTimePanel"
 	{
 		"delta_item_font"		"hudfont12"

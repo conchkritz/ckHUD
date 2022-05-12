@@ -34,17 +34,20 @@
 	
 	"ItemEffectMeter"
 	{	
-		"ypos"					"29"
+		"ypos"					"20"
 		"tall"					"2"
-		
+		"wide"					"59"
+
 		"bgcolor_override"		"colortransparentgray"
 	}		
 
 	"ItemEffectMeter2"
 	{	
-		"ypos"					"29"
+		"xpos"					"62"
+		"ypos"					"20"
 		"tall"					"2"
-		
+		"wide"					"59"
+
 		"bgcolor_override"		"colortransparentgray"
 	}	
 	
