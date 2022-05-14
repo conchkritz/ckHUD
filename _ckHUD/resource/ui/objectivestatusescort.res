@@ -40,7 +40,7 @@
 
 		"RecedeTime"
 		{	
-			"font"			"hudfont14sec"		
+			"font"			"hudfont12sec"		
 			
 			"xpos"			"16"
 			"ypos"			"50"
@@ -125,7 +125,7 @@
 
 			"ProgressText"
 			{	
-				"font"				"hudfont12sec"
+				"font"				"hudfont8sec"
 				
 				"xpos"				"0"
 				"ypos"				"3"
@@ -136,7 +136,7 @@
 				
 				"if_multiple_trains"
 				{
-					"font"			"hudfont12sec"		
+					"font"			"hudfont8sec"		
 				}	
 			}
 

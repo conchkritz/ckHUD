@@ -214,13 +214,13 @@ event HudTournament_MoveChatWindow
 event ActiveTimerHighlight
 {
 	Animate TimePanelValue FgColor	colorwhite		Linear 0.1 0.1
-	Animate TimePanelValue FgColor	"colordarkwhite"		Linear 0.3 0.1
+	Animate TimePanelValue FgColor	"tandarkold"		Linear 0.3 0.1
 
 	Animate TimePanelValue FgColor	colorwhite		Linear 0.5 0.1
-	Animate TimePanelValue FgColor	"colordarkwhite"		Linear 0.7 0.1
+	Animate TimePanelValue FgColor	"tandarkold"		Linear 0.7 0.1
 
 	Animate TimePanelValue FgColor	colorwhite		Linear 0.9 0.1
-	Animate TimePanelValue FgColor	"colordarkwhite"		Linear 1.1 0.1
+	Animate TimePanelValue FgColor	"tandarkold"		Linear 1.1 0.1
 
 	Animate TimePanelValue FgColor	colorwhite		Linear 1.3 0.3
 	

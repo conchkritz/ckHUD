@@ -16,97 +16,43 @@
 	{
 		"xpos"				"9999"
 	}
-	"BGTIME"
-	{
-		"ControlName"		"ImagePanel"
-		"fieldName"			"BGTIME"
-		"xpos"				"cs-0.5"
-		"ypos"				"-5"
-		"zpos"				"0"
-		"wide"				"65"
-		"tall"				"27"
-		"visible"			"0"
-		"fillcolor" "46 43 42 255"
-
-		if_match
-		{
-			"visible"		"1"
-		}
-
-		if_mvm
-		{
-			"visible"		"0"
-		}
-	}
-	"BGRED"
-	{
-		"ControlName"		"ImagePanel"
-		"fieldName"			"BGRED"
-		"xpos"				"cs-0.5"
-		"ypos"				"-4"
-		"zpos"				"0"
-		"wide"				"65"
-		"tall"				"14"
-		"visible"			"0"
-		"fillcolor" "colorred"
-
-		if_match
-		{
-			"visible"		"1"
-		}
-
-		if_mvm
-		{
-			"visible"		"0"
-		}
-	}
-	"BGBLU"
-	{
-		"ControlName"		"ImagePanel"
-		"fieldName"			"BGBLU"
-		"xpos"				"cs-0.99"
-		"ypos"				"-4"
-		"zpos"				"1"
-		"wide"				"33"
-		"tall"				"14"
-		"visible"			"0"
-		"fillcolor" "colorblu"
-
-		if_match
-		{
-			"visible"		"1"
-		}
-
-		if_mvm
-		{
-			"visible"		"0"
-		}
-	}
+	
 	"ObjectiveStatusTimePanel"
 	{
-		"delta_item_font"		"hudfont12"
-
+		"ypos"				"-12"
+		
+		"delta_item_start_y"	"40"
+		"delta_item_end_y"		"55"
+		
 		if_match
 		{
-			"delta_item_font"		"hudfont12"
+			"xpos"				"c-55"
+			"ypos"				"-12"
+			"wide"				"110"
+			"delta_item_x"			"22"
+			"delta_item_start_y"	"40"
+			"delta_item_end_y"		"55"
+			"delta_lifetime"		"1.5"
+			"delta_item_font"		"hudfont20"
 		}
 		
 		"TimePanelValue"
 		{
-			"ypos"			"11"
-			"font"			"hudfont14"
-			"fgcolor"		"colorwhite"
-
 			if_match
 			{
+				"xpos"			"23"
 				"ypos"			"11"
-				"font"			"hudfont14"
+				"tall"			"31"
+				"font"			"hudfont20"
+				"font_lodef"	"HudFontMedium"
 			}
 		}	
 	}
 	
 	"TeamStatus"
 	{
+		"ypos"			"4"
+
 		"max_size"									"20"
 
 		"6v6_gap"									"1"

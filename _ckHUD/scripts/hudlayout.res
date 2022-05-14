@@ -189,18 +189,7 @@
 	
 	HudKothTimeStatus
 	{
-		"xpos"					"c-100"
-		"ypos"					"420"
-		"zpos"					"1"
-		
-		"wide"					"200"
-		"tall"					"160"
-		
-		"blue_active_xpos"		"26"
-		"blue_active_xpos_minmode"	"26"
-	
-		"red_active_xpos"			"118"
-		"red_active_xpos_minmode"	"118"
+		"ypos"					"431"
 	}	
 	
 	HudTournamentSetup
