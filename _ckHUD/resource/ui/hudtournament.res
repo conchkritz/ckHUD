@@ -79,8 +79,8 @@
 
 	"HudTournamentBG"
 	{
-		"ypos"			"35"
-		
+		"ypos"			"0"
+		"tall"			"52"
 		"src_corner_height"	"25"				// pixels inside the image
 		"src_corner_width"	"25"
 		
@@ -91,14 +91,10 @@
 	"TournamentLabel"
 	{	
 		"font"			"hudfont14sec"
-		
-		"ypos"			"38"
 	}
 
 	"HudTournamentBLUEBG"
 	{
-		"ypos"			"58"
-
 		"src_corner_height"	"25"				// pixels inside the image
 		"src_corner_width"	"25"
 			
@@ -109,21 +105,15 @@
 	"TournamentBLUELabel"
 	{	
 		"font"			"hudfont11sec"
-
-		"ypos"			"59"
 	}
 	
 	"TournamentBLUEStateLabel"
 	{	
 		"font"			"hudfont11"
-		
-		"ypos"			"59"
 	}
 
 	"HudTournamentREDBG"
 	{
-		"ypos"			"58"
-
 		"src_corner_height"	"25"				// pixels inside the image
 		"src_corner_width"	"25"
 			
@@ -134,29 +124,21 @@
 	"TournamentREDLabel"
 	{	
 		"font"			"hudfont11sec"
-		
-		"ypos"			"59"
 	}
 	
 	"TournamentREDStateLabel"
 	{	
 		"font"			"hudfont11"
-		
-		"ypos"			"59"
 	}
 	
 	"TournamentConditionLabel"
 	{	
 		"font"			"hudfont10sec"
 		"fgcolor"		"colorwhite"
-
-		"ypos"			"76"
 	}
 
 	"HudTournamentBGHelp"
 	{
-		"ypos"			"90"
-
 		"src_corner_height"	"25"				// pixels inside the image
 		"src_corner_width"	"25"
 		
@@ -167,22 +149,16 @@
 	"TournamentInstructionsLabel"
 	{	
 		"font"			"hudfont10sec"
-		
-		"ypos"			"93"
 	}
 	
 	"TournamentInstructionsLabelShadow"
 	{	
 		"font"			"hudfont10sec"
-
-		"ypos"			"92"
 	}
 
 	"TournamentReadyHintIcon"
 	{
 		"font"			"GameUIButtonsSteamControllerSmallest" // what a mouthful
-
-		"ypos"			"89"
 	}
 	
 	"CountdownBG"
@@ -193,8 +169,6 @@
 	"CountdownLabel"
 	{	
 		"font"			"Hudfont24"
-		
-		"ypos"			"r55"
 
 		if_competitive
 		{
@@ -206,8 +180,6 @@
 	"CountdownLabelShadow"
 	{	
 		"font"			"Hudfont24"
-		
-		"ypos"			"r54"
 
 		"fgcolor"		"colorblack"
 

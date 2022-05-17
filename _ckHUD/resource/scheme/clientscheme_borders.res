@@ -100,6 +100,182 @@ Scheme
 				}
 			}
 		}
+		Tabborder
+		{
+			"inset" "0 0 1 1"
+			Left
+			{
+				"1"
+				{
+					"color" "TanLightOld"
+					"offset" "0 1"
+				}
+				"2"
+				{
+					"color" "TanLightOld"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "TanLightOld"
+					"offset" "2 1"
+				}
+				"4"
+				{
+					"color" "TanLightOld"
+					"offset" "3 1"
+				}
+				"5"
+				{
+					"color" "TanLightOld"
+					"offset" "4 1"
+				}
+			}
+			Right
+			{
+				"1"
+				{
+					"color" "TanLightOld"
+					"offset" "0 1"
+				}
+				"2"
+				{
+					"color" "TanLightOld"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "TanLightOld"
+					"offset" "2 1"
+				}
+				"4"
+				{
+					"color" "TanLightOld"
+					"offset" "3 1"
+				}
+				"5"
+				{
+					"color" "TanLightOld"
+					"offset" "4 1"
+				}
+			}
+			Top
+			{
+				"1"
+				{
+					"color" "TanLightOld"
+					"offset" "0 1"
+				}
+				"2"
+				{
+					"color" "TanLightOld"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "TanLightOld"
+					"offset" "2 1"
+				}
+				"4"
+				{
+					"color" "TanLightOld"
+					"offset" "3 1"
+				}
+				"5"
+				{
+					"color" "TanLightOld"
+					"offset" "4 1"
+				}
+			}
+		}
+		TabborderInactive
+		{
+			"inset" "0 0 1 1"
+			Left
+			{
+				"1"
+				{
+					"color" "TanDarkOld"
+					"offset" "0 1"
+				}
+				"2"
+				{
+					"color" "TanDarkOld"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "TanDarkOld"
+					"offset" "2 1"
+				}
+				"4"
+				{
+					"color" "TanDarkOld"
+					"offset" "3 1"
+				}
+				"5"
+				{
+					"color" "TanDarkOld"
+					"offset" "4 1"
+				}
+			}
+			Right
+			{
+				"1"
+				{
+					"color" "TanDarkOld"
+					"offset" "0 1"
+				}
+				"2"
+				{
+					"color" "TanDarkOld"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "TanDarkOld"
+					"offset" "2 1"
+				}
+				"4"
+				{
+					"color" "TanDarkOld"
+					"offset" "3 1"
+				}
+				"5"
+				{
+					"color" "TanDarkOld"
+					"offset" "4 1"
+				}
+			}
+			Top
+			{
+				"1"
+				{
+					"color" "TanDarkOld"
+					"offset" "0 1"
+				}
+				"2"
+				{
+					"color" "TanDarkOld"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "TanDarkOld"
+					"offset" "2 1"
+				}
+				"4"
+				{
+					"color" "TanDarkOld"
+					"offset" "3 1"
+				}
+				"5"
+				{
+					"color" "TanDarkOld"
+					"offset" "4 1"
+				}
+			}
+		}
 		ScoreboardHeader 
 		{
 			"inset" "0 0 0 0"

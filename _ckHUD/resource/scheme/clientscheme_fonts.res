@@ -14,7 +14,15 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		
+		"hudfont56icon"
+		{
+			"1"
+			{
+				"name" "TF2 Character Icons"
+				"tall" "46"
+				"antialias" "1"
+			}
+		}		
 // 		===========================================
 // 		secondary
 

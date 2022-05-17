@@ -4,6 +4,12 @@
 	{
 		"item_xpos_offcenter_b"	"170"
 		
+		"PaintBackgroundType"	"0"
+		
+		"bgcolor_override"	"40 34 30 255"
+		"infocus_bgcolor_override" "40 34 30 255"
+		"outoffocus_bgcolor_override" "40 34 30 255"
+		
 		"modelpanels_kv"
 		{
 			"itemmodelpanel"
@@ -18,9 +24,22 @@
 		}
 	}
 	
+	"ClassLabel"
+	{
+		"xpos"			"9999"
+	}
+	
+	"TopLine"
+	{
+		"wide"			"650"
+		
+		"xpos"			"c-325"
+		"ypos"			"45"
+	}	
+	
 	"CaratLabel"
 	{
-		"font"			"hudfont11"
+		"xpos"			"9999"
 	}
 	
 	"ClassLabel"
@@ -80,20 +99,20 @@
 
 	"TauntHintLabel"
 	{
-		"xpos"			"9999" // original is 'c2290' so i gues 9999 works?
+		"xpos"			"9999" // original is 'c2290' so i guess 9999 works?
 	}
 
 	"CharacterLoadoutButton"
 	{
-		"xpos"			"c245"
-		"ypos"			"c-230"
+		"xpos"			"c140"
+		"ypos"			"c-180"
 		"zpos"			"2"
 	}
 
 	"TauntLoadoutButton"
 	{
-		"xpos"			"c272"
-		"ypos"			"c-230"
+		"xpos"			"c140"
+		"ypos"			"c-154"
 
 		"SubImage"
 		{
@@ -105,8 +124,8 @@
 	{
 		"ControlName"		"CExImageButton"
 		"fieldName"			"RedSkinButton"
-		"xpos"				"c180"
-		"ypos"				"c-230"
+		"xpos"				"c140"
+		"ypos"				"c-125"
 		"zpos"				"30"
 		"wide"				"25"
 		"tall"				"25"
@@ -129,8 +148,8 @@
 	{
 		"ControlName"		"CExImageButton"
 		"fieldName"			"BlueSkinButton"
-		"xpos"				"c207"
-		"ypos"				"c-230"
+		"xpos"				"c140"
+		"ypos"				"c-99"
 		"zpos"				"30"
 		"wide"				"25"
 		"tall"				"25"

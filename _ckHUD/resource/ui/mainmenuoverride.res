@@ -1152,10 +1152,10 @@
 		}
 	}			
 	
-	"MinmodeButton"
+	"ConsoleButton"
 	{
 		"ControlName"	"EditablePanel"
-		"fieldname"		"MinmodeButton"
+		"fieldname"		"ConsoleButton"
 		
 		"xpos"			"-26"
 		"ypos"			"0"
@@ -1203,7 +1203,7 @@
 				"tall"			"15"
 				"visible"		"1"
 				"enabled"		"1"
-				"image"			"../vgui/replay/thumbnails/icons/glyph_hudmode_default"
+				"image"			"../vgui/replay/thumbnails/icons/glyph_console"
 				"scaleImage"	"1"
 			}				
 		}		
@@ -1222,7 +1222,7 @@
 		"tall"			"25"
 		
 		
-		"pin_to_sibling"	"MinmodeButton"
+		"pin_to_sibling"	"ConsoleButton"
 		"image_drawcolor"	"colorwhite"
 
 		"SubButton"
@@ -1281,18 +1281,26 @@
 		"font"			"hudfont12"
 		"textAlignment"	"east"
 		
-		"labelText" 	"ckHUD 0.3-ALPHA" // source = from github source, not release. alpha = alpha, duh. no suffix = release.
+		"labelText" 	"ckHUD 0.3-ALPHA"
 		
+		"wide_minmode"			"145"
+		"labelText_minmode" 	"pls turn off minmode"
+
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"default"		"1"
 		"paintbackground" "0"
 		"sound_depressed"	""
 		"sound_released"	"UI/funny.mp3"
+		"sound_released_minmode"	"UI/tts.mp3"
 
 		"defaultFgColor_override" "255 255 255 5"
 		"armedFgColor_override" "255 255 255 15"
 		"depressedFgColor_override" "255 255 255 15"
+		
+		"defaultFgColor_override_minmode" "255 255 255 255"
+		"armedFgColor_override_minmode" "255 255 255 255"
+		"depressedFgColor_override_minmode" "255 255 255 255"
 	}	
 	
 	"BackToReplaysButton"

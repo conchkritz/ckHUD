@@ -1,5 +1,10 @@
 "Resource/UI/winpanel.res"
-{				
+{
+	"TFStatsSummary"
+	{
+		"bgcolor_override"	"40 34 30 255"
+	}
+	
 	"StatData"
 	{
 		"NonInteractiveHeaders"

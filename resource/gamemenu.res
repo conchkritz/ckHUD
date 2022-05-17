@@ -45,12 +45,12 @@
 		"subimage" "glyph_tv"
 		"tooltip" "Demo UI"
 	}
-	"MinmodeButton"
+	"ConsoleButton"
 	{
-		"label" "Toggle Minmode"
-		"command" "engine toggle cl_hud_minmode"
-		"subimage" "../vgui/replay/thumbnails/icons/glyph_hudmode_default"
-		"tooltip" "Toggle Minmode"
+		"label" "Toggle Console"
+		"command" "engine toggleconsole"
+		"subimage" "../vgui/replay/thumbnails/icons/glyph_console"
+		"tooltip" "Toggle Console"
 	}
 	"ReloadHudButton" // DemoUIButton
 	{
