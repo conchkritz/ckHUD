@@ -42,11 +42,6 @@
 		"xpos"			"9999"
 	}
 	
-	"ClassLabel"
-	{
-		"font"			"hudfont24"
-	}
-
 	"TauntCaratLabel"
 	{
 		"font"			"hudfont11"

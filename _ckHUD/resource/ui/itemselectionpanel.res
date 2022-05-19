@@ -2,6 +2,12 @@
 {
 	"ItemSelectionPanel"
 	{
+		"PaintBackgroundType"	"0"
+		
+		"bgcolor_override"	"40 34 30 255"
+		"infocus_bgcolor_override" "40 34 30 255"
+		"outoffocus_bgcolor_override" "40 34 30 255"
+		
 		"modelpanels_selection_kv"
 		{
 			"model_wide"	"90"
@@ -14,6 +20,53 @@
 				"inventory_image_type"	"1"
 			}
 		}
+	}
+	
+	"NameFilterTextEntry"
+	{
+		"wide"		"120"
+		"tall"		"16"
+		
+		"xpos"			"c-288"
+		"ypos"			"343"
+		
+		"fgcolor_override"	"colorblack"
+		"bgcolor_override"	"colorwhite"
+	}
+	
+	"NameFilterLabel"
+	{
+		"xpos"			"9999"
+	}
+	
+	"TopLine"
+	{
+		"wide"			"650"
+		
+		"xpos"			"c-325"
+		"ypos"			"45"
+	}	
+	
+	"BottomLine"
+	{
+		"wide"			"650"
+		
+		"xpos"			"c-325"
+	}	
+	
+	"CaratLabel"
+	{
+		"xpos"			"9999"
+	}
+	
+	"ItemSlotLabel"
+	{
+		"xpos"			"9999"
+	}	
+	
+	"ClassLabel"
+	{
+		"xpos"			"9999"
 	}
 	
 	"NameFilterLabel"

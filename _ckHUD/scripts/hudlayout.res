@@ -81,6 +81,12 @@
 		"zpos"		"2"
 	}
 	
+	CSpectatorTargetID
+	{
+		"ypos"		"270" // 315
+		"zpos"		"2" 
+	}
+	
 	BuildingStatus_Spy
 	{
 		"ypos"		"-115"

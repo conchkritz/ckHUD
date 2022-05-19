@@ -386,39 +386,276 @@ Scheme
 			}
 		}
 		
+		// default editied
 		"Default"
 		{
 			"1"
 			{
-				"antialias"	"1"
-
+				"name" "TF2 Secondary"
+				"tall"		"12"
+				"weight"	"900"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"	"480 599"
 			}
 			"2"
 			{
-				"antialias"	"1"
-
+				"name" "TF2 Secondary"
+				"tall"		"13"	[$WIN32]
+				"tall"		"20"	[disabled]
+				"weight"	"900"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"	"600 767"
 			}
 			"3"
 			{
+				"name" "TF2 Secondary"
+				"tall"		"14"
+				"weight"	"900"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"	"768 1023"
 				"antialias"	"1"
-
 			}
 			"4"
 			{
+				"name" "TF2 Secondary"
+				"tall"		"20"
+				"weight"	"900"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"	"1024 1199"
 				"antialias"	"1"
-
 			}
 			"5"
 			{
+				"name" "TF2 Secondary"
+				"tall"		"24"
+				"weight"	"900"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"	"1200 6000"
 				"antialias"	"1"
-
 			}
 			"6"
 			{
-				"antialias"	"1"
+				"name" "TF2 Secondary"
+				"tall"		"12"
+				"range" 		"0x0000 0x00FF"
+				"weight"		"900"
 			}
 			"7"
 			{
+				"name" "TF2 Secondary"
+				"tall"		"12"
+				"range" 		"0x0000 0x00FF"
+				"weight"		"800"
+			}
+
+
+		}
+		"DefaultUnderline"
+		{
+			"1"
+			{
+				"name" "TF2 Secondary"
+				"tall"		"12"
+				"weight"	"500"
+				"underline" "1"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+			}
+			"2"
+			{
+				"name" "TF2 Secondary"
+				"tall"		"11"
+				"range" 		"0x0000 0x00FF"
+				"weight"		"800"
+			}
+		}
+		"DefaultSmall"
+		{
+			"1"
+			{
+				"name" "TF2 Secondary"
+				"tall"		"12"
+				"weight"	"0"
+				"range"		"0x0000 0x017F"
+				"yres"	"480 599"
+			}
+			"2"
+			{
+				"name" "TF2 Secondary"
+				"tall"		"13"
+				"weight"	"0"
+				"range"		"0x0000 0x017F"
+				"yres"	"600 767"
+			}
+			"3"
+			{
+				"name" "TF2 Secondary"
+				"tall"		"14"
+				"weight"	"0"
+				"range"		"0x0000 0x017F"
+				"yres"	"768 1023"
+				"antialias"	"1"
+			}
+			"4"
+			{
+				"name" "TF2 Secondary"
+				"tall"		"20"
+				"weight"	"0"
+				"range"		"0x0000 0x017F"
+				"yres"	"1024 1199"
+				"antialias"	"1"
+			}
+			"5"
+			{
+				"name" "TF2 Secondary"
+				"tall"		"22"
+				"weight"	"0"
+				"range"		"0x0000 0x017F"
+				"yres"	"1200 6000"
+				"antialias"	"1"
+			}
+			"6"
+			{
+				"name" "TF2 Secondary"
+				"tall"		"12"
+				"range" 		"0x0000 0x00FF"
+				"weight"		"0"
+			}
+		}
+
+
+		"DefaultVerySmall"
+		{
+			"1"
+			{
+				"name" "TF2 Secondary"
+				"tall"		"12"
+				"weight"	"0"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"	"480 599"
+			}
+			"2"
+			{
+				"name" "TF2 Secondary"
+				"tall"		"12"
+				"weight"	"0"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"	"600 767"
+			}
+			"3"
+			{
+				"name" "TF2 Secondary"
+				"tall"		"12"
+				"weight"	"0"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"	"768 1023"
+				"antialias"	"1"
+			}
+			"4"
+			{
+				"name" "TF2 Secondary"
+				"tall"		"14"
+				"weight"	"0"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"	"1024 1199"
+				"antialias"	"1"
+			}
+			"5"
+			{
+				"name" "TF2 Secondary"
+				"tall"		"16"
+				"weight"	"0"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"	"1200 6000"
+				"antialias"	"1"
+			}
+		}
+		DefaultLarge
+		{
+			"1"
+			{
+				"name" "TF2 Secondary"
+				"tall"		"18"
+				"weight"	"900"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"		"480 599"
+			}
+			"2"
+			{
+				"name" "TF2 Secondary"
+				"tall"		"21"
+				"weight"	"900"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"		"600 767"
+			}
+			"3"
+			{
+				"name" "TF2 Secondary"
+				"tall"		"22"
+				"weight"	"900"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"		"768 1023"
+				"antialias"	"1"
+			}
+			"4"
+			{
+				"name" "TF2 Secondary"
+				"tall"		"28"
+				"weight"	"900"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"		"1024 1199"
+				"antialias"	"1"
+			}
+			"5"
+			{
+				"name" "TF2 Secondary"
+				"tall"		"30"
+				"weight"	"900"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"	"1200 6000"
+				"antialias"	"1"
+			}
+			"6"
+			{
+				"name" "TF2 Secondary"
+				"tall"		"20"
+				"range" 		"0x0000 0x00FF"
+				"weight"		"900"
+			}
+			"7"
+			{
+				"name" "TF2 Secondary"
+				"tall"		"20"
+				"range" 		"0x0000 0x00FF"
+				"weight"		"800"
+			}
+		}
+		"DefaultVerySmallFallBack"
+		{
+			"1"
+			{
+				"name" "TF2 Secondary"
+				"tall"		"10"
+				"weight"	"0"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"		"480 599"
+				"antialias"	"1"
+			}
+			"2"
+			{
+				"name" "TF2 Secondary"
+				"tall"		"12"
+				"weight"	"0"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"		"600 1199"
+				"antialias"	"1"
+			}
+			"3"
+			{
+				"name" "TF2 Secondary"
+				"tall"		"15"
+				"weight"	"0"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"		"1200 6000"
 				"antialias"	"1"
 			}
 		}

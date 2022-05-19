@@ -48,12 +48,6 @@
 		"fgcolor"		"colorwhite"
 	}
 
-	"NameFilterTextEntry"
-	{
-		"wide"		"120"
-		"tall"		"16"
-	}
-	
 	"mouseoveritempanel"
 	{
 		"zpos"			"100"
@@ -227,6 +221,9 @@
 	
 	"NameFilterTextEntry"
 	{
+		"wide"		"120"
+		"tall"		"16"
+		
 		"xpos"			"c-288"
 		"ypos"			"334"
 		
