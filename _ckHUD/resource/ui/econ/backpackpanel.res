@@ -195,12 +195,12 @@
 		"wide"				"135"
 
 		"fgcolor_override"	"colorwhite"
-		"bgcolor_override"	"0 0 0 0"
+		"bgcolor_override"	"colorblack"
 		"disabledFgColor_override" "colorwhite"
-		"disabledBgColor_override" "0 0 0 0"
-		"selectionColor_override" "0 0 0 0"
+		"disabledBgColor_override" "colorblack"
+		"selectionColor_override" "colorblack"
 		"selectionTextColor_override" "colorwhite"
-		"defaultSelectionBG2Color_override" "0 0 0 0"
+		"defaultSelectionBG2Color_override" "colorblack"
 	}	
 	
 	"ShowRarityComboBox"
@@ -211,12 +211,12 @@
 		"tall"			"20"
 		
 		"fgcolor_override"	"colorwhite"
-		"bgcolor_override"	"0 0 0 0"
+		"bgcolor_override"	"colorblack"
 		"disabledFgColor_override" "colorwhite"
-		"disabledBgColor_override" "0 0 0 0"
-		"selectionColor_override" "0 0 0 0"
+		"disabledBgColor_override" "colorblack"
+		"selectionColor_override" "colorblack"
 		"selectionTextColor_override" "colorwhite"
-		"defaultSelectionBG2Color_override" "0 0 0 0"
+		"defaultSelectionBG2Color_override" "colorblack"
 	}	
 	
 	"NameFilterTextEntry"

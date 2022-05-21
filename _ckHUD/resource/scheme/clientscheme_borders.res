@@ -4,6 +4,7 @@ Scheme
 	{
 // 		===========================================
 // 		custom borders
+
 		WhiteBorder 
 		{
 			"inset" "0 0 0 0"
@@ -96,6 +97,102 @@ Scheme
 				"4"
 				{
 					"color" "colorwhite"
+					"offset" "3 0"
+				}
+			}
+		}
+		TanDarkBorder 
+		{
+			"inset" "0 0 0 0"
+			Left
+			{
+				"1"
+				{
+					"color" "tandarkold"
+					"offset" "0 0"
+				}
+				"2"
+				{
+					"color" "tandarkold"
+					"offset" "1 0"
+				}
+				"3"
+				{
+					"color" "tandarkold"
+					"offset" "2 0"
+				}
+				"4"
+				{
+					"color" "tandarkold"
+					"offset" "3 0"
+				}
+			}
+			Right
+			{
+				"1"
+				{
+					"color" "tandarkold"
+					"offset" "0 0"
+				}
+				"2"
+				{
+					"color" "tandarkold"
+					"offset" "1 0"
+				}
+				"3"
+				{
+					"color" "tandarkold"
+					"offset" "2 0"
+				}
+				"4"
+				{
+					"color" "tandarkold"
+					"offset" "3 0"
+				}
+			}
+			Top
+			{
+				"1"
+				{
+					"color" "tandarkold"
+					"offset" "0 0"
+				}
+				"2"
+				{
+					"color" "tandarkold"
+					"offset" "1 0"
+				}
+				"3"
+				{
+					"color" "tandarkold"
+					"offset" "2 0"
+				}
+				"4"
+				{
+					"color" "tandarkold"
+					"offset" "3 0"
+				}
+			}
+			Bottom
+			{
+				"1"
+				{
+					"color" "tandarkold"
+					"offset" "0 0"
+				}
+				"2"
+				{
+					"color" "tandarkold"
+					"offset" "1 0"
+				}
+				"3"
+				{
+					"color" "tandarkold"
+					"offset" "2 0"
+				}
+				"4"
+				{
+					"color" "tandarkold"
 					"offset" "3 0"
 				}
 			}

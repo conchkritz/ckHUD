@@ -26,12 +26,15 @@
 
 		"Title"
 		{
-			"xpos"			"rs1+70"
-			"ypos"			"0"
+			"xpos"			"rs1-2"
+			"ypos"			"-7"
 			"zpos"			"3"
-
-			"font"			"hudfont12"
-			"textAlignment"	"west"
+			
+			"wide"		"f0"
+			"tall"		"f0"
+			
+			"font"			"hudfont48"
+			"textAlignment"	"east"
 
 			"fgcolor"		"colorwhite"
 			
@@ -39,12 +42,15 @@
 
 		"TitleShadow"
 		{
-			"xpos"			"-1"
-			"ypos"			"-1"
+			"xpos"			"-2"
+			"ypos"			"-2"
 			"zpos"			"2"
-
-			"font"			"hudfont12"
-			"textAlignment"	"west"
+			
+			"wide"		"f0"
+			"tall"		"f0"
+			
+			"font"			"hudfont48"
+			"textAlignment"	"east"
 
 			"pin_to_sibling"		"Title"
 			"fgcolor_override"		"colorblack"
@@ -52,24 +58,12 @@
 
 		"DescLabel"
 		{
-			"font"			"hudfont8sec"
-
-			"ypos"			"15"
-			
-			"fgcolor_override" "colorwhite"
+			"xpos"			"9999"
 		}
 
 		"DescLabelShadow"
 		{
-			"font"			"hudfont8sec"
-
-			"xpos"			"-1"
-			"ypos"			"-1"
-			"zpos"			"1"
-
-			"fgcolor_override" "colorblack"
-			
-			"pin_to_sibling" "DescLabel"
+			"xpos"			"9999"
 		}
 	}
 }

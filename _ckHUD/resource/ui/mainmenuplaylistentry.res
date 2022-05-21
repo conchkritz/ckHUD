@@ -1,37 +1,80 @@
 "Resource/UI/MainMenuPlayListEntry.res"
 {
+	"ModeImage"
+	{
+		"scaleImage"	"1"
+	}
+
+	"PlayListDropShadow"
+	{
+		"xpos"			"9999"
+		"border"		"no"
+	}
+
+	"BGColor"
+	{
+		"xpos"			"9999"
+
+		"bgcolor_override"	"no"
+	}
+
+
+	"ToolTipHack"
+	{
+		"zpos"			"490"
+
+		"visible"		"1"
+
+		"showtooltipswhenmousedisabled"	"0"
+	}
+	
+	"ToolTipButtonHack"
+	{
+		"xpos"			"9999"
+
+		"visible"		"0"
+		"enabled"		"0"
+	}
+	
 	"ModeButton"
 	{
-		"xpos"			"rs0.8"
+		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"6"
 		
-		"wide"			"350" // this is dumb but it works
-		"tall"			"45"
-		
-		"textinsetx"	"155"
-		"textinsety"	"-27"
+		"tall"			"50"
+		"wide"			"135"
 
-		
 		"font"			"hudfont12"
-		"textAlignment"	"west"
-
-		"defaultFgColor_override"	"colorwhite"
-		"armedFgColor_override"		"colorwhite"
-		"depressedFgColor_override" "colorwhite"
+		"textAlignment"	"south"
 		
+		"textinsety"		"-2"
+
+		"border_default"	"TanDarkBorder"
+		"border_armed"		"WhiteBorder"
+		"paintbackground"	"1"
+
 		"defaultBgColor_override"	"no"
 		"armedBgColor_override"		"LightOrange"
-	}	
+		
+		"defaultFgColor_override"	"colorwhite"
+		"armedFgColor_override"		"colorwhite"
+		"depressedFgColor_override" "75 125 255 255"
+	}
 
 
 	"DescLabel"
 	{
-		"fgcolor_override" "colorwhite"
+		"xpos"			"9999"
 	}
 
 	"DescLabelShadow"
 	{
-		"fgcolor_override" "colorblack"
+		"xpos"			"9999"
+	}
+
+	"DisabledIcon"
+	{
+		"xpos"			"9999"
 	}
 }

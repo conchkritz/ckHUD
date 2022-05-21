@@ -659,6 +659,31 @@ Scheme
 				"antialias"	"1"
 			}
 		}
+		
+		"ScoreboardSmallest"
+		{
+			"1"
+			{
+				"name" "TF2 Secondary"
+				"tall"		"6"
+				"weight"	"400"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"ScoreboardVerySmall"
+		{
+			"1"
+			{
+				"name" "TF2 Secondary"
+				"tall"		"8"
+				"tall_hidef"	"10"
+				"tall_lodef"	"14"
+				"weight"	"400"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
 	}
 	
 	CustomFontFiles
