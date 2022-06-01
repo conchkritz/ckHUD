@@ -134,6 +134,13 @@ Scheme // HIGHLY EXPERIMENTAL!!
 				"name" "LEMON MILK Pro FTR Bold"
 			}
 		}
+		"hudfont30"
+		{
+			"1"
+			{
+				"name" "LEMON MILK Pro FTR Bold"
+			}
+		}
 		"hudfont34"
 		{
 			"1"

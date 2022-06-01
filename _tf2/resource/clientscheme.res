@@ -24,25 +24,13 @@ Scheme
 		"LightOrange"		"188 112 0 128"
 		"GoalOrange"		"255 133 0"
 		"TFOrange"			"145 73 59 255"
-		"Purple"			"137 69 99 255"
 
 		"QuestGold"			"208 147 75 255"
 		"HalloweenThemeColor2015_Light"	"238 126 17 255"
 		"HalloweenThemeColor2015"		"135 54 16 255"
 		"HalloweenThemeColor2015_Dark"	"108 49 21 255"
-		"QuestUncommitted"	"183 147 100 255"
-
-		"QuestMap_Bonus"	"222 217 166 255"
-		"QuestMap_ActiveOrange"	"212 127 25 255"
-		"QuestMap_InactiveGrey"	"100 100 100 255"
-		"QuestMap_BGImages"	"56 58 60 255"
-
-		"PartyMember1"	"124 173 255 255"
-		"PartyMember2"	"99  232 167 255"
-		"PartyMember3"	"229 255 121 255"
-		"PartyMember4"	"232 184 99  255"
-		"PartyMember5"	"255 118 108 255"
-		"PartyMember6"	"255 133 255 255"
+		"QuestStandardHighlight"	"0 255 0 255"
+		"QuestBonusHighlight"		"150 160 255 255"
 		
 		"White"				"235 235 235 255"
 		"Red"				"192 28 0 140"
@@ -192,7 +180,7 @@ Scheme
 		"QualityColorPaintkitWeapon_GreyedOut"	"60 60 60 255"
 		
 		"SaleGreen"								"76 107 34 255"
-
+		
 		"LightRed"								"200 80 60 255"
 		"LighterRed"							"220 100 80 255"
 		"LighterDarkBrown"						"59 54 48 255"
@@ -455,7 +443,6 @@ Scheme
 	{
 		// UI buttons, custom font, (256x64)
 		"Buttons"		"materials/vgui/fonts/buttons_32.vbf"
-		"ButtonsSC"		"materials/vgui/fonts/buttons_sc.vbf"
 	}
 
 
@@ -778,7 +765,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2"
+				"name"		"TF2C"
 				"tall"		"24"
 				"tall_lodef"	"80"
 				"weight"	"500"
@@ -788,7 +775,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"TF2"
+				"name"		"TF2C"
 				"tall"		"32"
 				"tall_hidef"	"120"
 				"weight"	"500"
@@ -798,7 +785,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"TF2"
+				"name"		"TF2C"
 				"tall"		"44"
 				"weight"	"500"
 				"additive"	"0"
@@ -807,7 +794,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"TF2"
+				"name"		"TF2C"
 				"tall"		"48"
 				"weight"	"500"
 				"additive"	"0"
@@ -816,7 +803,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"		"TF2"
+				"name"		"TF2C"
 				"tall"		"52"
 				"weight"	"500"
 				"additive"	"0"
@@ -828,7 +815,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"TF2C Build"
 				"tall"		"44"
 				"tall_lodef"	"52"
 				"weight"	"500"
@@ -841,7 +828,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"TF2C Build"
 				"tall"		"35"
 				"tall_lodef"	"40"
 				"weight"	"500"
@@ -854,7 +841,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2"
+				"name"		"TF2C"
 				"tall"		"36"
 				"tall_hidef"	"48"
 				"weight"	"500"
@@ -866,7 +853,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2"
+				"name"		"TF2C"
 				"tall"		"30"
 				"weight"	"500"
 				"additive"	"0"
@@ -877,7 +864,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"TF2C Build"
 				"tall"		"30"
 				"weight"	"500"
 				"additive"	"0"
@@ -888,7 +875,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2"
+				"name"		"TF2C"
 				"tall"		"24"
 				"tall_lodef"		"28"
 				"weight"	"500"
@@ -900,7 +887,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"TF2C Secondary"
 				"tall"		"24"
 				"weight"	"500"
 				"additive"	"0"
@@ -911,7 +898,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"TF2C Build"
 				"tall"		"24"
 				"weight"	"500"
 				"additive"	"0"
@@ -922,7 +909,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"TF2C Build"
 				"tall"		"18"
 				"weight"	"500"
 				"additive"	"0"
@@ -933,7 +920,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2"
+				"name"		"TF2C"
 				"tall"		"18"
 				"tall_hidef"	"24"
 				"tall_lodef"	"18"
@@ -946,7 +933,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"TF2C Secondary"
 				"tall"		"18"
 				"tall_hidef"	"24"
 				"tall_lodef"	"20"
@@ -959,7 +946,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"TF2C Secondary"
 				"tall"		"14"
 				"tall_lodef"	"16"
 				"weight"	"500"
@@ -971,7 +958,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"TF2C Build"
 				"tall"		"16"
 				"weight"	"500"
 				"additive"	"0"
@@ -982,7 +969,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"TF2C Build"
 				"tall"		"14"
 				"weight"	"500"
 				"additive"	"0"
@@ -993,7 +980,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"TF2C Build"
 				"tall"		"14"
 				"weight"	"500"
 				"additive"	"0"
@@ -1005,7 +992,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"TF2C Secondary"
 				"tall"		"11"
 				"weight"	"500"
 				"additive"	"0"
@@ -1016,7 +1003,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"TF2C Secondary"
 				"tall"		"11"
 				"weight"	"500"
 				"additive"	"0"
@@ -1028,7 +1015,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"TF2C Build"
 				"tall"		"11"
 				"weight"	"500"
 				"additive"	"0"
@@ -1039,7 +1026,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"TF2C Build"
 				"tall"		"4"
 				"weight"	"500"
 				"additive"	"0"
@@ -1050,7 +1037,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"TF2C Build"
 				"tall"		"10"
 				"weight"	"500"
 				"additive"	"0"
@@ -1061,7 +1048,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"TF2C Build"
 				"tall"		"16"
 				"weight"	"500"
 				"additive"	"0"
@@ -1072,7 +1059,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"TF2C Build"
 				"tall"		"9"
 				"weight"	"0"
 				"additive"	"0"
@@ -1083,7 +1070,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"TF2C Secondary"
 				"tall"		"9"
 				"weight"	"0"
 				"additive"	"0"
@@ -1094,7 +1081,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"TF2C Build"
 				"tall"		"6"
 				"weight"	"0"
 				"additive"	"0"
@@ -1105,7 +1092,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"TF2C Secondary"
 				"tall"		"12"
 				"tall_hidef"	"14"
 				"tall_lodef"	"16"
@@ -1118,7 +1105,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"TF2C Secondary"
 				"tall"		"11"
 				"weight"	"500"
 				"additive"	"0"
@@ -1193,7 +1180,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"TF2C Secondary"
 				"tall"		"18"
 				"tall_hidef"	"24"
 				"tall_lodef"	"18"
@@ -1206,7 +1193,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2"
+				"name"		"TF2C"
 				"tall"		"16"
 				"tall_hidef"	"22"
 				"tall_lodef"	"22"
@@ -1266,7 +1253,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2"
+				"name"		"TF2C"
 				"tall"		"15"
 				"weight"	"700"
 				"antialias" 	"1"
@@ -1276,7 +1263,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"TF2"
+				"name"		"TF2C"
 				"tall"		"15"	[$WIN32]
 				"tall"		"21"	[$X360]
 				"weight"	"700"
@@ -1287,7 +1274,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"TF2"
+				"name"		"TF2C"
 				"tall"		"18"
 				"weight"	"900"
 				"antialias" 	"1"
@@ -1296,7 +1283,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"TF2"
+				"name"		"TF2C"
 				"tall"		"21"
 				"weight"	"900"
 				"antialias" 	"1"
@@ -1305,7 +1292,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"		"TF2"
+				"name"		"TF2C"
 				"tall"		"24"
 				"weight"	"1000"
 				"antialias" 	"1"
@@ -1471,7 +1458,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2"
+				"name"		"TF2C"
 				"tall"		"24"
 				"antialias" "1"
 				"weight"	"500"
@@ -1481,7 +1468,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"TF2C Secondary"
 				"tall"		"11"
 				"tall_lodef"	"14"
 				"antialias" "1"
@@ -1492,7 +1479,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2"
+				"name"		"TF2C"
 				"tall"		"12"
 				"antialias" "1"
 				"weight"	"500"
@@ -1517,7 +1504,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2 Professor"
+				"name"			"TF2C Professor"
 				"tall"			"28"
 				"tall_lodef"	"48"
 				"tall_hidef"	"48"
@@ -1532,7 +1519,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2 Professor"
+				"name"			"TF2C Professor"
 				"tall"			"40"
 				"tall_lodef"	"48"
 				"tall_hidef"	"48"
@@ -1547,7 +1534,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Professor"
+				"name"		"TF2C Professor"
 				"tall"		"24"
 				"tall_lodef"	"36"
 				"tall_hidef"	"36"
@@ -1560,7 +1547,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2 Professor"
+				"name"			"TF2C Professor"
 				"tall"			"14" [!$OSX]
 				"tall"			"15" [$OSX]
 				"tall_lodef"	"32"
@@ -1568,17 +1555,6 @@ Scheme
 				"antialias"		"1"
 				"custom"		"1" [$OSX]
 				"weight"		"500"
-			}
-		}
-		"ScoreboardSmallest"
-		{
-			"1"
-			{
-				"name"		"Verdana"
-				"tall"		"6"
-				"weight"	"400"
-				"additive"	"0"
-				"antialias" "1"
 			}
 		}
 		"ScoreboardVerySmall"
@@ -1598,7 +1574,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"TF2C Secondary"
 				"tall"		"10"
 				"tall_hidef"	"12"
 				"tall_lodef"	"14"
@@ -1611,7 +1587,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2"
+				"name"		"TF2C"
 				"tall"		"14"
 				"weight"	"500"
 				"range"		"0x0000 0x007F"	//	Basic Latin
@@ -1623,7 +1599,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"TF2C Secondary"
 				"tall"		"20"
 				"weight"	"500"
 				"range"		"0x0000 0x007F"	//	Basic Latin
@@ -1635,7 +1611,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"TF2C Secondary"
 				"tall"		"20"
 				"tall_hidef"	"24"
 				"tall_lodef"	"24"
@@ -1649,7 +1625,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"TF2C Secondary"
 				"tall"		"14"
 				"weight"	"500"
 				"range"		"0x0000 0x007F"	//	Basic Latin
@@ -1661,7 +1637,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"TF2C Secondary"
 				"tall"		"20"
 				"weight"	"500"
 				"range"		"0x0000 0x007F"	//	Basic Latin
@@ -1673,7 +1649,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"TF2C Secondary"
 				"tall"		"34"
 				"tall_hidef"	"38"
 				"tall_lodef"	"38"
@@ -1688,7 +1664,7 @@ Scheme
  		{
 			"1"
 			{
-				"name"		"TF2"
+				"name"		"TF2C"
 				"tall"		"36"
 				"tall_hidef"	"48"
 				"weight"	"500"
@@ -1700,7 +1676,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2"
+				"name"		"TF2C"
 				"tall"		"52"
 				"tall_lodef"		"80"
 				"range" 	"0x0000 0x00FF"
@@ -1710,7 +1686,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"TF2"
+				"name"		"TF2C"
 				"tall"		"72"
 				"tall_hidef"	"120"
 				"range" 	"0x0000 0x00FF"
@@ -1720,7 +1696,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"TF2"
+				"name"		"TF2C"
 				"tall"		"100"
 				"range" 	"0x0000 0x00FF"
 				"weight"	"400"
@@ -1729,7 +1705,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"TF2"
+				"name"		"TF2C"
 				"tall"		"140"
 				"range" 	"0x0000 0x00FF"
 				"weight"	"400"
@@ -1738,7 +1714,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"		"TF2"
+				"name"		"TF2C"
 				"tall"		"180"
 				"range" 	"0x0000 0x00FF"
 				"weight"	"400"
@@ -1750,7 +1726,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2"
+				"name"		"TF2C"
 				"tall"		"36"
 				"weight"	"500"
 				"range"		"0x0000 0x007F"	//	Basic Latin
@@ -1762,7 +1738,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"TF2C Secondary"
 				"tall"		"14"
 				"weight"	"400"
 				"additive"	"0"
@@ -1773,7 +1749,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"TF2C Secondary"
 				"tall"		"20"
 				"weight"	"400"
 				"additive"	"0"
@@ -1784,7 +1760,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"TF2C Secondary"
 				"tall"		"14"
 				"weight"	"400"
 				"additive"	"0"
@@ -1795,7 +1771,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"TF2C Secondary"
 				"tall"		"10"
 				"weight"	"400"
 				"additive"	"0"
@@ -1806,7 +1782,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"TF2C Secondary"
 				"tall"		"7"
 				"weight"	"400"
 				"additive"	"0"
@@ -1818,7 +1794,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"TF2C Secondary"
 				"tall"		"10"
 				"tall_hidef"	"12"
 				"tall_lodef"	"14"
@@ -1875,7 +1851,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2"
+				"name"		"TF2C"
 				"tall"		"12"
 				"weight"	"700"
 				"yres"		"480 599"
@@ -1975,7 +1951,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2"
+				"name"		"TF2C"
 				"tall"		"14"
 				"tall_lodef"	"18"
 				"range" 		"0x0000 0x00FF"
@@ -1988,7 +1964,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2"
+				"name"		"TF2C"
 				"tall"		"12"
 				"weight"	"500"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -2000,7 +1976,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2"
+				"name"		"TF2C"
 				"tall"		"8"
 				"weight"	"500"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -2053,7 +2029,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"TF2C Build"
 				"tall"		"36"
 				"tall_lodef"		"28"
 				"weight"	"500"
@@ -2063,7 +2039,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"TF2C Build"
 				"tall"		"30"
 				"tall_lodef"		"22"
 				"weight"	"500"
@@ -2073,7 +2049,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"TF2C Secondary"
 				"tall"		"28"
 				"tall_lodef"	"24"
 				"weight"	"500"
@@ -2101,7 +2077,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"TF2C Secondary"
 				"tall"		"22"
 				"weight"	"500"
 			}
@@ -2110,7 +2086,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"TF2C Secondary"
 				"tall"		"18"
 				"weight"	"500"
 			}
@@ -2149,7 +2125,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"TF2C Build"
 				"tall"		"36"
 				"weight"	"500"
 				"additive"	"0"
@@ -2160,7 +2136,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"TF2C Secondary"
 				"tall"		"11"
 				"weight"	"600"
 				"additive"	"0"
@@ -2171,7 +2147,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"TF2C Secondary"
 				"tall"		"18"
 				"weight"	"400"
 				"additive"	"0"
@@ -2257,7 +2233,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"TF2C Build"
 				"tall"		"8"
 				"weight"	"500"
 				"additive"	"0"
@@ -2268,7 +2244,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"TF2C Build"
 				"tall"		"9"
 				"weight"	"500"
 				"additive"	"0"
@@ -2279,7 +2255,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"TF2C Build"
 				"tall"		"12"
 				"weight"	"500"
 				"additive"	"0"
@@ -2290,7 +2266,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"TF2C Build"
 				"tall"		"18"
 				"weight"	"500"
 				"additive"	"0"
@@ -2301,7 +2277,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"TF2C Secondary"
 				"tall"		"7"
 				"weight"	"500"
 				"additive"	"0"
@@ -2322,7 +2298,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"TF2C Secondary"
 				"tall"		"8"
 				"weight"	"500"
 				"additive"	"0"
@@ -2333,7 +2309,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"TF2C Secondary"
 				"tall"		"11"
 				"weight"	"500"
 				"additive"	"0"
@@ -2344,7 +2320,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"TF2C Secondary"
 				"tall"		"14"
 				"weight"	"500"
 				"additive"	"0"
@@ -2356,7 +2332,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"TF2C Build"
 				"tall"		"9"
 				"weight"	"500"
 				"additive"	"0"
@@ -2367,12 +2343,13 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"TF2C Build"
 				"tall"		"9"
 				"weight"	"500"
 				"blur"		"3"
 				"additive"	"1"
 				"antialias" 	"1"
+				"custom"	"1"
 			}
 		}
 		"AchievementTracker_Desc"
@@ -2417,6 +2394,7 @@ Scheme
 				"blur"		"3"
 				"additive"	"1"
 				"antialias" 	"1"
+				"custom"	"1"
 			}
 		}
 		"ItemTrackerScore_InGame"
@@ -2434,7 +2412,6 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"OCR A Extended" [$WINDOWS]
 				"name"		"ocra"
 				"tall"		"10"
 				"weight"	"400"
@@ -2444,7 +2421,6 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"OCR A Extended" [$WINDOWS]
 				"name"		"ocra"
 				"tall"		"14"
 				"weight"	"400"
@@ -2454,8 +2430,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"OCR A Extended" [$WINDOWS]
-				"name"		"ocra"	
+				"name"		"ocra"
 				"tall"		"18"
 				"weight"	"400"
 				"additive"	"0"
@@ -2468,7 +2443,6 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"OCR A Extended" [$WINDOWS]
 				"name"		"ocra"
 				"tall"		"10"
 				"weight"	"800"
@@ -2478,7 +2452,6 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"OCR A Extended" [$WINDOWS]
 				"name"		"ocra"
 				"tall"		"14"
 				"weight"	"800"
@@ -2488,7 +2461,6 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"OCR A Extended" [$WINDOWS]
 				"name"		"ocra"
 				"tall"		"18"
 				"weight"	"800"
@@ -2502,7 +2474,6 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"OCR A Extended" [$WINDOWS]
 				"name"		"ocra"
 				"tall"		"16"
 				"weight"	"400"
@@ -2515,7 +2486,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Professor"
+				"name"		"TF2C Professor"
 				"tall"		"20"
 				"antialias" "1"
 				"custom"		"1" [$OSX]
@@ -2527,7 +2498,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"TF2C Secondary"
 				"tall"		"10"
 				"weight"	"400"
 				"yres"		"480 599"
@@ -2536,7 +2507,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"TF2C Secondary"
 				"tall"		"14"
 				"weight"	"400"
 				"additive"	"0"
@@ -2545,7 +2516,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"TF2C Secondary"
 				"tall"		"22"
 				"weight"	"400"
 				"additive"	"0"
@@ -2558,7 +2529,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"TF2C Secondary"
 				"tall"		"10"
 				"weight"	"400"
 				"yres"		"480 599"
@@ -2568,7 +2539,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"TF2C Secondary"
 				"tall"		"14"
 				"weight"	"400"
 				"additive"	"0"
@@ -2578,7 +2549,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"TF2C Secondary"
 				"tall"		"22"
 				"weight"	"400"
 				"additive"	"0"
@@ -2592,7 +2563,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"TF2C Secondary"
 				"tall"		"10"
 				"weight"	"800"
 				"yres"		"480 599"
@@ -2601,7 +2572,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"TF2C Secondary"
 				"tall"		"14"
 				"weight"	"800"
 				"additive"	"0"
@@ -2610,7 +2581,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"TF2C Secondary"
 				"tall"		"18"
 				"weight"	"800"
 				"additive"	"0"
@@ -2623,7 +2594,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"TF2C Secondary"
 				"tall"		"13"
 				"weight"	"400"
 				"additive"	"0"
@@ -2635,7 +2606,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"TF2C Secondary"
 				"tall"		"16"
 				"weight"	"400"
 				"additive"	"0"
@@ -2647,7 +2618,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"TF2C Secondary"
 				"tall"		"10"
 				"weight"	"400"
 				"additive"	"0"
@@ -2755,7 +2726,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"TF2C Secondary"
 				"tall"		"11"
 				"weight"	"500"
 				"additive"	"0"
@@ -2819,7 +2790,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"TF2C Build"
 				"tall"		"11"
 				"weight"	"500"
 				"additive"	"0"
@@ -2830,7 +2801,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"TF2C Build"
 				"tall"		"14"
 				"weight"	"500"
 				"additive"	"0"
@@ -2841,7 +2812,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2"
+				"name"		"TF2C"
 				"tall"		"18"
 				"tall_hidef"	"24"
 				"tall_lodef"	"18"
@@ -2854,7 +2825,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"TF2C Build"
 				"tall"		"24"
 				"weight"	"500"
 				"additive"	"0"
@@ -2865,7 +2836,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"TF2C Secondary"
 				"tall"		"18"
 				"tall_hidef"	"24"
 				"tall_lodef"	"20"
@@ -2882,7 +2853,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"TF2C Build"
 				"tall"		"14"
 				"weight"	"500"
 				"additive"	"0"
@@ -2893,7 +2864,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"TF2C Build"
 				"tall"		"24"
 				"weight"	"500"
 				"additive"	"0"
@@ -2905,7 +2876,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"TF2C Secondary"
 				"tall"		"15"
 				"weight"	"500"
 				"range"		"0x0000 0x007F"	//	Basic Latin
@@ -2918,7 +2889,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"TF2C Secondary"
 				"tall"		"9"
 				"weight"	"400"
 				"additive"	"0"
@@ -2926,108 +2897,6 @@ Scheme
 			}
 		}
 
-		"XPSource"
-		{
-			"1"
-			{
-				"name"		"TF2 Build"
-				"tall"		"11"
-				"weight"	"500"
-				"antialias" 	"1"
-			}
-		}
-
-		"XPSource_Glow"
-		{
-			"1"
-			{
-				"name"		"TF2 Build"
-				"tall"		"11"
-				"weight"	"500"
-				"blur"		"3"
-				"additive"	"1"
-				"antialias" 	"1"
-			}
-		}
-
-		"MapVotesPercentage"
-		{
-			"1"
-			{
-				"name"		"TF2 Build"
-				"tall"		"12"
-				"weight"	"500"
-				"additive"	"0"
-				"antialias" "1"
-				"dropshadow"	"1"
-			}
-		}
-
-		"QuestMap_Small_Blur"
-		{
-			"1"
-			{
-				"name"		"OCR A Extended" [$WINDOWS]
-				"name"		"ocra"
-				"tall"		"7"
-				"weight"	"0"
-				"blur"		"3"
-				"additive"	"1"
-				"antialias" 	"1"
-			}
-		}
-
-		"QuestMap_Small"
-		{
-			"1"
-			{
-				"name"		"OCR A Extended" [$WINDOWS]
-				"name"		"ocra"		
-				"tall"		"7"
-				"weight"	"400"
-				"additive"	"0"
-				"antialias" "1"
-			}
-		}
-
-		"QuestMap_Medium"
-		{
-			"1"
-			{
-				"name"		"OCR A Extended" [$WINDOWS]
-				"name"		"ocra"
-				"tall"		"10"
-				"weight"	"400"
-				"additive"	"0"
-				"antialias" "1"
-			}
-		}
-
-		"QuestMap_Large"
-		{
-			"1"
-			{
-				"name"		"OCR A Extended" [$WINDOWS]
-				"name"		"ocra"
-				"tall"		"14"
-				"weight"	"400"
-				"additive"	"0"
-				"antialias" "1"
-			}
-		}
-
-		"QuestMap_Huge"
-		{
-			"1"
-			{
-				"name"		"OCR A Extended" [$WINDOWS]
-				"name"		"ocra"
-				"tall"		"30"
-				"weight"	"400"
-				"additive"	"0"
-				"antialias" "1"
-			}
-		}
 	}
 
 	//
@@ -3444,6 +3313,72 @@ Scheme
 			"backgroundtype"		"2"
 			
 			"image"					"../hud/color_panel_blu_opaque"
+			"src_corner_height"		"23"				// pixels inside the image
+			"src_corner_width"		"23"
+			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"5"	
+		}
+		TFFatLineBorderGreenBG
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			
+			"image"					"../hud/color_panel_grn"
+			"src_corner_height"		"23"				// pixels inside the image
+			"src_corner_width"		"23"
+			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"5"	
+		}
+		TFFatLineBorderGreenBGMoreOpaque
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			
+			"image"					"../hud/color_panel_grn_more_opaque"
+			"src_corner_height"		"23"				// pixels inside the image
+			"src_corner_width"		"23"
+			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"5"	
+		}
+		TFFatLineBorderGreenBGOpaque
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			
+			"image"					"../hud/color_panel_grn_opaque"
+			"src_corner_height"		"23"				// pixels inside the image
+			"src_corner_width"		"23"
+			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"5"	
+		}
+		TFFatLineBorderYellowBG
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			
+			"image"					"../hud/color_panel_ylw"
+			"src_corner_height"		"23"				// pixels inside the image
+			"src_corner_width"		"23"
+			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"5"	
+		}
+		TFFatLineBorderYellowBGMoreOpaque
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			
+			"image"					"../hud/color_panel_ylw_more_opaque"
+			"src_corner_height"		"23"				// pixels inside the image
+			"src_corner_width"		"23"
+			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"5"	
+		}
+		TFFatLineBorderYellowBGOpaque
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			
+			"image"					"../hud/color_panel_ylw_opaque"
 			"src_corner_height"		"23"				// pixels inside the image
 			"src_corner_width"		"23"
 			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
@@ -4915,36 +4850,23 @@ Scheme
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-
+			
 			"image"					"alert_rect"
 			"src_corner_height"		"32"				// pixels inside the image
 			"src_corner_width"		"32"
 			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"4"
+			"draw_corner_height" 	"4"	
 		}
-
-		NotificationHighPriority
-		{
-			"bordertype"			"scalable_image"
-			"backgroundtype"		"2"
-
-			"image"					"button_holder_central"
-			"src_corner_height"		"32"				// pixels inside the image
-			"src_corner_width"		"32"
-			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"4"
-		}
-
 		MainMenuButtonDepressed
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-
+			
 			"image"					"button_central_depressed"
 			"src_corner_height"		"32"				// pixels inside the image
 			"src_corner_width"		"32"
 			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"4"
+			"draw_corner_height" 	"4"	
 		}
 		MainMenuButtonDepressedArmed
 		{
@@ -5312,7 +5234,6 @@ Scheme
 			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"5"	
 		}
-
 		ReplayFatLineBorderOpaque
 		{
 			"bordertype"			"scalable_image"
@@ -5465,251 +5386,6 @@ Scheme
 			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"4"	
 		}
-
-		OuterShadowBorder
-		{
-			"bordertype"			"scalable_image"
-			"backgroundtype"		"2"
-			
-			"image"					"outer_shadow_border"
-			"src_corner_height"		"8"				// pixels inside the image
-			"src_corner_width"		"8"
-			"draw_corner_width"		"8"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"8"	
-		}
-
-		OuterShadowBorderThin
-		{
-			"bordertype"			"scalable_image"
-			"backgroundtype"		"2"
-			
-			"image"					"outer_shadow_border"
-			"src_corner_height"		"8"				// pixels inside the image
-			"src_corner_width"		"8"
-			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"4"	
-		}
-
-		CYOAScreenBorder
-		{
-			"bordertype"			"scalable_image"
-			"backgroundtype"		"2"
-			
-			"image"					"cyoa/cyoa_map_screen_border"
-			"src_corner_height"		"63"				// pixels inside the image
-			"src_corner_width"		"63"
-			"draw_corner_width"		"26"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"26"	
-		}
-
-		CYOANodeViewBorder
-		{
-			"bordertype"			"scalable_image"
-			"backgroundtype"		"2"
-			
-			"image"					"cyoa/node_view_border"
-			"src_corner_height"		"127"				// pixels inside the image
-			"src_corner_width"		"127"
-			"draw_corner_width"		"24"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"24"	
-		}
-
-		CYOANodeViewBorder_Active
-		{
-			"bordertype"			"scalable_image"
-			"backgroundtype"		"2"
-			
-			"image"					"cyoa/node_view_border_active"
-			"src_corner_height"		"127"				// pixels inside the image
-			"src_corner_width"		"127"
-			"draw_corner_width"		"24"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"24"	
-		}
-
-		CYOANodeViewBorder_Inactive
-		{
-			"bordertype"			"scalable_image"
-			"backgroundtype"		"2"
-			
-			"image"					"cyoa/node_view_border_inactive"
-			"src_corner_height"		"127"				// pixels inside the image
-			"src_corner_width"		"127"
-			"draw_corner_width"		"24"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"24"	
-		}
-
-		CYOANodeViewBorder_TurnIn
-		{
-			"bordertype"			"scalable_image"
-			"backgroundtype"		"2"
-			
-			"image"					"cyoa/node_view_border_turnin"
-			"src_corner_height"		"127"				// pixels inside the image
-			"src_corner_width"		"127"
-			"draw_corner_width"		"24"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"24"	
-		}
-
-		CYOAPopupBorder
-		{
-			"inset" "0 0 1 1"
-			Left
-			{
-				"1"
-				{
-					"color" "QuestMap_ActiveOrange"
-					"offset" "0 1"
-				}
-				"2"
-				{
-					"color" "QuestMap_ActiveOrange"
-					"offset" "0 1"
-				}
-			}
-
-			Right
-			{
-				"1"
-				{
-					"color" "QuestMap_ActiveOrange"
-					"offset" "1 0"
-				}
-				"2"
-				{
-					"color" "QuestMap_ActiveOrange"
-					"offset" "1 0"
-				}
-			}
-
-			Top
-			{
-				"1"
-				{
-					"color" "QuestMap_ActiveOrange"
-					"offset" "0 0"
-				}
-				"2"
-				{
-					"color" "QuestMap_ActiveOrange"
-					"offset" "0 0"
-				}
-			}
-
-			Bottom
-			{
-				"1"
-				{
-					"color" "QuestMap_ActiveOrange"
-					"offset" "0 0"
-				}
-				"2"
-				{
-					"color" "QuestMap_ActiveOrange"
-					"offset" "0 0"
-				}
-			}
-		}
-
-		FriendHighlightBorder
-		{
-			"inset" "0 0 1 1"
-			Left
-			{
-				"1"
-				{
-					"color" "CreditsGreen"
-					"offset" "0 1"
-				}
-
-			}
-
-			Right
-			{
-				"1"
-				{
-					"color" "CreditsGreen"
-					"offset" "1 0"
-				}
-			}
-
-			Top
-			{
-				"1"
-				{
-					"color" "CreditsGreen"
-					"offset" "0 0"
-				}
-			}
-
-			Bottom
-			{
-				"1"
-				{
-					"color" "CreditsGreen"
-					"offset" "0 0"
-				}
-			}
-		}
-
-		FriendHighlightBorderThick
-		{
-			"inset" "0 0 1 1"
-			Left
-			{
-				"1"
-				{
-					"color" "CreditsGreen"
-					"offset" "0 1"
-				}
-				"2"
-				{
-					"color" "CreditsGreen"
-					"offset" "0 1"
-				}
-			}
-
-			Right
-			{
-				"1"
-				{
-					"color" "CreditsGreen"
-					"offset" "1 0"
-				}
-				"2"
-				{
-					"color" "CreditsGreen"
-					"offset" "1 0"
-				}
-			}
-
-			Top
-			{
-				"1"
-				{
-					"color" "CreditsGreen"
-					"offset" "0 0"
-				}
-				"2"
-				{
-					"color" "CreditsGreen"
-					"offset" "0 0"
-				}
-			}
-
-			Bottom
-			{
-				"1"
-				{
-					"color" "CreditsGreen"
-					"offset" "0 0"
-				}
-				"2"
-				{
-					"color" "CreditsGreen"
-					"offset" "0 0"
-				}
-			}
-		}
 	}
 
 	//////////////////////// CUSTOM FONT FILES /////////////////////////////
@@ -5724,48 +5400,76 @@ Scheme
 		"2" "resource/tfd.ttf"
 		"3"
 		{
-			"font" "resource/TF2.ttf"
-			"name" "TF2"
+			"font" "resource/TF2C.ttf"
+			"name" "TF2C"
 			"russian"
 			{
 				"range" "0x0000 0xFFFF"
 			}
+			"bulgarian"
+			{
+				"range" "0x0000 0xFFFF"
+			}
 			"polish"
+			{
+				"range" "0x0000 0xFFFF"
+			}
+			"romanian"
 			{
 				"range" "0x0000 0xFFFF"
 			}
 		}
 		"4" 
 		{
-			"font" "resource/TF2Secondary.ttf"
-			"name" "TF2 Secondary"
+			"font" "resource/TF2CSecondary.ttf"
+			"name" "TF2C Secondary"
 			"russian"
 			{
 				"range" "0x0000 0xFFFF"
 			}
+			"bulgarian"
+			{
+				"range" "0x0000 0xFFFF"
+			}
 			"polish"
+			{
+				"range" "0x0000 0xFFFF"
+			}
+			"romanian"
 			{
 				"range" "0x0000 0xFFFF"
 			}
 		}
 		"5" 
 		{
-			"font" "resource/TF2Professor.ttf"
-			"name" "TF2 Professor"
+			"font" "resource/TF2CProfessor.ttf"
+			"name" "TF2C Professor"
 			"russian"
 			{
-				"range" "0x0000 0x00FF"
+				"range" "0x0000 0xFFFF"
+			}
+			"bulgarian"
+			{
+				"range" "0x0000 0xFFFF"
 			}
 			"polish"
 			{
 				"range" "0x0000 0x00FF"
+			}
+			"romanian"
+			{
+				"range" "0x0000 0xFFFF"
 			}
 		}	
 		"6" 
 		{
-			"font" "resource/TF2Build.ttf"
-			"name" "TF2 Build"
+			"font" "resource/TF2CBuild.ttf"
+			"name" "TF2C Build"
 			"russian"
+			{
+				"range" "0x0000 0xFFFF"
+			}
+			"bulgarian"
 			{
 				"range" "0x0000 0xFFFF"
 			}
@@ -5774,70 +5478,14 @@ Scheme
 				"range" "0x0000 0xFFFF"
 			}
 			"turkish"
+			{
+				"range" "0x0000 0xFFFF"
+			}
+			"romanian"
 			{
 				"range" "0x0000 0xFFFF"
 			}
 		}			
-		"7"
-		{
-			"font"	"resource/ocra.ttf"
-			"name" "ocra"
-			"turkish"
-			{
-				"range" "0x0000 0x007E"
-			}
-			"swedish"
-			{
-				"range" "0x0000 0x007E"
-			}
-			"spanish"
-			{
-				"range" "0x0000 0x007E"
-			}
-			"romanian"
-			{
-				"range" "0x0000 0x007E"
-			}
-			"polish"
-			{
-				"range" "0x0000 0x007E"
-			}
-			"norwegian"
-			{
-				"range" "0x0000 0x007E"
-			}
-			"danish"
-			{
-				"range" "0x0000 0x007E"
-			}
-			"hungarian"
-			{
-				"range" "0x0000 0x007E"
-			}
-			"german"
-			{
-				"range" "0x0000 0x007E"
-			}
-			"french"
-			{
-				"range" "0x0000 0x007E"
-			}
-			"finnish"
-			{
-				"range" "0x0000 0x007E"
-			}
-			"czech"
-			{
-				"range" "0x0000 0x007E"
-			}
-			"bulgarian"
-			{
-				"range" "0x0000 0x007E"
-			}
-			"russian"
-			{
-				"range" "0x0000 0x007E"
-			}
-		}
+		"7" "resource/ocra.ttf"
 	}
 }

@@ -47,5 +47,46 @@
 				"xpos"			"99999"
 			}
 		}
+		
+		"DisconnectButton"
+		{
+			"defaultFgColor_override" "colorwhite"
+			"armedFgColor_override" "colorwhite"
+			"image_drawcolor"	"colorwhite"
+			"image_armedcolor"	"colorwhite"
+
+			"SubImage"
+			{
+				"drawcolor_override" "colorwhite"
+			}
+		}
+
+		"ResumeButton"
+		{
+			"defaultFgColor_override" "colorwhite"
+			"armedFgColor_override" "colorwhite"
+			"image_drawcolor"	"colorwhite"
+			"image_armedcolor"	"colorwhite"
+
+			"SubImage"
+			{
+				"drawcolor_override" "colorwhite"
+			}
+		}
+		
+		"FindAGameButton"
+		{
+			"defaultFgColor_override" "colorwhite"
+			"armedFgColor_override" "colorwhite"
+			"image_drawcolor"	"colorwhite"
+			"image_armedcolor"	"colorwhite"
+
+			"SubImage"
+			{
+				"image"			"replay/thumbnails/icons/glyph_tf2"
+
+				"drawcolor_override" "colorwhite"
+			}
+		}
 	}
 }

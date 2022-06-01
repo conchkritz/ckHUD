@@ -1,45 +1,52 @@
 "GameMenu" [$WIN32]
 {
-	"VRModeButton"
+	"1"
 	{
-		"label" "#MMenu_VRMode_Activate"
-		"command" "engine vr_toggle"
-		"subimage" "glyph_vr"
-		"OnlyWhenVREnabled" "1"
+		"label" "#GameUI_GameMenu_ResumeGame"
+		"command" "ResumeGame"
+		"OnlyInGame" "1"
 	}
-
-	// These buttons are only shown while in-game
-	// and also are positioned by the .res file
-	"CallVoteButton"
+	"2"
 	{
-		"label"			""
-		"command"		"callvote"
-		"OnlyInGame"	"1"
-		"subimage" "icon_checkbox"
-		"tooltip" "#MMenu_CallVote"
+		"label" "#GameUI_GameMenu_Disconnect"
+		"command" "Disconnect"
+		"OnlyInGame" "1"
 	}
-	"MutePlayersButton"
+	"3"
 	{
-		"label"			""
-		"command"		"OpenMutePlayerDialog"
-		"OnlyInGame"	"1"
-		"subimage" "glyph_muted"
-		"tooltip" "#MMenu_MutePlayers"
+		"label" "#GameUI_GameMenu_PlayerList"
+		"command" "OpenPlayerListDialog"
+		"OnlyInGame" "1"
+	} 
+	"4"
+	{
+		"label" "#GameUI_GameMenu_FindServers" 
+		"command" "OpenServerBrowser"
+	} 
+	"5"
+	{
+		"label" "#GameUI_GameMenu_CreateServer"
+		"command" "OpenCreateMultiplayerGameDialog"
 	}
-	"RequestCoachButton"
+	"7"
 	{
-		"label"			""
-		"command"		"engine cl_coach_find_coach"
-		"OnlyInGame"	"1"
-		"subimage" "icon_whistle"
-		"tooltip" "#MMenu_RequestCoach"
+		"label"	"#GameUI_LoadCommentary"
+		"command" "OpenLoadSingleplayerCommentaryDialog"
 	}
-	"ReportPlayerButton"
+	"8"
 	{
-		"label"			""
-		"command"		"OpenReportPlayerDialog"
-		"OnlyInGame"	"1"
-		"subimage"		"glyph_alert"
-		"tooltip"		"#MMenu_ReportPlayer"
+		"label" "#GameUI_Controller"
+		"command" "OpenControllerDialog"
+		"ConsoleOnly" "1"
+	}
+	"9"
+	{
+		"label" "#GameUI_GameMenu_Options"
+		"command" "OpenOptionsDialog"
+	}
+	"10"
+	{
+		"label" "#GameUI_GameMenu_Quit"
+		"command" "Quit"
 	}
 }

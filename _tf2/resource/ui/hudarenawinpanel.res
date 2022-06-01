@@ -12,35 +12,33 @@
 
 		"BlueScoreBG"
 		{
-			"ControlName"		"ImagePanel"
+			"ControlName"		"EditablePanel"
 			"fieldName"		"BlueScoreBG"
-			"xpos"			"0"
-			"ypos"			"13"
-			"wide"			"240"
-			"tall"			"50"
+			"xpos"			"50"
+			"ypos"			"15"
+			"wide"			"135"
+			"tall"			"40"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"image"			"../hud/winpanel_blue_bg_team"
-			"image_lodef"	"../hud/winpanel_blue_bg_team_lodef"
-			"scaleImage"		"1"
+			
+			"border"		"TFFatLineBorderBlueBGMoreOpaque"
 		}
 		"RedScoreBG"
 		{
-			"ControlName"		"ImagePanel"
+			"ControlName"		"EditablePanel"
 			"fieldName"		"RedScoreBG"
-			"xpos"			"140"
-			"ypos"			"13"
-			"wide"			"240"
-			"tall"			"50"
+			"xpos"			"197"
+			"ypos"			"15"
+			"wide"			"135"
+			"tall"			"40"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"image"			"../hud/winpanel_red_bg_team"
-			"image_lodef"	"../hud/winpanel_red_bg_team_lodef"
-			"scaleImage"		"1"
+			
+			"border"		"TFFatLineBorderRedBGMoreOpaque"
 		}
 		"BlueTeamLabel"
 		{
@@ -203,18 +201,20 @@
 		}
 	}
 
-	"WinPanelBG"
+	"WinPanelBGBorder"
 	{
-		"ControlName"		"ImagePanel"
-		"fieldName"		"WinPanelBG"
-		"xpos"			"-123"
-		"ypos"			"59"
+		"ControlName"		"EditablePanel"
+		"fieldName"		"WinPanelBGBorder"
+		"xpos"			"cs-0.494"
+		"ypos"			"78"
 		"zpos"			"0"
-		"wide"			"700"
-		"tall"			"174"
+		"wide"			"p0.88"
+		"tall"			"136"
 		"visible"		"1"
 		"enabled"		"1"
-		"scaleImage"		"1"	
+		"scaleImage"		"1"
+		"border"		"TFFatLineBorderBlueBG"
+		"proportionaltoparent"	"1"
 	}
 	"WinningTeamLabel"
 	{	
@@ -259,7 +259,7 @@
 	"LosingTeamLabel"
 	{	
 		"ControlName"		"CExLabel"
-		"fieldName"		"WinningTeamLabel"
+		"fieldName"		"LosingTeamLabel"
 		"font"			"ScoreboardTeamName"
 		"xpos"			"0"
 		"ypos"			"78"
@@ -278,7 +278,7 @@
 	"LosingTeamLabelDropshadow"
 	{	
 		"ControlName"		"CExLabel"
-		"fieldName"		"WinningTeamLabelDropshadow"
+		"fieldName"		"LosingTeamLabelDropshadow"
 		"font"			"ScoreboardTeamName"
 		"fgcolor"		"black"
 		"xpos"			"1"
@@ -354,7 +354,7 @@
 	"TopPlayersLabel"
 	{	
 		"ControlName"		"CExLabel"
-		"fieldName"		"TopPlayerLabel"
+		"fieldName"		"TopPlayersLabel"
 		"font"			"ScoreboardVerySmall"
 		"xpos"			"45"
 		"ypos"			"120"
@@ -392,7 +392,7 @@
 	"HealingThisRoundLabel"
 	{	
 		"ControlName"		"CExLabel"
-		"fieldName"		"PointsThisRoundLabel"
+		"fieldName"		"HealingThisRoundLabel"
 		"font"			"ScoreboardVerySmall"
 		"xpos"			"310"
 		"ypos"			"120"
@@ -411,7 +411,7 @@
 	"LifetimeThisRoundLabel"
 	{	
 		"ControlName"		"CExLabel"
-		"fieldName"		"PointsThisRoundLabel"
+		"fieldName"		"LifetimeThisRoundLabel"
 		"font"			"ScoreboardVerySmall"
 		"xpos"			"355"
 		"ypos"			"120"
@@ -430,7 +430,7 @@
 	"KillingBlowsThisRoundLabel"
 	{	
 		"ControlName"		"CExLabel"
-		"fieldName"		"PointsThisRoundLabel"
+		"fieldName"		"KillingBlowsThisRoundLabel"
 		"font"			"ScoreboardVerySmall"
 		"xpos"			"395"
 		"ypos"			"120"

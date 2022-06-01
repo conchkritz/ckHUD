@@ -29,7 +29,22 @@
 		"enabled"		"0"
 		"tabPosition"	"0"
 	}
-	
+	"RandomBackground"
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"RandomBackground"
+		"xpos"				"c250"
+		"xpos_lodef"				"c217"
+		"xpos_hidef"				"c238"
+		"ypos"				"-5"
+		"ypos_lodef"				"9"
+		"ypos_hidef"				"0"
+		"zpos"			"5"
+		"wide"			"50"
+		"tall"			"100"
+		"image"			"class_background_single"
+		"scaleImage"	"1"
+	}
 	"random"
 	{
 		"ControlName"		"CExImageButton"
@@ -118,6 +133,22 @@
 		"font_lodef"			"MenuMainTitle"
 		"fgcolor"		"TanDark"
 		"fgcolor_lodef"	"TanLight"
+	}
+	"OffenseBackground"
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"OffenseBackground"
+		"xpos"				"c-300"
+		"xpos_hidef"				"c-290"
+		"xpos_lodef"		"c-265"
+		"ypos"				"-5"
+		"ypos_lodef"				"9"
+		"ypos_hidef"				"0"
+		"zpos"			"5"
+		"wide"			"150"
+		"tall"			"100"
+		"image"			"class_background"
+		"scaleImage"	"1"
 	}
 	"scout"
 	{
@@ -316,7 +347,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"Defense"
 		"xpos"			"c-110"
-		"xpos_hidef"			"c-105"
+		"xpos_hidef"	"c-105"
 		"xpos_lodef"	"c-95"
 		"ypos"			"96"
 		"ypos_hidef"			"102"
@@ -336,6 +367,32 @@
 		"font_lodef"			"MenuMainTitle"
 		"fgcolor"		"TanDark"
 		"fgcolor_lodef"	"TanLight"
+		"if_special_classes"
+		{
+			"xpos"			"c-138"
+			"xpos_hidef"	"c-133"
+			"xpos_lodef"	"c-123"
+		}
+	}
+	"DefenseBackground"
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"DefenseBackground"
+		"xpos"				"c-110"
+		"xpos_lodef"		"c-100"
+		"ypos"				"-5"
+		"ypos_lodef"				"9"
+		"ypos_hidef"				"0"
+		"zpos"			"5"
+		"wide"			"150"
+		"tall"			"100"
+		"image"			"class_background"
+		"scaleImage"	"1"
+		"if_special_classes"
+		{
+			"xpos"				"c-138"
+			"xpos_lodef"		"c-128"
+		}
 	}
 	"demoman"
 	{
@@ -397,7 +454,12 @@
 			"enabled"		"1"
 			"image"			"class_sel_sm_demo_inactive"
 			"scaleImage"	"1"
-		}				
+		}	
+		"if_special_classes"
+		{
+			"xpos"				"c-138"
+			"xpos_lodef"		"c-128"
+		}		
 	}	
 	"heavyweapons"
 	{
@@ -459,7 +521,12 @@
 			"enabled"		"1"
 			"image"			"class_sel_sm_heavy_inactive"
 			"scaleImage"	"1"
-		}				
+		}		
+		"if_special_classes"
+		{
+			"xpos"				"c-88"
+			"xpos_lodef"		"c-83"
+		}			
 	}
 	"engineer"
 	{
@@ -520,6 +587,10 @@
 			"enabled"		"1"
 			"image"			"class_sel_sm_engineer_inactive"
 			"scaleImage"	"1"
+		}		
+		"if_special_classes"
+		{
+			"xpos"				"c-38"
 		}				
 	}
 	
@@ -528,7 +599,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"Support"
 		"xpos"			"c76"
-		"xpos_hidef"			"c74"
+		"xpos_hidef"	"c74"
 		"xpos_lodef"	"c70"
 		"ypos"			"96"
 		"ypos_hidef"			"102"
@@ -548,13 +619,41 @@
 		"font_lodef"			"MenuMainTitle"
 		"fgcolor"		"TanDark"
 		"fgcolor_lodef"	"TanLight"
+		"if_special_classes"
+		{
+			"xpos"			"c23"
+			"xpos_hidef"	"c21"
+			"xpos_lodef"	"c17"
+		}
+	}
+	"SupportBackground"
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"SupportBackground"
+		"xpos"				"c78"
+		"xpos_hidef"				"c70"
+		"xpos_lodef"		"c65"
+		"ypos"				"-5"
+		"ypos_lodef"				"9"
+		"ypos_hidef"				"0"
+		"zpos"			"5"
+		"wide"			"150"
+		"tall"			"100"
+		"image"			"class_background"
+		"scaleImage"	"1"
+		"if_special_classes"
+		{
+			"xpos"				"c25"
+			"xpos_hidef"		"c17"
+			"xpos_lodef"		"c12"
+		}
 	}
 	"medic"
 	{
 		"ControlName"		"CExImageButton"
 		"fieldName"			"medic"
 		"xpos"				"c78"
-		"xpos_hidef"				"c70"
+		"xpos_hidef"		"c70"
 		"xpos_lodef"		"c65"
 		"ypos"				"-5"
 		"ypos_lodef"				"9"
@@ -610,14 +709,20 @@
 			"enabled"		"1"
 			"image"			"class_sel_sm_medic_inactive"
 			"scaleImage"	"1"
-		}				
+		}	
+		"if_special_classes"
+		{
+			"xpos"				"c25"
+			"xpos_hidef"		"c17"
+			"xpos_lodef"		"c12"
+		}		
 	}
 	"sniper"
 	{
 		"ControlName"		"CExImageButton"
 		"fieldName"			"sniper"
 		"xpos"				"c128"
-		"xpos_hidef"				"c120"
+		"xpos_hidef"		"c120"
 		"xpos_lodef"		"c105"
 		"ypos"				"-5"
 		"ypos_lodef"				"9"
@@ -673,14 +778,20 @@
 			"enabled"		"1"
 			"image"			"class_sel_sm_sniper_inactive"
 			"scaleImage"	"1"
-		}				
+		}
+		"if_special_classes"
+		{
+			"xpos"				"c75"
+			"xpos_hidef"		"c67"
+			"xpos_lodef"		"c52"
+		}		
 	}
 	"spy"
 	{
 		"ControlName"		"CExImageButton"
 		"fieldName"			"spy"
 		"xpos"				"c178"
-		"xpos_hidef"				"c170"
+		"xpos_hidef"		"c170"
 		"xpos_lodef"		"c145"
 		"ypos"				"-5"
 		"ypos_lodef"				"9"
@@ -736,9 +847,149 @@
 			"enabled"		"1"
 			"image"			"class_sel_sm_spy_inactive"
 			"scaleImage"	"1"
-		}				
+		}
+		"if_special_classes"
+		{
+			"xpos"				"c125"
+			"xpos_hidef"		"c117"
+			"xpos_lodef"		"c92"
+		}		
 	}	
 
+	"Special"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"VIP"
+		"xpos"			"c187"
+		"xpos_hidef"	"c69"
+		"xpos_lodef"	"c65"
+		"ypos"			"96"
+		"ypos_hidef"			"102"
+		"ypos_lodef"	"116"
+		"zpos"			"2"
+		"wide"			"90"
+		"tall"			"12"
+		"tall_lodef"			"22"
+		"autoResize"	"1"
+		"pinCorner"		"2"
+		"tabPosition"	"0"
+		"labelText"		"#TF_Special"
+		"textAlignment"	"left"
+		"font"			"MenuClassBuckets"
+		"font_lodef"			"MenuMainTitle"
+		"fgcolor"		"TanDark"
+		"fgcolor_lodef"	"TanLight"
+		"visible"			"0"
+		"if_special_classes"
+		{
+				"visible"			"1"
+		}	
+	}
+	"SpecialBackground"
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"SpecialBackground"
+		"xpos"			"c187"
+		"xpos_lodef"	"c204"
+		"xpos_hidef"	"c225"
+		"ypos"			"-5"
+		"ypos_lodef"	"9"
+		"ypos_hidef"	"0"
+		"zpos"			"5"
+		"wide"			"50"
+		"tall"			"100"
+		"image"			"class_background_single"
+		"scaleImage"	"1"
+		"visible"		"0"
+		"if_special_classes"
+		{
+				"visible"			"1"
+		}
+	}
+	"civilian"
+	{
+		"ControlName"		"CExImageButton"
+		"fieldName"			"civilian"
+		"xpos"				"c187"
+		"ypos"				"-5"
+		"ypos_lodef"				"9"
+		"ypos_hidef"				"0"	
+		"zpos"				"6"
+		"wide"				"50"
+		"tall"				"100"
+		"autoResize"		"0"
+		"pinCorner"			"2"
+		"tabPosition"		"0"
+		"labelText"			""
+		"textAlignment"		"south-west"
+		"Command"			"select 10"
+		"font"				"MenuKeys"
+		"scaleImage"		"1"
+		
+		"image_default"		"class_sel_sm_civilian_inactive"
+		"image_armed"		"class_sel_sm_civilian_red"
+		
+		"fgcolor"			"TanDark"
+		"defaultFgColor_override" "TanDark"
+		"armedFgColor_override" "TanDark"
+		"depressedFgColor_override" "TanDark"
+		
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
+		"sound_armed"		"UI/buttonrollover.wav"
+		
+		"paintbackground"	"0"
+		
+		"image_drawcolor"		"255 255 255 180"
+		"image_armedcolor"		"255 255 255 255"
+		"image_selectedcolor"	"255 255 255 255"
+		
+		"stayselectedonclick"	"1"
+		"selectonhover"			"1"
+		"keyboardinputenabled"	"0"
+		
+		"SubImage"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"SubImage"
+			"xpos"			"0"
+			"ypos"			"0"
+			"zpos"			"7"
+			"wide"			"50"
+			"tall"			"100"
+			"image"			"class_sel_sm_civilian_red"
+			"scaleImage"	"1"
+		}
+		"visible"			"0"
+		"if_special_classes"
+		{
+				"visible"			"1"
+		}		
+	}
+	"numCivilian" [$WIN32]
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"numCivilian"
+		"xpos"			"c187"
+		"ypos"			"10"
+		"zpos"			"5"
+		"wide"			"50"
+		"tall"			"12"
+		"autoResize"	"1"
+		"pinCorner"		"2"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"labelText"		"%numCivilian%"
+		"textAlignment"	"center"
+		"font"			"MenuClassBuckets"
+		"fgcolor"		"TanLight"
+		"visible"			"0"
+		"if_special_classes"
+		{
+				"visible"			"1"
+				
+		}	
+	}
 	"CancelButton" [$WIN32] 
 	{
 		"ControlName"	"CExButton"
@@ -1252,6 +1503,10 @@
 		"textAlignment"	"center"
 		"font"			"MenuClassBuckets"
 		"fgcolor"		"TanLight"
+		"if_special_classes"
+		{
+			"xpos"			"c-138"
+		}
 	}				
 	
 	"numHeavy" [$WIN32]
@@ -1272,6 +1527,10 @@
 		"textAlignment"	"center"
 		"font"			"MenuClassBuckets"
 		"fgcolor"		"TanLight"
+		"if_special_classes"
+		{
+			"xpos"			"c-88"
+		}
 	}					
 	
 	"numEngineer" [$WIN32]
@@ -1292,6 +1551,10 @@
 		"textAlignment"	"center"
 		"font"			"MenuClassBuckets"
 		"fgcolor"		"TanLight"
+		"if_special_classes"
+		{
+			"xpos"			"c-38"
+		}
 	}						
 	
 	"numMedic" [$WIN32]
@@ -1312,6 +1575,10 @@
 		"textAlignment"	"center"
 		"font"			"MenuClassBuckets"
 		"fgcolor"		"TanLight"
+		"if_special_classes"
+		{
+			"xpos"				"c25"
+		}
 	}							
 	
 	"numSniper" [$WIN32]
@@ -1332,6 +1599,10 @@
 		"textAlignment"	"center"
 		"font"			"MenuClassBuckets"
 		"fgcolor"		"TanLight"
+		"if_special_classes"
+		{
+			"xpos"				"c75"
+		}
 	}						
 	
 	"numSpy" [$WIN32]
@@ -1352,7 +1623,11 @@
 		"textAlignment"	"center"
 		"font"			"MenuClassBuckets"
 		"fgcolor"		"TanLight"
-	}								
+		"if_special_classes"
+		{
+			"xpos"				"c125"
+		}
+	}			
 	
 	"MvMUpgradeImageScout"
 	{
@@ -1616,30 +1891,84 @@
 		"enabled"		"1"
 		
 		"render_texture"	"0"
-		"fov"			"25"
-		"allow_rot"		"0"
-
-		"paintbackground" "1"		
-		"paintbackgroundenabled" "1"
-		"bgcolor_override" "255 255 255 0"
+		"fov"				"25"
+		"allow_rot"			"0"
+		
+		"lights"
+		{
+			"spotlight"
+			{
+				"name"					"spot"
+				"color" 				"0.85 0.85 0.85"
+				"attenuation"			"0.9 0 0"
+				"origin"				"0 0 200"
+				"direction"				"320 10 0"
+				"inner_cone_angle"		"5"
+				"outer_cone_angle"		"200"
+				"maxDistance"			"0"
+				"exponent"				"5"
+			}
+		}
 		
 		"model"
 		{
-			"force_pos"	"1"
+			"force_pos"			"1"
 
-			"angles_x" "0"
-			"angles_y" "180"
-			"angles_z" "0"
-			"origin_x" "320"
-			"origin_y" "10"
-			"origin_z" "-49"
+			"angles_x"			"0"
+			"angles_y"			"180"
+			"angles_z"			"0"
+			"origin_x"			"320"
+			"origin_y"			"10"
+			"origin_z"			"-49"
 			"frame_origin_x"	"0"
 			"frame_origin_y"	"0"
 			"frame_origin_z"	"0"
-			"spotlight" "1"
+			"spotlight"			"1"
 		
-			"modelname"		""
-			"vcd"		"class_select.vcd"
+			"modelname"			"error.mdl"
+			"vcd"				"class_select.vcd"		
+			
+			"animation"
+			{
+				"name"			"PRIMARY"
+				"activity"		"ACT_MP_STAND_PRIMARY"
+				"default"		"1"
+			}
+			"animation"
+			{
+				"name"			"SECONDARY"
+				"activity"		"ACT_MP_STAND_SECONDARY"
+			}
+			"animation"
+			{
+				"name"			"MELEE"
+				"activity"		"ACT_MP_STAND_MELEE"
+			}
+			"animation"
+			{
+				"name"			"BUILDING"
+				"activity"		"ACT_MP_STAND_BUILDING"
+			}
+			"animation"
+			{
+				"name"			"PDA"
+				"activity"		"ACT_MP_STAND_PDA"
+			}
+			"animation"
+			{
+				"name"			"ITEM1"
+				"activity"		"ACT_MP_STAND_ITEM1"
+			}						
+			"animation"
+			{
+				"name"			"ITEM2"
+				"activity"		"ACT_MP_STAND_ITEM2"
+			}	
+			"animation"
+			{
+				"name"			"MELEE_ALLCLASS"
+				"activity"		"ACT_MP_STAND_MELEE_ALLCLASS"
+			}								
 		}
 	}
 	

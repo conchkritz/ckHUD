@@ -5,25 +5,25 @@ Scheme
 	// controls use these to determine their settings
 	BaseSettings
 	{
-		ReplayBrowser.Search.BgColor						"TanDarkOld"
+//		ReplayBrowser.Search.BgColor						"TanDarkOld"
 		
-		Econ.Button.BgColor									"TanDarkOld"
+//		Econ.Button.BgColor									"TanDarkOld"
 
-		Button.BgColor					"TanDarkOld"
+//		Button.BgColor					"TanDarkOld"
 
-		Label.TextDullColor				"TanDarkOld"
+//		Label.TextDullColor				"TanDarkOld"
 
-		Menu.ArmedTextColor				"TanDarkOld"
+//		Menu.ArmedTextColor				"TanDarkOld"
 		
 		Label.DisabledFgColor2			"colorblack"
 		
-		CheckButton.TextColor			"colorwhite"
-		CheckButton.SelectedTextColor	"colorwhite"
-		CheckButton.BgColor				"colorblackalt"
-		CheckButton.Border1  			"colorwhite" 		// the left checkbutton border
-		CheckButton.Border2  			"colorwhite"		// the right checkbutton border
-		CheckButton.Check				"colorwhite"		// color of the check itself
-		CheckButton.HighlightFgColor	"colorwhite"
+//		CheckButton.TextColor			"colorwhite"
+//		CheckButton.SelectedTextColor	"colorwhite"
+//		CheckButton.BgColor				"colorblackalt"
+//		CheckButton.Border1  			"colorwhite" 		// the left checkbutton border
+//		CheckButton.Border2  			"colorwhite"		// the right checkbutton border
+//		CheckButton.Check				"colorwhite"		// color of the check itself
+//		CheckButton.HighlightFgColor	"colorwhite"
 		
 		// CHudMenu
 		"ItemColor"		"colorwhite"	// default 255 167 42 255

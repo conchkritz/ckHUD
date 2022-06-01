@@ -1,5 +1,24 @@
 "Resource/UI/ClassSelection.res" // most items positioned off of scout with pin_to_sibling
 {
+	// tf2c fixes
+	
+	"SupportBackground"
+	{
+		"xpos"				"9999"		
+	}
+	"DefenseBackground"
+	{
+		"xpos"				"9999"		
+	}	
+	"OffenseBackground"
+	{
+		"xpos"				"9999"		
+	}
+	"RandomBackground"
+	{
+		"xpos"				"9999"		
+	}
+	
 	"random"
 	{
 		"xpos"				"-65"
@@ -1401,13 +1420,15 @@
 	
 	"TFPlayerModel"
 	{
-		"xpos"			"230"
-		"ypos"			"47"
+		"xpos"			"-3"
+		"ypos"			"0"
 		"zpos"			"6"		
 		"wide"			"200"
 		"tall"			"300"
 		
-		"allow_manip"	"1" // important
+		"allow_manip"	"1" // important (?)
+
+		"pin_to_sibling" "Background"
 
 		"model" // keep because im lazy
 		{

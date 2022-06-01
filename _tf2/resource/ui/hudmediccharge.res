@@ -14,7 +14,9 @@
 		"image"			"../hud/medic_charge_blue_bg"
 		"scaleImage"	"1"	
 		"teambg_2"		"../hud/medic_charge_red_bg"
-		"teambg_3"		"../hud/medic_charge_blue_bg"				
+		"teambg_3"		"../hud/medic_charge_blue_bg"
+		"teambg_4"		"../hud/medic_charge_green_bg"
+		"teambg_5"		"../hud/medic_charge_yellow_bg"
 	}
 	
 	"ChargeLabel"
@@ -183,7 +185,37 @@
 		"enabled"		"1"
 		"image"			"../hud/ico_health_cluster"
 		"scaleImage"	"1"	
-	}	
+	}
+	
+	"InvulnClusterIcon"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"InvulnClusterIcon"
+		"xpos"			"2"
+		"ypos"			"17"
+		"wide"			"36"
+		"tall"			"36"
+		"visible"		"0"
+		"visible_minbad"		"0"
+		"enabled"		"1"
+		"image"			"../hud/ico_health_cluster_invuln"
+		"scaleImage"	"1"	
+	}
+	
+	"KritzClusterIcon"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"KritzClusterIcon"
+		"xpos"			"2"
+		"ypos"			"17"
+		"wide"			"36"
+		"tall"			"36"
+		"visible"		"0"
+		"visible_minbad"		"0"
+		"enabled"		"1"
+		"image"			"../hud/ico_health_cluster_kritz"
+		"scaleImage"	"1"	
+	}
 	
 	"ResistIcon"
 	{

@@ -12,7 +12,7 @@
 		"xpos"			"32"	[$X360]
 		"ypos"			"r144"	[$X360]
 		"zpos"			"2"
-		"wide"			"250"
+		"wide"			"f0"
 		"tall"			"120"
 		"visible"		"1"
 		"enabled"		"1"	
@@ -106,7 +106,7 @@
 		"textAlignment"	"center"	
 		"font"			"DefaultSmall"
 		"fgcolor"		"TanDark"
-	}
+	}	
 	"PlayerStatusBleedImage"
 	{
 		"ControlName"	"ImagePanel"
@@ -153,22 +153,6 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"image"			"../vgui/bleed_drop"
-		"fgcolor"		"TanDark"
-	}
-	"PlayerStatusGasImage"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"PlayerStatusGasImage"
-		"xpos"			"117"
-		"xpos_minbad"	"102"
-		"ypos"			"0"
-		"zpos"			"7"
-		"wide"			"32"
-		"tall"			"32"
-		"visible"		"1"
-		"enabled"		"1"
-		"scaleImage"	"1"	
-		"image"			"../vgui/covered_in_gas"
 		"fgcolor"		"TanDark"
 	}
 	"PlayerStatusMarkedForDeathImage"
@@ -370,6 +354,7 @@
 		"image"			"../HUD/defense_buff_bullet_blue"
 		"fgcolor"		"TanDark"
 	}
+	
 	"PlayerStatus_SpyMarked"
 	{
 		"ControlName"	"ImagePanel"
@@ -386,6 +371,7 @@
 		"image"			""
 		"fgcolor"		"TanDark"
 	}
+	
 	"PlayerStatus_Parachute"
 	{
 		"ControlName"	"ImagePanel"
@@ -402,6 +388,7 @@
 		"image"			""
 		"fgcolor"		"TanDark"
 	}
+	
 	"PlayerStatus_RuneStrength"
 	{
 		"ControlName"	"ImagePanel"
@@ -418,6 +405,7 @@
 		"image"			"../Effects/powerup_strength_hud"
 		"fgcolor"		"TanDark"
 	}
+	
 	"PlayerStatus_RuneHaste"
 	{
 		"ControlName"	"ImagePanel"
@@ -434,6 +422,7 @@
 		"image"			"../Effects/powerup_haste_hud"
 		"fgcolor"		"TanDark"
 	}
+	
 	"PlayerStatus_RuneRegen"
 	{
 		"ControlName"	"ImagePanel"
@@ -450,6 +439,7 @@
 		"image"			"../Effects/powerup_regen_hud"
 		"fgcolor"		"TanDark"
 	}
+	
 	"PlayerStatus_RuneResist"
 	{
 		"ControlName"	"ImagePanel"
@@ -466,6 +456,7 @@
 		"image"			"../Effects/powerup_resist_hud"
 		"fgcolor"		"TanDark"
 	}
+	
 	"PlayerStatus_RuneVampire"
 	{
 		"ControlName"	"ImagePanel"
@@ -482,6 +473,7 @@
 		"image"			"../Effects/powerup_vampire_hud"
 		"fgcolor"		"TanDark"
 	}
+	
 	"PlayerStatus_RuneReflect"
 	{
 		"ControlName"	"ImagePanel"
@@ -498,6 +490,7 @@
 		"image"			"../Effects/powerup_reflect_hud"
 		"fgcolor"		"TanDark"
 	}
+	
 	"PlayerStatus_RunePrecision"
 	{
 		"ControlName"	"ImagePanel"
@@ -514,6 +507,7 @@
 		"image"			"../Effects/powerup_precision_hud"
 		"fgcolor"		"TanDark"
 	}
+	
 	"PlayerStatus_RuneAgility"
 	{
 		"ControlName"	"ImagePanel"
@@ -530,6 +524,7 @@
 		"image"			"../Effects/powerup_agility_hud"
 		"fgcolor"		"TanDark"
 	}
+	
 	"PlayerStatus_RuneKnockout"
 	{
 		"ControlName"	"ImagePanel"
@@ -546,6 +541,7 @@
 		"image"			"../Effects/powerup_knockout_hud"
 		"fgcolor"		"TanDark"
 	}
+	
 	"PlayerStatus_RuneKing"
 	{
 		"ControlName"	"ImagePanel"
@@ -562,6 +558,7 @@
 		"image"			"../Effects/powerup_king_hud"
 		"fgcolor"		"TanDark"
 	}
+	
 	"PlayerStatus_RunePlague"
 	{
 		"ControlName"	"ImagePanel"
@@ -578,6 +575,7 @@
 		"image"			"../Effects/powerup_plague_hud"
 		"fgcolor"		"TanDark"
 	}
+	
 	"PlayerStatus_RuneSupernova"
 	{
 		"ControlName"	"ImagePanel"
@@ -594,6 +592,7 @@
 		"image"			"../Effects/powerup_supernova_hud"
 		"fgcolor"		"TanDark"
 	}
+	
 	"PlayerStatusSlowed"
 	{
 		"ControlName"	"ImagePanel"
@@ -608,6 +607,23 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"image"			"../vgui/slowed"
+		"fgcolor"		"TanDark"
+	}
+	
+	"PlayerStatusCivilianBuff"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"PlayerStatusCivilianBuff"
+		"xpos"			"85"
+		"xpos_minbad"	"70"
+		"ypos"			"0"
+		"zpos"			"7"
+		"wide"			"31"
+		"tall"			"31"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage"	"1"	
+		"image"			"../HUD/civilian_buff_blue"
 		"fgcolor"		"TanDark"
 	}
 }

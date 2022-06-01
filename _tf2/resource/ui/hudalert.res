@@ -17,6 +17,8 @@
 		"scaleImage"		"1"
 		"teambg_2"		"../hud/death_panel_red_bg"
 		"teambg_3"		"../hud/death_panel_blue_bg"
+		"teambg_4"		"../hud/death_panel_green_bg"
+		"teambg_5"		"../hud/death_panel_yellow_bg"
 	}
 	"AlertLabel"
 	{	
@@ -52,7 +54,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../hud/ico_teambalance"
+		"image"			"../hud/ico_teamswitch"
 		"scaleImage"		"1"
 	}
 }

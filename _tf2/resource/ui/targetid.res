@@ -17,15 +17,15 @@
 		"scaleImage"		"1"
 		"teambg_1"		"../hud/color_panel_brown"
 		"teambg_2"		"../hud/color_panel_red"
-		"teambg_2_lodef"	"../hud/color_panel_red"
 		"teambg_3"		"../hud/color_panel_blu"
-		"teambg_3_lodef"	"../hud/color_panel_blu"
+		"teambg_4"		"../hud/color_panel_grn"
+		"teambg_5"		"../hud/color_panel_ylw"
 		
 		"src_corner_height"		"23"				// pixels inside the image
 		"src_corner_width"		"23"
 			
 		"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"5"	
+		"draw_corner_height" 	"5"
 	}
 	"TargetIDBG_Spec_Blue"
 	{
@@ -70,6 +70,23 @@
 			
 		"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
 		"draw_corner_height" 	"5"
+	}
+	
+	"MedalImage"
+	{	
+		"ControlName"	"ImagePanel"
+		"fieldName"		"MedalImage"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"1"
+		"wide"			"18"
+		"wide_minbad"	"14"
+		"tall"			"35"
+		"tall_minbad"	"28"
+		"visible"		"0"
+		"enabled"		"1"
+		"image"			"../hud/medal_tester_red"
+		"scaleImage"	"1"
 	}
 	
 	"TargetNameLabel"

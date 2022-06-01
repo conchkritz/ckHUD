@@ -28,11 +28,13 @@
 		"scaleImage"	"1"	
 		"teambg_2"		"../hud/color_panel_red"	// Reversed, due to showing killer's name
 		"teambg_3"		"../hud/color_panel_blu"	// Reversed, due to showing killer's name
+		"teambg_4"		"../hud/color_panel_grn"	// Reversed, due to showing killer's name
+		"teambg_5"		"../hud/color_panel_ylw"	// Reversed, due to showing killer's name
 		
 		"src_corner_height"		"23"				// pixels inside the image
 		"src_corner_width"		"23"
 			
-		"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_width"		"5"					// screen size of the corners ( and sides ), proportional
 		"draw_corner_height" 	"5"		
 	}
 	"CalloutLabel"
@@ -68,7 +70,7 @@
 	}
 	"DistanceLabel"
 	{	
-		"ControlName"		"CExLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"DistanceLabel"
 		"font"			"HudFontSmallest"
 		"xpos"			"0"
@@ -76,13 +78,13 @@
 		"zpos"			"2"
 		"wide"			"70"
 		"tall"			"10"
-		"autoResize"		"1"
+		"autoResize"	"1"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		""
-		"textAlignment"		"center"
+		"textAlignment"	"center"
 		"dulltext"		"0"
-		"brighttext"		"0"
+		"brighttext"	"0"
 	}
 }

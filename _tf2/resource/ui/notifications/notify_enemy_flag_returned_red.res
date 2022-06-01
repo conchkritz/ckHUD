@@ -4,7 +4,7 @@
 {	
 	"Notification_Background"
 	{
-		"image"			"../hud/score_panel_blue_bg"
+		"image"			"../hud/score_panel_red_bg"
 	}
 	
 	"Notification_Icon"	

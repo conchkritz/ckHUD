@@ -57,7 +57,7 @@
 	
 	FreezePanel
 	{
-		"ypos"					"-15"
+		"ypos"					"-17"
 	}
 	
 	CHudAccountPanel
@@ -75,16 +75,16 @@
 		"zpos"		"2" 
 	}
 	
-	CSecondaryTargetID
+	CSpectatorTargetID
 	{
 		"ypos"		"299" // 342
 		"zpos"		"2"
 	}
 	
-	CSpectatorTargetID
+	CSecondaryTargetID
 	{
-		"ypos"		"270" // 315
-		"zpos"		"2" 
+		"ypos"		"299" // 342
+		"zpos"		"2"
 	}
 	
 	BuildingStatus_Spy

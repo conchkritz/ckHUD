@@ -14,11 +14,12 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/ammo_blue_bg"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
+		"teambg_1"		"../hud/ammo_black_bg"
 		"teambg_2"		"../hud/ammo_red_bg"
-		"teambg_2_lodef"	"../hud/ammo_red_bg_lodef"
 		"teambg_3"		"../hud/ammo_blue_bg"
-		"teambg_3_lodef"	"../hud/ammo_blue_bg_lodef"			
+		"teambg_4"		"../hud/ammo_green_bg"
+		"teambg_5"		"../hud/ammo_yellow_bg"
 	}
 	"HudWeaponLowAmmoImage"
 	{
@@ -28,17 +29,13 @@
 		"xpos_minbad"	"28"
 		"ypos"			"0"
 		"ypos_minbad"	"7"
-		"zpos"			"0"
+		"zpos"			"-1"
 		"wide"			"90"
 		"tall"			"45"
 		"visible"		"0"
 		"enabled"		"1"
-		"image"			"../hud/ammo_red_bg"
-		"scaleImage"	"1"	
-		"teambg_2"		"../hud/ammo_red_bg"
-		"teambg_2_lodef"	"../hud/ammo_red_bg_lodef"
-		"teambg_3"		"../hud/ammo_blue_bg"
-		"teambg_3_lodef"	"../hud/ammo_blue_bg_lodef"			
+		"image"			"../hud/ammo_over_bg"
+		"scaleImage"	"1"
 	}
 	"AmmoInClip"
 	{
@@ -46,45 +43,45 @@
 		"fieldName"		"AmmoInClip"
 		"font"			"HudFontGiantBold"
 		"fgcolor"		"TanLight"
-		"xpos"			"4"
-		"xpos_minbad"	"8"
-		"ypos"			"0"
-		"ypos_minbad"	"2"
+		"xpos"			"-31"
+		"xpos_minbad"	"-27"
+		"ypos"			"-3"
+		"ypos_minbad"	"-3"
 		"zpos"			"5"
-		"wide"			"55"
+		"wide"			"90"
 		"tall"			"40"
 		"tall_minbad"	"38"
 		"tall_lodef"	"45"
 		"visible"		"0"
 		"enabled"		"1"
-		"textAlignment"	"south-east"	
+		"textAlignment"	"east"
 		"labelText"		"%Ammo%"
-		
-	}		
+
+	}
 	"AmmoInClipShadow"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoInClipShadow"
 		"font"			"HudFontGiantBold"
 		"fgcolor"		"Black"
-		"xpos"			"5"
-		"xpos_minbad"	"9"
+		"xpos"			"-30"
+		"xpos_minbad"	"-26"
 		"xpos_hidef"	"2"
-		"ypos"			"1"
-		"ypos_minbad"	"2"
+		"ypos"			"-2"
+		"ypos_minbad"	"-2"
 		"ypos_hidef"	"2"
 		"ypos_lodef"	"2"
 		"zpos"			"5"
-		"wide"			"55"
+		"wide"			"90"
 		"tall"			"40"
 		"tall_minbad"	"39"
 		"tall_lodef"	"45"
 		"visible"		"0"
 		"enabled"		"1"
-		"textAlignment"	"south-east"	
+		"textAlignment"	"east"
 		"labelText"		"%Ammo%"
-		
-	}						
+
+	}
 	"AmmoInReserve"
 	{
 		"ControlName"	"CExLabel"
@@ -96,6 +93,7 @@
 		"xpos"			"59"
 		"xpos_minbad"	"65"
 		"ypos"			"8"
+		"ypos_minbad"	"7"
 		"ypos_lodef"	"10"
 		"zpos"			"7"
 		"wide"			"40"
@@ -103,9 +101,9 @@
 		"tall_lodef"	"30"
 		"visible"		"0"
 		"enabled"		"1"
-		"textAlignment"	"south-west"		
+		"textAlignment"	"south-west"
 		"labelText"		"%AmmoInReserve%"
-	}		
+	}
 	"AmmoInReserveShadow"
 	{
 		"ControlName"	"CExLabel"
@@ -117,6 +115,7 @@
 		"xpos"			"60"
 		"xpos_minbad"	"66"
 		"ypos"			"9"
+		"ypos_minbad"	"8"
 		"ypos_lodef"	"11"
 		"zpos"			"7"
 		"wide"			"40"
@@ -124,9 +123,9 @@
 		"tall_lodef"	"30"
 		"visible"		"0"
 		"enabled"		"1"
-		"textAlignment"	"south-west"		
+		"textAlignment"	"south-west"
 		"labelText"		"%AmmoInReserve%"
-	}									
+	}
 	"AmmoNoClip"
 	{
 		"ControlName"	"CExLabel"
@@ -134,7 +133,9 @@
 		"font"			"HudFontGiantBold"
 		"fgcolor"		"TanLight"
 		"xpos"			"0"
-		"ypos"			"2"
+		"xpos_minbad"	"-4"
+		"ypos"			"-1"
+		"ypos_minbad"	"3"
 		"zpos"			"5"
 		"wide"			"84"
 		"wide_lodef"	"83"
@@ -143,10 +144,10 @@
 		"tall_lodef"	"45"
 		"visible"		"0"
 		"enabled"		"1"
-		"textAlignment"	"south-east"		
+		"textAlignment"	"south-east"
 		"labelText"		"%Ammo%"
-		
-	}	
+
+	}
 	"AmmoNoClipShadow"
 	{
 		"ControlName"	"CExLabel"
@@ -154,9 +155,11 @@
 		"font"			"HudFontGiantBold"
 		"fgcolor"		"Black"
 		"xpos"			"1"
+		"xpos_minbad"	"-3"
 		"xpos_hidef"	"2"
 		"xpos_lodef"	"2"
-		"ypos"			"3"
+		"ypos"			"0"
+		"ypos_minbad"	"4"
 		"ypos_hidef"	"4"
 		"ypos_lodef"	"4"
 		"zpos"			"5"
@@ -167,8 +170,8 @@
 		"tall_lodef"	"45"
 		"visible"		"0"
 		"enabled"		"1"
-		"textAlignment"	"south-east"		
+		"textAlignment"	"south-east"
 		"labelText"		"%Ammo%"
-		
-	}									
+
+	}
 }

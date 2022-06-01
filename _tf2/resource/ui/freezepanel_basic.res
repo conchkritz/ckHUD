@@ -227,7 +227,7 @@
 		"fieldName"		"FreezePanelBase"
 		"xpos"			"r270"
 		"ypos"			"93"		
-		"wide"			"267"		
+		"wide"			"270"		
 		"tall"			"200"		
 		"visible"		"1"
 
@@ -235,10 +235,10 @@
 		{
 			"ControlName"		"CTFImagePanel"
 			"fieldName"		"FreezePanelBG"
-			"xpos"			"8"
+			"xpos"			"10"
 			"ypos"			"160"
 			"zpos"			"0"
-			"wide"			"256"
+			"wide"			"254"
 			"tall"			"33"
 			"visible"		"1"
 			"enabled"		"1"
@@ -252,13 +252,28 @@
 			"draw_corner_height" 	"5"	
 		}
 		
+		"MedalImage"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"MedalImage"
+			"xpos"			"4"
+			"ypos"			"160"
+			"zpos"			"1"
+			"wide"			"17"
+			"tall"			"33"
+			"visible"		"0"
+			"enabled"		"1"
+			"image"			"../hud/medal_tester_red"
+			"scaleImage"	"1"
+		}
+		
 		"FreezeLabel"
-		{	
+		{
 			"ControlName"		"Label"
 			"fieldName"		"FreezeLabel"
 			"font"			"DefaultSmall"
-			"xpos"			"40"
-			"ypos"			"162"
+			"xpos"			"47"
+			"ypos"			"163"
 			"zpos"			"1"
 			"wide"			"252"
 			"tall"			"12"
@@ -267,7 +282,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"labelText"		"#FreezePanel_Killer"
-			"textAlignment"		"North-West"
+			"textAlignment"		"Left"
 			"dulltext"		"0"
 			"brighttext"		"0"
 		}
@@ -276,8 +291,8 @@
 		{
 			"ControlName"	"CTFFreezePanelHealth"
 			"fieldName"		"FreezePanelHealth"
-			"xpos"			"8"
-			"ypos"			"160"
+			"xpos"			"13"
+			"ypos"			"161"
 			"zpos"			"1"
 			"wide"			"31"
 			"tall"			"31"
@@ -295,7 +310,7 @@
 			"ControlName"	"Label"
 			"fieldName"		"FreezeLabelKiller"
 			"font"			"HudFontSmall"
-			"xpos"			"61"
+			"xpos"			"59"
 			"ypos"			"173"
 			"zpos"			"5"
 			"wide"			"252"
@@ -312,7 +327,7 @@
 		{
 			"ControlName"		"CAvatarImagePanel"
 			"fieldName"		"AvatarImage"
-			"xpos"			"49"
+			"xpos"			"47"
 			"ypos"			"174"
 			"zpos"			"0"
 			"wide"			"14"
@@ -342,7 +357,7 @@
 				"xpos"			"95"
 				"ypos"			"4"
 				"zpos"			"5"
-				"wide"			"161"
+				"wide"			"169"
 				"tall"			"30"
 				"visible"		"1"
 				"enabled"		"1"
@@ -377,7 +392,7 @@
 				"xpos"			"134"
 				"ypos"			"10"
 				"zpos"			"6"
-				"wide"			"112"
+				"wide"			"120"
 				"tall"			"18"
 				"autoResize"		"0"
 				"pinCorner"		"0"
@@ -465,4 +480,32 @@
 			"brighttext"		"0"
 		}
 	}	
+	
+	"FreezePanelModelBG"
+	{
+		"ControlName"	"CModelPanel"
+		"fieldName"		"FreezePanelModelBG"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"-1"		
+		"wide"			"f0"
+		"tall"			"480"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"0"
+		"enabled"		"1"
+		"fov"			"20"
+		
+		"model"
+		{
+			"modelname"	"models/vgui/UI_deathcam.mdl"
+			"skin"		"0"
+			"angles_x" "0"
+			"angles_y" "180"
+			"angles_z" "0"
+			"origin_x" "140"
+			"origin_y" "0"
+			"origin_z" "0"
+		}
+	}
 }

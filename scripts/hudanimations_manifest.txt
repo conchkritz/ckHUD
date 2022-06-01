@@ -12,7 +12,8 @@ hudanimations_manifest
 	
 	// default to reference
 	"file"		"_tf2/scripts/hudanimations_tf.txt"
-	
+	"file"		"_tf2/scripts/hudanimations_tf2c.txt"
+
 	// default to override
 	"file"		"scripts/hudanimations_tf.txt"
 }

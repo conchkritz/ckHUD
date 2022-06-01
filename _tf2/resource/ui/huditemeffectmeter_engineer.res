@@ -7,8 +7,8 @@
 		"enabled"		"1"
 		"xpos"			"r162"	[$WIN32]
 		"ypos"			"r92"	[$WIN32]
-		"xpos_minbad"	"r70"	[$WIN32]
-		"ypos_minbad"	"r74"	[$WIN32]
+		"xpos_minbad"	"r52"
+		"ypos_minbad"	"r68"
 		"xpos"			"r194"	[$X360]
 		"ypos"			"r74"	[$X360]
 		"wide"			"100"
@@ -29,12 +29,16 @@
 		"visible"		"1"
 		"visible_minbad"	"0"
 		"enabled"		"1"
-		"image"			"../hud/misc_ammo_area_blue"
+		"image"			"../hud/misc_ammo_area_black"
 		"scaleImage"	"1"	
 		"teambg_2"		"../hud/misc_ammo_area_red"
 		"teambg_2_lodef"	"../hud/misc_ammo_area_red_lodef"
 		"teambg_3"		"../hud/misc_ammo_area_blue"
-		"teambg_3_lodef"	"../hud/misc_ammo_area_blue_lodef"				
+		"teambg_3_lodef"	"../hud/misc_ammo_area_blue_lodef"
+		"teambg_4"		"../hud/misc_ammo_area_green"
+		"teambg_4_lodef"	"../hud/misc_ammo_area_green_lodef"
+		"teambg_5"		"../hud/misc_ammo_area_yellow"
+		"teambg_5_lodef"	"../hud/misc_ammo_area_yellow_lodef"
 	}
 	
 	"ItemEffectMeterLabel"
@@ -42,7 +46,9 @@
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterLabel"
 		"xpos"					"25"
+		"xpos_minbad"			"0"	[$WIN32]
 		"ypos"					"27"
+		"ypos_minbad"			"3"	[$WIN32]		
 		"zpos"					"2"
 		"wide"					"41"
 		"tall"					"15"
@@ -53,6 +59,7 @@
 		"tabPosition"			"0"
 		"labelText"				"#TF_Ball"
 		"textAlignment"			"center"
+		"textAlignment_minbad"	"west"
 		"dulltext"				"0"
 		"brighttext"			"0"
 		"font"					"TFFontSmall"

@@ -12,23 +12,20 @@
 		"wide"			"f0"
 		"tall"			"480"
 		"visible"		"1"
-		"enabled"		"1"		
+		"enabled"		"1"
 	}
 	"PlayerStatusClassImage"
 	{
-		"ControlName"	"CTFClassImage"
+		"ControlName"	"CTFImagePanel"
 		"fieldName"		"PlayerStatusClassImage"
-		"xpos"			"25"	[$WIN32]
-		"xpos_minbad"	"15"	[$WIN32]
-		"ypos"			"r88"	[$WIN32]
-		"ypos_minbad"	"r54"	[$WIN32]
+		"xpos"			"20"	[$WIN32]
+		"xpos_minbad"	"4"
+		"ypos"			"391"	[$WIN32]
 		"xpos"			"57"	[$X360]
 		"ypos"			"r110"	[$X360]
 		"zpos"			"2"
 		"wide"			"75"
-		"wide_minbad"	"37"
 		"tall"			"75"
-		"tall_minbad"	"37"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/class_scoutred"
@@ -52,10 +49,12 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/class_spyred"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 		"teambg_2"		"../hud/class_spyred"
-		"teambg_3"		"../hud/class_spyblue"			
-	}	
+		"teambg_3"		"../hud/class_spyblue"
+		"teambg_4"		"../hud/class_spygreen"
+		"teambg_5"		"../hud/class_spyyellow"
+	}
 	"PlayerStatusSpyOutlineImage"
 	{
 		"ControlName"	"CTFImagePanel"
@@ -74,8 +73,8 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			"../hud/class_spy_outline"
-		"scaleImage"	"1"	
-	}		
+		"scaleImage"	"1"
+	}
 	"PlayerStatusClassImageBG"
 	{
 		"ControlName"	"CTFImagePanel"
@@ -86,17 +85,18 @@
 		"ypos_minbad"		"r40"	[$WIN32]
 		"xpos"			"41"	[$X360]
 		"ypos"			"r82"	[$X360]
-		"zpos"			"1"		
+		"zpos"			"1"
 		"wide"			"100"
 		"tall"			"50"
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"
-		"image"			"../hud/character_red_bg"	
+		"image"			"../hud/character_red_bg"
+		"teambg_1"		"../hud/character_black_bg"
 		"teambg_2"		"../hud/character_red_bg"
-		"teambg_2_lodef"	"../hud/character_red_bg_lodef"
 		"teambg_3"		"../hud/character_blue_bg"
-		"teambg_3_lodef"	"../hud/character_blue_bg_lodef"
+		"teambg_4"		"../hud/character_green_bg"
+		"teambg_5"		"../hud/character_yellow_bg"
 	}
 
 	"classmodelpanelBG"
@@ -109,29 +109,30 @@
 		"ypos_minbad"		"r40"	[$WIN32]
 		"xpos"			"41"	[$X360]
 		"ypos"			"r82"	[$X360]
-		"zpos"			"1"		
+		"zpos"			"1"
 		"wide"			"109"
 		"tall"			"50"
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"
-		"image"				"../hud/character_red_bg_clipped"	
-		"teambg_2"			"../hud/character_red_bg_clipped"
-		"teambg_2_lodef"	"../hud/character_red_bg_lodef_clipped"
-		"teambg_3"			"../hud/character_blue_bg_clipped"
-		"teambg_3_lodef"	"../hud/character_blue_bg_lodef_clipped"
+		"image"			"../hud/character_red_bg_clipped"
+		"teambg_1"		"../hud/character_black_bg_clipped"
+		"teambg_2"		"../hud/character_red_bg_clipped"
+		"teambg_3"		"../hud/character_blue_bg_clipped"
+		"teambg_4"		"../hud/character_green_bg_clipped"
+		"teambg_5"		"../hud/character_yellow_bg_clipped"
 	}
 
 	"classmodelpanel"
 	{
 		"ControlName"	"CTFPlayerModelPanel"
 		"fieldName"		"classmodelpanel"
-		
+
 		"xpos"			"0"	[$WIN32]
 		"xpos_minbad"	"0"	[$WIN32]
-		"ypos"			"r214"	[$WIN32]
+		"ypos"			"r215"	[$WIN32]
 		"ypos_minbad"	"r88"	[$WIN32]
-		"zpos"			"2"		
+		"zpos"			"2"
 		"wide"			"100"
 		"wide_minbad"	"52"
 		"tall"			"200"
@@ -140,13 +141,16 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		
+
 		"render_texture"	"0"
 		"fov"			"12"
 		"allow_rot"		"1"
 
-		"disable_speak_event"	"1"
-				
+		"disable_speak_event"		"1"
+		// "disable_frame_advancement"	"1" // This disables frame advancement on the 3D Player Model.
+		
+		"display_player_effects"	"7" // Cloak(1) + Crit(2) + Invuln(4) = 7
+
 		"model"
 		{
 			"force_pos"	"1"
@@ -161,8 +165,60 @@
 			"frame_origin_y"	"0"
 			"frame_origin_z"	"0"
 			"spotlight" "1"
-		
+
 			"modelname"		""
+
+			"animation"
+			{
+				"name"		"PRIMARY"
+				"activity"	"ACT_MP_STAND_PRIMARY"
+				"default"	"1"
+			}
+			"animation"
+			{
+				"name"		"SECONDARY"
+				"activity"	"ACT_MP_STAND_SECONDARY"
+			}
+			"animation"
+			{
+				"name"		"MELEE"
+				"activity"	"ACT_MP_STAND_MELEE"
+			}
+			"animation"
+			{
+				"name"		"BUILDING"
+				"activity"	"ACT_MP_STAND_BUILDING"
+			}
+			"animation"
+			{
+				"name"		"PDA"
+				"activity"	"ACT_MP_STAND_PDA"
+			}
+			"animation"
+			{
+				"name"		"ITEM1"
+				"activity"	"ACT_MP_STAND_ITEM1"
+			}
+			"animation"
+			{
+				"name"		"ITEM2"
+				"activity"	"ACT_MP_STAND_ITEM2"
+			}
+			"animation"
+			{
+				"name"		"MELEE_ALLCLASS"
+				"activity"	"ACT_MP_STAND_MELEE_ALLCLASS"
+			}
+			"animation"
+			{
+				"name"		"PRIMARY2"
+				"activity"	"ACT_MP_STAND_PRIMARY"
+			}
+			"animation"
+			{
+				"name"		"SECONDARY2"
+				"activity"	"ACT_MP_STAND_SECONDARY2"
+			}
 		}
 
 		"customclassdata"
@@ -283,6 +339,20 @@
 				"origin_z"		"-82"
 				"origin_z_minbad"	"-52"
 			}
+			"Civilian"
+			{
+				"fov"			"20"
+				"angles_x"		"-10"
+				"angles_x_minbad"	"0"
+				"angles_y"		"168"
+				"angles_z"		"0"
+				"origin_x"		"140"
+				"origin_x_minbad"	"160"
+				"origin_y"		"-2"
+				"origin_y_minbad"	"-7"
+				"origin_z"		"-78"
+				"origin_z_minbad"	"-52"
+			}
 		}
 	}
 
@@ -325,16 +395,16 @@
 			"teambg_3"				"../hud/color_panel_blu"
 			"teambg_3_lodef"		"../hud/color_panel_blu"
 			"proportionaltoparent"	"1"
-		
+
 			"src_corner_height"		"23"				// pixels inside the image
 			"src_corner_width"		"23"
-			
+
 			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"5"	
+			"draw_corner_height" 	"5"
 		}
 
 		"CarryingLabel"
-		{	
+		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"CarryingLabel"
 			"font"				"ReplayBrowserSmallest"
@@ -361,7 +431,7 @@
 		}
 
 		"CarryingLabelDropShadow"
-		{	
+		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"CarryingLabelDropShadow"
 			"font"				"ReplayBrowserSmallest"
@@ -389,7 +459,7 @@
 		}
 
 		"OwnerLabel"
-		{	
+		{
 			"ControlName"		"Label"
 			"fieldName"			"OwnerLabel"
 			"font"				"FontStoreOriginalPrice"

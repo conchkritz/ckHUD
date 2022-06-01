@@ -94,7 +94,7 @@ Scheme
 		"TanLight"				"242 242 242 255" // change this w/ colorwhite
 		"White"					"242 242 242 255"
 		"Black"					"20 20 20 255"
-		"Tandark"				"242 242 242 255" // only for advanced options
+//		"Tandark"				"242 242 242 255" // only for advanced options
 		
 		"HUDBlueTeamSolid"		"88 133 162 255"
 		"HUDRedTeamSolid"		"184 56 59 255"

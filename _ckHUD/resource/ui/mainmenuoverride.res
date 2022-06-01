@@ -24,6 +24,10 @@
 	"CycleRankTypeButton"
 	{
 		"ypos"			"cs-0.5-78"
+		
+		"defaultFgColor_override"	"colorwhite"
+		"armedFgColor_override"		"colorwhite"
+		"depressedFgColor_override"	"colorwhite"
 	}
 
 	"RankPanel"
@@ -93,18 +97,24 @@
 
 	"WatchStreamButton"
 	{
-		"xpos"			"9999" // broken from porting to #base
+		"xpos"			"c-322"
 		"ypos"			"34"
-		"zpos"			"10"
+		"zpos"			"1"
+		
+		"wide"			"32"
+		"tall"			"32"
 
 		"SubButton"
 		{	
+			"paintbackground"	"1"
+			"paintborder"		"1"
+			
 			"defaultBgColor_override"	"no"
 			"armedBgColor_override"		"TFOrange"
-			
+				
 			"image_drawcolor"	"colorwhite"
 			"image_armedcolor"	"colorwhite"
-			
+				
 			"border_default"	"MainMenuBGBorderInner"
 			"border_armed"		"NoBorder"
 
@@ -117,20 +127,26 @@
 
 	"QuestLogButton"
 	{
-		"xpos"			"9999" // broken from porting to #base
-		"ypos"			"9999"
-		"zpos"			"-999"
+		"xpos"			"0"
+		"ypos"			"-36"
+		"zpos"			"1"
+		
+		"wide"			"32"
+		"tall"			"32"
 		
 		"pin_to_sibling"	"WatchStreamButton"
 
 		"SubButton"
 		{	
+			"paintbackground"	"1"
+			"paintborder"		"1"
+			
 			"defaultBgColor_override"	"no"
 			"armedBgColor_override"		"TFOrange"
-			
+				
 			"image_drawcolor"	"colorwhite"
 			"image_armedcolor"	"colorwhite"
-			
+				
 			"border_default"	"MainMenuBGBorderInner"
 			"border_armed"		"NoBorder"
 
@@ -140,226 +156,43 @@
 			}		
 		}
 	}
-	"WatchStreamButton2"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"WatchStreamButton2"
-		"xpos"			"c-322"
-		"ypos"			"34"
-		"zpos"			"1"
-		"wide"			"32"
-		"tall"			"32"
-		"autoResize"	"0"
-		"pinCorner"		"3"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"	"0"
-		
-		"navUp"			"Notifications_Panel"
-		"navLeft"		"SettingsButton"
-		
-		"SubButton"
-		{
-			"ControlName"	"CExImageButton"
-			"fieldName"		"SubButton"
-			"xpos"			"0"
-			"ypos"			"0"
-			"wide"			"f0"
-			"tall"			"f0"
-			"autoResize"	"0"
-			"pinCorner"		"3"
-			"visible"		"1"
-			"enabled"		"1"
-			"tabPosition"	"0"
-			"textinsetx"	"25"
-			"labelText"		""
-			"use_proportional_insets" "1"
-			"font"			"HudFontSmallBold"
-			"command"		"watch_stream"
-			"textAlignment"	"west"
-			"dulltext"		"0"
-			"brighttext"	"0"
-			"default"		"1"
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"vo/null.mp3"
-			"actionsignallevel" "2"
-			"proportionaltoparent"	"1"
-				
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
-			"defaultBgColor_override"	"no"
-			"armedBgColor_override"		"TFOrange"
-			
-			"image_drawcolor"	"colorwhite"
-			"image_armedcolor"	"colorwhite"
-			
-			"border_default"	"MainMenuBGBorderInner"
-			"border_armed"		"NoBorder"
-			"SubImage"
-			{
-				"ControlName"	"ImagePanel"
-				"fieldName"		"SubImage"
-				"xpos"			"cs-0.5"
-				"ypos"			"cs-0.5"
-				"zpos"			"1"
-				"wide"			"f0"
-				"tall"			"f0"
-				"visible"		"1"
-				"enabled"		"1"
-				"scaleImage"	"1"
-				"image"			"replay/thumbnails/icons/button_streaming"
-				"proportionaltoparent"	"1"
-				"mouseinputenabled"	"0"
-				"keyboardinputenabled" "0"
-			}		
-		}
-	}
-	"QuestLogButton2"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"QuestLogButton2"
-		"xpos"			"0"
-		"ypos"			"-36"
-		"zpos"			"1"
-		"wide"			"32"
-		"tall"			"32"
-		"autoResize"	"0"
-		"pinCorner"		"3"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"	"0"
-		
-		"pin_to_sibling"	"WatchStreamButton2"
-		
-		"navUp"			"Notifications_Panel"
-		"navLeft"		"SettingsButton"
-		"SubButton"
-		{
-			"ControlName"	"CExImageButton"
-			"fieldName"		"SubButton"
-			"xpos"			"0"
-			"ypos"			"0"
-			"wide"			"f0"
-			"tall"			"f0"
-			"autoResize"	"0"
-			"pinCorner"		"3"
-			"visible"		"1"
-			"enabled"		"1"
-			"tabPosition"	"0"
-			"textinsetx"	"25"
-			"labelText"		""
-			"use_proportional_insets" "1"
-			"font"			"HudFontSmallBold"
-			"command"		"questlog"
-			"textAlignment"	"west"
-			"dulltext"		"0"
-			"brighttext"	"0"
-			"default"		"1"
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"vo/null.mp3"
-			"actionsignallevel" "2"
-			"proportionaltoparent"	"1"
-				
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
-			"defaultBgColor_override"	"no"
-			"armedBgColor_override"		"TFOrange"
-			
-			"image_drawcolor"	"colorwhite"
-			"image_armedcolor"	"colorwhite"
-			
-			"border_default"	"MainMenuBGBorderInner"
-			"border_armed"		"NoBorder"
-			"SubImage"
-			{
-				"ControlName"	"ImagePanel"
-				"fieldName"		"SubImage"
-				"xpos"			"cs-0.5"
-				"ypos"			"cs-0.5"
-				"zpos"			"1"
-				"wide"			"f0"
-				"tall"			"f0"
-				"visible"		"1"
-				"enabled"		"1"
-				"scaleImage"	"1"
-				"image"			"replay/thumbnails/icons/button_quests_pda"
-				"proportionaltoparent"	"1"
-				"mouseinputenabled"	"0"
-				"keyboardinputenabled" "0"
-			}		
-		}
-	}
+
 	"MOTD_ShowButtonPanel"
 	{
 		"xpos"			"0"
 		"ypos"			"-37" // nobody will notice
 		"zpos"			"10"
 		
-		"pin_to_sibling"	"QuestLogButton2"
+		"pin_to_sibling"	"QuestLogButton"
 
 		"MOTD_ShowButtonPanel_SB"
 		{
-			"xpos"			"0"
-			"ypos"			"0"
-			"zpos"			"1"
-			"wide"			"32"
-			"tall"			"32"
-			"autoResize"	"0"
-			"pinCorner"		"3"
-			"visible"		"1"
-			"enabled"		"1"
-			"tabPosition"	"0"
-			"labelText"		""
-			"font"			"HudFontSmallestBold"
-			"textAlignment"	"center"
-			"dulltext"		"0"
-			"brighttext"	"0"
-			"default"		"1"
+			"paintbackground"	"1"
+			"paintborder"		"1"
 			
 			"defaultBgColor_override"	"no"
 			"armedBgColor_override"		"TFOrange"
-			
+		
 			"image_drawcolor"	"colorwhite"
 			"image_armedcolor"	"colorwhite"
-			
+		
 			"border_default"	"MainMenuBGBorderInner"
 			"border_armed"		"NoBorder"
-
+			
 			"SubImage"
 			{
-				"image"			"replay/thumbnails/icons/button_motd"
+				"xpos"			"4"
+				"ypos"			"4"
+				"wide"			"24"
+				"tall"			"24"
+				"image"			"replay/thumbnails/icons/glyph_tf2"
 			}
 		}
 	}
 	
-	"MOTD_Panel"
-	{
-		"MOTD_HeaderContainer"
-		{
-			"MOTD_HeaderLabel"
-			{
-				"fgcolor_override"	"colorwhite"
-			}
-		}
-		
-		"MOTD_CloseButton"
-		{
-			"defaultFgColor_override" "tandarker"
-			"armedFgColor_override" "TFOrange"
-			"depressedFgColor_override" "tandarker"
-			
-			"image_drawcolor"	"colorwhite"
-			"image_armedcolor"	"TFOrange"			
-		}	
-
-		"MOTD_URLButton"
-		{
-			"defaultFgColor_override" "colorwhite"
-			"defaultBgColor_override" "tandarker"
-			"armedFgColor_override" "colorwhite"
-			"depressedFgColor_override" "colordullwhite"
-		}	
-	}	
+//	"MOTD_Panel"
+//	{
+//	}	
 
 	"Notifications_Panel"
 	{
@@ -567,13 +400,15 @@
     {
         "ControlName"   "EditablePanel"
         "fieldname"     "CharacterSetupButtonFix"
-        "xpos"          "143"
-        "ypos"          "34"
-        "zpos"          "12"
+        "xpos"          "-44"
+        "ypos"          "-4"
+        "zpos"          "11"
         "wide"          "80"
         "tall"          "80"
         "visible"       "1"
         "PaintBackgroundType"   "0"
+        
+		"pin_to_sibling" "MainItemsBorder"
         
         "navDown"       "ServerBrowserButton"
         "navRight"      "CreateServerButton"
@@ -635,14 +470,16 @@
     {
         "ControlName"   "EditablePanel"
         "fieldname"     "CharacterSetupButton"
-        "xpos"          "143"
-        "ypos"          "34"
+        "xpos"          "-44"
+        "ypos"          "-4"
         "zpos"          "11"
         "wide"          "80"
         "tall"          "80"
         "visible"       "1"
         "PaintBackgroundType"   "0"
         
+		"pin_to_sibling" "MainItemsBorder"
+
         "navDown"       "ServerBrowserButton"
         "navRight"      "CreateServerButton"
         "navToRelay"        "SubButton"

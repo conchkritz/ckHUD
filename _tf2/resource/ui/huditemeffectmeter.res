@@ -29,12 +29,16 @@
 		"visible"		"1"
 		"visible_minbad"	"0"
 		"enabled"		"1"
-		"image"			"../hud/misc_ammo_area_horiz1_blue"
+		"image"			"../hud/misc_ammo_area_horiz1_black"
 		"scaleImage"	"1"	
 		"teambg_2"		"../hud/misc_ammo_area_horiz1_red"
 		"teambg_2_lodef"	"../hud/misc_ammo_area_red_lodef"
 		"teambg_3"		"../hud/misc_ammo_area_horiz1_blue"
-		"teambg_3_lodef"	"../hud/misc_ammo_area_blue_lodef"				
+		"teambg_3_lodef"	"../hud/misc_ammo_area_blue_lodef"
+		"teambg_4"		"../hud/misc_ammo_area_horiz1_green"
+		"teambg_4_lodef"	"../hud/misc_ammo_area_green_lodef"
+		"teambg_5"		"../hud/misc_ammo_area_horiz1_yellow"
+		"teambg_5_lodef"	"../hud/misc_ammo_area_yellow_lodef"
 	}
 	
 	"ItemEffectMeterLabel"
@@ -50,7 +54,7 @@
 		"pinCorner"				"2"
 		"visible"				"1"
 		"visible_minbad"		"1"
-		"ypos_minbad"			"1"
+		"ypos_minbad"			"0"
 		"xpos_minbad"			"0"
 		"textAlignment_minbad"			"west"
 		"enabled"				"1"
@@ -82,5 +86,5 @@
 		"textAlignment"			"Left"
 		"dulltext"				"0"
 		"brighttext"			"0"
-	}					
+	}
 }

@@ -12,6 +12,13 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"	
+
+		"if_vip"
+		{
+			"xpos"			"50"
+			"wide"			"60"
+			"tall"			"60"
+		}
 	}
 	"Briefcase"
 	{
@@ -26,6 +33,14 @@
 		"enabled"		"1"
 		"image"			"../hud/objectives_flagpanel_briefcase"
 		"scaleImage"	"1"
+		
+		"if_vip"
+		{
+			"xpos"			"70"
+			"ypos"			"22"
+			"wide"			"20"
+			"tall"			"20"
+		}
 		
 		"if_mvm"
 		{
@@ -49,6 +64,13 @@
 		"image"			"../hud/objectives_flagpanel_ico_flag_home"
 		"scaleImage"	"1"	
 		
+		"if_vip"
+		{
+			"xpos"			"77"
+			"ypos"			"21"
+			"wide"			"20"
+			"tall"			"20"
+		}
 		"if_mvm"
 		{
 			"visible"	"0"

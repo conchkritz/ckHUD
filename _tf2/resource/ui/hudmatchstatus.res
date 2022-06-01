@@ -227,52 +227,6 @@
 		}
 	}
 
-	"RankUpLabel"
-	{	
-		"ControlName"	"CExLabel"
-		"fieldName"		"RankUpLabel"
-		"font"			"HudFontMediumSmallBold"
-		"xpos"			"cs-0.5"
-		"ypos"			"80"
-		"wide"			"600"
-		"tall"			"60"
-		"zpos"			"5"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"wrap"			"0"
-		"centerwrap"	"1"
-		"alpha"			"0"
-		"labelText"		"%rank_possibility%"
-		"textAlignment"	"center"
-		"proportionaltoparent"	"1"
-		"fgcolor"		"TanLight"
-	}
-
-	"RankUpShadowLabel"
-	{	
-		"ControlName"	"CExLabel"
-		"fieldName"		"RankUpShadowLabel"
-		"font"			"HudFontMediumSmallBold"
-		"xpos"			"cs-0.5+2"
-		"ypos"			"80+2"
-		"wide"			"600"
-		"tall"			"60"
-		"zpos"			"5"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"wrap"			"0"
-		"centerwrap"	"1"
-		"alpha"			"0"
-		"labelText"		"%rank_possibility%"
-		"textAlignment"	"center"
-		"proportionaltoparent"	"1"
-		"fgcolor"		"Black"
-	}
-
 	"ObjectiveStatusTimePanel"
 	{
 		"ControlName"		"EditablePanel"
@@ -298,6 +252,7 @@
 		"NegativeColor"			"255 0 0 255"
 		"delta_lifetime"		"1.5"
 		"delta_item_font"		"HudFontMedium"
+		"timer_offset"			"-10"
 
 		if_match
 		{

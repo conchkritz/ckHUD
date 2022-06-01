@@ -22,7 +22,6 @@ Scheme
 		"Orange"			"255 155 0 255"
 		"TransparentBlack"		"0 0 0 128"
 		"Black"				"0 0 0 255"
-		"Green"				"63 185 73 255"
 
 		"Blank"				"0 0 0 0"
 	}
@@ -202,6 +201,8 @@ Scheme
 		TFColors.ChatTextYellow		"251 235 202 255"
 		TFColors.ChatTextTeamBlue	"153 204 255 255"
 		TFColors.ChatTextTeamRed	"255 63 53 255"
+		TFColors.ChatTextTeamGreen	"153 255 153 255"
+		TFColors.ChatTextTeamYellow	"255 178 0 255"
 	}
 
 	//////////////////////// BITMAP FONT FILES /////////////////////////////

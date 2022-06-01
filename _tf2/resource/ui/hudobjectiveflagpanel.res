@@ -474,6 +474,12 @@
 		{
 			"ypos"		"r100"
 		}
+		"if_vip"
+		{
+			"xpos"			"c-30"
+			"wide"			"60"
+			"tall"			"60"
+		}
 		
 		"if_specialdelivery"
 		{
