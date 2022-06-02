@@ -102,9 +102,7 @@
 	}
 	
 	"TargetDataLabel"
-	{	
-		"font"			"hudfont8sec"
-		
+	{			
 		"xpos"			"8"
 		"ypos"			"15"
 		"zpos"			"1"

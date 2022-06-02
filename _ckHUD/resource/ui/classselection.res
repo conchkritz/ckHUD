@@ -1401,13 +1401,15 @@
 	
 	"TFPlayerModel"
 	{
-		"xpos"			"230"
-		"ypos"			"47"
+		"xpos"			"-3"
+		"ypos"			"0"
 		"zpos"			"6"		
 		"wide"			"200"
 		"tall"			"300"
 		
-		"allow_manip"	"1" // important
+		"allow_manip"	"1" // important (?)
+
+		"pin_to_sibling" "Background"
 
 		"model" // keep because im lazy
 		{

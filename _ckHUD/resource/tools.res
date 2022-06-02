@@ -4,7 +4,7 @@
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"			"MOTD_Panel"
-		"xpos"				"r345"
+		"xpos"				"r385"
 		"ypos"				"130"
 		"zpos"				"100"
 		"wide"				"300"
@@ -66,6 +66,13 @@
 			
 			"wide"				"14"
 			"tall"				"14"
+			
+			"defaultFgColor_override" "tandarker"
+			"armedFgColor_override" "TFOrange"
+			"depressedFgColor_override" "tandarker"
+			
+			"image_drawcolor"	"colorwhite"
+			"image_armedcolor"	"TFOrange"	
 		}
 
 		"MOTD_HeaderIcon"
