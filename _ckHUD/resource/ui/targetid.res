@@ -136,18 +136,24 @@
 	
 	"MoveableSubPanel"
 	{
+		"zpos"			"99"
+
 		"MoveableIconBG"
 		{
 			"xpos"			"9999"
+			"wide"			"0"
 		}
 		
 		"MoveableIcon"
 		{
 			"xpos"			"9999"
+			"wide"			"0"
 		}
+		
 		"MoveableSymbolIcon"
 		{
 			"xpos"			"9999"
+			"wide"			"0"
 		}
 
 		"MoveableKeyLabel"
@@ -156,9 +162,10 @@
 			
 			"xpos"			"0"
 			"ypos"			"5"
-			"zpos"			"1"
+			"zpos"			"99"
 		}	
 	}
+	
 	"AvatarImage"
 	{
 		"xpos"			"4"

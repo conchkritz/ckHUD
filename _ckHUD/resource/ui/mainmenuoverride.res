@@ -1112,13 +1112,13 @@
 		"xpos" "rs1"
 		"ypos" "rs0.7"
 		"zpos"			"1"
-		"wide"			"110"
+		"wide"			"75"
 		"tall"			"25"
 
 		"font"			"hudfont12"
 		"textAlignment"	"east"
 		
-		"labelText" 	"ckHUD 0.3.5-ALPHA"
+		"labelText" 	"ckHUD 0.3.5"
 		
 		"wide_minmode"			"145"
 		"labelText_minmode" 	"pls turn off minmode"
