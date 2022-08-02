@@ -16,15 +16,37 @@
 			}
 		}
 	}
-
+	
+	"NextButtonHiddens"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"NextButtonHiddens"
+		"xpos"		"9999"
+		
+		"labelText"		"&D"
+		"Command"		"nextitem"
+	}
+	
+	"PrevButtonHidden"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"PrevButtonHidden"
+		"xpos"		"9999"
+		
+		"labelText"		"&D"
+		"Command"		"previtem"
+	}
+	
 	"NextButton"
 	{
 		"labelText"		"&D"
+		"font"			"hudfont14"
 	}
 
 	"PrevButton"
 	{
 		"labelText"		"&A"
+		"font"			"hudfont14"
 	}
 	
 //	"CloseButton"

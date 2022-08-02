@@ -44,11 +44,13 @@
 	
 	"TauntCaratLabel"
 	{
+		"xpos"			"9999"
 		"font"			"hudfont11"
 	}
 	
 	"TauntLabel"
 	{
+		"xpos"			"9999"
 		"font"			"hudfont14"
 	}	
 	
