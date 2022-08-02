@@ -1,4 +1,4 @@
-"Resource/UI/HudPlayerHealth.res" // the first file to be redone!!
+"Resource/UI/HudPlayerHealth.res"
 {	
 	"PlayerStatusHealthImage"
 	{
