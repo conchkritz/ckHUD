@@ -7,7 +7,7 @@
 
 		"xpos"			"36"
 		"ypos"			"55"
-		"zpos"			"3"
+		"zpos"			"1"
 		
 		"wide"			"37"
 		"tall"			"15"
@@ -34,7 +34,7 @@
 
 		"xpos"			"47"
 		"ypos"			"44"
-		"zpos"			"3"
+		"zpos"			"1"
 		
 		"wide"			"15"
 		"tall"			"37"

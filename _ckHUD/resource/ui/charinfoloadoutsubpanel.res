@@ -78,6 +78,13 @@
 		"xpos"			"9999"
 	}
 	
+	"LoadoutChangesLabel"
+	{
+		"font"			"hudfont14"
+		"ypos"			"55"
+//		"fgcolor_override" "colorred"
+	}
+	
 	"CustomScout"
 	{
 		"ControlName"								"CExImageButton"
