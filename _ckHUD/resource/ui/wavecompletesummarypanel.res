@@ -11,15 +11,6 @@
 	
 	"WaveCompleteContainer"
 	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"WaveCompleteContainer"
-		"xpos"			"0"
-		"ypos"			"0"
-		"wide"			"250"
-		"tall"			"35"
-		"visible"		"1"
-		"PaintBackgroundType" "2"
-		
 		"BackgroundRed"
 		{
 			"ControlName"		"CTFImagePanel"
@@ -64,7 +55,7 @@
 			"fgcolor"		"colorwhite"	
 		}
 	}
-		
+	
 	"CreditContainer"
 	{
 		"CreditCollectedTextLabel"
