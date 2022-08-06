@@ -102,7 +102,7 @@
 	}
 	
 	"RatingContainer"
-
+	{
 		"RatingLabel"
 		{
 			"font"			"hudfon14sec"

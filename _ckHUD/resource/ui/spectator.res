@@ -98,5 +98,11 @@
 		{
 			"inventory_image_type"	"1"
 		}
+		
+		"attriblabel" // finally fixed!!
+		{
+			"visible"		"0"
+			"enabled"		"0"
+		}
 	}		
 }
