@@ -29,7 +29,7 @@ Cuurently only being tested on 1080p. If anyone else wants to test for me you ca
 
 # Credits
 * [e.v.e HUD](https://gamebanana.com/mods/26852)
-  * Spectator freezepanel
+  * Spectator Freezepanel
   * Class Selection Menu
   * Backpack
 
@@ -45,4 +45,4 @@ Cuurently only being tested on 1080p. If anyone else wants to test for me you ca
 * [Extended TF2 Fonts](https://github.com/jakadak/TF2-extended-fonts)  
  * Replacement Fonts
 
-* [HUDS.tf Discord](https://discord.com/invite/pc9ekye) 
+* [HUDS.TF Discord](https://discord.com/invite/pc9ekye) 
