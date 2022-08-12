@@ -2,7 +2,7 @@
 {
 	HudPlayerStatus
 	{
-		"xpos"	"c-280" // c-240
+		"xpos"	"c-360" // c-240
 		"ypos"	"-81" // -125
 		"zpos"	"1"
 		
@@ -12,7 +12,7 @@
 
 	HudWeaponAmmo
 	{
-		"xpos"	"c45" // c0
+		"xpos"	"c40" // c0
 		"ypos"	"c40" // c-6
 		
 		"wide"	"f0"
@@ -236,7 +236,7 @@
 	
 	HudDeathNotice // killfeed
 	{
-		"ypos"	 "21"
+		"ypos"	 "24"
 		
 		"TextFont"		"hudfont8"
 		"MaxDeathNotices" "4"

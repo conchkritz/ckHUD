@@ -42,7 +42,7 @@
 	
 	"PlayerListBackground"
 	{
-		"ControlName"		"EditablePanel"
+		"ControlName"		"CTFImagePanel"
 		
 		"xpos"			"25"
 		"ypos"			"76"
@@ -51,26 +51,41 @@
 		"wide"			"550"
 		"tall"			"148"
 		
-		"border"		"tfthinlineborder"
+		"image"			"../hud/color_panel_browner"
+		
+		"src_corner_height"		"25"
+		"src_corner_width"		"25"
+		
+		"draw_corner_width"		"0"
+		"draw_corner_height" 	"0"	
 	}
 	
 	"PlayerListBackgroundHeader"
 	{
-		"ControlName"		"EditablePanel"
+		"ControlName"		"CTFImagePanel"
 		"fieldName"		"PlayerListBackgroundHeader"
 		"xpos"			"25"
-		"ypos"			"76"
+		"ypos"			"74"
 		"zpos"			"-1"
 		"wide"			"550"
-		"tall"			"15"
+		"tall"			"16"
 		"visible"		"1"
 		"enabled"		"1"
-		"border"		"tffatlineborderredbg"
+		"image"			"../hud/color_panel_red_opaque"
+		"scaleImage"		"1"
+		
+		"src_corner_height"		"25"
+		"src_corner_width"		"25"
+		
+		"draw_corner_width"		"0"
+		"draw_corner_height" 	"0"	
+		
+		"border"				"ScoreboardHeader"
 	}
 
 	"Player1"
 	{
-		"ControlName"		"EditablePanel"
+		"ControlName"		"CTFImagePanel"
 		"fieldName"		"Player1"
 		"xpos"			"25"
 		"ypos"			"90"
@@ -79,12 +94,18 @@
 		"tall"			"22"
 		"visible"		"1"
 		"enabled"		"1"
-		"border"		"tfthinlineborder"
-
+		
+		"image"			"../hud/color_panel_browner"
+		
+		"src_corner_height"		"25"
+		"src_corner_width"		"25"
+		
+		"draw_corner_width"		"0"
+		"draw_corner_height" 	"0"	
 	}
 	"Player3"
 	{
-		"ControlName"		"EditablePanel"
+		"ControlName"		"CTFImagePanel"
 		"fieldName"		"Player3"
 		"xpos"			"25"
 		"ypos"			"134"
@@ -93,12 +114,18 @@
 		"tall"			"22"
 		"visible"		"1"
 		"enabled"		"1"
-		"border"		"tfthinlineborder"
-
+		
+		"image"			"../hud/color_panel_browner"
+		
+		"src_corner_height"		"25"
+		"src_corner_width"		"25"
+		
+		"draw_corner_width"		"0"
+		"draw_corner_height" 	"0"	
 	}
 	"Player5"
 	{
-		"ControlName"		"EditablePanel"
+		"ControlName"		"CTFImagePanel"
 		"fieldName"		"Player5"
 		"xpos"			"25"
 		"ypos"			"178"
@@ -107,7 +134,14 @@
 		"tall"			"22"
 		"visible"		"1"
 		"enabled"		"1"
-		"border"		"tfthinlineborder"
+		
+		"image"			"../hud/color_panel_browner"
+		
+		"src_corner_height"		"25"
+		"src_corner_width"		"25"
+		
+		"draw_corner_width"		"0"
+		"draw_corner_height" 	"0"		
 	}
 	
 	"MvMPlayerList"
@@ -138,7 +172,7 @@
 		
 		"CurwaveBackgroundHeader"
 		{
-			"ControlName"		"EditablePanel"
+			"ControlName"		"CTFImagePanel"
 			"fieldName"		"CurwaveBackgroundHeader"
 			"xpos"			"40"
 			"ypos"			"25"
@@ -149,8 +183,16 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"border"		"tfthinlineborder"
+			
+			"border"				"ScoreboardHeader"
 
+			"image"		"../hud/color_panel_brown_opaque"
+			
+			"src_corner_height"		"25"
+			"src_corner_width"		"25"
+			
+			"draw_corner_width"		"0"
+			"draw_corner_height" 	"0"	
 		}	
 		
 		"GameTotalBackground"
@@ -171,7 +213,7 @@
 		
 		"GameTotalBackgroundHeader"
 		{
-			"ControlName"		"EditablePanel"
+			"ControlName"		"CTFImagePanel"
 			"fieldName"		"GameTotalBackgroundHeader"
 			"xpos"			"40"
 			"ypos"			"115"
@@ -182,7 +224,16 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"border"		"tfthinlineborder"
+			
+			"border"				"ScoreboardHeader"
+			
+			"image"		"../hud/color_panel_brown_opaque"
+			
+			"src_corner_height"		"25"
+			"src_corner_width"		"25"
+			
+			"draw_corner_width"		"0"
+			"draw_corner_height" 	"0"			
 		}	
 		
 		"CreditStatsBackground"

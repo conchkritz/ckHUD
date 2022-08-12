@@ -349,3 +349,18 @@ event DefaultAnimCasualCategory_NotSelected
 	Animate Title		FgColor 	colordullwhite 	Deaccel 0 0.2
 	Animate DescLabel	FgColor 	colordullwhite 	Deaccel 0 0.2
 }
+
+//===========================================
+// motd
+
+event DefaultAnimHasMOTDBlink
+{
+}
+
+event DefaultAnimHasMOTDBlinkLoop
+{
+}
+
+event DefaultAnimHasMOTDBlinkStop
+{
+}

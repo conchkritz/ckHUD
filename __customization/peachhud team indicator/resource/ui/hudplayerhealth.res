@@ -5,8 +5,8 @@
 		"ControlName"		"CTFImagePanel"
 		"fieldName"			"TeamIndLine"
 
-		"xpos"			"80"
-		"ypos"			"78"
+		"xpos"			"-40"
+		"ypos"			"-7"
 		"zpos"			"3"
 		
 		"wide"			"67"
@@ -25,5 +25,8 @@
 		"src_corner_width"			"40"			
 		"draw_corner_width"			"0"			// screen size of the corners ( and sides ), proportional
 		"draw_corner_height" 		"0"	
+		
+		"pin_to_sibling"		"PlayerStatusHealthValue"
+		"pin_to_sibling_corner"	"PIN_BOTTOMLEFT"
 	}
 }

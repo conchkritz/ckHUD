@@ -18,12 +18,12 @@
 	"RankModelPanel"
 	{
 		"xpos"			"cs-0.5-160"
-		"ypos"			"cs-0.5-50"
+		"ypos"			"cs-0.5-52"
 	}
 
 	"CycleRankTypeButton"
 	{
-		"ypos"			"cs-0.5-78"
+		"ypos"			"cs-0.5-77"
 		
 		"defaultFgColor_override"	"colorwhite"
 		"armedFgColor_override"		"colorwhite"
@@ -51,20 +51,22 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"MainItemsBorder"
-		"xpos"			"c-328"
-		"ypos"			"30"
+		"xpos"			"40"
+		"ypos"			"116"
 		"zpos"			"-100"
-		"wide"			"298"
+		"wide"			"300"
 		"tall"			"114"
 		"visible"		"1"
 		"PaintBackgroundType"	"2"
 		"border"		"MainMenuBGBorder"
-		"proportionaltoparent"	"1"
+		
+		"pin_to_sibling"	"RankBorder"
+		"pin_to_sibling_corner" "PIN_TOPLEFT"
 	}
 	
 	"RankBorder"
 	{
-		"ypos"			"150"
+		"ypos"			"148"
 
 		"tall"			"105"
 	}
@@ -97,13 +99,16 @@
 
 	"WatchStreamButton"
 	{
-		"xpos"			"c-322"
-		"ypos"			"34"
+		"xpos"			"-5"
+		"ypos"			"-4"
 		"zpos"			"1"
 		
 		"wide"			"32"
 		"tall"			"32"
 
+		"pin_to_sibling"	"MainItemsBorder"
+		"pin_to_sibling_corner"	"PIN_TOPLEFT"
+		
 		"SubButton"
 		{	
 			"paintbackground"	"1"
@@ -203,13 +208,19 @@
 	
 	"FriendsContainer"
 	{
+		"xpos"			"c-290"
+		"ypos"			"255"
+		"zpos"			"5"
+		"wide"			"260"
+		"tall"			"162"
+		
 		"TitleLabel"
 		{
 			"font"			"hudfont20"
 			"textAlignment"	"center"
 			
 			"xpos"			"0"
-			"ypos"			"0"
+			"ypos"			"-3"
 			
 			"wide"			"260"
 			"tall"			"30"
@@ -220,6 +231,18 @@
 		"InnerShadow"
 		{
 			"xpos"			"9999"
+		}
+		
+		"SteamFriendsList"
+		{
+			"ypos"			"rs1-28"
+		}
+		
+		"BelowDarken"
+		{
+			"ypos"			"rs1-28"
+
+			"bgcolor_override"	"0 0 0 100"
 		}
 	}
 
@@ -400,16 +423,16 @@
     {
         "ControlName"   "EditablePanel"
         "fieldname"     "CharacterSetupButtonFix"
-        "xpos"          "-44"
+        "xpos"          "-43"
         "ypos"          "-4"
         "zpos"          "11"
-        "wide"          "80"
+        "wide"          "81"
         "tall"          "80"
         "visible"       "1"
         "PaintBackgroundType"   "0"
         
 		"pin_to_sibling" "MainItemsBorder"
-        
+
         "navDown"       "ServerBrowserButton"
         "navRight"      "CreateServerButton"
         "navToRelay"        "SubButton"
@@ -421,7 +444,7 @@
             "xpos"          "0"
             "ypos"          "0"
             "zpos"          "1"
-            "wide"          "80"
+            "wide"          "81"
             "tall"          "80"
             "autoResize"    "0"
             "pinCorner"     "3"
@@ -470,10 +493,10 @@
     {
         "ControlName"   "EditablePanel"
         "fieldname"     "CharacterSetupButton"
-        "xpos"          "-44"
+        "xpos"          "-43"
         "ypos"          "-4"
         "zpos"          "11"
-        "wide"          "80"
+        "wide"          "81"
         "tall"          "80"
         "visible"       "1"
         "PaintBackgroundType"   "0"
@@ -491,7 +514,7 @@
             "xpos"          "0"
             "ypos"          "0"
             "zpos"          "1"
-            "wide"          "80"
+            "wide"          "81"
             "tall"          "80"
             "autoResize"    "0"
             "pinCorner"     "3"
@@ -545,10 +568,10 @@
     {
         "ControlName"   "EditablePanel"
         "fieldname"     "GeneralStoreButton"
-        "xpos"          "-85"
+        "xpos"          "-86"
         "ypos"          "0"
         "zpos"          "11"
-        "wide"          "80"
+        "wide"          "81"
         "tall"          "80"
         "visible"       "1"
         "PaintBackgroundType"   "0"
@@ -566,7 +589,7 @@
             "xpos"          "0"
             "ypos"          "0"
             "zpos"          "1"
-            "wide"          "80"
+            "wide"          "81"
             "tall"          "80"
             "autoResize"    "0"
             "pinCorner"     "3"
@@ -614,10 +637,10 @@
     {
         "ControlName"   "EditablePanel"
         "fieldname"     "SettingsButton"
-        "xpos"          "-85"
+        "xpos"          "-86"
         "ypos"          "0"
         "zpos"          "11"
-        "wide"          "80"
+        "wide"          "81"
         "tall"          "80"
         "visible"       "1"
         "PaintBackgroundType"   "0"
@@ -635,7 +658,7 @@
             "xpos"          "0"
             "ypos"          "0"
             "zpos"          "1"
-            "wide"          "80"
+            "wide"          "81"
             "tall"          "80"
             "autoResize"    "0"
             "pinCorner"     "3"
@@ -686,7 +709,7 @@
         "xpos"          "0"
         "ypos"          "-85"
         "zpos"          "11"
-        "wide"          "250"
+        "wide"          "253"
         "tall"          "20"
         "visible"       "1"
         "PaintBackgroundType"   "0"
@@ -704,7 +727,7 @@
             "xpos"          "0"
             "ypos"          "0"
             "zpos"          "1"
-            "wide"          "250"
+            "wide"          "253"
             "tall"          "20"
             "autoResize"    "0"
             "pinCorner"     "3"
@@ -746,33 +769,21 @@
                 "scaleImage"    "1"
                 "image"         "glyph_options"
             }     
-      			
+      	
         }
     }
 	
-	"LowerItemsBorder"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"LowerItemsBorder"
-		"xpos"			"c-290"
-		"ypos"			"407"
-		"zpos"			"0"
-		"wide"			"260"
-		"tall"			"30"
-		"visible"		"1"
-		"PaintBackgroundType"	"2"
-		"border"		"MainMenuBGBorder"
-		"proportionaltoparent"	"1"
-	}
-	
 	"NewUserForumsButton"
 	{
-		"xpos"			"c-288"
-		"ypos"			"410"
-		"zpos"			"2"
+		"xpos"			"-2"
+		"ypos"			"-27"
+		"zpos"			"6"
 		
 		"wide"			"25"
 		"tall"			"25"
+		
+		"pin_to_sibling"	"FriendsContainer"
+		"pin_to_sibling_corner" "PIN_BOTTOMLEFT"
 		
 		"defaultBgColor_override"	"no"
 		"armedBgColor_override"		"TFOrange"
@@ -788,7 +799,7 @@
 	{
 		"xpos"			"-26"
 		"ypos"			"0"
-		"zpos"			"3"
+		"zpos"			"6"
 		
 		"wide"			"25"
 		"tall"			"25"
@@ -809,7 +820,7 @@
 	{
 		"xpos"			"-26"
 		"ypos"			"0"
-		"zpos"			"4"
+		"zpos"			"6"
 		
 		"wide"			"25"
 		"tall"			"25"
@@ -830,7 +841,7 @@
 	{
 		"xpos"			"-26"
 		"ypos"			"0"
-		"zpos"			"5"
+		"zpos"			"6"
 		
 		"wide"			"25"
 		"tall"			"25"
@@ -851,7 +862,7 @@
 	{
 		"xpos"			"-26"
 		"ypos"			"0"
-		"zpos"			"4"
+		"zpos"			"6"
 		
 		"wide"			"25"
 		"tall"			"25"
@@ -877,7 +888,7 @@
 	{
 		"xpos"			"-26"
 		"ypos"			"0"
-		"zpos"			"5"
+		"zpos"			"6"
 		
 		"wide"			"25"
 		"tall"			"25"
@@ -912,7 +923,7 @@
 		"fieldname"		"DemoUIButton"
 		"xpos"			"-26"
 		"ypos"			"0"
-		"zpos"			"4"
+		"zpos"			"6"
 		
 		"wide"			"25"
 		"tall"			"25"
@@ -967,7 +978,7 @@
 	{
 		"xpos"			"-26"
 		"ypos"			"0"
-		"zpos"			"4"
+		"zpos"			"6"
 		
 		"wide"			"25"
 		"tall"			"25"
@@ -996,7 +1007,7 @@
 		
 		"xpos"			"-26"
 		"ypos"			"0"
-		"zpos"			"4"
+		"zpos"			"6"
 		
 		"wide"			"25"
 		"tall"			"25"
@@ -1053,7 +1064,7 @@
 		
 		"xpos"			"-26"
 		"ypos"			"0"
-		"zpos"			"4"
+		"zpos"			"6"
 		
 		"wide"			"25"
 		"tall"			"25"
@@ -1112,13 +1123,13 @@
 		"xpos" "rs1"
 		"ypos" "rs0.7"
 		"zpos"			"1"
-		"wide"			"75"
+		"wide"			"65"
 		"tall"			"25"
 
 		"font"			"hudfont12"
 		"textAlignment"	"east"
 		
-		"labelText" 	"ckHUD 0.3.5"
+		"labelText" 	"ckHUD 0.4"
 		
 		"wide_minmode"			"145"
 		"labelText_minmode" 	"pls turn off minmode"
@@ -1128,8 +1139,8 @@
 		"default"		"1"
 		"paintbackground" "0"
 		"sound_depressed"	""
-		"sound_released"	"UI/intro.wav"
-		"sound_released_minmode"	"UI/tts.mp3"
+		"sound_released"	"UI/pan.wav"
+		"sound_released_minmode"	"UI/tts.wav"
 
 		"defaultFgColor_override" "255 255 255 5"
 		"armedFgColor_override" "255 255 255 15"

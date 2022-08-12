@@ -103,7 +103,7 @@
 		"xpos"			"73"			// align me to the left edge of the first selection
 		"ypos"			"21"
 		"zpos"			"4"
-
+		
 		"textAlignment"	"center"
 	}
 	
@@ -116,6 +116,7 @@
 		"ypos"			"-1"
 		"zpos"			"3"
 
+		"tall"			"38"
 
 		"textAlignment"	"center"
 

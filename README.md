@@ -33,7 +33,7 @@ Cuurently only being tested on 1080p. If anyone else wants to test for me you ca
   * Class Selection Menu
   * Backpack
 
-* [Isaac Hud](https://huds.tf/site/s-Isaac-Hud)
+* [Isaac HUD](https://huds.tf/site/s-Isaac-Hud)
   * Main Menu Buttons
 
 * [ToonHUD](https://toonhud.com/)
@@ -43,6 +43,7 @@ Cuurently only being tested on 1080p. If anyone else wants to test for me you ca
   * 99% of the Materials Folder
 
 * [Extended TF2 Fonts](https://github.com/jakadak/TF2-extended-fonts)  
- * Replacement Fonts
+ 
+* [High Res Class Select Images](https://www.teamfortress.tv/52291/high-res-class-select-images)
 
 * [HUDS.TF Discord](https://discord.com/invite/pc9ekye) 

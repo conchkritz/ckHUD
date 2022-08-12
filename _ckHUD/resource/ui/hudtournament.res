@@ -149,11 +149,25 @@
 	"TournamentInstructionsLabel"
 	{	
 		"font"			"hudfont10sec"
+		
+		if_mvm
+		{
+//			"font"			"HudFontSmallishBold"
+			"ypos"			"98"
+		}
 	}
 	
 	"TournamentInstructionsLabelShadow"
 	{	
 		"font"			"hudfont10sec"
+		
+		if_mvm
+		{
+//			"font"			"HudFontSmallishBold"
+			"ypos"			"99"
+
+			"fgcolor"		"colorblack"
+		}
 	}
 
 	"TournamentReadyHintIcon"

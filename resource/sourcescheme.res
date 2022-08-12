@@ -7,7 +7,7 @@ Scheme
 	
 		"G_ActiveWindow"			"40 34 30 255" // Active window bg color
 		"G_InctiveWindow"			"40 34 30 245" // Inactive window bg color
-		"G_TitleBg"					"145 73 59 255" // Title bg color
+		"G_TitleBg"					"184 56 59 255" // Title bg color
 		"G_TitleText"				"255 255 255 255" // Title text color
 		"G_Highlight"				"145 73 59 255" // Highlight color
 		"G_ConsoleBg"				"56 50 44 255" // Console bg color

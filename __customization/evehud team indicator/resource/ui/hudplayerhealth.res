@@ -5,8 +5,8 @@
 		"ControlName"		"CTFImagePanel"
 		"fieldName"			"TeamIndCross1"
 
-		"xpos"			"36"
-		"ypos"			"55"
+		"xpos"			"1"
+		"ypos"			"-10"
 		"zpos"			"1"
 		
 		"wide"			"37"
@@ -25,6 +25,8 @@
 		"src_corner_width"			"40"			
 		"draw_corner_width"			"0"			// screen size of the corners ( and sides ), proportional
 		"draw_corner_height" 		"0"	
+		
+		"pin_to_sibling"	"PlayerStatusHealthImageBG"
 	}
 	
 	"TeamIndCross2"
@@ -32,8 +34,8 @@
 		"ControlName"		"CTFImagePanel"
 		"fieldName"			"TeamIndCross2"
 
-		"xpos"			"47"
-		"ypos"			"44"
+		"xpos"			"-10"
+		"ypos"			"1"
 		"zpos"			"1"
 		
 		"wide"			"15"
@@ -52,5 +54,7 @@
 		"src_corner_width"			"40"			
 		"draw_corner_width"			"0"				// screen size of the corners ( and sides ), proportional
 		"draw_corner_height" 		"0"	
+		
+		"pin_to_sibling"	"PlayerStatusHealthImageBG"
 	}
 }

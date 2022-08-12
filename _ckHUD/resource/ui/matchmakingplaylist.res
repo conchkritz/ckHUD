@@ -15,7 +15,7 @@
 		"ControlName"			"CPlayListEntry"
 		"fieldName"				"CasualEntry"
 		"xpos"					"r145"
-		"ypos"					"5"
+		"ypos"					"7"
 		"tall"					"50"
 		"wide"					"135"
 		"proportionaltoparent"	"0"

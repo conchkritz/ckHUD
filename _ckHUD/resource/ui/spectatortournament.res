@@ -228,7 +228,7 @@
 	"ReinforcementsLabel"
 	{
 		"xpos"			"c-300"
-		"ypos"			"50"
+		"ypos"			"100"
 		
 		"wide"			"600"
 		"tall"			"18"

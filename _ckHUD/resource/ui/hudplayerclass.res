@@ -2,7 +2,7 @@
 {
 	"PlayerStatusClassImage"
 	{
-		"xpos"			"29"
+		"xpos"			"116"
 		"ypos"			"r99"
 		"zpos"			"2"
 		
@@ -30,7 +30,7 @@
 
 	"classmodelpanel"
 	{
-		"xpos"			"20"
+		"xpos"			"110"
 		"ypos"			"r159"
 		"zpos"			"2"	
 		
