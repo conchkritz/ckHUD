@@ -40,7 +40,7 @@
 
 	"CarryingWeapon"
 	{
-		"xpos"					"25"
+		"xpos"					"9999" // too lazy to fix it properly
 		"ypos"					"r43"
 
 		"CarryingBackground"
