@@ -1,11 +1,5 @@
 "Resource/UI/HudMannVsMachineStatus.res"
-{	
-	"CurrencyStatusPanel"
-	{
-		"xpos"				"c-56"
-		"ypos"				"r137"
-	}
-	
+{		
 	"InWorldCurrencyPanel"
 	{
 		"xpos"				"c-24"

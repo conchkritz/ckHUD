@@ -269,5 +269,11 @@
 		// FadeOutPercentage
 		// Noise
 	}
+
+	"CurrencyStatusPanel" // why
+	{
+		"xpos"				"c-56"
+		"ypos"				"r137"
+	}
 }
 
