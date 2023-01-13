@@ -6,6 +6,8 @@
 
 A hud made by conch, inspired by e.v.e Hud, Isaac Hud, and ToonHUD.
 
+Last updated 11 December 2022
+
 [Imgur Album](https://imgur.com/a/oX2zvhA)
 
 # Compatibility
