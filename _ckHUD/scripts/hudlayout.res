@@ -272,8 +272,11 @@
 
 	"CurrencyStatusPanel" // why
 	{
+		"ControlName"		"CCurrencyStatusPanel"
+		"fieldName"			"CurrencyStatusPanel"
 		"xpos"				"c-56"
 		"ypos"				"r137"
+		"zpos"				"99"
 	}
 }
 
