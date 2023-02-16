@@ -5,7 +5,7 @@
 		"xpos"				"c-24"
 		"ypos"				"r55"
 	}
-	
+
 	"ServerChangeMessage"
 	{
 		"Background"
