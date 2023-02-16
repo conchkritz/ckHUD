@@ -1,6 +1,5 @@
 // load the base configuration
 //exec default.cfg
-r_decal_cullsize 1
 
 // Setup custom controller
 exec joystick.cfg
@@ -8,15 +7,13 @@ exec joystick.cfg
 // run a user script file if present
 exec autoexec.cfg
 
+// execute order 66
+exec ckhud.cfg
+
 //
 // stuff command line statements
 //
 stuffcmds
 
-// display the startup level
+// display the startup level. Remove this if you're using background images instead of maps
 startupmenu
-
-sv_unlockedchapters 99
-
-// hud stuff
-cl_hud_minmode 0
