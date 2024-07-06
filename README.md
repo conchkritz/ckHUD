@@ -1,6 +1,6 @@
 # ckHUD
 
-**this hud is kinda not actively maintained cuz i go on steam on a monthly basis**
+**THIS HUD IS A WORK IN PROGRESS!!**
 
 ![Main Menu V.0.3.5](https://user-images.githubusercontent.com/76109782/171527344-b8f2b9c0-ad1f-432f-8aa6-d1b086e3aa19.png)
 
