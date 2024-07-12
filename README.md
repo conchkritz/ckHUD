@@ -1,6 +1,6 @@
 # ckHUD
 
-**THIS HUD IS A WORK IN PROGRESS!!**
+**THIS HUD IS BEING WORKED ON AGAIN!!!!**
 
 ![Main Menu V.0.3.5](https://user-images.githubusercontent.com/76109782/171527344-b8f2b9c0-ad1f-432f-8aa6-d1b086e3aa19.png)
 
@@ -9,7 +9,7 @@ A hud made by conch, inspired by e.v.e Hud, Isaac Hud, and ToonHUD.
 [Imgur Album](https://imgur.com/a/oX2zvhA)
 
 # Compatibility
-Cuurently only being tested on 1080p. If anyone else wants to test for me you can add me on Discord or message me on Steam.
+Cuurently only being tested on 1080p. If you have issues, best method of contact is discord.
 
 | OS  | Status |
 | ------------- | ------------- |
@@ -25,7 +25,7 @@ Cuurently only being tested on 1080p. If anyone else wants to test for me you ca
 | Language  | Status |
 | ------------- | ------------- |
 | English  | Supported  |
-| Anything Else  | Unsupported  |
+| Anything Else  | Supported(?)  |
 
 # Credits
 * [e.v.e HUD](https://gamebanana.com/mods/26852)

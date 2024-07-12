@@ -48,7 +48,7 @@
 	}
 	"CPIconBluCapUp"
 	{
-		"ControlName"		"ImagePanel"
+		"ControlName"			"ImagePanel"
 		"fieldName"			"CPIconBluCapUp"
 		"xpos"				"9999"
 		"visible"			"1"

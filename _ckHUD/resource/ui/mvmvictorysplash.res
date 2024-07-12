@@ -4,14 +4,7 @@
 	{
 		"SplashBackground"
 		{
-			"image"				"../hud/ammo_red_bg"
-			
-//			"image"				"../hud/color_panel_red"
-//			"scaleImage"		"1"
-//			"src_corner_height"		"25"
-//			"src_corner_width"		"25"			
-//			"draw_corner_width"		"0"
-//			"draw_corner_height" 	"0"	
+			"image"				"/replay/thumbnails/hud/ammo_red_bg"
 		}
 		
 		"SplashLabelShadow"

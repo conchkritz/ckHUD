@@ -98,6 +98,15 @@ Scheme
 				"antialias" "1"
 			}
 		}
+		"hudfont50sec"
+		{
+			"1"
+			{
+				"name" "TF2 Secondary"
+				"tall" "50"
+				"antialias" "1"
+			}
+		}
 // 		===========================================
 // 		main font
 

@@ -1,63 +1,49 @@
 "Resource/UI/MvMScoreboard.res"
-{	
-	"PopFileLabel"
+{		
+	"WaveStatusPanel"
 	{
-		"font"			"hudfont12sec"
-		"textAlignment"	"west"
-		
-		"xpos"			"390"
-		"ypos"			"222"
-		
-		"fgcolor"		"colorwhite"
 	}
 	
+	"PopFileLabel"
+	{
+		"font"			"hudfont10sec"
+		"textAlignment"	"center"
+		
+		"xpos"			"160"
+		"ypos"			"413"
+		
+		"wide"			"290"
+		"tall"			"20"
+		"fgcolor"		"colorwhite"
+	}
+
 	"DifficultyContainer"
 	{
-		"xpos"			"390"
-		"ypos"			"235"
+		"xpos"			"230"
+		"ypos"			"425"
+		"wide"			"150"
+		"tall"			"24"
+		
+		"border"		"tfthinlineborder"
 		
 		"DifficultyLabel"
 		{
-			"font"			"hudfont12sec"
-		
-			"tall"			"20"
+			"ypos"			"2"
 
-			"textAlignment"	"west"
+			"fgcolor"		"colorwhite"
 		}
 		
 		"DifficultyValue"
 		{
-			"font"			"hudfont12sec"
-			"textAlignment"	"west"
-			
-			"xpos"			"48"
-			"ypos"			"3"
-			
-			"wide"			"150"
-			"tall"			"15"
-			
+			"tall"			"17"
+
+			"ypos"			"7"
 			"fgcolor"		"colorwhite"
 		}
 	}
 	
 	"PlayerListBackground"
 	{
-		"ControlName"		"CTFImagePanel"
-		
-		"xpos"			"25"
-		"ypos"			"76"
-		"zpos"			"-1"
-		
-		"wide"			"550"
-		"tall"			"148"
-		
-		"image"			"../hud/color_panel_browner"
-		
-		"src_corner_height"		"25"
-		"src_corner_width"		"25"
-		
-		"draw_corner_width"		"0"
-		"draw_corner_height" 	"0"	
 	}
 	
 	"PlayerListBackgroundHeader"
@@ -65,219 +51,171 @@
 		"ControlName"		"CTFImagePanel"
 		"fieldName"		"PlayerListBackgroundHeader"
 		"xpos"			"25"
-		"ypos"			"74"
+		"ypos"			"73"
 		"zpos"			"-1"
 		"wide"			"550"
-		"tall"			"16"
+		"tall"			"23"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../hud/color_panel_red_opaque"
+		"image"			"../hud/score_panel_red_bg_solid"
 		"scaleImage"		"1"
 		
-		"src_corner_height"		"25"
-		"src_corner_width"		"25"
+		"src_corner_height"		"2"
+		"src_corner_width"		"2"
 		
-		"draw_corner_width"		"0"
-		"draw_corner_height" 	"0"	
-		
-		"border"				"ScoreboardHeader"
+		"draw_corner_width"		"1"
+		"draw_corner_height" 	"1"	
 	}
-
+	
 	"Player1"
 	{
-		"ControlName"		"CTFImagePanel"
+		"ControlName"	"EditablePanel"
 		"fieldName"		"Player1"
-		"xpos"			"25"
-		"ypos"			"90"
+		"xpos"			"50"
+		"ypos"			"91"
 		"zpos"			"-1"
-		"wide"			"550"
-		"tall"			"22"
+		"wide"			"500"
+		"tall"			"20"
 		"visible"		"1"
 		"enabled"		"1"
 		
-		"image"			"../hud/color_panel_browner"
+		"bgcolor_override" "colortransparentgray"
+	}
+	"Player2"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"Player2"
+		"xpos"			"50"
+		"ypos"			"113"
+		"zpos"			"-1"
+		"wide"			"500"
+		"tall"			"20"
+		"visible"		"1"
+		"enabled"		"1"
 		
-		"src_corner_height"		"25"
-		"src_corner_width"		"25"
-		
-		"draw_corner_width"		"0"
-		"draw_corner_height" 	"0"	
+		"bgcolor_override" "colortransparentgray"
+
 	}
 	"Player3"
 	{
-		"ControlName"		"CTFImagePanel"
+		"ControlName"	"EditablePanel"
 		"fieldName"		"Player3"
-		"xpos"			"25"
-		"ypos"			"134"
+		"xpos"			"50"
+		"ypos"			"135"
 		"zpos"			"-1"
-		"wide"			"550"
-		"tall"			"22"
+		"wide"			"500"
+		"tall"			"20"
 		"visible"		"1"
 		"enabled"		"1"
 		
-		"image"			"../hud/color_panel_browner"
+		"bgcolor_override" "colortransparentgray"
+
+	}
+	"Player4"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"Player4"
+		"xpos"			"50"
+		"ypos"			"157"
+		"zpos"			"-1"
+		"wide"			"500"
+		"tall"			"20"
+		"visible"		"1"
+		"enabled"		"1"
 		
-		"src_corner_height"		"25"
-		"src_corner_width"		"25"
-		
-		"draw_corner_width"		"0"
-		"draw_corner_height" 	"0"	
+		"bgcolor_override" "colortransparentgray"
+
 	}
 	"Player5"
 	{
-		"ControlName"		"CTFImagePanel"
+		"ControlName"	"EditablePanel"
 		"fieldName"		"Player5"
-		"xpos"			"25"
-		"ypos"			"178"
+		"xpos"			"50"
+		"ypos"			"179"
 		"zpos"			"-1"
-		"wide"			"550"
-		"tall"			"22"
+		"wide"			"500"
+		"tall"			"20"
 		"visible"		"1"
 		"enabled"		"1"
 		
-		"image"			"../hud/color_panel_browner"
+		"bgcolor_override" "colortransparentgray"
+
+	}
+	"Player6"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"Player5"
+		"xpos"			"50"
+		"ypos"			"201"
+		"zpos"			"-1"
+		"wide"			"500"
+		"tall"			"20"
+		"visible"		"1"
+		"enabled"		"1"
 		
-		"src_corner_height"		"25"
-		"src_corner_width"		"25"
-		
-		"draw_corner_width"		"0"
-		"draw_corner_height" 	"0"		
+		"bgcolor_override" "colortransparentgray"
+
 	}
 	
 	"MvMPlayerList"
 	{
-		"tall"			"300" // ?????????????????????????????????????????
+//		"linespacing"	"22"
 	}
 	
 	"CreditStatsContainer"
 	{
-		"xpos"			"175"
-		"ypos"			"200"
-		
-		"CurwaveBackground"
-		{
-			"ControlName"		"EditablePanel"
-			"fieldName"		"CurwaveBackground"
-			"xpos"			"40"
-			"ypos"			"25"
-			"zpos"			"-1"
-			"wide"			"85"
-			"tall"			"80"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-			"border"		"tfthinlineborder"
-		}
-		
-		"CurwaveBackgroundHeader"
-		{
-			"ControlName"		"CTFImagePanel"
-			"fieldName"		"CurwaveBackgroundHeader"
-			"xpos"			"40"
-			"ypos"			"25"
-			"zpos"			"-1"
-			"wide"			"85"
-			"tall"			"19"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-			
-			"border"				"ScoreboardHeader"
-
-			"image"		"../hud/color_panel_brown_opaque"
-			
-			"src_corner_height"		"25"
-			"src_corner_width"		"25"
-			
-			"draw_corner_width"		"0"
-			"draw_corner_height" 	"0"	
-		}	
-		
-		"GameTotalBackground"
-		{
-			"ControlName"		"EditablePanel"
-			"fieldName"		"GameTotalBackground"
-			"xpos"			"40"
-			"ypos"			"115"
-			"zpos"			"-1"
-			"wide"			"85"
-			"tall"			"80"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-			"border"		"tfthinlineborder"
-		}
-		
-		"GameTotalBackgroundHeader"
-		{
-			"ControlName"		"CTFImagePanel"
-			"fieldName"		"GameTotalBackgroundHeader"
-			"xpos"			"40"
-			"ypos"			"115"
-			"zpos"			"-1"
-			"wide"			"85"
-			"tall"			"19" // nobody will notice it's not an even number
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-			
-			"border"				"ScoreboardHeader"
-			
-			"image"		"../hud/color_panel_brown_opaque"
-			
-			"src_corner_height"		"25"
-			"src_corner_width"		"25"
-			
-			"draw_corner_width"		"0"
-			"draw_corner_height" 	"0"			
-		}	
-		
 		"CreditStatsBackground"
 		{
-			"xpos"			"9999"
 		}
 		
 		"CreditsLabel"
 		{
-			"xpos"			"9999"
+			"ControlName"	"CExLabel"
+			"fieldName"		"CreditsLabel"
+			"font"			"hudfont24"
+			"labelText"		"#TF_PVE_Currency"
+			"textAlignment" "center"
+			"xpos"			"150"
+			"ypos"			"3"
+			"zpos"			"2"
+			"wide"			"100"
+			"tall"			"25"
+			"fgcolor"		"colorwhite"
+		}
+		
+		"CreditsLabelShadow"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"CreditsLabelShadow"
+			"font"			"hudfont24"
+			"labelText"		"#TF_PVE_Currency"
+			"textAlignment" "center"
+			"xpos"			"151"
+			"ypos"			"4"
+			"zpos"			"1"
+			"wide"			"100"
+			"tall"			"25"
+			"fgcolor"		"colorblack"
+		}
+		"PreviousWaveCreditInfoPanel"
+		{
 		}
 		
 		"TotalGameCreditInfoPanel"
 		{
-
-			"xpos"			"0"
-			"ypos"			"-60"	
-			
-			"tall"			"f0"
-			"wide"			"200"
-			
-			"pin_to_sibling"	"PreviousWaveCreditSpendPanel"
 		}
 		
 		"PreviousWaveCreditSpendPanel"
 		{
-			"xpos"			"0"
-			"ypos"			"-30"
-			
-			"tall"			"f0"
-			"wide"			"200"
-			
-			"pin_to_sibling"	"PreviousWaveCreditInfoPanel"
 		}
 		
 		"TotalGameCreditSpendPanel"
 		{
-			"xpos"			"0"
-			"ypos"			"-30"
-			
-			"tall"			"f0"
-			"wide"			"200"
-			
-			"pin_to_sibling"	"TotalGameCreditInfoPanel"
+		}
+
+		"RespecStatusLabel"
+		{
+			"fgcolor"		"colorwhite"
 		}
 	}
 }

@@ -12,12 +12,12 @@
 	
 	"PlayerStatusHealthImage"
 	{
-		"xpos"			"127"
-		"ypos"			"47"
+		"xpos"			"120"
+		"ypos"			"42"
 		"zpos"			"4"
 		
-		"wide"			"31"
-		"tall"			"31"
+		"wide"			"40"
+		"tall"			"40"
 	}		
 	
 	"PlayerStatusHealthImageBG"
@@ -26,15 +26,15 @@
 		"ypos"			"2"
 		"zpos"			"3"
 		
-		"wide"			"35"
-		"tall"			"35"
+		"wide"			"44"
+		"tall"			"44"
 		
 		"pin_to_sibling" "PlayerStatusHealthImage"
 	}	
 	
 	"PlayerStatusHealthBonusImage"
 	{
-		"xpos"			"182"
+		"xpos"			"187"
 		"ypos"			"40"
 		"zpos"			"2"
 		
@@ -44,7 +44,7 @@
 	
 	"PlayerStatusHealthValue"
 	{
-		"xpos"			"130"
+		"xpos"			"134"
 		"ypos"			"37"
 		"zpos"			"5"
 		
@@ -106,11 +106,69 @@
 		"visible"		"0"
 	}
 	
+	"TeamIndCross1"
+	{
+		"ControlName"		"CTFImagePanel"
+		"fieldName"			"TeamIndCross1"
+
+		"xpos"			"2"
+		"ypos"			"-13"
+		"zpos"			"1"
+		
+		"wide"			"48"
+		"tall"			"19"
+
+		"visible"			"1"
+		"enabled"			"1"
+
+		"image"				"../hud/color_panel_brown"
+		"scaleImage"		"1"
+		"teambg_1"			"../hud/color_panel_brown"
+		"teambg_2"			"../hud/color_panel_red"
+		"teambg_3"			"../hud/color_panel_blu"
+		
+		"src_corner_height"			"40"		// pixels inside the image
+		"src_corner_width"			"40"			
+		"draw_corner_width"			"0"			// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 		"0"	
+		
+		"pin_to_sibling"	"PlayerStatusHealthImageBG"
+	}
+	
+	"TeamIndCross2"
+	{
+		"ControlName"		"CTFImagePanel"
+		"fieldName"			"TeamIndCross2"
+
+		"xpos"			"-12"
+		"ypos"			"2"
+		"zpos"			"1"
+		
+		"wide"			"20"
+		"tall"			"48"
+
+		"visible"			"1"
+		"enabled"			"1"
+
+		"image"				"../hud/color_panel_brown"
+		"scaleImage"		"1"
+		"teambg_1"			"../hud/color_panel_brown"
+		"teambg_2"			"../hud/color_panel_red"
+		"teambg_3"			"../hud/color_panel_blu"
+		
+		"src_corner_height"			"40"				// pixels inside the image
+		"src_corner_width"			"40"			
+		"draw_corner_width"			"0"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 		"0"	
+		
+		"pin_to_sibling"	"PlayerStatusHealthImageBG"
+	}
+
 	"PlayerStatusPin" //budhud
     {
         "ControlName"                                               "Label"
         "fieldName"                                                 "PlayerStatusPin"
-        "xpos"                                                      "230"
+        "xpos"                                                      "218"
         "ypos"                                                      "47"
         "zpos"                                                      "0"
         "wide"                                                      "10"

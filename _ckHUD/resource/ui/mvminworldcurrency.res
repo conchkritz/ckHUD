@@ -2,12 +2,20 @@
 {
 	"BorderBG"
 	{
-		"xpos"			"9999"
+		"xpos"			"99999"
 	}	
 	
 	"BackgroundGood"
 	{
-		"xpos"			"9999"	
+		"xpos"			"10"
+		"ypos"			"1"
+		"zpos"			"2"
+
+		"wide"			"30"
+		"tall"			"12"
+
+		"bgcolor_override"	"221 182 72 250"
+		"border"		"WhiteBorderThin"		
 	}
 	
 	"MoneyImagePanel"
@@ -18,7 +26,7 @@
 	"CurrencyGood"
 	{
 		"font"			"hudfont11"
-		"fgcolor"		"CreditsGreen"
+		"fgcolor"		"colorwhite"
 		
 		"xpos"			"4"
 		"ypos"			"1"
@@ -31,7 +39,7 @@
 	"CurrencyBad"
 	{
 		"font"			"hudfont11"
-		"fgcolor"		"colordullwhite"
+		"fgcolor"		"currencybad"
 		
 		"xpos"			"4"
 		"ypos"			"1"

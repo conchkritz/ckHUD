@@ -6,10 +6,26 @@
 		{
 			"font"			"hudfont10sec"
 		}
+		
+		"TeamColoredNotBuiltImage"
+		{
+			"image"			"replay/thumbnails/hud/eng_status_area_tele_disabled"
+			"teambg_1"		"replay/thumbnails/hud/eng_status_area_tele_disabled"
+			"teambg_2"		"replay/thumbnails/hud/eng_status_area_tele_disabled"
+			"teambg_3"		"replay/thumbnails/hud/eng_status_area_tele_disabled"
+		}
 	}
 	
 	"BuiltPanel"
 	{
+		"TeamColoredBuiltImage"
+		{
+			"image"			"replay/thumbnails/hud/eng_status_area_tele_disabled"
+			"teambg_1"		"replay/thumbnails/hud/eng_status_area_tele_disabled"
+			"teambg_2"		"replay/thumbnails/hud/eng_status_area_tele_red"
+			"teambg_3"		"replay/thumbnails/hud/eng_status_area_tele_blue"
+		}
+		
 		"Health"
 		{	
 			"font"			"hudfont10sec"

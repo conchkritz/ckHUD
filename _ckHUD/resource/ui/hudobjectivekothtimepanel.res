@@ -24,6 +24,8 @@
 		
 		"TimePanelValue"
 		{
+			"font"			"hudfont18"
+
 			if_match
 			{
 				"font"			"hudfont18"
@@ -54,11 +56,11 @@
 
 	"RedTimer"
 	{
-		"xpos"				"97"
+		"xpos"				"196"
 	
 		if_match
 		{
-			"xpos"				"97"
+		"xpos"					"196"
 			"ypos"				"0"
 			"zpos"				"2"
 			
@@ -81,6 +83,8 @@
 		
 		"TimePanelValue"
 		{
+			"font"			"hudfont18"
+
 			if_match
 			{
 				"font"			"hudfont18"
@@ -106,5 +110,18 @@
 				"labelText"		"0:00"
 			}
 		}	
+	}
+		
+	"ActiveTimerBG"
+	{
+		"ypos"				"11" // change xpos in hudlayout
+
+		"wide"				"76"
+		"tall"				"29"
+		
+		if_match
+		{
+			"tall"				"0"
+		}
 	}
 }

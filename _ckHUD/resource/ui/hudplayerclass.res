@@ -2,12 +2,12 @@
 {
 	"PlayerStatusClassImage"
 	{
-		"xpos"			"116"
-		"ypos"			"r99"
+		"xpos"			"104"
+		"ypos"			"r102"
 		"zpos"			"2"
 		
-		"wide"			"35"
-		"tall"			"35"
+		"wide"			"40"
+		"tall"			"40"
 	}
 	
 	"PlayerStatusSpyImage"
@@ -30,8 +30,8 @@
 
 	"classmodelpanel"
 	{
-		"xpos"			"110"
-		"ypos"			"r159"
+		"xpos"			"104"
+		"ypos"			"r162"
 		"zpos"			"2"	
 		
 		"wide"			"50"
@@ -40,13 +40,7 @@
 
 	"CarryingWeapon"
 	{
-		"xpos"					"9999" // too lazy to fix it properly
-		"ypos"					"r43"
-
-		"CarryingBackground"
-		{
-			"src_corner_height"		"25"				// pixels inside the image
-			"src_corner_width"		"25"
-		}
+		"xpos"					"c57"
+		"ypos"					"r38"
 	}
 }

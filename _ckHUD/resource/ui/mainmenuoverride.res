@@ -23,7 +23,8 @@
 
 	"CycleRankTypeButton"
 	{
-		"ypos"			"cs-0.5-77"
+		"xpos"			"cs-0.5-46"
+		"ypos"			"cs-0.5-76"
 		
 		"defaultFgColor_override"	"colorwhite"
 		"armedFgColor_override"		"colorwhite"
@@ -51,10 +52,10 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"MainItemsBorder"
-		"xpos"			"40"
+		"xpos"			"38"
 		"ypos"			"116"
 		"zpos"			"-100"
-		"wide"			"300"
+		"wide"			"298"
 		"tall"			"114"
 		"visible"		"1"
 		"PaintBackgroundType"	"2"
@@ -75,10 +76,10 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"RankBorderBelowDarken"
-		"xpos"			"c-285"
+		"xpos"			"c-284"
 		"ypos"			"155"
 		"zpos"			"-99"
-		"wide"			"250"
+		"wide"			"248"
 		"tall"			"65"
 		"visible"		"1"	
 		"PaintBackgroundType"	"0"
@@ -240,7 +241,7 @@
 		
 		"BelowDarken"
 		{
-			"ypos"			"rs1-28"
+			"ypos"			"rs1-29"
 
 			"bgcolor_override"	"0 0 0 100"
 		}
@@ -257,7 +258,7 @@
 
 	// command comes from GameMenu.res
 
-	"ReportPlayerButton"
+	"ReportPlayerButton" // this serves as the bg for the buttons aparently (i havent touched tf2 in a couple months)
 	{
 		"xpos"			"38"
 		"ypos"			"0"
@@ -272,10 +273,10 @@
 		
 		"SubButton"
 		{
-			"xpos"			"6"
-			"ypos"			"5"
+			"xpos"			"5"
+			"ypos"			"7"
 			"wide"			"32"
-			"tall"			"23"
+			"tall"			"20"
 
 			"defaultBgColor_override"	"no"
 			"armedBgColor_override"		"TFOrange"
@@ -310,11 +311,11 @@
 
 		"SubButton"
 		{
-			"xpos"			"6"
-			"ypos"			"5"
+			"xpos"			"5"
+			"ypos"			"6"
 			
 			"wide"			"32"
-			"tall"			"23"
+			"tall"			"20"
 
 			"defaultBgColor_override"	"no"
 			"armedBgColor_override"		"TFOrange"
@@ -348,11 +349,11 @@
 
 		"SubButton"
 		{
-			"xpos"			"6"
-			"ypos"			"5"
+			"xpos"			"5"
+			"ypos"			"6"
 			
 			"wide"			"32"
-			"tall"			"23"
+			"tall"			"20"
 			
 			"defaultBgColor_override"	"no"
 			"armedBgColor_override"		"TFOrange"
@@ -385,11 +386,11 @@
 
 		"SubButton"
 		{
-			"xpos"			"6"
-			"ypos"			"5"
+			"xpos"			"5"
+			"ypos"			"6"
 			
 			"wide"			"32"
-			"tall"			"23"
+			"tall"			"20"
 
 			"defaultBgColor_override"	"no"
 			"armedBgColor_override"		"TFOrange"
@@ -424,10 +425,10 @@
         "ControlName"   "EditablePanel"
         "fieldname"     "CharacterSetupButtonFix"
         "xpos"          "-43"
-        "ypos"          "-4"
+        "ypos"          "-6"
         "zpos"          "11"
-        "wide"          "81"
-        "tall"          "80"
+        "wide"          "78"
+        "tall"          "78"
         "visible"       "1"
         "PaintBackgroundType"   "0"
         
@@ -444,8 +445,8 @@
             "xpos"          "0"
             "ypos"          "0"
             "zpos"          "1"
-            "wide"          "81"
-            "tall"          "80"
+			"wide"          "78"
+			"tall"          "78"
             "autoResize"    "0"
             "pinCorner"     "3"
             "visible"       "1"
@@ -494,10 +495,10 @@
         "ControlName"   "EditablePanel"
         "fieldname"     "CharacterSetupButton"
         "xpos"          "-43"
-        "ypos"          "-4"
+        "ypos"          "-6"
         "zpos"          "11"
-        "wide"          "81"
-        "tall"          "80"
+        "wide"          "78"
+        "tall"          "78"
         "visible"       "1"
         "PaintBackgroundType"   "0"
         
@@ -514,8 +515,8 @@
             "xpos"          "0"
             "ypos"          "0"
             "zpos"          "1"
-            "wide"          "81"
-            "tall"          "80"
+			"wide"          "78"
+			"tall"          "78"
             "autoResize"    "0"
             "pinCorner"     "3"
             "visible"       "1"
@@ -571,8 +572,8 @@
         "xpos"          "-86"
         "ypos"          "0"
         "zpos"          "11"
-        "wide"          "81"
-        "tall"          "80"
+        "wide"          "78"
+        "tall"          "78"
         "visible"       "1"
         "PaintBackgroundType"   "0"
         
@@ -589,8 +590,8 @@
             "xpos"          "0"
             "ypos"          "0"
             "zpos"          "1"
-            "wide"          "81"
-            "tall"          "80"
+			"wide"          "78"
+			"tall"          "78"
             "autoResize"    "0"
             "pinCorner"     "3"
             "visible"       "1"
@@ -640,8 +641,8 @@
         "xpos"          "-86"
         "ypos"          "0"
         "zpos"          "11"
-        "wide"          "81"
-        "tall"          "80"
+        "wide"          "78"
+        "tall"          "78"
         "visible"       "1"
         "PaintBackgroundType"   "0"
         
@@ -658,8 +659,8 @@
             "xpos"          "0"
             "ypos"          "0"
             "zpos"          "1"
-            "wide"          "81"
-            "tall"          "80"
+			"wide"          "78"
+			"tall"          "78"
             "autoResize"    "0"
             "pinCorner"     "3"
             "visible"       "1"
@@ -707,9 +708,9 @@
         "ControlName"   "EditablePanel"
         "fieldname"     "TF2SettingsButton"
         "xpos"          "0"
-        "ypos"          "-85"
+        "ypos"          "-83"
         "zpos"          "11"
-        "wide"          "253"
+        "wide"          "250"
         "tall"          "20"
         "visible"       "1"
         "PaintBackgroundType"   "0"
@@ -1129,7 +1130,7 @@
 		"font"			"hudfont12"
 		"textAlignment"	"east"
 		
-		"labelText" 	"ckHUD 0.4"
+		"labelText" 	"ckHUD 0.5"
 		
 		"wide_minmode"			"145"
 		"labelText_minmode" 	"pls turn off minmode"

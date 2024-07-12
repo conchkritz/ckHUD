@@ -101,6 +101,64 @@ Scheme
 				}
 			}
 		}
+
+		WhiteBorderThin
+		{
+			"inset" "0 0 0 0"
+			Left
+			{
+				"1"
+				{
+					"color" "colorwhite"
+					"offset" "0 0"
+				}
+				"2"
+				{
+					"color" "colorwhite"
+					"offset" "1 0"
+				}
+			}
+			Right
+			{
+				"1"
+				{
+					"color" "colorwhite"
+					"offset" "0 0"
+				}
+				"2"
+				{
+					"color" "colorwhite"
+					"offset" "1 0"
+				}
+			}
+			Top
+			{
+				"1"
+				{
+					"color" "colorwhite"
+					"offset" "0 0"
+				}
+				"2"
+				{
+					"color" "colorwhite"
+					"offset" "1 0"
+				}
+			}
+			Bottom
+			{
+				"1"
+				{
+					"color" "colorwhite"
+					"offset" "0 0"
+				}
+				"2"
+				{
+					"color" "colorwhite"
+					"offset" "1 0"
+				}
+			}
+		}
+
 		TanDarkBorder 
 		{
 			"inset" "0 0 0 0"
@@ -567,7 +625,7 @@ Scheme
 			"draw_corner_height" 	"0"	
 		}
 	
-		TFThinLineBorder
+			
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"

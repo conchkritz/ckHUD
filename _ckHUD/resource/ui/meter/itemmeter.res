@@ -16,7 +16,7 @@
 	
 	"ItemEffectMeterDarker"
 	{
-		"ControlName"			"CTFImagePanel"
+		"ControlName"				"CTFImagePanel"
 		"fieldName"				"ItemEffectMeterDarker"
 		"xpos"					"-1"
 		"ypos"					"21"
@@ -36,7 +36,7 @@
 	
 	"ItemEffectMeterLabel"
 	{
-		"ControlName"			"CExImage"
+		"ControlName"				"CExImage"
 		"fieldName"				"ItemEffectMeterLabel"
 		"xpos"					"10"
 		"ypos"					"17"
@@ -47,7 +47,7 @@
 		"visible"				"1"
 		"enabled"				"0"
 		
-		"textAlignment"			"center"
+		"textAlignment"				"center"
 		"font"					"hudfont8"
 	}
 

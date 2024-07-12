@@ -79,7 +79,10 @@ Scheme
 		"pipboyoutline"			"0 130 1 255"
 		
 		"panelbrown"			"46 43 42 150" // pretty damn close to the tfthinlineborder
-		
+
+		// MVM CURRENCY
+		"currencybad"			"210 55 55 255"
+
 		// OTHER
 		"no"					"0 0 0 0"
 		"disconnectred"			"192 28 0 255"

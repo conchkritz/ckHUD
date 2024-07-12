@@ -2,7 +2,7 @@
 {
 	HudPlayerStatus
 	{
-		"xpos"	"c-360" // c-240
+		"xpos"	"c-368" // c-240
 		"ypos"	"-81" // -125
 		"zpos"	"1"
 		
@@ -12,7 +12,7 @@
 
 	HudWeaponAmmo
 	{
-		"xpos"	"c40" // c0
+		"xpos"	"c48" // c0
 		"ypos"	"c40" // c-6
 		
 		"wide"	"f0"
@@ -63,7 +63,7 @@
 	CHudAccountPanel
 	{
 		"xpos"					"c-44"
-		"ypos"					"c-130" // c-102
+		"ypos"					"c-125" // c-102
 		
 		"wide"					"f0"
 		"tall"  				"f0"
@@ -92,9 +92,30 @@
 		"ypos"		"-115"
 	}
 	
+	"BuildPin" // from budhud
+    {
+        "ControlName"                                               "Label"
+        "fieldName"                                                 "BuildPin"
+        "xpos"                                                      "0"
+        "ypos"                                                      "105"
+        "zpos"                                                      "0"
+        "wide"                                                      "100"
+        "tall"                                                      "0"
+        "visible"                                                   "1"
+        "enabled"                                                   "1"
+        "bgcolor_override"                                          "0 0 0 0"
+    }
+	
 	BuildingStatus_Engineer
 	{
-		"ypos"		"125"
+        "xpos"                                                      "0"
+        "ypos"                                                      "0"
+        "wide"                                                      "f0"
+        "tall"                                                      "f0"
+
+        "pin_to_sibling"                                            "bh_BuildPin"
+        "pin_corner_to_sibling"                                     "PIN_TOPLEFT"
+        "pin_to_sibling_corner"                                     "0"
 	}
 	
 	WinPanel
@@ -109,13 +130,13 @@
 	
 	"HudMenuEngyBuild"
 	{
-		"ypos"			"c0"
-		"zpos"			"20"
+		"ypos"			"c4"
+		"zpos"			"22"
 	}
 	
 	"HudMenuEngyDestroy"
 	{
-		"ypos"			"c0"
+		"ypos"			"c4"
 		"zpos"			"20"
 	}
 	
@@ -165,14 +186,15 @@
         "topoffset"         "0"
     }
 	
-	DisguiseStatus
-	{
-		"xpos"		"660"
-		"ypos"		"r70"	
+    "DisguiseStatus"
+    {
+        "xpos"                                                      "160"
+        "ypos"                                                      "r73"
+        "zpos"                                                      "5"
 		
-		"wide"		"500"
-		"tall"		"200"
-	}
+        "wide"                                                      "250"
+        "tall"                                                      "300"
+    }
 	
 	CDamageAccountPanel
 	{
@@ -195,7 +217,15 @@
 	
 	HudKothTimeStatus
 	{
-		"ypos"					"431"
+		"xpos"	"c-150"
+		"ypos"	"431"
+		
+		"wide"	"300"
+		"tall"	"160"
+		
+		"blue_active_xpos"			"10"
+	
+		"red_active_xpos"			"213"
 	}	
 	
 	HudTournamentSetup
@@ -247,7 +277,7 @@
 		"LocalPlayerColor"	"colorblack"
 
 		"BaseBackgroundColor"	"panelbrown"
-		"LocalBackgroundColor"	"colorwhite"
+		"LocalBackgroundColor"	"colorwhite" // dull is easier on the eyes but idk
 	}
 	
 	HudDamageIndicator
@@ -269,13 +299,18 @@
 		// FadeOutPercentage
 		// Noise
 	}
-
+	
+	HudMannVsMachineStatus
+	{
+		"zpos"		"2" // goofy ahhh fix
+	}
+	
 	"CurrencyStatusPanel" // why
 	{
 		"ControlName"		"CCurrencyStatusPanel"
 		"fieldName"			"CurrencyStatusPanel"
-		"xpos"				"c-56"
-		"ypos"				"r137"
+		"xpos"				"c-284"
+		"ypos"				"c22"
 		"zpos"				"99"
 	}
 }

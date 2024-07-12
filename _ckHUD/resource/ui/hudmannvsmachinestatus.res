@@ -2,8 +2,9 @@
 {		
 	"InWorldCurrencyPanel"
 	{
-		"xpos"				"c-24"
-		"ypos"				"r55"
+		"xpos"				"c-253"
+		"ypos"				"c108"
+//		"zpos"				"temp"
 	}
 
 	"ServerChangeMessage"
