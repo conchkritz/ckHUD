@@ -2,7 +2,7 @@
 {
 	HudPlayerStatus
 	{
-		"xpos"	"c-368" // c-240
+		"xpos"	"c-370" // c-240
 		"ypos"	"-81" // -125
 		"zpos"	"1"
 		
@@ -12,7 +12,7 @@
 
 	HudWeaponAmmo
 	{
-		"xpos"	"c48" // c0
+		"xpos"	"c45" // c0
 		"ypos"	"c40" // c-6
 		
 		"wide"	"f0"
@@ -312,6 +312,11 @@
 		"xpos"				"c-284"
 		"ypos"				"c22"
 		"zpos"				"99"
+	}
+	
+	HudBowCharge
+	{
+		"xpos"	"9999"
 	}
 }
 
