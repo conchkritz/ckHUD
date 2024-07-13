@@ -143,7 +143,7 @@
 	"HudEurekaEffectTeleportMenu"
 	{
 		"xpos"			"c-225"
-		"ypos"			"c0"
+		"ypos"			"c4"
 		"zpos"			"20"
 		
 		"wide"			"450"

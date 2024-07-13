@@ -37,18 +37,18 @@
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"Background"
 		"xpos"			"150"
-		"ypos"			"45"
+		"ypos"			"55"
 		"zpos"			"-1"
 		"wide"			"148"
-		"tall"			"120"
+		"tall"			"110"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/color_panel_brown"
 		"scaleImage"		"1"
 		"src_corner_height"		"25"
 		"src_corner_width"		"25"			
-		"draw_corner_width"		"5"
-		"draw_corner_height" 	"5"	
+		"draw_corner_width"		"0"
+		"draw_corner_height" 	"0"	
 	}
 	
 	"BGShade"
@@ -170,8 +170,8 @@
 	"CancelLabel"
 	{	
 		"font"			"hudfont8sec"
-		"xpos"			"53"
-		"ypos"			"55"
+		"xpos"			"218"
+		"ypos"			"35"
 		"zpos"			"1"
 		
 		"wide"			"200"

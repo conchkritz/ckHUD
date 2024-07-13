@@ -42,7 +42,7 @@
 	
 	"BGShade"
 	{
-		"ControlName"	"CTFImagePanel"
+		"ControlName"	"EditablePanel"
 		"fieldName"		"BGShade"
 		"xpos"			"105"
 		"ypos"			"78"
@@ -51,23 +51,12 @@
 		"tall"			"60"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../hud/color_panel_browner"
-		"scaleImage"		"1"
-		"src_corner_height"		"15"
-		"src_corner_width"		"15"			
-		"draw_corner_width"		"0"
-		"draw_corner_height" 	"0"	
+		"bgcolor_override"	"colortransparentgray"
 	}
 	
 	"Divider"
 	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"Divider"
 		"xpos"			"9999"
-		"ypos"			"9999"
-		"zpos"			"0"
-		"wide"			"0"
-		"tall"			"0"
 	}
 	
 	"BuildIcon"	
