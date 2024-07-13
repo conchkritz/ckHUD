@@ -23,7 +23,7 @@
 	
 	"Background"
 	{
-		"ControlName"	"CTFImagePanel"
+		"ControlName"	"Editablepanel"
 		"fieldName"		"Background"
 		"xpos"			"100"
 		"ypos"			"50"
@@ -32,12 +32,7 @@
 		"tall"			"115"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../hud/color_panel_brown"
-		"scaleImage"		"1"
-		"src_corner_height"		"25"
-		"src_corner_width"		"25"			
-		"draw_corner_width"		"0"
-		"draw_corner_height" 	"0"	
+		"bgcolor_override"	"colortransparentgray"
 	}
 	
 	"BGShade"
