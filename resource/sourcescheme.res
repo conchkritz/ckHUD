@@ -5,23 +5,23 @@ Scheme
 	Colors
 	{
 	
-		"G_ActiveWindow"			"40 34 30 255" // Active window bg color
-		"G_InctiveWindow"			"40 34 30 245" // Inactive window bg color
-		"G_TitleBg"					"184 56 59 255" // Title bg color
+		"G_ActiveWindow"			"53 49 43 255" // Active window bg color
+		"G_InctiveWindow"			"37 33 30 255" // Inactive window bg color
+		"G_TitleBg"					"188 112 0 255" // Title bg color
 		"G_TitleText"				"255 255 255 255" // Title text color
 		"G_Highlight"				"145 73 59 255" // Highlight color
-		"G_ConsoleBg"				"56 50 44 255" // Console bg color
-		"G_ListBg"					"36 33 29 255" // List bg color
+		"G_ConsoleBg"				"53 49 43 255" // Console bg color
+		"G_ListBg"					"37 33 30 255" // List bg color
 		"G_Border"					"0 0 0 51" // Border color
 		"G_Text"					"255 255 255 255" // Text color
 		"G_HighlightText"			"255 255 255 255" // Highlight text color
 		"G_SelectedText"			"255 255 255 255" // Selected text color
-		"G_DisabledText"			"0 0 0 255" // Disabled text color
-		"G_ButtonBg"				"125 115 100 255" // Button bg color
+		"G_DisabledText"			"30 30 30 255" // Disabled text color
+		"G_ButtonBg"				"143 129 103 255" // Button bg color
 		"G_ButtonText"				"255 255 255 255" // Button text color
 		"G_ButtonHoverBg"			"145 73 59 255" // Button hover bg color
 		"G_ButtonHoverText"			"255 255 255 255" // Button hover text color
-		"G_InputBg"					"28 23 19 255" // Input bg color
+		"G_InputBg"					"37 33 30 255" // Input bg color
 		"G_Light"					"255 255 255 50"
 		"G_Dark"					"0 0 0 50"
 	
