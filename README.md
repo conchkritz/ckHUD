@@ -9,7 +9,7 @@ A hud made by conch, inspired by e.v.e Hud, Isaac Hud, and ToonHUD.
 [Imgur Album](https://imgur.com/a/oX2zvhA)
 
 # Compatibility
-Cuurently only being tested on 1080p. If you have issues, best method of contact is discord.
+Cuurently only being tested on 16:9 1080p. If you have issues, best method of contact is discord.
 
 | OS  | Status |
 | ------------- | ------------- |
@@ -32,6 +32,7 @@ Cuurently only being tested on 1080p. If you have issues, best method of contact
   * Spectator Freezepanel
   * Class Selection Menu
   * Backpack
+  * Disguise Menu
 
 * [Isaac HUD](https://huds.tf/site/s-Isaac-Hud)
   * Main Menu Buttons
