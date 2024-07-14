@@ -319,31 +319,20 @@ event QuestItem_Options_Flash
 }
 
 //===========================================
-// setup fixes (doesnt work?)
+// setup fixes
 
-event DefaultAnimHudTournamentSetupPanelOpen
-{
-	Animate HudTournamentSetup	Position	"c-90 -50"	Linear 0.0 0.001
-	Animate HudTournamentSetup	Position	"c-90 50"	Spline 0.001 0.2
-}
-
-event DefaultAnimHudTournamentSetupPanelClose
-{
-	Animate HudTournamentSetup	Position	"c-90 50"	Linear 0.0 0.001
-	Animate HudTournamentSetup	Position	"c-90 -50"	Spline 0.001 0.2
-}
 
 //===========================================
-// casual crap
+// casual crap // i honestly dont remember doing this???
 
-event DefaultAnimCasualCategory_Selected
+event CasualCategory_Selected
 {
 	Animate Shade		BgColor 	"0 0 0 0" 		Deaccel 0 0.2
-	Animate Title		FgColor 	TanLight 		Deaccel 0 0.2
-	Animate DescLabel	FgColor 	TanLight		Deaccel 0 0.2
+	Animate Title		FgColor 	colorwhite 		Deaccel 0 0.2
+	Animate DescLabel	FgColor 	colorwhite		Deaccel 0 0.2
 }
 
-event DefaultAnimCasualCategory_NotSelected
+event CasualCategory_NotSelected
 {
 	Animate Shade 		BgColor 	"0 0 0 200" 	Deaccel 0 0.2
 	Animate Title		FgColor 	colordullwhite 	Deaccel 0 0.2
@@ -353,14 +342,14 @@ event DefaultAnimCasualCategory_NotSelected
 //===========================================
 // motd
 
-event DefaultAnimHasMOTDBlink
+event AnimHasMOTDBlink
 {
 }
 
-event DefaultAnimHasMOTDBlinkLoop
+event AnimHasMOTDBlinkLoop
 {
 }
 
-event DefaultAnimHasMOTDBlinkStop
+event AnimHasMOTDBlinkStop
 {
 }

@@ -45,15 +45,23 @@
 	
 	"NumberBg"	
 	{
-		"xpos"			"9999"
+		"xpos"			"-40"
+		"ypos"			"1"
+		"zpos"			"-1"
+		"wide"			"20"
+		"tall"			"20"
+		"visible"		"1"
+		"enabled"		"1"
+		
+		"pin_to_sibling"	"NumberLabel"
 	}
 	
 	"NumberLabel"
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"NumberLabel"
-		"font"			"hudfont20"
-		"fgcolor"		"colorwhite"
+		"font"			"hudfont18sec"
+		"fgcolor"		"colorblack"
 		"xpos"			"0"
 		"ypos"			"93"
 		"zpos"			"1"
@@ -69,28 +77,11 @@
 		"brighttext"	"0"
 	}
 	
-	"NumberLabelBG"
-	{	
-		"ControlName"	"ImagePanel"
-		"fieldName"		"NumberLabelBG"
-		"xpos"			"-40"
-		"ypos"			"1"
-		"zpos"			"-1"
-		"wide"			"20"
-		"tall"			"20"
-		"visible"		"1"
-		"enabled"		"1"
-		
-		"fillcolor"		"constructblue"
-		"pin_to_sibling"	"NumberLabel"
-		"border"		"EngiBorder"
-	}
-	
-	"NumberLabelShadow"
+	"NumberLabelShadow" // now unused
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"NumberLabelShadow"
-		"font"			"hudfont20"
+		"font"			"hudfont18sec"
 		"fgcolor"		"colorblack"
 		"xpos"			"-1"
 		"ypos"			"-1"
@@ -99,7 +90,7 @@
 		"tall"			"18"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		"labelText"		"1"
 		"textAlignment"	"Center"

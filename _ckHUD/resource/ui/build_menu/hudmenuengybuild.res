@@ -7,18 +7,22 @@
 	
 	"HeaderBG"
 	{
-		"ControlName"	"ImagePanel"
+		"ControlName"	"CTFImagePanel"
 		"fieldName"		"HeaderBG"
-		"xpos"			"100"
+		"xpos"			"95"
 		"ypos"			"25"
 		"zpos"			"1"
-		"wide"			"250"
+		"wide"			"260"
 		"tall"			"30"
 		"visible"		"1"
 		"enabled"		"1"
 		
-		"fillcolor"		"constructblue"
-		"border"		"whiteborder"
+		"image"			"../vgui/replay/thumbnails/construct/color_panel_blueprint_opaque"
+		"scaleImage"		"1"
+		"src_corner_height"		"25"
+		"src_corner_width"		"25"			
+		"draw_corner_width"		"3"
+		"draw_corner_height" 	"3"	
 	}
 	
 	"Background"
@@ -26,18 +30,18 @@
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"Background"
 		"xpos"			"100"
-		"ypos"			"55"
+		"ypos"			"50"
 		"zpos"			"-2"
 		"wide"			"250"
-		"tall"			"110"
+		"tall"			"115"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/color_panel_brown"
 		"scaleImage"		"1"
 		"src_corner_height"		"25"
 		"src_corner_width"		"25"			
-		"draw_corner_width"		"0"
-		"draw_corner_height" 	"0"	
+		"draw_corner_width"		"2"
+		"draw_corner_height" 	"2"	
 	}
 	
 	"BGShade"
@@ -63,7 +67,7 @@
 	{
 		"ControlName"	"CIconPanel"
 		"fieldName"		"BuildIcon"
-		"xpos"			"-95"
+		"xpos"			"-90"
 		"ypos"			"-6"
 		"zpos"			"3"
 		"wide"			"25"
@@ -99,7 +103,7 @@
 	{
 		"ControlName"	"CIconPanel"
 		"fieldName"		"BuildIcon2"
-		"xpos"			"-178"
+		"xpos"			"-183"
 		"ypos"			"-6"
 		"zpos"			"3"
 		"wide"			"25"

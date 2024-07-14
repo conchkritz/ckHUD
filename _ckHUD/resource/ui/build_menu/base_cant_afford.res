@@ -19,6 +19,11 @@
 		"border"		"EngiBorder"
 	}
 	
+	"NumberBg"	
+	{
+		"iconColor"		"255 255 255 128"
+	}
+	
 	"CantBuildReason"
 	{	
 		"font"			"hudfont16"
@@ -27,12 +32,7 @@
 		"ypos"			"48"
 		"zpos"			"4"
 
-		"labelText"		"METAL"
+		"labelText"		"#TR_Eng_MetalTitle"
 		"textAlignment"	"Center"
-	}
-	
-	"NumberLabelBG"
-	{	
-		"fillcolor"		"constructdarkblue"
 	}
 }

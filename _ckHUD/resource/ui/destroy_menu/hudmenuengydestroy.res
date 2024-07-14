@@ -7,23 +7,27 @@
 	
 	"HeaderBG"
 	{
-		"ControlName"	"ImagePanel"
+		"ControlName"	"CTFImagePanel"
 		"fieldName"		"HeaderBG"
-		"xpos"			"100"
+		"xpos"			"95"
 		"ypos"			"25"
-		"zpos"			"2"
-		"wide"			"250"
+		"zpos"			"1"
+		"wide"			"260"
 		"tall"			"30"
 		"visible"		"1"
 		"enabled"		"1"
 		
-		"fillcolor"		"colorred"
-		"border"		"whiteborder"
+		"image"			"../hud/color_panel_red_opaque"
+		"scaleImage"		"1"
+		"src_corner_height"		"25"
+		"src_corner_width"		"25"			
+		"draw_corner_width"		"3"
+		"draw_corner_height" 	"3"	
 	}
 	
 	"Background"
 	{
-		"ControlName"	"Editablepanel"
+		"ControlName"	"CTFImagePanel"
 		"fieldName"		"Background"
 		"xpos"			"100"
 		"ypos"			"50"
@@ -32,12 +36,17 @@
 		"tall"			"115"
 		"visible"		"1"
 		"enabled"		"1"
-		"bgcolor_override"	"colortransparentgray"
+		"image"			"../hud/color_panel_brown"
+		"scaleImage"		"1"
+		"src_corner_height"		"25"
+		"src_corner_width"		"25"			
+		"draw_corner_width"		"2"
+		"draw_corner_height" 	"2"	
 	}
 	
 	"BGShade"
 	{
-		"ControlName"	"CTFImagePanel"
+		"ControlName"	"Editablepanel"
 		"fieldName"		"BGShade"
 		"xpos"			"105"
 		"ypos"			"78"
@@ -46,12 +55,8 @@
 		"tall"			"60"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../hud/color_panel_browner"
-		"scaleImage"		"1"
-		"src_corner_height"		"15"
-		"src_corner_width"		"15"			
-		"draw_corner_width"		"0"
-		"draw_corner_height" 	"0"	
+		"bgcolor_override"	"colortransparentgray"
+
 	}
 	
 	"Divider"

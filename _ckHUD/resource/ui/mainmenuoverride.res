@@ -907,7 +907,7 @@
 
 		"SubImage"
 		{
-			"xpos"			"4"
+			"xpos"			"3"
 			"ypos"			"4"
 			"zpos"			"1"
 			

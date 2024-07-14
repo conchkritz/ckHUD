@@ -228,9 +228,10 @@
 		"red_active_xpos"			"213"
 	}	
 	
-	HudTournamentSetup
+	HudTournament
 	{
-		"ypos"					"-50"
+		"xpos"					"c-125"
+		"ypos"					"55"
 	}
 	
 	HudVoiceStatus
@@ -309,7 +310,7 @@
 	{
 		"ControlName"		"CCurrencyStatusPanel"
 		"fieldName"			"CurrencyStatusPanel"
-		"xpos"				"c-284"
+		"xpos"				"c-286"
 		"ypos"				"c22"
 		"zpos"				"99"
 	}

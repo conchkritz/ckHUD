@@ -19,6 +19,11 @@
 		"border"		"EngiBorder"
 	}
 	
+	"NumberBg"	
+	{
+		"iconColor"		"255 255 255 128"
+	}
+	
 	"CantBuildReason"
 	{	
 		"font"			"hudfont16"
@@ -29,10 +34,5 @@
 
 		"labelText"		"BUILT"
 		"textAlignment"	"Center"
-	}
-	
-	"NumberLabelBG"
-	{	
-		"fillcolor"		"constructdarkblue"
 	}
 }

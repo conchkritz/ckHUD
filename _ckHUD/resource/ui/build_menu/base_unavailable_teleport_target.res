@@ -60,9 +60,9 @@
 		"fillcolor"		"constructdarkblue"
 	}
 	
-	"NumberLabelBG"
-	{	
-		"fillcolor"		"constructdarkblue"
+	"NumberBg"	
+	{
+		"iconColor"		"255 255 255 128"
 	}
 	
 	"NumberLabel"

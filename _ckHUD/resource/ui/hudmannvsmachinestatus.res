@@ -2,7 +2,7 @@
 {		
 	"InWorldCurrencyPanel"
 	{
-		"xpos"				"c-253"
+		"xpos"				"c-255"
 		"ypos"				"c108"
 //		"zpos"				"temp"
 	}
