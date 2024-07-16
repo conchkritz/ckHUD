@@ -45,7 +45,7 @@
 		"DescLine2"
 		{
 			"xpos"			"33"
-			"ypos"			"50"
+			"ypos"			"47"
 
 			"fgcolor_override"	"colorwhite"
 			"textAlignment"	"center"

@@ -13,7 +13,7 @@ Scheme
 		"colorlightgray"		"70 70 70 255"
 		"colorgray"				"50 50 50 255"
 		"colordarkgray"			"40 40 40 255"
-		"colorblack"			"20 20 20 255"
+		"colorblack"			"46 43 42 255"
 		"colorblackalt"			"46 43 42 255" // eve hud?
 		"colortransparentgray"	"0 0 0 100"
 

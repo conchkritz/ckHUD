@@ -6,8 +6,8 @@
 	
 	"DashboardDimmer" // if you want to remove it
 	{
-		"wide" "0"
-		"tall" "0"
+//		"wide" "0"
+//		"tall" "0"
 	}
 			
 	"TFLogoImage"
@@ -18,7 +18,7 @@
 	"RankModelPanel"
 	{
 		"xpos"			"cs-0.5-160"
-		"ypos"			"cs-0.5-52"
+		"ypos"			"cs-0.5-57"
 	}
 
 	"CycleRankTypeButton"
@@ -34,29 +34,31 @@
 	"RankPanel"
 	{
 		"ypos"			"162"
-
 		"tall"			"110"
 	}
 
 	"NoGCMessage"
 	{
 		"ypos"			"164"
+		"zpos"			"-98"
 	}
 
 	"NoGCImage"
 	{
+		"xpos"			"c-283"
 		"ypos"			"177"
+		"zpos"			"-98"
 	}	
 	
 	"MainItemsBorder"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"MainItemsBorder"
-		"xpos"			"38"
-		"ypos"			"116"
+		"xpos"			"39"
+		"ypos"			"114"
 		"zpos"			"-100"
-		"wide"			"298"
-		"tall"			"114"
+		"wide"			"299"
+		"tall"			"115"
 		"visible"		"1"
 		"PaintBackgroundType"	"2"
 		"border"		"MainMenuBGBorder"
@@ -67,7 +69,7 @@
 	
 	"RankBorder"
 	{
-		"ypos"			"148"
+		"ypos"			"144"
 
 		"tall"			"105"
 	}
@@ -86,7 +88,7 @@
 		"proportionaltoparent"	"1"
 		"mouseinputenabled"	"0"
 
-		"bgcolor_override"	"0 0 0 100"
+		"bgcolor_override"	"colortransparentgray"
 	}
 
 	"Notifications_ShowButtonPanel"
@@ -100,8 +102,8 @@
 
 	"WatchStreamButton"
 	{
-		"xpos"			"-5"
-		"ypos"			"-4"
+		"xpos"			"-6"
+		"ypos"			"-5"
 		"zpos"			"1"
 		
 		"wide"			"32"
@@ -209,23 +211,33 @@
 	
 	"FriendsContainer"
 	{
+		"ControlName"	"EditablePanel"
+		"fieldname"		"FriendsContainer"
 		"xpos"			"c-290"
-		"ypos"			"255"
+		"ypos"			"248"
 		"zpos"			"5"
 		"wide"			"260"
-		"tall"			"162"
-		
+		"tall"			"137"
+		"visible"		"1"
+
+		"border"		"MainMenuBGBorder"
+
 		"TitleLabel"
 		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"TitleLabel"
 			"font"			"hudfont20"
-			"textAlignment"	"center"
-			
+			"textAlignment"	"center"			
+			"labelText"		"#TF_Competitive_Friends"
 			"xpos"			"0"
 			"ypos"			"-3"
-			
 			"wide"			"260"
 			"tall"			"30"
-			
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+			"textinsetx"	"0"
 			"fgcolor_override"	"colorwhite"
 		}
 
@@ -233,17 +245,80 @@
 		{
 			"xpos"			"9999"
 		}
-		
+
 		"SteamFriendsList"
 		{
-			"ypos"			"rs1-28"
-		}
+			"xpos"			"cs-0.5"
+			"ypos"			"cs-0.43"
+			"zpos"			"500"
+			
+			"wide"			"f10"
+			"tall"			"106" // default 110 but for saftey its 106 because i dont have enough friends to test it
+
+			"columns_count"	"2"
+			
+			"inset_x"		"10"
+			"inset_y"		"5"
+			
+			"row_gap"		"5"
+			"column_gap"	"10"
+			
+			"restrict_width"	"0"
+
+			"friendpanel_kv"
+			{
+				"wide"		"110"
+				"tall"		"20"
+			}
+
+			"ScrollBar"
+			{
+				"ControlName"	"ScrollBar"
+				"FieldName"		"ScrollBar"
+				"xpos"			"rs1-1"
+				"ypos"			"0"
+				"tall"			"f0"
+				"wide"			"5" // This gets slammed from client schme.  GG.
+				"zpos"			"1000"
+				"nobuttons"		"1"
+				"proportionaltoparent"	"1"
+
+				"Slider"
+				{
+					"fgcolor_override"	"TanDark"
+				}
 		
+				"UpButton"
+				{
+					"ControlName"	"Button"
+					"FieldName"		"UpButton"
+					"visible"		"0"
+				}
+		
+				"DownButton"
+				{
+					"ControlName"	"Button"
+					"FieldName"		"DownButton"
+					"visible"		"0"
+				}
+			}
+		}
+
 		"BelowDarken"
 		{
-			"ypos"			"rs1-29"
+			"ControlName"	"EditablePanel"
+			"fieldname"		"BelowDarken"
+			"xpos"			"cs-0.5"
+			"ypos"			"cs-0.43"
+			"zpos"			"499"
+			"wide"			"248"
+			"tall"			"110"
+			"visible"		"1"	
+			"PaintBackgroundType"	"0"
+			"proportionaltoparent"	"1"
+			"mouseinputenabled"	"0"
 
-			"bgcolor_override"	"0 0 0 100"
+			"bgcolor_override"	"colortransparentgray"
 		}
 	}
 
@@ -275,7 +350,7 @@
 		{
 			"xpos"			"5"
 			"ypos"			"7"
-			"wide"			"32"
+			"wide"			"30"
 			"tall"			"20"
 
 			"defaultBgColor_override"	"no"
@@ -289,7 +364,7 @@
 			
 			"SubImage"
 			{
-				"xpos"			"9"
+				"xpos"			"cs-0.5"
 				"ypos"			"cs-0.5"
 				"zpos"			"1"
 
@@ -314,7 +389,7 @@
 			"xpos"			"5"
 			"ypos"			"6"
 			
-			"wide"			"32"
+			"wide"			"30"
 			"tall"			"20"
 
 			"defaultBgColor_override"	"no"
@@ -328,7 +403,7 @@
 			
 			"SubImage"
 			{
-				"xpos"			"cs-0.55"
+				"xpos"			"cs-0.5"
 				"ypos"			"cs-0.5"
 				"zpos"			"1"
 			}				
@@ -352,7 +427,7 @@
 			"xpos"			"5"
 			"ypos"			"6"
 			
-			"wide"			"32"
+			"wide"			"30"
 			"tall"			"20"
 			
 			"defaultBgColor_override"	"no"
@@ -366,7 +441,7 @@
 			
 			"SubImage"
 			{
-				"xpos"			"cs-0.55"
+				"xpos"			"cs-0.5"
 				"ypos"			"cs-0.5"
 				"zpos"			"1"
 			}				
@@ -389,7 +464,7 @@
 			"xpos"			"5"
 			"ypos"			"6"
 			
-			"wide"			"32"
+			"wide"			"30"
 			"tall"			"20"
 
 			"defaultBgColor_override"	"no"
@@ -403,7 +478,7 @@
 			
 			"SubImage"
 			{
-				"xpos"			"cs-0.55"
+				"xpos"			"cs-0.5"
 				"ypos"			"cs-0.5"
 				"zpos"			"1"
 			}				
@@ -776,50 +851,7 @@
 	
 	"NewUserForumsButton"
 	{
-		"xpos"			"-2"
-		"ypos"			"-27"
-		"zpos"			"6"
-		
-		"wide"			"25"
-		"tall"			"25"
-		
-		"pin_to_sibling"	"FriendsContainer"
-		"pin_to_sibling_corner" "PIN_BOTTOMLEFT"
-		
-		"defaultBgColor_override"	"no"
-		"armedBgColor_override"		"TFOrange"
-			
-		"image_drawcolor"	"colorwhite"
-		"image_armedcolor"	"colorwhite"
-			
-		"border_default"	"MainMenuBGBorderInner"
-		"border_armed"		"NoBorder"		
-	}		
-	
-	"AchievementsButton"
-	{
-		"xpos"			"-26"
-		"ypos"			"0"
-		"zpos"			"6"
-		
-		"wide"			"25"
-		"tall"			"25"
-
-		"defaultBgColor_override"	"no"
-		"armedBgColor_override"		"TFOrange"
-			
-		"image_drawcolor"	"colorwhite"
-		"image_armedcolor"	"colorwhite"
-			
-		"border_default"	"MainMenuBGBorderInner"
-		"border_armed"		"NoBorder"
-		
-		"pin_to_sibling" "NewUserForumsButton"				
-	}		
-	
-	"CommentaryButton"
-	{
-		"xpos"			"-26"
+		"xpos"			"28"
 		"ypos"			"0"
 		"zpos"			"6"
 		
@@ -838,9 +870,9 @@
 		"pin_to_sibling" "AchievementsButton"			
 	}		
 	
-	"CoachPlayersButton"
+	"AchievementsButton"
 	{
-		"xpos"			"-26"
+		"xpos"			"28"
 		"ypos"			"0"
 		"zpos"			"6"
 		
@@ -856,12 +888,12 @@
 		"border_default"	"MainMenuBGBorderInner"
 		"border_armed"		"NoBorder"
 		
-		"pin_to_sibling" "CommentaryButton"		
+		"pin_to_sibling" "CommentaryButton"				
 	}		
-
-	"WorkshopButton"
+	
+	"CommentaryButton"
 	{
-		"xpos"			"-26"
+		"xpos"			"28"
 		"ypos"			"0"
 		"zpos"			"6"
 		
@@ -875,9 +907,92 @@
 		"image_armedcolor"	"colorwhite"
 			
 		"border_default"	"MainMenuBGBorderInner"
-		"border_armed"		"NoBorder"	
+		"border_armed"		"NoBorder"
+		
+		"pin_to_sibling" "CoachPlayersButton"			
+	}		
+	
+	"CoachPlayersButton"
+	{
+		"xpos"			"28"
+		"ypos"			"0"
+		"zpos"			"6"
+		
+		"wide"			"25"
+		"tall"			"25"
 
-		"pin_to_sibling" "CoachPlayersButton"	
+		"defaultBgColor_override"	"no"
+		"armedBgColor_override"		"TFOrange"
+			
+		"image_drawcolor"	"colorwhite"
+		"image_armedcolor"	"colorwhite"
+			
+		"border_default"	"MainMenuBGBorderInner"
+		"border_armed"		"NoBorder"
+		
+		"pin_to_sibling" "WorkshopButton"		
+	}	
+	
+	"MiscBorder"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldname"		"MiscBorder"
+		"xpos"			"0"
+		"ypos"			"-1"
+		"zpos"			"5"
+		"wide"			"260"
+		"tall"			"34"
+		"visible"		"1"
+
+		"border"		"MainMenuBGBorder"
+		
+		"pin_to_sibling"	"FriendsContainer"
+
+		"pin_corner_to_sibling" "PIN_CENTER_TOP"
+		"pin_to_sibling_corner" "PIN_CENTER_BOTTOM"		
+		
+		"Shaded"
+		{
+			"ControlName"	"EditablePanel"
+			"fieldname"		"Shaded"
+			
+			"xpos"			"5"
+			"ypos"			"4"
+			"zpos"			"6"
+
+			
+			"wide"			"251"
+			"tall"			"26"
+			
+			"visible"		"1"	
+			"enabled"		"1"
+
+			"bgcolor_override"	"colortransparentgray"
+		}
+	}
+	
+	"WorkshopButton" // this positions all the misc buttons
+	{
+		"xpos"			"0"
+		"ypos"			"4"
+		"zpos"			"6"
+		
+		"wide"			"25"
+		"tall"			"25"
+		
+		"pin_to_sibling"	"FriendsContainer"
+
+		"pin_corner_to_sibling" "PIN_CENTER_TOP"
+		"pin_to_sibling_corner" "PIN_CENTER_BOTTOM"		
+
+		"defaultBgColor_override"	"no"
+		"armedBgColor_override"		"TFOrange"
+			
+		"image_drawcolor"	"colorwhite"
+		"image_armedcolor"	"colorwhite"
+			
+		"border_default"	"MainMenuBGBorderInner"
+		"border_armed"		"NoBorder"	
 
 		"SubImage"
 		{
@@ -887,7 +1002,7 @@
 
 	"ReplayButton"
 	{
-		"xpos"			"-26"
+		"xpos"			"-28"
 		"ypos"			"0"
 		"zpos"			"6"
 		
@@ -922,7 +1037,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"DemoUIButton"
-		"xpos"			"-26"
+		"xpos"			"-28"
 		"ypos"			"0"
 		"zpos"			"6"
 		
@@ -977,7 +1092,7 @@
 	
 	"ReportBugButton"
 	{
-		"xpos"			"-26"
+		"xpos"			"-28"
 		"ypos"			"0"
 		"zpos"			"6"
 		
@@ -1006,12 +1121,15 @@
 		"ControlName"	"EditablePanel"
 		"fieldname"		"ConsoleButton"
 		
-		"xpos"			"-26"
+		"xpos"			"9999" // -26
 		"ypos"			"0"
 		"zpos"			"6"
 		
 		"wide"			"25"
 		"tall"			"25"
+
+		"visible"		"0"
+		"enabled"		"0" // with version .5 i am making everything round so there isnt enough space now with the not sharp corner mm border
 
 		"pin_to_sibling"	"ReportBugButton"
 		"image_drawcolor"	"colorwhite"
@@ -1063,7 +1181,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldname"		"ReloadHudButton"
 		
-		"xpos"			"-26"
+		"xpos"			"-28"
 		"ypos"			"0"
 		"zpos"			"6"
 		
@@ -1071,7 +1189,7 @@
 		"tall"			"25"
 		
 		
-		"pin_to_sibling"	"ConsoleButton"
+		"pin_to_sibling"	"ReportBugButton" // ConsoleButton
 		"image_drawcolor"	"colorwhite"
 
 		"SubButton"

@@ -610,8 +610,8 @@ Scheme
 			"image"					"button_holder_central"
 			"src_corner_height"		"25"				// pixels inside the image
 			"src_corner_width"		"25"
-			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"0"	
+			"draw_corner_width"		"3"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"3"	
 		}
 		MainMenuBGBorderInner
 		{
@@ -626,17 +626,17 @@ Scheme
 		}
 	
 			
-		{
-			"bordertype"			"scalable_image"
-			"backgroundtype"		"2"
-			
-			"image"					"../hud/tournament_panel_brown"
-			//"image"					"../hud/color_panel_browner"
-			"src_corner_height"		"25"				// pixels inside the image
-			"src_corner_width"		"25"
-			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"5"	
-		}
+//		{ // idk how this didnt break the hud before??
+//			"bordertype"			"scalable_image"
+//			"backgroundtype"		"2"
+//			
+//			"image"					"../hud/tournament_panel_brown"
+//			//"image"					"../hud/color_panel_browner"
+//			"src_corner_height"		"25"				// pixels inside the image
+//			"src_corner_width"		"25"
+//			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
+//			"draw_corner_height" 	"5"	
+//		}
 		TFFatLineBorderOpaque
 		{
 			"bordertype"			"scalable_image"
