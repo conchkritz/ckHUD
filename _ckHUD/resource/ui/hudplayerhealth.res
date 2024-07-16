@@ -168,7 +168,7 @@
     {
         "ControlName"                                               "Label"
         "fieldName"                                                 "PlayerStatusPin"
-        "xpos"                                                      "218"
+        "xpos"                                                      "213"
         "ypos"                                                      "47"
         "zpos"                                                      "0"
         "wide"                                                      "10"

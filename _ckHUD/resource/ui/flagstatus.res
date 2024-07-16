@@ -15,7 +15,7 @@
 	"StatusIcon"
 	{
 		"xpos"			"66"
-		"alpha"			"100"
+//		"alpha"			"100"
 
 		"if_mvm"
 		{

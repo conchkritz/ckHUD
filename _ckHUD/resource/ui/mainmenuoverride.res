@@ -211,33 +211,26 @@
 	
 	"FriendsContainer"
 	{
-		"ControlName"	"EditablePanel"
-		"fieldname"		"FriendsContainer"
 		"xpos"			"c-290"
 		"ypos"			"248"
 		"zpos"			"5"
+		
 		"wide"			"260"
 		"tall"			"137"
-		"visible"		"1"
 
 		"border"		"MainMenuBGBorder"
 
 		"TitleLabel"
 		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"TitleLabel"
 			"font"			"hudfont20"
-			"textAlignment"	"center"			
-			"labelText"		"#TF_Competitive_Friends"
+			"textAlignment"	"center"		
+			
 			"xpos"			"0"
 			"ypos"			"-3"
+			
 			"wide"			"260"
 			"tall"			"30"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-			"textinsetx"	"0"
+			
 			"fgcolor_override"	"colorwhite"
 		}
 

@@ -2,22 +2,22 @@
 {	
 	"LeftSideBG"
 	{
-		"xpos"			"c-140"
-		"ypos"			"r50"	[$WIN32]
+		"xpos"			"c-105"
+		"ypos"			"r36"
 		"zpos"			"1"
 		
-		"wide"			"280"
-		"tall"			"60"
+		"wide"			"210"
+		"tall"			"45"
 	}
 		
 	"RightSideBG"
 	{
-		"xpos"			"c-140"
-		"ypos"			"r50"	[$WIN32]
+		"xpos"			"c-105"
+		"ypos"			"r36"
 		"zpos"			"1"
 		
-		"wide"			"280"
-		"tall"			"60"
+		"wide"			"210"
+		"tall"			"45"
 	}
 		
 	"OutlineBG"
@@ -27,8 +27,8 @@
 	
 	"BlueScore"
 	{
-		"xpos"			"c-157"
-		"ypos"			"r51"
+		"xpos"			"c-124"
+		"ypos"			"r30"
 		"zpos"			"8"
 		
 		"wide"			"75"
@@ -36,7 +36,7 @@
 
 		"textAlignment"	"center"	
 
-		"font"			"hudfont48"
+		"font"			"hudfont30"
 		"fgcolor"		"colorwhite"
 	}	
 		
@@ -51,7 +51,7 @@
 
 		"textAlignment"	"center"	
 		
-		"font"			"hudfont48"
+		"font"			"hudfont30"
 		"fgcolor"		"colorblack"		
 		
 		"pin_to_sibling"	"BlueScore"
@@ -60,8 +60,8 @@
 	
 	"RedScore"
 	{
-		"xpos"			"c84"
-		"ypos"			"r51"
+		"xpos"			"c50"
+		"ypos"			"r30"
 		"zpos"			"8"
 		
 		"wide"			"75"
@@ -69,7 +69,7 @@
 
 		"textAlignment"	"center"	
 		
-		"font"			"hudfont48"
+		"font"			"hudfont30"
 		"fgcolor"		"colorwhite"		
 
 	}	
@@ -85,7 +85,7 @@
 
 		"textAlignment"	"center"	
 		
-		"font"			"hudfont48"
+		"font"			"hudfont30"
 		"fgcolor"		"colorblack"		
 		
 		"pin_to_sibling"	"RedScore"
@@ -94,7 +94,7 @@
 	"CarriedImage"
 	{
 		"xpos"			"c-25"
-		"ypos"			"r70"
+		"ypos"			"r62"
 		"zpos"			"10"
 		
 		"wide"			"50"
@@ -104,7 +104,7 @@
 	"PlayingTo"
 	{
 		"xpos"			"c-70"
-		"ypos"			"r28"
+		"ypos"			"r23"
 		"zpos"			"4"
 
 		"font"			"hudfont14sec"
@@ -115,11 +115,11 @@
 	{
 		"ControlName"	"EditablePanel"
 		"xpos"			"c-50"
-		"ypos"			"r24"
+		"ypos"			"r17"
 		"zpos"			"3"
 		
-		"wide"			"100"
-		"tall"			"20"
+		"wide"			"95"
+		"tall"			"17"
 
 		
 		"border"		"tffatlineborderopaque"
@@ -127,14 +127,15 @@
 		
 	"BlueFlag"
 	{
-		"xpos"			"c-200"
-		"ypos"			"r75"	[$WIN32]
+		"xpos"			"c-80"
+		"ypos"			"r90"
 		"zpos"			"5"
 		
-		"wide"			"160"
-		"tall"			"90"
+		"wide"			"128"
+		"tall"			"72"
 
-		
+		"Image"			"../vgui/replay/thumbnails/hud/objectives_flagpanel_compass_blue"
+
 		"if_mvm"
 		{
 			"ypos"	"r95"
@@ -143,16 +144,87 @@
 	
 	"RedFlag"
 	{
-		"xpos"			"c40"
-		"ypos"			"r75"	[$WIN32]
+		"xpos"			"c-80"
+		"ypos"			"r90"
 		"zpos"			"5"
 		
-		"wide"			"160"
-		"tall"			"90"
-			
+		"wide"			"128"
+		"tall"			"72"
+		
+		"Image"			"../vgui/replay/thumbnails/hud/objectives_flagpanel_compass_red"
 		"if_mvm"
 		{
 			"ypos"	"r95"
 		}
 	}	
+	
+	"CaptureFlag"
+	{
+		"xpos"			"c-41"
+		"ypos"			"r90"
+		"zpos"			"5"
+
+		"if_hybrid"
+		{
+			"ypos"		"r100"
+		}
+		
+		"if_specialdelivery"
+		{
+			"ypos"		"r100"
+		}
+	}
+	
+	"FlagBg"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"FlagBg"
+		"xpos"			"c-37"
+		"ypos"			"r87"
+		"zpos"			"5"
+		"wide"			"73"
+		"tall"			"73"
+		
+		"visible"		"1"
+		"enabled"		"1"
+		"Image"			"../vgui/replay/thumbnails/hud/objectives_flagpanel_compass_mixed_noarrow"
+		"scaleimage"	"3"
+		
+		"if_hybrid"
+		{
+			"visible"	"0"
+			"ypos"		"r100"
+		}
+		
+		"if_hybrid_single"
+		{
+			"xpos"		"c-80"
+		}
+		
+		"if_hybrid_double"
+		{
+			"xpos"		"c-115"
+		}
+
+		"if_specialdelivery"
+		{
+			"ypos"		"r100"
+		}
+		
+		"if_no_flags"
+		{
+			"visible"	"0"
+		}
+		
+		"if_mvm"
+		{
+			"xpos"			"c-40"
+			"ypos"			"r95"
+			
+			"wide"			"80"
+			"tall"			"80"
+			
+			"Image"			"../vgui/replay/thumbnails/hud/objectives_flagpanel_compass_grey_noarrow"				
+		}
+	}
 }
