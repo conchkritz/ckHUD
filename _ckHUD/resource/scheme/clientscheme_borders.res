@@ -625,7 +625,40 @@ Scheme
 			"draw_corner_height" 	"0"	
 		}
 	
+		MainMenuButtonDefault
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
 			
+			"image"					"button_central"
+			"src_corner_height"		"25"				// pixels inside the image
+			"src_corner_width"		"25"
+			"draw_corner_width"		"3"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"3"	
+		}
+		MainMenuButtonArmed
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			
+			"image"					"button_central_hover"
+			"src_corner_height"		"25"				// pixels inside the image
+			"src_corner_width"		"25"
+			"draw_corner_width"		"3"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"3"
+		}
+		MainMenuButtonDisabled
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			
+			"image"					"button_central_disabled"
+			"src_corner_height"		"25"				// pixels inside the image
+			"src_corner_width"		"25"
+			"draw_corner_width"		"3"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"3"
+		}
+		
 //		{ // idk how this didnt break the hud before??
 //			"bordertype"			"scalable_image"
 //			"backgroundtype"		"2"

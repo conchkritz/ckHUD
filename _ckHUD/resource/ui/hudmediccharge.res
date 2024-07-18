@@ -7,8 +7,9 @@
 	
 	"ChargeLabel"
 	{
-		"ypos"	"13"
-		"xpos"	"139"
+		"xpos"	"151"
+		"ypos"	"12"
+		
 		"zpos"			"2"
 		
 		"wide"	"149"
@@ -18,7 +19,7 @@
 		
 		"labelText"		"#TF_UberchargeMinHUD"
 		"font"			"hudfont48shadow"
-		"fgcolor_override" "colorwhite"
+		"fgcolor_override" "uberchargebase"
 		
 	}
 	
@@ -56,7 +57,7 @@
 		"textAlignment"	"center"
 		
 		"font"			"hudfont48shadow"
-		"fgcolor_override" "colorwhite"
+		"fgcolor_override" "uberchargebase"
 	}
 
 	"UberchargeLabel"

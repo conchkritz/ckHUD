@@ -988,12 +988,15 @@
 	// needs fixing when on servers like uncletopia
 	"numScout" [$WIN32]
 	{
-		"xpos"			"-20"
-		"ypos"			"-5"
+		"xpos"			"52"
+		"ypos"			"-3"
+		"wide"			"100"
 		
-		"font"			"hudfont16"
+		"font"			"hudfont12"
 		"fgcolor"		"colorwhite"
 		
+		"textAlignment"	"east"
+
 		"pin_to_sibling"	"scout"
 	}	
 	
@@ -1004,7 +1007,7 @@
 		"xpos"			"-1"
 		"ypos"			"-1"
 		"zpos"			"5"
-		"wide"			"50"
+		"wide"			"100"
 		"tall"			"12"
 		"autoResize"	"1"
 		"pinCorner"		"2"
@@ -1012,8 +1015,8 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"%numScout%"
-		"textAlignment"	"center"
-		"font"			"hudfont16"
+		"textAlignment"	"east"
+		"font"			"hudfont12"
 		"fgcolor"		"colorblack"
 		
 		"pin_to_sibling"	"numScout"
@@ -1021,11 +1024,14 @@
 	
 	"numSoldier" [$WIN32]
 	{
-		"xpos"			"-20"
-		"ypos"			"-5"
+		"xpos"			"52"
+		"ypos"			"-3"
+		"wide"			"100"
 		
-		"font"			"hudfont16"
+		"font"			"hudfont12"
 		"fgcolor"		"colorwhite"
+		
+		"textAlignment"	"east"
 		
 		"pin_to_sibling"	"soldier"
 	}		
@@ -1037,7 +1043,7 @@
 		"xpos"			"-1"
 		"ypos"			"-1"
 		"zpos"			"5"
-		"wide"			"50"
+		"wide"			"100"
 		"tall"			"12"
 		"autoResize"	"1"
 		"pinCorner"		"2"
@@ -1045,8 +1051,8 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"%numSoldier%"
-		"textAlignment"	"center"
-		"font"			"hudfont16"
+		"textAlignment"	"east"
+		"font"			"hudfont12"
 		"fgcolor"		"colorblack"
 		
 		"pin_to_sibling"	"numSoldier"
@@ -1054,11 +1060,14 @@
 	
 	"numPyro" [$WIN32]
 	{
-		"xpos"			"-20"
-		"ypos"			"-5"
+		"xpos"			"52"
+		"ypos"			"-3"
+		"wide"			"100"
 		
-		"font"			"hudfont16"
+		"font"			"hudfont12"
 		"fgcolor"		"colorwhite"
+		
+		"textAlignment"	"east"
 	
 		"pin_to_sibling"	"pyro"
 
@@ -1071,7 +1080,7 @@
 		"xpos"			"-1"
 		"ypos"			"-1"
 		"zpos"			"5"
-		"wide"			"50"
+		"wide"			"100"
 		"tall"			"12"
 		"autoResize"	"1"
 		"pinCorner"		"2"
@@ -1079,8 +1088,8 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"%numPyro%"
-		"textAlignment"	"center"
-		"font"			"hudfont16"
+		"textAlignment"	"east"
+		"font"			"hudfont12"
 		"fgcolor"		"colorblack"
 		
 		"pin_to_sibling"	"numPyro"
@@ -1088,11 +1097,14 @@
 	
 	"numDemoman" [$WIN32]
 	{
-		"xpos"			"-20"
-		"ypos"			"-5"
+		"xpos"			"52"
+		"ypos"			"-3"
+		"wide"			"100"
 		
-		"font"			"hudfont16"
+		"font"			"hudfont12"
 		"fgcolor"		"colorwhite"
+		
+		"textAlignment"	"east"
 		
 		"pin_to_sibling"	"demoman"
 	}				
@@ -1104,7 +1116,7 @@
 		"xpos"			"-1"
 		"ypos"			"-1"
 		"zpos"			"5"
-		"wide"			"50"
+		"wide"			"100"
 		"tall"			"12"
 		"autoResize"	"1"
 		"pinCorner"		"2"
@@ -1112,8 +1124,8 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"%numDemoman%"
-		"textAlignment"	"center"
-		"font"			"hudfont16"
+		"textAlignment"	"east"
+		"font"			"hudfont12"
 		"fgcolor"		"colorblack"
 		
 		"pin_to_sibling"	"numDemoman"
@@ -1121,11 +1133,14 @@
 	
 	"numHeavy" [$WIN32]
 	{
-		"xpos"			"-20"
-		"ypos"			"-5"
+		"xpos"			"52"
+		"ypos"			"-3"
+		"wide"			"100"
 		
-		"font"			"hudfont16"
+		"font"			"hudfont12"
 		"fgcolor"		"colorwhite"
+		
+		"textAlignment"	"east"
 		
 		"pin_to_sibling"	"heavyweapons"
 	}					
@@ -1137,7 +1152,7 @@
 		"xpos"			"-1"
 		"ypos"			"-1"
 		"zpos"			"5"
-		"wide"			"50"
+		"wide"			"100"
 		"tall"			"12"
 		"autoResize"	"1"
 		"pinCorner"		"2"
@@ -1145,8 +1160,8 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"%numHeavy%"
-		"textAlignment"	"center"
-		"font"			"hudfont16"
+		"textAlignment"	"east"
+		"font"			"hudfont12"
 		"fgcolor"		"colorblack"
 		
 		"pin_to_sibling"	"numHeavy"
@@ -1154,11 +1169,14 @@
 	
 	"numEngineer" [$WIN32]
 	{
-		"xpos"			"-20"
-		"ypos"			"-5"
+		"xpos"			"52"
+		"ypos"			"-3"
+		"wide"			"100"
 		
-		"font"			"hudfont16"
+		"font"			"hudfont12"
 		"fgcolor"		"colorwhite"
+		
+		"textAlignment"	"east"
 		
 		"pin_to_sibling"	"engineer"
 	}	
@@ -1170,7 +1188,7 @@
 		"xpos"			"-1"
 		"ypos"			"-1"
 		"zpos"			"5"
-		"wide"			"50"
+		"wide"			"100"
 		"tall"			"12"
 		"autoResize"	"1"
 		"pinCorner"		"2"
@@ -1178,8 +1196,8 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"%numEngineer%"
-		"textAlignment"	"center"
-		"font"			"hudfont16"
+		"textAlignment"	"east"
+		"font"			"hudfont12"
 		"fgcolor"		"colorblack"
 		
 		"pin_to_sibling"	"numEngineer"
@@ -1187,11 +1205,14 @@
 	
 	"numMedic" [$WIN32]
 	{
-		"xpos"			"-20"
-		"ypos"			"-5"
-
-		"font"			"hudfont16"
+		"xpos"			"52"
+		"ypos"			"-3"
+		"wide"			"100"
+		
+		"font"			"hudfont12"
 		"fgcolor"		"colorwhite"
+		
+		"textAlignment"	"east"
 		
 		"pin_to_sibling"	"medic"
 	}			
@@ -1203,7 +1224,7 @@
 		"xpos"			"-1"
 		"ypos"			"-1"
 		"zpos"			"5"
-		"wide"			"50"
+		"wide"			"100"
 		"tall"			"12"
 		"autoResize"	"1"
 		"pinCorner"		"2"
@@ -1211,8 +1232,8 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"%numMedic%"
-		"textAlignment"	"center"
-		"font"			"hudfont16"
+		"textAlignment"	"east"
+		"font"			"hudfont12"
 		"fgcolor"		"colorblack"
 		
 		"pin_to_sibling"	"numMedic"
@@ -1220,11 +1241,14 @@
 	
 	"numSniper" [$WIN32]
 	{
-		"xpos"			"-20"
-		"ypos"			"-5"
-
-		"font"			"hudfont16"
+		"xpos"			"52"
+		"ypos"			"-3"
+		"wide"			"100"
+		
+		"font"			"hudfont12"
 		"fgcolor"		"colorwhite"
+		
+		"textAlignment"	"east"
 		
 		"pin_to_sibling"	"sniper"
 	}		
@@ -1236,7 +1260,7 @@
 		"xpos"			"-1"
 		"ypos"			"-1"
 		"zpos"			"5"
-		"wide"			"50"
+		"wide"			"100"
 		"tall"			"12"
 		"autoResize"	"1"
 		"pinCorner"		"2"
@@ -1244,8 +1268,8 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"%numSniper%"
-		"textAlignment"	"center"
-		"font"			"hudfont16"
+		"textAlignment"	"east"
+		"font"			"hudfont12"
 		"fgcolor"		"colorblack"
 		
 		"pin_to_sibling"	"numsniper"
@@ -1253,11 +1277,14 @@
 	
 	"numSpy" [$WIN32]
 	{
-		"xpos"			"-20"
-		"ypos"			"-5"
+		"xpos"			"52"
+		"ypos"			"-3"
+		"wide"			"100"
 		
-		"font"			"hudfont16"
+		"font"			"hudfont12"
 		"fgcolor"		"colorwhite"
+		
+		"textAlignment"	"east"
 		
 		"pin_to_sibling"	"spy"
 	}	
@@ -1269,7 +1296,7 @@
 		"xpos"			"-1"
 		"ypos"			"-1"
 		"zpos"			"5"
-		"wide"			"50"
+		"wide"			"100"
 		"tall"			"12"
 		"autoResize"	"1"
 		"pinCorner"		"2"
@@ -1277,8 +1304,8 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"%numSpy%"
-		"textAlignment"	"center"
-		"font"			"hudfont16"
+		"textAlignment"	"east"
+		"font"			"hudfont12"
 		"fgcolor"		"colorblack"
 		
 		"pin_to_sibling"	"numSpy"

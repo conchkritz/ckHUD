@@ -110,12 +110,12 @@ event HudLowAmmoPulseStop
 event HudMedicCharged
 {
 	Animate	ChargeLabel 		FgColor		"colordarkwhite"		Linear 0.0 0.35
-	Animate	ChargeLabel 		FgColor		"colorwhite"			Spline 0.35 0.4
-	Animate	ChargeLabel 		FgColor		"colorwhite"			Linear 0.4 0.42
+	Animate	ChargeLabel 		FgColor		"uberchargebase"			Spline 0.35 0.4
+	Animate	ChargeLabel 		FgColor		"uberchargebase"			Linear 0.4 0.42
 	
 	Animate	ChargeLabel2 		FgColor		"colordarkwhite"		Linear 0.0 0.35
-	Animate	ChargeLabel2 		FgColor		"colorwhite"			Spline 0.35 0.4
-	Animate	ChargeLabel2 		FgColor		"colorwhite"			Linear 0.4 0.42
+	Animate	ChargeLabel2 		FgColor		"uberchargebase"			Spline 0.35 0.4
+	Animate	ChargeLabel2 		FgColor		"uberchargebase"			Linear 0.4 0.42
 	
 	Animate	ChargeMeter 		FgColor		"ubercharge1"			Linear 0.0 0.35
 	Animate	ChargeMeter 		FgColor		"ubercharge2"			Spline 0.35 0.4

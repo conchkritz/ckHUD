@@ -49,7 +49,7 @@
 			"labelText"		"S"
 			"textAlignment"	"center"
 			"font"			"hudfont18icon"
-			"fgcolor"		"colorwhite"
+			"fgcolor"		"stickyicon"
 		}
 		
 		"PipeIconFontShadow"
@@ -68,7 +68,7 @@
 			"labelText"		"S"
 			"textAlignment"	"center"
 			"font"			"hudfont18icon"
-			"fgcolor"		"colorblack"
+			"fgcolor"		"stickyiconshadow"
 			
 			"pin_to_sibling"	"PipeIconFont"
 		}
@@ -85,7 +85,7 @@
 			"textAlignment"	"center"
 
 			"font"			"hudfont20"
-			"fgcolor"		"colorwhite" // does not like fgcolor_override?
+			"fgcolor"		"sticky" // does not like fgcolor_override?
 		}
 		
 		"NumPipesLabelDropshadow"
@@ -102,7 +102,7 @@
 			"font"			"hudfont20"
 			"fgcolor"		"colorblack" // does not like fgcolor_override?
 			
-			"pin_to_sibling" "NumPipesLabel"
+			"pin_to_sibling" "stickyshadow"
 		}		
 	}
 	

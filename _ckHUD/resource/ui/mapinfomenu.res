@@ -116,7 +116,7 @@
 		"fgcolor"		"Black"
 	}
 	
-	"introbuttonnull" [$WIN32]
+	"introbuttonnull"
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"introbuttonnull"
@@ -149,7 +149,7 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"HiddenPrevPageButton"
-		"xpos"		"9999"
+		"xpos"			"9999"
 		
 		"labelText"		"&Q"
 		"Command"		"back"
@@ -158,7 +158,7 @@
 	"BackButton"
 	{
 		"ControlName"	"CExButton"
-		"fieldName"		"no"
+		"fieldName"		"BackButton"
 		
 		"xpos"			"c-190"
 		"ypos"			"c135"
@@ -175,7 +175,6 @@
 
 		"command"		"back"
 		"font"			"hudfont20"
-		"fgcolor"		"Black"
 	}
 	
 	"MapInfoBack"

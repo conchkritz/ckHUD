@@ -54,10 +54,10 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"MainItemsBorder"
-		"xpos"			"39"
+		"xpos"			"40"
 		"ypos"			"114"
 		"zpos"			"-100"
-		"wide"			"299"
+		"wide"			"300"
 		"tall"			"115"
 		"visible"		"1"
 		"PaintBackgroundType"	"2"
@@ -102,29 +102,33 @@
 
 	"WatchStreamButton"
 	{
-		"xpos"			"-6"
+		"xpos"			"-5"
 		"ypos"			"-5"
 		"zpos"			"1"
 		
-		"wide"			"32"
-		"tall"			"32"
+		"wide"			"34"
+		"tall"			"34"
 
 		"pin_to_sibling"	"MainItemsBorder"
 		"pin_to_sibling_corner"	"PIN_TOPLEFT"
 		
 		"SubButton"
 		{	
+			"wide"			"34"
+			"tall"			"34"
+
 			"paintbackground"	"1"
 			"paintborder"		"1"
 			
 			"defaultBgColor_override"	"no"
-			"armedBgColor_override"		"TFOrange"
+			"armedBgColor_override"		"no"
 				
-			"image_drawcolor"	"colorwhite"
-			"image_armedcolor"	"colorwhite"
+			"image_drawcolor"	"46 43 42 255" // so aparently colorblack as the color doesnt work?? i have to use the raw values
+			"image_armedcolor"	"235 226 202 255"
 				
-			"border_default"	"MainMenuBGBorderInner"
-			"border_armed"		"NoBorder"
+            "border_default"            "MainMenuButtonDefault"
+            "border_armed"              "MainMenuButtonArmed"
+			"border_depressed"			"MainMenuButtonDepressed"	
 
 			"SubImage"
 			{
@@ -136,27 +140,31 @@
 	"QuestLogButton"
 	{
 		"xpos"			"0"
-		"ypos"			"-36"
+		"ypos"			"-35"
 		"zpos"			"1"
 		
-		"wide"			"32"
-		"tall"			"32"
+		"wide"			"34"
+		"tall"			"34"
 		
 		"pin_to_sibling"	"WatchStreamButton"
 
 		"SubButton"
 		{	
+			"wide"			"34"
+			"tall"			"34"
+			
 			"paintbackground"	"1"
 			"paintborder"		"1"
 			
 			"defaultBgColor_override"	"no"
-			"armedBgColor_override"		"TFOrange"
+			"armedBgColor_override"		"no"
 				
-			"image_drawcolor"	"colorwhite"
-			"image_armedcolor"	"colorwhite"
+			"image_drawcolor"	"46 43 42 255"
+			"image_armedcolor"	"235 226 202 255"
 				
-			"border_default"	"MainMenuBGBorderInner"
-			"border_armed"		"NoBorder"
+            "border_default"            "MainMenuButtonDefault"
+            "border_armed"              "MainMenuButtonArmed"
+			"border_depressed"			"MainMenuButtonDepressed"	
 
 			"SubImage"
 			{
@@ -168,29 +176,36 @@
 	"MOTD_ShowButtonPanel"
 	{
 		"xpos"			"0"
-		"ypos"			"-37" // nobody will notice
+		"ypos"			"-36" // nobody will notice
 		"zpos"			"10"
+		
+		"wide"			"34"
+		"tall"			"34"
 		
 		"pin_to_sibling"	"QuestLogButton"
 
 		"MOTD_ShowButtonPanel_SB"
-		{
+		{	
+			"wide"			"34"
+			"tall"			"34"
+			
 			"paintbackground"	"1"
 			"paintborder"		"1"
 			
 			"defaultBgColor_override"	"no"
-			"armedBgColor_override"		"TFOrange"
+			"armedBgColor_override"		"no"
 		
-			"image_drawcolor"	"colorwhite"
-			"image_armedcolor"	"colorwhite"
+			"image_drawcolor"	"46 43 42 255"
+			"image_armedcolor"	"235 226 202 255"
 		
-			"border_default"	"MainMenuBGBorderInner"
-			"border_armed"		"NoBorder"
+            "border_default"            "MainMenuButtonDefault"
+            "border_armed"              "MainMenuButtonArmed"
+			"border_depressed"			"MainMenuButtonDepressed"	
 			
 			"SubImage"
 			{
-				"xpos"			"4"
-				"ypos"			"4"
+				"xpos"			"5"
+				"ypos"			"5"
 				"wide"			"24"
 				"tall"			"24"
 				"image"			"replay/thumbnails/icons/glyph_tf2"
@@ -328,7 +343,7 @@
 
 	"ReportPlayerButton" // this serves as the bg for the buttons aparently (i havent touched tf2 in a couple months)
 	{
-		"xpos"			"38"
+		"xpos"			"39"
 		"ypos"			"0"
 		"zpos"			"11"
 		
@@ -342,18 +357,19 @@
 		"SubButton"
 		{
 			"xpos"			"5"
-			"ypos"			"7"
+			"ypos"			"5"
 			"wide"			"30"
-			"tall"			"20"
+			"tall"			"23"
 
 			"defaultBgColor_override"	"no"
-			"armedBgColor_override"		"TFOrange"
-			
-			"image_drawcolor"	"colorwhite"
-			"image_armedcolor"	"colorwhite"
-			
-			"border_default"	"MainMenuBGBorderInner"
-			"border_armed"		"NoBorder"
+			"armedBgColor_override"		"no"
+		
+			"image_drawcolor"	"46 43 42 255"
+			"image_armedcolor"	"235 226 202 255"
+		
+            "border_default"            "MainMenuButtonDefault"
+            "border_armed"              "MainMenuButtonArmed"
+			"border_depressed"			"MainMenuButtonDepressed"
 			
 			"SubImage"
 			{
@@ -383,16 +399,17 @@
 			"ypos"			"6"
 			
 			"wide"			"30"
-			"tall"			"20"
+			"tall"			"23"
 
 			"defaultBgColor_override"	"no"
-			"armedBgColor_override"		"TFOrange"
-			
-			"image_drawcolor"	"colorwhite"
-			"image_armedcolor"	"colorwhite"
-			
-			"border_default"	"MainMenuBGBorderInner"
-			"border_armed"		"NoBorder"
+			"armedBgColor_override"		"no"
+		
+			"image_drawcolor"	"46 43 42 255"
+			"image_armedcolor"	"235 226 202 255"
+		
+            "border_default"            "MainMenuButtonDefault"
+            "border_armed"              "MainMenuButtonArmed"
+			"border_depressed"			"MainMenuButtonDepressed"	
 			
 			"SubImage"
 			{
@@ -421,16 +438,17 @@
 			"ypos"			"6"
 			
 			"wide"			"30"
-			"tall"			"20"
+			"tall"			"23"
 			
 			"defaultBgColor_override"	"no"
-			"armedBgColor_override"		"TFOrange"
-			
-			"image_drawcolor"	"colorwhite"
-			"image_armedcolor"	"colorwhite"
-			
-			"border_default"	"MainMenuBGBorderInner"
-			"border_armed"		"NoBorder"
+			"armedBgColor_override"		"no"
+		
+			"image_drawcolor"	"46 43 42 255"
+			"image_armedcolor"	"235 226 202 255"
+		
+            "border_default"            "MainMenuButtonDefault"
+            "border_armed"              "MainMenuButtonArmed"
+			"border_depressed"			"MainMenuButtonDepressed"	
 			
 			"SubImage"
 			{
@@ -458,16 +476,17 @@
 			"ypos"			"6"
 			
 			"wide"			"30"
-			"tall"			"20"
+			"tall"			"23"
 
 			"defaultBgColor_override"	"no"
-			"armedBgColor_override"		"TFOrange"
-			
-			"image_drawcolor"	"colorwhite"
-			"image_armedcolor"	"colorwhite"
-			
-			"border_default"	"MainMenuBGBorderInner"
-			"border_armed"		"NoBorder"
+			"armedBgColor_override"		"no"
+		
+			"image_drawcolor"	"46 43 42 255"
+			"image_armedcolor"	"235 226 202 255"
+		
+            "border_default"            "MainMenuButtonDefault"
+            "border_armed"              "MainMenuButtonArmed"
+			"border_depressed"			"MainMenuButtonDepressed"	
 			
 			"SubImage"
 			{
@@ -493,10 +512,10 @@
         "ControlName"   "EditablePanel"
         "fieldname"     "CharacterSetupButtonFix"
         "xpos"          "-43"
-        "ypos"          "-6"
+        "ypos"          "-5"
         "zpos"          "11"
-        "wide"          "78"
-        "tall"          "78"
+        "wide"          "80"
+        "tall"          "80"
         "visible"       "1"
         "PaintBackgroundType"   "0"
         
@@ -513,8 +532,8 @@
             "xpos"          "0"
             "ypos"          "0"
             "zpos"          "1"
-			"wide"          "78"
-			"tall"          "78"
+			"wide"          "80"
+			"tall"          "80"
             "autoResize"    "0"
             "pinCorner"     "3"
             "visible"       "1"
@@ -529,15 +548,19 @@
             "default"       "1"
             "sound_depressed"   "UI/buttonclick.wav"
             "sound_released"    "UI/buttonclickrelease.wav"
-            "border_default"            "MainMenuBGBorderInner"
-            "border_armed"              "NoBorder"
+            "border_default"            "MainMenuButtonDefault"
+            "border_armed"              "MainMenuButtonArmed"
+			"border_depressed"			"MainMenuButtonDepressed"
 			
-			
+			"defaultfgcolor_override"		"46 43 42 255"
+			"armedFgColor_override"			"235 226 202 255"
             
-            "image_drawcolor"   "255 255 255 255"
-            "image_armedcolor"  "255 255 255 255"
+			"image_drawcolor"	"46 43 42 255"
+			"image_armedcolor"	"235 226 202 255"
+			
             "defaultBgcolor_override"       "no"
-            "armedBgColor_override" "TFOrange"
+            "armedBgColor_override" 		"no"
+            
             
             //"image_drawcolor" "117 107 94 255"
 			
@@ -563,10 +586,10 @@
         "ControlName"   "EditablePanel"
         "fieldname"     "CharacterSetupButton"
         "xpos"          "-43"
-        "ypos"          "-6"
+        "ypos"          "-5"
         "zpos"          "11"
-        "wide"          "78"
-        "tall"          "78"
+        "wide"          "80"
+        "tall"          "80"
         "visible"       "1"
         "PaintBackgroundType"   "0"
         
@@ -583,8 +606,8 @@
             "xpos"          "0"
             "ypos"          "0"
             "zpos"          "1"
-			"wide"          "78"
-			"tall"          "78"
+			"wide"          "80"
+			"tall"          "80"
             "autoResize"    "0"
             "pinCorner"     "3"
             "visible"       "1"
@@ -599,15 +622,19 @@
             "default"       "1"
             "sound_depressed"   "UI/buttonclick.wav"
             "sound_released"    "UI/buttonclickrelease.wav"
-            "border_default"            "MainMenuBGBorderInner"
-            "border_armed"              "NoBorder"
+            "border_default"            "MainMenuButtonDefault"
+            "border_armed"              "MainMenuButtonArmed"
+			"border_depressed"			"MainMenuButtonDepressed"
 			
-			
+			"defaultfgcolor_override"		"46 43 42 255"
+			"armedFgColor_override"			"235 226 202 255"
             
-            "image_drawcolor"   "255 255 255 255"
-            "image_armedcolor"  "255 255 255 255"
+			"image_drawcolor"	"46 43 42 255"
+			"image_armedcolor"	"235 226 202 255"
+			
             "defaultBgcolor_override"       "no"
-            "armedBgColor_override" "TFOrange"
+            "armedBgColor_override" 		"no"
+            
             
             //"image_drawcolor" "117 107 94 255"
 			
@@ -637,11 +664,11 @@
     {
         "ControlName"   "EditablePanel"
         "fieldname"     "GeneralStoreButton"
-        "xpos"          "-86"
+        "xpos"          "-85"
         "ypos"          "0"
         "zpos"          "11"
-        "wide"          "78"
-        "tall"          "78"
+        "wide"          "80"
+        "tall"          "80"
         "visible"       "1"
         "PaintBackgroundType"   "0"
         
@@ -658,8 +685,8 @@
             "xpos"          "0"
             "ypos"          "0"
             "zpos"          "1"
-			"wide"          "78"
-			"tall"          "78"
+			"wide"          "80"
+			"tall"          "80"
             "autoResize"    "0"
             "pinCorner"     "3"
             "visible"       "1"
@@ -673,15 +700,21 @@
             "default"       "1"
             "sound_depressed"   "UI/buttonclick.wav"
             "sound_released"    "UI/buttonclickrelease.wav"
-            "border_default"            "MainMenuBGBorderInner"
-            "border_armed"              "NoBorder"
+            "border_default"            "MainMenuButtonDefault"
+            "border_armed"              "MainMenuButtonArmed"
+			"border_depressed"			"MainMenuButtonDepressed"
 			
 			
             
-            "image_drawcolor"   "255 255 255 255"
-            "image_armedcolor"  "255 255 255 255"
+			"image_drawcolor"	"46 43 42 255"
+			"image_armedcolor"	"235 226 202 255"
+			
+			"defaultfgcolor_override"		"46 43 42 255"
+			"armedFgColor_override"			"235 226 202 255"
+			
             "defaultBgcolor_override"       "no"
-            "armedBgColor_override" "TFOrange"
+            "armedBgColor_override" 		"no"
+            
             
             //"image_drawcolor" "117 107 94 255"
 			
@@ -706,11 +739,11 @@
     {
         "ControlName"   "EditablePanel"
         "fieldname"     "SettingsButton"
-        "xpos"          "-86"
+        "xpos"          "-85"
         "ypos"          "0"
         "zpos"          "11"
-        "wide"          "78"
-        "tall"          "78"
+        "wide"          "80"
+        "tall"          "80"
         "visible"       "1"
         "PaintBackgroundType"   "0"
         
@@ -727,8 +760,8 @@
             "xpos"          "0"
             "ypos"          "0"
             "zpos"          "1"
-			"wide"          "78"
-			"tall"          "78"
+			"wide"          "80"
+			"tall"          "80"
             "autoResize"    "0"
             "pinCorner"     "3"
             "visible"       "1"
@@ -742,15 +775,19 @@
             "default"       "1"
             "sound_depressed"   "UI/buttonclick.wav"
             "sound_released"    "UI/buttonclickrelease.wav"
-            "border_default"            "MainMenuBGBorderInner"
-            "border_armed"              "NoBorder"
-			
-			
+            "border_default"            "MainMenuButtonDefault"
+            "border_armed"              "MainMenuButtonArmed"
+			"border_depressed"			"MainMenuButtonDepressed"		
             
-            "image_drawcolor"   "255 255 255 255"
-            "image_armedcolor"  "255 255 255 255"
+			"image_drawcolor"	"46 43 42 255"
+			"image_armedcolor"	"235 226 202 255"
+			
+			"defaultfgcolor_override"		"46 43 42 255"
+			"armedFgColor_override"			"235 226 202 255"
+			
             "defaultBgcolor_override"       "no"
-            "armedBgColor_override" "TFOrange"
+            "armedBgColor_override" 		"no"
+            
             
             //"image_drawcolor" "117 107 94 255"
 			
@@ -776,10 +813,10 @@
         "ControlName"   "EditablePanel"
         "fieldname"     "TF2SettingsButton"
         "xpos"          "0"
-        "ypos"          "-83"
+        "ypos"          "-81"
         "zpos"          "11"
-        "wide"          "250"
-        "tall"          "20"
+        "wide"          "260"
+        "tall"          "25"
         "visible"       "1"
         "PaintBackgroundType"   "0"
         
@@ -796,8 +833,8 @@
             "xpos"          "0"
             "ypos"          "0"
             "zpos"          "1"
-            "wide"          "253"
-            "tall"          "20"
+            "wide"          "250"
+            "tall"          "24"
             "autoResize"    "0"
             "pinCorner"     "3"
             "visible"       "1"
@@ -806,21 +843,26 @@
             "font"          "hudfont12"
             "textAlignment" "west"
             "textinsety"    "0"
-			"textinsetx"    "45"
+			"textinsetx"    "50"
             "dulltext"      "0"
             "brighttext"    "0"
             "default"       "1"
             "sound_depressed"   "UI/buttonclick.wav"
             "sound_released"    "UI/buttonclickrelease.wav"
-            "border_default"            "MainMenuBGBorderInner"
-            "border_armed"              "NoBorder"
+            "border_default"            "MainMenuButtonDefault"
+            "border_armed"              "MainMenuButtonArmed"
+			"border_depressed"			"MainMenuButtonDepressed"
 			
 			
             
-            "image_drawcolor"   "255 255 255 255"
-            "image_armedcolor"  "255 255 255 255"
+			"image_drawcolor"	"46 43 42 255"
+			"image_armedcolor"	"235 226 202 255"
+			
+			"defaultfgcolor_override"		"46 43 42 255"
+			"armedFgColor_override"			"235 226 202 255"
+			
             "defaultBgcolor_override"       "no"
-            "armedBgColor_override" "TFOrange"
+            "armedBgColor_override" 		"no"
             
             //"image_drawcolor" "117 107 94 255"
 			
@@ -831,8 +873,8 @@
                 "xpos"          "3"
                 "ypos"          "3"
                 "zpos"          "1"
-                "wide"          "15"
-                "tall"          "15"
+                "wide"          "18"
+                "tall"          "18"
                 "visible"       "1"
                 "enabled"       "1"
                 "scaleImage"    "1"
@@ -848,17 +890,18 @@
 		"ypos"			"0"
 		"zpos"			"6"
 		
-		"wide"			"25"
-		"tall"			"25"
+		"wide"			"26"
+		"tall"			"26"
 
 		"defaultBgColor_override"	"no"
-		"armedBgColor_override"		"TFOrange"
-			
-		"image_drawcolor"	"colorwhite"
-		"image_armedcolor"	"colorwhite"
-			
-		"border_default"	"MainMenuBGBorderInner"
-		"border_armed"		"NoBorder"
+		"armedBgColor_override"		"no"
+				
+		"image_drawcolor"	"46 43 42 255"
+		"image_armedcolor"	"235 226 202 255"
+				
+        "border_default"            "MainMenuButtonDefault"
+        "border_armed"              "MainMenuButtonArmed"
+		"border_depressed"			"MainMenuButtonDepressed"	
 		
 		"pin_to_sibling" "AchievementsButton"			
 	}		
@@ -869,19 +912,26 @@
 		"ypos"			"0"
 		"zpos"			"6"
 		
-		"wide"			"25"
-		"tall"			"25"
+		"wide"			"26"
+		"tall"			"26"
 
 		"defaultBgColor_override"	"no"
-		"armedBgColor_override"		"TFOrange"
-			
-		"image_drawcolor"	"colorwhite"
-		"image_armedcolor"	"colorwhite"
-			
-		"border_default"	"MainMenuBGBorderInner"
-		"border_armed"		"NoBorder"
+		"armedBgColor_override"		"no"
+				
+		"image_drawcolor"	"46 43 42 255"
+		"image_armedcolor"	"235 226 202 255"
+				
+        "border_default"            "MainMenuButtonDefault"
+        "border_armed"              "MainMenuButtonArmed"
+		"border_depressed"			"MainMenuButtonDepressed"	
 		
-		"pin_to_sibling" "CommentaryButton"				
+		"pin_to_sibling" "CommentaryButton"
+		
+		"SubImage"
+		{
+			"xpos"			"6"
+			"ypos"			"6"
+		}		
 	}		
 	
 	"CommentaryButton"
@@ -890,19 +940,26 @@
 		"ypos"			"0"
 		"zpos"			"6"
 		
-		"wide"			"25"
-		"tall"			"25"
+		"wide"			"26"
+		"tall"			"26"
 
 		"defaultBgColor_override"	"no"
-		"armedBgColor_override"		"TFOrange"
-			
-		"image_drawcolor"	"colorwhite"
-		"image_armedcolor"	"colorwhite"
-			
-		"border_default"	"MainMenuBGBorderInner"
-		"border_armed"		"NoBorder"
+		"armedBgColor_override"		"no"
+				
+		"image_drawcolor"	"46 43 42 255"
+		"image_armedcolor"	"235 226 202 255"
+				
+        "border_default"            "MainMenuButtonDefault"
+        "border_armed"              "MainMenuButtonArmed"
+		"border_depressed"			"MainMenuButtonDepressed"	
 		
 		"pin_to_sibling" "CoachPlayersButton"			
+		
+		"SubImage"
+		{
+			"xpos"			"6"
+			"ypos"			"6"
+		}		
 	}		
 	
 	"CoachPlayersButton"
@@ -911,19 +968,26 @@
 		"ypos"			"0"
 		"zpos"			"6"
 		
-		"wide"			"25"
-		"tall"			"25"
+		"wide"			"26"
+		"tall"			"26"
 
 		"defaultBgColor_override"	"no"
-		"armedBgColor_override"		"TFOrange"
-			
-		"image_drawcolor"	"colorwhite"
-		"image_armedcolor"	"colorwhite"
-			
-		"border_default"	"MainMenuBGBorderInner"
-		"border_armed"		"NoBorder"
+		"armedBgColor_override"		"no"
+				
+		"image_drawcolor"	"46 43 42 255"
+		"image_armedcolor"	"235 226 202 255"
+				
+        "border_default"            "MainMenuButtonDefault"
+        "border_armed"              "MainMenuButtonArmed"
+		"border_depressed"			"MainMenuButtonDepressed"	
 		
 		"pin_to_sibling" "WorkshopButton"		
+		
+		"SubImage"
+		{
+			"xpos"			"5"
+			"ypos"			"6"
+		}		
 	}	
 	
 	"MiscBorder"
@@ -950,7 +1014,7 @@
 			"fieldname"		"Shaded"
 			
 			"xpos"			"5"
-			"ypos"			"4"
+			"ypos"			"5"
 			"zpos"			"6"
 
 			
@@ -970,8 +1034,8 @@
 		"ypos"			"4"
 		"zpos"			"6"
 		
-		"wide"			"25"
-		"tall"			"25"
+		"wide"			"26"
+		"tall"			"26"
 		
 		"pin_to_sibling"	"FriendsContainer"
 
@@ -979,17 +1043,19 @@
 		"pin_to_sibling_corner" "PIN_CENTER_BOTTOM"		
 
 		"defaultBgColor_override"	"no"
-		"armedBgColor_override"		"TFOrange"
-			
-		"image_drawcolor"	"colorwhite"
-		"image_armedcolor"	"colorwhite"
-			
-		"border_default"	"MainMenuBGBorderInner"
-		"border_armed"		"NoBorder"	
+		"armedBgColor_override"		"no"
+				
+		"image_drawcolor"	"46 43 42 255"
+		"image_armedcolor"	"235 226 202 255"
+				
+        "border_default"            "MainMenuButtonDefault"
+        "border_armed"              "MainMenuButtonArmed"
+		"border_depressed"			"MainMenuButtonDepressed"	
 
 		"SubImage"
 		{
-			"xpos"			"5"
+			"xpos"			"6"
+			"ypos"			"6"		
 		}			
 	}	
 
@@ -999,23 +1065,24 @@
 		"ypos"			"0"
 		"zpos"			"6"
 		
-		"wide"			"25"
-		"tall"			"25"
+		"wide"			"26"
+		"tall"			"26"
 		
 		"defaultBgColor_override"	"no"
-		"armedBgColor_override"		"TFOrange"
-			
-		"image_drawcolor"	"colorwhite"
-		"image_armedcolor"	"colorwhite"
-			
-		"border_default"	"MainMenuBGBorderInner"
-		"border_armed"		"NoBorder"
+		"armedBgColor_override"		"no"
+				
+		"image_drawcolor"	"46 43 42 255"
+		"image_armedcolor"	"235 226 202 255"
+				
+        "border_default"            "MainMenuButtonDefault"
+        "border_armed"              "MainMenuButtonArmed"
+		"border_depressed"			"MainMenuButtonDepressed"	
 	
 		"pin_to_sibling" "WorkshopButton"		
 
 		"SubImage"
 		{
-			"xpos"			"3"
+			"xpos"			"4-1"
 			"ypos"			"4"
 			"zpos"			"1"
 			
@@ -1034,8 +1101,8 @@
 		"ypos"			"0"
 		"zpos"			"6"
 		
-		"wide"			"25"
-		"tall"			"25"
+		"wide"			"26"
+		"tall"			"26"
 
 		"pin_to_sibling"	"ReplayButton"
 		
@@ -1058,19 +1125,20 @@
 			"sound_released"	"UI/buttonclickrelease.wav"
 			
 			"defaultBgColor_override"	"no"
-			"armedBgColor_override"		"TFOrange"
+			"armedBgColor_override"		"no"
 				
-			"image_drawcolor"	"colorwhite"
-			"image_armedcolor"	"colorwhite"
+			"image_drawcolor"	"46 43 42 255"
+			"image_armedcolor"	"235 226 202 255"
 				
-			"border_default"	"MainMenuBGBorderInner"
-			"border_armed"		"NoBorder"
+			"border_default"            "MainMenuButtonDefault"
+			"border_armed"              "MainMenuButtonArmed"
+			"border_depressed"			"MainMenuButtonDepressed"
 		
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
 				"fieldName"		"SubImage"
-				"xpos"			"5"
+				"xpos"			"6"
 				"ypos"			"5"
 				"zpos"			"1"
 				"wide"			"15"
@@ -1089,23 +1157,28 @@
 		"ypos"			"0"
 		"zpos"			"6"
 		
-		"wide"			"25"
-		"tall"			"25"
+		"wide"			"26"
+		"tall"			"26"
 
 		"defaultBgColor_override"	"no"
-		"armedBgColor_override"		"TFOrange"
-			
-		"image_drawcolor"	"colorwhite"
-		"image_armedcolor"	"colorwhite"
-			
-		"border_default"	"MainMenuBGBorderInner"
-		"border_armed"		"NoBorder"
+		"armedBgColor_override"		"no"
+				
+		"image_drawcolor"	"46 43 42 255"
+		"image_armedcolor"	"235 226 202 255"
+				
+        "border_default"            "MainMenuButtonDefault"
+        "border_armed"              "MainMenuButtonArmed"
+		"border_depressed"			"MainMenuButtonDepressed"
 		
 		"pin_to_sibling"	"DemoUIButton"
 		
 		"SubImage"
 		{
 			"xpos"			"5"
+			"ypos"			"5"
+			
+			"wide"			"16"
+			"tall"			"16"
 		}
 	}			
 	
@@ -1144,7 +1217,7 @@
 			"sound_released"	"UI/buttonclickrelease.wav"
 			
 			"defaultBgColor_override"	"no"
-			"armedBgColor_override"		"TFOrange"
+			"armedBgColor_override"		"no"
 				
 			"image_drawcolor"	"colorwhite"
 			"image_armedcolor"	"colorwhite"
@@ -1177,10 +1250,9 @@
 		"xpos"			"-28"
 		"ypos"			"0"
 		"zpos"			"6"
-		
-		"wide"			"25"
-		"tall"			"25"
-		
+			
+		"wide"			"26"
+		"tall"			"26"
 		
 		"pin_to_sibling"	"ReportBugButton" // ConsoleButton
 		"image_drawcolor"	"colorwhite"
@@ -1194,22 +1266,23 @@
 			"ypos"			"0"
 			
 			"wide"			"26"
-			"tall"			"25"
+			"tall"			"26"
 
 			"textinsetx"	"9999"
 
 			
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
-			
+
 			"defaultBgColor_override"	"no"
-			"armedBgColor_override"		"TFOrange"
+			"armedBgColor_override"		"no"
+					
+			"image_drawcolor"	"46 43 42 255"
+			"image_armedcolor"	"235 226 202 255"
 				
-			"image_drawcolor"	"colorwhite"
-			"image_armedcolor"	"colorwhite"
-				
-			"border_default"	"MainMenuBGBorderInner"
-			"border_armed"		"NoBorder"
+			"border_default"            "MainMenuButtonDefault"
+			"border_armed"              "MainMenuButtonArmed"
+			"border_depressed"			"MainMenuButtonDepressed"
 		
 			"SubImage"
 			{
@@ -1218,8 +1291,8 @@
 				"xpos"			"5"
 				"ypos"			"5"
 				"zpos"			"1"
-				"wide"			"15"
-				"tall"			"15"
+				"wide"			"16"
+				"tall"			"16"
 				"visible"		"1"
 				"enabled"		"1"
 				"image"			"icon_resume"

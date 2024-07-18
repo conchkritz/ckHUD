@@ -47,10 +47,10 @@
 		"command"		"jointeam blue"
 		"font"			"HudFontSmallBold"
 		
-		"defaultFgColor_override" 		"255 255 255 0"
-		"defaultbgcolor_override"		"88 133 162 0" // old
+		"defaultFgColor_override" 		"no"
+		"defaultbgcolor_override"		"no" // old
 		"armedbgcolor_override"			"184 235 255 50" // new
-		"armedFgColor_override" 		"255 255 255 255"
+		"armedFgColor_override" 		"colorwhite"
 		"depressedFGColor_override"		"colorwhite"
 		
 		"sound_armed"				"ui/item_info_mouseover.wav"
@@ -74,7 +74,7 @@
 		"textAlignment"	"center"
 		"font"			"HudFontSmallBold"
 		
-		"FgColor_override" 		"255 255 255 255"
+		"FgColor_override" 		"colorwhite"
 
 	}	
 	
@@ -97,10 +97,10 @@
 		"command"		"jointeam red"
 		"font"			"HudFontSmallBold"
 		
-		"defaultFgColor_override" 		"255 255 255 0"
+		"defaultFgColor_override" 		"no"
 		"defaultbgcolor_override"		"184 56 59 0" // old
 		"armedbgcolor_override"			"255 135 135 50" // new
-		"armedFgColor_override" 		"255 255 255 255"
+		"armedFgColor_override" 		"colorwhite"
 		"depressedFGColor_override"		"colorwhite"
 		
 		"sound_armed"				"ui/item_info_mouseover.wav"
@@ -124,7 +124,7 @@
 		"textAlignment"	"center"
 		"font"			"HudFontSmallBold"
 		
-		"FgColor_override" 		"255 255 255 255"
+		"FgColor_override" 		"colorwhite"
 	}
 
 	"JoinRandomButton"
@@ -242,7 +242,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"font"			"HudFontsmallestBold"
-		"fgcolor"		"255 255 255 255"
+		"fgcolor"		"colorwhite"
 	}
 	
 	"RandomShortcutLabel"
@@ -263,10 +263,10 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"font"			"HudFontsmallestBold"
-		"fgcolor"		"255 255 255 255"
+		"fgcolor"		"colorwhite"
 	}	
 	
-	"BlueShortcutLabel"
+	"BlueShortcutLabel" // unused
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"BlueShortcutLabel"
@@ -284,10 +284,10 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"font"			"HudFontsmallestBold"
-		"fgcolor"		"255 255 255 255"
+		"fgcolor"		"colorwhite"
 	}
 	
-	"RedShortcutLabel"
+	"RedShortcutLabel" // unused
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"RedShortcutLabel"
@@ -305,7 +305,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"font"			"HudFontsmallestBold"
-		"fgcolor"		"255 255 255 255"
+		"fgcolor"		"colorwhite"
 	}
 	
 	"teambutton0"

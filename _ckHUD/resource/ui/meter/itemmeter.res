@@ -40,7 +40,7 @@
 		"fieldName"				"ItemEffectMeterLabel"
 		"xpos"					"10"
 		"ypos"					"17"
-		"zpos"					"2"
+		"zpos"					"10"
 		"wide"					"100"
 		"tall"					"17"
 		
@@ -68,15 +68,35 @@
 		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"bgcolor_override"		"meterbg"
-	}			
+		"bgcolor_override"		"meterbg" // meterbg
+	}	
+
+	"ItemEffectMeterTint"
+	{	
+		"ControlName"				"EditablePanel"
+		"fieldName"				"ItemEffectMeterTint"
+
+		"xpos"					"1"
+		"ypos"					"22"
+		"zpos"					"9"
+
+		"wide"					"120"
+		"tall"					"8"				
+
+		"visible"				"0"
+		"enabled"				"1"
+		
+		"bgcolor_override"			"235 226 202 165"
+
+	}
+	
 	"ChargeColor_25"
 	{
 		"controlName"		"EditablePanel"
 		"fieldName"			"ChargeColor_25"
 		"xpos"				"1"
 		"ypos"				"29"
-		"zpos"				"6"
+		"zpos"				"12"
 		"wide"				"30"
 		"tall"				"1"
 		"visible"			"1"
@@ -89,7 +109,7 @@
 		"fieldName"			"ChargeColor_50"
 		"xpos"				"31"
 		"ypos"				"29"
-		"zpos"				"7"
+		"zpos"				"13"
 		"wide"				"60"
 		"tall"				"1"
 		"visible"			"1"
@@ -102,7 +122,7 @@
 		"fieldName"			"ChargeColor_75"
 		"xpos"				"61"
 		"ypos"				"29"
-		"zpos"				"8"
+		"zpos"				"14"
 		"wide"				"30"
 		"tall"				"1"
 		"visible"			"1"
@@ -115,7 +135,7 @@
 		"fieldName"			"ChargeColor_100"
 		"xpos"				"1"
 		"ypos"				"29"
-		"zpos"				"5"
+		"zpos"				"11"
 		"wide"				"120"
 		"tall"				"1"
 		"visible"			"1"

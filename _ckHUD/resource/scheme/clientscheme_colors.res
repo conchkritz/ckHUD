@@ -7,7 +7,7 @@ Scheme
 		//---------------------------------------------
 	
 		// GENERAL
-		"colorwhite"			"242 242 242 255"
+		"colorwhite"			"235 226 202 255"
 		"colordullwhite"		"200 200 200 255"
 		"colordarkwhite"		"100 100 100 255"
 		"colorlightgray"		"70 70 70 255"
@@ -24,7 +24,7 @@ Scheme
 		"colordarkblu"			"40 57 77 255" // an air of debonair
 		
 		// HEALTH (shares color with spectatorguihealth (target id and other stuff))
-		"health"				"242 242 242 255" // default health color
+		"health"				"236 226 216 255" // default health color
 		"overheal"				"75 175 255 255" // overhealed
 		"overhealbg"			"255 255 255 125" // overheal spectatorguihealth
 		
@@ -34,20 +34,34 @@ Scheme
 		
 		"healthshadow"			"46 43 42 255" // eve hud?
 	
+		// metal
+		"metalicon"				"236 226 216 255" // thanks techo for genius idea
+		"metaliconshadow"		"46 43 42 255"
+		"metal"					"236 226 216 255"
+		"metalshadow"			"46 43 42 255"
+		
+		// sticky
+		"stickyicon"				"236 226 216 255" //
+		"stickyiconshadow"		"46 43 42 255"
+		"sticky"					"236 226 216 255"
+		"stickyshadow"			"46 43 42 255"
+		
 		// RESERVE
-		"ammo"					"242 242 242 255" // default ammo color
+		"ammo"					"236 226 216 255" // default ammo color
 		"lowammo"				"200 45 45 255" // low ammo
 		"lowammodark"			"100 45 45 255" // low ammo (fades into annd back to low)
 		"ammoshadow"			"46 43 42 255" // eve hud?
 
 		// CLIP
-		"ammoclip"				"242 242 242 255" // default ammo clip color
+		"ammoclip"				"236 226 216 255" // default ammo clip color
 		"lowammoclip"			"200 45 45 255" // low ammo clip 
 		"lowammodarkclip"		"100 45 45 255" // low ammo clip (fades into annd back to low)	
 		"ammoshadowclip"		"46 43 42 255" // eve hud?
 
 
 		// UBERCHARGE
+		"uberchargebase"		"236 226 216 255" // base uber color
+		"uberchargelabel2"		"235 226 202 255"
 		"ubercharge1"			"150 28 0 255" // uber 1
 		"ubercharge2"			"255 28 0 255" // uber 2 (fades into annd back to 1)
 		"ubershadow"			"46 43 42 255" // ONLY IN CUSTOMIZATIONS
@@ -94,7 +108,7 @@ Scheme
 		// MODDED DEFAULT COLORS
 		//---------------------------------------------
 		
-		"TanLight"				"242 242 242 255" // change this w/ colorwhite
+		"TanLight"				"235 226 202 255" // change this w/ colorwhite
 		"White"					"242 242 242 255"
 		"Black"					"20 20 20 255"
 		"Tandark"				"242 242 242 255" // only for advanced options

@@ -35,7 +35,7 @@
 		"labelText"		"f"
 		"textAlignment"	"center"
 		"font"			"hudfont18icon"
-		"fgcolor"		"colorwhite"
+		"fgcolor"		"metalicon"
 	}
 	
 	"EngiIconShadow"	
@@ -53,7 +53,7 @@
 		"labelText"		"f"
 		"textAlignment"	"center"
 		"font"			"hudfont18icon"
-		"fgcolor"		"colorblackalt"
+		"fgcolor"		"metaliconshadow"
 		
 		"pin_to_sibling"	"EngiIcon"
 	}
@@ -64,7 +64,7 @@
 		
 		"font"			"hudfont20"
 		
-		"fgcolor_override" "colorwhite"
+		"fgcolor_override" "metal"
 	}
 	
 	"AccountValueShadow"
@@ -86,7 +86,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"font"			"hudfont20"
-		"fgcolor_override" "colorblackalt"
+		"fgcolor_override" "metalshadow"
 		"pin_to_sibling" "AccountValue"
 	}
 }

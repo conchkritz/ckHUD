@@ -6,7 +6,22 @@
 		{
 			"ypos"			"120"
 			"tall"			"10"
+		}	
+		
+		"if_multiple_trains"
+		{
+			"ypos"			"116"
+			"tall"			"7"
 		}		
+	}	
+	
+	"ProgressBar"
+	{
+		"if_multiple_trains"
+		{
+			"ypos"			"116"
+			"tall"			"7"
+		}
 	}	
 	
 	"HomeCPIcon"
@@ -17,6 +32,12 @@
 		
 		"wide"			"18"
 		"tall"			"18"
+		
+		"if_multiple_trains"
+		{
+			"xpos"			"59"
+			"wide"			"15"
+		}
 	}
 	
 	"SimpleControlPointTemplate"
