@@ -18,5 +18,5 @@ startupmenu
 
 sv_unlockedchapters 99
 
-// hud stuff
+// all i do with this is to disable minmode
 cl_hud_minmode 0

@@ -53,8 +53,8 @@
 		"src_corner_height"		"25"		// pixels inside the image
 		"src_corner_width"		"25"
 		
-		"draw_corner_width"		"0"		// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"0"	
+		"draw_corner_width"		"2"		// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"2"	
 	}
 
 	"SpyIcon"
@@ -126,7 +126,7 @@
 	"class_item_red_1"
 	{
 		"xpos"			"10"
-		"ypos"			"5"
+		"ypos"			"0"
 		"zpos"			"2"
 		
 		"wide"			"45"
@@ -136,7 +136,7 @@
 	"class_item_blue_1"
 	{
 		"xpos"			"10"
-		"ypos"			"5"
+		"ypos"			"0"
 		"zpos"			"2"
 		
 		"wide"			"45"
@@ -146,7 +146,7 @@
 	"class_item_red_2"
 	{
 		"xpos"			"50"
-		"ypos"			"5"
+		"ypos"			"0"
 		"zpos"			"2"
 		
 		"wide"			"45"
@@ -156,7 +156,7 @@
 	"class_item_blue_2"
 	{
 		"xpos"			"50"
-		"ypos"			"5"
+		"ypos"			"0"
 		"zpos"			"2"
 		
 		"wide"			"45"
@@ -166,7 +166,7 @@
 	"class_item_red_3"
 	{
 		"xpos"			"90"
-		"ypos"			"5"
+		"ypos"			"0"
 		"zpos"			"2"
 		
 		"wide"			"45"
@@ -176,7 +176,7 @@
 	"class_item_blue_3"
 	{
 		"xpos"			"90"
-		"ypos"			"5"
+		"ypos"			"0"
 		"zpos"			"2"
 		
 		"wide"			"45"
@@ -186,7 +186,7 @@
 	"class_item_red_4"
 	{
 		"xpos"			"140"
-		"ypos"			"5"
+		"ypos"			"0"
 		"zpos"			"2"
 		
 		"wide"			"45"
@@ -196,7 +196,7 @@
 	"class_item_blue_4"
 	{
 		"xpos"			"140"
-		"ypos"			"5"
+		"ypos"			"0"
 		"zpos"			"2"
 		
 		"wide"			"45"
@@ -206,7 +206,7 @@
 	"class_item_red_5"
 	{
 		"xpos"			"180"
-		"ypos"			"5"
+		"ypos"			"0"
 		"zpos"			"2"
 		
 		"wide"			"45"
@@ -216,7 +216,7 @@
 	"class_item_blue_5"
 	{
 		"xpos"			"180"
-		"ypos"			"5"
+		"ypos"			"0"
 		"zpos"			"2"
 		
 		"wide"			"45"
@@ -226,7 +226,7 @@
 	"class_item_red_6"
 	{
 		"xpos"			"220"
-		"ypos"			"5"
+		"ypos"			"0"
 		"zpos"			"2"
 		
 		"wide"			"45"
@@ -236,7 +236,7 @@
 	"class_item_blue_6"
 	{
 		"xpos"			"220"
-		"ypos"			"5"
+		"ypos"			"0"
 		"zpos"			"2"
 		
 		"wide"			"45"
@@ -246,7 +246,7 @@
 	"class_item_red_7"
 	{
 		"xpos"			"270"
-		"ypos"			"5"
+		"ypos"			"0"
 		"zpos"			"2"
 		
 		"wide"			"45"
@@ -256,7 +256,7 @@
 	"class_item_blue_7"
 	{
 		"xpos"			"270"
-		"ypos"			"5"
+		"ypos"			"0"
 		"zpos"			"2"
 		
 		"wide"			"45"
@@ -266,7 +266,7 @@
 	"class_item_red_8"
 	{
 		"xpos"			"310"
-		"ypos"			"5"
+		"ypos"			"0"
 		"zpos"			"2"
 		
 		"wide"			"45"
@@ -276,7 +276,7 @@
 	"class_item_blue_8"
 	{
 		"xpos"			"310"
-		"ypos"			"5"
+		"ypos"			"0"
 		"zpos"			"2"
 		
 		"wide"			"45"
@@ -286,7 +286,7 @@
 	"class_item_red_9"
 	{
 		"xpos"			"350"
-		"ypos"			"5"
+		"ypos"			"0"
 		"zpos"			"2"
 		
 		"wide"			"45"
@@ -296,7 +296,7 @@
 	"class_item_blue_9"
 	{
 		"xpos"			"350"
-		"ypos"			"5"
+		"ypos"			"0"
 		"zpos"			"2"
 		
 		"wide"			"45"
@@ -306,60 +306,66 @@
 	"NumberBg1"	
 	{
 		"xpos"			"62"
-		"ypos"			"93"
+		"ypos"			"88"
 		"zpos"			"4"
 		
-		"wide"			"15"
-		"tall"			"15"
+		"wide"			"18"
+		"tall"			"18"
 	}
 	
 	"NumberLabel1"
 	{	
+		"font"			"hudfont14sec"
 		"fgcolor"		"colorblack"
+
 		"xpos"			"62"
-		"ypos"			"93"
+		"ypos"			"88"
 		"zpos"			"5"
 		
-		"wide"			"15"
-		"tall"			"15"
+		"wide"			"18"
+		"tall"			"18"
 	}
 
 	"NumberBg2"
 	{
 		"xpos"			"192"
-		"ypos"			"93"
+		"ypos"			"88"
 		"zpos"			"4"
 		
-		"wide"			"15"
-		"tall"			"15"
+		"wide"			"18"
+		"tall"			"18"
 	}
 	
 	"NumberLabel2"
 	{	
+		"font"			"hudfont14sec"
 		"fgcolor"		"colorblack"
+
 		"xpos"			"192"
-		"ypos"			"93"
+		"ypos"			"88"
 		"zpos"			"5"
 		
-		"wide"			"15"
-		"tall"			"15"
+		"wide"			"18"
+		"tall"			"18"
 	}
 	
 	"NumberBg3"
 	{
 		"xpos"			"322"
-		"ypos"			"93"
+		"ypos"			"88"
 		"zpos"			"4"
 		
-		"wide"			"15"
-		"tall"			"15"
+		"wide"			"18"
+		"tall"			"18"
 	}
 	
 	"NumberLabel3"
 	{	
+		"font"			"hudfont14sec"
 		"fgcolor"		"colorblack"
+
 		"xpos"			"322"
-		"ypos"			"93"
+		"ypos"			"88"
 		"zpos"			"5"
 		
 		"wide"			"15"
@@ -371,7 +377,7 @@
 		"ControlName"	"Editablepanel"
 		"fieldName"		"Box1"
 		"xpos"			"10"
-		"ypos"			"47"
+		"ypos"			"42"
 		"zpos"			"1"
 		"wide"			"39"
 		"tall"			"39"
@@ -386,7 +392,7 @@
 		"ControlName"	"Editablepanel"
 		"fieldName"		"Box2"
 		"xpos"			"50"
-		"ypos"			"47"
+		"ypos"			"42"
 		"zpos"			"1"
 		"wide"			"39"
 		"tall"			"39"
@@ -401,7 +407,7 @@
 		"ControlName"	"Editablepanel"
 		"fieldName"		"Box3"
 		"xpos"			"90"
-		"ypos"			"47"
+		"ypos"			"42"
 		"zpos"			"1"
 		"wide"			"39"
 		"tall"			"39"
@@ -415,7 +421,7 @@
 		"ControlName"	"Editablepanel"
 		"fieldName"		"BoxOffense"
 		"xpos"			"8"
-		"ypos"			"45"
+		"ypos"			"40"
 		"zpos"			"0"
 		"wide"			"123"
 		"tall"			"43"
@@ -430,7 +436,7 @@
 		"ControlName"	"Editablepanel"
 		"fieldName"		"Box4"
 		"xpos"			"140"
-		"ypos"			"47"
+		"ypos"			"42"
 		"zpos"			"1"
 		"wide"			"39"
 		"tall"			"39"
@@ -445,7 +451,7 @@
 		"ControlName"	"Editablepanel"
 		"fieldName"		"Box5"
 		"xpos"			"180"
-		"ypos"			"47"
+		"ypos"			"42"
 		"zpos"			"1"
 		"wide"			"39"
 		"tall"			"39"
@@ -460,7 +466,7 @@
 		"ControlName"	"Editablepanel"
 		"fieldName"		"Box6"
 		"xpos"			"220"
-		"ypos"			"47"
+		"ypos"			"42"
 		"zpos"			"1"
 		"wide"			"39"
 		"tall"			"39"
@@ -474,7 +480,7 @@
 		"ControlName"	"Editablepanel"
 		"fieldName"		"BoxDefense"
 		"xpos"			"138"
-		"ypos"			"45"
+		"ypos"			"40"
 		"zpos"			"1"
 		"wide"			"123"
 		"tall"			"43"
@@ -488,7 +494,7 @@
 		"ControlName"	"Editablepanel"
 		"fieldName"		"Box7"
 		"xpos"			"270"
-		"ypos"			"47"
+		"ypos"			"42"
 		"zpos"			"1"
 		"wide"			"39"
 		"tall"			"39"
@@ -503,7 +509,7 @@
 		"ControlName"	"Editablepanel"
 		"fieldName"		"Box8"
 		"xpos"			"310"
-		"ypos"			"47"
+		"ypos"			"42"
 		"zpos"			"1"
 		"wide"			"39"
 		"tall"			"39"
@@ -518,7 +524,7 @@
 		"ControlName"	"Editablepanel"
 		"fieldName"		"Box9"
 		"xpos"			"350"
-		"ypos"			"47"
+		"ypos"			"42"
 		"zpos"			"1"
 		"wide"			"39"
 		"tall"			"39"
@@ -532,7 +538,7 @@
 		"ControlName"	"Editablepanel"
 		"fieldName"		"BoxSupport"
 		"xpos"			"268"
-		"ypos"			"45"
+		"ypos"			"40"
 		"zpos"			"1"
 		"wide"			"123"
 		"tall"			"43"

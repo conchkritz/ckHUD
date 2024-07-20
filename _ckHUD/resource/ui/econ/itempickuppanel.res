@@ -17,14 +17,18 @@
 		}
 	}
 	
-	"NextButtonHiddens"
+	"NextButtonHidden"
 	{
 		"ControlName"	"CExButton"
-		"fieldName"		"NextButtonHiddens"
+		"fieldName"		"NextButtonHidden"
 		"xpos"		"9999"
-		
+		"visible"	"1"
+
 		"labelText"		"&D"
 		"Command"		"nextitem"
+		
+		"sound_depressed"                                           "UI/buttonclick.wav"
+        "sound_released"                                            "UI/buttonclickrelease.wav"
 	}
 	
 	"PrevButtonHidden"
@@ -32,20 +36,24 @@
 		"ControlName"	"CExButton"
 		"fieldName"		"PrevButtonHidden"
 		"xpos"		"9999"
-		
-		"labelText"		"&D"
+		"visible"	"1"
+
+		"labelText"		"&A"
 		"Command"		"previtem"
+				
+		"sound_depressed"                                           "UI/buttonclick.wav"
+        "sound_released"                                            "UI/buttonclickrelease.wav"
 	}
 	
 	"NextButton"
 	{
-		"labelText"		"&D"
+//		"labelText"		">"
 		"font"			"hudfont14"
 	}
 
 	"PrevButton"
 	{
-		"labelText"		"&A"
+//		"labelText"		"<"
 		"font"			"hudfont14"
 	}
 	

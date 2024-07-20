@@ -71,20 +71,20 @@
 	
 	CMainTargetID
 	{
-		"ypos"		"270" // 315
-		"zpos"		"2" 
+		"ypos"		"268" // 315
+		"zpos"		"-3" 
 	}
 	
 	CSpectatorTargetID
 	{
 		"ypos"		"299" // 342
-		"zpos"		"2"
+		"zpos"		"-3"
 	}
 	
 	CSecondaryTargetID
 	{
-		"ypos"		"299" // 342
-		"zpos"		"2"
+		"ypos"		"295" // 342
+		"zpos"		"-3"
 	}
 	
 	BuildingStatus_Spy
@@ -121,6 +121,7 @@
 	WinPanel
 	{
 		"ypos"					"265"
+		"zpos"					"100" // temp
 	}
 	
 	StatPanel // banished to the shadow realm
@@ -196,10 +197,10 @@
         "tall"                                                      "300"
     }
 	
-	CDamageAccountPanel
+	CDamageAccountPanel // DO NOT USE TO MOVE THE HUD DAMAGE COUNTER!!!!!!
 	{
-		"xpos"					"-50" // 0
-		"ypos"					"43" // 45
+		"xpos"					"0" // 0
+		"ypos"					"0" // 45
 		
 		"wide"					"f0"
 		"tall"					"480"

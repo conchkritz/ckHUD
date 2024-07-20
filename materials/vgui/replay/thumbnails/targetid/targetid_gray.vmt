@@ -1,0 +1,8 @@
+"UnlitGeneric"
+{
+    "$baseTexture"                                                  "vgui/replay/thumbnails/targetid/targetid_base"
+    "$translucent"                                                  "1"
+    "$color"                                                        "{100 100 100 255}"
+    "$vertexcolor"                                                  "1"
+    "$vertexalpha"                                                  "0"
+}

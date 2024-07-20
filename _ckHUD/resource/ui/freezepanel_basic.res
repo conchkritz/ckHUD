@@ -46,8 +46,8 @@
 			"src_corner_height"		"25"
 			"src_corner_width"		"25"
 			
-			"draw_corner_width"		"5"
-			"draw_corner_height" 	"5"
+			"draw_corner_width"		"3"
+			"draw_corner_height" 	"3"
 		}
 
 		"FreezeLabel"
@@ -90,6 +90,9 @@
 			"textAlignment"		"North-West"
 			"dulltext"			"0"
 			"brighttext"			"0"
+
+			"fgcolor_override"	"colorwhite"
+
 		}
 		
 		"FreezeLabelKiller"
@@ -108,6 +111,9 @@
 			"enabled"			"0"
 			"labelText"			"%killername%"
 			"textAlignment"		"Left"
+
+			"fgcolor_override"	"colorwhite"
+
 		}		
 		"FreezeLabelKiller2"
 		{	
@@ -125,7 +131,8 @@
 			"enabled"			"1"
 			"labelText"			"%killername%"
 			"textAlignment"		"Left"
-			"fgcolor"			"white"
+
+			"fgcolor_override"	"colorwhite"
 		}
 		"AvatarBG"
 		{
@@ -218,6 +225,8 @@
 			"NemesisLabel"
 			{	
 				"font"				"hudfont18"
+
+				"fgcolor_override"	"colorwhite"
 			}
 			
 			"NemesisLabel2"
@@ -237,6 +246,9 @@
 				"enabled"		"1"
 				"labelText"		"%nemesisadvice%"
 				"textAlignment"	"west"
+
+				"fgcolor_override"	"colorwhite"
+
 			}
 		}
 	}

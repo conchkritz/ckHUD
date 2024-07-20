@@ -100,9 +100,9 @@
 			"textAlignment"	"center"
 
 			"font"			"hudfont20"
-			"fgcolor"		"colorblack" // does not like fgcolor_override?
+			"fgcolor"		"stickyshadow" // does not like fgcolor_override?
 			
-			"pin_to_sibling" "stickyshadow"
+			"pin_to_sibling" "NumPipesLabel"
 		}		
 	}
 	

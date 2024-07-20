@@ -99,7 +99,7 @@
 		
 		"wide"			"50"
 		"tall"			"50"
-	}		
+	}
 	
 	"PlayingTo"
 	{
@@ -127,31 +127,30 @@
 		
 	"BlueFlag"
 	{
-		"xpos"			"c-80"
-		"ypos"			"r90"
-		"zpos"			"5"
+        "xpos"                                                      "c-105"
+        "ypos"                                                      "r82"
+        "zpos"                                                      "2"
 		
-		"wide"			"128"
-		"tall"			"72"
-
-		"Image"			"../vgui/replay/thumbnails/hud/objectives_flagpanel_compass_blue"
+        "wide"                                                      "160"
+        "tall"                                                      "90"
 
 		"if_mvm"
 		{
+			"wide"			"160"
+			"tall"			"90"
 			"ypos"	"r95"
 		}
 	}
 	
 	"RedFlag"
 	{
-		"xpos"			"c-80"
-		"ypos"			"r90"
-		"zpos"			"5"
+        "xpos"                                                      "c-57"
+        "ypos"                                                      "r82"
+        "zpos"                                                      "5"
 		
-		"wide"			"128"
-		"tall"			"72"
+        "wide"                                                      "160"
+        "tall"                                                      "90"
 		
-		"Image"			"../vgui/replay/thumbnails/hud/objectives_flagpanel_compass_red"
 		"if_mvm"
 		{
 			"ypos"	"r95"
@@ -175,7 +174,7 @@
 		}
 	}
 	
-	"FlagBg"
+	"FlagBg" // reminant of sv pure <2 hud
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"FlagBg"
@@ -185,9 +184,10 @@
 		"wide"			"73"
 		"tall"			"73"
 		
-		"visible"		"1"
-		"enabled"		"1"
-		"Image"			"../vgui/replay/thumbnails/hud/objectives_flagpanel_compass_mixed_noarrow"
+		"visible"		"0"
+		"enabled"		"0"
+		
+//		"Image"			"../vgui/replay/thumbnails/hud/objectives_flagpanel_compass_mixed_noarrow"
 		"scaleimage"	"3"
 		
 		"if_hybrid"

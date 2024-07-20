@@ -294,19 +294,6 @@ Scheme
 				"antialias" 	"1"
 			}
 		}		
-// 		===========================================
-// 		misc
-
-		"DamageNumber" 
-		{
-			"1"
-			{
-				"name" "TF2 Secondary"
-				"tall" "30"
-				"antialias" "1"
-				"outline"	"1"
-			}
-		}
 		
 // 		===========================================
 // 		caption

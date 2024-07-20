@@ -1,73 +1,86 @@
 "Resource/UI/SpectatorGUIHealth.res"
 {
 	"PlayerStatusHealthImage"
-	{
-		"xpos"			"9999"
-	}	
-	
+	{	
+		"xpos"			"7"
+		"ypos"			"3"
+		"zpos"			"4"
+		
+		"wide"			"26"
+		"tall"			"26"	
+	}		
 	"PlayerStatusHealthImageBG"
 	{
-		"xpos"			"9999"
+		"xpos"			"6"
+		"ypos"			"2"
+		"zpos"			"3"
+		
+		"wide"			"28"
+		"tall"			"28"
 	}	
-	
 	"BuildingStatusHealthImageBG"
 	{
-		"xpos"			"9999"
-	}
-	
-	"TargetHealthBG"	
-	{
-		"ControlName"	"CExImageButton"
-		"fieldName"		"TargetHealthBG"
-		"xpos"			"-5"
-		"ypos"			"7"
-		"zpos"			"1"
-		"wide"			"70"
-		"tall"			"18"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"defaultbgcolor_override"	"no"
-		"PaintBackgroundType"	"0"
-        "textinsety" 	"99"
-		"border" "noborder"
+		"xpos"			"4"
+		"ypos"			"2"
+		"zpos"			"2"
+		
+		"wide"			"28"
+		"tall"			"28"
+		
+//		"image_drawcolor"	"0 0 0 255"
 	}	
-	
 	"PlayerStatusHealthBonusImage"
 	{
-		"xpos"			"99999"
+		"xpos"			"7"
+		"ypos"			"3"
+		"zpos"			"1"
+		
+		"wide"			"26"
+		"tall"			"26"	
 	}
-	
 	"PlayerStatusHealthValue"
 	{
-		"xpos"			"-14"
-		"ypos"			"1"
+		"xpos"			"-33"
+		"ypos"			"7"
 		"zpos"			"5"
 		
-		"wide"			"60"
-		"tall"			"31"
-	
+		"wide"			"105"
+		"tall"			"20"
+		
+		"visible"		"1"
+		"enabled"		"1"
+
+		
+		"textAlignment"	"center"	
 		"font"			"hudfont18"
-		"fgcolor"		"colorwhite"
+		"fgcolor"		"health"
 	}
 	
-	"PlayerStatusHealthValueShadowSpec" // why did i make this different from the standard health?? pls remind me when i rember
+	"PlayerStatusHealthValueShadow"
 	{
 		"ControlName"	"CExLabel"
-		"fieldName"		"PlayerStatusHealthValueShadowSpec"
+		"fieldName"		"PlayerStatusHealthValueShadow"
+		
 		"xpos"			"-1"
 		"ypos"			"-1"
 		"zpos"			"5"
-		"wide"			"60"
-		"tall"			"31"
+		
+		"wide"			"105"
+		"tall"			"20"
+		
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%Health%"
+		
 		"textAlignment"	"center"	
 		"font"			"hudfont18"
-		"fgcolor"		"colorblack"
+		"fgcolor"		"healthshadow"
 		
 		"pin_to_sibling"	"PlayerStatusHealthValue"
+	}
+	
+	"PlayerStatusPlayerLevel"
+	{
+		"xpos"			"9999"
 	}						
 }

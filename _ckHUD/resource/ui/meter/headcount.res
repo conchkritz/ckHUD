@@ -5,7 +5,7 @@
 		"fieldName"		"HudItemEffectMeter"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"cs1.2"	[$WIN32]
+		"xpos"			"cs1.3"	[$WIN32]
 		"ypos"			"c80"	[$WIN32]
 		"wide"			"150"
 		"tall"			"50"
@@ -44,6 +44,7 @@
 		"dulltext"				"0"
 		"brighttext"			"0"
 		"font"					"hudfont10shadow"
+		"fgcolor_override"		"colorwhite"
 	}
 	
 	"ItemEffectMeter"

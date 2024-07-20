@@ -77,18 +77,9 @@
 		"pin_to_sibling"	"PlayerStatusHealthValue"
 	}
 	
-	"PlayerStatusMaxHealthValueBG" // redability
+	"PlayerStatusMaxHealthValueBG" // might put this back where the mvm cash is located
 	{
-		"xpos"			"39"
-		"ypos"			"55"
-		"zpos"			"4"
-		
-		"wide"			"31"
-		"tall"			"10"
-		
-		"visible"		"0"
-		
-		"fillcolor"		"colorblack"
+		"xpos"			"9999"
 	}
 	
 	"PlayerStatusMaxHealthValue"
