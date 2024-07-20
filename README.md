@@ -2,9 +2,9 @@
 
 **THIS HUD IS BEING WORKED ON AGAIN!!!!**
 
-![Main Menu V.0.3.5](https://user-images.githubusercontent.com/76109782/171527344-b8f2b9c0-ad1f-432f-8aa6-d1b086e3aa19.png)
+![Outdated Main Menu V.0.3.5](https://user-images.githubusercontent.com/76109782/171527344-b8f2b9c0-ad1f-432f-8aa6-d1b086e3aa19.png)
 
-A hud made by conch, inspired by e.v.e Hud, Isaac Hud, and ToonHUD.
+A TF2 flavored hud that really likes rounded corners.
 
 [Imgur Album](https://imgur.com/a/oX2zvhA)
 
@@ -14,18 +14,18 @@ Cuurently only being tested on 16:9 1080p. If you have issues, best method of co
 | OS  | Status |
 | ------------- | ------------- |
 | Windows (11)  | Supported  |
-| Linux  | Should Work(?) |
-| Mac  | Should Work(?)  |
+| Linux  | Should Theoretically Work |
 
 | Resolution  | Status |
 | ------------- | ------------- |
-| 16:9  | Supported(?)  |
-| Anything Else  | May Work(?)  |
+| 16:9  | Supported  |
+| 4:3  | Works but ugly  |
+| 16:10  | Untested  |
 
 | Language  | Status |
 | ------------- | ------------- |
 | English  | Supported  |
-| Anything Else  | Supported(?)  |
+| Anything Else  | Theoretically works  |
 
 # Credits
 * [e.v.e HUD](https://gamebanana.com/mods/26852)
