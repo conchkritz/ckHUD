@@ -2,259 +2,234 @@
 {
 	"specgui"
 	{
-		"tall"				"1000"
-		
-		"team1_player_base_offset_x"			"290"		//"-75"
-		"team1_player_base_y"					"110"		//"0"
-		"team1_player_delta_x"					"0"			//"-50"
-		"team1_player_delta_y"					"30"		//"0"
-		
-		"team2_player_base_offset_x"			"-380"		//"75"
-		"team2_player_base_y"					"110"		//"0"
-		"team2_player_delta_x"					"0"			//"50"
-		"team2_player_delta_y"					"30"		//"0"
-		
-		if_mvm
-		{
-			"team1_player_base_y"			"3"
-			"team1_player_delta_x"			"91"
-			"team1_player_delta_y"			"0"
-		}
+		"team1_player_base_offset_x"	"0"
+		"team1_player_base_y"			"320"
+		"team1_player_delta_x"			"0"
+		"team1_player_delta_y"			"18"
+
+		"team2_player_base_offset_x"	"0"
+		"team2_player_base_y"			"270"
+		"team2_player_delta_x"			"0"
+		"team2_player_delta_y"			"-18"
 		
 		"playerpanels_kv"
 		{
-			"wide"			"90"		//"50"
-			"tall"			"30"		//"33"
-			"zpos"			"100"
-			
-			"color_ready"	"0 255 0 220"
-			"color_notready"	"0 0 0 220"
-			
-			"background"
-			{
-				"ControlName"		"EditablePanel"
-				"fieldName"		"background"
-				"xpos"			"22"
-				"ypos"			"0"
-				"zpos"			"2"
-				"wide"			"f0"
-				"tall"			"f0"
-				"visible"		"1"
-				"enabled"		"1"
-				"scaleImage"		"1"
-				
-				"SubImage"
-				{
-					"ControlName"			"CTFImagePanel"
-					"fieldName"			"SubImage"
-					"xpos"				"-22"
-					"ypos"				"0"
-					"wide"				"90"
-					"tall"	 			"30"
-					"image"				"../hud/color_panel_brown"
-					
-					"src_corner_height"	"25"
-					"src_corner_width"	"25"
-					
-					"draw_corner_width"	"5"
-					"draw_corner_height" 	"5"
-				}				
-			}
-			
 			"playername"
 			{
-				"font"			"hudfont10sec"
+				"font"			"hudfont12sec"
 				
-				"xpos"			"24"
-				"ypos"			"0"
+				"xpos"			"22"
+				"ypos"			"2"
 				"zpos"			"5"
 				
-				"wide"			"62"
-				"tall"			"10"
-
-				"fgcolor"		"colorwhite"
+				"wide"			"100"
+				"tall"			"17"
 				
 				if_mvm
 				{
-					"xpos"			"24"
-					"ypos"			"0"
-					"wide"			"62"
+					"xpos"			"5"
+					"ypos"			"24"
+					"zpos"			"5"
 					
-					"textAlignment"	"north-west"
-					"font"			"hudfont10sec"
+					"wide"			"50"
+					"tall"			"8"
+					
+					"textAlignment"		"center"
+					"font"				"PlayerPanelPlayerName"
 				}
 			}
 			
 			"classimage"
 			{
-				"xpos"			"2"
-				"ypos"			"5"
-				"zpos"			"2"
+				"xpos"				"0"
+				"ypos"				"0"
+				"zpos"				"2"
 				
-				"wide"			"19"
-				"tall"			"19"
-
-				"image"			"../vgui/hud_connecting"		//"../hud/class_scoutred"
+				"wide"				"16"
+				"tall"				"16"
 				
 				if_mvm
 				{
-					"xpos"			"2"
-					"ypos"			"5"
-					"wide"			"19"
-					"tall"			"19"
+					"xpos"			"5"
+					"ypos"			"4"
+					
+					"wide"			"20"
+					"tall"			"20"
+					
 					"image"			"../vgui/hud_connecting"
+					
+					"bgcolor_override"	"no"
 				}
 			}
 			
 			"classimagebg"
 			{
-				"xpos"			"2"
-				"ypos"			"5"
-				"zpos"			"2"
+				"bgcolor_override"		"colorblack"
 				
-				"wide"			"19"
-				"tall"			"19"
-
-				"bgcolor_override"		"colorblackalt"
+				if_mvm
+				{
+					"xpos"			"5"
+					"ypos"			"4"
+					"zpos"			"2"
+					
+					"wide"			"20"
+					"tall"			"20"
+				
+					"visible"		"1"
+				}
 			}
 			
 			"HealthIcon"
 			{
-				"xpos"						"37"
-				"ypos"						"6"
-				"zpos"						"3"
+				"xpos"				"125"
+				"ypos"				"0"
+				"zpos"				"3"
 				
-				"wide"						"50"
-				"tall"						"50"
-			}	
+				"wide"				"32"
+				"tall"				"32"
+				
+				"visible"			"1"
+				"enabled"			"1"	
+				
+				"bgcolor_override"	"colorpanelbrownopaque"
+			}
 			
-			"respawntime"
+			"ReadyBG"
 			{
-				"font"			"hudfont11"
-				
-				"xpos"			"35"
-				"ypos"			"12"
-				"zpos"			"5"
-				
-				"wide"			"50"
-				"tall"			"10"
-	
-				"textAlignment"	"east"
-				"fgcolor"		"240 150 80 255"
+				"src_corner_height"	"25"				// pixels inside the image
+				"src_corner_width"	"25"
+			
+				"draw_corner_width"	"2"				// screen size of the corners ( and sides ), proportional
+				"draw_corner_height" 	"2"
 				
 				if_mvm
 				{
-					"ypos"			"12"
+					"visible"		"1"
+				}	
+			}
+			
+			"ReadyImage"
+			{
+				if_mvm
+				{
+					"visible"		"1"
+				}
+			}
+			
+			"respawntime"
+			{
+				"font"				"hudfont14"
+				"textAlignment"		"center"
+
+				"xpos"				"125"
+				"ypos"				"-8"
+				"zpos"				"3"
+				
+				"wide"				"32"
+				"tall"				"32"
+
+				"fgcolor_override"		"colorwhite"
+				
+				if_mvm
+				{
+					"ypos"			"17"
 				}
 			}
 			
 			"chargeamount"
 			{
-				"font"			"hudfont10"
+				"font"			"hudfont8"
 				
-				"xpos"			"53"
-				"ypos"			"12"
-				"zpos"			"6"
+				"xpos"				"-4"
+				"ypos"				"5"
+				"zpos"				"6"
 				
-				"wide"			"50"
-				"tall"			"10"
+				"wide"				"25"
+				"tall"				"17"
 
-				"textAlignment"	"center"
 				"fgcolor"		"colorwhite"
-			}
-			"chargeamountShadow"
-			{
-				"ControlName"	"CExLabel"
-				"fieldName"		"chargeamountShadow"
-				"font"			"hudfont10"
-				"xpos"			"-1"
-				"ypos"			"-1"
-				"zpos"			"5"
-				"wide"			"50"
-				"tall"			"10"
-				"autoResize"	"0"
-				"pinCorner"		"0"
-				"visible"		"1"
-				"labelText"		"%chargeamount%"
-				"textAlignment"	"center"
-				"fgcolor"		"colorblack"
-				
-				"pin_to_sibling" "chargeamount"
 			}
 			
 			"specindex"
 			{
-				"xpos"			"0"
-				"ypos"			"-1"
-				"zpos"			"5"
-
-				"fgcolor"		"white"
+				"xpos"			"9999"
 			}
 			
 			if_mvm
 			{
-				"wide"			"90"		//"50"
-				"tall"			"30"		//"33"
+				"wide"		"55"
+				"tall"		"35"
 			}
 		}
-	}
+		
+		if_mvm
+		{
+			"xpos"					"c-250"
+			"ypos"					"6"
+			"wide"					"500"
+			"tall"					"180"
 	
+			"team1_player_delta_x"			"52"
+		}		
+	}
+
 	"topbar"
 	{
+		"visible"		"0"
 		"tall"			"0"
 	}
-	
 	"BottomBar"
 	{
-		"ControlName"	"Frame"
-		"fieldName"		"BottomBar"
 		"visible"		"0"
-		"ypos"			"100"
 		"tall"			"0"
 	}
 	"bottombarblank"
 	{
-		"ControlName"	"Panel"
-		"fieldName"		"bottombarblank"
 		"visible"		"0"
-		"ypos"			"480"
-	}
-	
-	"ShadedBar"
-	{
-		"xpos"			"9999"
+		"tall"			"0"
 	}
 	
 	"ReinforcementsLabel"
 	{
-		"xpos"			"c-300"
-		"ypos"			"100"
-		
-		"wide"			"600"
+		"ControlName"		"CExLabel"
+		"fieldName"		"ReinforcementsLabel"
+		"xpos"			"c-150"
+		"ypos"			"32"
+		"wide"			"300"
 		"tall"			"18"
-
+		"autoResize"		"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"#game_respawntime_in_secs"
 		"textAlignment"		"center"
-		"font"			"hudfont18"
-		"fgcolor_override" "colorwhite"
+		"font"			"HudFontSmall"
 		
 		if_mvm
 		{
-			"ypos"			"125"
+			"xpos"			"c-190"
+			"ypos"			"1"
+			"wide"			"380"
+			"textAlignment"		"center"
 		}
 	}
-	
 	"BuyBackLabel"
 	{
-		"xpos"			"c-300"
-		"ypos"			"150"
-		
-		"wide"			"600"
-		"tall"			"18"
-
-		"textAlignment"		"center"
-		"font"			"hudfont18"
-		
-		"fgcolor_override" "colorwhite"
+		"ControlName"	"CExLabel"
+		"fieldName"		"BuyBackLabel"
+		"xpos"			"c-190"
+		"ypos"			"16"
+		"wide"			"380"
+		"tall"			"14"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"0"
+		"enabled"		"1"
+		"labelText"		"#TF_PVE_Buyback"
+		"textAlignment"	"center"
+		"font"			"HudFontSmall"
+		"wrap"			"1"
+		"centerwrap"	"1"
 	
 		if_mvm
 		{
@@ -262,11 +237,67 @@
 		}	
 	}
 	
+	"MapLabel"
+	{
+		"ControlName"		"CExLabel"
+		"fieldName"		"MapLabel"
+		"visible"		"0"
+	}
+	"ClassOrTeamLabel"
+	{
+		"ControlName"		"CExLabel"
+		"fieldName"		"ClassOrTeamLabel"
+		"visible"		"0"
+	}
+	"SwitchCamModeKeyLabel"
+	{
+		"ControlName"		"CExLabel"
+		"fieldName"		"SwitchCamModeKeyLabel"
+		"visible"		"0"
+		
+	}
+	"SwitchCamModeLabel"
+	{
+		"ControlName"		"CExLabel"
+		"fieldName"		"SwitchCamModeLabel"
+		"visible"		"0"
+	}
+	"CycleTargetFwdKeyLabel"
+	{
+		"ControlName"		"CExLabel"
+		"fieldName"		"CycleTargetFwdKeyLabel"
+		"visible"		"0"
+	}
+	"CycleTargetFwdLabel"
+	{
+		"ControlName"		"CExLabel"
+		"fieldName"		"CycleTargetFwdLabel"
+		"visible"		"0"
+	}
+	"CycleTargetRevKeyLabel"
+	{
+		"ControlName"		"CExLabel"
+		"fieldName"		"CycleTargetRevKeyLabel"
+		"visible"		"0"
+	}
+	"CycleTargetRevLabel"
+	{
+		"ControlName"		"CExLabel"
+		"fieldName"		"CycleTargetRevLabel"
+		"visible"		"0"
+	}
+	"TipLabel"
+	{
+		"ControlName"		"CExLabel"
+		"fieldName"		"TipLabel"
+		"visible"		"0"
+	}
+	
 	"itempanel"
 	{
 		"itemmodelpanel"
 		{
-			"inventory_image_type" 	"1"
+			"inventory_image_type"	"1"
 		}
 		
 		"attriblabel" // finally fixed!!
@@ -274,5 +305,9 @@
 			"visible"		"0"
 			"enabled"		"0"
 		}
-	}		
+	}	
+	
+	"spectator_extras"
+	{
+	}	
 }

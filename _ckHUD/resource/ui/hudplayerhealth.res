@@ -102,12 +102,12 @@
 		"ControlName"		"CTFImagePanel"
 		"fieldName"			"TeamIndCross1"
 
-		"xpos"			"2"
-		"ypos"			"-13"
+		"xpos"			"3"
+		"ypos"			"-12"
 		"zpos"			"1"
 		
-		"wide"			"48"
-		"tall"			"19"
+		"wide"			"49"
+		"tall"			"20"
 
 		"visible"			"1"
 		"enabled"			"1"
@@ -120,8 +120,8 @@
 		
 		"src_corner_height"			"40"		// pixels inside the image
 		"src_corner_width"			"40"			
-		"draw_corner_width"			"0"			// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 		"0"	
+		"draw_corner_width"			"2"			// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 		"2"	
 		
 		"pin_to_sibling"	"PlayerStatusHealthImageBG"
 	}
@@ -149,8 +149,8 @@
 		
 		"src_corner_height"			"40"				// pixels inside the image
 		"src_corner_width"			"40"			
-		"draw_corner_width"			"0"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 		"0"	
+		"draw_corner_width"			"2"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 		"2"	
 		
 		"pin_to_sibling"	"PlayerStatusHealthImageBG"
 	}

@@ -2,54 +2,39 @@
 {
 	"PlayerStatusHealthImage"
 	{
-		"xpos"			"10"
-		"ypos"			"6"
-		"zpos"			"4"
-		
-		"wide"			"16"
-		"tall"			"16"
+		"xpos"			"9999"
 	}
 	
 	"PlayerStatusHealthImageBG"
 	{
-		"xpos"			"9"
-		"ypos"			"5"
-		"zpos"			"4"
-		
-		"wide"			"18"
-		"tall"			"18"
+		"xpos"			"9999"
 	}	
 	
 	"BuildingStatusHealthImageBG"
 	{
-		"xpos"			"8"
-		"ypos"			"5"
-		"zpos"			"4"
-		
-		"wide"			"18"
-		"tall"			"18"
+		"xpos"			"9999"
 	}	
 	
-	"PlayerStatusHealthBonusImage"
+	"PlayerStatusHealthBonusImage" // old style is back i guess
 	{
-		"xpos"			"11"
-		"ypos"			"7"
+		"xpos"			"-12"
+		"ypos"			"-18"
 		"zpos"			"4"
 		
-		"wide"			"14" // on purpose, not a bug
-		"tall"			"14"
+		"wide"			"55"
+		"tall"			"55"
 	}
 	
 	"PlayerStatusHealthValue"
 	{
-		"xpos"			"-27"
-		"ypos"			"-10"
+		"xpos"			"-28"
+		"ypos"			"-17"
 		"zpos"			"5"
 		
 		"wide"			"89"
 		"tall"			"50"
 
-		"font"			"hudfont18"
+		"font"			"hudfont16"
 		"fgcolor"		"colorwhite"
 	}
 
@@ -66,7 +51,7 @@
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"center"	
-		"font"			"hudfont18"
+		"font"			"hudfont16"
 		"fgcolor"		"colorblack"
 		
 		"pin_to_sibling"	"PlayerStatusHealthValue"

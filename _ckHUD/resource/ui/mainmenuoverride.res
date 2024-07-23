@@ -17,7 +17,7 @@
 	
 	"RankModelPanel"
 	{
-		"xpos"			"cs-0.5-160"
+		"xpos"			"cs-0.75"
 		"ypos"			"cs-0.5-57"
 	}
 
@@ -31,10 +31,10 @@
 		"depressedFgColor_override"	"colorwhite"
 	}
 
-	"RankPanel"
+	"RankPanel" // close enough
 	{
-		"ypos"			"162"
-		"tall"			"110"
+		"ypos"			"140"
+		"tall"			"108"
 	}
 
 	"NoGCMessage"
@@ -261,7 +261,7 @@
 			"zpos"			"500"
 			
 			"wide"			"f10"
-			"tall"			"106" // default 110 but for saftey its 106 because i dont have enough friends to test it
+			"tall"			"104" // i had to add a crap ton of trading bots to test this :( pls give me friends
 
 			"columns_count"	"2"
 			
@@ -281,32 +281,20 @@
 
 			"ScrollBar"
 			{
-				"ControlName"	"ScrollBar"
-				"FieldName"		"ScrollBar"
-				"xpos"			"rs1-1"
-				"ypos"			"0"
-				"tall"			"f0"
-				"wide"			"5" // This gets slammed from client schme.  GG.
-				"zpos"			"1000"
-				"nobuttons"		"1"
-				"proportionaltoparent"	"1"
-
+				"xpos"			"rs1-3.5"
+				
 				"Slider"
 				{
-					"fgcolor_override"	"TanDark"
+					"fgcolor_override"	"235 226 202 255" // this doesnt like color names from scheme just like everything else??
 				}
 		
 				"UpButton"
 				{
-					"ControlName"	"Button"
-					"FieldName"		"UpButton"
 					"visible"		"0"
 				}
 		
 				"DownButton"
 				{
-					"ControlName"	"Button"
-					"FieldName"		"DownButton"
 					"visible"		"0"
 				}
 			}
@@ -1308,13 +1296,13 @@
 		"xpos" "rs1"
 		"ypos" "rs0.7"
 		"zpos"			"1"
-		"wide"			"65"
+		"wide"			"100"
 		"tall"			"25"
 
 		"font"			"hudfont12"
 		"textAlignment"	"east"
 		
-		"labelText" 	"ckHUD 0.5"
+		"labelText" 	"ckHUD 0.5-pre"
 		
 		"wide_minmode"			"145"
 		"labelText_minmode" 	"pls turn off minmode"

@@ -104,19 +104,29 @@ Scheme
 		"TanDarkOld"			"117 107 94 255" // replaces tandark in clientscheme_settings
 		"TanLightOld"			"235 226 202 255"
 
+		// panel colors, ripped directly from color panel vtfs
+		"colorpanelbrownopaque"		"51 48 46 255"
+		"colorpanelblueopaque"		"79 117 143 255"
+		"colorpanelbrownopaque"		"189 58 60 255"
+
+		// these i guess the alpha value
+		"colorpanelbrown"		"51 48 46 200"
+		"colorpanelblue"		"79 117 143 200"
+		"colorpanelbrown"		"189 58 60 200"
+
 		//---------------------------------------------
 		// MODDED DEFAULT COLORS
 		//---------------------------------------------
 		
 		"TanLight"				"235 226 202 255" // change this w/ colorwhite
-		"White"					"242 242 242 255"
-		"Black"					"20 20 20 255"
+		"White"					"236 236 236 255"
+//		"Black"					"20 20 20 255"
 		"Tandark"				"242 242 242 255" // only for advanced options
 		
-		"HUDBlueTeamSolid"		"88 133 162 255"
-		"HUDRedTeamSolid"		"184 56 59 255"
+//		"HUDBlueTeamSolid"		"88 133 162 255"
+//		"HUDRedTeamSolid"		"184 56 59 255"
 		"HudWhite"				"242 242 242 255"
-		"HudBlack"				"20 20 20 255"
+//		"HudBlack"				"20 20 20 255"
 		
 		"LightOrange"			"188 112 0 75"
 	}

@@ -31,9 +31,10 @@
 		"tall"			"18"
 		
 		"textAlignment"		"center"
-		"font"			"hudfont18"
+		"font"			"hudfont18sec"
 		"fgcolor_override" "colorwhite"
 	}
+	
 	"BuyBackLabel"
 	{
 		"xpos"			"0"
@@ -43,7 +44,7 @@
 		"tall"			"f0"
 		
 		"textAlignment"		"center"
-		"font"			"hudfont18"
+		"font"			"hudfont18sec"
 		"fgcolor_override" "colorwhite"
 	}
 	
