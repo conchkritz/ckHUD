@@ -29,14 +29,12 @@
 
 	"IcoReelIcon"
 	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"IcoReelIcon"
-		
 		"xpos"			"0"
 		"ypos"			"32"
 		"zpos"			"1"
 		
-		"image"			"replay/thumbnails/icons/ico_reel"
+		"wide"			"50"
+		"tall"			"50"
 	}
 
 	"TitleLabel"
