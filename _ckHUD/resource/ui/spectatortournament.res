@@ -5,15 +5,18 @@
 		"team1_player_base_offset_x"	"0"
 		"team1_player_base_y"			"320"
 		"team1_player_delta_x"			"0"
-		"team1_player_delta_y"			"18"
+		"team1_player_delta_y"			"19"
 
 		"team2_player_base_offset_x"	"0"
 		"team2_player_base_y"			"270"
 		"team2_player_delta_x"			"0"
-		"team2_player_delta_y"			"-18"
+		"team2_player_delta_y"			"-19"
 		
 		"playerpanels_kv"
-		{
+		
+		{	"wide"			"158"
+			"tall"			"18"
+			
 			"playername"
 			{
 				"font"			"hudfont12sec"
