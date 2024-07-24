@@ -1,6 +1,6 @@
 "Resource/UI/MainMenuOverride.res"
 {
-	"blueprint_opaque"
+	"blueprint_opaque" // color_panel_pipboy
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"BTCross"
@@ -19,7 +19,27 @@
 		"enabled"		"1"
 		"image"			"../vgui/replay/thumbnails/construct/color_panel_blueprint"
 	}
-
+	
+	"pipboy_opaque"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"BTCross"
+		"xpos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../vgui/replay/thumbnails/construct/color_panel_pipboy_opaque"
+	}
+	
+	"pipboy"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"BTCross"
+		"xpos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../vgui/replay/thumbnails/construct/color_panel_pipboy"
+	}
+	
 	"gradient_brown"
 	{
 		"ControlName"	"ImagePanel"

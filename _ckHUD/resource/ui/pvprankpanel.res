@@ -18,7 +18,7 @@
 		{
 			"wide"			"f10"
 			
-			"ypos"			"25"
+			"ypos"			"35"
 
 			"xpos"			"cs-0.2"
 
@@ -44,9 +44,9 @@
 		{
 			"fgcolor_override"	"colorwhite"
 			
-			"xpos"			"cs-0.195" // cs-0.4
+			"xpos"			"cs-0.197" // cs-0.4
 			
-			"ypos"			"43"
+			"ypos"			"53"
 
 			"wide"			"f10"
 
@@ -72,13 +72,13 @@
 		{
 			"wide"			"f10"
 			
-			"ypos"			"52"
+			"ypos"			"88"
 
-			"xpos"			"cs-0.192"
+			"xpos"			"cs-.495"
 
 
 			"fgcolor_override"	"colorwhite"
-			
+			"textAlignment"		"center"
 			if_mini
 			{
 				"xpos"	"67"
@@ -100,7 +100,7 @@
 
 		"StatsContainer"
 		{
-			"ypos"			"-3"
+			"ypos"			"-8"
 			"wide"			"f10"
 			
 			if_mini

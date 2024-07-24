@@ -10,6 +10,11 @@
 		"iconColor"		"pipboy"
 	}
 	
+	"CantBuildReason"
+	{	
+		"fgcolor"		"155 255 0 255"
+	}
+	
 	"CostLabel"
 	{	
 		"fgcolor"		"pipboy"
@@ -32,9 +37,8 @@
 		"fgcolor"		"pipboy"
 	}
 	
-	"NumberLabelBG"
-	{	
-		"fillcolor"		"pipboydarker"
-		"border"		"pipboyoutline"
+	"NumberBg"	
+	{
+		"iconColor"		"0 32 0 255"
 	}
 }

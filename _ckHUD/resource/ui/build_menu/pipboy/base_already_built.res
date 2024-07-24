@@ -7,7 +7,7 @@
 
 	"CantBuildReason"
 	{	
-		"fgcolor"		"pipboy"
+		"fgcolor"		"0 155 0 255"
 	}
 	
 	"MetalIcon"	
@@ -26,15 +26,14 @@
 		
 		"border"		"pipboyoutline"
 	}
-
+	
+	"NumberBg"	
+	{
+		"iconColor"		"0 32 0 255"
+	}
+	
 	"NumberLabel"
 	{	
 		"fgcolor"		"pipboy"
-	}
-	
-	"NumberLabelBG"
-	{	
-		"fillcolor"		"pipboydarker"
-		"border"		"pipboyoutline"
 	}
 }

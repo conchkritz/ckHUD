@@ -174,23 +174,28 @@
 		"textAlignment"	"East"
 	}
 	
-	"available_target_1"
+	"available_target_1" // for some reason this one has a zpos of 10 while the others has a zpos of 1???
 	{
 		"xpos"			"145"
+		"zpos"			"10"
+
 	}	
 	
 	"available_target_2"
 	{
 		"xpos"			"205"
+		"zpos"			"10"
 	}	
 
 	"unavailable_target_1"
 	{
 		"xpos"			"145"
+		"zpos"			"10"
 	}	
 	
 	"unavailable_target_2"
 	{
 		"xpos"			"205"
+		"zpos"			"10"
 	}	
 }

@@ -52,8 +52,8 @@
 		{
 			"defaultFgColor_override" "colorwhite"
 			"armedFgColor_override" "colorwhite"
-			"image_drawcolor"	"colorwhite"
-			"image_armedcolor"	"colorwhite"
+			"image_drawcolor"	"235 226 202 255"
+			"image_armedcolor"	"235 226 202 255"
 
 			"SubImage"
 			{
@@ -65,8 +65,8 @@
 		{
 			"defaultFgColor_override" "colorwhite"
 			"armedFgColor_override" "colorwhite"
-			"image_drawcolor"	"colorwhite"
-			"image_armedcolor"	"colorwhite"
+			"image_drawcolor"	"235 226 202 255"
+			"image_armedcolor"	"235 226 202 255"
 
 			"SubImage"
 			{
@@ -78,14 +78,14 @@
 		{
 			"defaultFgColor_override" "colorwhite"
 			"armedFgColor_override" "colorwhite"
-			"image_drawcolor"	"colorwhite"
-			"image_armedcolor"	"colorwhite"
+			"image_drawcolor"	"235 226 202 255"
+			"image_armedcolor"	"235 226 202 255"
 
 			"SubImage"
 			{
 				"image"			"replay/thumbnails/icons/glyph_tf2"
 
-				"drawcolor_override" "colorwhite"
+				"drawcolor_override" "235 226 202 255"
 			}
 		}
 	}

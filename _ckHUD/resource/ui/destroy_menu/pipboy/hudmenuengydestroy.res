@@ -1,9 +1,8 @@
 "Resource/UI/build_menu/HudMenuEngyDestroy.res"
 {	
 	"HeaderBG"
-	{
-		"fillcolor"		"pipboydark"
-		"border"		"PipboyOutline"
+	{		
+		"image"			"../vgui/replay/thumbnails/construct/color_panel_pipboy_opaque"
 	}
 	
 	"Background"
@@ -44,11 +43,11 @@
 		"scaleImage"		"1"
 		"src_corner_height"		"25"
 		"src_corner_width"		"25"			
-		"draw_corner_width"		"0"
-		"draw_corner_height" 	"0"	
+		"draw_corner_width"		"2"
+		"draw_corner_height" 	"2"	
 	}
 	
-	"DestroyIcon"	// ????????
+	"DestroyIcon"	// ???????? // why did i put question marks here??? nobody knows, maybe because the image is too dark?
 	{
 		"iconColor"		"pipboy"
 	}

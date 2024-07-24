@@ -31,9 +31,8 @@
 		"fgcolor"		"pipboy"
 	}
 	
-	"NumberLabelBG"
-	{	
-		"fillcolor"		"pipboydarker"
-		"border"		"pipboyoutline"
+	"NumberBg"	
+	{
+		"iconColor"		"0 32 0 255"
 	}
 }
