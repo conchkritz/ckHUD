@@ -50,21 +50,26 @@
 	{
 		"ControlName"		"CTFImagePanel"
 		"fieldName"		"PlayerListBackgroundHeader"
-		"xpos"			"25"
+		"xpos"			"23"
 		"ypos"			"73"
 		"zpos"			"-1"
-		"wide"			"550"
-		"tall"			"23"
+		"wide"			"554"
+		"tall"			"18"
 		"visible"		"1"
+		
 		"enabled"		"1"
-		"image"			"../hud/score_panel_red_bg_solid"
+		"image"				"../hud/color_panel_red_opaque"
+		"scaleImage"		"1"
+		"teambg_1"			"../hud/color_panel_red_opaque"
+		"teambg_2"			"../hud/color_panel_red_opaque"
+		"teambg_3"			"../hud/color_panel_blu_opaque"
 		"scaleImage"		"1"
 		
-		"src_corner_height"		"2"
-		"src_corner_width"		"2"
+		"src_corner_height"		"25"
+		"src_corner_width"		"25"
 		
-		"draw_corner_width"		"1"
-		"draw_corner_height" 	"1"	
+		"draw_corner_width"		"2"
+		"draw_corner_height" 	"2"	
 	}
 	
 	"Player1"
