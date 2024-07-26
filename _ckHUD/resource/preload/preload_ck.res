@@ -78,6 +78,46 @@
 		"enabled"		"1"
 		"image"			"../vgui/replay/thumbnails/hud/clock_suddendeath_mask"
 	}
+	"clock_area_mask"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"BTCross"
+		"xpos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../vgui/replay/thumbnails/hud/clock_area_mask"
+	}
+	// despertation
+	"objectives_timepanel_blue_bg"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"BTCross"
+		"xpos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../hud/objectives_timepanel_blue_bg"
+	}
+	
+	"objectives_timepanel_red_bg"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"BTCross"
+		"xpos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../hud/objectives_timepanel_red_bg"
+	}
+	
+	"objectives_timepanel_suddendeath"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"BTCross"
+		"xpos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../hud/objectives_timepanel_suddendeath"
+	}
+	
 	"objectives_flagpanel_compass_blue"
 	{
 		"ControlName"	"ImagePanel"

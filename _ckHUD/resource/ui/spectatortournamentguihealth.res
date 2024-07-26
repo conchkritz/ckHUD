@@ -1,59 +1,69 @@
-"Resource/UI/SpectatorGUIHealth.res"
+"Resource/UI/SpectatorTournamentGUIHealth.res"
 {
-	"PlayerStatusHealthImage"
+	"PlayerStatusHealthValueSpectator"
 	{
-		"xpos"			"9999"
+		"ControlName"		"CExLabel"
+		"fieldName"			"PlayerStatusHealthValueSpectator"
+		"xpos"				"0"
+		"ypos"				"0"
+		"zpos"				"6"
+		"wide"				"24"
+		"tall"				"14"
+		"visible"			"1"
+		"enabled"			"1"
+		"labelText"			"%Health%"
+		"textAlignment"		"center"
+		"font"				"hudfont12"
+		"fgcolor"			"colorwhite"
 	}
 	
-	"PlayerStatusHealthImageBG"
+	"PlayerStatusHealthValueSpectatorShadow"
 	{
-		"xpos"			"9999"
-	}	
+		"ControlName"		"CExLabel"
+		"fieldName"			"PlayerStatusHealthValueSpectatorShadow"
+		"xpos"				"-1"
+		"ypos"				"-1"
+		"zpos"				"6"
+		"wide"				"24"
+		"tall"				"14"
+		"visible"			"1"
+		"enabled"			"1"
+		"labelText"			"%Health%"
+		"textAlignment"		"center"
+		"font"				"hudfont12"
+		"fgcolor"			"colorblack"
+		"pin_to_sibling"	"PlayerStatusHealthValueSpectator"
+	}
 	
-	"BuildingStatusHealthImageBG"
+	"PlayerStatusHealthBonusImage"
 	{
-		"xpos"			"9999"
-	}	
-	
-	"PlayerStatusHealthBonusImage" // old style is back i guess
-	{
-		"xpos"			"-12"
-		"ypos"			"-18"
-		"zpos"			"4"
-		
-		"wide"			"55"
-		"tall"			"55"
+		"ControlName"	"ImagePanel"
+		"fieldName"		"PlayerStatusHealthBonusImage"
+		"xpos"			"-25"
+		"ypos"			"-25"
+		"zpos"			"3"
+		"wide"			"75"
+		"tall"			"75"
+		"visible"		"0"
+		"enabled"		"1"
+		"image"			"../hud/health_over_bg"
+		"scaleImage"	"1"	
 	}
 	
 	"PlayerStatusHealthValue"
 	{
-		"xpos"			"-28"
-		"ypos"			"-17"
-		"zpos"			"5"
-		
-		"wide"			"89"
-		"tall"			"50"
-
-		"font"			"hudfont16"
-		"fgcolor"		"colorwhite"
+		"xpos"			"9999"
 	}
-
-	"PlayerStatusHealthValueShadowSpec"
+	"PlayerStatusHealthImage"
 	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"PlayerStatusHealthValueShadowSpec"
-		"xpos"			"-1"
-		"ypos"			"-1"
-		"zpos"			"5"
-		"wide"			"89"
-		"tall"			"50"
-		"visible"		"1"
-		"enabled"		"1"
-		"labelText"		"%Health%"
-		"textAlignment"	"center"	
-		"font"			"hudfont16"
-		"fgcolor"		"colorblack"
-		
-		"pin_to_sibling"	"PlayerStatusHealthValue"
-	}						
-}
+		"xpos"				"9999"
+	}
+	"PlayerStatusHealthImageBG"
+	{
+		"xpos"				"9999"
+	}
+	"BuildingStatusHealthImageBG"
+	{
+		"xpos"				"9999"
+	}
+}		

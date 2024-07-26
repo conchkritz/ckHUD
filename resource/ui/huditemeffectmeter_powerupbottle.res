@@ -3,8 +3,8 @@
 
 "Resource/UI/HudItemEffectMeter_PowerupBottles.res"
 {
-	HudItemEffectMeter
-	{
-		"ypos"			"rs0.85"
-	}
+//	HudItemEffectMeter
+//	{
+//		"ypos"			"rs0.85" // why the hell did i put this here??????
+//	}
 }

@@ -13,15 +13,23 @@
 	"ChargeMeter"
 	{	
 		"xpos"					"45"
-		"ypos"					"10"
+		"ypos"					"20"
 		"zpos"					"2"
 		
 		"wide"					"30"
-		"tall"					"2"				
+		"tall"					"2"		
 		
-		"bgcolor_override"		"meterbg"
-	}				
+		"fgcolor_override"		"colorwhite"
 
+		"bgcolor_override"		"meterbg"
+	}	
+	
+	"ItemEffectMeterLabel"
+	{
+		"visible"				"1"
+		"enabled"				"1"
+	}
+	
 	"PipesPresentPanel"
 	{
 		"xpos"			"7"

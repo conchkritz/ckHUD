@@ -14,17 +14,19 @@
 		
 		"wide"			"45"
 		"tall"			"21"
+		
+		"scaleImage"		"1"
 
-		"image"			"../hud/color_panel_brown"
-		"teambg_1"		"../hud/objectives_timepanel_blue_bg"
-		"teambg_2"		"../hud/objectives_timepanel_red_bg"
-		"teambg_3"		"../hud/objectives_timepanel_blue_bg"
+		"image"				"../hud/color_panel_brown"
+		"teambg_1"			"../hud/color_panel_brown"
+		"teambg_2"			"../hud/color_panel_red"
+		"teambg_3"			"../hud/color_panel_blu"
 		
-		"src_corner_height"		"2"
-		"src_corner_width"		"2"
+		"src_corner_height"		"25"
+		"src_corner_width"		"25"
 		
-		"draw_corner_width"		"1"
-		"draw_corner_height" 	"1"			
+		"draw_corner_width"		"4"
+		"draw_corner_height" 	"4"			
 	}
 	
 	"IconBG"
@@ -57,7 +59,22 @@
 		"enabled"				"1"
 		// "drawcolor"			"200 200 0"
 		"image"			"../hud/leaderboard_streak"
-		//"image"			"../hud/leaderboard_streak"
+		"scaleImage"	"1"
+	}
+	
+	"IconShadow"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"IconShadow"
+		"xpos"			"1"
+		"ypos"			"2"
+		"zpos"			"1"
+		"wide"			"22"
+		"tall"			"23"
+		"visible"		"1"
+		"enabled"				"1"
+		"drawcolor"			"46 43 42 255"
+		"image"			"../hud/leaderboard_streak"
 		"scaleImage"	"1"
 	}
 	
@@ -73,14 +90,14 @@
 	
 	"ItemEffectMeterCount"
 	{
-		"xpos"					"15"
+		"xpos"					"13"
 		"ypos"					"5"
 		"zpos"					"2"
 		
 		"wide"					"40"
 		"tall"					"24"	
 		
-		"font"					"hudfont14"
+		"font"					"hudfont14shadow"
 		"fgcolor"				"colorwhite"
 	}
 }

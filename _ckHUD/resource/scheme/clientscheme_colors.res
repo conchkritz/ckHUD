@@ -1,6 +1,6 @@
 Scheme
 {
-	Colors
+	Colors // this needs optimizing
 	{
 		//---------------------------------------------
 		// CUSTOM COLORS
@@ -45,6 +45,7 @@ Scheme
 		"stickyiconshadow"		"46 43 42 255"
 		"sticky"					"236 226 216 255"
 		"stickyshadow"			"46 43 42 255"
+		"stickymeterfg"			"236 226 216 255"
 		
 		// RESERVE
 		"ammo"					"236 226 216 255" // default ammo color
@@ -113,6 +114,9 @@ Scheme
 		"colorpanelbrown"		"51 48 46 200"
 		"colorpanelblue"		"79 117 143 200"
 		"colorpanelbrown"		"189 58 60 200"
+
+
+		"TanLightest"				"236 226 216 255"
 
 		//---------------------------------------------
 		// MODDED DEFAULT COLORS

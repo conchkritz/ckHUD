@@ -20,6 +20,10 @@
 		
 		"killstreak_width"	"15"
 		"killstreak_image_width" "15"
+		
+		"if_mvm"
+		{
+		}
 	}
 	
 	"BlueScoreBG"
@@ -1726,7 +1730,7 @@
 	{
 		"ControlName"		"CTFHudMannVsMachineScoreboard"
 		"fieldName"			"MvMScoreboard"
-		"xpos"				"0"
+		"xpos"				"20"
 		"ypos"				"0"
 		"zpos"				"10"
 		"wide"				"f0"

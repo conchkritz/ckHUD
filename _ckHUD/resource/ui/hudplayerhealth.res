@@ -77,24 +77,20 @@
 		"pin_to_sibling"	"PlayerStatusHealthValue"
 	}
 	
-	"PlayerStatusMaxHealthValueBG" // might put this back where the mvm cash is located
-	{
-		"xpos"			"9999"
-	}
-	
 	"PlayerStatusMaxHealthValue"
 	{
-		"xpos"			"37"
-		"ypos"			"43"
-		"zpos"			"6"
+		"xpos"			"65"
+		"ypos"			"38"
+		"zpos"			"4"
 		
-		"wide"			"35"
-		"tall"			"35"
+		"wide"			"150"
+		"tall"			"50"
 
-		"font"			"hudfont14sec"
-		"fgcolor"		"colorwhite"
-		
 		"visible"		"0"
+		
+		"textAlignment"	"center"	
+		"font"			"hudfont12sec"
+		"fgcolor_override"		"TanDarkOld"
 	}
 	
 	"TeamIndCross1"

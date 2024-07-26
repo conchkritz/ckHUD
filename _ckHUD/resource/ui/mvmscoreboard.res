@@ -2,8 +2,8 @@
 {		
 	"WaveStatusPanel"
 	{
+		"ypos"				"-2"
 	}
-	
 	"PopFileLabel"
 	{
 		"font"			"hudfont10sec"

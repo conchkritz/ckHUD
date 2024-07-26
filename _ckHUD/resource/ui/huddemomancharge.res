@@ -9,7 +9,7 @@
 		"wide"					"120"
 		"tall"					"8"	
 		
-		"fgcolor_override"		"colorwhite"
+		"fgcolor_override"		"stickymeterfg"
 		"bgcolor_override"		"meterbg"
 	}
 	

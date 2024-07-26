@@ -2,13 +2,13 @@
 {
 	HudItemEffectMeter
 	{
-		"xpos"			"rs0.5"
-		"ypos"			"rs0.75"
+		"xpos"			"cs2.155"
+		"ypos"			"cs2.2"
 		"wide"			"100"
 		"tall"			"55"
 	}
 	
-	"ItemEffectMeterBG"
+	"ItemEffectMeterBG"  // it looks dumb but my adhd brain forgets i have canteens to use so im keeping it there
 	{
 		"xpos"			"2"
 		"ypos"			"2"
@@ -16,17 +16,19 @@
 		
 		"wide"			"45"
 		"tall"			"21"
+		
+		"scaleImage"		"1"
 
-		"image"			"../hud/color_panel_brown"
-		"teambg_1"		"../hud/objectives_timepanel_blue_bg"
-		"teambg_2"		"../hud/objectives_timepanel_red_bg"
-		"teambg_3"		"../hud/objectives_timepanel_blue_bg"
+		"image"				"../hud/color_panel_brown"
+		"teambg_1"			"../hud/color_panel_brown"
+		"teambg_2"			"../hud/color_panel_red"
+		"teambg_3"			"../hud/color_panel_blu"
 		
-		"src_corner_height"		"2"
-		"src_corner_width"		"2"
+		"src_corner_height"		"25"
+		"src_corner_width"		"25"
 		
-		"draw_corner_width"		"1"
-		"draw_corner_height" 	"1"			
+		"draw_corner_width"		"4"
+		"draw_corner_height" 	"4"				
 	}
 	
 	"ItemEffectIcon"
@@ -68,14 +70,14 @@
 	
 	"ItemEffectMeterCount"
 	{
-		"xpos"					"15"
+		"xpos"					"13"
 		"ypos"					"5"
 		"zpos"					"2"
 		
 		"wide"					"40"
 		"tall"					"23"	
 		
-		"font"					"hudfont14"
-		"fgcolor"				"colorwhite"
+		"font"					"hudfont14shadow"
+		"fgcolor"				"colorwhite" // TanLightest
 	}
 }

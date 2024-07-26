@@ -24,4 +24,7 @@
 		}
 	}
 	
+	"WaveLossPanel"  // hudpvewinpanel?!?!?!?
+	{
+	}
 }

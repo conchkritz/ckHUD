@@ -68,7 +68,9 @@
 		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"bgcolor_override"		"meterbg" // meterbg
+		
+		"fgcolor_override"		"colorwhite"
+		"bgcolor_override"		"meterbg"
 	}	
 
 	"ItemEffectMeterTint"
