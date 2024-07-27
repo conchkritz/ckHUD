@@ -35,7 +35,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		"hudfont10sec"
+		"hudfont8sec"
 		{
 			"1"
 			{
@@ -284,16 +284,16 @@ Scheme
 // 		===========================================
 // 		vernada
 
-		Verdana10
-		{
-			"1"
-			{
-				"name"		"Verdana"
-				"tall"			"10"
-				"weight"		"700"
-				"antialias" 	"1"
-			}
-		}		
+//		Verdana10 // probably unused
+//		{
+//			"1"
+//			{
+//				"name"		"Verdana"
+//				"tall"			"10"
+//				"weight"		"700"
+//				"antialias" 	"1"
+//			}
+//		}		
 		
 // 		===========================================
 // 		caption
@@ -382,7 +382,7 @@ Scheme
 			}
 		}
 		
-		// default editied
+		// default fonts changed to tf2 secondary
 		"Default"
 		{
 			"1"

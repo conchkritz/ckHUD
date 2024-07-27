@@ -5,7 +5,7 @@ Scheme
 // 		===========================================
 // 		custom borders
 
-		WhiteBorder 
+		WhiteBorder // used 1
 		{
 			"inset" "0 0 0 0"
 			Left
@@ -102,7 +102,7 @@ Scheme
 			}
 		}
 
-		WhiteBorderThin
+		WhiteBorderThin // used 2
 		{
 			"inset" "0 0 0 0"
 			Left
@@ -159,7 +159,7 @@ Scheme
 			}
 		}
 
-		TanDarkBorder 
+		TanDarkBorder // used 1
 		{
 			"inset" "0 0 0 0"
 			Left
@@ -431,62 +431,6 @@ Scheme
 				}
 			}
 		}
-		ScoreboardHeader 
-		{
-			"inset" "0 0 0 0"
-			Left
-			{
-				"1"
-				{
-					"color" "colorwhite"
-					"offset" "0 0"
-				}
-				"2"
-				{
-					"color" "colorwhite"
-					"offset" "-1 0"
-				}
-			}
-			Right
-			{
-				"1"
-				{
-					"color" "colorwhite"
-					"offset" "0 0"
-				}
-				"2"
-				{
-					"color" "colorwhite"
-					"offset" "-1 0"
-				}
-			}
-			Top
-			{
-				"1"
-				{
-					"color" "colorwhite"
-					"offset" "0 0"
-				}
-				"2"
-				{
-					"color" "colorwhite"
-					"offset" "-1 0"
-				}
-			}
-			Bottom
-			{
-				"1"
-				{
-					"color" "colorwhite"
-					"offset" "0 0"
-				}
-				"2"
-				{
-					"color" "colorwhite"
-					"offset" "-1 0"
-				}
-			}
-		}
 		EngiBorder 
 		{
 			"inset" "0 0 0 0"
@@ -613,17 +557,17 @@ Scheme
 			"draw_corner_width"		"3"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"3"	
 		}
-		MainMenuBGBorderInner
-		{
-			"bordertype"			"scalable_image"
-			"backgroundtype"		"2"
-			
-			"image"					"button_central_depressed"
-			"src_corner_height"		"25"				// pixels inside the image
-			"src_corner_width"		"25"
-			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"0"	
-		}
+//		MainMenuBGBorderInner // i think we are fine if i delete this
+//		{
+//			"bordertype"			"scalable_image"
+//			"backgroundtype"		"2"
+//			
+//			"image"					"button_central_depressed"
+//			"src_corner_height"		"25"				// pixels inside the image
+//			"src_corner_width"		"25"
+//			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+//			"draw_corner_height" 	"0"	
+//		}
 	
 		MainMenuButtonDefault
 		{

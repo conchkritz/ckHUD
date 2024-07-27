@@ -189,8 +189,8 @@
 	
     "DisguiseStatus"
     {
-        "xpos"                                                      "160"
-        "ypos"                                                      "r73"
+        "xpos"                                                      "166"
+        "ypos"                                                      "r75"
         "zpos"                                                      "5"
 		
         "wide"                                                      "250"

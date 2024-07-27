@@ -8,13 +8,13 @@ Scheme
 	
 		// GENERAL
 		"colorwhite"			"235 226 202 255"
-		"colordullwhite"		"200 200 200 255"
-		"colordarkwhite"		"100 100 100 255"
-		"colorlightgray"		"70 70 70 255"
-		"colorgray"				"50 50 50 255"
-		"colordarkgray"			"40 40 40 255"
+		"colordullwhite"		"200 200 200 255" // this needs changing
+		"colordarkwhite"		"100 100 100 255" // this needs changing
+//		"colorlightgray"		"70 70 70 255"
+//		"colorgray"				"50 50 50 255"
+//		"colordarkgray"			"40 40 40 255"
 		"colorblack"			"46 43 42 255"
-		"colorblackalt"			"46 43 42 255" // eve hud?
+		"colorblackalt"			"46 43 42 255" // eve hud? // delete and replace with colorblack
 		"colortransparentgray"	"0 0 0 100"
 
 		// TEAMS
@@ -93,7 +93,7 @@ Scheme
 		"pipboydarker"			"0 14 0 255"
 		"pipboyoutline"			"0 130 1 255"
 		
-		"panelbrown"			"46 43 42 150" // pretty damn close to the tfthinlineborder
+		"panelbrown"			"46 43 42 150" // obosolete due to colorpanel colors, replace soon
 
 		// MVM CURRENCY
 		"currencybad"			"210 55 55 255"
@@ -116,7 +116,7 @@ Scheme
 		"colorpanelbrown"		"189 58 60 200"
 
 
-		"TanLightest"				"236 226 216 255"
+		"TanLightest"				"236 226 216 255" // supposed to be used for killstreak, will change soon
 
 		//---------------------------------------------
 		// MODDED DEFAULT COLORS

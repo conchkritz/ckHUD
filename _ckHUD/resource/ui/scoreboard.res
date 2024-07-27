@@ -29,7 +29,7 @@
 	"BlueScoreBG"
 	{
 		"xpos"			"-4"
-		"ypos"			"36"
+		"ypos"			"35"
 		
 		"wide"			"327"
 		"tall"			"65"
@@ -60,7 +60,7 @@
 	"RedScoreBG"
 	{
 		"xpos"			"316"
-		"ypos"			"36"
+		"ypos"			"35"
 		
 		"wide"			"327"
 		"tall"			"65"
@@ -90,14 +90,26 @@
 	}
 	"MainBG"
 	{
+		"controlname"	"CTFImagePanel"
+		
 		"xpos"			"0"
 		"ypos"			"80"
 		"zpos"			"-1"
 		
 		"wide"			"640"
 		"tall"			"292"
+		
+		"border"		"no"
 
-		"border"		"TFThinLineBorder"
+		"image"				"../hud/color_panel_brown"
+		
+		"scaleimage"		"1"
+		
+		"src_corner_height"		"25"
+		"src_corner_width"		"25"
+		
+		"draw_corner_width"		"4"
+		"draw_corner_height" 	"4"		
 		
 		if_mvm
 		{
@@ -508,7 +520,7 @@
 	
 	"ShadedBar" //statbg
 	{
-		"ControlName"		"ImagePanel"
+		"ControlName"		"CTFImagePanel"
 		"fieldName"		"ShadedBar"
 		"xpos"			"70"
 		"ypos"			"372"
@@ -523,7 +535,15 @@
 		"fillcolor"		"0 0 0 0"
 		"PaintBackgroundType"	"0"
 		
-		"border"		"TFThinLineBorder"
+		"image"				"../hud/color_panel_brown"
+		
+		"scaleimage"		"1"
+		
+		"src_corner_height"		"25"
+		"src_corner_width"		"25"
+		
+		"draw_corner_width"		"4"
+		"draw_corner_height" 	"4"		
 		
 		if_mvm
 		{
