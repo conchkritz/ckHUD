@@ -1,6 +1,6 @@
 "Resource/UI/HudObjectiveFlagPanel.res"
 {	
-	"LeftSideBG"
+	"LeftSideBG" // leftover
 	{
 		"xpos"			"c-105"
 		"ypos"			"r36"
@@ -8,9 +8,11 @@
 		
 		"wide"			"210"
 		"tall"			"45"
+		
+		"visible"		"0"
 	}
 		
-	"RightSideBG"
+	"RightSideBG" // leftover
 	{
 		"xpos"			"c-105"
 		"ypos"			"r36"
@@ -18,8 +20,46 @@
 		
 		"wide"			"210"
 		"tall"			"45"
-	}
 		
+		"visible"		"0"
+	}
+	
+	"combinedbg"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"combinedbg"
+		
+		"xpos"			"c-110"
+		"ypos"			"r36"
+		"zpos"			"1"
+		
+		"wide"			"220"
+		"tall"			"45"
+		
+		"Image"			"../vgui/replay/thumbnails/ctf/flagpanelbg_transparent"
+		"scaleimage"	"1"
+		
+		"if_hybrid"
+		{
+			"visible"	"0"
+		}
+		
+		"if_mvm"
+		{
+			"visible"	"0"
+		}
+		
+		"if_specialdelivery"
+		{
+			"visible"	"0"
+		}
+
+		"if_no_flags"
+		{
+			"visible"	"0"
+		}
+	}
+	
 	"OutlineBG"
 	{
 		"xpos"			"9999"
