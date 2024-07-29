@@ -217,4 +217,22 @@
 		"enabled"		"1"
 		"image"			"../vgui/replay/thumbnails/ctf/flagpanelbg_transparent"
 	}
+	"cart_home_square_blue_opaque"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"BTCross"
+		"xpos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../vgui/replay/thumbnails/pl/cart_home_square_blue_opaque"
+	}
+	"cart_home_square_red_opaque"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"BTCross"
+		"xpos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../vgui/replay/thumbnails/pl/cart_home_square_red_opaque"
+	}
 }
