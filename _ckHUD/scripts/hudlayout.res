@@ -268,7 +268,7 @@
 	
 	HudDeathNotice // killfeed
 	{
-		"ypos"	 "24"
+		"ypos"	 "25"
 		
 		"TextFont"		"hudfont8"
 		"MaxDeathNotices" "4"
@@ -278,7 +278,7 @@
 		"IconColor"		"colorwhite"
 		"LocalPlayerColor"	"colorblack"
 
-		"BaseBackgroundColor"	"panelbrown"
+		"BaseBackgroundColor"	"colorpanelbrown"
 		"LocalBackgroundColor"	"colorwhite" // dull is easier on the eyes but idk
 	}
 	

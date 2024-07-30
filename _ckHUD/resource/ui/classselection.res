@@ -781,11 +781,11 @@
 	{
 		"ControlName"			"CExImageButton"
 		"fieldName"			"EditLoadoutButton"
-		"xpos"				"-65"
+		"xpos"				"-64"
 		"ypos"				"-15"
 		"zpos"				"10"
 		
-		"wide"				"44"
+		"wide"				"47"
 		"tall"				"47"
 
 		"labelText"			"&E"
@@ -805,17 +805,23 @@
 		"image_drawcolor"		"200 200 200 255"
 		"image_armedcolor"		"255 255 255 255"
 		"image_selectedcolor"	"255 255 255 255"
-		"defaultbgcolor_override"	"panelbrown"
-		"armedbgcolor_override"		"145 73 59 150"
 		
+		"defaultbgcolor_override"	"51 48 46 0"
+		"armedbgcolor_override"		"145 73 59 0"
 		
+		"border_default"			"tfthinlineborder"
+
 		"pin_to_sibling"	"spy"
 		
+		"textinsetx"		"10"
+		
+		"textinsety"		"-2"
+
 		"SubImage"
 		{
 			"ControlName"		"ImagePanel"
 			"fieldName"		"SubImage"
-			"xpos"			"7"
+			"xpos"			"9"
 			"ypos"			"10"
 			"zpos"			"7"
 			"wide"			"30"

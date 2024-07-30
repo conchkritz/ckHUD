@@ -120,7 +120,23 @@ event HudMedicCharged
 	Animate	ChargeMeter 		FgColor		"ubercharge1"			Linear 0.0 0.35
 	Animate	ChargeMeter 		FgColor		"ubercharge2"			Spline 0.35 0.4
 	Animate	ChargeMeter 		FgColor		"ubercharge2"			Linear 0.4 0.42
-
+	
+	Animate	ChargeMeter1 		FgColor		"ubercharge1"			Linear 0.0 0.35
+	Animate	ChargeMeter1 		FgColor		"ubercharge2"			Spline 0.35 0.4
+	Animate	ChargeMeter1 		FgColor		"ubercharge2"			Linear 0.4 0.42
+	
+	Animate	ChargeMeter2 		FgColor		"ubercharge1"			Linear 0.0 0.35
+	Animate	ChargeMeter2 		FgColor		"ubercharge2"			Spline 0.35 0.4
+	Animate	ChargeMeter2 		FgColor		"ubercharge2"			Linear 0.4 0.42
+	
+	Animate	ChargeMeter3 		FgColor		"ubercharge1"			Linear 0.0 0.35
+	Animate	ChargeMeter3 		FgColor		"ubercharge2"			Spline 0.35 0.4
+	Animate	ChargeMeter3 		FgColor		"ubercharge2"			Linear 0.4 0.42
+	
+	Animate	ChargeMeter4 		FgColor		"ubercharge1"			Linear 0.0 0.35
+	Animate	ChargeMeter4 		FgColor		"ubercharge2"			Spline 0.35 0.4
+	Animate	ChargeMeter4 		FgColor		"ubercharge2"			Linear 0.4 0.42
+	
 	Animate	ChargeColor_25 		BgColor		"ubercharge2"			Linear 0.0 0.35
 	Animate	ChargeColor_25 		BgColor		"meter1"				Spline 0.35 0.4
 	Animate	ChargeColor_25 		FgColor		"meter1"				Linear 0.4 0.42
@@ -151,8 +167,8 @@ event HudMedicChargedStop
 	StopEvent HudMedicCharged 0.0
 	StopEvent HudMedicChargedLoop 0.0
 	
-	Animate	ChargeLabel 	FgColor		"colorwhite"			Linear 0 0.1
-	Animate	ChargeMeter 	FgColor		"colorwhite"			Linear 0 0.1
+	Animate	ChargeLabel 	FgColor		"uberchargebase"			Linear 0 0.1
+	Animate	ChargeMeter 	FgColor		"uberchargebase"			Linear 0 0.1
 
 	Animate	ChargeColor_25 	BgColor		"meter1alt"				Linear 0 0.1
 	Animate	ChargeColor_50 	BgColor		"meter2alt"				Linear 0 0.1
@@ -229,7 +245,7 @@ event ActiveTimerHighlight
 event ActiveTimerDim
 {
 	// Slow fade out
-	Animate TimePanelValue FgColor	"colordarkwhite"		Linear 0.0 0.4
+	Animate TimePanelValue FgColor	"tandarkold"		Linear 0.0 0.4
 }
 
 //===========================================
@@ -318,26 +334,6 @@ event QuestItem_Options_Flash
 	Animate OptionsButton FgColor TanLight		Linear 0.5	 0.1
 }
 
-//===========================================
-// setup fixes
-
-
-//===========================================
-// casual crap // i honestly dont remember doing this???
-
-event CasualCategory_Selected
-{
-	Animate Shade		BgColor 	"0 0 0 0" 		Deaccel 0 0.2
-	Animate Title		FgColor 	colorwhite 		Deaccel 0 0.2
-	Animate DescLabel	FgColor 	colorwhite		Deaccel 0 0.2
-}
-
-event CasualCategory_NotSelected
-{
-	Animate Shade 		BgColor 	"0 0 0 200" 	Deaccel 0 0.2
-	Animate Title		FgColor 	colordullwhite 	Deaccel 0 0.2
-	Animate DescLabel	FgColor 	colordullwhite 	Deaccel 0 0.2
-}
 
 //===========================================
 // motd

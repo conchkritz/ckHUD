@@ -235,4 +235,58 @@
 		"enabled"		"1"
 		"image"			"../vgui/replay/thumbnails/pl/cart_home_square_red_opaque"
 	}
+	"fatlineborder"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"BTCross"
+		"xpos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../vgui/replay/thumbnails/replay/fatlineborder"
+	}
+	"fatlineborder_red"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"BTCross"
+		"xpos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../vgui/replay/thumbnails/replay/fatlineborder_red"
+	}
+	"thinlineborder"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"BTCross"
+		"xpos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../vgui/replay/thumbnails/replay/thinlineborder"
+	}
+	"icon_obj_stopwatch_blu"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"BTCross"
+		"xpos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../vgui/replay/thumbnails/sprites/obj_icons/icon_obj_stopwatch_blu"
+	}
+	"icon_obj_stopwatch_neutral"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"BTCross"
+		"xpos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../vgui/replay/thumbnails/sprites/obj_icons/icon_obj_stopwatch_neutral"
+	}
+	"icon_obj_stopwatch_red"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"BTCross"
+		"xpos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../vgui/replay/thumbnails/sprites/obj_icons/icon_obj_stopwatch_red"
+	}
 }

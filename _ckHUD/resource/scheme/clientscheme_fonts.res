@@ -35,7 +35,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		"hudfont8sec"
+		"hudfont10sec"
 		{
 			"1"
 			{
@@ -95,15 +95,6 @@ Scheme
 			{
 				"name" "TF2 Secondary"
 				"tall" "30"
-				"antialias" "1"
-			}
-		}
-		"hudfont50sec"
-		{
-			"1"
-			{
-				"name" "TF2 Secondary"
-				"tall" "50"
 				"antialias" "1"
 			}
 		}
@@ -284,16 +275,29 @@ Scheme
 // 		===========================================
 // 		vernada
 
-//		Verdana10 // probably unused
-//		{
-//			"1"
-//			{
-//				"name"		"Verdana"
-//				"tall"			"10"
-//				"weight"		"700"
-//				"antialias" 	"1"
-//			}
-//		}		
+		Verdana10
+		{
+			"1"
+			{
+				"name"		"Verdana"
+				"tall"			"10"
+				"weight"		"700"
+				"antialias" 	"1"
+			}
+		}		
+// 		===========================================
+// 		misc
+
+		"DamageNumber" 
+		{
+			"1"
+			{
+				"name" "TF2 Secondary"
+				"tall" "30"
+				"antialias" "1"
+				"outline"	"1"
+			}
+		}
 		
 // 		===========================================
 // 		caption
@@ -382,7 +386,7 @@ Scheme
 			}
 		}
 		
-		// default fonts changed to tf2 secondary
+		// default editied
 		"Default"
 		{
 			"1"

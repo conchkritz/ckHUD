@@ -1,12 +1,8 @@
-// credit to mastercoms
-// fixes lingering health/ammo/uber colors when killed
-
-event HudSnapShotReminderIn
+event CompetitiveGame_RestoreChatWindow
 {
-    RunEvent DefaultAnimHudSnapShotReminderIn 0.0
-
-    RunEvent HudHealthDyingPulseStop 0.0
-    RunEvent HudHealthBonusPulseStop 0.0
-    RunEvent HudLowAmmoPulseStop 0.0
-    RunEvent HudMedicChargedStop 0.0
+    //Fix stuck animations
+    RunEvent HudHealthDyingPulseStop 0.1
+    RunEvent HudHealthBonusPulseStop 0.1
+    RunEvent HudLowAmmoPulseStop 0.1
+    RunEvent HudMedicChargedStop 0.1
 }

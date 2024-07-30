@@ -14,6 +14,8 @@
 
 		"modelpanels_kv"
 		{		
+			"text_xpos"		"0"
+
 			"itemmodelpanel"
 			{
 				"inventory_image_type" 	"1"
@@ -94,8 +96,12 @@
 		}
 	}	
 	
-	"mouseoveritempanel"
+	"mouseoveritempanel" // budhud fix
 	{
+	    "text_ypos"                                                 "15"
+        "text_center_x"                                             "1"
+        "model_center_x"                                            "1"
+		
 		"itemmodelpanel"
 		{
 			"inventory_image_type" "1"

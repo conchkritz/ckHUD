@@ -19,7 +19,7 @@ Scheme
 		
 		CheckButton.TextColor			"colorwhite"
 		CheckButton.SelectedTextColor	"colorwhite"
-		CheckButton.BgColor				"colorblackalt"
+		CheckButton.BgColor				"colorblack"
 		CheckButton.Border1  			"colorwhite" 		// the left checkbutton border
 		CheckButton.Border2  			"colorwhite"		// the right checkbutton border
 		CheckButton.Check				"colorwhite"		// color of the check itself
@@ -28,6 +28,6 @@ Scheme
 		// CHudMenu
 		"ItemColor"		"colorwhite"	// default 255 167 42 255
 		"MenuColor"		"colorwhite"
-		"MenuBoxBg"		"panelbrown"
+		"MenuBoxBg"		"colorpanelbrown"
 	}
 }

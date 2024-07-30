@@ -40,7 +40,22 @@
 
 	"CarryingWeapon"
 	{
-		"xpos"					"c57"
-		"ypos"					"r38"
+		"xpos"					"cs-0.62"
+		"ypos"					"r33"
+		
+		"carryingbackground"
+		{
+			"image"					"../vgui/replay/thumbnails/hud/color_panel_brown"
+			"scaleImage"			"1"
+			"teambg_1"				"../vgui/replay/thumbnails/hud/color_panel_brown"
+			"teambg_2"				"../vgui/replay/thumbnails/hud/color_panel_red"
+			"teambg_3"				"../vgui/replay/thumbnails/hud/color_panel_blu"
+			
+			"src_corner_height"		"25"
+			"src_corner_width"		"25"
+			
+			"draw_corner_width"		"3"
+			"draw_corner_height" 	"3"	
+		}
 	}
 }

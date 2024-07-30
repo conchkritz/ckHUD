@@ -16,15 +16,19 @@
 
 		"NameLabel"
 		{
-			"wide"			"f10"
+			"wide"			"153"
 			
-			"ypos"			"35"
+			"tall"			"38"
+
+			"ypos"			"37"
 
 			"xpos"			"cs-0.2"
 
 			"fgcolor_override"	"colorwhite"
 			
 			"font"			"hudfont20"
+			
+			"wrap"			"1"
 			
 			if_mini
 			{
@@ -44,7 +48,7 @@
 		{
 			"fgcolor_override"	"colorwhite"
 			
-			"xpos"			"cs-0.197" // cs-0.4
+			"xpos"			"99999" // cs-0.197
 			
 			"ypos"			"53"
 

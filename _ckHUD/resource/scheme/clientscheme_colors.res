@@ -1,6 +1,6 @@
 Scheme
 {
-	Colors // this needs optimizing
+	Colors // this needs optimizing, please do not even attempt to touch!!!
 	{
 		//---------------------------------------------
 		// CUSTOM COLORS
@@ -8,8 +8,8 @@ Scheme
 	
 		// GENERAL
 		"colorwhite"			"235 226 202 255"
-		"colordullwhite"		"200 200 200 255" // this needs changing
-		"colordarkwhite"		"100 100 100 255" // this needs changing
+//		"colordullwhite"		"200 200 200 255" // this needs changing
+		"colordarkwhite"		"117 107 94 255" // this needs changing
 //		"colorlightgray"		"70 70 70 255"
 //		"colorgray"				"50 50 50 255"
 //		"colordarkgray"			"40 40 40 255"
@@ -79,7 +79,7 @@ Scheme
 		"meter3alt"				"160 160 160 255"
 		"meter4alt"				"190 190 190 255"
 		"meterbg"				"200 200 200 50" // used to be colortransparentgray but it was too dark
-		"taunt"					"207 115 54 255" // unused?
+		"taunt"					"207 115 54 255" // unused? maybe from lion hud holdover??
 		
 		
 		// ENGINEER PDAS
@@ -93,7 +93,7 @@ Scheme
 		"pipboydarker"			"0 14 0 255"
 		"pipboyoutline"			"0 130 1 255"
 		
-		"panelbrown"			"46 43 42 150" // obosolete due to colorpanel colors, replace soon
+//		"panelbrown"			"46 43 42 150" // obosolete due to colorpanel colors, replace soon
 
 		// MVM CURRENCY
 		"currencybad"			"210 55 55 255"
@@ -111,7 +111,7 @@ Scheme
 		"colorpanelbrownopaque"		"189 58 60 255"
 
 		// these i guess the alpha value
-		"colorpanelbrown"		"51 48 46 200"
+		"colorpanelbrown"		"51 48 46 225"
 		"colorpanelblue"		"79 117 143 200"
 		"colorpanelbrown"		"189 58 60 200"
 

@@ -37,7 +37,7 @@
 			
 			"fgcolor"	"colorwhite"
 			"defaultFgColor_override" "colorwhite"
-			"armedFgColor_override" "colordullwhite"
+			"armedFgColor_override" "235 226 202 255"
 			"selectedFgColor_override"	"orange"
 
 			"paintbackground"	"1"

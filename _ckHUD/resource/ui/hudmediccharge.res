@@ -184,7 +184,7 @@
 		"wide"					"120"
 		"tall"					"8"		
 		
-		"fgcolor_override"		"colorwhite"
+		"fgcolor_override"		"uberchargebase"
 		"bgcolor_override"		"meterbg"
 	}	
 	
@@ -197,7 +197,7 @@
 		"wide"					"30"
 		"tall"					"8"		
 
-		"fgcolor_override"		"colorwhite"
+		"fgcolor_override"		"uberchargebase"
 		"bgcolor_override"		"meterbg"
 	}
 
@@ -210,7 +210,7 @@
 		"wide"			"30"
 		"tall"			"8"		
 		
-		"fgcolor_override"		"colorwhite"
+		"fgcolor_override"		"uberchargebase"
 		"bgcolor_override"		"meterbg"
 		
 		"pin_to_sibling" "ChargeMeter1"	
@@ -225,7 +225,7 @@
 		"wide"			"30"
 		"tall"			"8"		
 		
-		"fgcolor_override"		"colorwhite"
+		"fgcolor_override"		"uberchargebase"
 		"bgcolor_override"		"meterbg"
 		
 		"pin_to_sibling" "ChargeMeter2"
@@ -240,7 +240,7 @@
 		"wide"			"31"
 		"tall"			"8"		
 		
-		"fgcolor_override"		"colorwhite"
+		"fgcolor_override"		"uberchargebase"
 		"bgcolor_override"		"meterbg"
 		
 		"pin_to_sibling" "ChargeMeter3"
