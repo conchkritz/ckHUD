@@ -108,11 +108,11 @@
 		"visible"			"1"
 		"enabled"			"1"
 
-		"image"				"../hud/color_panel_brown"
+		"image"				"../hud/color_panel_brown_opaque"
 		"scaleImage"		"1"
-		"teambg_1"			"../hud/color_panel_brown"
-		"teambg_2"			"../hud/color_panel_red"
-		"teambg_3"			"../hud/color_panel_blu"
+		"teambg_1"			"../hud/color_panel_brown_opaque"
+		"teambg_2"			"../hud/color_panel_red_opaque"
+		"teambg_3"			"../hud/color_panel_blu_opaque"
 		
 		"src_corner_height"			"40"		// pixels inside the image
 		"src_corner_width"			"40"			
@@ -137,11 +137,11 @@
 		"visible"			"1"
 		"enabled"			"1"
 
-		"image"				"../hud/color_panel_brown"
+		"image"				"../hud/color_panel_brown_opaque"
 		"scaleImage"		"1"
-		"teambg_1"			"../hud/color_panel_brown"
-		"teambg_2"			"../hud/color_panel_red"
-		"teambg_3"			"../hud/color_panel_blu"
+		"teambg_1"			"../hud/color_panel_brown_opaque"
+		"teambg_2"			"../hud/color_panel_red_opaque"
+		"teambg_3"			"../hud/color_panel_blu_opaque"
 		
 		"src_corner_height"			"40"				// pixels inside the image
 		"src_corner_width"			"40"			

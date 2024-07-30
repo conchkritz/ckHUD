@@ -6,30 +6,15 @@
 		{
 			"font"			"hudfont10sec"
 		}
-		
-		"TeamColoredNotBuiltImage"
-		{
-			"image"			"replay/thumbnails/hud/eng_status_area_sentry_disabled"
-			"teambg_1"		"replay/thumbnails/hud/eng_status_area_sentry_disabled"
-			"teambg_2"		"replay/thumbnails/hud/eng_status_area_sentry_disabled"
-			"teambg_3"		"replay/thumbnails/hud/eng_status_area_sentry_disabled"
-		}
 	}
 	
 	"BuiltPanel"
 	{
-		"TeamColoredBuiltImage"
-		{
-			"image"			"replay/thumbnails/hud/eng_status_area_sentry_disabled"
-			"teambg_1"		"replay/thumbnails/hud/eng_status_area_sentry_disabled"
-			"teambg_2"		"replay/thumbnails/hud/eng_status_area_sentry_red"
-			"teambg_3"		"replay/thumbnails/hud/eng_status_area_sentry_blue"
-		}
-		
 		"Health"
 		{
 			"font"			"hudfont10sec"
 			"xpos"			"8"
+			"ypos"			"2"
 		}
 		
 		"BuildingPanel"

@@ -4,7 +4,7 @@
 	{
 		"NotBuiltLabel"
 		{
-			"font"			"hudfont8sec"
+			"font"			"hudfont8sec" // needs smaller font
 		}
 		
 		"TeamColoredNotBuiltImage"
