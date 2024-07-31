@@ -14,7 +14,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		"hudfont56icon"
+		"hudfont56icon" // not 56 but ok
 		{
 			"1"
 			{
@@ -23,6 +23,15 @@ Scheme
 				"antialias" "1"
 			}
 		}		
+		"hudfontsnipericon"
+		{
+			"1"
+			{
+				"name" "TF2 Character Icons"
+				"tall" "52"
+				"antialias" "1"
+			}
+		}	
 // 		===========================================
 // 		secondary
 
@@ -95,6 +104,15 @@ Scheme
 			{
 				"name" "TF2 Secondary"
 				"tall" "30"
+				"antialias" "1"
+			}
+		}
+		"hudfont50sec"
+		{
+			"1"
+			{
+				"name" "TF2 Secondary"
+				"tall" "50"
 				"antialias" "1"
 			}
 		}

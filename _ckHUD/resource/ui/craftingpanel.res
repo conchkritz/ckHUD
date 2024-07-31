@@ -16,7 +16,7 @@
             "armedBgColor_override"                                 "no"
             "depressedBgColor_override"                             "no"
             "defaultFgColor_override"                               "colorwhite"
-//            "armedFgColor_override"                                 "tforange"
+			"armedFgColor_override"                                 "tforange"
 //          "depressedFgColor_override"                             "tforange"
         }
 		

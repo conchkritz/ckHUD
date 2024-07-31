@@ -378,11 +378,15 @@
 	}
 	"ServerTimeLeftValue"
 	{
-		"xpos"			"-62"
+		"xpos"			"-73"
 		"ypos"			"5"
 		"zpos"			"2"
 		
 		"textAlignment"		"west"
+		
+		"font"			"ScoreboardVerySmall"
+		
+		"centerwrap"	"0"
 
 		"pin_to_sibling"	"ServerTimeLeftLabel"
 		
@@ -398,7 +402,7 @@
 		
 		"xpos"			"77"
 		"ypos"			"413"
-
+		
 		if_mvm
 		{
 			"ypos"			"413"

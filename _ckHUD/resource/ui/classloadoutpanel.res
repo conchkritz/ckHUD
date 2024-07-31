@@ -104,13 +104,22 @@
 		"xpos"			"c140"
 		"ypos"			"c-180"
 		"zpos"			"2"
+		
+		"image_drawcolor"	"235 226 202 255"
+		"image_armedcolor"	"235 226 202 255"
+		
+		"SubImage"
+		{
+		}
 	}
 
 	"TauntLoadoutButton"
 	{
 		"xpos"			"c140"
 		"ypos"			"c-154"
-
+		"image_drawcolor"	"235 226 202 255"
+		"image_armedcolor"	"235 226 202 255"
+		
 		"SubImage"
 		{
 			"image"			"replay/thumbnails/icons/ico_reel"
@@ -136,7 +145,7 @@
 		
 		"defaultfgcolor_override"		"0 0 0 0"
 		"armedFgColor_override"			"0 0 0 0"
-		"defaultbgcolor_override"		"colorred"
+		"defaultbgcolor_override"		"colorpanelredopaque"
 		"depressedbgcolor_override"		"colordarkred"
 		"armedbgcolor_override"			"255 92 92 255"
 	}
@@ -160,7 +169,7 @@
 		
 		"defaultfgcolor_override"		"0 0 0 0"
 		"armedFgColor_override"			"0 0 0 0"
-		"defaultbgcolor_override"		"colorblu"
+		"defaultbgcolor_override"		"colorpanelblueopaque"
 		"depressedbgcolor_override"		"colordarkblu"
 		"armedbgcolor_override"			"184 235 255 255"
 	}

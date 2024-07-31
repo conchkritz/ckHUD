@@ -134,7 +134,7 @@
 	"CarriedImage"
 	{
 		"xpos"			"c-25"
-		"ypos"			"r62"
+		"ypos"			"r30"
 		"zpos"			"10"
 		
 		"wide"			"50"
@@ -266,5 +266,11 @@
 			
 			"Image"			"../vgui/replay/thumbnails/hud/objectives_flagpanel_compass_grey_noarrow"				
 		}
+	}
+	
+	"PoisonIcon"
+	{
+		"xpos"			"cs-0.53"
+		"ypos"			"r70"
 	}
 }

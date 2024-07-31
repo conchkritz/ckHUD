@@ -106,14 +106,14 @@ Scheme
 		"TanLightOld"			"235 226 202 255"
 
 		// panel colors, ripped directly from color panel vtfs
-		"colorpanelbrownopaque"		"51 48 46 255"
-		"colorpanelblueopaque"		"79 117 143 255"
-		"colorpanelbrownopaque"		"189 58 60 255"
+		"colorpanelbrownopaque"		"51 48 46 255" // 51 48 46 255
+		"colorpanelblueopaque"		"100 121 138 255" // 79 117 143 255
+		"colorpanelredopaque"		"163 61 62 255" // 189 58 60 255
 
 		// these i guess the alpha value
 		"colorpanelbrown"		"51 48 46 225"
 		"colorpanelblue"		"79 117 143 200"
-		"colorpanelbrown"		"189 58 60 200"
+		"colorpanelred"		"189 58 60 200"
 
 
 		"TanLightest"				"236 226 216 255" // supposed to be used for killstreak, will change soon

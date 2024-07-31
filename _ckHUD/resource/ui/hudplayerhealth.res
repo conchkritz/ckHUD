@@ -81,7 +81,7 @@
 	{
 		"xpos"			"65"
 		"ypos"			"38"
-		"zpos"			"4"
+		"zpos"			"7"
 		
 		"wide"			"150"
 		"tall"			"50"

@@ -120,7 +120,7 @@
 	
 	WinPanel
 	{
-		"ypos"					"265"
+		"ypos"					"262"
 		"zpos"					"100" // temp
 	}
 	

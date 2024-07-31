@@ -72,8 +72,8 @@
 			"tall"			"50"
 			"zpos"			"1"
 
-			"color_portrait_bg_red"			"colorred"
-			"color_portrait_bg_blue"		"colorblu"
+			"color_portrait_bg_red"			"colorpanelredopaque"
+			"color_portrait_bg_blue"		"colorpanelblueopaque"
 			
 			"color_portrait_bg_red_dead"	"colordarkred"
 			"color_portrait_bg_blue_dead"	"colordarkblu"

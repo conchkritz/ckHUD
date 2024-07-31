@@ -114,11 +114,11 @@
 		
 	"ActiveTimerBG"
 	{
-		"ypos"				"11" // change xpos in hudlayout
+		"ypos"				"10" // change xpos in hudlayout
 
 		"wide"				"76"
-		"tall"				"29"
-		
+		"tall"				"31"
+				
 		if_match
 		{
 			"tall"				"0"

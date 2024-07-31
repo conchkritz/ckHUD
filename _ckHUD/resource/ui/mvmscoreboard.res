@@ -20,12 +20,18 @@
 	"DifficultyContainer"
 	{
 		"xpos"			"230"
-		"ypos"			"425"
+		"ypos"			"427"
 		"wide"			"150"
-		"tall"			"24"
+		"tall"			"23"
 		
 		"border"		"tfthinlineborder"
 		
+		"src_corner_height"	"25"				// pixels inside the image
+		"src_corner_width"	"25"
+		
+		"draw_corner_width"	"3"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height"	"3"			
+
 		"DifficultyLabel"
 		{
 			"ypos"			"2"

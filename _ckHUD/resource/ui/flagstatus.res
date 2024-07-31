@@ -42,4 +42,19 @@
 			"visible"	"0"
 		}
 	}
+	
+	"PoisonTimeLabel" // this doesnt want to move
+	{
+		"xpos"			"cs-0.5"
+		"ypos"			"r75"
+		"zpos"			"6"
+		"wide"			"40"
+		"tall"			"20"
+		"visible"		"0"
+		"enabled"		"1"
+		"textAlignment"	"center"	
+		"labelText"		"%redscore%"
+		"font"			"HudFontMediumBold"
+		"fgcolor"		"TanLight"
+	}
 }
