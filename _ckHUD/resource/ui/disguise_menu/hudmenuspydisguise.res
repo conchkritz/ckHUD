@@ -74,6 +74,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabel"
 		"font"			"hudfont16"
+		"xpos"			"35"			// align me to the left edge of the first selection
 		"ypos"			"-1"
 		"zpos"			"3"
 		
@@ -89,11 +90,13 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabelDropshadow"
 		"font"			"hudfont16"
+		
+		"xpos"			"36"			// align me to the left edge of the first selection
 		"ypos"			"0"
 		"zpos"			"2"
 		
-		"wide"			"360"
-		"tall"			"38"
+		"wide"			"361"
+		"tall"			"39"
 
 		"textAlignment"	"Left"
 		"fgcolor"		"colorblackalt"

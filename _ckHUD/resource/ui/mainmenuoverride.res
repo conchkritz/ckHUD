@@ -26,9 +26,8 @@
 		"xpos"			"cs-0.5-46"
 		"ypos"			"cs-0.5-76"
 		
-		"defaultFgColor_override"	"colorwhite"
-		"armedFgColor_override"		"colorwhite"
-		"depressedFgColor_override"	"colorwhite"
+		"image_drawcolor"	"235 226 202 255"
+		"image_armedcolor"	"235 226 202 255"
 	}
 
 	"RankPanel" // close enough

@@ -209,7 +209,7 @@
 	"HudMenuTauntSelection"
 	{
 		"xpos"			"r168"
-		"ypos"			"c-117"
+		"ypos"			"c-116"
 		"zpos"			"4"
 		
 		"wide"			"f0"

@@ -60,15 +60,15 @@
 			"fgcolor"		"stickyicon"
 		}
 		
-		"PipeIconFontShadow"
+		"PipeIconFontShadow" // change wide/tall for more shadow
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"PipeIconFontShadow"
 			"xpos"			"-1"
 			"ypos"			"-1"
 			"zpos"			"0"
-			"wide"			"35"
-			"tall"			"35"
+			"wide"			"36"
+			"tall"			"36"
 			
 			"visible"		"1"
 			"enabled"		"1"
@@ -96,14 +96,14 @@
 			"fgcolor"		"sticky" // does not like fgcolor_override?
 		}
 		
-		"NumPipesLabelDropshadow"
+		"NumPipesLabelDropshadow" // change wide/tall for more shadow
 		{
 			"xpos"			"-1"
 			"ypos"			"-1"
 			"zpos"			"2"
 			
-			"wide"			"35"
-			"tall"			"35"
+			"wide"			"36"
+			"tall"			"36"
 
 			"textAlignment"	"center"
 

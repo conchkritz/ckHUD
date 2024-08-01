@@ -30,11 +30,11 @@
 		"fieldName"		"combinedbg"
 		
 		"xpos"			"c-110"
-		"ypos"			"r36"
+		"ypos"			"r37"
 		"zpos"			"1"
 		
 		"wide"			"220"
-		"tall"			"45"
+		"tall"			"47"
 		
 		"Image"			"../vgui/replay/thumbnails/ctf/flagpanelbg_transparent"
 		"scaleimage"	"1"
@@ -80,14 +80,14 @@
 		"fgcolor"		"colorwhite"
 	}	
 		
-	"BlueScoreShadow"
+	"BlueScoreShadow" // we change wide/tall to make shadow more shadow-ey
 	{
 		"xpos"			"-2"
 		"ypos"			"-2"
 		"zpos"			"7"
 		
-		"wide"			"75"
-		"tall"			"35"
+		"wide"			"76"
+		"tall"			"36"
 
 		"textAlignment"	"center"	
 		
@@ -114,14 +114,14 @@
 
 	}	
 		
-	"RedScoreShadow"
+	"RedScoreShadow" // we change wide/tall to make shadow more shadow-ey
 	{
 		"xpos"			"-2"
 		"ypos"			"-2"
 		"zpos"			"7"
 		
-		"wide"			"75"
-		"tall"			"35"
+		"wide"			"76"
+		"tall"			"36"
 
 		"textAlignment"	"center"	
 		
@@ -155,11 +155,11 @@
 	{
 		"ControlName"	"EditablePanel"
 		"xpos"			"c-50"
-		"ypos"			"r17"
+		"ypos"			"r16"
 		"zpos"			"3"
 		
 		"wide"			"95"
-		"tall"			"17"
+		"tall"			"15"
 
 		
 		"border"		"tffatlineborderopaque"

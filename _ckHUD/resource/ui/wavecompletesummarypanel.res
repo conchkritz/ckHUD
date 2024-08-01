@@ -2,11 +2,16 @@
 {		
 	"Background"
 	{
+		"xpos"			"5"
+
+		"wide"			"240"
+		"tall"			"80"
+		
 		"src_corner_height"	"25"				// pixels inside the image
 		"src_corner_width"	"25"
 	
-		"draw_corner_width"	"0"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"0"	
+		"draw_corner_width"	"3"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"3"	
 	}
 	
 	"WaveCompleteContainer"
@@ -17,8 +22,8 @@
 			"fieldName"		"BackgroundRed"
 			"xpos"			"0"
 			"ypos"			"0"
-			"wide"			"f0"
-			"tall"			"f0"
+			"wide"			"250"
+			"tall"			"35"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
@@ -28,8 +33,8 @@
 			"src_corner_height"	"25"				// pixels inside the image
 			"src_corner_width"	"25"
 		
-			"draw_corner_width"	"0"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"0"	
+			"draw_corner_width"	"5"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"5"	
 		}
 		
 		"WaveCompleteLabelShadow"
@@ -43,6 +48,10 @@
 			"fgcolor_override"	"colorblack"		
 			
 			"pin_to_sibling"	"WaveCompleteLabel"
+			
+			// the background is aparently part of the label????????
+			"PaintBackgroundType" "2"
+			"bgcolor_override"	"no"
 		}
 		
 		"WaveCompleteLabel"
@@ -60,42 +69,42 @@
 	{
 		"CreditCollectedTextLabel"
 		{
-			"font"			"hudfont12"
+			"font"			"hudfont12sec"
 
 			"fgcolor"		"colorwhite"
 		}
 		
 		"CreditCollectedCountLabel"
 		{
-			"font"			"hudfont12"
+			"font"			"hudfont12sec"
 			
 			"fgcolor"		"CreditsGreen"
 		}
 		
 		"CreditMissedTextLabel"
 		{
-			"font"			"hudfont12"
+			"font"			"hudfont12sec"
 			
 			"fgcolor"		"colorwhite"
 		}
 		
 		"CreditMissedCountLabel"
 		{
-			"font"			"hudfont12"
+			"font"			"hudfont12sec"
 			
 			"fgcolor"		"RedSolid"
 		}
 		
 		"CreditBonusTextLabel"
 		{
-			"font"			"hudfont12"
+			"font"			"hudfont12sec"
 			
 			"fgcolor"		"colorwhite"
 		}
 		
 		"CreditBonusCountLabel"
 		{
-			"font"			"hudfont12"
+			"font"			"hudfont12sec"
 			
 			"fgcolor"		"CreditsGreen"
 		}
@@ -105,7 +114,7 @@
 	{
 		"RatingLabel"
 		{
-			"font"			"hudfon14sec"
+			"font"			"hudfon14"
 			
 			"fgcolor"		"colorwhite"
 		}
@@ -130,8 +139,8 @@
 		"src_corner_height"	"25"				// pixels inside the image
 		"src_corner_width"	"25"
 	
-		"draw_corner_width"	"0"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"0"	
+		"draw_corner_width"	"3"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"3"	
 	}
 
 	"RespecContainer"

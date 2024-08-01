@@ -90,7 +90,7 @@
 		"label"			""
 		"command"		"OpenReportPlayerDialog"
 		"OnlyInGame"	"1"
-		"subimage"		"glyph_alert"
+		"subimage"		"../vgui/replay/thumbnails/icons/glyph_report_kleen"
 		"tooltip"		"#MMenu_ReportPlayer"
 	}
 }

@@ -4,12 +4,22 @@
 	{
 		"font"			"hudfont14"
 		"fgcolor"		"colorwhite"
+		
+		"xpos"			"10"
+		"ypos"			"57"
+		"zpos"			"3"
+		"wide"			"90"
 	}	
 	
 	"CurrencyShadow"
 	{
 		"font"			"hudfont14"
 		"fgcolor"		"colorblack"
+		
+		"xpos"			"11"
+		"ypos"			"58"
+		"zpos"			"3"
+		"wide"			"90"
 	}	
 	
 	"WhiteBG"

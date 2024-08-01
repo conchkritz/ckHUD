@@ -38,15 +38,15 @@
 		"fgcolor"		"metalicon"
 	}
 	
-	"EngiIconShadow"	
+	"EngiIconShadow"	// change wide/tall for more shadow
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"EngiIconShadow"
 		"xpos"			"-1"
 		"ypos"			"-1"
 		"zpos"			"2"
-		"wide"			"55"
-		"tall"			"26"
+		"wide"			"56"
+		"tall"			"27"
 		"visible"		"1"
 		"enabled"		"1"
 	
@@ -67,14 +67,14 @@
 		"fgcolor_override" "metal"
 	}
 	
-	"AccountValueShadow"
+	"AccountValueShadow" // change wide/tall for more shadow
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AccountValueShadow"
 		"xpos"			"-1"
 		"ypos"			"-1"
 		"zpos"			"2"
-		"wide"			"56"
+		"wide"			"57"
 		"tall"			"27"
 		"autoResize"	"1"
 		"pinCorner"		"2"

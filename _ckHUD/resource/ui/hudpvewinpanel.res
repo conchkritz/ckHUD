@@ -55,7 +55,6 @@
 			
 			// the background is aparently part of the label????????
 			"PaintBackgroundType" "2"
-			"fgcolor_override"	"colorwhite"		
 			"bgcolor_override"	"no"
 		}
 		

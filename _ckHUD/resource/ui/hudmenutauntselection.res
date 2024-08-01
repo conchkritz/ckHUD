@@ -40,7 +40,7 @@
 	"TitleLabel"
 	{	
 		"xpos"			"46"
-		"ypos"			"34"
+		"ypos"			"38"
 		"zpos"			"3"
 	
 		"font"			"hudfont34"
@@ -49,8 +49,8 @@
 	"TitleLabelDropshadow"
 	{	
 		"font"			"hudfont34"
-		"xpos"			"-2"
-		"ypos"			"-2"
+		"xpos"			"-3"
+		"ypos"			"-3"
 		"zpos"			"3"
 		
 		"font"			"hudfont34"
@@ -67,10 +67,10 @@
 	"CancelLabel"
 	{	
 		"xpos"			"0"
-		"ypos"			"65"
+		"ypos"			"68"
 		"zpos"			"2"
 	
-		"font"			"hudfont12sec"
+		"font"			"hudfont8sec"
 		"textAlignment"	"center"
 	}
 

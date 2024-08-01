@@ -12,25 +12,38 @@
 	}
 	
 	"WaveCountLabel"
-	{
+	{		
+		"xpos"			"200"
+		"ypos"			"4"
+		
 		"font"			"hudfont14"
 		"fgcolor"		"colorwhite"
 
 		
 		"font_minmode"	"hudfont10"
-		"ypos_minmode"	"6"
+		"ypos_minmode"	"4"
 	}
 	
 	"WaveCountLabelShadow"
 	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"WaveCountLabelShadow"
 		"font"			"hudfont14"
 		"fgcolor"		"colorblack"
 		
 		"xpos"			"-1"
 		"ypos"			"-1"
+		"zpos"			"3"
 		
-		"font_minmode"	"hudfont10"
-
+		"wide"			"201"
+		"tall"			"16"
+		
+		"visible"		"1"
+		"enabled"		"1"
+		
+		"textAlignment"				"center"
+		"labelText"					"%wave_count%"
+		
 		"pin_to_sibling"	"WaveCountLabel"
 	}
 	

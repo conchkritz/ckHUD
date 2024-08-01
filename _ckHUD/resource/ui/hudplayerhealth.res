@@ -60,8 +60,8 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValueShadow"
-		"xpos"			"-2"
-		"ypos"			"-2"	[$WIN32]
+		"xpos"			"-3"
+		"ypos"			"-3"	[$WIN32]
 		"zpos"			"5"
 		
 		"wide"			"150"

@@ -169,6 +169,14 @@ event HudMedicChargedStop
 	
 	Animate	ChargeLabel 	FgColor		"uberchargebase"			Linear 0 0.1
 	Animate	ChargeMeter 	FgColor		"uberchargebase"			Linear 0 0.1
+	
+	Animate	ChargeLabel2 		FgColor		"uberchargebase"		Linear 0.0 0.1
+	
+	Animate	ChargeMeter1 	FgColor		"uberchargebase"			Linear 0 0.1
+	Animate	ChargeMeter2 	FgColor		"uberchargebase"			Linear 0 0.1
+	Animate	ChargeMeter3 	FgColor		"uberchargebase"			Linear 0 0.1
+	Animate	ChargeMeter4 	FgColor		"uberchargebase"			Linear 0 0.1
+
 
 	Animate	ChargeColor_25 	BgColor		"meter1alt"				Linear 0 0.1
 	Animate	ChargeColor_50 	BgColor		"meter2alt"				Linear 0 0.1

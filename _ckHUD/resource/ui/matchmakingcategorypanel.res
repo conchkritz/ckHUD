@@ -30,14 +30,16 @@
 			"ypos"			"-7"
 			"zpos"			"3"
 			
-			"wide"		"f0"
+			"wide"		"124"
 			"tall"		"f0"
 			
-			"font"			"hudfont48"
+			"font"			"hudfont20"
 			"textAlignment"	"east"
 
 			"fgcolor"		"colorwhite"
 			
+			"wrap"			"1"
+
 		}	
 
 		"TitleShadow"
@@ -46,14 +48,16 @@
 			"ypos"			"-2"
 			"zpos"			"2"
 			
-			"wide"		"f0"
+			"wide"		"124"
 			"tall"		"f0"
 			
-			"font"			"hudfont48"
+			"font"			"hudfont20"
 			"textAlignment"	"east"
 
 			"pin_to_sibling"		"Title"
 			"fgcolor_override"		"colorblack"
+			
+			"wrap"			"1"
 		}
 
 		"DescLabel"

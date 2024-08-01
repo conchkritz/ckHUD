@@ -28,8 +28,8 @@
 	
 	"AmmoInClipShadow"
 	{
-		"xpos"			"-2"
-		"ypos"			"-2"
+		"xpos"			"-3"
+		"ypos"			"-3"
 		"zpos"			"5"
 		
 		"wide"			"100"
@@ -62,8 +62,8 @@
 	
 	"AmmoInReserveShadow"
 	{
-		"xpos"			"-2"
-		"ypos"			"-2"
+		"xpos"			"-3"
+		"ypos"			"-3"
 		"zpos"			"7"
 		
 		"wide"			"f0"
@@ -97,8 +97,8 @@
 	
 	"AmmoNoClipShadow"
 	{
-		"xpos"			"-2"
-		"ypos"			"-2"
+		"xpos"			"-3"
+		"ypos"			"-3"
 		"zpos"			"5"
 		
 		"wide"			"100"

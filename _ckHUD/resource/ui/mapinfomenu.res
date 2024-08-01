@@ -13,6 +13,27 @@
 		"fgcolor"		"colorwhite"
 	}
 	
+	"MapInfoTitleShadow"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"MapInfoTitleShadow"
+		"xpos"			"-3"
+		"ypos"			"-3"
+		"zpos"			"2"
+		"wide"			"420"
+		"tall"			"30"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"%mapname%"
+		"textAlignment"	"west"
+		"font"			"hudfont30"
+		"fgcolor"		"colorblack"
+		
+		"pin_to_sibling"	"MapInfoTitle"
+	}
+	
 	"Background"
 	{
 		"ControlName"	"EditablePanel"

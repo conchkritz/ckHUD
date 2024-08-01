@@ -289,4 +289,13 @@
 		"enabled"		"1"
 		"image"			"../vgui/replay/thumbnails/sprites/obj_icons/icon_obj_stopwatch_red"
 	}
+	"glyph_report_kleen"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"BTCross"
+		"xpos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../vgui/replay/thumbnails/icons/obj_icons/glyph_report_kleen"
+	}
 }

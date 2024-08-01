@@ -9,32 +9,60 @@
 		"wide"			"600"
 		"tall"			"30"
 		
+		"visible"		"0"
+		
 		"textAlignment"	"west"
 
 		"font"			"hudfont30"
 		"fgcolor"		"colorwhite"
+	}
+	
+	"TFMessageTitleShadow"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"TFMessageTitleShadow"
+		
+		"xpos"			"-3"
+		"ypos"			"-3"
+		"zpos"			"2"
+		
+		"wide"			"600"
+		"tall"			"30"
+		
+		"visible"		"1"
+		"enabled"		"1"
+		
+		"labelText"		"#TF_WELCOME"
+		"textAlignment"	"west"
+		
+		"font"			"hudfont30"
+		"fgcolor"		"colorblack"
+		
+		"pin_to_sibling"	"TFMessageTitle2"
 	}	
 	
-//	"TFMessageTitleFix" // for things like full moon and april fools // i found out how to use chat_english, other languages may be broken
-//	{
-//		"ControlName"	"CExLabel"
-//		"fieldName"		"TFMessageTitleFix"
-//		"xpos"			"c-183"
-//		"ypos"			"85"
-//		"zpos"			"3"
-//		"wide"			"600"
-//		"tall"			"30"
-//		"autoResize"	"0"
-//		"pinCorner"		"0"
-//		"visible"		"1"
-//		"enabled"		"1"
-//		"labelText"		"Happy Valentine's Day!"
-//		"textAlignment"	"west"
-//		"dulltext"		"0"
-//		"brighttext"	"0"
-//		"font"			"hudfont30"
-//		"fgcolor"		"colorwhite"
-//	}	
+	"TFMessageTitle2"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"TFMessageTitle2"
+		"xpos"			"c-183"
+		"ypos"			"85"
+		"zpos"			"3"
+		
+		"wide"			"600"
+		"tall"			"30"
+		
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"#TF_WELCOME"
+		"textAlignment"	"west"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"font"			"hudfont30"
+		"fgcolor"		"colorwhite"
+	}	
 	
 //	"TextMessage"
 //	{

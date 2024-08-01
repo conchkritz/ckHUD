@@ -164,8 +164,9 @@
 		if_mvm
 		{
 //			"font"			"HudFontSmallishBold"
+			"xpos"			"156"
 			"ypos"			"99"
-
+			"tall"			"22"
 			"fgcolor"		"colorblack"
 		}
 	}
