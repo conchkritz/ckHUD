@@ -1301,7 +1301,7 @@
 		"font"			"hudfont12"
 		"textAlignment"	"east"
 		
-		"labelText" 	"ckHUD 0.5-pre2"
+		"labelText" 	"ckHUD 0.5-pre3"
 		
 		"wide_minmode"			"145"
 		"labelText_minmode" 	"pls turn off minmode"
@@ -1311,7 +1311,7 @@
 		"default"		"1"
 		"paintbackground" "0"
 		"sound_depressed"	""
-		"sound_released"	"UI/pan.wav"
+		"sound_released"	"vo/engineer_activatecharge02.mp3"
 		"sound_released_minmode"	"UI/tts.wav"
 
 		"defaultFgColor_override" "255 255 255 5"

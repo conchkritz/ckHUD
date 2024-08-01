@@ -309,12 +309,12 @@
 	}
 	"ReinforcementsLabel"
 	{
-		"xpos"								"c-50"
+		"xpos"								"c-300"
 		"ypos"								"58"
 		
-		"wide"								"100"
-		"tall"								"10"
-
+		"wide"			"600"
+		"tall"			"18"
+		
 		"textAlignment"						"center"
 		"textinsetx"						"20"
 		"font"								"hudfont14sec"
