@@ -3,12 +3,12 @@ hudanimations_manifest
 	"file"		"scripts/hudanimations.txt"
 
 	// custom animations
-	"file"		"_ckHUD/scripts/hudanimations_ckHUD.txt"
+	"file"		"_ckhud/scripts/hudanimations_ckhud.txt"
 
 	// general animations
-	"file"		"_ckHUD/scripts/anim_deathfix.txt"
-	"file"      "_ckHUD/scripts/anim_uncrating.txt"
-	"file"		"_ckHUD/scripts/anim_locking.txt"
+	"file"		"_ckhud/scripts/anim_deathfix.txt"
+	"file"      "_ckhud/scripts/anim_uncrating.txt"
+	"file"		"_ckhud/scripts/anim_locking.txt"
 	
 	// default to reference
 	"file"		"_tf2/scripts/hudanimations_tf.txt"

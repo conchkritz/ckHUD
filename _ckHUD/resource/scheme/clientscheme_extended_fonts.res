@@ -11,7 +11,7 @@ Scheme
 		"2" "resource/tfd.ttf"
 		"3"
 		{
-		"font" "_ckHUD/resource/fonts/extended/TF2.ttf"
+		"font" "_ckhud/resource/fonts/extended/TF2.ttf"
 		"name" "TF2"
 		
 			"russian"
@@ -93,7 +93,7 @@ Scheme
 		}
 		"4" 
 		{
-		"font" "_ckHUD/resource/fonts/extended/TF2Secondary.ttf"
+		"font" "_ckhud/resource/fonts/extended/TF2Secondary.ttf"
 		"name" "TF2 Secondary"
 		
 			"russian"
@@ -175,7 +175,7 @@ Scheme
 		}
 		"5" 
 		{
-		"font" "_ckHUD/resource/fonts/extended/TF2Professor.ttf"
+		"font" "_ckhud/resource/fonts/extended/TF2Professor.ttf"
 		"name" "TF2 Professor"
 
 			"russian"
@@ -257,7 +257,7 @@ Scheme
 		}
 		"6" 
 		{
-		"font" "_ckHUD/resource/fonts/extended/TF2Build.ttf"
+		"font" "_ckhud/resource/fonts/extended/TF2Build.ttf"
 		"name" "TF2 Build"
 		
 			"russian"
@@ -339,7 +339,7 @@ Scheme
 		}
 		"7" 
 		{
-		"font"	"_ckHUD/resource/fonts/extended/ocra.ttf"
+		"font"	"_ckhud/resource/fonts/extended/ocra.ttf"
 		"name" "ocra"	
 
 			"russian"

@@ -1,4 +1,4 @@
-#base "../../_ckHUD/resource/ui/MatchMakingDashboardSidePanel.res"
+#base "../../_ckhud/resource/ui/MatchMakingDashboardSidePanel.res"
 // ????? work ????
 
 "Resource/UI/MatchMakingDashboardCasualCriteria.res"

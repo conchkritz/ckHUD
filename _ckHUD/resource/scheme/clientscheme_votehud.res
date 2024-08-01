@@ -118,7 +118,7 @@ Scheme
 	{
 		"Bot Detector Font" 
 		{
-			"font" "_ckHUD/resource/fonts/CustomNotoMono.ttf"
+			"font" "_ckhud/resource/fonts/CustomNotoMono.ttf"
 			"name" "CustomNotoMono"
 			"english" 
 			{

@@ -4,7 +4,7 @@
 #base "../__customization/_enabled/Hitmarker/scripts/hitmarker.res"
 #base "../__customization/_enabled/Transparent Viewmodels/scripts/transparentviewmodel.res"
 
-#base "../_ckHUD/scripts/hudlayout.res"
+#base "../_ckhud/scripts/hudlayout.res"
 #base "../_tf2/scripts/hudlayout.res"
 
 "Resource/HudLayout.res"

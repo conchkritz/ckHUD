@@ -1,4 +1,4 @@
-#base "../../../../_ckHUD/resource/ui/build_menu/pipboy/HudMenuEngyBuild.res"
+#base "../../../../_ckhud/resource/ui/build_menu/pipboy/HudMenuEngyBuild.res"
 #base "../HudMenuEngyDestroy.res"
 
 "Resource/UI/build_menu/HudMenuEngyDestroy.res"

@@ -708,12 +708,12 @@ Scheme
 	{
 		"9"
 		{
-			"font" "_ckHUD/resource/fonts/TF2Crosshairs.ttf"
+			"font" "_ckhud/resource/fonts/TF2Crosshairs.ttf"
 			"name" "TF2Crosshairs"
 		}
 		"10"
 		{
-			"font" "_ckHUD/resource/fonts/TF2 Character Icons.ttf"
+			"font" "_ckhud/resource/fonts/TF2 Character Icons.ttf"
 			"name"	"TF2 Character Icons"
 		}
 	}
