@@ -12,7 +12,7 @@ Cuurently only being tested on 16:9 1080p. If you have issues, best method of co
 | OS  | Status |
 | ------------- | ------------- |
 | Windows (11)  | Supported  |
-| Linux  | Should Theoretically Work (i will test it) |
+| Linux  | Untested (my linux install is bricked) |
 | Mac  | Can't Even Play Anymore |
 
 | Resolution  | Status |
@@ -39,14 +39,14 @@ Cuurently only being tested on 16:9 1080p. If you have issues, best method of co
 
 * [ToonHUD](https://toonhud.com/)
   * Main Menu Icons Materials
-    
-* [FlawHud](https://github.com/rbjaxter/budhud)
+  
+* [PeachHUD](https://github.com/PapaPeach/PeachHUD)
+  * Spectator Tournament
+  
+* [BudHud](https://github.com/CriticalFlaw/flawhud)
+  * Part Of Tournament Spectator
   * TargetID
-  * Part Of Tournament Spectator
- 
-* [BudHud](https://github.com/CriticalFlaw/flawhud) // https://github.com/andy013/votehud_custom_font
-  * Part Of Tournament Spectator
-    
+  
 * [No White Borders Hud](https://gamebanana.com/mods/294682)
   * 99% of the Materials Folder + Preload Files
     
