@@ -6,16 +6,16 @@
 	}
 	
 	"$translucent" 1
-	"$baseTexture" "vgui\replay\thumbnails\hud\color_dark" //gradient black
+	"$baseTexture" "vgui\replay\thumbnails\hud\color_dark"			//gradient_black"
 	"$detail" "vgui\replay\thumbnails\hud\leaderboard_area_main"
 	$detailscale 1
 	$detailblendmode 8
 	$distancealphafromdetail 1
 
 	// give it a slight outer soft edge
-	$softedges 1 // 1
-	$edgesoftnessstart 0.5 //0.5
-    $edgesoftnessend 0.4 //0.4
+	$softedges 0 // 1
+	$edgesoftnessstart 0 //0.5
+    $edgesoftnessend 0 //0.4
 	$scaleedgesoftnessbasedonscreenres 1
 
 	// give it a white outline
