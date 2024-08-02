@@ -2,7 +2,7 @@
 {
     "$baseTexture"                                                  "vgui/replay/thumbnails/targetid/targetid_base"
     "$translucent"                                                  "1"
-    "$color"                                                        "{184 56 59 255}"
+    "$color"                                                        "{163 61 62 255}"
     "$vertexcolor"                                                  "1"
     "$vertexalpha"                                                  "0"
 }

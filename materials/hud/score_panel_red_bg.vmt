@@ -6,7 +6,7 @@
 	}
 	
 	"$translucent" 1
-	"$baseTexture" "hud\gradient_red"
+	"$baseTexture" "vgui/replay/thumbnails/hud/gradient_red"
 	"$detail" "hud\leaderboard_area_team"
 	$detailscale 1
 	$detailblendmode 8

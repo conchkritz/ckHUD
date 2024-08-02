@@ -6,7 +6,7 @@
 	}
 	
 	"$translucent" 1
-	"$baseTexture" "hud\gradient_blue"
+	"$baseTexture" "vgui/replay/thumbnails/hud/gradient_blue"
 	"$detail" "hud\death_panel_mask"
 	$detailscale 1
 	$detailblendmode 8

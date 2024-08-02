@@ -740,7 +740,7 @@
 		"ControlName"	"CTFBadgePanel"
 		"fieldName"		"KillStreakPlayer1Badge"
 		"xpos"			"18"
-		"ypos"			"182"
+		"ypos"			"186"
 		"zpos"			"3"
 		"wide"			"25"
 		"tall"			"25"
