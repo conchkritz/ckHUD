@@ -1,16 +1,16 @@
 "UnlitGeneric"
 {
 	"$translucent" 1
-	"$baseTexture" "vgui\replay\thumbnails\hud\gradient_blue"
-	"$detail" "vgui\replay\thumbnails\hud\objectives_flagpanel_mask_left"
+	"$baseTexture" "hud\gradient_blue"
+	"$detail" "hud\objectives_flagpanel_mask_left"
 	$detailscale 1
 	$detailblendmode 8
 	$distancealphafromdetail 1
 
 	// give it a slight outer soft edge
-	$softedges 0 // 1
-	$edgesoftnessstart 0 //0.5
-    $edgesoftnessend 0 //0.4
+	$softedges 1 // 1
+	$edgesoftnessstart 0.5 //0.5
+    $edgesoftnessend 0.4 //0.4
 	$scaleedgesoftnessbasedonscreenres 1
 
 	// give it a white outline
