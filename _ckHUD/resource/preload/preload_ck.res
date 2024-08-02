@@ -39,36 +39,6 @@
 		"enabled"		"1"
 		"image"			"../vgui/replay/thumbnails/construct/color_panel_pipboy"
 	}
-	
-	"gradient_brown"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"BTCross"
-		"xpos"			"9999"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"../vgui/replay/thumbnails/hud/gradient_brown"
-	}
-
-	"gradient_blue"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"BTCross"
-		"xpos"			"9999"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"../vgui/replay/thumbnails/hud/gradient_blue"
-	}
-
-	"gradient_red"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"BTCross"
-		"xpos"			"9999"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"../vgui/replay/thumbnails/hud/gradient_red"
-	}
 	"clock_suddendeath_mask"
 	{
 		"ControlName"	"ImagePanel"
@@ -324,5 +294,221 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../vgui/replay/thumbnails/hud/objectives_corepanel_bg"
+	}
+	"color_dark"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"BTCross"
+		"xpos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../vgui/replay/thumbnails/hud/color_dark"
+	}
+	"color_dark_opaque_small"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"BTCross"
+		"xpos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../vgui/replay/thumbnails/hud/color_dark_opaque_small"
+	}
+	"color_dark_small"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"BTCross"
+		"xpos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../vgui/replay/thumbnails/hud/color_dark_small"
+	}
+	"color_panel_blu"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"BTCross"
+		"xpos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../vgui/replay/thumbnails/hud/color_panel_blu"
+	}
+	"color_panel_blu_more_opaque"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"BTCross"
+		"xpos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../vgui/replay/thumbnails/hud/color_panel_blu_more_opaque"
+	}
+	"color_panel_blu_opaque"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"BTCross"
+		"xpos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../vgui/replay/thumbnails/hud/color_panel_blu_opaque"
+	}
+	"color_panel_brown"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"BTCross"
+		"xpos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../vgui/replay/thumbnails/hud/color_panel_brown"
+	}
+	"color_panel_brown_opaque"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"BTCross"
+		"xpos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../vgui/replay/thumbnails/hud/color_panel_brown_opaque"
+	}
+	"color_panel_browner"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"BTCross"
+		"xpos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../vgui/replay/thumbnails/hud/color_panel_browner"
+	}
+	"color_panel_clear"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"BTCross"
+		"xpos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../vgui/replay/thumbnails/hud/color_panel_clear"
+	}
+	"color_panel_red"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"BTCross"
+		"xpos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../vgui/replay/thumbnails/hud/color_panel_red"
+	}
+	"color_panel_red_more_opaque"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"BTCross"
+		"xpos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../vgui/replay/thumbnails/hud/color_panel_red_more_opaque"
+	}
+	"color_panel_red_opaque"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"BTCross"
+		"xpos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../vgui/replay/thumbnails/hud/color_panel_red_opaque"
+	}
+	"gradient_black"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"BTCross"
+		"xpos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../vgui/replay/thumbnails/hud/gradient_black"
+	}
+	"gradient_black_blue"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"BTCross"
+		"xpos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../vgui/replay/thumbnails/hud/gradient_black_blue"
+	}
+	"gradient_black_solid"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"BTCross"
+		"xpos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../vgui/replay/thumbnails/hud/gradient_black_solid"
+	}
+	"gradient_blue"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"BTCross"
+		"xpos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../vgui/replay/thumbnails/hud/gradient_blue"
+	}
+	"gradient_blue_solid"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"BTCross"
+		"xpos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../vgui/replay/thumbnails/hud/gradient_blue_solid"
+	}
+	"gradient_brown"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"BTCross"
+		"xpos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../vgui/replay/thumbnails/hud/gradient_brown"
+	}
+	"gradient_empty"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"BTCross"
+		"xpos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../vgui/replay/thumbnails/hud/gradient_empty"
+	}
+	"gradient_orange"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"BTCross"
+		"xpos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../vgui/replay/thumbnails/hud/gradient_orange"
+	}
+	"gradient_purple"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"BTCross"
+		"xpos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../vgui/replay/thumbnails/hud/gradient_purple"
+	}
+	"gradient_red" // hud_invasion_greenbg
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"BTCross"
+		"xpos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../vgui/replay/thumbnails/hud/gradient_red"
+	}
+	"hud_invasion_greenbg"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"BTCross"
+		"xpos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../vgui/replay/thumbnails/hud/hud_invasion_greenbg"
 	}
 }

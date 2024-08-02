@@ -13,7 +13,7 @@
 		"visible"			"1"
 
 		"labelText"			"6" // changes to what style you want
-		"font"				"hitmarkerfont" // inside '_ckHUD/resource/scheme/clientscheme_fonts', then ctrl+f hitmarkerfont
+		"font"				"hitmarkerfont" // inside '_ckhud/resource/scheme/clientscheme_fonts', then ctrl+f hitmarkerfont
 		
 		"xpos"				"cs-0.4999" // changes these if the crosshair/hitmarker is off (very sensitive)
 		"ypos"				"cs-0.4999" // cs-0.5 standard, cs-0.4999 default
