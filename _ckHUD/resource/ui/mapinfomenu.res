@@ -54,6 +54,9 @@
 		"xpos"			"9999"
 		"font"			"hudfont18sec"
 		"fgcolor"		"colorwhite"
+		
+		"visible"		"0"
+		"enabled"		"0"
 	}	
 	
 	"MapInfoText"
@@ -77,6 +80,9 @@
 	"MapInfoContinue"
 	{
 		"xpos"			"9999"
+		
+		"visible"		"0"
+		"enabled"		"0"
 	}
 	
 	"ContinueButton"
@@ -104,7 +110,7 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"HiddenNextPageButton"
-		"xpos"		"9999"
+		"xpos"			"9999"
 		
 		"labelText"		"&E"
 		"Command"		"continue"
@@ -113,6 +119,9 @@
 	"MapInfoWatchIntro"
 	{
 		"xpos"			"9999"
+		
+		"visible"		"0"
+		"enabled"		"0"
 	}
 	
 	"introbutton"
@@ -201,15 +210,24 @@
 	"MapInfoBack"
 	{
 		"xpos"			"9999"
+		
+		"visible"		"0"
+		"enabled"		"0"
 	}
 	
 	"MenuBG"
 	{
 		"xpos"			"9999"
+		
+		"visible"		"0"
+		"enabled"		"0"
 	}					
 
 	"ShadedBar"
 	{
 		"xpos"			"9999"
+		
+		"visible"		"0"
+		"enabled"		"0"
 	}	
 }

@@ -70,9 +70,15 @@
 	{
 		"xpos"			"9999"
 		
+		"visible"		"0"
+		"enabled"		"0"
+		
 		"if_multiple_trains"
 		{
 			"ypos"			"9999"
+		
+			"visible"		"0"
+			"enabled"		"0"
 		}
 	}		
 	

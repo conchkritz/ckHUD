@@ -37,6 +37,9 @@
 	"NameFilterLabel"
 	{
 		"xpos"			"9999"
+		
+		"visible"		"0"
+		"enabled"		"0"
 	}
 	
 	"TopLine"
@@ -57,16 +60,25 @@
 	"CaratLabel"
 	{
 		"xpos"			"9999"
+		
+		"visible"		"0"
+		"enabled"		"0"
 	}
 	
 	"ItemSlotLabel"
 	{
 		"xpos"			"9999"
+		
+		"visible"		"0"
+		"enabled"		"0"
 	}	
 	
 	"ClassLabel"
 	{
 		"xpos"			"9999"
+		
+		"visible"		"0"
+		"enabled"		"0"
 	}
 	
 	"NameFilterLabel"

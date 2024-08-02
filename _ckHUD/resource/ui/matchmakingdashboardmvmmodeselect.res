@@ -3,7 +3,6 @@
 
 "Resource/UI/MatchMakingDashboardCasualCriteria.res"
 {
-
 	"MannUpGroupBox"
 	{
 		"PlayNowButton"

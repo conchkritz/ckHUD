@@ -85,6 +85,9 @@
 	"Offense"
 	{
 		"xpos"			"9999"
+		
+		"visible"		"0"
+		"enabled"		"0"
 	}
 	
 	"scout"
@@ -300,6 +303,9 @@
 	"Defense"
 	{
 		"xpos"			"9999"
+		
+		"visible"		"0"
+		"enabled"		"0"
 	}
 	
 	"demoman"
@@ -517,6 +523,9 @@
 	"Support"
 	{
 		"xpos"			"9999"
+		
+		"visible"		"0"
+		"enabled"		"0"
 	}
 	
 	"medic"
@@ -772,9 +781,12 @@
 		"Command"		"vguicancel"
 	}
 	
-	"CancelButton" [$WIN32] 
+	"CancelButton"
 	{
 		"xpos"			"9999"
+		
+		"visible"		"0"
+		"enabled"		"0"
 	}
 	
 	"EditLoadoutButton"
@@ -833,14 +845,20 @@
 		}				
 	}
 
-	"ResetButton" [$WIN32] 
+	"ResetButton"
 	{
 		"xpos"			"9999"
+		
+		"visible"		"0"
+		"enabled"		"0"
 	}
 
 	"ClassMenuSelect"
 	{
 		"xpos"			"9999"
+		
+		"visible"		"0"
+		"enabled"		"0"
 	}
 
 	"SelectClassLabel"
@@ -888,16 +906,25 @@
 	"MenuBG"
 	{
 		"xpos"			"9999"
+		
+		"visible"		"0"
+		"enabled"		"0"
 	}	
 
 	"Hint"
 	{	
 		"xpos"			"9999"
+		
+		"visible"		"0"
+		"enabled"		"0"
 	}
 	
 	"ShadedBar"
 	{
 		"xpos"			"9999"
+		
+		"visible"		"0"
+		"enabled"		"0"
 	}		
 	
 	"localPlayerImage"
@@ -986,13 +1013,16 @@
 		"ypos"			"406"
 	}
 	
-	"CountLabel" [$WIN32]
+	"CountLabel"
 	{
 		"xpos"			"9999"
+		
+		"visible"		"0"
+		"enabled"		"0"
 	}
 	
-	// needs fixing when on servers like uncletopia
-	"numScout" [$WIN32]
+	// needs fixing when on servers like uncletopia // proabably fixed
+	"numScout"
 	{
 		"xpos"			"52"
 		"ypos"			"-3"
@@ -1006,7 +1036,7 @@
 		"pin_to_sibling"	"scout"
 	}	
 	
-	"numScoutShadow" [$WIN32]
+	"numScoutShadow"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"numScoutShadow"
@@ -1028,7 +1058,7 @@
 		"pin_to_sibling"	"numScout"
 	}	
 	
-	"numSoldier" [$WIN32]
+	"numSoldier"
 	{
 		"xpos"			"52"
 		"ypos"			"-3"
@@ -1042,7 +1072,7 @@
 		"pin_to_sibling"	"soldier"
 	}		
 
-	"numSoldierShadow" [$WIN32]
+	"numSoldierShadow"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"numSoldierShadow"
@@ -1064,7 +1094,7 @@
 		"pin_to_sibling"	"numSoldier"
 	}	
 	
-	"numPyro" [$WIN32]
+	"numPyro"
 	{
 		"xpos"			"52"
 		"ypos"			"-3"
@@ -1079,7 +1109,7 @@
 
 	}			
 	
-	"numPyroShadow" [$WIN32]
+	"numPyroShadow"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"numPyroShadow"
@@ -1101,7 +1131,7 @@
 		"pin_to_sibling"	"numPyro"
 	}	
 	
-	"numDemoman" [$WIN32]
+	"numDemoman"
 	{
 		"xpos"			"52"
 		"ypos"			"-3"
@@ -1115,7 +1145,7 @@
 		"pin_to_sibling"	"demoman"
 	}				
 
-	"numDemomanShadow" [$WIN32]
+	"numDemomanShadow"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"numDemomanShadow"
@@ -1137,7 +1167,7 @@
 		"pin_to_sibling"	"numDemoman"
 	}	
 	
-	"numHeavy" [$WIN32]
+	"numHeavy"
 	{
 		"xpos"			"52"
 		"ypos"			"-3"
@@ -1151,7 +1181,7 @@
 		"pin_to_sibling"	"heavyweapons"
 	}					
 	
-	"numHeavyShadow" [$WIN32]
+	"numHeavyShadow"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"numHeavyShadow"
@@ -1173,7 +1203,7 @@
 		"pin_to_sibling"	"numHeavy"
 	}			
 	
-	"numEngineer" [$WIN32]
+	"numEngineer"
 	{
 		"xpos"			"52"
 		"ypos"			"-3"
@@ -1187,7 +1217,7 @@
 		"pin_to_sibling"	"engineer"
 	}	
 	
-	"numEngineerShadow" [$WIN32]
+	"numEngineerShadow"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"numEngineerShadow"
@@ -1209,7 +1239,7 @@
 		"pin_to_sibling"	"numEngineer"
 	}	
 	
-	"numMedic" [$WIN32]
+	"numMedic"
 	{
 		"xpos"			"52"
 		"ypos"			"-3"
@@ -1223,7 +1253,7 @@
 		"pin_to_sibling"	"medic"
 	}			
 	
-	"numMedicShadow" [$WIN32]
+	"numMedicShadow"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"numMedicShadow"
@@ -1245,7 +1275,7 @@
 		"pin_to_sibling"	"numMedic"
 	}			
 	
-	"numSniper" [$WIN32]
+	"numSniper"
 	{
 		"xpos"			"52"
 		"ypos"			"-3"
@@ -1259,7 +1289,7 @@
 		"pin_to_sibling"	"sniper"
 	}		
 	
-	"numSniperShadow" [$WIN32]
+	"numSniperShadow"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"numSniperShadow"
@@ -1281,7 +1311,7 @@
 		"pin_to_sibling"	"numsniper"
 	}	
 	
-	"numSpy" [$WIN32]
+	"numSpy"
 	{
 		"xpos"			"52"
 		"ypos"			"-3"
@@ -1295,7 +1325,7 @@
 		"pin_to_sibling"	"spy"
 	}	
 	
-	"numSpyShadow" [$WIN32]
+	"numSpyShadow"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"numSpyShadow"
@@ -1392,6 +1422,9 @@
 	"StartExplanation"
 	{
 		"xpos"			"9999"
+		
+		"visible"		"0"
+		"enabled"		"0"
 	}
 	
 	"Background"
@@ -1467,10 +1500,16 @@
 	"ClassTipsPanel"
 	{
 		"xpos"			"9999"
+		
+		"visible"		"0"
+		"enabled"		"0"
 	}
 	
 	"ClassHighlightPanel"
 	{
 		"xpos"			"9999"
+		
+		"visible"		"0"
+		"enabled"		"0"
 	}		
 }

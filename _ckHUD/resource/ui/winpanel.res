@@ -108,10 +108,16 @@
 		"BlueLeaderAvatar"
 		{
 			"xpos"			"9999"
+		
+			"visible"		"0"
+			"enabled"		"0"
 		}
 		"BlueLeaderAvatarBG"
 		{
 			"xpos"			"9999"
+		
+			"visible"		"0"
+			"enabled"		"0"
 		}									
 		"RedTeamLabel"
 		{
@@ -193,10 +199,16 @@
 		"RedLeaderAvatar"
 		{
 			"xpos"			"9999"
+		
+			"visible"		"0"
+			"enabled"		"0"
 		}
 		"RedLeaderAvatarBG"
 		{
 			"xpos"			"9999"
+		
+			"visible"		"0"
+			"enabled"		"0"
 		}
 	}
 

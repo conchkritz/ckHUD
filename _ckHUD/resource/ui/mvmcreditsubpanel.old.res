@@ -32,6 +32,9 @@
 	"TableBackground"
 	{
 		"xpos"			"9999"
+		
+		"visible"		"0"
+		"enabled"		"0"
 	}
 	
 	"CreditCollectedTextLabel"

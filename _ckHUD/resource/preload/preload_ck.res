@@ -298,4 +298,31 @@
 		"enabled"		"1"
 		"image"			"../vgui/replay/thumbnails/icons/obj_icons/glyph_report_kleen"
 	}
+	"buttonblu"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"BTCross"
+		"xpos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../vgui/replay/thumbnails/logos/buttonblu"
+	}
+	"buttonred"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"BTCross"
+		"xpos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../vgui/replay/thumbnails/logos/buttonred"
+	}
+	"objectives_corepanel_bg"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"BTCross"
+		"xpos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../vgui/replay/thumbnails/hud/objectives_corepanel_bg"
+	}
 }

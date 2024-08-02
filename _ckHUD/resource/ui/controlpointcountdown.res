@@ -2,7 +2,7 @@
 {
 	"CapCountdownLabel"
 	{	
-		"font"			"hudfont24"
+		"font"			"hudfont24sec"
 		"fgcolor"		"colorwhite"
 	}
 	
@@ -10,9 +10,9 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"CapCountdownLabelShadow"
-		"font"			"hudfont24"
-		"xpos"			"-3"
-		"ypos"			"-3"
+		"font"			"hudfont24sec"
+		"xpos"			"-2"
+		"ypos"			"-2"
 		"zpos"			"1"
 		"wide"			"30"
 		"tall"			"30"

@@ -8,8 +8,10 @@
 	{
 		"Gradient"
 		{
-
 			"xpos"		"9999"
+		
+			"visible"		"0"
+			"enabled"		"0"
 		}
 		
 		"FriendsBGPanel"
@@ -33,23 +35,35 @@
 		"BGPanel"
 		{
 			"xpos"			"9999"
+		
+			"visible"		"0"
+			"enabled"		"0"
 		}
 		
 		"OuterShadow"
 		{
 			"xpos"			"9999"
+		
+			"visible"		"0"
+			"enabled"		"0"
 		}
 
 		"QueueContainer"
 		{
 			"OuterShadow"
 			{
-				"xpos"			"99999"
+				"xpos"			"9999"
+		
+				"visible"		"0"
+				"enabled"		"0"
 			}
 		}
 		
 		"DisconnectButton"
 		{
+			"armedBgColor_override"		"192 28 0 255"
+			"defaultBgColor_override"	"142 28 0 255"
+			
 			"defaultFgColor_override" "colorwhite"
 			"armedFgColor_override" "colorwhite"
 			"image_drawcolor"	"235 226 202 255"

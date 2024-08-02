@@ -44,7 +44,7 @@
 		"tall"					"17"
 		"visible"				"1"
 		"enabled"				"0"
-		"labelText"				"POWER"
+		"labelText"				"POWER" // "TF_QuestMap_Power"
 		"textAlignment"			"center"
 		"font"					"hudfont8"
 	}

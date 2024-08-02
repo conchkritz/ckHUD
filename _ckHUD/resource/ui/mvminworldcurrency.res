@@ -2,7 +2,10 @@
 {
 	"BorderBG"
 	{
-		"xpos"			"99999"
+		"xpos"			"9999"
+		
+		"visible"		"0"
+		"enabled"		"0"
 	}	
 	
 	"BackgroundGood"
@@ -21,6 +24,9 @@
 	"MoneyImagePanel"
 	{
 		"xpos"		"9999"
+		
+		"visible"		"0"
+		"enabled"		"0"
 	}
 	
 	"CurrencyGood"

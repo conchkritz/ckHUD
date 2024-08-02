@@ -44,7 +44,7 @@
 		"ypos"			"15"
 		"wide"			"90"
 		"tall"			"20"
-		"fgcolor"		"tanlight"
+		"fgcolor"		"colorwhite"
 	}
 	
 	"CreditCollectedCountLabel"
@@ -72,7 +72,7 @@
 		"ypos"			"27"
 		"wide"			"90"
 		"tall"			"20"
-		"fgcolor"		"tanlight"
+		"fgcolor"		"colorwhite"
 	}
 	
 	"CreditMissedCountLabel"

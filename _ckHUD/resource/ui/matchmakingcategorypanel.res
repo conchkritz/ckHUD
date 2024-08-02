@@ -63,11 +63,17 @@
 		"DescLabel"
 		{
 			"xpos"			"9999"
+		
+			"visible"		"0"
+			"enabled"		"0"
 		}
 
 		"DescLabelShadow"
 		{
 			"xpos"			"9999"
+		
+			"visible"		"0"
+			"enabled"		"0"
 		}
 	}
 }

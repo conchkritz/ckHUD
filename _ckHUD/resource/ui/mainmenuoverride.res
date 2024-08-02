@@ -13,6 +13,9 @@
 	"TFLogoImage"
 	{
 		"xpos"			"9999"
+		
+		"visible"		"0"
+		"enabled"		"0"
 	}
 	
 	"RankModelPanel"
@@ -320,6 +323,9 @@
 	"EventPromo"
 	{
 		"xpos"			"9999"
+		
+		"visible"		"0"
+		"enabled"		"0"
 	}
 
 //	"ShowPromoCodesButton"
@@ -487,11 +493,17 @@
 	"BackgroundFooter"
 	{
 		"xpos"			"9999"
+		
+		"visible"		"0"
+		"enabled"		"0"
 	}		
 	
 	"FooterLine"
 	{
 		"xpos"			"9999"
+		
+		"visible"		"0"
+		"enabled"		"0"
 	}	
 	
 	"CharacterSetupButtonFix" // stupid fix for charactersetup button staying red
@@ -645,6 +657,9 @@
 	"StoreHasNewItemsImage"
 	{
 		"xpos"			"9999"
+		
+		"visible"		"0"
+		"enabled"		"0"
 	}
 
 	"GeneralStoreButton"
@@ -1326,5 +1341,8 @@
 	"BackToReplaysButton"
 	{
 		"xpos"			"9999"		
+		
+		"visible"		"0"
+		"enabled"		"0"
 	}			
 }

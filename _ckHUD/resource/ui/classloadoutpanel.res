@@ -27,6 +27,9 @@
 	"ClassLabel"
 	{
 		"xpos"			"9999"
+		
+		"visible"		"0"
+		"enabled"		"0"
 	}
 	
 	"TopLine"
@@ -40,17 +43,28 @@
 	"CaratLabel"
 	{
 		"xpos"			"9999"
+		
+		"visible"		"0"
+		"enabled"		"0"
 	}
 	
 	"TauntCaratLabel"
 	{
 		"xpos"			"9999"
+		
+		"visible"		"0"
+		"enabled"		"0"
+		
 		"font"			"hudfont11"
 	}
 	
 	"TauntLabel"
 	{
 		"xpos"			"9999"
+		
+		"visible"		"0"
+		"enabled"		"0"
+		
 		"font"			"hudfont14"
 	}	
 	
@@ -97,6 +111,9 @@
 	"TauntHintLabel"
 	{
 		"xpos"			"9999" // original is 'c2290' so i guess 9999 works?
+		
+		"visible"		"0"
+		"enabled"		"0"
 	}
 
 	"CharacterLoadoutButton"
@@ -126,7 +143,7 @@
 		}
 	}
 	
-	"RedSkinButton"
+	"RedSkinButton" // remember
 	{
 		"ControlName"		"CExImageButton"
 		"fieldName"			"RedSkinButton"
@@ -148,9 +165,28 @@
 		"defaultbgcolor_override"		"colorpanelredopaque"
 		"depressedbgcolor_override"		"colordarkred"
 		"armedbgcolor_override"			"255 92 92 255"
+		
+		"image_drawcolor"	"235 226 202 255"
+		"image_armedcolor"	"235 226 202 255"
+			
+		"SubImage"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"SubImage"
+			"xpos"			"0"
+			"ypos"			"cs-0.5"
+			"zpos"			"1"
+			"wide"			"24"
+			"tall"			"24"
+			"visible"		"1"
+			"enabled"		"1"
+			"image"			"../vgui/replay/thumbnails/logos/buttonred"
+			"scaleImage"	"1"
+			"proportionaltoparent"	"1"
+		}	
 	}
 	
-	"BlueSkinButton"
+	"BlueSkinButton" // remember
 	{
 		"ControlName"		"CExImageButton"
 		"fieldName"			"BlueSkinButton"
@@ -172,6 +208,25 @@
 		"defaultbgcolor_override"		"colorpanelblueopaque"
 		"depressedbgcolor_override"		"colordarkblu"
 		"armedbgcolor_override"			"184 235 255 255"
+		
+		"image_drawcolor"	"235 226 202 255"
+		"image_armedcolor"	"235 226 202 255"
+			
+		"SubImage"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"SubImage"
+			"xpos"			"0"
+			"ypos"			"cs-0.5"
+			"zpos"			"1"
+			"wide"			"24"
+			"tall"			"24"
+			"visible"		"1"
+			"enabled"		"1"
+			"image"			"../vgui/replay/thumbnails/logos/buttonblu"
+			"scaleImage"	"1"
+			"proportionaltoparent"	"1"
+		}	
 	}
 	
 	"ZoomInfoLabel"

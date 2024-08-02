@@ -9,6 +9,9 @@
 	{
 		"xpos"			"9999"
 		"border"		"no"
+		
+		"visible"		"0"
+		"enabled"		"0"
 	}
 
 	"BGColor"
@@ -16,6 +19,9 @@
 		"xpos"			"9999"
 
 		"bgcolor_override"	"no"
+		
+		"visible"		"0"
+		"enabled"		"0"
 	}
 
 
@@ -32,6 +38,9 @@
 	{
 		"xpos"			"9999"
 
+		"visible"		"0"
+		"enabled"		"0"
+		
 		"visible"		"0"
 		"enabled"		"0"
 	}
@@ -66,15 +75,24 @@
 	"DescLabel"
 	{
 		"xpos"			"9999"
+		
+		"visible"		"0"
+		"enabled"		"0"
 	}
 
 	"DescLabelShadow"
 	{
 		"xpos"			"9999"
+		
+		"visible"		"0"
+		"enabled"		"0"
 	}
 
 	"DisabledIcon"
 	{
 		"xpos"			"9999"
+		
+		"visible"		"0"
+		"enabled"		"0"
 	}
 }

@@ -18,11 +18,17 @@
 	"teambutton2"
 	{
 		"xpos"			"9999"
+		
+		"visible"		"0"
+		"enabled"		"0"
 	}
 	
 	"teambutton3"
 	{
 		"xpos"			"9999"
+		
+		"visible"		"0"
+		"enabled"		"0"
 	}
 	
 	"BlueFrame"
@@ -222,36 +228,57 @@
 	"TeamMenuAuto"
 	{
 		"xpos"			"9999"
+		
+		"visible"		"0"
+		"enabled"		"0"
 	}
 	
 	"TeamMenuSpectate"
 	{
 		"xpos"			"9999"
+		
+		"visible"		"0"
+		"enabled"		"0"
 	}
 
 	"MenuBG"
 	{
 		"xpos"			"9999"
+		
+		"visible"		"0"
+		"enabled"		"0"
 	}	
 
 	"ShadedBar"
 	{
 		"xpos"			"9999"
+		
+		"visible"		"0"
+		"enabled"		"0"
 	}		
 		
 	"autodoor"
 	{
 		"xpos"			"9999"
+		
+		"visible"		"0"
+		"enabled"		"0"
 	}		
 	
 	"spectate"
 	{
 		"xpos"			"9999"
+		
+		"visible"		"0"
+		"enabled"		"0"
 	}			
 	
-	"Footer" [$X360]
+	"Footer"
 	{
 		"xpos"				"9999"
+		
+		"visible"		"0"
+		"enabled"		"0"
 	}	
 }
 

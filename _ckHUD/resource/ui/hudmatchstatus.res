@@ -15,6 +15,9 @@
 	"BGFrame"
 	{
 		"xpos"				"9999"
+		
+		"visible"		"0"
+		"enabled"		"0"
 	}
 	
 	"ObjectiveStatusTimePanel"
@@ -98,7 +101,12 @@
 				
 				"fgcolor_override"	   "255 255 255 255"
 			}
-		
+			
+			"HealthIcon"
+			{
+				"visible"			"0"
+			}
+			
 			"respawntime"
 			{
 				"font"			"hudfont14"

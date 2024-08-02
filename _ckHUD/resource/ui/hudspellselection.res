@@ -12,7 +12,10 @@
 	
 	"ItemEffectMeterBG"
 	{
-		"xpos"			"9999"		
+		"xpos"			"9999"
+		
+		"visible"		"0"
+		"enabled"		"0"		
 	}
 
 	"ActionText"

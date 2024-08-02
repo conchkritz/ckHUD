@@ -177,24 +177,39 @@
 		"MoveableIconBG"
 		{
 			"xpos"			"9999"
+		
+			"visible"		"0"
+			"enabled"		"0"
 		}
 		
 		"MoveableIcon"
 		{
 			"xpos"			"9999"
+		
+			"visible"		"0"
+			"enabled"		"0"
 		}
 		"MoveableSymbolIcon"
 		{
 			"xpos"			"9999"
+		
+			"visible"		"0"
+			"enabled"		"0"
 		}
 
 		"MoveableKeyLabel"
 		{	
 			"xpos"			"9999"
+		
+			"visible"		"0"
+			"enabled"		"0"
 		}	
 	}
 	"AvatarImage"
 	{
-			"xpos"			"9999"
+		"xpos"			"9999"
+		
+		"visible"		"0"
+		"enabled"		"0"
 	}	
 }

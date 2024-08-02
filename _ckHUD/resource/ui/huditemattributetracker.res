@@ -19,7 +19,7 @@
 		"Image"
 		{
 			"xpos"			"5"
-			"image"			"replay/thumbnails/icons/button_quests_pda"
+			"image"			"replay/thumbnails/icons/button_quests_pda" // may be redundant
 		}
 	}
 }

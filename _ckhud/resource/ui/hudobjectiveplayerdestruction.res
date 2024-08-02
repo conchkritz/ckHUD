@@ -204,6 +204,7 @@
 				"visible"				"1"
 				"enabled"				"1"
 				
+				"image"					"../vgui/replay/thumbnails/hud/objectives_corepanel_bg"
 				"zpos"					"1"
 			}
 
@@ -299,22 +300,22 @@
 			{
 				"VictoryLabel"
 				{
-					"fgcolor"		"TanLight"		
+					"fgcolor"		"colorwhite"		
 				}
 
 				"VictoryLabelShadow"
 				{
-					"fgcolor"		"Black"		
+					"fgcolor"		"colorblack"		
 				}
 
 				"VictoryLabelTime"
 				{
-					"fgcolor"		"TanLight"		
+					"fgcolor"		"colorwhite"		
 				}
 
 				"VictoryLabelTimeShadow"
 				{
-					"fgcolor"		"Black"		 
+					"fgcolor"		"colorblack"		 
 				}
 			}
 
@@ -340,22 +341,22 @@
 			{
 				"VictoryLabel"
 				{
-					"fgcolor"		"TanLight"		
+					"fgcolor"		"colorwhite"		
 				}
 
 				"VictoryLabelShadow"
 				{
-					"fgcolor"		"Black"		
+					"fgcolor"		"colorblack"		
 				}
 
 				"VictoryLabelTime"
 				{
-					"fgcolor"		"TanLight"		 
+					"fgcolor"		"colorwhite"		 
 				}
 
 				"VictoryLabelTimeShadow"
 				{
-					"fgcolor"		"Black"		
+					"fgcolor"		"colorblack"		
 				}
 			}
 
@@ -382,12 +383,12 @@
 		{
 			"Score"
 			{
-				"fgcolor"		"TanLight"		
+				"fgcolor"		"colorwhite"		
 			}	
 		
 			"ScoreShadow"
 			{
-				"fgcolor"		"Black"		
+				"fgcolor"		"colorblack"		
 			}
 		}
 
@@ -395,12 +396,12 @@
 		{
 			"Score"
 			{
-				"fgcolor"		"TanLight"	
+				"fgcolor"		"colorwhite"	
 			}	
 		
 			"ScoreShadow"
 			{
-				"fgcolor"		"Black"		
+				"fgcolor"		"colorblack"		
 			}
 		}
 
@@ -408,12 +409,12 @@
 		{
 			"IntelValue"
 			{
-				"fgcolor"		"TanLight"		
+				"fgcolor"		"colorwhite"		
 			}
 
 			"IntelValueShadow"
 			{
-				"fgcolor"		"Black"
+				"fgcolor"		"colorblack"
 			}
 		}
 
@@ -421,12 +422,12 @@
 		{
 			"IntelValue"
 			{
-				"fgcolor"		"TanLight"		
+				"fgcolor"		"colorwhite"		
 			}
 
 			"IntelValueShadow"
 			{
-				"fgcolor"		"Black"	
+				"fgcolor"		"colorblack"	
 			}
 		}
 	}
@@ -447,12 +448,12 @@
 		
 		"CountdownLabelTime"
 		{
-			"fgcolor"		"TanLight"		
+			"fgcolor"		"colorwhite"		
 		}
 
 		"CountdownLabelTimeTimeShadow"
 		{
-			"fgcolor"		"Black"		
+			"fgcolor"		"colorblack"		
 		}
 	}
 }

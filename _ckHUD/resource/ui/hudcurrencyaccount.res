@@ -25,6 +25,9 @@
 	"WhiteBG"
 	{
 		"xpos"			"99999"
+		
+		"visible"		"0"
+		"enabled"		"0"
 	}	
 	
 	"GreenBG"

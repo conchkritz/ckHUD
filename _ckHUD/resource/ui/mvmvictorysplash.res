@@ -4,7 +4,7 @@
 	{
 		"SplashBackground"
 		{
-			"image"				"/replay/thumbnails/hud/ammo_red_bg"
+//			"image"				"/replay/thumbnails/hud/ammo_red_bg"
 		}
 		
 		"SplashLabelShadow"

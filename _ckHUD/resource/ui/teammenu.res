@@ -9,11 +9,17 @@
 	"MenuBG"
 	{
 		"xpos"			"9999"
+		
+		"visible"		"0"
+		"enabled"		"0"
 	}
 
 	"MapInfo"
 	{
 		"xpos"			"9999"
+		
+		"visible"		"0"
+		"enabled"		"0"
 	}
 
 	"MapName"
@@ -311,21 +317,33 @@
 	"teambutton0"
 	{
 		"xpos"				"9999"
+		
+		"visible"		"0"
+		"enabled"		"0"
 	}	
 	
 	"teambutton1"
 	{
 		"xpos"				"9999"
+		
+		"visible"		"0"
+		"enabled"		"0"
 	}	
 	
 	"teambutton2"
 	{
 		"xpos"				"9999"
+		
+		"visible"		"0"
+		"enabled"		"0"
 	}	
 	
 	"teambutton3"
 	{
 		"xpos"				"9999"
+		
+		"visible"		"0"
+		"enabled"		"0"
 	}
 	
 	"BlueFrame"
@@ -522,49 +540,79 @@
 	"HighlanderLabelShadow" 
 	{
 		"xpos"			"9999"
+		
+		"visible"		"0"
+		"enabled"		"0"
 	}
 	
 	"TeamsFullArrow"
 	{
 		"xpos"			"9999"
+		
+		"visible"		"0"
+		"enabled"		"0"
 	}
 	
 	"bluedoor"
 	{
 		"xpos"			"9999"
+		
+		"visible"		"0"
+		"enabled"		"0"
 	}	
 	
 	"reddoor"
 	{
 		"xpos"			"9999"
+		
+		"visible"		"0"
+		"enabled"		"0"
 	}		
 	
 	"autodoor"
 	{
 		"xpos"			"9999"
+		
+		"visible"		"0"
+		"enabled"		"0"
 	}		
 	
 	"spectate"
 	{
 		"xpos"			"9999"
+		
+		"visible"		"0"
+		"enabled"		"0"
 	}	
 	
 	"ShadedBar"
 	{
 		"xpos"			"9999"
+		
+		"visible"		"0"
+		"enabled"		"0"
 	}	
 	
-	"Footer" [$X360]
+	"Footer"
 	{
 		"xpos"	"9999"
+		
+		"visible"		"0"
+		"enabled"		"0"
 	}		
 	
 	"redcount"
 	{
 		"xpos"		"9999"
+		
+		"visible"		"0"
+		"enabled"		"0"
 	}
 	"bluecount"
 	{
 		"xpos"		"9999"
+		
+		"visible"		"0"
+		"enabled"		"0"
 	}
 }

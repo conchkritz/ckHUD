@@ -160,11 +160,17 @@
 	"MenuBG"
 	{
 		"xpos"			"9999"
+		
+		"visible"		"0"
+		"enabled"		"0"
 	}
 	
 	"ShadedBar"
 	{
 		"xpos"			"9999"
+		
+		"visible"		"0"
+		"enabled"		"0"
 	}						
 	
 //	"MessageTitle"

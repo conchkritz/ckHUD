@@ -21,11 +21,17 @@
 	"PlayerStatusClassImageBG"
 	{
 		"xpos"			"9999"	
+		
+		"visible"		"0"
+		"enabled"		"0"
 	}
 
 	"classmodelpanelBG"
 	{
 		"xpos"			"9999"	
+		
+		"visible"		"0"
+		"enabled"		"0"
 	}
 
 	"classmodelpanel"

@@ -3,6 +3,9 @@
 	"Skip"
 	{
 		"xpos"			"9999"
+		
+		"visible"		"0"
+		"enabled"		"0"
 	}
 	
 	"HiddenPrevPageButton"
@@ -40,6 +43,9 @@
 	"Continue" 
 	{
 		"xpos"			"9999"
+		
+		"visible"		"0"
+		"enabled"		"0"
 	}
 	
 	"introbuttonnull" [$WIN32]
@@ -106,17 +112,26 @@
 	
 	"Back"
 	{
-		"xpos"			"999"
+		"xpos"			"9999"
+		
+		"visible"		"0"
+		"enabled"		"0"
 	}
 
 	"ReplayVideo"
 	{
 		"xpos"			"9999"
+		
+		"visible"		"0"
+		"enabled"		"0"
 	}
 	
 	"ShadedBar"
 	{
 		"xpos"			"9999"
+		
+		"visible"		"0"
+		"enabled"		"0"
 	}		
 	
 	"Background"
@@ -137,7 +152,7 @@
 	"VideoPanel"
 	{
 		"xpos"			"c-145"
-		"ypos"			"c-170"
+		"ypos"			"c-162"
 		"zpos"			"3"		
 
 		"start_delay"	"0"
@@ -149,12 +164,12 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"VideoPanelBG"
 		
-		"xpos"			"c-145"
+		"xpos"			"c-155"
 		"ypos"			"c-170"
 		"zpos"			"3"		
 		
-		"wide"			"300"
-		"tall"			"225"
+		"wide"			"318"
+		"tall"			"242"
 		
 		"visible"		"1"
 		"enabled"		"1"
@@ -165,15 +180,20 @@
 	"MenuBG"
 	{
 		"xpos"			"9999"
+		
+		"visible"		"0"
+		"enabled"		"0"
 	}					
 	
 	"VideoCaption"
 	{
 		"xpos"			"c-145"
-		"ypos"			"c40"
+		"ypos"			"c62"
 		"zpos"			"6"
 		
 		"wide"			"295"
 		"tall"			"70"
+		
+//		"fgcolor_override"	"colorwhite"
 	}
 }

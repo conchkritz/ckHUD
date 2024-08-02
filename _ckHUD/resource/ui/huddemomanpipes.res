@@ -3,11 +3,17 @@
 	"background"
 	{
 		"xpos"			"9999"		
+		
+		"visible"		"0"
+		"enabled"		"0"
 	}
 	
 	"ChargeLabel"
 	{
 		"xpos"			"9999"
+		
+		"visible"		"0"
+		"enabled"		"0"
 	}
 
 	"ChargeMeter"
@@ -39,6 +45,9 @@
 		"PipeIcon"
 		{
 			"xpos"			"9999"
+		
+			"visible"		"0"
+			"enabled"		"0"
 		}
 		
 		"PipeIconFont"
@@ -116,6 +125,9 @@
 	
 	"NoPipesPresentPanel"
 	{
-		"xpos"			"99999"
+		"xpos"			"9999"
+		
+		"visible"		"0"
+		"enabled"		"0"
 	}				
 }

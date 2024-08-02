@@ -39,6 +39,9 @@
 	"ClassLabel"
 	{
 		"xpos"			"9999"
+		
+		"visible"		"0"
+		"enabled"		"0"
 	}
 	
 	"selectedrecipecontainer"
@@ -111,5 +114,8 @@
 	"ShowExplanationsButton"
 	{
 		"xpos"			"9999"
+		
+		"visible"		"0"
+		"enabled"		"0"
 	}
 }

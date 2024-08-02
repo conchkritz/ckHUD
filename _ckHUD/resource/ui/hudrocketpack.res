@@ -10,11 +10,17 @@
 	"ItemEffectMeterBG"
 	{
 		"xpos"			"9999"
+		
+		"visible"		"0"
+		"enabled"		"0"
 	}
 	
 	"ItemEffectIcon"
 	{
 		"xpos"			"9999"
+		
+		"visible"		"0"
+		"enabled"		"0"
 	}
 	
 	"ItemEffectMeterDarker"
@@ -42,7 +48,7 @@
 		"xpos"					"9999"
 	}
 	
-	"ItemEffectMeterLabel2" // i thinks theres a 2nd one because of color??
+	"ItemEffectMeterLabel2" // i thinks theres a 2nd one because of color?? // literally no idea what i was cooking
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterLabel2"

@@ -45,6 +45,9 @@
 	"BlueTeamImage"
 	{
 		"xpos"			"9999"
+		
+		"visible"		"0"
+		"enabled"		"0"
 
 		if_mvm
 		{
@@ -76,6 +79,9 @@
 	"RedTeamImage"
 	{
 		"xpos"			"9999"
+		
+		"visible"		"0"
+		"enabled"		"0"
 
 		if_mvm
 		{
@@ -356,6 +362,9 @@
 	"ServerTimeLeftInsetBG"
 	{
 		"xpos"			"9999"
+		
+		"visible"		"0"
+		"enabled"		"0"
 
 		if_mvm
 		{
@@ -494,6 +503,9 @@
 	{
 		"xpos"			"9999"
 		
+		"visible"		"0"
+		"enabled"		"0"
+		
 		if_mvm
 		{
 			"visible"		"0"
@@ -578,11 +590,17 @@
 	}
 	"ClassImage"
 	{
-		"xpos"			"99999"
+		"xpos"			"9999"
+		
+		"visible"		"0"
+		"enabled"		"0"
 	}
 	"classmodelpanel"
 	{
 		"xpos"			"9999"
+		
+		"visible"		"0"
+		"enabled"		"0"
 
 		"visible"		"0"
 
@@ -595,6 +613,9 @@
 	{
 		"xpos"			"9999"
 		
+		"visible"		"0"
+		"enabled"		"0"
+		
 		if_mvm
 		{
 			"xpos"			"9999"
@@ -603,6 +624,9 @@
 	"PlayerNameLabel"
 	{
 		"xpos"			"9999"
+		
+		"visible"		"0"
+		"enabled"		"0"
 		
 		if_mvm
 		{
@@ -636,11 +660,14 @@
 	}
 	"HorizontalLine"
 	{
-		"xpos"			"99999"
+		"xpos"			"9999"
+		
+		"visible"		"0"
+		"enabled"		"0"
 		
 		if_mvm
 		{
-			"xpos"			"99999"
+			"xpos"			"9999"
 			"visible"		"0"
 		}
 	}
