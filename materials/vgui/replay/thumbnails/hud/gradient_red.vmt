@@ -1,6 +1,6 @@
 "UnlitGeneric"
 {
-	"$baseTexture" "HUD/gradient_red"
+	"$baseTexture" "vgui/replay/thumbnails/hud/gradient_red"
 	"$translucent" 1
 	"$vertexcolor" 1
 	"$no_fullbright" 1

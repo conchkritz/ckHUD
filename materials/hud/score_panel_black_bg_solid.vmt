@@ -13,9 +13,9 @@
 	$distancealphafromdetail 1
 
 	// give it a slight outer soft edge
-	$softedges 0 // 1
-	$edgesoftnessstart 0 //0.5
-    $edgesoftnessend 0 //0.3
+	$softedges 1 // 1
+	$edgesoftnessstart 0.5 //0.5
+    $edgesoftnessend 0.3 //0.3
 	$scaleedgesoftnessbasedonscreenres 1
 
 	// give it a white outline
@@ -27,7 +27,7 @@
 	$outlineend1 0 // 0.69
 	$scaleoutlinesoftnessbasedonscreenres 1
 	// and a drop shadow
-	$glow 1
+	$glow 0
 	$glowcolor "[0 0 0]"
 	$glowalpha 0.45
 	$glowstart 0.1

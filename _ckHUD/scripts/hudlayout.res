@@ -320,5 +320,10 @@
 	{
 		"xpos"	"9999"
 	}
+	
+	HudObjectiveStatus // this is for player destruction, the core thingy counter renders under the health cross, we want it to be like the mvm cash
+	{
+		"zpos"	"2"
+	}	
 }
 
