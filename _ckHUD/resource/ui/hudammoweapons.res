@@ -66,14 +66,14 @@
 		"labelText"		"%AmmoInReserve%"
 	}	
 	
-	"AmmoInReserveShadow"
+	"AmmoInReserveShadow" // we change tall for more shadow
 	{
-		"xpos"			"-3"
-		"ypos"			"-3"
+		"xpos"			"-2"
+		"ypos"			"-2"
 		"zpos"			"7"
 		
 		"wide"			"f0"
-		"tall"			"27"
+		"tall"			"28"
 		
 		"textAlignment"	"west"	
 	
