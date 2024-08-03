@@ -1184,22 +1184,20 @@
 		}
 	}			
 	
+	
 	"ConsoleButton"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"ConsoleButton"
 		
-		"xpos"			"9999" // -26
+		"xpos"			"9999"
 		"ypos"			"0"
 		"zpos"			"6"
+			
+		"wide"			"26"
+		"tall"			"26"
 		
-		"wide"			"25"
-		"tall"			"25"
-
-		"visible"		"0"
-		"enabled"		"0" // with version .5 i am making everything round so there isnt enough space now with the not sharp corner mm border
-
-		"pin_to_sibling"	"ReportBugButton"
+		"pin_to_sibling"	"ReportBugButton" // ConsoleButton
 		"image_drawcolor"	"colorwhite"
 
 		"SubButton"
@@ -1211,21 +1209,23 @@
 			"ypos"			"0"
 			
 			"wide"			"26"
-			"tall"			"25"
+			"tall"			"26"
 
 			"textinsetx"	"9999"
 
+			
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
-			
+
 			"defaultBgColor_override"	"no"
 			"armedBgColor_override"		"no"
+					
+			"image_drawcolor"	"46 43 42 255"
+			"image_armedcolor"	"235 226 202 255"
 				
-			"image_drawcolor"	"colorwhite"
-			"image_armedcolor"	"colorwhite"
-				
-			"border_default"	"MainMenuBGBorderInner"
-			"border_armed"		"NoBorder"
+			"border_default"            "MainMenuButtonDefault"
+			"border_armed"              "MainMenuButtonArmed"
+			"border_depressed"			"MainMenuButtonDepressed"
 		
 			"SubImage"
 			{
@@ -1234,8 +1234,8 @@
 				"xpos"			"5"
 				"ypos"			"5"
 				"zpos"			"1"
-				"wide"			"15"
-				"tall"			"15"
+				"wide"			"16"
+				"tall"			"16"
 				"visible"		"1"
 				"enabled"		"1"
 				"image"			"../vgui/replay/thumbnails/icons/glyph_console"
@@ -1255,7 +1255,7 @@
 			
 		"wide"			"26"
 		"tall"			"26"
-		
+				
 		"pin_to_sibling"	"ReportBugButton" // ConsoleButton
 		"image_drawcolor"	"colorwhite"
 

@@ -4,7 +4,7 @@
 #base "../../_ckhud/resource/preload/preload_scrapped.res"
 #base "../../_ckhud/resource/preload/preload.res"
 
-#base "../../_ckhud/resource/tools.res" // probably defunct now
+#base "../../__customization/_enabled/console instead of reload button/resource/ui/mainmenuoverride.res" // okay so aparently if i let this run it bricks the console button for no reason whatsoever?????????????????
 
 #base "../../_ckhud/resource/ui/MainMenuOverride.res"
 #base "../../_tf2/resource/ui/MainMenuOverride.res"

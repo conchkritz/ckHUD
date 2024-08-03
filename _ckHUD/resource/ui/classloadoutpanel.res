@@ -164,7 +164,7 @@
 		"armedFgColor_override"			"0 0 0 0"
 		"defaultbgcolor_override"		"colorpanelredopaque"
 		"depressedbgcolor_override"		"colordarkred"
-		"armedbgcolor_override"			"255 92 92 255"
+		"armedbgcolor_override"			"200 92 92 255"
 		
 		"image_drawcolor"	"235 226 202 255"
 		"image_armedcolor"	"235 226 202 255"
