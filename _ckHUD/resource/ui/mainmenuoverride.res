@@ -171,6 +171,9 @@
 			"SubImage"
 			{
 				"image"			"replay/thumbnails/icons/button_quests_pda"
+				
+				"wide"			"32"
+				"tall"			"32"
 			}		
 		}
 	}
