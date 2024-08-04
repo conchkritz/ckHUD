@@ -66,6 +66,24 @@
 			"y"			"0"
 			"width"		"243"
 			"height"	"110"
+		}		
+		
+		"obj_status_alert_background"
+		{
+			"file"		"vgui/replay/thumbnails/hud/eng_status_area_tele_alrt"
+			"x"			"0"
+			"y"			"0"
+			"width"		"80"
+			"height"	"64"
+		}
+		
+		"obj_status_alert_background_tall"
+		{
+			"file"		"vgui/replay/thumbnails/hud/eng_status_area_sentry_alrt"
+			"x"			"0"
+			"y"			"0"
+			"width"		"80"
+			"height"	"110"
 		}
     }
 }

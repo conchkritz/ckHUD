@@ -582,14 +582,42 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../vgui/progress_bar_red"
-	}	
-	"icon_obj_white2"
+	}		
+	"eng_status_area_sentry_alrt"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"BTCross"
 		"xpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../vgui/replay/thumbnails/sprites/obj_icons/icon_obj_white"
+		"image"			"../hud/eng_status_area_sentry_alrt"
+	}			
+	"eng_status_area_tele_alrt"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"BTCross"
+		"xpos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../hud/eng_status_area_tele_alrt"
+	}			
+	"death_panel_blue_bg"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"BTCross"
+		"xpos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../hud/death_panel_blue_bg"
+	}			
+	"death_panel_red_bg"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"BTCross"
+		"xpos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../hud/death_panel_red_bg"
 	}
+	
 }

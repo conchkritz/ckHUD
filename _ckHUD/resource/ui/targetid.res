@@ -130,10 +130,10 @@
 		"tall"			"32"
 	}	
 	
-    "bh_AmmoKSPin"
+    "AmmoKSPin"
     {
         "ControlName"                                               "Label"
-        "fieldName"                                                 "bh_AmmoKSPin"
+        "fieldName"                                                 "AmmoKSPin"
         "xpos"                                                      "51"
         "ypos"                                                      "19"
         "zpos"                                                      "0"
@@ -146,7 +146,7 @@
 
     "AmmoIcon"
     {
-        "pin_to_sibling"                                            "bh_AmmoKSPin"
+        "pin_to_sibling"                                            "AmmoKSPin"
         "pin_corner_to_sibling"                                     "PIN_TOPLEFT"
         "pin_to_sibling_corner"                                     "0"
 
@@ -158,7 +158,7 @@
 
     "KillstreakIcon"
     {
-        "pin_to_sibling"                                            "bh_AmmoKSPin"
+        "pin_to_sibling"                                            "AmmoKSPin"
         "pin_corner_to_sibling"                                     "PIN_TOPLEFT"
         "pin_to_sibling_corner"                                     "0"
 

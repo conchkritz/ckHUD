@@ -74,7 +74,7 @@
 		"fieldName"		"MapImage"
 		"xpos"			"c0"
 		"ypos"			"90"
-		"zpos"			"2"
+		"zpos"			"1"
 	}
 
 	"MapInfoContinue"

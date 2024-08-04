@@ -55,7 +55,7 @@
 		
 		"defaultFgColor_override" 		"no"
 		"defaultbgcolor_override"		"no" // old
-		"armedbgcolor_override"			"184 235 255 50" // new
+		"armedbgcolor_override"			"101 173 223 50" // new
 		"armedFgColor_override" 		"colorwhite"
 		"depressedFGColor_override"		"colorwhite"
 		
@@ -105,7 +105,7 @@
 		
 		"defaultFgColor_override" 		"no"
 		"defaultbgcolor_override"		"184 56 59 0" // old
-		"armedbgcolor_override"			"255 135 135 50" // new
+		"armedbgcolor_override"			"240 83 85 50" // new
 		"armedFgColor_override" 		"colorwhite"
 		"depressedFGColor_override"		"colorwhite"
 		
