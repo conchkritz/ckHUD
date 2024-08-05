@@ -32,7 +32,7 @@
 	
 	"CountTextShadow"
 	{
-		"fgcolor"		"colorblackalt"
+		"fgcolor"		"colorblack"
 	}
 	
 	"CountText"

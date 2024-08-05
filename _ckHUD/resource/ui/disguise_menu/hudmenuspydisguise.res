@@ -99,7 +99,7 @@
 		"tall"			"39"
 
 		"textAlignment"	"Left"
-		"fgcolor"		"colorblackalt"
+		"fgcolor"		"colorblack"
 	}	
 	
 	"ToggleLabel"

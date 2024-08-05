@@ -325,5 +325,14 @@
 	{
 		"zpos"	"2"
 	}	
+	
+	HudArenaPlayerCount
+	{
+		"xpos"					"0"
+		"ypos"					"r41"
+		
+		"wide"					"f0"
+		"tall"					"50"
+	}	
 }
 

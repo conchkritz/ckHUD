@@ -142,11 +142,11 @@
 		"paintbackground"	"1"
 
 		"defaultBgColor_override"	"tandarker"
-		"defaultFgColor_override"	"colordarkwhite"
+		"defaultFgColor_override"	"tandarkold"
 		"armedBgColor_override"	"tandarker"
-		"armedFgColor_override"	"colordarkwhite"
+		"armedFgColor_override"	"tandarkold"
 		"depressedBgColor_override"	"tandarker"
-		"depressedFgColor_override"	"colordarkwhite"
+		"depressedFgColor_override"	"tandarkold"
 	}
 	
 	"introbuttonnull" // null (duh)
@@ -172,11 +172,11 @@
 		"paintbackground"	"1"
 
 		"defaultBgColor_override"	"tandarker"
-		"defaultFgColor_override"	"colordarkwhite"
+		"defaultFgColor_override"	"tandarkold"
 		"armedBgColor_override"	"tandarker"
-		"armedFgColor_override"	"colordarkwhite"
+		"armedFgColor_override"	"tandarkold"
 		"depressedBgColor_override"	"tandarker"
-		"depressedFgColor_override"	"colordarkwhite"
+		"depressedFgColor_override"	"tandarkold"
 	}
 	
 	"HiddenNextPageButton"

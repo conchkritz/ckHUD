@@ -12,14 +12,14 @@ event DamagedPlayer
 
 event HudHealthBonusPulse
 {
-	Animate	PlayerStatusHealthBonusImage 	Alpha		"200"					Linear 0.2 0.4
-	Animate	PlayerStatusHealthBonusImage 	Alpha		"200"					Linear 0.2 0.4
+	Animate	PlayerStatusHealthBonusImage 	Alpha		"255"		spline 0.0 1.7
+	Animate	PlayerStatusHealthBonusImage 	Alpha		"0"			spline 1.7 0.45
+
+	Animate	OverhealCross 					Alpha		"215"		linear 0.0 0.2
 	
 	Animate	PlayerStatusHealthValue			FgColor		"overheal" 				Linear 0 0.1
 
-	Animate TargetHealthBG					BgColor		"overhealbg"			Linear 0 0.1
-	
-	RunEvent HudHealthBonusPulseLoop	0.4
+	RunEvent HudHealthBonusPulse	1.9
 }
 
 // call to loop HudHealthBonusPulse
@@ -34,6 +34,7 @@ event HudHealthBonusPulseStop
 	StopEvent HudHealthBonusPulse 0.0
 	StopEvent HudHealthBonusPulseLoop 0.0
 	
+	Animate	OverhealCross 					Alpha		"0"						Linear 0 0.1
 	Animate	PlayerStatusHealthValue 		FgColor		"health"				Linear 0 0.1
 	Animate TargetHealthBG					BgColor		"no"					Linear 0 0.1
 }

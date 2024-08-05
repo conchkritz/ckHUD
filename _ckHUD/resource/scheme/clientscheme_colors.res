@@ -8,25 +8,20 @@ Scheme
 	
 		// GENERAL
 		"colorwhite"			"235 226 202 255"
-//		"colordullwhite"		"200 200 200 255" // this needs changing
-		"colordarkwhite"		"117 107 94 255" // this needs changing
-//		"colorlightgray"		"70 70 70 255"
-//		"colorgray"				"50 50 50 255"
-//		"colordarkgray"			"40 40 40 255"
+		"colordarkwhite"		"117 107 94 255" // change all of these to tandarkold
 		"colorblack"			"46 43 42 255"
-		"colorblackalt"			"46 43 42 255" // eve hud? // delete and replace with colorblack
 		"colortransparentgray"	"0 0 0 100"
 
-		// TEAMS
+		// TEAMS // change to color panel values
 		"colorred"				"184 56 59 255" // team spirit
 		"colorblu"				"88 133 162 255" // team spirit
 		"colordarkred"			"128 48 32 255" // value of teamwork
 		"colordarkblu"			"40 57 77 255" // an air of debonair
 		
 		// HEALTH (shares color with spectatorguihealth (target id and other stuff))
-		"health"				"236 226 216 255" // default health color
+		"health"				"234 226 216 255" // default health color
 		"overheal"				"75 175 255 255" // overhealed
-		"overhealbg"			"255 255 255 125" // overheal spectatorguihealth
+		"overhealbg"			"255 255 255 125" // overheal spectatorguihealth // unused?
 		
 		"hurt"					"200 45 45 255"	// low hp
 		"hurtdark"				"100 45 45 255"	// low hp (fades into annd back to low)
@@ -35,33 +30,33 @@ Scheme
 		"healthshadow"			"46 43 42 255" // eve hud?
 	
 		// metal
-		"metalicon"				"236 226 216 255" // thanks techo for genius idea
+		"metalicon"				"234 226 216 255" // thanks techo for genius idea
 		"metaliconshadow"		"46 43 42 255"
-		"metal"					"236 226 216 255"
+		"metal"					"234 226 216 255"
 		"metalshadow"			"46 43 42 255"
 		
 		// sticky
-		"stickyicon"				"236 226 216 255" //
+		"stickyicon"				"234 226 216 255" //
 		"stickyiconshadow"		"46 43 42 255"
-		"sticky"					"236 226 216 255"
+		"sticky"					"234 226 216 255"
 		"stickyshadow"			"46 43 42 255"
-		"stickymeterfg"			"236 226 216 255"
+		"stickymeterfg"			"234 226 216 255"
 		
 		// RESERVE
-		"ammo"					"236 226 216 255" // default ammo color
+		"ammo"					"234 226 216 255" // default ammo color
 		"lowammo"				"200 45 45 255" // low ammo
 		"lowammodark"			"100 45 45 255" // low ammo (fades into annd back to low)
 		"ammoshadow"			"46 43 42 255" // eve hud?
 
 		// CLIP
-		"ammoclip"				"236 226 216 255" // default ammo clip color
+		"ammoclip"				"234 226 216 255" // default ammo clip color
 		"lowammoclip"			"200 45 45 255" // low ammo clip 
 		"lowammodarkclip"		"100 45 45 255" // low ammo clip (fades into annd back to low)	
 		"ammoshadowclip"		"46 43 42 255" // eve hud?
 
 
 		// UBERCHARGE
-		"uberchargebase"		"236 226 216 255" // base uber color
+		"uberchargebase"		"234 226 216 255" // base uber color
 		"uberchargelabel2"		"235 226 202 255"
 		"ubercharge1"			"150 28 0 255" // uber 1
 		"ubercharge2"			"255 28 0 255" // uber 2 (fades into annd back to 1)
@@ -93,8 +88,6 @@ Scheme
 		"pipboydarker"			"0 14 0 255"
 		"pipboyoutline"			"0 130 1 255"
 		
-//		"panelbrown"			"46 43 42 150" // obosolete due to colorpanel colors, replace soon
-
 		// MVM CURRENCY
 		"currencybad"			"210 55 55 255"
 
@@ -116,7 +109,7 @@ Scheme
 		"colorpanelred"		"189 58 60 200"
 
 
-		"TanLightest"				"236 226 216 255" // supposed to be used for killstreak, will change soon
+		"TanLightest"				"234 226 216 255" // supposed to be used for killstreak, will change soon
 
 		//---------------------------------------------
 		// MODDED DEFAULT COLORS
@@ -125,7 +118,7 @@ Scheme
 		"TanLight"				"235 226 202 255" // change this w/ colorwhite
 		"White"					"236 236 236 255"
 //		"Black"					"20 20 20 255"
-		"Tandark"				"242 242 242 255" // only for advanced options
+		"Tandark"				"235 226 202 255" // only for advanced options
 		
 //		"HUDBlueTeamSolid"		"88 133 162 255"
 //		"HUDRedTeamSolid"		"184 56 59 255"

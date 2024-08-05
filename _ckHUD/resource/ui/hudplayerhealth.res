@@ -20,6 +20,25 @@
 		"tall"			"40"
 	}		
 	
+	"OverhealCross"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"OverhealCross"
+		"xpos"			"0" // 120
+		"ypos"			"0"
+		"zpos"			"5"
+		
+		"wide"			"40"
+		"tall"			"40"
+		
+		"scaleImage"	"1"	
+		"image"			"../vgui/replay/thumbnails/hud/health_cross_overheal"
+		
+		"alpha"			"0"
+		
+		"pin_to_sibling"	"PlayerStatusHealthImage"
+	}		
+	
 	"PlayerStatusHealthImageBG"
 	{
 		"xpos"			"2"

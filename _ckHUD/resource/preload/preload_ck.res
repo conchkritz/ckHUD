@@ -617,7 +617,16 @@
 		"xpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../hud/death_panel_red_bg"
+		"image"			"../hud/death_panel_red_bg" // 		"image"			"../vgui/replay/thumbnails/hud/health_cross_overheal"
 	}
-	
+	"health_cross_overheal"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"BTCross"
+		"xpos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../vgui/replay/thumbnails/hud/health_cross_overheal"
+
+	}
 }

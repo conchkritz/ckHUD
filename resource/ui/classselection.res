@@ -1,3 +1,5 @@
+#base "../../__customization/highrez class select/_enabled/resource/ui/classselection.res"
+
 #base "../../_ckhud/resource/ui/classselection.res"
 #base "../../_tf2/resource/ui/classselection.res"
 
