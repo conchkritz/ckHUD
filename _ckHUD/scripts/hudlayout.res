@@ -224,9 +224,9 @@
 		"wide"	"300"
 		"tall"	"160"
 		
-		"blue_active_xpos"			"10"
+		"blue_active_xpos"			"49"
 	
-		"red_active_xpos"			"213"
+		"red_active_xpos"			"173"
 	}	
 	
 	HudTournament

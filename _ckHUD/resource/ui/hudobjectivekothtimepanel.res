@@ -2,11 +2,11 @@
 {	
 	"BlueTimer"
 	{
-		"xpos"				"-7"
+		"xpos"				"33"
 		
 		if_match
 		{
-			"xpos"				"-7"
+			"xpos"				"33"
 			"ypos"				"0"
 			"zpos"				"2"
 			"wide"				"100"
@@ -56,11 +56,11 @@
 
 	"RedTimer"
 	{
-		"xpos"				"196"
+		"xpos"				"157"
 	
 		if_match
 		{
-			"xpos"					"196"
+			"xpos"					"157"
 			"ypos"				"0"
 			"zpos"				"2"
 			
@@ -114,14 +114,14 @@
 		
 	"ActiveTimerBG"
 	{
-		"ypos"				"10" // change xpos in hudlayout
+		"ypos"				"9" // change xpos in hudlayout
 
-		"wide"				"76"
-		"tall"				"31"
+		"wide"				"78"
+		"tall"				"33"
 				
-		if_match
+		if_match // does not show up anyways with this not here so why did i put it here? maybe from eve hud?
 		{
-			"tall"				"0"
+			"tall"				"32"
 		}
 	}
 }

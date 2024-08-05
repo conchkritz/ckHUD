@@ -1,5 +1,7 @@
 #base "../__customization/_enabled/kritzhud/scripts/hudlayout.res"
 
+#base "../__customization/_enabled/cp_sulfur koth hud/scripts/cp_sulfurkoth.res"
+
 #base "../__customization/_enabled/crosshair/scripts/crosshair.res"
 #base "../__customization/_enabled/hitmarker/scripts/hitmarker.res"
 #base "../__customization/_enabled/transparent viewmodels/scripts/transparentviewmodel.res"
