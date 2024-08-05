@@ -28,6 +28,6 @@ Scheme
 		// CHudMenu
 		"ItemColor"		"colorwhite"	// default 255 167 42 255
 		"MenuColor"		"colorwhite"
-		"MenuBoxBg"		"colorpanelbrown"
+		"MenuBoxBg"		"51 48 46 115"
 	}
 }
