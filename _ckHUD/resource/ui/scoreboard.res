@@ -648,7 +648,7 @@
 	"MapName"
 	{
 		"textAlignment"	"center"
- 		"xpos"			"187"
+ 		"xpos"			"188"
 		"ypos"			"417"
 
 		"fgcolor"		"colorwhite"
