@@ -1,10 +1,10 @@
-# ckHUD
+
+# ![shortlogo](https://github.com/user-attachments/assets/5d63fd3e-a287-40a9-8a59-1798b2e4888e)
+**A TF2 flavored hud that tries to remove the white borders and keep the rounded corners.**
+
+**Heavily inspired (and steals things) from e.v.e HUD.**
 
 ![Main Menu Version 0.5](https://github.com/user-attachments/assets/54018793-aa37-4034-80f2-61d22180e90d)
-
-A TF2 flavored hud that tries to remove the white borders and keep the rounded corners.
-
-Heavily inspired (and steals things) from e.v.e HUD.
 
 [**Imgur Album**](https://imgur.com/a/oX2zvhA)
 
