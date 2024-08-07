@@ -4,7 +4,6 @@
 	{
 		"xpos"				"c-255"
 		"ypos"				"c108"
-//		"zpos"				"temp"
 	}
 
 	"ServerChangeMessage"
@@ -22,9 +21,5 @@
 			"ypos"			"390"
 			"fgcolor"		"colorwhite"		
 		}
-	}
-	
-	"WaveLossPanel"  // hudpvewinpanel?!?!?!?
-	{
 	}
 }

@@ -1319,7 +1319,7 @@
 		"font"			"hudfont12"
 		"textAlignment"	"east"
 		
-		"labelText" 	"ckHUD 0.5"
+		"labelText" 	"ckHUD 0.5.1"
 		
 		"wide_minmode"			"145"
 		"labelText_minmode" 	"pls turn off minmode"

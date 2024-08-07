@@ -4,7 +4,6 @@
 	{
 		"xpos"	"c-370" // c-240
 		"ypos"	"-81" // -125
-		"zpos"	"1"
 		
 		"wide"	"f0"
 		"tall"	"f0"
@@ -315,8 +314,6 @@
 	
 	"CurrencyStatusPanel" // why
 	{
-		"ControlName"		"CCurrencyStatusPanel"
-		"fieldName"			"CurrencyStatusPanel"
 		"xpos"				"c-286"
 		"ypos"				"c22"
 		"zpos"				"99"
@@ -329,7 +326,7 @@
 	
 	HudObjectiveStatus // this is for player destruction, the core thingy counter renders under the health cross, we want it to be like the mvm cash
 	{
-		"zpos"	"2"
+//		"zpos"	"2" // trying to change the zpos somehow crashes mvm??????????????????????? wtf????????
 	}	
 	
 	HudArenaPlayerCount

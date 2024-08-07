@@ -357,14 +357,14 @@ event QuestItem_Options_Flash
 //===========================================
 // motd
 
-event AnimHasMOTDBlink
+event HasMOTDBlink
 {
 }
 
-event AnimHasMOTDBlinkLoop
+event HasMOTDBlinkLoop
 {
 }
 
-event AnimHasMOTDBlinkStop
+event HasMOTDBlinkStop
 {
 }
