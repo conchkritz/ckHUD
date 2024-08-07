@@ -14,7 +14,7 @@
 		"labelText"			"%Health%"
 		"textAlignment"		"center"
 		"font"				"hudfont12"
-		"fgcolor"			"colorwhite"
+		"fgcolor"			"health"
 	}
 	
 	"PlayerStatusHealthValueSpectatorShadow"

@@ -6,3 +6,13 @@ event CompetitiveGame_RestoreChatWindow
     RunEvent HudLowAmmoPulseStop 0.1
     RunEvent HudMedicChargedStop 0.1
 }
+
+event HudSnapShotReminderIn
+{
+    Animate ScreenshotPanel Position "c-83 -50" Linear 0.0 0.001
+    Animate ScreenshotPanel Position "c-83 13" Spline 0.001 0.2
+    RunEvent HudHealthDyingPulseStop 0.1
+    RunEvent HudHealthBonusPulseStop 0.1
+    RunEvent HudLowAmmoPulseStop 0.1
+    RunEvent HudMedicChargedStop 0.1
+}
