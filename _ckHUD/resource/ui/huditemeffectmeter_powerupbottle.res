@@ -87,10 +87,10 @@
 		"fgcolor"				"tanlightest"
 	}
 	
-	"ItemEffectMeterCountShadow" // change wide for more shadow
+	"ItemEffectMeterCanteenShadow" // change wide for more shadow
 	{
 		"ControlName"			"CExLabel"
-		"fieldName"				"ItemEffectMeterCountShadow"
+		"fieldName"				"ItemEffectMeterCanteenShadow"
 		
 		"xpos"					"-1"
 		"ypos"					"-1"
