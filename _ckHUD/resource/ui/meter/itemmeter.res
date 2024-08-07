@@ -47,6 +47,8 @@
 		"visible"				"1"
 		"enabled"				"0"
 		
+		"disabledfgcolor2_override" "colorblack"
+
 		"textAlignment"				"center"
 		"font"					"hudfont8"
 	}
@@ -69,7 +71,7 @@
 		"dulltext"				"0"
 		"brighttext"			"0"
 		
-		"fgcolor_override"		"colorwhite"
+		"fgcolor_override"		"tanlightest" // if we eventually get this to be not hard coded
 		"bgcolor_override"		"meterbg"
 	}	
 

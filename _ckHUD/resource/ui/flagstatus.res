@@ -19,26 +19,39 @@
 	
 	"Briefcase"
 	{
-		"ypos"			"32"
-		"alpha"			"255"
+		"xpos"			"68"
+		"ypos"			"34"
+		
+		"wide"			"25"
+		"tall"			"25"	
 		
 		"if_mvm"
 		{
 			"ypos"			"21"
-			"alpha"			"255"
+			"wide"			"38"
+			"tall"			"38"
 		}	
 	}
 	
 	"StatusIcon"
 	{
-		"xpos"			"66"
-		"ypos"          "31"
+		"xpos"			"67"
+		"ypos"          "32"
 
 //		"alpha"			"100"
 
+		"wide"			"29"
+		"tall"			"29"
+		
 		"if_mvm"
 		{
-			"xpos"		"75"
+			"xpos"			"75"
+			"ypos"			"26"
+			"zpos"			"3"
+			
+			"wide"			"30"
+			"tall"			"30"
+			
 			"visible"	"0"
 		}
 	}

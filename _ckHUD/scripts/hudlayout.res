@@ -270,11 +270,17 @@
 	{
 		"ypos"	 "25"
 		
-		"TextFont"		"hudfont8"
 		"MaxDeathNotices" "4"
-
-		"TeamBlue"		"colorblu"
-		"TeamRed"		"colorred"
+		"IconScale"	  "0.35"
+		"LineHeight"	  "14"
+		"LineSpacing"	  "0"
+		"CornerRadius"	  "2"
+		"RightJustify"	  "1"	// If 1, draw notices from the right
+		
+		"TextFont"		"hudfont10sec"
+		
+		"TeamBlue"		"colorpanelblueopaque"
+		"TeamRed"		"colorpanelredopaque"
 		"IconColor"		"colorwhite"
 		"LocalPlayerColor"	"colorblack"
 

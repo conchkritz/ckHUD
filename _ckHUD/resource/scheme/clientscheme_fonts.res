@@ -279,6 +279,16 @@ Scheme
 				"dropshadow" 	"1"
 			}
 		}
+		"hudfont16shadow"
+		{
+			"1"
+			{
+				"name" "TF2 Build"
+				"tall" "16"
+				"antialias" "1"
+				"dropshadow" 	"1"
+			}
+		}
 		"hudfont24shadow"
 		{
 			"1"

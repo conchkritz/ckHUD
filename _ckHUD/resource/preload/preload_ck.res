@@ -619,7 +619,7 @@
 		"enabled"		"1"
 		"image"			"../hud/death_panel_red_bg" // 		"image"			"../vgui/replay/thumbnails/hud/health_cross_overheal"
 	}
-	"health_cross_overheal"
+	"health_cross_overheal" // objectives_flagpanel_carried_blue.vtf
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"BTCross"
@@ -628,5 +628,33 @@
 		"enabled"		"1"
 		"image"			"../vgui/replay/thumbnails/hud/health_cross_overheal"
 
+	}
+	
+	"objectives_flagpanel_carried_blue"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"BTCross"
+		"xpos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../hud/objectives_flagpanel_carried_blue"
+	}	
+	"objectives_flagpanel_carried_red"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"BTCross"
+		"xpos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../hud/objectives_flagpanel_carried_red"
+	}
+	"icon_obj_timer"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"BTCross"
+		"xpos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../sprites/obj_icons/icon_obj_timer"
 	}
 }

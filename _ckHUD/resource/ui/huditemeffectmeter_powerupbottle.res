@@ -77,13 +77,36 @@
 	"ItemEffectMeterCount"
 	{
 		"xpos"					"13"
-		"ypos"					"5"
+		"ypos"					"4"
 		"zpos"					"2"
 		
 		"wide"					"40"
 		"tall"					"23"	
 		
-		"font"					"hudfont14shadow"
-		"fgcolor"				"colorwhite" // TanLightest
+		"font"					"hudfont16"
+		"fgcolor"				"tanlightest"
+	}
+	
+	"ItemEffectMeterCountShadow" // change wide for more shadow
+	{
+		"ControlName"			"CExLabel"
+		"fieldName"				"ItemEffectMeterCountShadow"
+		
+		"xpos"					"-1"
+		"ypos"					"-1"
+		"zpos"					"1"
+		
+		"wide"					"41"
+		"tall"					"24"	
+		
+		"visible"				"1"
+		"enabled"				"1"
+		
+		"labelText"				"%progresscount%"
+		"textAlignment"			"north"
+		"font"					"hudfont16"
+		"fgcolor_override"		"colorblack"
+		
+		"pin_to_sibling"		"ItemEffectMeterCount"
 	}
 }

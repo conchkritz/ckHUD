@@ -5,8 +5,8 @@
 		"fieldName"		"HudItemEffectMeter"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"cs1.3"	[$WIN32]
-		"ypos"			"c80"	[$WIN32]
+		"xpos"			"cs1.3"
+		"ypos"			"c76"
 		"wide"			"150"
 		"tall"			"50"
 	}
@@ -29,7 +29,7 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterLabel"
-		"xpos"					"-5"
+		"xpos"					"-4"
 		"ypos"					"30"
 		"zpos"					"2"
 		"wide"					"100"
@@ -37,14 +37,15 @@
 		"autoResize"			"1"
 		"pinCorner"				"2"
 		"visible"				"1"
-		"enabled"				"1"
+		"enabled"				"0"
 		"tabPosition"			"0"
 		"labelText"				"#TF_Ball"
 		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"0"
 		"font"					"hudfont10shadow"
-		"fgcolor_override"		"colorwhite"
+		
+		"disabledfgcolor2_override" "tanlightest"
 	}
 	
 	"ItemEffectMeter"
@@ -52,7 +53,7 @@
 		"ControlName"			"ContinuousProgressBar"
 		"fieldName"				"ItemEffectMeter"
 		"font"					"Default"
-		"xpos"					"999999"
+		"xpos"					"9999"
 		"ypos"					"23"
 		"zpos"					"2"
 		"wide"					"40"
@@ -70,7 +71,7 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterCount"
-		"xpos"					"-30"
+		"xpos"					"-29"
 		"ypos"					"15"
 		"zpos"					"2"
 		"wide"					"40"
@@ -81,7 +82,7 @@
 		"textAlignment"			"center"
 		"font"					"hudfont20"
 		"pin_to_sibling"		"ItemEffectMeterLabel"
-		"fgcolor_override"		"colorwhite"
+		"fgcolor_override"		"tanlightest"
 	}
 	
 	"ItemEffectMeterCountShadow"

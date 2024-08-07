@@ -1310,8 +1310,8 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"versionlabel"
-		"xpos" "rs1"
-		"ypos" "rs0.7"
+		"xpos" "rs1.2"
+		"ypos" "rs0.8"
 		"zpos"			"1"
 		"wide"			"100"
 		"tall"			"25"
@@ -1319,7 +1319,7 @@
 		"font"			"hudfont12"
 		"textAlignment"	"east"
 		
-		"labelText" 	"ckHUD 0.5-pre3"
+		"labelText" 	"ckHUD 0.5"
 		
 		"wide_minmode"			"145"
 		"labelText_minmode" 	"pls turn off minmode"
@@ -1328,9 +1328,8 @@
 		"brighttext"	"0"
 		"default"		"1"
 		"paintbackground" "0"
-		"sound_depressed"	""
+		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"vo/engineer_activatecharge02.mp3"
-		"sound_released_minmode"	"UI/tts.wav"
 
 		"defaultFgColor_override" "255 255 255 5"
 		"armedFgColor_override" "255 255 255 15"
@@ -1339,6 +1338,41 @@
 		"defaultFgColor_override_minmode" "255 255 255 255"
 		"armedFgColor_override_minmode" "255 255 255 255"
 		"depressedFgColor_override_minmode" "255 255 255 255"
+	}	
+	
+	"ckgibus"
+	{
+		"ControlName"	"CExImageButton"
+		"fieldName"		"ckgibus"
+		"xpos" "rs1.2"
+		"ypos" "rs1"
+		"zpos"			"1"
+		"wide"			"20"
+		"tall"			"20"
+		"paintbackground" "0"
+		
+		"labelText" 	" "
+		
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"vo/halloween_boss/knight_alert.mp3"
+		
+		"image_drawcolor"	"255 255 255 15"
+		"image_armedcolor"	"255 255 255 255"
+		
+		"SubImage"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"SubImage"
+			"xpos"			"3"
+			"ypos"			"2"
+			"zpos"			"1"
+			"wide"			"20"
+			"tall"			"20"
+			"visible"		"1"
+			"enabled"		"1"
+			"image"			"../vgui/replay/thumbnails/ckgibus"
+			"scaleImage"	"1"
+		}
 	}	
 	
 	"BackToReplaysButton"
