@@ -1,13 +1,15 @@
 # ckHUD
 
-![Main Menu Version 0.5-prerelease](https://github.com/user-attachments/assets/e0debbde-19bd-4ce1-aeba-f36f8570adc3)
+![Main Menu Version 0.5](https://github.com/user-attachments/assets/54018793-aa37-4034-80f2-61d22180e90d)
 
 A TF2 flavored hud that tries to remove the white borders and keep the rounded corners.
+Heavily inspired (and steals things) from e.v.e HUD.
 
 [**Imgur Album**](https://imgur.com/a/oX2zvhA)
 
 ## Compatibility
-Cuurently only being tested on 16:9 1080p. If you have issues, best method of contact is discord, which is `conchkritz`
+Cuurently only being tested on 16:9 1080p. 
+If you have issues, best method of contact is discord, which is `conchkritz`. I will also try to respond to steam messages.
 
 | OS  | Status |
 | ------------- | ------------- |
@@ -19,7 +21,7 @@ Cuurently only being tested on 16:9 1080p. If you have issues, best method of co
 | ------------- | ------------- |
 | 16:9  | Supported  |
 | 4:3  | Functions but clipping issues |
-| 16:10  | Untested  |
+| Anything Else  | Untested  |
 
 | Language  | Status |
 | ------------- | ------------- |
@@ -30,8 +32,9 @@ Cuurently only being tested on 16:9 1080p. If you have issues, best method of co
 * [e.v.e HUD](https://gamebanana.com/mods/26852)
   * Spectator Freezecam
   * Class Selection Menu
-  * Backpack
-  * Disguise Menu
+  * Team Selection Menu Base
+  * Backpack Base
+  * Disguise Menu Base
   * Meter Inspiration
 
 * [Isaac HUD](https://github.com/Xeletron/Isaac-Hud)
@@ -43,17 +46,17 @@ Cuurently only being tested on 16:9 1080p. If you have issues, best method of co
 * [PeachHUD](https://github.com/PapaPeach/PeachHUD)
   * Spectator Tournament
   
-* [BudHud](https://github.com/CriticalFlaw/flawhud)
-  * Part Of Tournament Spectator
+* [BudHUD](https://github.com/CriticalFlaw/flawhud)
+  * Part Of Spectator Tournament
   * TargetID
   
-* [No White Borders Hud](https://gamebanana.com/mods/294682)
-  * 99% of the Materials Folder + Preload Files
+* [No White Borders HUD](https://gamebanana.com/mods/294682)
+  * Base For Materials Folder
     
-* [Anti-Bot Votehud](https://github.com/andy013/votehud_custom_font)
+* [Anti-Bot Votehud](https://github.com/andy013/votehud_custom_font) (might delete soon)
 
 * [Extended TF2 Fonts](https://github.com/jakadak/TF2-extended-fonts)  
  
-* [High Res Class Select Images](https://www.teamfortress.tv/52291/high-res-class-select-images)
+* [High Res. Class Select Images](https://www.teamfortress.tv/52291/high-res-class-select-images)
 
 * [HUDS.TF Discord](https://discord.com/invite/pc9ekye) 
