@@ -130,10 +130,10 @@
 		"tall"			"32"
 	}	
 	
-    "AmmoKSPin"
+    "AmmoPin"
     {
         "ControlName"                                               "Label"
-        "fieldName"                                                 "AmmoKSPin"
+        "fieldName"                                                 "AmmoPin"
         "xpos"                                                      "51"
         "ypos"                                                      "19"
         "zpos"                                                      "0"
@@ -143,10 +143,24 @@
         "enabled"                                                   "1"
         "bgcolor_override"                                          "0 0 0 0"
     }
-
+	
+    "StreakPin"
+    {
+        "ControlName"                                               "Label"
+        "fieldName"                                                 "StreakPin"
+        "xpos"                                                      "110" // this is wip until if find someone with a kilstreak weapon
+        "ypos"                                                      "18"
+        "zpos"                                                      "0"
+        "wide"                                                      "100"
+        "tall"                                                      "0"
+        "visible"                                                   "1"
+        "enabled"                                                   "1"
+        "bgcolor_override"                                          "0 0 0 0"
+    }
+	
     "AmmoIcon"
     {
-        "pin_to_sibling"                                            "AmmoKSPin"
+        "pin_to_sibling"                                            "AmmoPin"
         "pin_corner_to_sibling"                                     "PIN_TOPLEFT"
         "pin_to_sibling_corner"                                     "0"
 
@@ -158,7 +172,7 @@
 
     "KillstreakIcon"
     {
-        "pin_to_sibling"                                            "AmmoKSPin"
+        "pin_to_sibling"                                            "StreakPin"
         "pin_corner_to_sibling"                                     "PIN_TOPLEFT"
         "pin_to_sibling_corner"                                     "0"
 
