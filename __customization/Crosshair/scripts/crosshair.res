@@ -15,8 +15,8 @@
 		"labelText"			"C" // changes to what style you want
 		"font"				"xhairfont" // inside '_ckhud/resource/scheme/clientscheme_fonts', then ctrl+f xhairfont
 		
-		"xpos"				"cs-0.5000001" // changes these if the crosshair/hitmarker is off (very sensitive)
-		"ypos"				"cs-0.49999" // cs-0.5 standard, cs-0.4999 default
+		"xpos"				"cs-0.5"
+		"ypos"				"cs-0.5"
 		
 		"fgcolor" 			"0 255 0 255" // colors are rgba, red green blue alpha (transparency)
 	}
