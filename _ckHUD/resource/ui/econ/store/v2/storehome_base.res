@@ -33,7 +33,7 @@
 	{
 		"ButtonSettings"
 		{
-			"font"			"hudfont14"
+			"font"			"hudfont12"
 			
 			"fgcolor"	"colorwhite"
 			"defaultFgColor_override" "colorwhite"
@@ -61,7 +61,7 @@
 		"font"			"HudFontSmallBold"
 		"labelText"		"<"
 		"textAlignment"	"center"
-		"xpos"			"c135"
+		"xpos"			"c136"
 		"ypos"			"253"
 		"zpos"			"3"
 		"wide"			"40"
@@ -75,7 +75,6 @@
 	
 	"CurPageLabel"
 	{
-
 		"xpos"			"c160"
 		"ypos"			"253"
 		"zpos"			"5"

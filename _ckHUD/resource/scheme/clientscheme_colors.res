@@ -7,14 +7,20 @@ Scheme
 		//---------------------------------------------
 	
 		// GENERAL
-		"colorwhite"			"235 226 202 255"
-		"colordarkwhite"		"117 107 94 255" // change all of these to tandarkold
+		"colorwhite"			"235 226 202 255" // tanlight clone because hud used to be all pure white, keep for customization reasons
+		"TanLightest"				"234 226 216 255"
 		"colorblack"			"46 43 42 255"
 		"colortransparentgray"	"0 0 0 100"
+		
+		// panel colors, ripped directly from color panel photoshop files
+		"colorpanelbrownopaque"		"51 48 46 255" // 51 48 46 255
+		"colorpanelblueopaque"		"100 121 138 255" // 79 117 143 255
+		"colorpanelredopaque"		"163 61 62 255" // 189 58 60 255
 
-		// TEAMS // change to color panel values
-		"colorred"				"184 56 59 255" // team spirit
-		"colorblu"				"88 133 162 255" // team spirit
+		"colorpanelbrown"		"51 48 46 200"
+		"colorpanelblue"		"100 121 138 200"
+		"colorpanelred"		"163 61 62 200"
+		
 		"colordarkred"			"128 48 32 255" // value of teamwork
 		"colordarkblu"			"40 57 77 255" // an air of debonair
 		
@@ -25,6 +31,7 @@ Scheme
 		
 		"hurt"					"200 45 45 255"	// low hp
 		"hurtdark"				"100 45 45 255"	// low hp (fades into annd back to low)
+		
 		"hurtbg"				"200 0 0 100" // overheal spectatorguihealth
 		
 		"healthshadow"			"46 43 42 255" // eve hud?
@@ -95,22 +102,8 @@ Scheme
 		"no"					"0 0 0 0"
 		"disconnectred"			"192 28 0 255"
 		"disconnectreddark"		"125 28 0 255"
-		"TanDarkOld"			"117 107 94 255" // replaces tandark in clientscheme_settings
-		"TanLightOld"			"235 226 202 255"
-
-		// panel colors, ripped directly from color panel vtfs
-		"colorpanelbrownopaque"		"51 48 46 255" // 51 48 46 255
-		"colorpanelblueopaque"		"100 121 138 255" // 79 117 143 255
-		"colorpanelredopaque"		"163 61 62 255" // 189 58 60 255
-
-		// these i guess the alpha value
-		"colorpanelbrown"		"51 48 46 225"
-		"colorpanelblue"		"79 117 143 200"
-		"colorpanelred"		"189 58 60 200"
-
-
-		"TanLightest"				"234 226 216 255" // supposed to be used for killstreak, will change soon
-
+		"TanDarkOld"			"117 107 94 255" // replaces tandark in clientscheme_settings, literally only for the advanced settings page
+		
 		//---------------------------------------------
 		// MODDED DEFAULT COLORS
 		//---------------------------------------------
