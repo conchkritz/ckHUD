@@ -1,5 +1,10 @@
 "LightmappedGeneric"
 {
-	"$basetexture" "vgui/replay/thumbnails/bungus"
+	"$basetexture" "vgui/replay/thumbnails/bungus" // in honor of the first guy to use my hud who wasnt me
 	"$translucent" 1
+	"$alpha" 1
+	"$vertexalpha" "1"
+	"$ignorez"     "1"
+	"$no_fullbright" "1"	
+	"$vertextcolor" "1"
 }
