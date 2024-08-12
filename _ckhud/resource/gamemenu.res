@@ -48,7 +48,6 @@
 		"subimage" "icon_resume"
 		"tooltip" "hud_reloadscheme"
 	}
-<<<<<<< HEAD
 	
 	// vote
 	"ReportPlayerButton"
@@ -59,6 +58,4 @@
 		"subimage"		"../vgui/replay/thumbnails/icons/glyph_report_kleen"
 		"tooltip"		"#MMenu_ReportPlayer"
 	}
-=======
->>>>>>> parent of b41ae75 (Revert "hud cleanup + adv. setting tooltip fix")
 }
