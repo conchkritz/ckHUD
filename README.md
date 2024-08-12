@@ -1,3 +1,4 @@
+## i might have broke the hud so uhhh look out for bugs
 
 # ![shortlogo](https://github.com/user-attachments/assets/5d63fd3e-a287-40a9-8a59-1798b2e4888e)
 **A TF2 flavored hud that tries to remove the white borders and keep the rounded corners.**
