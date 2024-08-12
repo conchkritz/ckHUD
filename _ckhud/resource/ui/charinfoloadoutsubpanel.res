@@ -112,7 +112,7 @@
 		"paintbackground"							"0"
 		
 		"defaultFgColor_override"					"colorwhite"
-		"armedFgColor_override" 					"tandarkold"
+		"armedFgColor_override" 					"colordarkwhite"
 		"depressedFgColor_override" 				"colorwhite"
 		
 		"pin_to_sibling" 							"CustomSoldier"
@@ -150,7 +150,7 @@
 		"paintbackground"							"0"
 		
 		"defaultFgColor_override"					"colorwhite"
-		"armedFgColor_override" 					"tandarkold"
+		"armedFgColor_override" 					"colordarkwhite"
 		"depressedFgColor_override" 				"colorwhite"
 		
 		"pin_to_sibling" 							"CustomPyro"
@@ -188,7 +188,7 @@
 		"paintbackground"							"0"
 		
 		"defaultFgColor_override"					"colorwhite"
-		"armedFgColor_override" 					"tandarkold"
+		"armedFgColor_override" 					"colordarkwhite"
 		"depressedFgColor_override" 				"colorwhite"
 		
 		"pin_to_sibling" 							"CustomDemoman"
@@ -226,7 +226,7 @@
 		"paintbackground"							"0"
 		
 		"defaultFgColor_override"					"colorwhite"
-		"armedFgColor_override" 					"tandarkold"
+		"armedFgColor_override" 					"colordarkwhite"
 		"depressedFgColor_override" 				"colorwhite"
 
 		"pin_to_sibling" 							"CustomHeavy"
@@ -266,7 +266,7 @@
 		"paintbackground"							"0"
 		
 		"defaultFgColor_override"					"colorwhite"
-		"armedFgColor_override" 					"tandarkold"
+		"armedFgColor_override" 					"colordarkwhite"
 		"depressedFgColor_override" 				"colorwhite"
 		
 		"sound_depressed"	"UI/buttonclick.wav"
@@ -300,7 +300,7 @@
 		"paintbackground"							"0"
 		
 		"defaultFgColor_override"					"colorwhite"
-		"armedFgColor_override" 					"tandarkold"
+		"armedFgColor_override" 					"colordarkwhite"
 		"depressedFgColor_override" 				"colorwhite"
 		
 		"sound_depressed"	"UI/buttonclick.wav"
@@ -338,7 +338,7 @@
 		"paintbackground"							"0"
 		
 		"defaultFgColor_override"					"colorwhite"
-		"armedFgColor_override" 					"tandarkold"
+		"armedFgColor_override" 					"colordarkwhite"
 		"depressedFgColor_override" 				"colorwhite"
 		
 		"sound_depressed"	"UI/buttonclick.wav"
@@ -376,7 +376,7 @@
 		"paintbackground"							"0"
 		
 		"defaultFgColor_override"					"colorwhite"
-		"armedFgColor_override" 					"tandarkold"
+		"armedFgColor_override" 					"colordarkwhite"
 		"depressedFgColor_override" 				"colorwhite"
 		
 		"sound_depressed"	"UI/buttonclick.wav"
@@ -414,7 +414,7 @@
 		"paintbackground"							"0"
 		
 		"defaultFgColor_override"					"colorwhite"
-		"armedFgColor_override" 					"tandarkold"
+		"armedFgColor_override" 					"colordarkwhite"
 		"depressedFgColor_override" 				"colorwhite"
 		
 		"sound_depressed"	"UI/buttonclick.wav"

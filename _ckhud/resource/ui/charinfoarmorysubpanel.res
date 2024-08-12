@@ -208,11 +208,11 @@
 		"brighttext"	"0"
 		
 		"defaultBgColor_override"	"tandarker"
-		"defaultFgColor_override"	"tandarkold"
+		"defaultFgColor_override"	"colordarkwhite"
 		"armedBgColor_override"	"tandarker"
-		"armedFgColor_override"	"tandarkold"
+		"armedFgColor_override"	"colordarkwhite"
 		"depressedBgColor_override"	"tandarker"
-		"depressedFgColor_override"	"tandarkold"
+		"depressedFgColor_override"	"colordarkwhite"
 	}		
 	
 	"StoreButton"

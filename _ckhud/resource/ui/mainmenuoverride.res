@@ -820,8 +820,8 @@
         "xpos"          "0"
         "ypos"          "-81"
         "zpos"          "11"
-        "wide"          "250"
-        "tall"          "24"
+        "wide"          "260"
+        "tall"          "25"
         "visible"       "1"
         "PaintBackgroundType"   "0"
         

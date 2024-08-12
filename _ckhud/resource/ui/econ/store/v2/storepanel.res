@@ -72,7 +72,7 @@
 			"textAlignment"				"north"
 			"font"						"hudfont14"
 			"selectedcolor"				"colorwhite"
-			"unselectedcolor"			"tandarkold"
+			"unselectedcolor"			"colordarkwhite"
 			"defaultBgColor_override"	"40 34 30 255"
 			"paintbackground"			"1"
 			"activeborder_override"		"TabborderInactive"
