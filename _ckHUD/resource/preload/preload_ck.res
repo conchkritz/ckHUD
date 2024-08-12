@@ -3,7 +3,7 @@
 	"blueprint_opaque" // color_panel_pipboy
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"blueprint_opaque"
+		"fieldName"		"BTCross"
 		"xpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
@@ -13,7 +13,7 @@
 	"blueprint"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"blueprint"
+		"fieldName"		"BTCross"
 		"xpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
@@ -23,7 +23,7 @@
 	"pipboy_opaque"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"pipboy_opaque"
+		"fieldName"		"BTCross"
 		"xpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
@@ -33,7 +33,7 @@
 	"pipboy"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"pipboy"
+		"fieldName"		"BTCross"
 		"xpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
@@ -42,7 +42,7 @@
 	"clock_suddendeath_mask"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"clock_suddendeath_mask"
+		"fieldName"		"BTCross"
 		"xpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
@@ -51,7 +51,7 @@
 	"clock_area_mask"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"clock_area_mask"
+		"fieldName"		"BTCross"
 		"xpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
@@ -61,7 +61,7 @@
 	"objectives_timepanel_blue_bg"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"objectives_timepanel_blue_bg"
+		"fieldName"		"BTCross"
 		"xpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
@@ -71,7 +71,7 @@
 	"objectives_timepanel_red_bg"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"objectives_timepanel_red_bg"
+		"fieldName"		"BTCross"
 		"xpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
@@ -81,7 +81,7 @@
 	"icon_obj_cap_blu"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"icon_obj_cap_blu"
+		"fieldName"		"BTCross"
 		"xpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
@@ -90,7 +90,7 @@
 	"icon_obj_cap_blu_up"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"icon_obj_cap_blu_up"
+		"fieldName"		"BTCross"
 		"xpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
@@ -99,7 +99,7 @@
 	"icon_obj_cap_red"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"icon_obj_cap_red"
+		"fieldName"		"BTCross"
 		"xpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
@@ -108,7 +108,7 @@
 	"icon_obj_cap_red_up"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"icon_obj_cap_red_up"
+		"fieldName"		"BTCross"
 		"xpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
@@ -117,17 +117,62 @@
 	"objectives_timepanel_suddendeath"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"objectives_timepanel_suddendeath"
+		"fieldName"		"BTCross"
 		"xpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/objectives_timepanel_suddendeath"
 	}
 	
+	"objectives_flagpanel_compass_blue"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"BTCross"
+		"xpos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../vgui/replay/thumbnails/hud/objectives_flagpanel_compass_blue"
+	}
+	"objectives_flagpanel_compass_grey"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"BTCross"
+		"xpos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../vgui/replay/thumbnails/hud/objectives_flagpanel_compass_grey"
+	}
+	"objectives_flagpanel_compass_grey_noarrow"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"BTCross"
+		"xpos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../vgui/replay/thumbnails/hud/objectives_flagpanel_compass_grey_noarrow"
+	}
+	"objectives_flagpanel_compass_mixed_noarrow"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"BTCross"
+		"xpos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../vgui/replay/thumbnails/hud/objectives_flagpanel_compass_mixed_noarrow"
+	}
+	"objectives_flagpanel_compass_red"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"BTCross"
+		"xpos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../vgui/replay/thumbnails/hud/objectives_flagpanel_compass_red"
+	}
 	"flagpanelbg"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"flagpanelbg"
+		"fieldName"		"BTCross"
 		"xpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
@@ -136,7 +181,7 @@
 	"flagpanelbg_transparent"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"flagpanelbg_transparent"
+		"fieldName"		"BTCross"
 		"xpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
@@ -145,7 +190,7 @@
 	"cart_home_square_blue_opaque"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"cart_home_square_blue_opaque"
+		"fieldName"		"BTCross"
 		"xpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
@@ -154,7 +199,7 @@
 	"cart_home_square_red_opaque"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"cart_home_square_red_opaque"
+		"fieldName"		"BTCross"
 		"xpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
@@ -163,7 +208,7 @@
 	"fatlineborder"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"fatlineborder"
+		"fieldName"		"BTCross"
 		"xpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
@@ -172,7 +217,7 @@
 	"fatlineborder_red"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"fatlineborder_red"
+		"fieldName"		"BTCross"
 		"xpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
@@ -181,7 +226,7 @@
 	"thinlineborder"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"thinlineborder"
+		"fieldName"		"BTCross"
 		"xpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
@@ -190,7 +235,7 @@
 	"icon_obj_stopwatch_blu"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"icon_obj_stopwatch_blu"
+		"fieldName"		"BTCross"
 		"xpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
@@ -199,7 +244,7 @@
 	"icon_obj_stopwatch_neutral"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"icon_obj_stopwatch_neutral"
+		"fieldName"		"BTCross"
 		"xpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
@@ -208,7 +253,7 @@
 	"icon_obj_stopwatch_red"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"icon_obj_stopwatch_red"
+		"fieldName"		"BTCross"
 		"xpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
@@ -217,7 +262,7 @@
 	"glyph_report_kleen"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"glyph_report_kleen"
+		"fieldName"		"BTCross"
 		"xpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
@@ -226,7 +271,7 @@
 	"buttonblu"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"glyph_report_kleen"
+		"fieldName"		"BTCross"
 		"xpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
@@ -235,7 +280,7 @@
 	"buttonred"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"buttonred"
+		"fieldName"		"BTCross"
 		"xpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
@@ -244,7 +289,7 @@
 	"objectives_corepanel_bg"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"objectives_corepanel_bg"
+		"fieldName"		"BTCross"
 		"xpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
@@ -253,7 +298,7 @@
 	"color_dark"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"color_dark"
+		"fieldName"		"BTCross"
 		"xpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
@@ -262,7 +307,7 @@
 	"color_dark_opaque_small"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"color_dark_opaque_small"
+		"fieldName"		"BTCross"
 		"xpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
@@ -271,7 +316,7 @@
 	"color_dark_small"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"color_dark_small"
+		"fieldName"		"BTCross"
 		"xpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
@@ -280,7 +325,7 @@
 	"color_panel_blu"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"color_panel_blu"
+		"fieldName"		"BTCross"
 		"xpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
@@ -289,7 +334,7 @@
 	"color_panel_blu_more_opaque"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"color_panel_blu_more_opaque"
+		"fieldName"		"BTCross"
 		"xpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
@@ -298,7 +343,7 @@
 	"color_panel_blu_opaque"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"color_panel_blu_opaque"
+		"fieldName"		"BTCross"
 		"xpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
@@ -307,7 +352,7 @@
 	"color_panel_brown"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"color_panel_brown"
+		"fieldName"		"BTCross"
 		"xpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
@@ -316,7 +361,7 @@
 	"color_panel_brown_opaque"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"color_panel_brown_opaque"
+		"fieldName"		"BTCross"
 		"xpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
@@ -325,7 +370,7 @@
 	"color_panel_browner"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"color_panel_browner"
+		"fieldName"		"BTCross"
 		"xpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
@@ -334,7 +379,7 @@
 	"color_panel_clear"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"color_panel_clear"
+		"fieldName"		"BTCross"
 		"xpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
@@ -343,7 +388,7 @@
 	"color_panel_red"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"color_panel_red"
+		"fieldName"		"BTCross"
 		"xpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
@@ -352,7 +397,7 @@
 	"color_panel_red_more_opaque"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"color_panel_red_more_opaque"
+		"fieldName"		"BTCross"
 		"xpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
@@ -361,7 +406,7 @@
 	"color_panel_red_opaque"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"color_panel_red_opaque"
+		"fieldName"		"BTCross"
 		"xpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
@@ -370,7 +415,7 @@
 	"gradient_black"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"gradient_black"
+		"fieldName"		"BTCross"
 		"xpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
@@ -379,7 +424,7 @@
 	"gradient_black_blue"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"gradient_black_blue"
+		"fieldName"		"BTCross"
 		"xpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
@@ -388,7 +433,7 @@
 	"gradient_black_solid"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"gradient_black_solid"
+		"fieldName"		"BTCross"
 		"xpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
@@ -397,7 +442,7 @@
 	"gradient_blue"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"gradient_blue"
+		"fieldName"		"BTCross"
 		"xpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
@@ -406,7 +451,7 @@
 	"gradient_blue_solid"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"gradient_blue_solid"
+		"fieldName"		"BTCross"
 		"xpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
@@ -415,7 +460,7 @@
 	"gradient_brown"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"gradient_brown"
+		"fieldName"		"BTCross"
 		"xpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
@@ -424,7 +469,7 @@
 	"gradient_empty"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"gradient_empty"
+		"fieldName"		"BTCross"
 		"xpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
@@ -433,7 +478,7 @@
 	"gradient_orange"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"gradient_orange"
+		"fieldName"		"BTCross"
 		"xpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
@@ -442,16 +487,16 @@
 	"gradient_purple"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"gradient_purple"
+		"fieldName"		"BTCross"
 		"xpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../vgui/replay/thumbnails/hud/gradient_purple"
 	}
-	"gradient_red"
+	"gradient_red" // hud_invasion_greenbg
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"gradient_red"
+		"fieldName"		"BTCross"
 		"xpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
@@ -460,7 +505,7 @@
 	"hud_invasion_greenbg"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"hud_invasion_greenbg"
+		"fieldName"		"BTCross"
 		"xpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
@@ -469,7 +514,7 @@
 	"progress_bar"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"progress_bar"
+		"fieldName"		"BTCross"
 		"xpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
@@ -478,7 +523,7 @@
 	"progress_bar_blu"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"progress_bar_blu"
+		"fieldName"		"BTCross"
 		"xpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
@@ -487,7 +532,7 @@
 	"progress_bar_nocap"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"progress_bar_nocap"
+		"fieldName"		"BTCross"
 		"xpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
@@ -496,7 +541,7 @@
 	"progress_bar_red"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"progress_bar_red"
+		"fieldName"		"BTCross"
 		"xpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
@@ -505,7 +550,7 @@
 	"progress_bar2"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"progress_bar2"
+		"fieldName"		"BTCross"
 		"xpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
@@ -514,7 +559,7 @@
 	"progress_bar_blu2"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"progress_bar_blu2"
+		"fieldName"		"BTCross"
 		"xpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
@@ -523,7 +568,7 @@
 	"progress_bar_nocap2"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"progress_bar_nocap2"
+		"fieldName"		"BTCross"
 		"xpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
@@ -532,7 +577,7 @@
 	"progress_bar_red2"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"progress_bar_red2"
+		"fieldName"		"BTCross"
 		"xpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
@@ -541,7 +586,7 @@
 	"eng_status_area_sentry_alrt"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"eng_status_area_sentry_alrt"
+		"fieldName"		"BTCross"
 		"xpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
@@ -550,7 +595,7 @@
 	"eng_status_area_tele_alrt"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"eng_status_area_tele_alrt"
+		"fieldName"		"BTCross"
 		"xpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
@@ -559,7 +604,7 @@
 	"death_panel_blue_bg"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"death_panel_blue_bg"
+		"fieldName"		"BTCross"
 		"xpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
@@ -568,26 +613,27 @@
 	"death_panel_red_bg"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"death_panel_red_bg"
+		"fieldName"		"BTCross"
 		"xpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../hud/death_panel_red_bg"
+		"image"			"../hud/death_panel_red_bg" // 		"image"			"../vgui/replay/thumbnails/hud/health_cross_overheal"
 	}
-	"health_cross_overheal"
+	"health_cross_overheal" // objectives_flagpanel_carried_blue.vtf
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"health_cross_overheal"
+		"fieldName"		"BTCross"
 		"xpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../vgui/replay/thumbnails/hud/health_cross_overheal"
 
 	}
+	
 	"objectives_flagpanel_carried_blue"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"objectives_flagpanel_carried_blue"
+		"fieldName"		"BTCross"
 		"xpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
@@ -596,7 +642,7 @@
 	"objectives_flagpanel_carried_red"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"objectives_flagpanel_carried_red"
+		"fieldName"		"BTCross"
 		"xpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
@@ -605,7 +651,7 @@
 	"icon_obj_timer"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"icon_obj_timer"
+		"fieldName"		"BTCross"
 		"xpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"

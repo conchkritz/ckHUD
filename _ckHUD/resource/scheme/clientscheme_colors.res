@@ -67,6 +67,7 @@ Scheme
 		"uberchargelabel2"		"235 226 202 255"
 		"ubercharge1"			"150 28 0 255" // uber 1
 		"ubercharge2"			"255 28 0 255" // uber 2 (fades into annd back to 1)
+		"ubershadow"			"46 43 42 255" // ONLY IN CUSTOMIZATIONS
 		
 		// COLORED METERS
 		"meter1"				"255 192 0 255"
@@ -80,12 +81,11 @@ Scheme
 		"meter3alt"				"160 160 160 255"
 		"meter4alt"				"190 190 190 255"
 		"meterbg"				"200 200 200 50" // used to be colortransparentgray but it was too dark
-		
 		"taunt"					"207 115 54 255" // unused? maybe from lion hud holdover??
 		
 		
 		// ENGINEER PDAS
-		"constructblue"			"54 48 122 255" // build
+		"constructblue"			"54 48 122 255" // build pda
 		"constructdarkblue"		"16 13 47 255" // built
 		"constructred"			"243 82 82 255" // not enough metal
 		
