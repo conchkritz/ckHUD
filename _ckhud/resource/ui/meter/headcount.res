@@ -119,5 +119,20 @@
 		"icon"			"ico_demolish"
 		"iconColor"		"255 255 255 255"
 	}
-
+	
+	"OtherIcons"
+	{
+		"ControlName"			"ImagePanel"
+		"fieldName"				"OtherIcons"
+		"xpos"					"30"
+		"ypos"					"10"
+		"zpos"					"-100"
+		"wide"					"30"
+		"tall"					"30"	
+		"visible"				"0"
+		"enabled"				"1"
+		"scaleImage"			"1"	
+		"image"					"ico_demolish"
+		"image_drawcolor"		"255 255 255 255"
+	}
 }
