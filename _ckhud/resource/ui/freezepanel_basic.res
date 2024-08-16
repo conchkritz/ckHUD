@@ -2,9 +2,8 @@
 {
 	"itempanel"
 	{
-		"model_wide"		"65"
-		"model_tall"		"40"
-		
+		"ypos"			"-15" // temporary
+
 		"itemmodelpanel"
 		{
 			"inventory_image_type"	"1"
@@ -12,15 +11,7 @@
 		
 		"ItemLabel"
 		{	
-			"xpos"			"5"
-			"ypos"			"2"
-			"zpos"			"10"
-			
-			"wide"			"240"
-			"tall"			"10"
-		
 			"font"			"hudfont10sec"
-			"textAlignment"	"west"
 		}
 	}		
 	
