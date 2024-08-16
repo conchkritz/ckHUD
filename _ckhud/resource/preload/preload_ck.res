@@ -666,4 +666,13 @@
 		"enabled"		"1"
 		"image"			"../vgui/replay/thumbnails/icons/heartgib"
 	}
+	"heavyskull"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"BTCross"
+		"xpos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../vgui/replay/thumbnails/icons/heavyskull"
+	}
 }
