@@ -20,9 +20,9 @@
 		"enabled"		"0"
 	}
 	
-	"ObjectiveStatusTimePanel"
+	"ObjectiveStatusTimePanel" // use match 0 settings
 	{
-		"ypos"				"-12"
+		"ypos"				"-10"
 		
 		"delta_item_start_y"	"40"
 		"delta_item_end_y"		"55"
@@ -32,7 +32,7 @@
 		if_match
 		{
 			"xpos"				"c-55"
-			"ypos"				"-12"
+			"ypos"				"-10"
 			"wide"				"110"
 			"delta_item_x"			"22"
 			"delta_item_start_y"	"40"
@@ -58,7 +58,7 @@
 	
 	"TeamStatus"
 	{
-		"ypos"			"4"
+		"ypos"			"5"
 
 		"max_size"									"20"
 
