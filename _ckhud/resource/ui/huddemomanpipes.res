@@ -30,12 +30,6 @@
 		"bgcolor_override"		"meterbg"
 	}	
 	
-	"ItemEffectMeterLabel"
-	{
-		"visible"				"1"
-		"enabled"				"1"
-	}
-	
 	"PipesPresentPanel"
 	{
 		"xpos"			"7"
