@@ -236,6 +236,15 @@ Scheme
 				"antialias" "1"
 			}
 		}
+		"hudfont47"
+		{
+			"1"
+			{
+				"name" "TF2 Build"
+				"tall" "47"
+				"antialias" "1"
+			}
+		}
 		"hudfont48"
 		{
 			"1"

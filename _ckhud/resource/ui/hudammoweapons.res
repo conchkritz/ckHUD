@@ -27,7 +27,7 @@
 
 		"textAlignment"	"center"	
 		
-		"font"			"hudfont48"
+		"font"			"hudfont47"
 		"fgcolor"		"ammoclip"
 
 	}		
@@ -43,7 +43,7 @@
 		
 		"textAlignment"	"center"
 
-		"font"			"hudfont48"
+		"font"			"hudfont47"
 		"fgcolor"		"ammoshadowclip"
 		
 		"pin_to_sibling" "AmmoInClip"
@@ -94,7 +94,7 @@
 		
 		"textAlignment"	"center"		
 		
-		"font"			"hudfont48"
+		"font"			"hudfont47"
 		"fgcolor"		"ammoclip"
 		
 		"pin_to_sibling" "AmmoInClip"
@@ -112,7 +112,7 @@
 		
 		"textAlignment"	"center"		
 		
-		"font"			"hudfont48"
+		"font"			"hudfont47"
 		"fgcolor"		"ammoshadowclip"
 		
 		"pin_to_sibling" "AmmoNoClip"

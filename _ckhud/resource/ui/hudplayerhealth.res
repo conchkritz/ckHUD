@@ -71,7 +71,7 @@
 		"tall"			"50"
 		
 		"textAlignment"	"center"	
-		"font"			"hudfont48"
+		"font"			"hudfont47"
 		"fgcolor"		"health"
 	}
 	
@@ -90,7 +90,7 @@
 		"enabled"		"1"
 		"labeltext"		"%health%"
 		"textAlignment"	"center"	
-		"font"			"hudfont48"
+		"font"			"hudfont47"
 		"fgcolor"		"healthshadow"
 		
 		"pin_to_sibling"	"PlayerStatusHealthValue"
