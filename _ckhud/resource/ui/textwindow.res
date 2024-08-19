@@ -2,7 +2,7 @@
 {
 	"TFMessageTitle"
 	{
-		"xpos"			"c-183"
+		"xpos"			"9999"
 		"ypos"			"85"
 		"zpos"			"3"
 		
