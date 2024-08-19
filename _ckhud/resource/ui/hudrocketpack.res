@@ -4,7 +4,7 @@
 	{
 		"xpos"			"c-61"
 		"wide"			"f0"
-		"tall"			"50"
+		"tall"			"60" // normally 50
 	}
 
 	"ItemEffectMeterBG"
@@ -17,10 +17,12 @@
 	
 	"ItemEffectIcon"
 	{
-		"xpos"			"9999"
+		"xpos"			"50"
+		"ypos"			"30"
+		"zpos"			"2"
 		
-		"visible"		"0"
-		"enabled"		"0"
+		"wide"			"25"
+		"tall"			"25"
 	}
 	
 	"ItemEffectMeterDarker"
