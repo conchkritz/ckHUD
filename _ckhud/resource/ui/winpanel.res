@@ -214,37 +214,24 @@
 
 	"WinPanelBGBorder"
 	{
-		"ControlName"		"EditablePanel"
-		"fieldName"		"WinPanelBGBorder"
 		"xpos"			"cs-0.5"
 		"ypos"			"70"
 		"zpos"			"0"
+		
 		"wide"			"p0.82"
 		"tall"			"147"
-		"visible"		"1"
-		"enabled"		"1"
-		"scaleImage"		"1"	
-		"border"		"TFFatLineBorderBlueBG"
-		"proportionaltoparent"	"1"
 	}
+	
 	"WinningTeamLabel"
 	{	
-		"ControlName"		"CExLabel"
-		"fieldName"		"WinningTeamLabel"
 		"font"			"ScoreboardTeamName"
+		
 		"xpos"			"15"
 		"ypos"			"72"
 		"zpos"			"1"
+		
 		"wide"			"268"
 		"tall"			"24"
-		"autoResize"		"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"labelText"		"%WinningTeamLabel%"
-		"textAlignment"		"Center"
-		"dulltext"		"0"
-		"brighttext"		"0"
 	}
 	"WinningTeamLabelDropshadow"
 	{	
@@ -268,22 +255,14 @@
 	}
 	"AdvancingTeamLabel"
 	{	
-		"ControlName"		"CExLabel"
-		"fieldName"		"AdvancingTeamLabel"
 		"font"			"ScoreboardMedium"
+		
 		"xpos"			"15"
 		"ypos"			"72"
 		"zpos"			"1"
+		
 		"wide"			"268"
 		"tall"			"24"
-		"autoResize"		"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"labelText"		"%AdvancingTeamLabel%"
-		"textAlignment"		"Center"
-		"dulltext"		"0"
-		"brighttext"		"0"
 	}
 	"AdvancingTeamLabelDropshadow"
 	{	
@@ -307,41 +286,26 @@
 	}
 	"WinReasonLabel"
 	{	
-		"ControlName"		"CExLabel"
-		"fieldName"		"WinReasonLabel"
 		"font"			"ScoreboardVerySmall"
+		
 		"xpos"			"15"
 		"ypos"			"82"
 		"zpos"			"1"
+		
 		"wide"			"268"
 		"tall"			"30"
-		"autoResize"		"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"labelText"		"%WinReasonLabel%"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"centerwrap"	"1"
 	}
+	
 	"DetailsLabel"
 	{	
-		"ControlName"		"CExLabel"
-		"fieldName"		"DetailsLabel"
 		"font"			"ScoreboardVerySmall"
+		
 		"xpos"			"15"
 		"ypos"			"94"
 		"zpos"			"1"
+		
 		"wide"			"268"
 		"tall"			"20"
-		"autoResize"		"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"labelText"		"%DetailsLabel%"
-		"textAlignment"		"Center"
-		"dulltext"		"0"
-		"brighttext"		"0"
 	}
 	"ShadedBar"
 	{
@@ -357,64 +321,47 @@
 	}
 	"TopPlayersLabel"
 	{	
-		"ControlName"		"CExLabel"
-		"fieldName"		"TopPlayerLabel"
 		"font"			"ScoreboardVerySmall"
+		
 		"xpos"			"41"
 		"ypos"			"105"
 		"zpos"			"3"
+		
 		"wide"			"200"
 		"tall"			"20"
-		"autoResize"		"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"labelText"		"%TopPlayersLabel%"
+		
 		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
 	}
 	"PointsThisRoundLabel"
 	{	
-		"ControlName"		"CExLabel"
-		"fieldName"		"PointsThisRoundLabel"
 		"font"			"ScoreboardVerySmall"
+		
 		"xpos"			"120"
 		"ypos"			"105"
 		"zpos"			"3"
+		
 		"wide"			"140"
 		"tall"			"20"
-		"autoResize"		"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"labelText"		"#Winpanel_PointsThisRound"
+		
 		"textAlignment"		"east"
-		"dulltext"		"0"
-		"brighttext"		"0"
 	}
 	"HorizontalLine"
 	{
-		"ControlName"		"ImagePanel"
-		"fieldName"		"HorizontalLine"
 		"xpos"			"41"
 		"ypos"			"118"
 		"zpos"			"3"
+		
 		"wide"			"219"
 		"tall"			"1"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"	"0"	
+		
 		"fillcolor"		"colorwhite"
-		"PaintBackgroundType"	"0"
 	}
+	
 	"Player1Badge"
 	{
 		"ControlName"	"CTFBadgePanel"
 		"fieldName"		"Player1Badge"
-		"xpos"			"18"
+		"xpos"			"20"
 		"ypos"			"116"
 		"zpos"			"3"
 		"wide"			"25"
@@ -516,7 +463,7 @@
 	{
 		"ControlName"	"CTFBadgePanel"
 		"fieldName"		"Player2Badge"
-		"xpos"			"18"
+		"xpos"			"20"
 		"ypos"			"137"
 		"zpos"			"3"
 		"wide"			"25"
@@ -599,7 +546,7 @@
 	{
 		"ControlName"	"CTFBadgePanel"
 		"fieldName"		"Player3Badge"
-		"xpos"			"18"
+		"xpos"			"20"
 		"ypos"			"157"
 		"zpos"			"3"
 		"wide"			"25"
@@ -739,7 +686,7 @@
 	{
 		"ControlName"	"CTFBadgePanel"
 		"fieldName"		"KillStreakPlayer1Badge"
-		"xpos"			"18"
+		"xpos"			"20" // needs to be like 19.5 but idk
 		"ypos"			"186"
 		"zpos"			"3"
 		"wide"			"25"
