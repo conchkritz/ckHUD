@@ -1,5 +1,23 @@
 "Resource/HudLayout.res"
 {
+	CMainTargetID
+	{
+		"ypos"		"268" // 315
+		"zpos"		"1" 
+	}
+	
+	CSpectatorTargetID
+	{
+		"ypos"		"299" // 342
+		"zpos"		"1"
+	}
+	
+	CSecondaryTargetID
+	{
+		"ypos"		"295" // 342
+		"zpos"		"1"
+	}
+	
 	HudPlayerStatus
 	{
 		"xpos"	"c-370" // c-240
@@ -66,24 +84,6 @@
 		
 		"wide"					"f0"
 		"tall"  				"f0"
-	}
-	
-	CMainTargetID
-	{
-		"ypos"		"268" // 315
-		"zpos"		"-3" 
-	}
-	
-	CSpectatorTargetID
-	{
-		"ypos"		"299" // 342
-		"zpos"		"-3"
-	}
-	
-	CSecondaryTargetID
-	{
-		"ypos"		"295" // 342
-		"zpos"		"-3"
 	}
 	
 	BuildingStatus_Spy

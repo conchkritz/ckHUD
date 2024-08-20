@@ -65,7 +65,7 @@
 	{
 		"xpos"			"134"
 		"ypos"			"37"
-		"zpos"			"5"
+		"zpos"			"7"
 		
 		"wide"			"150"
 		"tall"			"50"
@@ -81,7 +81,7 @@
 		"fieldName"		"PlayerStatusHealthValueShadow"
 		"xpos"			"-3"
 		"ypos"			"-3"	[$WIN32]
-		"zpos"			"5"
+		"zpos"			"6"
 		
 		"wide"			"150"
 		"tall"			"50"

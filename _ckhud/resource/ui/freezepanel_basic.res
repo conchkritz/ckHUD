@@ -2,8 +2,6 @@
 {
 	"itempanel"
 	{
-		"ypos"			"-15" // temporary
-
 		"itemmodelpanel"
 		{
 			"inventory_image_type"	"1"

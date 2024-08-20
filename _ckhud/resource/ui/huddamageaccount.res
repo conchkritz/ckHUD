@@ -3,8 +3,8 @@
 	"CDamageAccountPanel"
 	{
 		"delta_lifetime"		"1.5"
-		"delta_item_font"		"hudfont20"
-		"delta_item_font_big"	"hudfont20"
+		"delta_item_font"		"damagenumber"
+		"delta_item_font_big"	"damagenumber"
 	}
 	
 	"DamageAccountLabel"
