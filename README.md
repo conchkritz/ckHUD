@@ -14,7 +14,7 @@ If you have issues, best method of contact is discord, which is `conchkritz`. I 
 | OS  | Status |
 | ------------- | ------------- |
 | Windows (11)  | Supported  |
-| Linux  | Untested (my linux install is bricked) |
+| Linux  | Supported (Don't forget to rename the ckHUD folder to lowercase!) |
 | Mac  | Can't Even Play Anymore |
 
 | Resolution  | Status |
